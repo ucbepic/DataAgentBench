@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "answer": "The top 5 most popular NPM packages based on GitHub stars (considering only their latest release versions) are:\n\n@dylanvann/svelte (version 3.25.4): 73,499 stars\n@dumc11/tailwindcss (version 0.4.0): 73,464 stars\n@dman777/shadow-dom-quill-temp (version 1.0.0): 42,407 stars\n@dothq/styled-components (version 1.0.0): 39,660 stars\n@dynasty/styled-components (version 3.2.1): 39,660 stars"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "answer": "The top 5 most popular NPM packages based on GitHub stars (considering only their latest release versions) are:\n\n@docly/web (version 0.1.371) — 89,398 stars\n@dylanvann/svelte (version 3.25.3) — 73,499 stars\n@dumc11/tailwindcss (version 0.4.0) — 73,464 stars\n@dynasty/styled-components (version 3.2.1) — 39,660 stars\n@dothq/styled-components (version 1.0.0) — 39,660 stars"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "answer": "The top 5 most popular NPM packages based on GitHub stars (considering only their latest release versions) are:\n\n@docly/web: 0.1.371\n@dylanvann/svelte: 3.25.3\n@dumc11/tailwindcss: 0.4.0\n@dynasty/styled-components: 3.2.1\n@dothq/styled-components: 1.0.0"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "answer": "The top 5 most popular NPM packages based on GitHub stars (considering only the latest release version for each) are:\n@dylanvann/svelte (version 3.25.4) — 73,499 stars\n@dumc11/tailwindcss (version 0.4.0) — 73,464 stars\n@dman777/shadow-dom-quill-temp (version 1.0.0) — 42,407 stars\n@dothq/styled-components (version 1.0.0) — 39,660 stars\n@dynasty/styled-components (version 3.2.1) — 39,660 stars"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "answer": "The top 5 most popular NPM packages based on GitHub stars (considering only their latest release versions) are:\n@dylanvann/svelte (version: 3.25.4, 73,499 stars)\n@dumc11/tailwindcss (version: 0.4.0, 73,464 stars)\n@dman777/shadow-dom-quill-temp (version: 1.0.0, 42,407 stars)\n@dothq/styled-components (version: 1.0.0, 39,660 stars)\n@dynasty/styled-components (version: 3.2.1, 39,660 stars)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "answer": "The 5 NPM projects with MIT license and marked as release that have the highest GitHub fork count are:\nmui-org/material-ui (30522 forks)\nsemantic-org/semantic-ui (4955 forks)\nreact-native-elements/react-native-elements (4623 forks)\nsveltejs/svelte (4091 forks)\ntailwindcss/tailwindcss (3848 forks)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "answer": "The 5 projects with the highest GitHub fork count among NPM packages with project license 'MIT' and marked as release are:\nmui-org/material-ui: 30522 forks\nsemantic-org/semantic-ui: 4955 forks\nreact-native-elements/react-native-elements: 4623 forks\nsveltejs/svelte: 4091 forks\ntailwindcss/tailwindcss: 3848 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "answer": "The 5 NPM projects with the highest GitHub fork count (with MIT license and marked as release) are mui-org/material-ui (30,522 forks), semantic-org/semantic-ui (4,955 forks), react-native-elements/react-native-elements (4,623 forks), sveltejs/svelte (4,091 forks), and tailwindcss/tailwindcss (3,848 forks)."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "answer": "The 5 NPM projects with MIT license and marked as release that have the highest GitHub fork count are:\nsemantic-org/semantic-ui (4955 forks)\nreact-native-community/react-native-webview (2962 forks)\nreact-native-device-info/react-native-device-info (1449 forks)\nsass/node-sass (1326 forks)\nmicrosoft/typescript-website (1308 forks)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "answer": "The 5 projects with the highest GitHub fork count among NPM packages with MIT license marked as release are: semantic-org/semantic-ui (4955 forks), react-native-community/react-native-webview (2962 forks), sass/node-sass (1326 forks), mbrn/material-table (1035 forks), and ternjs/acorn (944 forks)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "FINAL ANSWER: 0.152381"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "answer": "FINAL ANSWER: 0.148515"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "answer": "FINAL ANSWER: 0.152381"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "answer": "FINAL ANSWER: 0.152381"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "answer": "FINAL ANSWER: 0.152381"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "FINAL ANSWER: uacaps/PageMenu"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "FINAL ANSWER: kostiakoval/Mirror"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "FINAL ANSWER: kostiakoval/Mirror"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "FINAL ANSWER: uacaps/PageMenu"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "FINAL ANSWER: slavapestov/swift"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "The answer is 1077 commit messages found in repositories that use the Shell programming language and are licensed under Apache-2.0, where each message exists, is shorter than 1,000 characters, and does not begin with 'merge', 'update', or 'test'."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "answer": "The answer is 1077 commit messages found in repositories that use Shell and are licensed under Apache-2.0, meeting all the specified filtering criteria."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "answer": "The answer is 1077 commit messages found in repositories that use Shell and are licensed under Apache-2.0, meeting all the specified filtering criteria."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "answer": "The answer is 1077 commit messages found in repositories that use Shell and are licensed under Apache-2.0, meeting all the specified filtering criteria."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "answer": "The answer is 1077 commit messages found in repositories that use the Shell programming language and are licensed under Apache-2.0, where each message exists, is shorter than 1,000 characters, and does not begin with 'merge', 'update', or 'test'."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "FINAL ANSWER: apple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "answer": "FINAL ANSWER: apple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "answer": "FINAL ANSWER: apple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "answer": "FINAL ANSWER: apple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "answer": "FINAL ANSWER: apple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "answer": "The average log10-transformed IGF2 expression values for LGG patients by histology type are: Astrocytoma: 2.5713, Oligoastrocytoma: 2.7136, Oligodendroglioma: 2.6825."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "answer": "The average log10-transformed IGF2 expression values for LGG patients by histology type are: Astrocytoma: 2.5713, Oligoastrocytoma: 2.7136, Oligodendroglioma: 2.6825."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "answer": "The average log10-transformed expression of the IGF2 gene across LGG histology types is:\nAstrocytoma: 2.5713\nOligoastrocytoma: 2.7136\nOligodendroglioma: 2.6825"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "answer": "The average log10-transformed IGF2 expression values for LGG patients by histology type are: Astrocytoma: 2.5713, Oligoastrocytoma: 2.7136, Oligodendroglioma: 2.6825."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "answer": "The average log10-transformed expression of the IGF2 gene across LGG histology types is:\nAstrocytoma: 2.5713\nOligoastrocytoma: 2.7136\nOligodendroglioma: 2.6825"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "answer": "The top three histological types with the highest percentage of CDH1 gene mutations among alive BRCA patients are Infiltrating Lobular Carcinoma (50.56%), Mixed Histology (please specify) (16.67%), and Other, specify (8.33%)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "answer": "The top three histological types with the highest percentage of CDH1 gene mutations among alive BRCA patients are Infiltrating Lobular Carcinoma (50.56%), Mixed Histology (please specify) (16.67%), and Other, specify (8.33%)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "answer": "The top three histological types with the highest percentage of CDH1 gene mutations among alive BRCA patients are Infiltrating Lobular Carcinoma (50.56%), Mixed Histology (please specify) (16.67%), and Other, specify (8.33%)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "answer": "The top three histological types with the highest percentage of CDH1 gene mutations among alive BRCA patients are Infiltrating Lobular Carcinoma, Mixed Histology (please specify), and Other, specify."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "answer": "The top three histological types with the highest percentage of CDH1 gene mutations among alive BRCA patients in the PanCancer Atlas are Infiltrating Lobular Carcinoma (50.56%), Mixed Histology (please specify) (16.67%), and Other, specify (8.33%)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "answer": "The chi-square statistic is 305.123920."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "answer": "The chi-square statistic is 305.1239."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "answer": "The chi-square statistic for the association between histological types and CDH1 gene mutations in female BRCA patients is 305.1239."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "answer": "The chi-square statistic for the association between histological types and CDH1 gene mutations in female BRCA patients is 305.123920."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "answer": "The chi-square statistic is 305.123920."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "answer": "The CPC group codes at level 5 whose best EMA year (smoothing factor 0.2) is 2022 are: A23J, A23P, A24F, A41H, A61G, A62C, A63K, B02C, B03C, B04B, B05B, B07B, B08B, B09B, B09C, B21B, B21C, B22D, B22F, B25D, B27C, B27G, B27M, B33Y, B60L, B60P, B63C, B63G, B65G, B66F, C01D, C01F, C01G, C01P, C07B, C21B, C21C, C21D, C22B, D03J, D06H, E01C, E01D, E02D, E03B, E03D, E03F, E04B, E04G, E21F, F02K, F04F, F16M, F16N, F23N, F25J, F28B, F41C, F42C, G01D, G01H, G01K, G01L, G01P, G01S, G04F, G06J, G06N, G06Q, G06T, G06V, G08B, G09F, G10L, G16B, G16H, G16Y, G21F, G21G, H01M, H02B, H02G, H02J, H03H, H04S, Y02B, Y02E, Y02T, Y04S"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "answer": "The CPC group codes at level 5 whose best EMA year is 2022 are A23J, A23P, A24F, A41H, A44D, A61G, A62C, B02C, B03C, B04B, B05B, B07B, B08B, B09B, B09C, B21B, B21C, B21H, B22D, B22F, B25D, B27C, B27G, B27M, B33Y, B60D, B60L, B60P, B63C, B63G, B65G, B66F, C01D, C01F, C01G, C01P, C07B, C21B, C21C, C21D, C22B, D03J, D06H, E01C, E01D, E02D, E03B, E03D, E03F, E04B, E04G, E21F, F02K, F04F, F16M, F16N, F23N, F25J, F41C, F42C, G01D, G01H, G01K, G01L, G01P, G01S, G04F, G06N, G06Q, G06T, G06V, G08B, G09F, G10L, G16B, G16H, G16Y, G21F, G21G, H01M, H02B, H02G, H02J, H03H, H04S"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "answer": "The CPC group codes at level 5 whose best year (highest EMA with smoothing factor 0.2) is 2022 are:\nY02E, G06Q, G06T, Y02T, G06N, H01M, G06V, Y02B, H02J, G01S, B65G, G16H, B60L, B08B, G08B, G10L, B33Y, G09F, Y04S, C01P, B22F, B05B, E04B, G01D, C21D, H02G, E02D, G01L, C07B, E04G, F16M, A24F, B02C, C01G, B22D, A61G, G01K, C22B, H03H, E01C, A62C, H02B, B07B, B66F, G16B, B60P, G01P, E01D, B21B, A23P, B21C, E03F, E21F, B09B, G01H, H04S, E03B, C01F, B03C, C21C, F02K, G16Y, E03D, C21B, B09C, C01D, G21F, F16N, A23J, F25J, B04B, B63C, B27M, F23N, B63G, B60D, D06H, B27G, B25D, F04F, A41H, B27C, G04F, F41C, F42C, G21G, B21H, D03J, A44D, G06J, A63K, F17B"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "answer": "The answer is A23J, A23P, A24F, A41H, A44D, A61G, A62C, B02C, B03C, B04B, B05B, B07B, B08B, B09B, B09C, B21B, B21C, B21H, B22D, B22F, B25D, B27C, B27G, B27M, B33Y, B60D, B60L, B60P, B63C, B63G, B65G, B66F, C01D, C01F, C01G, C01P, C07B, C21B, C21C, C21D, C22B, D03J, D06H, E01C, E01D, E02D, E03B, E03D, E03F, E04B, E04G, E21F, F02K, F04F, F16M, F16N, F23N, F25J, F41C, F42C, G01D, G01H, G01K, G01L, G01P, G01S, G04F, G06N, G06Q, G06T, G06V, G08B, G09F, G10L, G16B, G16H, G16Y, G21F, G21G, H01M, H02B, H02G, H02J, H03H, H04S, Y02B, Y02E, Y02T, Y04S"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "answer": "The CPC group codes at level 5 whose best year (highest EMA with smoothing factor 0.2) is 2022 are: A23J, A23P, A24F, A41H, A44D, A61G, A62C, B02C, B03C, B04B, B05B, B07B, B08B, B09B, B09C, B21B, B21C, B21H, B22D, B22F, B25D, B27C, B27G, B27M, B33Y, B60D, B60L, B60P, B63C, B63G, B65G, B66F, C01D, C01F, C01G, C01P, C07B, C21B, C21C, C21D, C22B, D03J, D06H, E01C, E01D, E02D, E03B, E03D, E03F, E04B, E04G, E21F, F02K, F04F, F16M, F16N, F23N, F25J, F41C, F42C, G01D, G01H, G01K, G01L, G01P, G01S, G04F, G06N, G06Q, G06T, G06V, G08B, G09F, G10L, G16B, G16H, G16Y, G21F, G21G, H01M, H02B, H02G, H02J, H03H, H04S, Y02B, Y02E, Y02T, Y04S"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "answer": "The CPC technology areas in Germany with the highest exponential moving average of patent filings (smoothing factor 0.1) for patents granted in H2 2019, at CPC level 4, are:\n\nMEDICAL OR VETERINARY SCIENCE; HYGIENE, A61, 2016\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS, B41, 2007\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS, F02, 2010\nPOSITIVE - DISPLACEMENT MACHINES FOR LIQUIDS; PUMPS FOR LIQUIDS OR ELASTIC FLUIDS, F04, 2014\nMEASURING; TESTING, G01, 2015\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR, B23, 2015\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT, B63, 2014\nELECTRIC COMMUNICATION TECHNIQUE, H04, 2015\nTECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE, Y02, 2013\nHOISTING; LIFTING; HAULING, B66, 2016\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING, E02, 2012\nVEHICLES IN GENERAL, B60, 2013\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTAL"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "answer": "The CPC technology areas in Germany with the highest exponential moving average of patent filings (smoothing factor 0.1) for patents granted in H2 2019, at CPC level 4, are:\n\nMEDICAL OR VETERINARY SCIENCE; HYGIENE, A61, 2016\nELECTRIC COMMUNICATION TECHNIQUE, H04, 2015\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS, B41, 2007\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS, F02, 2010\nPOSITIVE - DISPLACEMENT MACHINES FOR LIQUIDS; PUMPS FOR LIQUIDS OR ELASTIC FLUIDS, F04, 2014\nMEASURING; TESTING, G01, 2008\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR, B23, 2015\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT, B63, 2014\nTECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE, Y02, 2013\nHOISTING; LIFTING; HAULING, B66, 2016\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING, E02, 2012\nVEHICLES IN GENERAL, B60, 2009\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTAL"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "answer": "The answer is the CPC technology area in Germany with the highest EMA of patent filings (for patents granted in H2 2019) is MEDICAL OR VETERINARY SCIENCE; HYGIENE, with CPC group code A61, and the best year is 2016."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "answer": "The CPC technology areas in Germany with the highest exponential moving average of patent filings (smoothing factor 0.1) for patents granted in the second half of 2019, at CPC level 4, are:\n\nMEDICAL OR VETERINARY SCIENCE; HYGIENE | CPC Group: A61 | Best Year: 2016 | EMA: 3.000000\nELECTRIC COMMUNICATION TECHNIQUE | CPC Group: H04 | Best Year: 2015 | EMA: 2.000000\nThe remaining 33 CPC groups all have an EMA of 1.000000, including areas like B41 (Printing, best year 2007), F02 (Combustion Engines, best year 2010), G01 (Measuring/Testing, best year 2008), B23 (Machine Tools, best year 2015), and others.\n\nThe single CPC technology area with the highest EMA is MEDICAL OR VETERINARY SCIENCE; HYGIENE (A61) with the best year being 2016."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "answer": "The CPC technology area in Germany with the highest exponential moving average of patent filings (smoothing factor 0.1) for patents granted in the second half of 2019 is MEDICAL OR VETERINARY SCIENCE; HYGIENE, with CPC group code A61, and the best year being 2016."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "answer": "The assignees (excluding UNIV CALIFORNIA) that have cited patents assigned to UNIV CALIFORNIA, along with their associated primary CPC subclass titles, are:\n\nCALIFORNIA INST OF TECHN - TESTING STATIC OR DYNAMIC BALANCE OF MACHINES OR STRUCTURES; TESTING OF STRUCTURES OR APPARATUS, NOT OTHERWISE PROVIDED FOR\nCALIFORNIA INST OF TECHN - GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\nBLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLIN"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "answer": "The assignees (excluding UNIV CALIFORNIA) that have cited patents assigned to UNIV CALIFORNIA, along with their associated primary CPC subclass titles, are:\n\nBLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCALIFORNIA INST OF TECHN - GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "answer": "The assignees (excluding UNIV CALIFORNIA) that have cited patents assigned to UNIV CALIFORNIA, along with their associated primary CPC subclass titles, are:\n\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "answer": "The assignees (excluding UNIV CALIFORNIA) that have cited patents assigned to UNIV CALIFORNIA, along with their associated primary CPC subclass titles, are:\n\nCALIFORNIA INST OF TECHN - TESTING STATIC OR DYNAMIC BALANCE OF MACHINES OR STRUCTURES; TESTING OF STRUCTURES OR APPARATUS, NOT OTHERWISE PROVIDED FOR\nCALIFORNIA INST OF TECHN - GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\nBLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLIN"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "answer": "The assignees that have cited patents assigned to UNIV CALIFORNIA (excluding UNIV CALIFORNIA itself) and their associated primary CPC subclass titles are:\n\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "The title of the sports article whose description has the greatest number of characters is Content networks deliver on-demand apps."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "The title of the sports article whose description has the greatest number of characters is The Rundown."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "The title of the sports article whose description has the greatest number of characters is The Rundown."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "The title of the sports article whose description has the greatest number of characters is Cavaliers, Hokies Play Host."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "The title of the sports article whose description has the greatest number of characters is Content networks deliver on-demand apps."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "The fraction of all articles authored by Amy Jones that belong to the Science/Technology category is 0.14414414414414414 (16 out of 111 articles)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "The fraction of all articles authored by Amy Jones that belong to the Science/Technology category is 16/111, which equals approximately 0.14414414414414414."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "The fraction of all articles authored by Amy Jones that belong to the Science/Technology category is 0.14414414414414414 (16 out of 111 articles)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "The fraction of all articles authored by Amy Jones that belong to the Science/Technology category is 0.14414414414414414 (16 out of 111 articles)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "The fraction of all articles authored by Amy Jones that belong to the Science/Technology category is 16/111 (approximately 0.144144)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "The average number of business articles published per year in Europe from 2010 to 2020 (inclusive) is 339.818182."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "The average number of business articles published per year in Europe from 2010 to 2020 (inclusive) is 339.818182."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "The average number of business articles published per year in Europe from 2010 to 2020 is 336.636364 (3703 total business articles across 11 years)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "The average number of business articles published per year in Europe from 2010 to 2020 is approximately 404.18."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "The average number of business articles published per year in Europe from 2010 to 2020 is 336.636364 (specifically 336.6363636363636)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "The answer is South America. In 2015, South America published the largest number of articles in the World category."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "The answer is Africa — in 2015, Africa published the largest number of articles in the World category."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "The answer is South America — it published the largest number of articles in the World category in 2015."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "The region that published the largest number of articles in the World category in 2015 is Africa."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "The answer is Africa, which published the largest number of articles in the World category in 2015 with 606 articles."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "The decade with the highest average rating among decades with at least 10 distinct rated books is 2020s."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "The decade with the highest average rating among decades with at least 10 distinct rated books is the 1980s."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "The decade with the highest average rating among decades with at least 10 distinct rated books is 2020s."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "The decade with the highest average rating among decades with at least 10 distinct rated books is 2020s."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "The decade with the highest average rating among decades with at least 10 distinct rated books is the 1980s."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "The English-language books in the 'Literature & Fiction' category with a perfect average rating of 5.0 are:\n\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nChilde Harold of Dysna\nExits, Desires, & Slow Fires\nFire Cracker\nForged in Blood (Freehold)\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKennebago Moments\nKnowing When To Die: Uncollected Stories\nLiza of Lambeth\nLocal Honey\nReunion: The Children of Lauderdale Park\nSomething That Feels Like Truth (Switchgrass Books)\nThe Melancholy Strumpet Master\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "The English-language books in the 'Literature & Fiction' category with a perfect average rating of 5.0 are:\n\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nChilde Harold of Dysna\nExits, Desires, & Slow Fires\nFire Cracker\nForged in Blood (Freehold)\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKennebago Moments\nKnowing When To Die: Uncollected Stories\nLiza of Lambeth\nLocal Honey\nReunion: The Children of Lauderdale Park\nSomething That Feels Like Truth (Switchgrass Books)\nThe Melancholy Strumpet Master\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "The English-language books in the 'Literature & Fiction' category with a perfect average rating of 5.0 are:\n\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nChilde Harold of Dysna\nExits, Desires, & Slow Fires\nFire Cracker\nForged in Blood (Freehold)\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKennebago Moments\nKnowing When To Die: Uncollected Stories\nLiza of Lambeth\nLocal Honey\nReunion: The Children of Lauderdale Park\nSomething That Feels Like Truth (Switchgrass Books)\nThe Melancholy Strumpet Master\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "The English-language books in the 'Literature & Fiction' category with a perfect average rating of 5.0 are:\n\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nChilde Harold of Dysna\nExits, Desires, & Slow Fires\nFire Cracker\nForged in Blood (Freehold)\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKennebago Moments\nKnowing When To Die: Uncollected Stories\nLiza of Lambeth\nLocal Honey\nReunion: The Children of Lauderdale Park\nSomething That Feels Like Truth (Switchgrass Books)\nThe Melancholy Strumpet Master\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "The English-language books in the 'Literature & Fiction' category with a perfect average rating of 5.0 are:\n\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nChilde Harold of Dysna\nExits, Desires, & Slow Fires\nFire Cracker\nForged in Blood (Freehold)\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKennebago Moments\nKnowing When To Die: Uncollected Stories\nLiza of Lambeth\nLocal Honey\nReunion: The Children of Lauderdale Park\nSomething That Feels Like Truth (Switchgrass Books)\nThe Melancholy Strumpet Master\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "The books categorized as 'Children's Books' with an average rating of at least 4.5 from 2020 onwards are:\n\nAround the World Mazes\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nCheer Up, Ben Franklin! (Young Historians)\nClark the Shark: Tooth Trouble, No. 1\nCleo Porter and the Body Electric\nEgypt (Enchantment of the World)\nFavorite Thorton W. Burgess Stories: 6 Books\nLunaLu the Llamacorn\nMonstrous Stories #4: The Day the Mice Stood Still\nPokémon: Sun & Moon, Vol. 8 (8)\nThe Library Book\nThe Old Man and the Pirate Princess\nTrouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "The books categorized as 'Children's Books' with an average rating of at least 4.5 from 2020 onwards are:\n\nAround the World Mazes\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nCheer Up, Ben Franklin! (Young Historians)\nClark the Shark: Tooth Trouble, No. 1\nCleo Porter and the Body Electric\nEgypt (Enchantment of the World)\nFavorite Thorton W. Burgess Stories: 6 Books\nLunaLu the Llamacorn\nMonstrous Stories #4: The Day the Mice Stood Still\nPokémon: Sun & Moon, Vol. 8 (8)\nThe Library Book\nThe Old Man and the Pirate Princess\nTrouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "The books categorized as 'Children's Books' with an average rating of at least 4.5 based on reviews from 2020 onwards are:\n\nAround the World Mazes\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nCheer Up, Ben Franklin! (Young Historians)\nClark the Shark: Tooth Trouble, No. 1\nCleo Porter and the Body Electric\nEgypt (Enchantment of the World)\nFavorite Thorton W. Burgess Stories: 6 Books\nLunaLu the Llamacorn\nMonstrous Stories #4: The Day the Mice Stood Still\nPokémon: Sun & Moon, Vol. 8 (8)\nThe Library Book\nThe Old Man and the Pirate Princess\nTrouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "The books categorized as 'Children's Books' with an average rating of at least 4.5 based on reviews from 2020 onwards are:\n\nAround the World Mazes\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nCheer Up, Ben Franklin! (Young Historians)\nClark the Shark: Tooth Trouble, No. 1\nCleo Porter and the Body Electric\nEgypt (Enchantment of the World)\nFavorite Thorton W. Burgess Stories: 6 Books\nLunaLu the Llamacorn\nMonstrous Stories #4: The Day the Mice Stood Still\nPokémon: Sun & Moon, Vol. 8 (8)\nThe Library Book\nThe Old Man and the Pirate Princess\nTrouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "The books categorized as 'Children's Books' with an average rating of at least 4.5 based on reviews from 2020 onwards are:\n\nAround the World Mazes\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nCheer Up, Ben Franklin! (Young Historians)\nClark the Shark: Tooth Trouble, No. 1\nCleo Porter and the Body Electric\nEgypt (Enchantment of the World)\nFavorite Thorton W. Burgess Stories: 6 Books\nLunaLu the Llamacorn\nMonstrous Stories #4: The Day the Mice Stood Still\nPokémon: Sun & Moon, Vol. 8 (8)\nThe Library Book\nThe Old Man and the Pirate Princess\nTrouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "The lead cannot be qualified. The failing BANT factor is Authority, as Ali Hussein does not have final decision-making authority and needs to consult with the finance team."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "The answer is Authority. The lead fails to meet the 'Authority' BANT factor because the contact (Ali Hussein) explicitly states he does not have the final say and needs to consult with his finance team."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "The lead cannot be qualified. The failing BANT factors are Budget, Authority."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "The answer is Authority. The lead cannot be qualified because Ali Hussein lacks decision-making authority — he explicitly states he needs to consult with the finance team and doesn't have the final say."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "The lead cannot be qualified. The factor responsible is Authority, as Ali Hussein explicitly stated he does not have the final say and needs to consult with the finance team."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "The answer is ka0Wt000000Ens5IAC — the quote violates the \"Mandatory Bundles for Quotes\" knowledge article because it includes PulseSim Pro without the required bundled products (CircuitMaster Analyzer and VeriSim Express)."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "The answer is ka0Wt000000Ens5IAC. The quote violates the \"Mandatory Bundles for Quotes\" knowledge article because it includes PulseSim Pro without the required bundled products (CircuitMaster Analyzer and VeriSim Express)."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "The answer is ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "The answer is ka0Wt000000Ens5IAC — the quote violates the \"Mandatory Bundles for Quotes\" knowledge article because it includes PulseSim Pro without the required CircuitMaster Analyzer and VeriSim Express."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "The answer is ka0Wt000000Ens5IAC — the quote violates the \"Mandatory Bundles for Quotes\" knowledge article because it includes PulseSim Pro without the required CircuitMaster Analyzer and VeriSim Express bundle."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "The stage name is not accurately representing the tasks. The correct stage label should be Negotiation."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "The stage name is not accurately representing the tasks. The appropriate stage name should be Negotiation."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "The stage name is not accurate. The appropriate stage name should be Negotiation."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": "The answer is Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "The stage name is not accurate. The appropriate stage name should be Negotiation."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "The answer is November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "The answer is November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "The answer is November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "The answer is November."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "The answer is November — it is the month in the past 10 months where the number of SecureAnalytics Pro cases significantly exceeds those of other months, with 2 cases compared to 1 in each of the other months."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "The most reported issue ID for product 01tWt000006hV8LIAU (AI Cirku-Tech) over the past five months is a03Wt00000JqnHwIAJ."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "The most frequently reported issue for product 01tWt000006hV8LIAU (AI Cirku-Tech) over the past five months is a03Wt00000JqnHwIAJ."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "The most reported issue ID for AI Cirku-Tech's product (01tWt000006hV8LIAU) over the past five months is a03Wt00000JqnHwIAJ."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "The most reported issue ID for AI Cirku-Tech's product over the past five months is a03Wt00000JqnHwIAJ."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "The most frequently reported issue for the AI Cirku-Tech product over the past five months is a03Wt00000JqnHwIAJ."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "The answer is ka0Wt000000EnwvIAC — this is the knowledge article (\"Product Quantity Limits\") violated by the invalid configuration, as CollabDesign Studio's quantity of 35 exceeds the allowed limit of 25 units per order."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "The answer is ka0Wt000000EnwvIAC. The quote violates the Product Quantity Limits article because CollabDesign Studio has a quantity of 35, exceeding the maximum allowed 25 units per order."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "The answer is ka0Wt000000EnwvIAC — the knowledge article for \"Product Quantity Limits\" which is violated because CollabDesign Studio has 35 units in the quote, exceeding the 25-unit limit."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "The answer is ka0Wt000000EnwvIAC — this is the Id of the \"Product Quantity Limits\" knowledge article that the invalid configuration violates, since the quote includes 35 units of CollabDesign Studio, exceeding the 25-unit limit."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "The answer is ka0Wt000000EnwvIAC — this is the Id of the knowledge article (\"Product Quantity Limits\") that the invalid configuration violates, as the quote includes 35 units of CollabDesign Studio, which exceeds the 25-unit limit."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "The answer is ka0Wt000000EpSUIA0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "The answer is ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "The answer is ka0Wt000000EpSUIA0. The agent breached the Volume-Based Installation Timeline Policy by quoting a 2-3 week implementation timeline for 10 units, when the policy specifies much shorter timelines based on purchase volume (3-7 days for that quantity range)."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "The answer is ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "The answer is ka0Wt000000EpSUIA0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "The answer is 005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "The agent with the fewest transfer counts in the last 4 quarters is 005Wt000003NIliIAG."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "The answer is 005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "The agent with the fewest transfer counts in the last 4 quarters (among those who handled more than 0 cases) is 005Wt000003NIliIAG."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "The agent with the fewest transfer counts in the last 4 quarters (among those who handled more than 0 cases) is 005Wt000003NIliIAG."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "The state with the quickest case closure time in the past 6 quarters is MI."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "The answer is MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "The answer is MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "The answer is MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "The answer is MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "The answer is 005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "The answer is 005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "The answer is 005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "The agent with the lowest average handle time is 005Wt000003NDqDIAW."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "The agent with the lowest average handle time for those processing more than one case in the past four months is 005Wt000003NDqDIAW."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "The Id of the AI processing unit purchased last month is 01tWt000006hV8LIAU."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "The Id of the AI processing unit purchased last month is 01tWt000006hV8LIAU."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "The Id of the AI processing unit purchased last month is 01tWt000006hV8LIAU."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "The Id of the AI processing unit purchased last month is 01tWt000006hV8LIAU."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "The Id of the AI processing unit product purchased last month is 01tWt000006hV8LIAU."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "The answer is 005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "The answer is 005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "The answer is 005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "The answer is 005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "The answer is 005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "The agent who achieved the top sales figures for orders made in the past five months is 005Wt000003NHw5IAG."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "The agent who achieved the top sales figures for orders made in the past five months is 005Wt000003NHw5IAG."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "The agent who achieved the top sales figures for orders made in the past five months is 005Wt000003NIXCIA4."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "The agent who achieved the top sales figures for orders made in the past five months is 005Wt000003NIXCIA4."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "The answer is #005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order are:\n\nWidows Peak Salon\nCity Textile\nNobel Textile Co\nSan Soo Dang\nNova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order are: Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order are:\n\nWidows Peak Salon\nCity Textile\nNobel Textile Co\nSan Soo Dang\nNova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order are: Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order are: Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "The massage therapy businesses with an average rating of at least 4.0 are: Angel-A Massage (4.3), Aurora Massage (4.2), Elite Massage (5.0), and J B Oriental Inc (4.2)."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "The massage therapy businesses with an average rating of at least 4.0 are:\nAngel-A Massage: 4.333333\nElite Massage: 5.000000\nAurora Massage: 4.178571\nJ B Oriental Inc: 4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "The massage therapy businesses with an average rating of at least 4.0 are:\nAngel-A Massage: 4.33\nElite Massage: 5.00\nAurora Massage: 4.18\nJ B Oriental Inc: 4.17"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "The massage therapy businesses with an average rating of at least 4.0 are:\nAngel-A Massage: 4.333333\nElite Massage: 5.000000\nAurora Massage: 4.178571\nJ B Oriental Inc: 4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "The massage therapy businesses with an average rating of at least 4.0 are:\nAngel-A Massage: 4.333333\nElite Massage: 5.000000\nAurora Massage: 4.178571\nJ B Oriental Inc: 4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating, are:\n\nTaba Rug Gallery | Hours: Thu–Wed 10AM–7PM, Sun 11AM–6PM | Average Rating: 5.0\nBeauty Divine Artistry | Hours: Mon–Fri 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM | Average Rating: 5.0\nWhite Barn Candle Co | Hours: Mon–Sat 10AM–9PM, Sun 11AM–7PM | Average Rating: 5.0\nTACOS LA CABANA | Hours: Fri–Mon 5–11PM (Closed Thu/Tue/Wed) | Average Rating: 5.0\nMariscos el poblano | Hours: Thu Open 24 hours, Mon 9AM–3:30AM, other days 8AM–3:30PM | Average Rating: 5.0\n\nAll five businesses share a perfect 5.0 average rating, with Taba Rug Gallery having the most reviews (18) among them."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating, are:\n\nTaba Rug Gallery — Hours: Thu–Wed 10AM–7PM, Sun 11AM–6PM — Average Rating: 5.000000\nBeauty Divine Artistry — Hours: Thu–Wed 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM — Average Rating: 5.000000\nWhite Barn Candle Co — Hours: Thu–Wed 10AM–9PM, Sun 11AM–7PM — Average Rating: 5.000000\nTACOS LA CABANA — Hours: Fri–Mon 5–11PM, Thu/Tue/Wed Closed — Average Rating: 5.000000\nParadise tattoo — Hours: Thu/Sun–Wed 12–10PM, Fri–Sat 12PM–12AM — Average Rating: 4.960317"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating, are:\n\nTaba Rug Gallery | Hours: Thu–Wed 10AM–7PM, Sun 11AM–6PM | Average Rating: 5.0\nBeauty Divine Artistry | Hours: Thu–Wed 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM | Average Rating: 5.0\nWhite Barn Candle Co | Hours: Thu–Wed 10AM–9PM, Sun 11AM–7PM | Average Rating: 5.0\nTACOS LA CABANA | Hours: Fri–Mon 5–11PM, Thu/Tue/Wed Closed | Average Rating: 5.0\nParadise tattoo | Hours: Thu/Sun–Wed 12–10PM, Fri–Sat 12PM–12AM | Average Rating: 5.0\n\nAll five businesses share a perfect average rating of 5.0."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating (all 5.0), are:\n\nTaba Rug Gallery | Hours: Thu–Wed 10AM–7PM, Sun 11AM–6PM | Average Rating: 5.0\nBeauty Divine Artistry | Hours: Thu–Wed 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM | Average Rating: 5.0\nWhite Barn Candle Co | Hours: Thu–Wed 10AM–9PM, Sun 11AM–7PM | Average Rating: 5.0\nTACOS LA CABANA | Hours: Fri–Mon 5–11PM, Thu/Tue/Wed Closed | Average Rating: 5.0\nParadise tattoo | Hours: Thu/Sun–Wed 12–10PM, Fri–Sat 12PM–12AM | Average Rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating, are:\n\nTaba Rug Gallery | Hours: Thu–Wed 10AM–7PM, Sun 11AM–6PM | Avg Rating: 5.0\nBeauty Divine Artistry | Hours: Mon–Fri 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM | Avg Rating: 5.0\nWhite Barn Candle Co | Hours: Mon–Sat 10AM–9PM, Sun 11AM–7PM | Avg Rating: 5.0\nTACOS LA CABANA | Hours: Fri–Mon 5–11PM (Closed Thu/Tue/Wed) | Avg Rating: 5.0\nParadise tattoo | Hours: Mon–Thu/Sun 12–10PM, Fri–Sat 12PM–12AM | Avg Rating: 5.0 (approx 4.96)"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "The 3 businesses with the highest number of reviews rated 4.5 or higher during 2019 are: Encino Dermatology & Laser: Alex Khadavi MD (19 reviews), The Boochyard @ Local Roots (17 reviews), and Aurora Massage (14 reviews)."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "The 3 businesses with the highest number of reviews rated 4.5 or higher during 2019 are: Encino Dermatology & Laser: Alex Khadavi MD with 19 reviews, The Boochyard @ Local Roots with 17 reviews, and Aurora Massage with 14 reviews."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "The 3 businesses with the highest number of reviews rated 4.5 or higher during 2019 are: Encino Dermatology & Laser: Alex Khadavi MD with 19 reviews, The Boochyard @ Local Roots with 17 reviews, and Aurora Massage with 14 reviews."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "The 3 businesses with the highest number of reviews rated 4.5 or higher during 2019 are:\nEncino Dermatology & Laser: Alex Khadavi MD — 19 reviews\nThe Boochyard @ Local Roots — 17 reviews\nAurora Massage — 14 reviews"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "The 3 businesses with the highest number of reviews rated 4.5 or higher during 2019 are: Encino Dermatology & Laser: Alex Khadavi MD with 19 reviews, The Boochyard @ Local Roots with 17 reviews, and Aurora Massage with 14 reviews."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "The answer is $1059.46 in USD revenue from Apple Music for Beyoncé's song 'Get Me Bodied' in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "The answer is $1059.46 in USD revenue from Apple Music for Beyoncé's song 'Get Me Bodied' in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "The answer is $1059.46 — Apple Music generated $1059.46 in revenue from Beyoncé's song 'Get Me Bodied' in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "The answer is $1059.46 in USD revenue from Apple Music for Beyoncé's song 'Get Me Bodied' in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "The answer is $1059.46. Apple Music generated $1059.46 in revenue from Beyoncé's song 'Get Me Bodied' in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "FINAL ANSWER: iTunes"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "FINAL ANSWER: iTunes"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "FINAL ANSWER: iTunes"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "FINAL ANSWER: iTunes"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "FINAL ANSWER: iTunes"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "FINAL ANSWER: Zo gaat het leven aan je voor"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "FINAL ANSWER: Zo gaat het leven aan je voor"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "FINAL ANSWER: Zo gaat het leven aan je voor"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "FINAL ANSWER: Zo gaat het leven aan je voor"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "FINAL ANSWER: Zo gaat het leven aan je voor"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "The answer is 399001.SZ — the Shenzhen Component Index (tracked on the Shenzhen Stock Exchange) has exhibited the highest average intraday volatility among Asia-region stock indices since 2020."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "The answer is 399001.SZ. The Shenzhen Stock Exchange index (399001.SZ) has exhibited the highest average intraday volatility among Asia region stock indices since 2020."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "The answer is 399001.SZ — the Shenzhen Stock Exchange index has exhibited the highest average intraday volatility among Asian stock indices since 2020."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "The answer is 399001.SZ — the Shenzhen stock index has exhibited the highest average intraday volatility in the Asia region since 2020."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "The stock index in the Asia region with the highest average intraday volatility since 2020 is 399001.SZ (the Shenzhen Component Index)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "The answer is IXIC. Among North American stock indices, only IXIC (NASDAQ) had more up days (131) than down days (120) in 2018."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "The answer is IXIC. Among North American stock indices, only the IXIC (NASDAQ) had more up days (131) than down days (120) in 2018."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "The answer is IXIC. Among North American stock indices, only the IXIC (NASDAQ) had more up days (131) than down days (120) in 2018."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "Among North American stock indices, only IXIC (NASDAQ) had more up days than down days in 2018."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "The answer is IXIC. Among North American stock indices, only IXIC (NASDAQ) had more up days than down days in 2018."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "The 5 indices with the highest overall returns from regular monthly investments since 2000 are: IXIC (United States), 399001.SZ (China), GDAXI (Germany), TWII (Taiwan), and NSEI (India)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "The 5 indices with the highest overall returns from regular monthly investments since 2000 are:\nIXIC (United States) — 382.45% return\nNSEI (India) — 135.98% return\nGDAXI (Germany) — 134.55% return\n399001.SZ (China) — 134.41% return\nTWII (Taiwan) — 129.56% return"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "The 5 indices with the highest overall returns from regular monthly investments since 2000 are:\nIXIC (United States) - 387.83% return\n399001.SZ (China) - 137.54% return\nGDAXI (Germany) - 131.89% return\nTWII (Taiwan) - 131.89% return\nNSEI (India) - 121.49% return\n\nThey belong to the United States, China, Germany, Taiwan, and India respectively."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "The 5 indices that would have produced the highest overall returns from regular monthly investments since 2000 are:\nIXIC (United States) – 386.30%\nGDAXI (Germany) – 128.92%\nTWII (Taiwan) – 126.20%\nNSEI (India) – 123.00%\n399001.SZ (China) – 121.12%"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "The 5 indices that would have produced the highest overall returns from regular monthly investments since 2000 are:\nIXIC (NASDAQ) - United States\nNSEI (National Stock Exchange of India) - India\nGDAXI (Frankfurt Stock Exchange) - Germany\n399001.SZ (Shenzhen Stock Exchange) - China\nTWII (Taiwan Stock Exchange) - Taiwan"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc. was 18.440000534057617."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc. was 18.440000534057617."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc. was 18.440000534057617."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc. was 18.440000534057617."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc. was 18.440000534057617."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "FINAL ANSWER: ProShares Ultra Bloomberg Natural Gas (BOIL)\nProShares UltraShort MSCI Brazil Capped (BZQ)\nDirexion Auspice Broad Commodity Strategy ETF (COM)\nDirexion Daily Gold Miners Index Bear 2X Shares (DUST)\nDirexion Emerging Markets Bear 3X Shares (EDZ)\nDirexion Energy Bull 2X Shares (ERX)\nDirexion Financial Bear 3X Shares (FAZ)\nProShares Ultrashort FTSE China 50 (FXP)\nGoldman Sachs Motif Finance Reimagined ETF (GFIN)\nDirexion Daily S&P Oil & Gas Exp (GUSH)\nXtrackers High Beta High Yield Bond ETF (HYUP)\nDirexion Daily Junior Gold Miners Index Bear 2X Shares (JDST)\nDirexion Daily Junior Gold Miners Index Bull 2X Shares (JNUG)\nXtrackers Japan JPX-Nikkei 400 Equity ETF (JPN)\nDirexion Daily S&P Biotech Bear 3X Shares (LABD)\nDirexion Daily S&P Biotech Bull 3X Shares (LABU)\nDirexion Daily Latin America 3x Bull Shares (LBJ)\nSPDR MidCap Trust Series I (MDY)\nPacer Trendpilot International ETF (PTIN)\nPacer Benchmark Retail Real Estate SCTR ETF (RTL)\nUltraPro Short Dow30 (SDOW)\nDirexion Dail"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "FINAL ANSWER: ProShares Ultra Bloomberg Natural Gas\nProShares UltraShort MSCI Brazil Capped\nDirexion Auspice Broad Commodity Strategy ETF\nDirexion Daily Gold Miners Index Bear 2X Shares\nDirexion Emerging Markets Bear 3X Shares\nDirexion Energy Bull 2X Shares\nDirexion Financial Bear 3X Shares\nProShares Ultrashort FTSE China 50\nGoldman Sachs Motif Finance Reimagined ETF\nDirexion Daily S&P Oil & Gas Exp\nXtrackers High Beta High Yield Bond ETF\nDirexion Daily Junior Gold Miners Index Bear 2X Shares\nDirexion Daily Junior Gold Miners Index Bull 2X Shares\nXtrackers Japan JPX-Nikkei 400 Equity ETF\nDirexion Daily S&P Biotech Bear 3X Shares\nDirexion Daily S&P Biotech Bull 3X Shares\nDirexion Daily Latin America 3x Bull Shares\nSPDR MidCap Trust Series I\nPacer Trendpilot International ETF\nPacer Benchmark Retail Real Estate SCTR ETF\nUltraPro Short Dow30\nDirexion Daily Semiconductor Bear 3x Shares\nProShares UltraShort Semiconductors\nDirexion Technology Bear 3X Shares\nDirexion Small Cap Bear 3X Shares\nP"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "FINAL ANSWER: ProShares Ultra Bloomberg Natural Gas (BOIL)\nProShares UltraShort MSCI Brazil Capped (BZQ)\nDirexion Auspice Broad Commodity Strategy ETF (COM)\nDirexion Daily Gold Miners Index Bear 2X Shares (DUST)\nDirexion Emerging Markets Bear 3X Shares (EDZ)\nDirexion Energy Bull 2X Shares (ERX)\nDirexion Financial Bear 3X Shares (FAZ)\nProShares Ultrashort FTSE China 50 (FXP)\nGoldman Sachs Motif Finance Reimagined ETF (GFIN)\nDirexion Daily S&P Oil & Gas Exp (GUSH)\nXtrackers High Beta High Yield Bond ETF (HYUP)\nDirexion Daily Junior Gold Miners Index Bear 2X Shares (JDST)\nDirexion Daily Junior Gold Miners Index Bull 2X Shares (JNUG)\nXtrackers Japan JPX-Nikkei 400 Equity ETF (JPN)\nDirexion Daily S&P Biotech Bear 3X Shares (LABD)\nDirexion Daily S&P Biotech Bull 3X Shares (LABU)\nDirexion Daily Latin America 3x Bull Shares (LBJ)\nSPDR MidCap Trust Series I (MDY)\nPacer Trendpilot International ETF (PTIN)\nPacer Benchmark Retail Real Estate SCTR ETF (RTL)\nUltraPro Short Dow30 (SDOW)\nDirexion Dail"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "FINAL ANSWER: ProShares Ultra Bloomberg Natural Gas (BOIL)\nProShares UltraShort MSCI Brazil Capped (BZQ)\nDirexion Auspice Broad Commodity Strategy ETF (COM)\nDirexion Daily Gold Miners Index Bear 2X Shares (DUST)\nDirexion Emerging Markets Bear 3X Shares (EDZ)\nDirexion Energy Bull 2X Shares (ERX)\nDirexion Financial Bear 3X Shares (FAZ)\nProShares Ultrashort FTSE China 50 (FXP)\nGoldman Sachs Motif Finance Reimagined ETF (GFIN)\nDirexion Daily S&P Oil & Gas Exp (GUSH)\nXtrackers High Beta High Yield Bond ETF (HYUP)\nDirexion Daily Junior Gold Miners Index Bear 2X Shares (JDST)\nDirexion Daily Junior Gold Miners Index Bull 2X Shares (JNUG)\nXtrackers Japan JPX-Nikkei 400 Equity ETF (JPN)\nDirexion Daily S&P Biotech Bear 3X Shares (LABD)\nDirexion Daily S&P Biotech Bull 3X Shares (LABU)\nDirexion Daily Latin America 3x Bull Shares (LBJ)\nSPDR MidCap Trust Series I (MDY)\nPacer Trendpilot International ETF (PTIN)\nPacer Benchmark Retail Real Estate SCTR ETF (RTL)\nUltraPro Short Dow30 (SDOW)\nDirexion Dail"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "FINAL ANSWER: ProShares Ultra Bloomberg Natural Gas (BOIL)\nProShares UltraShort MSCI Brazil Capped (BZQ)\nDirexion Auspice Broad Commodity Strategy ETF (COM)\nDirexion Daily Gold Miners Index Bear 2X Shares (DUST)\nDirexion Emerging Markets Bear 3X Shares (EDZ)\nDirexion Energy Bull 2X Shares (ERX)\nDirexion Financial Bear 3X Shares (FAZ)\nProShares Ultrashort FTSE China 50 (FXP)\nGoldman Sachs Motif Finance Reimagined ETF (GFIN)\nDirexion Daily S&P Oil & Gas Exp (GUSH)\nXtrackers High Beta High Yield Bond ETF (HYUP)\nDirexion Daily Junior Gold Miners Index Bear 2X Shares (JDST)\nDirexion Daily Junior Gold Miners Index Bull 2X Shares (JNUG)\nXtrackers Japan JPX-Nikkei 400 Equity ETF (JPN)\nDirexion Daily S&P Biotech Bear 3X Shares (LABD)\nDirexion Daily S&P Biotech Bull 3X Shares (LABU)\nDirexion Daily Latin America 3x Bull Shares (LBJ)\nSPDR MidCap Trust Series I (MDY)\nPacer Trendpilot International ETF (PTIN)\nPacer Benchmark Retail Real Estate SCTR ETF (RTL)\nUltraPro Short Dow30 (SDOW)\nDirexion Dail"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "The answer is the following NASDAQ-listed companies that were financially troubled and had trading volume in 2008, along with their average daily trading volumes:\n\nApex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "The answer is the following 15 NASDAQ-listed companies that were financially troubled and had trading volume in 2008, along with their average daily trading volumes:\n\nApex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFrontier Communications Corporation: 254397.628458\nFuture FinTech Group Inc.: 9.845238\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSunesis Pharmaceuticals, Inc.: 781.818182\nSynthesis Energy Systems, Inc.: 2390.513834\nSypris Solutions, Inc.: 36836.363636"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "The NASDAQ-listed companies that were financially troubled (delinquent, deficient, or both) and had trading volume in 2008, along with their average daily trading volumes, are:\n\nApex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "The answer is the following NASDAQ-listed, financially troubled companies with trading volume in 2008 and their average daily trading volumes:\n\nApex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "The answer is the following list of 15 NASDAQ-listed financially troubled companies with their average daily trading volume in 2008:\n\nApex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFrontier Communications Corporation: 254397.628458\nFuture FinTech Group Inc.: 9.845238\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSunesis Pharmaceuticals, Inc.: 781.818182\nSynthesis Energy Systems, Inc.: 2390.513834\nSypris Solutions, Inc.: 36836.363636"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "The top 5 non-ETF stocks listed on NYSE with more up days than down days in 2017 are:\nMFA Financial, Inc.\nArgo Group International Holdings, Ltd.\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "The top 5 non-ETF stocks listed on the NYSE that had more up days than down days in 2017 are:\nMFA Financial, Inc.\nArgo Group International Holdings, Ltd.\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "The top 5 non-ETF stocks listed on NYSE with more up days than down days in 2017 are:\nMFA Financial, Inc.\nArgo Group International Holdings, Ltd.\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "The top 5 non-ETF stocks listed on NYSE with the most up days exceeding down days in 2017 are:\nMFA Financial, Inc.\nArgo Group International Holdings, Ltd.\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "The top 5 non-ETF stocks listed on NYSE with more up days than down days in 2017 are:\nMFA Financial, Inc.\nArgo Group International Holdings, Ltd.\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "The 5 companies listed on the NASDAQ Capital Market with the highest number of days in 2019 where the intraday price range exceeded 20% of the low price are:\n\nSynthesis Energy Systems, Inc.\nTD Holdings, Inc.\nTMSR Holding Company Limited\nVerb Technology Company, Inc.\nSunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "The 5 companies listed on the NASDAQ Capital Market with the highest number of days in 2019 where the intraday price range exceeded 20% of the low price are:\nSynthesis Energy Systems, Inc.\nTD Holdings, Inc.\nTMSR Holding Company Limited\nVerb Technology Company, Inc.\nSunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "The 5 companies listed on the NASDAQ Capital Market with the highest number of days in 2019 where the intraday price range exceeded 20% of the low price are:\nSynthesis Energy Systems, Inc.\nTD Holdings, Inc.\nTMSR Holding Company Limited\nVerb Technology Company, Inc.\nSunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "The 5 companies listed on the NASDAQ Capital Market with the highest number of days in 2019 where the intraday price range exceeded 20% of the low price are:\nSynthesis Energy Systems, Inc. (51 days)\nTD Holdings, Inc. (42 days)\nTMSR Holding Company Limited (40 days)\nVerb Technology Company, Inc. (38 days)\nSunesis Pharmaceuticals, Inc. (32 days)"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "The 5 companies listed on the NASDAQ Capital Market with the highest number of days in 2019 where the intraday price range exceeded 20% of the low price are:\n\nSynthesis Energy Systems, Inc.\nTD Holdings, Inc.\nTMSR Holding Company Limited\nVerb Technology Company, Inc.\nSunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.547009 (precisely 3.547008547008547)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.547009 (precisely 3.547008547008547)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.547009 (precisely 3.547008547008547)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.547009 (precisely 3.547008547008547)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.547009 (precisely 3.547008547008547)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "FINAL ANSWER: PA,3.763371"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "FINAL ANSWER: PA,3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "FINAL ANSWER: PA,2.822222"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "FINAL ANSWER: PA,3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "FINAL ANSWER: PA,3.763371"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "The answer is 35 — during 2018, 35 businesses that received reviews offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "The answer is 35 businesses that received reviews during 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "The answer is 35 businesses that received reviews during 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "The answer is 34 businesses that received reviews during 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "The answer is 27 businesses that received reviews during 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "FINAL ANSWER: Local Services,2.950000"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "FINAL ANSWER: Local Services,2.95"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "FINAL ANSWER: Shopping,3.529092"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "FINAL ANSWER: Shopping,3.4065420560747666"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "FINAL ANSWER: Restaurants,3.715250"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "FINAL ANSWER: PA,3.483986"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "FINAL ANSWER: PA,3.483986"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "FINAL ANSWER: PA,3.483986"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "FINAL ANSWER: PA,3.483986"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "FINAL ANSWER: PA,3.483986"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "The answer is Coffee House Too Cafe, which received the highest average rating (4.375) between January 1, 2016 and June 30, 2016 with 16 reviews, and it belongs to the categories Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "The business that received the highest average rating between January 1, 2016 and June 30, 2016 (with at least 5 reviews) is Coffee House Too Cafe, with an average rating of approximately 4.44. It belongs to the categories Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "The answer is Coffee House Too Cafe, which received the highest average rating (4.375) between January 1, 2016 and June 30, 2016 with 16 reviews. It belongs to the categories: Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "The business that received the highest average rating between January 1, 2016 and June 30, 2016 (with at least 5 reviews) is Coffee House Too Cafe, and it belongs to the categories Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "The business that received the highest average rating between January 1, 2016 and June 30, 2016 (with at least 5 reviews) is Coffee House Too Cafe, with an average rating of 4.375 from 16 reviews. It belongs to the categories: Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "The 5 business categories that received the most total reviews from users who registered on Yelp in 2016 (reviews since 2016) are:\nActive Life\nLocal Services\nPet Groomers\nPet Stores\nPet Training"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "The 5 business categories that received the most total reviews from users who registered on Yelp in 2016 (for reviews since 2016) are: Restaurants, Food, American (New), Shopping, Breakfast & Brunch."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "The answer is the 5 business categories that received the most total reviews from users who registered in 2016 (reviews since 2016) are: Restaurants, Food, Shopping, American (New), Breakfast & Brunch."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "The 5 business categories that received the most total reviews from users who registered on Yelp in 2016 (reviews since 2016) are:\nRestaurants\nBreakfast & Brunch\nAmerican (New)\nFood\nBars"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "The 5 business categories that received the most total reviews from users who registered in 2016 (for reviews since 2016) are Restaurants, Food, American (New), Shopping, and Breakfast & Brunch."
+  }
+]
