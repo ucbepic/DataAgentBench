@@ -79,3 +79,9 @@ query_stockmarket/metadata_mean.txt
 query_yelp/ground_truth_dataset/
 query_yelp/manual_querycode/
 query_yelp/query*/ground_truth.py
+
+# virtual environment
+venv/
+
+# database download partial files
+*.part
