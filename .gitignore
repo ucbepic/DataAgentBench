@@ -82,6 +82,7 @@ query_yelp/query*/ground_truth.py
 
 # virtual environment
 venv/
+.venv/
 
 # database download partial files
 *.part
