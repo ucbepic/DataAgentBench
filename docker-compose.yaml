@@ -1,0 +1,55 @@
+services:
+  python-data:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python-data:3.12
+    command: ["echo", "image built"]
+
+  postgres:
+    image: postgres:16
+    container_name: dab-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: mistral
+      POSTGRES_PASSWORD: trp-mistral
+      POSTGRES_DB: dab
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Mount SQL init files so you can load them with psql from inside the container
+      - ./query_bookreview/query_dataset:/data/bookreview:ro
+      - ./query_googlelocal/query_dataset:/data/googlelocal:ro
+      - ./query_PANCANCER_ATLAS/query_dataset:/data/pancancer:ro
+      - ./query_PATENTS/query_dataset:/data/patents:ro
+      - ./query_crmarenapro/query_dataset:/data/crmarenapro:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U mistral -d dab"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  mongodb:
+    image: mongo:7
+    container_name: dab-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mistral
+      MONGO_INITDB_ROOT_PASSWORD: trp-mistral
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodata:/data/db
+      # Mount dump folders for mongorestore
+      - ./query_yelp/query_dataset/yelp_business:/data/yelp_business:ro
+      - ./query_agnews/query_dataset/agnews_articles:/data/agnews_articles:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')", "-u", "mistral", "-p", "trp-mistral", "--authenticationDatabase", "admin"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
+  mongodata:
