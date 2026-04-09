@@ -73,7 +73,13 @@ class DataAgent:
         self.logger.info(f"\tmax_iterations: {self.max_iterations}")
         self.llm_call_count = 0
         load_dotenv()
-        if "gpt" in deployment_name.lower():
+        
+        if "/" in deployment_name:
+            self.client = OpenAI(
+                api_key=os.getenv("OPENROUTER_API_KEY"),
+                base_url="https://openrouter.ai/api/v1",
+            )
+        elif "gpt" in deployment_name.lower():
             self.client = AzureOpenAI(
                 api_key=os.getenv("AZURE_API_KEY"),
                 api_version=os.getenv("AZURE_API_VERSION"),
