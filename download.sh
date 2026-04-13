@@ -22,13 +22,13 @@ echo "Downloading database (~5GB)..."
 # Create directory if needed
 mkdir -p "$(dirname "$OUTPUT_PATH")"
 
-# Download using gdown
-if ! command -v gdown &> /dev/null; then
+# Download using gdown (python -m avoids ~/.local/bin not being on PATH)
+if ! python3 -c "import gdown" 2>/dev/null; then
     echo "gdown not found. Installing..."
     pip install gdown
 fi
 
-gdown --id "$FILE_ID" -O "$OUTPUT_PATH"
+python3 -m gdown "https://drive.google.com/uc?id=${FILE_ID}" -O "$OUTPUT_PATH"
 
 echo "Download complete."
 

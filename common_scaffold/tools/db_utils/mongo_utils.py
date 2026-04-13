@@ -30,13 +30,20 @@ def load_db(dump_folder: str, db_name: str):
         #     ["mongorestore", f"--nsInclude={db_name}.*", dump_path],
         #     check=True
         # )
-        result = subprocess.run(
-            ["mongorestore", f"--nsInclude={db_name}.*", dump_path],
-            check=True,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.PIPE,
-            text=True
-        )
+        cmd = [db_config.MONGORESTORE, f"--uri={db_config.MONGO_URI}", f"--nsInclude={db_name}.*", str(dump_path)]
+        try:
+            result = subprocess.run(
+                cmd,
+                check=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE,
+                text=True,
+            )
+        except FileNotFoundError as e:
+            raise FatalError(
+                f"mongorestore not found ({db_config.MONGORESTORE!r}). Install MongoDB Database Tools "
+                f"(package is often `mongodb-database-tools`) or set MONGORESTORE in .env to the full path to mongorestore."
+            ) from e
         if result.stdout:
             logging.getLogger(__name__).debug(f"MongoDB load stdout: {result.stdout}")
         if result.stderr:

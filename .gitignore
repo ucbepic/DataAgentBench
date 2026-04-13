@@ -7,8 +7,15 @@ __pycache__/
 # results
 results/
 
+# agent run logs (data_agent traces, llm_calls, exec_tool_work_dir, etc.)
+query_*/query*/logs/
+# executor temp scripts (also removed after each run in ExecTool)
+query_*/query*/logs/**/tmp_code_*.py
+
 # dependencies
 requirements.txt
+Miniconda3-*.sh
+Anaconda3-*.sh
 
 # scripts
 python_script/

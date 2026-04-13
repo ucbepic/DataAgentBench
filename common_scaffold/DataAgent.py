@@ -7,6 +7,7 @@ from datetime import datetime
 import time
 import logging
 from openai import AzureOpenAI, OpenAI
+from openai import BadRequestError
 from openai.types.chat import ChatCompletionMessage, ChatCompletionMessageToolCall
 from dotenv import load_dotenv
 from common_scaffold.prompts import prompt_builder
@@ -73,11 +74,17 @@ class DataAgent:
         self.logger.info(f"\tmax_iterations: {self.max_iterations}")
         self.llm_call_count = 0
         load_dotenv()
-        if "gpt" in deployment_name.lower():
+        use_openrouter = bool(os.getenv("OPENROUTER_API_KEY")) and "/" in deployment_name and not deployment_name.lower().startswith("gemini")
+        if "gpt" in deployment_name.lower() and not use_openrouter:
             self.client = AzureOpenAI(
                 api_key=os.getenv("AZURE_API_KEY"),
                 api_version=os.getenv("AZURE_API_VERSION"),
                 azure_endpoint=os.getenv("AZURE_API_BASE")
+            )
+        elif deployment_name.lower().startswith("openrouter/") or "openrouter" in deployment_name.lower() or use_openrouter:
+            self.client = OpenAI(
+                api_key=os.getenv("OPENROUTER_API_KEY"),
+                base_url="https://openrouter.ai/api/v1",
             )
         elif "gemini" in deployment_name.lower():
             self.client = OpenAI(
@@ -191,13 +198,27 @@ class DataAgent:
         start = time.time()
         response = None
         for attempt in range(3):
-            try: 
-                response = self.client.chat.completions.create(
-                    model=self.deployment_name,
-                    messages=self.messages,
-                    tools=[tool.get_spec() for tool in self.tools.values()],
-                    timeout=600,
-                )
+            try:
+                tool_specs = [tool.get_spec() for tool in self.tools.values()]
+                try:
+                    response = self.client.chat.completions.create(
+                        model=self.deployment_name,
+                        messages=self.messages,
+                        tools=tool_specs,
+                        tool_choice="required",
+                        timeout=600,
+                    )
+                except BadRequestError as e:
+                    # Some providers reject tool_choice="required"; retry without it.
+                    if "tool_choice" in str(e).lower():
+                        response = self.client.chat.completions.create(
+                            model=self.deployment_name,
+                            messages=self.messages,
+                            tools=tool_specs,
+                            timeout=600,
+                        )
+                    else:
+                        raise
                 break
             except Exception as e:
                 response = None

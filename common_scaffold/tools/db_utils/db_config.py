@@ -12,6 +12,8 @@ load_dotenv()
 
 # MongoDB
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
+# Path to mongorestore (MongoDB Database Tools); use full path if not on PATH
+MONGORESTORE = os.getenv("MONGORESTORE", "mongorestore")
 
 # SQLite
 SQLITE_PATH = os.getenv("SQLITE_PATH", "data/mydb.sqlite")

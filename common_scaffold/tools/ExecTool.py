@@ -11,6 +11,20 @@ import os
 import json
 
 
+def _unlink_tmp_code_scripts(work_dir: Path, logger: logging.Logger) -> None:
+    """Remove DockerCommandLineCodeExecutor temp scripts (tmp_code_<hash>.py) from work_dir."""
+    try:
+        if not work_dir.is_dir():
+            return
+        for path in work_dir.glob("tmp_code_*.py"):
+            try:
+                path.unlink(missing_ok=True)
+            except OSError as e:
+                logger.debug("Could not remove %s: %s", path, e)
+    except OSError as e:
+        logger.debug("tmp_code cleanup skipped: %s", e)
+
+
 class ExecTool(BaseTool):
     """
     A robust, synchronous interface around AutoGen's DockerCommandLineCodeExecutor.
@@ -151,6 +165,7 @@ class ExecTool(BaseTool):
     def close(self):
         """Explicit shutdown method."""
         self._stop_executor()
+        _unlink_tmp_code_scripts(self.work_dir, self.logger)
         self._loop.stop()
         self._loop.close()
 
@@ -185,53 +200,47 @@ class ExecTool(BaseTool):
     
     def _exec(self, args):
         super()._exec(args)
-        if "code" in args:
-            env_args = args["env"]
-            exec_str = f'''code = """{args["code"]}"""\n\nenv_args = {env_args}\n\nexec(code, env_args)\n'''
-            result = self.run_python(exec_str)
-        elif "command" in args:
-            result = self.run_shell(args["command"])
-        else:
-            raise FatalError("Invalid argument")
-        
-        
-        self.logger.debug(f"ExecTool execution result: {result}")
-        # Log artifact
-        artifact_entry = {"val_args": args}
         try:
-            artifact_entry['exit_code'] = result.exit_code
-        except:
-            # artifact_entry['exit_code'] = None
-            raise FatalError("Execution did not return an exit code")
-        try:
-            artifact_entry['output'] = result.output
-        except:
-            # artifact_entry['output'] = None
-            raise FatalError("Execution did not return output")
-        try:
-            artifact_entry['code_file'] = str(result.code_file)
-        except:
-            # artifact_entry['code_file'] = None
-            raise FatalError("Execution did not return code file")
-        with open(self.artifact_log_path, "a", encoding="utf-8") as f:
-            f.write(json.dumps(artifact_entry) + "\n")
-
-        
-        if result.exit_code != 0:
-            # Handle timeout case separately
-            if "code execution was cancelled" in result.output.lower():
-                raise TimeoutError(f"Execution timed out after {self.timeout} seconds")
-            try:
-                clean_err = result.output.strip().splitlines()[-1]
-            except: # fallback
-                clean_err = result.output
-            raise ValueError(f"Execution failed with exit code {result.exit_code}\n{clean_err}")
-        else:
             if "code" in args:
-                # Parse output for PRINT FORMAT
+                env_args = args["env"]
+                exec_str = f'''code = """{args["code"]}"""\n\nenv_args = {env_args}\n\nexec(code, env_args)\n'''
+                result = self.run_python(exec_str)
+            elif "command" in args:
+                result = self.run_shell(args["command"])
+            else:
+                raise FatalError("Invalid argument")
+
+            self.logger.debug(f"ExecTool execution result: {result}")
+            # Log artifact
+            artifact_entry = {"val_args": args}
+            try:
+                artifact_entry['exit_code'] = result.exit_code
+            except Exception:
+                raise FatalError("Execution did not return an exit code")
+            try:
+                artifact_entry['output'] = result.output
+            except Exception:
+                raise FatalError("Execution did not return output")
+            try:
+                artifact_entry['code_file'] = str(result.code_file)
+            except Exception:
+                raise FatalError("Execution did not return code file")
+            with open(self.artifact_log_path, "a", encoding="utf-8") as f:
+                f.write(json.dumps(artifact_entry) + "\n")
+
+            if result.exit_code != 0:
+                # Handle timeout case separately
+                if "code execution was cancelled" in result.output.lower():
+                    raise TimeoutError(f"Execution timed out after {self.timeout} seconds")
+                try:
+                    clean_err = result.output.strip().splitlines()[-1]
+                except Exception:
+                    clean_err = result.output
+                raise ValueError(f"Execution failed with exit code {result.exit_code}\n{clean_err}")
+            if "code" in args:
                 parsed_output = parse_result_python(result.output)
                 self.logger.debug(f"Parsed ExecTool output: {parsed_output}")
                 return parsed_output
-            else:
-                return result.output
-        
+            return result.output
+        finally:
+            _unlink_tmp_code_scripts(self.work_dir, self.logger)
