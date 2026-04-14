@@ -37,6 +37,9 @@ common_scaffold/*_backup/
 # benchmark run logs
 query_*/query*/logs/
 
+# backups
+backup/
+
 # datasets
 query_civic_unstructured/
 query_paper_unstructured/
