@@ -31,7 +31,7 @@ def load_db(dump_folder: str, db_name: str):
         #     check=True
         # )
         result = subprocess.run(
-            ["mongorestore", f"--nsInclude={db_name}.*", dump_path],
+            ["mongorestore", f"--uri={db_config.MONGO_URI}", f"--nsInclude={db_name}.*", "--drop", str(dump_path)],
             check=True,
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
