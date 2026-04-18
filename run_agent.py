@@ -104,7 +104,7 @@ if __name__ == "__main__":
         # Reload KB on every pass — picks up corrections appended by prior passes
         kb_context = ""
         if kb_dir and kb_dir.exists():
-            kb_context = load_kb(kb_dir, dataset=args.dataset)
+            kb_context = load_kb(kb_dir, dataset=args.dataset, query_id=args.query_id)
             logger.info(f"Pass {pass_num}: loaded KB context ({len(kb_context)} chars) from {kb_dir}")
         elif args.use_kb:
             logger.warning(f"KB directory not found: {kb_dir}. Running without KB context.")

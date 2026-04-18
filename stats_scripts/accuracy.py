@@ -1,5 +1,6 @@
 import os
 import sys
+import argparse
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from common_scaffold.validate.pass_k import pass_at_k_list
@@ -9,6 +10,8 @@ import logging
 import json
 
 ROOT = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+KB_MARKER = "# KNOWLEDGE BASE CONTEXT"
 
 
 def discover_runs(result_dir: Path):
@@ -24,6 +27,30 @@ def discover_runs(result_dir: Path):
             except ValueError:
                 continue
     return sorted(runs)
+
+
+def run_uses_kb(result_dir: Path, run_id: int) -> bool | None:
+    """Return True if the run's prompt contains KB context, False if not, None if unknown."""
+    final_path = result_dir / f"run_{run_id}" / "final_agent.json"
+    if not final_path.exists():
+        return None
+    try:
+        with open(final_path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, OSError):
+        return None
+    for msg in data.get("messages", []):
+        if msg.get("role") == "user" and KB_MARKER in str(msg.get("content", "")):
+            return True
+    return False
+
+
+def filter_runs_by_kb(result_dir: Path, runs: list, kb_mode: str | None) -> list:
+    """Filter runs by KB presence. kb_mode: 'kb-only', 'no-kb-only', or None (no filter)."""
+    if kb_mode is None:
+        return runs
+    keep_kb = (kb_mode == "kb-only")
+    return [r for r in runs if run_uses_kb(result_dir, r) is keep_kb]
 
 
 def get_model_from_run(result_dir: Path, run_id: int):
@@ -92,7 +119,22 @@ def find_result_dir(query_dir: Path):
     return None
 
 
+def _parse_args():
+    p = argparse.ArgumentParser(description="Per-query accuracy / pass@1 across discovered runs.")
+    g = p.add_mutually_exclusive_group()
+    g.add_argument("--kb-only", action="store_true",
+                   help="Only include runs whose prompt contained the KNOWLEDGE BASE CONTEXT block.")
+    g.add_argument("--no-kb-only", action="store_true",
+                   help="Only include runs whose prompt did NOT contain KB context.")
+    return p.parse_args()
+
+
 if __name__ == "__main__":
+    args = _parse_args()
+    kb_mode = "kb-only" if args.kb_only else ("no-kb-only" if args.no_kb_only else None)
+    if kb_mode:
+        print(f"# Filtering runs: {kb_mode}")
+
     datasets = [
         d.name.replace("query_", "")
         for d in sorted(ROOT.iterdir())
@@ -120,6 +162,7 @@ if __name__ == "__main__":
             if result_dir is None:
                 continue
             runs = discover_runs(result_dir)
+            runs = filter_runs_by_kb(result_dir, runs, kb_mode)
             if not runs:
                 continue
 
@@ -133,4 +176,5 @@ if __name__ == "__main__":
                   f"reasons={dict(reasons)}")
 
         if not has_results:
-            print(f"{dataset}: no runs found")
+            label = f" ({kb_mode})" if kb_mode else ""
+            print(f"{dataset}: no runs found{label}")
