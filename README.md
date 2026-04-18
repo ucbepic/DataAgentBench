@@ -81,8 +81,13 @@ To contribute your agent's results to the DAB leaderboard:
   * [Add API Credentials](#add-api-credentials)
 * [▶️ Run the Benchmark](#️-run-the-benchmark)
   * [Run the Built-in Agent](#run-the-built-in-agent-on-a-single-query)
+  * [Run with Knowledge Base (--use_kb)](#run-with-knowledge-base---use_kb)
   * [Execution Logs](#execution-logs)
   * [Validate Agent Answer](#validate-agent-answer)
+* [📈 Scoring & Analysis](#-scoring--analysis)
+  * [Pass@k Explained](#passk-explained)
+  * [Score Local Runs (accuracy.py)](#score-local-runs-accuracypy)
+  * [Score benchmark results (avg_accuracy.py)](#score-benchmark-results-avg_accuracypy)
 * [📝 Datasets and Queries](#-datasets-and-queries)
   * [Dataset](#dataset)
   * [Query](#query)
@@ -267,6 +272,42 @@ python run_agent.py \
 ```
 
 
+### Run with Knowledge Base (`--use_kb`)
+
+The agent can load context from the [oracle-forge KB](../oracle-forge-data-agent/kb/) at session start — corrections from past failures, join key rules, and column semantics — to avoid repeating known mistakes.
+
+**Prerequisites:** set `ORACLE_FORGE_KB_DIR` in `.env` or pass `--kb_dir` explicitly:
+
+```bash
+# .env
+ORACLE_FORGE_KB_DIR=../oracle-forge-data-agent/kb
+```
+
+**Single run with KB context:**
+
+```bash
+python run_agent.py \
+    --dataset yelp \
+    --query_id 3 \
+    --llm claude-sonnet-4-6 \
+    --use_kb
+```
+
+**Multi-pass self-correction** — on failure the agent writes a correction entry to the KB and retries with it loaded:
+
+```bash
+python run_agent.py \
+    --dataset yelp \
+    --query_id 3 \
+    --llm claude-sonnet-4-6 \
+    --use_kb \
+    --max_passes 3
+```
+
+Each pass is saved as a separate run directory (`run_0`, `run_0_pass2`, `run_0_pass3`). Corrections are appended to `kb/corrections/log.md` between passes and reloaded before each retry.
+
+> Only content relevant to the target dataset is injected — corrections, join keys, and schemas are filtered by dataset tag to keep the context window lean.
+
 ### Execution Logs
 
 Logs for this run will be saved under:
@@ -353,6 +394,101 @@ The validation result follows this structure:
 }
 ```
 
+
+## 📈 Scoring & Analysis
+
+### Pass@k Explained
+
+Pass@k measures the probability that at least one of k independent runs returns the correct answer:
+
+| Metric | Meaning |
+|--------|---------|
+| **pass@1** | Single-run accuracy — the fraction of runs that are correct |
+| **pass@5** | Probability of getting the right answer in 5 tries |
+| **pass@50** | Upper bound — are any of 50 runs correct? |
+
+DAB uses **pass@1** as the primary leaderboard metric computed over 50 trials per query. During development, 5 trials is sufficient for quick iteration.
+
+### Score Local Runs (`accuracy.py`)
+
+[`stats_scripts/accuracy.py`](stats_scripts/accuracy.py) scans your local `query_*/query{N}/logs/data_agent/` directories, discovers all completed runs, validates each against ground truth, and prints per-query pass@k scores.
+
+**Run from the repo root — no arguments needed:**
+
+```bash
+python stats_scripts/accuracy.py
+```
+
+**Example output:**
+
+```
+yelp/query1  model=claude-sonnet-4-6  runs=5  correct=3/5  pass@1=0.6000  reasons={'return_answer': 5}
+yelp/query2  model=claude-sonnet-4-6  runs=5  correct=2/5  pass@1=0.4000  reasons={'return_answer': 4, 'max_iterations': 1}
+bookreview/query1  model=claude-sonnet-4-6  runs=5  correct=5/5  pass@1=1.0000  reasons={'return_answer': 5}
+```
+
+Each line reports: dataset/query, model, run count, correct count, pass@1, and how runs terminated. `max_iterations` in `reasons` means the agent hit the iteration cap without returning an answer — a signal to investigate.
+
+**Check a single query:**
+
+```python
+from pathlib import Path
+from stats_scripts.accuracy import pass_k_per_query, discover_runs
+
+query_dir = Path("query_yelp/query3")
+result_dir = query_dir / "logs" / "data_agent"
+
+runs = discover_runs(result_dir)
+correct, passk, reasons = pass_k_per_query(query_dir, result_dir, runs)
+
+print(f"Correct: {correct}/{len(runs)}")
+print(f"pass@1:  {passk['pass@1']:.4f}")
+print(f"pass@5:  {passk.get('pass@5', 'n/a')}")
+```
+
+**Validate a single completed run:**
+
+```bash
+python failure_analysis/check_run.py --dataset yelp --query_id 3 --run_name run_0
+```
+
+This prints PASS/FAIL with the agent answer and ground truth side by side. On failure, add `--use_kb` to save a draft correction for IO review:
+
+```bash
+python failure_analysis/check_run.py --dataset yelp --query_id 3 --run_name run_0 --use_kb
+```
+
+See [`failure_analysis/README.md`](failure_analysis/README.md) for the full correction workflow.
+
+### Score benchmark results (`avg_accuracy.py`)
+
+[`stats_scripts/avg_accuracy.py`](stats_scripts/avg_accuracy.py) computes dataset-level pass@1 averaged across all queries, designed for the upstream benchmark submission structure (`results-{model}/`).
+
+Organize 50 runs per query under:
+
+```
+results-<model>/
+└─ query_<dataset>/
+   └─ query<N>/
+      └─ data_agent/
+         ├─ run_0/
+         ├─ run_1/
+         ├─ ...
+         └─ run_49/
+```
+
+Then call:
+
+```python
+from stats_scripts.avg_accuracy import avg_acc
+
+score = avg_acc("yelp", "claude-sonnet-4-6")
+print(f"yelp pass@1: {score:.4f}")
+```
+
+Or run the script directly to print a CSV table across all datasets and models defined in the file.
+
+> Use `accuracy.py` during development (reads from local `logs/` dirs). Use `avg_accuracy.py` when preparing a leaderboard submission (reads from `results-{model}/`).
 
 ## 📝 Datasets and Queries
 
