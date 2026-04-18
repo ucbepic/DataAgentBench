@@ -1,0 +1,284 @@
+[
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.547."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "IN (Indiana) - avg 3.547, 7 items."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "IN (Indianapolis, Indiana) - avg 3.547."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "IN (Indiana) - avg 3.55."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "IN (Indiana) - avg 3.55."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "PA (Pennsylvania) - avg 3.699, 662 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "PA (Pennsylvania) - avg 3.699, 662 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "PA (Pennsylvania) - avg 3.699, 662 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "PA (Pennsylvania) - avg 3.699, 662 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "PA (Pennsylvania) - avg 3.70, 662 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "35 businesses that received reviews offered either business parking or bike parking during 2018."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "During 2018, 67 businesses that received reviews offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "35 businesses that received reviews in 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "During 2018, 67 businesses that received reviews offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "During 2018, 67 businesses that received reviews offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "Restaurants has the largest number of businesses that accept credit card payments, with an average rating of 3.63."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "Restaurants has the largest number of businesses that accept credit card payments, with an average rating of 3.63."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "Restaurants has the largest number of businesses that accept credit card payments - avg 3.63, 27 items."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "Restaurants has the largest number of businesses that accept credit card payments, with an average rating of 3.63."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "Restaurants has the largest number of businesses that accept credit card payments, with an average rating of 3.63."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "The database returned an error and does not contain the state with the highest number of businesses offering WiFi. The average rating is not available."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "PA (Pennsylvania) - avg 3.48, 8 WiFi businesses."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "PA (Pennsylvania) - avg 3.48, 8 WiFi businesses."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "PA (Pennsylvania) - avg 3.48, 8 WiFi businesses."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "PA (Pennsylvania) - avg 3.48, 8 WiFi businesses."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "Coffee House Too Cafe - 4.545, Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "Coffee House Too Cafe - 4.545, belongs to: Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "Coffee House Too Cafe - 4.545, belongs to: Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "Coffee House Too Cafe - 4.55, belongs to: Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "Coffee House Too Cafe - 4.55 belongs to: Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "The top 5 business categories with the most total reviews from users who registered on Yelp in 2016 are: Restaurants (58 total reviews), Food (35 total reviews), American (New) (24 total reviews), Shopping (20 total reviews), and Breakfast & Brunch (19 total reviews)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "The top 5 business categories with the most total reviews from Yelp users who registered in 2016 are: Restaurants (58 total reviews), Food (35 total reviews), American (New) (24 total reviews), Shopping (20 total reviews), and Breakfast & Brunch (19 total reviews)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "The top business categories receiving reviews from Yelp users who registered in 2016, ranked by total reviews since 2016, are: Restaurants - 58 total reviews; Food - 35 total reviews; American (New) - 24 total reviews; Shopping - 20 total reviews; Breakfast & Brunch - 19 total reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "The top 5 business categories with the most total reviews from users who registered on Yelp in 2016 are: Restaurants (58 total reviews), Food (35 total reviews), American (New) (24 total reviews), Shopping (20 total reviews), and Breakfast & Brunch (19 total reviews)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "The top 5 business categories receiving the most total reviews from Yelp users who registered in 2016 are: Restaurants, Food, American (New), Shopping, and Breakfast & Brunch."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "2020 - avg rating not available."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "Here are the English-language books in the 'Literature & Fiction' category with a perfect average rating of 5.0: 'Profound Character Transformation through Crisis', 'Service was absolutely great', 'True Life Novel with heart' and others. Note: database returned review titles rather than book titles \u2014 a schema resolution issue was detected."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "Based on the provided SQLite database results, the database returned review text rather than book titles \u2014 a schema join issue prevented correct resolution. The query was attempted but returned incorrect results."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "I am unable to answer the question. The provided database results only contain a list of repository names, but lack the data needed to determine the proportion of README.md files that include copyright information."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "I am unable to answer the question. The provided database results only contain a list of repository names, but lack the data needed to determine the most frequently copied non-binary Swift file in the dataset and its associated repository."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "I am unable to answer the question because the provided database results do not contain information about commit messages, programming languages, or licenses."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "Based on available data: juliandunn/rackspacecloud, michaellihs/gitlab, vyorkin/xftp, airatshigapov/drophunter, xMarkusSpringerx/coloranalyzer. Note: database query returned incorrect top repositories \u2014 join across tables was not resolved correctly."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "I could not produce a reliable answer because all database queries failed. Please retry after fixing the failing query path."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "I could not produce a reliable answer because all database queries failed. Please retry after fixing the failing query path."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "I could not produce a reliable answer because all database queries failed. Please retry after fixing the failing query path."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "I could not produce a reliable answer because all database queries failed. Please retry after fixing the failing query path."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "I could not produce a reliable answer because all database queries failed. Please retry after fixing the failing query path."
+  }
+]
