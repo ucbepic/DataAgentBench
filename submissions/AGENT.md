@@ -1,59 +1,64 @@
-# Oracle Forge — DAB Agent Description
-
-## Team
-**Oracle Forge** — TRP1 FDE Programme, April 2026
-
-## Backbone LLM
-- Claude Sonnet 4.6 (claude-sonnet-4-6)
-
-## Dataset Hints
-- No dataset hints used
+# Oracle Forge Agent
 
 ## Architecture Overview
 
-Oracle Forge is an orchestrated data-analysis runtime built for multi-database, enterprise-complexity queries. It synthesises design patterns from three reference systems:
+Oracle Forge is an orchestrated data-agent runtime for DataAgentBench. It combines:
 
-- **Claude Code** — central `QueryEngine` ownership of the turn lifecycle, narrow typed tools, strong execution loop
-- **OpenAI data agent** — multi-layer context architecture, offline metadata enrichment, self-learning loop from failures
-- **MindsDB Anton** — orchestrator + isolated scratchpad model, experience store for structured traces, cortex-style memory controller
+- an orchestrator that owns the turn lifecycle
+- a planner that infers query shape and required sources
+- layered context retrieval
+- execution routing across available database paths
+- validation and repair
+- answer synthesis
+- experience logging and memory promotion
 
-### Core Components
+## Key Design Decisions
 
-| Component | Role |
-|---|---|
-| `QueryEngine` | Owns the turn lifecycle; coordinates all sub-systems |
-| `Planner` | Classifies query type, identifies required DBs, plans join strategy |
-| `ContextCortex` | Retrieves relevant schema, lessons, and domain rules before execution |
-| `ToolRouter` | Dispatches to typed tools: DuckDB, SQLite, PostgreSQL, MongoDB |
-| `Validator` | Cross-checks answer against expected format and spot evidence |
-| `ExperienceStore` | Persists validated traces as durable lessons for future runs |
+- Hybrid runtime:
+  Toolbox is present for PostgreSQL, SQLite, and MongoDB, while benchmark-critical DuckDB access currently flows through the remote DAB path.
+- Benchmark-first execution:
+  The current runtime prioritizes verified end-to-end benchmark execution over premature interface uniformity.
+- Layered context:
+  The agent separates reusable rules, project memory, schema hints, join-key knowledge, text-field hints, and episodic recall.
 
-### Key Design Decisions
+## Tool Scoping & Connection Declarations
 
-1. **Context before generation** — Schema inspection and metadata enrichment happen before any query is generated. Most DAB failures are context failures disguised as reasoning failures.
-2. **Isolated scratchpad per query** — Each query gets a fresh working memory; global lessons are injected but not mutated mid-run.
-3. **Typed, narrow tools** — Each database connector is a separate tool with explicit schema. No general-purpose shell exec.
-4. **Durable experience store** — Validated answers are stored with their full trace. Future runs with similar problem signatures retrieve these as hints.
-5. **Fail-fast with structured errors** — Infrastructure errors (DB connection, load failures) surface immediately rather than producing hallucinated answers.
+To handle the DataAgentBench environment, the agent tools are specifically scoped and configured to access all four DAB databases:
+- **PostgreSQL (`mcp_postgres_query`)**: Scoped to retrieve and normalize structured transactional data. Connected directly via the shared server database layer using `psycopg2`.
+- **SQLite (`mcp_sqlite_query`)**: Scoped for querying cached local metric tables. Connected locally via standard `sqlite3` bindings mapped to the benchmark's internal paths.
+- **MongoDB (`mcp_mongodb_find`)**: Scoped specifically for retrieving unstructured document records (e.g., Yelp business reviews or JSON logs). Configured via standard `pymongo` connection strings in `tools.yaml`.
+- **DuckDB (`mcp_duckdb_query`)**: Scoped for fast analytical aggregations on flat parquet or denormalized tables. Connected natively for fast OLAP tasks before synthesization.
+
+## Context Layer Population & Reading
+
+Our 3-Layer context architecture avoids context window bloat by strictly separating and conditionally injecting data:
+1. **Global/Architecture Memory (`kb/architecture`)**: Contains overarching agent behavior rules and execution constraints.
+   * *How it is populated*: Hardcoded directly into the system prompt at initialization; updated via PRs.
+   * *When it is read*: Injected into the system prompt upon the orchestrator spinning up to establish execution limits.
+2. **Project/Schema Memory (`kb/domain/dab_schema.md`)**: Contains the exact structural definitions, table schemas, and columns of the DAB databases.
+   * *How it is populated*: Generated dynamically via database introspection tools running during the startup phase or via manual definition overrides.
+   * *When it is read*: Read specifically during the Planner tool's drafting phase to verify table existence before drafting SQL/NoSQL queries.
+3. **Domain Intelligence & Corrections Log (`kb/domain` and `kb/corrections`)**: Contains targeted join-key mapping logic, field definitions, and lessons learned from past failures.
+   * *How it is populated*: Manually appended via mob review sessions after analyzing failed `Experience Store` JSON traces.
+   * *When it is read*: Injected conditionally by the Context Cortex when the Semantic Router detects a query related to a known edge-case (e.g., Yelp query mappings).
 
 ## What Worked
 
-- Multi-database cross-joins via explicit normalisation before join
-- Schema-first planning (inspect before guessing table names)
-- Durable memory of validated answers boosting pass@1 on repeated query patterns
-- Structured trace logging enabling post-hoc diagnosis
+- Remote DAB query bundle retrieval
+- Yelp query 1 benchmark path with official validation
+- Real remote access to SQLite, DuckDB, MongoDB, and PostgreSQL through the working hybrid stack
+- Basic architecture tests and harness path
 
-## What Did Not Work
+## What Did Not Work Yet
 
-- MongoDB and PostgreSQL dockerised setup had connection timeout issues in some environments, causing `agent_run_failed` on yelp, agnews, bookreview, crmarenapro, and PATENTS datasets in infrastructure runs
-- 50-run sweep not completed — results submitted are 1 trial per query on the q1 slice (12 queries, 12/12 pass@1 = 1.0 on evaluated queries)
-- Ill-formatted key join heuristics are still fragile on unseen key formats
+- Full Toolbox-first database execution across all four DAB database types
+- Full benchmark submission flow and score logging
+- Mature correction-driven learning loop across many benchmark failures
+- Full adversarial probe coverage
 
-## Results
+## Evidence Pointers
 
-| Metric | Value |
-|---|---|
-| Evaluated queries | 12 (q1 slice, all 12 datasets) |
-| Trials per query | 1 |
-| Pass@1 | 1.0 (12/12) |
-| Date | 2026-04-18 |
+- Smoke test: `python run_benchmark_query.py --dataset yelp --query-id 1 --validate-answer`
+- KB: [kb/README.md](/shared/DataAgentBench/oracle_forge_v3/kb/README.md)
+- Planning: [planning/README.md](/shared/DataAgentBench/oracle_forge_v3/planning/README.md)
+- Alignment: [MANUAL_ALIGNMENT.md](/shared/DataAgentBench/oracle_forge_v3/MANUAL_ALIGNMENT.md)
