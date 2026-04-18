@@ -77,7 +77,7 @@ class MongoQueryDBTool:
         collection = query_json["collection"]
         filter = query_json.get("filter", {})
         projection = query_json.get("projection", None)
-        limit = query_json.get("limit", 5)
+        limit = query_json.get("limit", None)
         return {
             "db_name": db_client['db_name'],
             "collection": collection,
