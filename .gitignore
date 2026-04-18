@@ -36,6 +36,7 @@ common_scaffold/*_backup/
 
 # benchmark run logs
 query_*/query*/logs/
+runs_logs/
 
 # backups
 backup/
