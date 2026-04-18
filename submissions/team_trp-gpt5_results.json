@@ -1,0 +1,53 @@
+{
+  "benchmark": "DataAgentBench",
+  "team": "Oracle Forge",
+  "date": "2026-04-18",
+  "summary": {
+    "total_queries": 54,
+    "trials_per_query": 50,
+    "pass_at_1": 0.42,
+    "pass_at_10": 0.58
+  },
+  "results": [
+    { "query_id": "yelp_q1",  "dataset": "YELP",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "yelp_q2",  "dataset": "YELP",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "yelp_q3",  "dataset": "YELP",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "yelp_q4",  "dataset": "YELP",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "yelp_q5",  "dataset": "YELP",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "yelp_q6",  "dataset": "YELP",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "yelp_q7",  "dataset": "YELP",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q1",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q2",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q3",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q4",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q5",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q6",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q7",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q8",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q9",  "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q10", "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q11", "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q12", "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "crmarenapro_q13", "dataset": "CRM_ARENA_PRO", "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "deps_dev_v1_q1",  "dataset": "DEPS_DEV_V1",   "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "deps_dev_v1_q2",  "dataset": "DEPS_DEV_V1",   "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "bookreview_q1",   "dataset": "BOOKREVIEW",     "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "bookreview_q2",   "dataset": "BOOKREVIEW",     "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "bookreview_q3",   "dataset": "BOOKREVIEW",     "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "geo_q1",          "dataset": "GEO",            "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "geo_q2",          "dataset": "GEO",            "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "geo_q3",          "dataset": "GEO",            "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "agnews_q1",       "dataset": "AGNEWS",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "agnews_q2",       "dataset": "AGNEWS",         "success_rate": 1.0, "trials": 50, "passed": 50, "status": "pass" },
+    { "query_id": "agnews_q3",       "dataset": "AGNEWS",         "success_rate": 0.0, "trials": 50, "passed": 0,  "status": "fail" },
+    { "query_id": "agnews_q4",       "dataset": "AGNEWS",         "success_rate": 0.0, "trials": 50, "passed": 0,  "status": "fail" }
+  ],
+  "dataset_summary": {
+    "YELP":         { "queries": 7,  "passed": 7,  "failed": 0, "status": "full_pass" },
+    "CRM_ARENA_PRO":{ "queries": 13, "passed": 13, "failed": 0, "status": "full_pass" },
+    "DEPS_DEV_V1":  { "queries": 2,  "passed": 2,  "failed": 0, "status": "full_pass" },
+    "BOOKREVIEW":   { "queries": 3,  "passed": 3,  "failed": 0, "status": "full_pass" },
+    "GEO":          { "queries": 3,  "passed": 3,  "failed": 0, "status": "full_pass" },
+    "AGNEWS":       { "queries": 4,  "passed": 2,  "failed": 2, "status": "partial" }
+  }
+}
