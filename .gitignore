@@ -313,3 +313,5 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+common_scaffold/correction_analyzer.py
+.claude/settings.json
