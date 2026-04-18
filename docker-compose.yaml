@@ -1,0 +1,82 @@
+services:
+  python-data:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: python-data:3.12
+    command: ["echo", "image built"]
+
+  postgres:
+    image: postgres:17
+    container_name: dab-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: trp-mistral
+      POSTGRES_DB: dab
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # Mount SQL init files so you can load them with psql from inside the container
+      - ./query_bookreview/query_dataset:/data/bookreview:ro
+      - ./query_googlelocal/query_dataset:/data/googlelocal:ro
+      - ./query_PANCANCER_ATLAS/query_dataset:/data/pancancer:ro
+      - ./query_PATENTS/query_dataset:/data/patents:ro
+      - ./query_crmarenapro/query_dataset:/data/crmarenapro:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d dab"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  mongodb:
+    image: mongo:7
+    container_name: dab-mongodb
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mistral
+      MONGO_INITDB_ROOT_PASSWORD: trp-mistral
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongodata:/data/db
+      # Mount dump folders for mongorestore
+      - ./query_yelp/query_dataset/yelp_business:/data/yelp_business:ro
+      - ./query_agnews/query_dataset/agnews_articles:/data/agnews_articles:ro
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')", "-u", "mistral", "-p", "trp-mistral", "--authenticationDatabase", "admin"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  mongo-init:
+    image: mongo:7
+    container_name: dab-mongo-init
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./query_yelp/query_dataset/yelp_business:/dumps/yelp_business:ro
+      - ./query_agnews/query_dataset/agnews_articles:/dumps/agnews_articles:ro
+    entrypoint: >
+      bash -c '
+        for dump_dir in /dumps/*/; do
+          for db_dir in "$$dump_dir"*/; do
+            db_name=$$(basename "$$db_dir")
+            existing=$$(mongosh "mongodb://mistral:trp-mistral@mongodb:27017/$$db_name?authSource=admin" --quiet --eval "db.getCollectionNames().length")
+            if [ "$$existing" -gt 0 ]; then
+              echo "Database $$db_name already has data, skipping."
+            else
+              echo "Restoring $$db_name from $$db_dir..."
+              mongorestore --uri="mongodb://mistral:trp-mistral@mongodb:27017/?authSource=admin" --db "$$db_name" "$$db_dir"
+              echo "Restored $$db_name."
+            fi
+          done
+        done
+        echo "Mongo init complete."
+      '
+
+volumes:
+  pgdata:
+  mongodata:

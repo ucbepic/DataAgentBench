@@ -52,14 +52,15 @@ The tool {tool_name} execution failed. The error message is:
 
 class DataAgent:
     def __init__(
-            self, 
-            query_dir: Path, 
-            db_description: str, 
-            db_config_path: str, 
+            self,
+            query_dir: Path,
+            db_description: str,
+            db_config_path: str,
             deployment_name: str,
             exec_python_timeout: int = 600,
             max_iterations: int = 100,
             root_name: str = datetime.now().strftime("%Y%m%d_%H%M%S"),
+            kb_context: str = "",
         ):
         self.logger = logging.getLogger(__name__)
 
@@ -73,7 +74,13 @@ class DataAgent:
         self.logger.info(f"\tmax_iterations: {self.max_iterations}")
         self.llm_call_count = 0
         load_dotenv()
-        if "gpt" in deployment_name.lower():
+        
+        if "/" in deployment_name:
+            self.client = OpenAI(
+                api_key=os.getenv("OPENROUTER_API_KEY"),
+                base_url="https://openrouter.ai/api/v1",
+            )
+        elif "gpt" in deployment_name.lower():
             self.client = AzureOpenAI(
                 api_key=os.getenv("AZURE_API_KEY"),
                 api_version=os.getenv("AZURE_API_VERSION"),
@@ -130,6 +137,7 @@ class DataAgent:
             user_query=user_query,
             db_description=db_description,
             deployment_name=deployment_name,
+            kb_context=kb_context,
         )
         self.final_result = None
         self.terminate_reason = None
@@ -344,15 +352,15 @@ class DataAgent:
             assert self.final_result != None
             self.terminate_reason = "max_iterations"
     
-    # def validate(self):
-    #     val_result = validate(
-    #         query_dir=self.query_dir,
-    #         llm_answer=self.final_result,
-    #         reason=self.terminate_reason,
-    #     )
-    #     with open(self.validation_log_path, "a", encoding="utf-8") as f:
-    #         f.write(json.dumps(val_result) + "\n")
-    #     return val_result
+    def validate(self):
+        val_result = validate(
+            query_dir=self.query_dir,
+            llm_answer=self.final_result,
+            reason=self.terminate_reason,
+        )
+        with open(self.validation_log_path, "a", encoding="utf-8") as f:
+            f.write(json.dumps(val_result) + "\n")
+        return val_result
         
     
     def run(self):

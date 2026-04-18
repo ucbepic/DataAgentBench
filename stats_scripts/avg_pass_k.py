@@ -1,78 +1,93 @@
 import os
 import sys
+import argparse
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from pathlib import Path
-import logging_config
-
-from stats_scripts.accuracy import pass_k_per_query
+from stats_scripts.accuracy import (
+    pass_k_per_query,
+    discover_runs,
+    find_result_dir,
+    get_model_from_run,
+    filter_runs_by_kb,
+)
 from common_scaffold.validate.pass_k import K_LIST
 
 ROOT = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-def avg_pass_k(dataset, model):
-    query_dir = ROOT / f"query_{dataset}"
-    result_dir = ROOT / f"results-{model}" / f"query_{dataset}"
+
+
+def avg_pass_k(dataset, kb_mode: str | None = None):
+    """Compute average pass@k across all queries for a dataset.
+
+    Auto-discovers runs and reads the model from the log files.
+    kb_mode: 'kb-only', 'no-kb-only', or None (no filter).
+    """
+    query_base = ROOT / f"query_{dataset}"
 
     query_ids = []
-    for query_path in query_dir.iterdir():
-        if query_path.is_dir() and query_path.name.startswith("query"):
+    for folder in sorted(query_base.iterdir()):
+        if folder.is_dir() and folder.name.startswith("query"):
             try:
-                query_id = int(query_path.name.replace("query", ""))
-                query_ids.append(query_id)
+                qid = int(folder.name.replace("query", ""))
+                query_ids.append(qid)
             except ValueError:
                 continue
 
-    query_ids = sorted(query_ids)
+    if not query_ids:
+        return None, None
 
     pass_k_sums = {k: 0.0 for k in K_LIST}
-    for query_id in query_ids:
-        q_dir = query_dir / f"query{query_id}"
-        r_dir = result_dir / f"query{query_id}"
-        if "gemini" in model or "gpt-5-mini" in model or "gpt-5.2" in model or "kimi" in model:
-            r_dir = r_dir / "data_agent" 
-        runs = list(range(50))
-        accuracy, pass_k_results, reasons = pass_k_per_query(q_dir, r_dir, runs)
+    counted = 0
+    model = "unknown"
+
+    for qid in query_ids:
+        query_dir = query_base / f"query{qid}"
+        result_dir = find_result_dir(query_dir)
+        if result_dir is None:
+            continue
+        runs = discover_runs(result_dir)
+        runs = filter_runs_by_kb(result_dir, runs, kb_mode)
+        if not runs:
+            continue
+
+        model = get_model_from_run(result_dir, runs[0])
+        _, passk_results, _ = pass_k_per_query(query_dir, result_dir, runs)
         for k in K_LIST:
-            pass_k_sums[k] += pass_k_results[f"pass@{k}"]
-    
-    avg_pass_k = {k: v / len(query_ids) for k, v in pass_k_sums.items()}
-    return avg_pass_k
+            pass_k_sums[k] += passk_results[f"pass@{k}"]
+        counted += 1
+
+    if counted == 0:
+        return None, None
+
+    avg = {k: v / counted for k, v in pass_k_sums.items()}
+    return model, avg
 
 
+def _parse_args():
+    p = argparse.ArgumentParser(description="Dataset-level mean pass@k across discovered runs.")
+    g = p.add_mutually_exclusive_group()
+    g.add_argument("--kb-only", action="store_true",
+                   help="Only include runs whose prompt contained the KNOWLEDGE BASE CONTEXT block.")
+    g.add_argument("--no-kb-only", action="store_true",
+                   help="Only include runs whose prompt did NOT contain KB context.")
+    return p.parse_args()
 
 
 if __name__ == "__main__":
-    model_list = [
-        "gpt-5.2",
-        "gpt-5-mini",
-        "gemini-3-pro",
-        "gemini-2.5-flash",
-        "kimi-k2-thinking"
-    ]
-    dataset_list = [
-        "bookreview",
-        "crmarenapro",
-        "DEPS_DEV_V1",
-        "GITHUB_REPOS",
-        "googlelocal",
-        "PANCANCER_ATLAS",
-        "PATENTS",
-        "stockindex",
-        "stockmarket",
-        "yelp",
-        "agnews",
-        "music_brainz_20k",
-    ]
-    # for each dataset, plot pass@k for each model on one subplot
-    for i, dataset in enumerate(dataset_list):
-        result_str = f"{dataset},"
-        for model in model_list:
-            avg_pass_k_results = avg_pass_k(dataset, model)
-            assert sorted(avg_pass_k_results.keys()) == K_LIST
-            pass_k_values = [avg_pass_k_results[k] for k in K_LIST]
-            for v in pass_k_values:
-                result_str += f"{v:.4f},"
+    args = _parse_args()
+    kb_mode = "kb-only" if args.kb_only else ("no-kb-only" if args.no_kb_only else None)
+    if kb_mode:
+        print(f"# Filtering runs: {kb_mode}")
 
-        print(result_str)
-        
-    
+    datasets = [
+        d.name.replace("query_", "")
+        for d in sorted(ROOT.iterdir())
+        if d.is_dir() and d.name.startswith("query_") and d.name != "query_dataset"
+    ]
+
+    for dataset in datasets:
+        model, results = avg_pass_k(dataset, kb_mode=kb_mode)
+        if results is None:
+            continue
+        k_str = "  ".join(f"pass@{k}={v:.4f}" for k, v in results.items())
+        print(f"{dataset}  model={model}  {k_str}")

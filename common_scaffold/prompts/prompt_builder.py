@@ -74,7 +74,7 @@ Do not output explanations, reasoning, or any natural language outside of the re
 """.replace("{PREVIEW_LENGTH}", str(PREVIEW_LENGTH))
 
 
-def init_messages(user_query: str, db_description: str, deployment_name: str, system_prompt: str=SYSTEM_PROMPT) -> list[dict]:
+def init_messages(user_query: str, db_description: str, deployment_name: str, system_prompt: str=SYSTEM_PROMPT, kb_context: str="") -> list[dict]:
     system_prompt_suffix = ""
     if "gemini" in deployment_name.lower():
         tool_call_instructions = GEMINI_TOOL_CALL_INSTRUCTIONS
@@ -89,7 +89,12 @@ def init_messages(user_query: str, db_description: str, deployment_name: str, sy
         tool_call_instructions = CLAUDE_TOOL_CALL_INSTRUCTIONS
     else:
         raise ValueError(f"Unknown deployment_name: {deployment_name}")
-    
+
+    user_content = f"QUERY:\n{user_query.strip()}\n\nDATABASE DESCRIPTION:\n{db_description.strip()}"
+
+    if kb_context.strip():
+        user_content += f"\n\n{kb_context.strip()}"
+
     return [
         {
             "role": "system",
@@ -97,6 +102,6 @@ def init_messages(user_query: str, db_description: str, deployment_name: str, sy
         },
         {
             "role": "user",
-            "content": f"QUERY:\n{user_query.strip()}\n\nDATABASE DESCRIPTION:\n{db_description.strip()}"
+            "content": user_content
         }
     ]
