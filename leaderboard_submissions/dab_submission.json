@@ -1,0 +1,1784 @@
+[
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "5",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "16/111 (0.1441)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "16/111 (0.1441)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "16/111 (0.1441)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "16/111 (0.1441)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "16/111 (0.1441)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "5",
+    "answer": "16/111 (0.1441)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "243.9091"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "243.9091"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "243.9091"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "243.9091"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "243.9091"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "Europe"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "Europe"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "Europe"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "Europe"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "Europe"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "I need to join book publication years with ratings, compute decades, and find which decade with \u226510 distinct rated books has the highest average rating."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "I need to join the book data with ratings, extract publication years, group by decade, and find the decade with highest average rating among those with \u226510 distinct rated books."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "I need to join book_id with purchase_id by matching the number (bookid_N \u2192 purchaseid_N), assign decades, then find the decade with \u226510 distinct books and highest average rating."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "I need to join book_id\u2192decade mapping with purchase_id\u2192avg_rating, where book_id number matches purchase_id number."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "I need to join book_id from postgres with purchase_id from sqlite (bookid_N \u2192 purchaseid_N), then compute decade averages."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "I need to join the two datasets. The join rule is books_info.book_id = review.purchase_id, but the IDs use different prefixes: \"bookid_X\" vs \"purchaseid_X\". I'll match on the numeric suffix."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "I need to join the two datasets. The books_info uses `book_id` like \"bookid_9\", and reviews use `purchase_id` like \"purchaseid_9\". I need to match the numeric parts."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "Budget, Authority, Need, Timeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "Budget, Authority, Need, Timeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "Budget, Authority, Need, Timeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "5",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "I need to analyze this step by step using the available data."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "I need to join the two datasets: match account IDs from the opportunity-agent mapping with the order totals, then sum totals by agent."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "I need to join the two datasets: match account IDs from the DuckDB results (agent mappings) with the SQLite results (sales totals), then sum sales by agent."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "I need to join the two datasets: match account IDs from the opportunity-agent mapping with the order totals, then sum by agent."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "I need to join the opportunity-to-agent mappings with the order totals by account_id, then sum totals per agent."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "I need to join the two datasets: match account_ids from the opportunity-agent mapping with account totals, then sum by agent."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "Let me analyze the quote against the knowledge articles."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "5",
+    "answer": "None"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "6",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "Discovery"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "5",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "5",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "5",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "None"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "None"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "None"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "None"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "FL"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "1",
+    "run": "0",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript,2.6.2\n@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dylanvann/svelte,3.25.4\n@dumc11/tailwindcss,0.4.0\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4\n@dollarshaveclub/cli>1.1.0>lodash,4.17.4\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n@dollarshaveclub/cli>1.10.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.0>lodash,4.17.5\n@dollarshaveclub/cli>1.11.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.2>lodash,4.17.4\n@dollarshaveclub/cli>1.11.3>lodash,4.17.4\n@dollarshaveclub/cli>1.11.4>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5>lodash,4.17.11\n@dollarshaveclub/cli>1.12.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.1>lodash,4.17.11\n@dollarshaveclub/cli>1.2.0>lodash,4.17.4\n@dollarshaveclub/cli>1.3.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.1>lodash,4.17.4\n@dollarshaveclub/cli>1.5.2>lodash,4.17.4\n@dollarshaveclub/cli>1.5.3>lodash,4.17.4\n@dollarshaveclub/cli>1.5.4>lodash,4.17.4\n@dollarshaveclub/cli>1.5.5>lodash,4.17.4\n@dollarshaveclub/cli>1.5.6>lodash,4.17.4\n@dollarshaveclub/cli>1.5.7>lodash,4.17.4\n@dollarshaveclub/cli>1.6.0>lodash,4.17.4\n@dollarshaveclub/cli>1.7.1>lodash,4.17.5\n@dollarshaveclub/cli>1.8.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.1>lodash,4.17.5\n@dollarshaveclub/cli>2.0.0>lodash,4.17.11\n@dollarshaveclub/cli>2.0.1>lodash,4.17.11\n@dollarshaveclub/cli>2.1.0>lodash,4.17.11\n@dollarshaveclub/cli>2.1.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.0>lodash,4.17.11\n@dollarshaveclub/cli>2.2.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.2>lodash,4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>lodash,4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone,3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor,3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative,3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign,4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep,4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond,4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith,4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof,4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments,3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray,3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys,3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words,3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep,3.0.2\n@dummmy/pack-cli>1.0.8>lodash,4.17.19\n@dummmy/pack-cli>1.0.9>lodash,4.17.19\n@dummmy/webpack-cli>1.0.2>lodash,4.17.19\n@dummmy/webpack-cli>1.0.3>lodash,4.17.19\n@dummmy/webpack-cli>1.0.4>lodash,4.17.19\n@dummmy/webpack-cli>1.0.5>lodash,4.17.19\n@dummmy/webpack-cli>1.0.6>lodash,4.17.19\n@dummmy/webpack-cli>1.0.7>lodash,4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash,4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone,3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor,3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative,3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign,4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep,3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond,4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof,4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments,3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray,3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys,3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby,4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words,3.2.0"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "1",
+    "run": "1",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript,2.6.2\n@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dylanvann/svelte,3.25.4\n@dumc11/tailwindcss,0.4.0\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4\n@dollarshaveclub/cli>1.1.0>lodash,4.17.4\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n@dollarshaveclub/cli>1.10.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.0>lodash,4.17.5\n@dollarshaveclub/cli>1.11.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.2>lodash,4.17.4\n@dollarshaveclub/cli>1.11.3>lodash,4.17.4\n@dollarshaveclub/cli>1.11.4>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5>lodash,4.17.11\n@dollarshaveclub/cli>1.12.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.1>lodash,4.17.11\n@dollarshaveclub/cli>1.2.0>lodash,4.17.4\n@dollarshaveclub/cli>1.3.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.1>lodash,4.17.4\n@dollarshaveclub/cli>1.5.2>lodash,4.17.4\n@dollarshaveclub/cli>1.5.3>lodash,4.17.4\n@dollarshaveclub/cli>1.5.4>lodash,4.17.4\n@dollarshaveclub/cli>1.5.5>lodash,4.17.4\n@dollarshaveclub/cli>1.5.6>lodash,4.17.4\n@dollarshaveclub/cli>1.5.7>lodash,4.17.4\n@dollarshaveclub/cli>1.6.0>lodash,4.17.4\n@dollarshaveclub/cli>1.7.1>lodash,4.17.5\n@dollarshaveclub/cli>1.8.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.1>lodash,4.17.5\n@dollarshaveclub/cli>2.0.0>lodash,4.17.11\n@dollarshaveclub/cli>2.0.1>lodash,4.17.11\n@dollarshaveclub/cli>2.1.0>lodash,4.17.11\n@dollarshaveclub/cli>2.1.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.0>lodash,4.17.11\n@dollarshaveclub/cli>2.2.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.2>lodash,4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>lodash,4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone,3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor,3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative,3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign,4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep,4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond,4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith,4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof,4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments,3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray,3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys,3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words,3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep,3.0.2\n@dummmy/pack-cli>1.0.8>lodash,4.17.19\n@dummmy/pack-cli>1.0.9>lodash,4.17.19\n@dummmy/webpack-cli>1.0.2>lodash,4.17.19\n@dummmy/webpack-cli>1.0.3>lodash,4.17.19\n@dummmy/webpack-cli>1.0.4>lodash,4.17.19\n@dummmy/webpack-cli>1.0.5>lodash,4.17.19\n@dummmy/webpack-cli>1.0.6>lodash,4.17.19\n@dummmy/webpack-cli>1.0.7>lodash,4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash,4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone,3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor,3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative,3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign,4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep,3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond,4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof,4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments,3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray,3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys,3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby,4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words,3.2.0"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "1",
+    "run": "2",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript,2.6.2\n@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dylanvann/svelte,3.25.4\n@dumc11/tailwindcss,0.4.0\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4\n@dollarshaveclub/cli>1.1.0>lodash,4.17.4\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n@dollarshaveclub/cli>1.10.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.0>lodash,4.17.5\n@dollarshaveclub/cli>1.11.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.2>lodash,4.17.4\n@dollarshaveclub/cli>1.11.3>lodash,4.17.4\n@dollarshaveclub/cli>1.11.4>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5>lodash,4.17.11\n@dollarshaveclub/cli>1.12.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.1>lodash,4.17.11\n@dollarshaveclub/cli>1.2.0>lodash,4.17.4\n@dollarshaveclub/cli>1.3.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.1>lodash,4.17.4\n@dollarshaveclub/cli>1.5.2>lodash,4.17.4\n@dollarshaveclub/cli>1.5.3>lodash,4.17.4\n@dollarshaveclub/cli>1.5.4>lodash,4.17.4\n@dollarshaveclub/cli>1.5.5>lodash,4.17.4\n@dollarshaveclub/cli>1.5.6>lodash,4.17.4\n@dollarshaveclub/cli>1.5.7>lodash,4.17.4\n@dollarshaveclub/cli>1.6.0>lodash,4.17.4\n@dollarshaveclub/cli>1.7.1>lodash,4.17.5\n@dollarshaveclub/cli>1.8.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.1>lodash,4.17.5\n@dollarshaveclub/cli>2.0.0>lodash,4.17.11\n@dollarshaveclub/cli>2.0.1>lodash,4.17.11\n@dollarshaveclub/cli>2.1.0>lodash,4.17.11\n@dollarshaveclub/cli>2.1.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.0>lodash,4.17.11\n@dollarshaveclub/cli>2.2.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.2>lodash,4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>lodash,4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone,3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor,3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative,3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign,4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep,4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond,4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith,4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof,4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments,3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray,3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys,3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words,3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep,3.0.2\n@dummmy/pack-cli>1.0.8>lodash,4.17.19\n@dummmy/pack-cli>1.0.9>lodash,4.17.19\n@dummmy/webpack-cli>1.0.2>lodash,4.17.19\n@dummmy/webpack-cli>1.0.3>lodash,4.17.19\n@dummmy/webpack-cli>1.0.4>lodash,4.17.19\n@dummmy/webpack-cli>1.0.5>lodash,4.17.19\n@dummmy/webpack-cli>1.0.6>lodash,4.17.19\n@dummmy/webpack-cli>1.0.7>lodash,4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash,4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone,3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor,3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative,3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign,4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep,3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond,4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof,4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments,3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray,3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys,3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby,4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words,3.2.0"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "1",
+    "run": "3",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript,2.6.2\n@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dylanvann/svelte,3.25.4\n@dumc11/tailwindcss,0.4.0\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4\n@dollarshaveclub/cli>1.1.0>lodash,4.17.4\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n@dollarshaveclub/cli>1.10.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.0>lodash,4.17.5\n@dollarshaveclub/cli>1.11.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.2>lodash,4.17.4\n@dollarshaveclub/cli>1.11.3>lodash,4.17.4\n@dollarshaveclub/cli>1.11.4>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5>lodash,4.17.11\n@dollarshaveclub/cli>1.12.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.1>lodash,4.17.11\n@dollarshaveclub/cli>1.2.0>lodash,4.17.4\n@dollarshaveclub/cli>1.3.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.1>lodash,4.17.4\n@dollarshaveclub/cli>1.5.2>lodash,4.17.4\n@dollarshaveclub/cli>1.5.3>lodash,4.17.4\n@dollarshaveclub/cli>1.5.4>lodash,4.17.4\n@dollarshaveclub/cli>1.5.5>lodash,4.17.4\n@dollarshaveclub/cli>1.5.6>lodash,4.17.4\n@dollarshaveclub/cli>1.5.7>lodash,4.17.4\n@dollarshaveclub/cli>1.6.0>lodash,4.17.4\n@dollarshaveclub/cli>1.7.1>lodash,4.17.5\n@dollarshaveclub/cli>1.8.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.1>lodash,4.17.5\n@dollarshaveclub/cli>2.0.0>lodash,4.17.11\n@dollarshaveclub/cli>2.0.1>lodash,4.17.11\n@dollarshaveclub/cli>2.1.0>lodash,4.17.11\n@dollarshaveclub/cli>2.1.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.0>lodash,4.17.11\n@dollarshaveclub/cli>2.2.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.2>lodash,4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>lodash,4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone,3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor,3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative,3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign,4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep,4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond,4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith,4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof,4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments,3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray,3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys,3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words,3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep,3.0.2\n@dummmy/pack-cli>1.0.8>lodash,4.17.19\n@dummmy/pack-cli>1.0.9>lodash,4.17.19\n@dummmy/webpack-cli>1.0.2>lodash,4.17.19\n@dummmy/webpack-cli>1.0.3>lodash,4.17.19\n@dummmy/webpack-cli>1.0.4>lodash,4.17.19\n@dummmy/webpack-cli>1.0.5>lodash,4.17.19\n@dummmy/webpack-cli>1.0.6>lodash,4.17.19\n@dummmy/webpack-cli>1.0.7>lodash,4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash,4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone,3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor,3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative,3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign,4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep,3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond,4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof,4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments,3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray,3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys,3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby,4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words,3.2.0"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "1",
+    "run": "4",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript,2.6.2\n@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dylanvann/svelte,3.25.4\n@dumc11/tailwindcss,0.4.0\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4\n@dollarshaveclub/cli>1.1.0>lodash,4.17.4\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n@dollarshaveclub/cli>1.10.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.0>lodash,4.17.5\n@dollarshaveclub/cli>1.11.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.2>lodash,4.17.4\n@dollarshaveclub/cli>1.11.3>lodash,4.17.4\n@dollarshaveclub/cli>1.11.4>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5>lodash,4.17.11\n@dollarshaveclub/cli>1.12.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.1>lodash,4.17.11\n@dollarshaveclub/cli>1.2.0>lodash,4.17.4\n@dollarshaveclub/cli>1.3.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.1>lodash,4.17.4\n@dollarshaveclub/cli>1.5.2>lodash,4.17.4\n@dollarshaveclub/cli>1.5.3>lodash,4.17.4\n@dollarshaveclub/cli>1.5.4>lodash,4.17.4\n@dollarshaveclub/cli>1.5.5>lodash,4.17.4\n@dollarshaveclub/cli>1.5.6>lodash,4.17.4\n@dollarshaveclub/cli>1.5.7>lodash,4.17.4\n@dollarshaveclub/cli>1.6.0>lodash,4.17.4\n@dollarshaveclub/cli>1.7.1>lodash,4.17.5\n@dollarshaveclub/cli>1.8.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.1>lodash,4.17.5\n@dollarshaveclub/cli>2.0.0>lodash,4.17.11\n@dollarshaveclub/cli>2.0.1>lodash,4.17.11\n@dollarshaveclub/cli>2.1.0>lodash,4.17.11\n@dollarshaveclub/cli>2.1.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.0>lodash,4.17.11\n@dollarshaveclub/cli>2.2.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.2>lodash,4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>lodash,4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone,3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor,3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative,3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign,4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep,4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond,4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith,4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof,4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments,3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray,3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys,3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words,3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep,3.0.2\n@dummmy/pack-cli>1.0.8>lodash,4.17.19\n@dummmy/pack-cli>1.0.9>lodash,4.17.19\n@dummmy/webpack-cli>1.0.2>lodash,4.17.19\n@dummmy/webpack-cli>1.0.3>lodash,4.17.19\n@dummmy/webpack-cli>1.0.4>lodash,4.17.19\n@dummmy/webpack-cli>1.0.5>lodash,4.17.19\n@dummmy/webpack-cli>1.0.6>lodash,4.17.19\n@dummmy/webpack-cli>1.0.7>lodash,4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash,4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone,3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor,3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative,3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign,4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep,3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond,4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof,4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments,3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray,3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys,3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby,4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words,3.2.0"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "1",
+    "run": "5",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript,2.6.2\n@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dylanvann/svelte,3.25.4\n@dumc11/tailwindcss,0.4.0\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4\n@dollarshaveclub/cli>1.1.0>lodash,4.17.4\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n@dollarshaveclub/cli>1.10.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.0>lodash,4.17.5\n@dollarshaveclub/cli>1.11.1>lodash,4.17.5\n@dollarshaveclub/cli>1.11.2>lodash,4.17.4\n@dollarshaveclub/cli>1.11.3>lodash,4.17.4\n@dollarshaveclub/cli>1.11.4>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash,4.17.11\n@dollarshaveclub/cli>1.11.5>lodash,4.17.11\n@dollarshaveclub/cli>1.12.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.0>lodash,4.17.11\n@dollarshaveclub/cli>1.13.1>lodash,4.17.11\n@dollarshaveclub/cli>1.2.0>lodash,4.17.4\n@dollarshaveclub/cli>1.3.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.0>lodash,4.17.4\n@dollarshaveclub/cli>1.5.1>lodash,4.17.4\n@dollarshaveclub/cli>1.5.2>lodash,4.17.4\n@dollarshaveclub/cli>1.5.3>lodash,4.17.4\n@dollarshaveclub/cli>1.5.4>lodash,4.17.4\n@dollarshaveclub/cli>1.5.5>lodash,4.17.4\n@dollarshaveclub/cli>1.5.6>lodash,4.17.4\n@dollarshaveclub/cli>1.5.7>lodash,4.17.4\n@dollarshaveclub/cli>1.6.0>lodash,4.17.4\n@dollarshaveclub/cli>1.7.1>lodash,4.17.5\n@dollarshaveclub/cli>1.8.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.0>lodash,4.17.5\n@dollarshaveclub/cli>1.9.1>lodash,4.17.5\n@dollarshaveclub/cli>2.0.0>lodash,4.17.11\n@dollarshaveclub/cli>2.0.1>lodash,4.17.11\n@dollarshaveclub/cli>2.1.0>lodash,4.17.11\n@dollarshaveclub/cli>2.1.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.0>lodash,4.17.11\n@dollarshaveclub/cli>2.2.1>lodash,4.17.11\n@dollarshaveclub/cli>2.2.2>lodash,4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash,4.16.3\n@dpoineau/react-scripts>1.0.0>lodash,4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone,3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor,3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder,3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative,3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign,4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase,3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep,4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond,4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr,3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith,4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof,4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments,3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray,3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys,3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby,4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words,3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep,3.0.2\n@dummmy/pack-cli>1.0.8>lodash,4.17.19\n@dummmy/pack-cli>1.0.9>lodash,4.17.19\n@dummmy/webpack-cli>1.0.2>lodash,4.17.19\n@dummmy/webpack-cli>1.0.3>lodash,4.17.19\n@dummmy/webpack-cli>1.0.4>lodash,4.17.19\n@dummmy/webpack-cli>1.0.5>lodash,4.17.19\n@dummmy/webpack-cli>1.0.6>lodash,4.17.19\n@dummmy/webpack-cli>1.0.7>lodash,4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash,4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone,3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor,3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder,3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative,3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign,4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase,3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep,3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond,4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr,3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof,4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments,3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray,3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys,3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby,4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words,3.2.0"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "2",
+    "run": "0",
+    "answer": "mui-org/material-ui\nmoment/moment\nsemantic-org/semantic-ui\nreact-native-elements/react-native-elements\nsveltejs/svelte"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "2",
+    "run": "1",
+    "answer": "mui-org/material-ui\nmoment/moment\nsemantic-org/semantic-ui\nreact-native-elements/react-native-elements\nsveltejs/svelte"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "2",
+    "run": "2",
+    "answer": "mui-org/material-ui\nmoment/moment\nsemantic-org/semantic-ui\nreact-native-elements/react-native-elements\nsveltejs/svelte"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "2",
+    "run": "3",
+    "answer": "mui-org/material-ui\nmoment/moment\nsemantic-org/semantic-ui\nreact-native-elements/react-native-elements\nsveltejs/svelte"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "2",
+    "run": "4",
+    "answer": "mui-org/material-ui\nmoment/moment\nsemantic-org/semantic-ui\nreact-native-elements/react-native-elements\nsveltejs/svelte"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": "2",
+    "run": "5",
+    "answer": "mui-org/material-ui\nmoment/moment\nsemantic-org/semantic-ui\nreact-native-elements/react-native-elements\nsveltejs/svelte"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "1",
+    "run": "0",
+    "answer": "0.3"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "1",
+    "run": "1",
+    "answer": "0.3"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "1",
+    "run": "2",
+    "answer": "0.3"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "1",
+    "run": "3",
+    "answer": "0.3"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "1",
+    "run": "4",
+    "answer": "0.3"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "2",
+    "run": "0",
+    "answer": "The repository is SwiftAndroid/swift"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "2",
+    "run": "1",
+    "answer": "The repository is SwiftAndroid/swift"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "2",
+    "run": "2",
+    "answer": "The repository is SwiftAndroid/swift"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "2",
+    "run": "3",
+    "answer": "The repository is SwiftAndroid/swift"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "2",
+    "run": "4",
+    "answer": "The repository is SwiftAndroid/swift"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "2",
+    "run": "5",
+    "answer": "The repository is SwiftAndroid/swift"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "3",
+    "run": "0",
+    "answer": "1077"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "3",
+    "run": "1",
+    "answer": "1077"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "3",
+    "run": "2",
+    "answer": "1077"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "3",
+    "run": "3",
+    "answer": "1077"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "3",
+    "run": "4",
+    "answer": "1077"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "3",
+    "run": "5",
+    "answer": "1077"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "4",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "4",
+    "run": "1",
+    "answer": "apple/swift, twbs/bootstrap, Microsoft/vscode, facebook/react, tensorflow/tensorflow"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "4",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "4",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "4",
+    "run": "4",
+    "answer": "apple/swift, twbs/bootstrap, Microsoft/vscode, facebook/react, tensorflow/tensorflow"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "4",
+    "run": "5",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "github_repos",
+    "query": "4",
+    "run": "6",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "5",
+    "answer": "Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "Elite Massage,5.0\nAngel-A Massage,4.333333\nAurora Massage,4.178571\nJ B Oriental Inc,4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "Elite Massage,5.0\nAngel-A Massage,4.333333\nAurora Massage,4.178571\nJ B Oriental Inc,4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "Elite Massage,5.0\nAngel-A Massage,4.333333\nAurora Massage,4.178571\nJ B Oriental Inc,4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "Elite Massage,5.0\nAngel-A Massage,4.333333\nAurora Massage,4.178571\nJ B Oriental Inc,4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "Elite Massage,5.0\nAngel-A Massage,4.333333\nAurora Massage,4.178571\nJ B Oriental Inc,4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "5",
+    "answer": "Elite Massage,5.0\nAngel-A Massage,4.333333\nAurora Massage,4.178571\nJ B Oriental Inc,4.166667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "Mariscos el poblano,[[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM\u20133:30PM\"], [\"Saturday\", \"8AM\u20133:30PM\"], [\"Sunday\", \"8AM\u20133:30PM\"], [\"Monday\", \"9AM\u20133:30AM\"], [\"Tuesday\", \"8AM\u20133:30PM\"], [\"Wednesday\", \"8AM\u20133:30PM\"]],5.0\nTACOS LA CABANA,[[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]],5.0\nTaba Rug Gallery,[[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]],5.0\nBeauty Divine Artistry,[[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]],5.0\nWhite Barn Candle Co,[[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]],5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "Mariscos el poblano,[[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM\u20133:30PM\"], [\"Saturday\", \"8AM\u20133:30PM\"], [\"Sunday\", \"8AM\u20133:30PM\"], [\"Monday\", \"9AM\u20133:30AM\"], [\"Tuesday\", \"8AM\u20133:30PM\"], [\"Wednesday\", \"8AM\u20133:30PM\"]],5.0\nTACOS LA CABANA,[[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]],5.0\nTaba Rug Gallery,[[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]],5.0\nBeauty Divine Artistry,[[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]],5.0\nWhite Barn Candle Co,[[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]],5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "Mariscos el poblano,[[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM\u20133:30PM\"], [\"Saturday\", \"8AM\u20133:30PM\"], [\"Sunday\", \"8AM\u20133:30PM\"], [\"Monday\", \"9AM\u20133:30AM\"], [\"Tuesday\", \"8AM\u20133:30PM\"], [\"Wednesday\", \"8AM\u20133:30PM\"]],5.0\nTACOS LA CABANA,[[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]],5.0\nTaba Rug Gallery,[[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]],5.0\nBeauty Divine Artistry,[[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]],5.0\nWhite Barn Candle Co,[[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]],5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "Mariscos el poblano,[[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM\u20133:30PM\"], [\"Saturday\", \"8AM\u20133:30PM\"], [\"Sunday\", \"8AM\u20133:30PM\"], [\"Monday\", \"9AM\u20133:30AM\"], [\"Tuesday\", \"8AM\u20133:30PM\"], [\"Wednesday\", \"8AM\u20133:30PM\"]],5.0\nTACOS LA CABANA,[[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]],5.0\nTaba Rug Gallery,[[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]],5.0\nBeauty Divine Artistry,[[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]],5.0\nWhite Barn Candle Co,[[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]],5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "Mariscos el poblano,[[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM\u20133:30PM\"], [\"Saturday\", \"8AM\u20133:30PM\"], [\"Sunday\", \"8AM\u20133:30PM\"], [\"Monday\", \"9AM\u20133:30AM\"], [\"Tuesday\", \"8AM\u20133:30PM\"], [\"Wednesday\", \"8AM\u20133:30PM\"]],5.0\nTACOS LA CABANA,[[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]],5.0\nTaba Rug Gallery,[[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]],5.0\nBeauty Divine Artistry,[[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]],5.0\nWhite Barn Candle Co,[[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]],5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "5",
+    "answer": "Mariscos el poblano,[[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM\u20133:30PM\"], [\"Saturday\", \"8AM\u20133:30PM\"], [\"Sunday\", \"8AM\u20133:30PM\"], [\"Monday\", \"9AM\u20133:30AM\"], [\"Tuesday\", \"8AM\u20133:30PM\"], [\"Wednesday\", \"8AM\u20133:30PM\"]],5.0\nTACOS LA CABANA,[[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]],5.0\nTaba Rug Gallery,[[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]],5.0\nBeauty Divine Artistry,[[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]],5.0\nWhite Barn Candle Co,[[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]],5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "5",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "5",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "Systemisch bled"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "Systemisch bled"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "Systemisch bled"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "Systemisch bled"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "Systemisch bled"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "1",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "1",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "1",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "1",
+    "run": "3",
+    "answer": "I need to analyze the raw query results more carefully. The queries attempted to find LGG patients with IGF2 expression, but the joins failed. Let me work with what's available."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "1",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "2",
+    "run": "0",
+    "answer": "Infiltrating Lobular Carcinoma, Mixed Histology (pleomorphic carcinoma), Metaplastic Carcinoma"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "2",
+    "run": "1",
+    "answer": "Infiltrating Lobular Carcinoma, Mixed Histology (pleomorphic carcinoma), Metaplastic Carcinoma"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "2",
+    "run": "2",
+    "answer": "Looking at the raw query results, I need to analyze the data available. The CDH1 mutation barcodes list contains 247 patients from various cancer types. The question asks specifically about BRCA patients who are alive, and which histological types show the highest percentage of CDH1 mutations."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "2",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "2",
+    "run": "4",
+    "answer": "Infiltrating Lobular Carcinoma, Infiltrating Ductal Carcinoma, Mucinous Carcinoma"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "3",
+    "run": "0",
+    "answer": "I need to work through this step by step using the available data."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "3",
+    "run": "1",
+    "answer": "I need to work through this problem carefully using the available data."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "3",
+    "run": "2",
+    "answer": "I need to work through this step by step using the available data."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "3",
+    "run": "3",
+    "answer": "I need to work through this step by step using the available data."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": "3",
+    "run": "4",
+    "answer": "I need to work through this step by step using the available data."
+  },
+  {
+    "dataset": "patents",
+    "query": "1",
+    "run": "0",
+    "answer": "A01B, A01C, A01G, A01H, A01K, A01N, A01P, A21B, A21C, A21D, A22B, A22C, A23C, A23D, A23F, A23J, A23K, A23L, A23N, A23P, A24B, A24D, A24F, A41G, A41H, A42C, A43B, A44B, A44C, A44D, A45C, A45D, A47B, A47D, A47F, A47H, A47J, A61"
+  },
+  {
+    "dataset": "patents",
+    "query": "1",
+    "run": "1",
+    "answer": "A01B, A01C, A01G, A01H, A01K, A01N, A01P, A21B, A21C, A21D, A22B, A22C, A23C, A23D, A23F, A23J, A23K, A23L, A23N, A23P, A24B, A24D, A24F, A41G, A41H, A42C, A43B, A44B, A44C, A44D, A45C, A45D, A47B, A47D, A47F, A47H, A47J, A61"
+  },
+  {
+    "dataset": "patents",
+    "query": "1",
+    "run": "2",
+    "answer": "A01B, A01C, A01G, A01H, A01K, A01N, A01P, A21B, A21C, A21D, A22B, A22C, A23C, A23D, A23F, A23J, A23K, A23L, A23N, A23P, A24B, A24D, A24F, A41G, A41H, A42C, A43B, A44B, A44C, A44D, A45C, A45D, A47B, A47D, A47F, A47H, A47J, A61"
+  },
+  {
+    "dataset": "patents",
+    "query": "1",
+    "run": "3",
+    "answer": "A01B, A01C, A01G, A01H, A01K, A01N, A01P, A21B, A21C, A21D, A22B, A22C, A23C, A23D, A23F, A23J, A23K, A23L, A23N, A23P, A24B, A24D, A24F, A41G, A41H, A42C, A43B, A44B, A44C, A44D, A45C, A45D, A47B, A47D, A47F, A47H, A47J, A61"
+  },
+  {
+    "dataset": "patents",
+    "query": "1",
+    "run": "4",
+    "answer": "A01B, A01C, A01G, A01H, A01K, A01N, A01P, A21B, A21C, A21D, A22B, A22C, A23C, A23D, A23F, A23J, A23K, A23L, A23N, A23P, A24B, A24D, A24F, A41G, A41H, A42C, A43B, A44B, A44C, A44D, A45C, A45D, A47B, A47D, A47F, A47H, A47J, A61"
+  },
+  {
+    "dataset": "patents",
+    "query": "2",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "2",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "2",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "2",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "2",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "3",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "3",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "3",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "3",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "patents",
+    "query": "3",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "5",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "5",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "IXIC (USA), NYA (USA), N225 (Japan), GDAXI (Germany), HSI (Hong Kong)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "IXIC (USA), NYA (USA), N225 (Japan), GDAXI (Germany), HSI (Hong Kong)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "I need to reason from the available data since the DCA simulation query returned no results."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "5",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "ProShares Ultra Bloomberg Natural Gas\nProShares UltraShort MSCI Brazil Capped\nDirexion Auspice Broad Commodity Strategy ETF\nDirexion Daily Gold Miners Index Bear 2X Shares\nDirexion Emerging Markets Bear 3X Shares\nDirexion Energy Bull 2X Shares\nDirexion Financial Bear 3X Shares\nProShares Ultrashort FTSE China 50\nGoldman Sachs Motif Finance Reimagined ETF\nDirexion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares\nXtrackers High Beta High Yield Bond ETF\nDirexion Daily Junior Gold Miners Index Bear 2X Shares\nDirexion Daily Junior Gold Miners Index Bull 2X Shares\nXtrackers Japan JPX-Nikkei 400 Equity ETF\nDirexion Daily S&P Biotech Bear 3X Shares\nDirexion Daily S&P Biotech Bull 3X Shares\nDirexion Daily Latin America 3x Bull Shares\nSPDR MidCap Trust Series I\nPacer Trendpilot International ETF\nPacer Benchmark Retail Real Estate SCTR ETF\nUltraPro Short Dow30\nDirexion Daily Semiconductor Bear 3x Shares\nProShares UltraShort Semiconductors\nDirexion Technology Bear 3X Shares\nDirexion Small Cap Bear 3X Shares\nProShares Trust Ultra VIX Short Term Futures ETF\nProShares Trust VIX Short-Term Futures ETF\nVirtus Private Credit Strategy ETF\nSPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF\nSPDR S&P Oil & Gas Exploration & Production\nDirexion Daily FTSE China Bear 3x Shares\nTotal: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "ProShares Ultra Bloomberg Natural Gas\nProShares UltraShort MSCI Brazil Capped\nDirexion Auspice Broad Commodity Strategy ETF\nDirexion Daily Gold Miners Index Bear 2X Shares\nDirexion Emerging Markets Bear 3X Shares\nDirexion Energy Bull 2X Shares\nDirexion Financial Bear 3X Shares\nProShares Ultrashort FTSE China 50\nGoldman Sachs Motif Finance Reimagined ETF\nDirexion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares\nXtrackers High Beta High Yield Bond ETF\nDirexion Daily Junior Gold Miners Index Bear 2X Shares\nDirexion Daily Junior Gold Miners Index Bull 2X Shares\nXtrackers Japan JPX-Nikkei 400 Equity ETF\nDirexion Daily S&P Biotech Bear 3X Shares\nDirexion Daily S&P Biotech Bull 3X Shares\nDirexion Daily Latin America 3x Bull Shares\nSPDR MidCap Trust Series I\nPacer Trendpilot International ETF\nPacer Benchmark Retail Real Estate SCTR ETF\nUltraPro Short Dow30\nDirexion Daily Semiconductor Bear 3x Shares\nProShares UltraShort Semiconductors\nDirexion Technology Bear 3X Shares\nDirexion Small Cap Bear 3X Shares\nProShares Trust Ultra VIX Short Term Futures ETF\nProShares Trust VIX Short-Term Futures ETF\nVirtus Private Credit Strategy ETF\nSPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF\nSPDR S&P Oil & Gas Exploration & Production\nDirexion Daily FTSE China Bear 3x Shares\nTotal: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "ProShares Ultra Bloomberg Natural Gas\nProShares UltraShort MSCI Brazil Capped\nDirexion Auspice Broad Commodity Strategy ETF\nDirexion Daily Gold Miners Index Bear 2X Shares\nDirexion Emerging Markets Bear 3X Shares\nDirexion Energy Bull 2X Shares\nDirexion Financial Bear 3X Shares\nProShares Ultrashort FTSE China 50\nGoldman Sachs Motif Finance Reimagined ETF\nDirexion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares\nXtrackers High Beta High Yield Bond ETF\nDirexion Daily Junior Gold Miners Index Bear 2X Shares\nDirexion Daily Junior Gold Miners Index Bull 2X Shares\nXtrackers Japan JPX-Nikkei 400 Equity ETF\nDirexion Daily S&P Biotech Bear 3X Shares\nDirexion Daily S&P Biotech Bull 3X Shares\nDirexion Daily Latin America 3x Bull Shares\nSPDR MidCap Trust Series I\nPacer Trendpilot International ETF\nPacer Benchmark Retail Real Estate SCTR ETF\nUltraPro Short Dow30\nDirexion Daily Semiconductor Bear 3x Shares\nProShares UltraShort Semiconductors\nDirexion Technology Bear 3X Shares\nDirexion Small Cap Bear 3X Shares\nProShares Trust Ultra VIX Short Term Futures ETF\nProShares Trust VIX Short-Term Futures ETF\nVirtus Private Credit Strategy ETF\nSPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF\nSPDR S&P Oil & Gas Exploration & Production\nDirexion Daily FTSE China Bear 3x Shares\nTotal: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "ProShares Ultra Bloomberg Natural Gas\nProShares UltraShort MSCI Brazil Capped\nDirexion Auspice Broad Commodity Strategy ETF\nDirexion Daily Gold Miners Index Bear 2X Shares\nDirexion Emerging Markets Bear 3X Shares\nDirexion Energy Bull 2X Shares\nDirexion Financial Bear 3X Shares\nProShares Ultrashort FTSE China 50\nGoldman Sachs Motif Finance Reimagined ETF\nDirexion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares\nXtrackers High Beta High Yield Bond ETF\nDirexion Daily Junior Gold Miners Index Bear 2X Shares\nDirexion Daily Junior Gold Miners Index Bull 2X Shares\nXtrackers Japan JPX-Nikkei 400 Equity ETF\nDirexion Daily S&P Biotech Bear 3X Shares\nDirexion Daily S&P Biotech Bull 3X Shares\nDirexion Daily Latin America 3x Bull Shares\nSPDR MidCap Trust Series I\nPacer Trendpilot International ETF\nPacer Benchmark Retail Real Estate SCTR ETF\nUltraPro Short Dow30\nDirexion Daily Semiconductor Bear 3x Shares\nProShares UltraShort Semiconductors\nDirexion Technology Bear 3X Shares\nDirexion Small Cap Bear 3X Shares\nProShares Trust Ultra VIX Short Term Futures ETF\nProShares Trust VIX Short-Term Futures ETF\nVirtus Private Credit Strategy ETF\nSPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF\nSPDR S&P Oil & Gas Exploration & Production\nDirexion Daily FTSE China Bear 3x Shares\nTotal: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "ProShares Ultra Bloomberg Natural Gas\nProShares UltraShort MSCI Brazil Capped\nDirexion Auspice Broad Commodity Strategy ETF\nDirexion Daily Gold Miners Index Bear 2X Shares\nDirexion Emerging Markets Bear 3X Shares\nDirexion Energy Bull 2X Shares\nDirexion Financial Bear 3X Shares\nProShares Ultrashort FTSE China 50\nGoldman Sachs Motif Finance Reimagined ETF\nDirexion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares\nXtrackers High Beta High Yield Bond ETF\nDirexion Daily Junior Gold Miners Index Bear 2X Shares\nDirexion Daily Junior Gold Miners Index Bull 2X Shares\nXtrackers Japan JPX-Nikkei 400 Equity ETF\nDirexion Daily S&P Biotech Bear 3X Shares\nDirexion Daily S&P Biotech Bull 3X Shares\nDirexion Daily Latin America 3x Bull Shares\nSPDR MidCap Trust Series I\nPacer Trendpilot International ETF\nPacer Benchmark Retail Real Estate SCTR ETF\nUltraPro Short Dow30\nDirexion Daily Semiconductor Bear 3x Shares\nProShares UltraShort Semiconductors\nDirexion Technology Bear 3X Shares\nDirexion Small Cap Bear 3X Shares\nProShares Trust Ultra VIX Short Term Futures ETF\nProShares Trust VIX Short-Term Futures ETF\nVirtus Private Credit Strategy ETF\nSPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF\nSPDR S&P Oil & Gas Exploration & Production\nDirexion Daily FTSE China Bear 3x Shares\nTotal: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "5",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "Apex Global Brands Inc,23781.42\nBIO-key International, Inc,10988.14\nCBAK Energy Technology, Inc,86223.32\nChina Ceramics Co., Ltd,4366.80\nCorrevio Pharma Corp,145247.83\nCounterPath Corporation,375.49\nDASAN Zhone Solutions, Inc,15578.66\nFuture FinTech Group Inc,9.85\nFrontier Communications Corporation,254397.63\nIdeanomics, Inc,10.28\nOcean Power Technologies, Inc,254.15\nPacific Ethanol, Inc,10706.72\nSynthesis Energy Systems, Inc,2390.51\nSunesis Pharmaceuticals, Inc,781.82\nSypris Solutions, Inc,36836.36\nTotal: 15"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "Apex Global Brands Inc,23781.42\nBIO-key International, Inc,10988.14\nCBAK Energy Technology, Inc,86223.32\nChina Ceramics Co., Ltd,4366.80\nCorrevio Pharma Corp,145247.83\nCounterPath Corporation,375.49\nDASAN Zhone Solutions, Inc,15578.66\nFuture FinTech Group Inc,9.85\nFrontier Communications Corporation,254397.63\nIdeanomics, Inc,10.28\nOcean Power Technologies, Inc,254.15\nPacific Ethanol, Inc,10706.72\nSynthesis Energy Systems, Inc,2390.51\nSunesis Pharmaceuticals, Inc,781.82\nSypris Solutions, Inc,36836.36\nTotal: 15"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "Apex Global Brands Inc,23781.42\nBIO-key International, Inc,10988.14\nCBAK Energy Technology, Inc,86223.32\nChina Ceramics Co., Ltd,4366.80\nCorrevio Pharma Corp,145247.83\nCounterPath Corporation,375.49\nDASAN Zhone Solutions, Inc,15578.66\nFuture FinTech Group Inc,9.85\nFrontier Communications Corporation,254397.63\nIdeanomics, Inc,10.28\nOcean Power Technologies, Inc,254.15\nPacific Ethanol, Inc,10706.72\nSynthesis Energy Systems, Inc,2390.51\nSunesis Pharmaceuticals, Inc,781.82\nSypris Solutions, Inc,36836.36\nTotal: 15"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "Apex Global Brands Inc,23781.42\nBIO-key International, Inc,10988.14\nCBAK Energy Technology, Inc,86223.32\nChina Ceramics Co., Ltd,4366.80\nCorrevio Pharma Corp,145247.83\nCounterPath Corporation,375.49\nDASAN Zhone Solutions, Inc,15578.66\nFuture FinTech Group Inc,9.85\nFrontier Communications Corporation,254397.63\nIdeanomics, Inc,10.28\nOcean Power Technologies, Inc,254.15\nPacific Ethanol, Inc,10706.72\nSynthesis Energy Systems, Inc,2390.51\nSunesis Pharmaceuticals, Inc,781.82\nSypris Solutions, Inc,36836.36\nTotal: 15"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "Apex Global Brands Inc,23781.42\nBIO-key International, Inc,10988.14\nCBAK Energy Technology, Inc,86223.32\nChina Ceramics Co., Ltd,4366.80\nCorrevio Pharma Corp,145247.83\nCounterPath Corporation,375.49\nDASAN Zhone Solutions, Inc,15578.66\nFuture FinTech Group Inc,9.85\nFrontier Communications Corporation,254397.63\nIdeanomics, Inc,10.28\nOcean Power Technologies, Inc,254.15\nPacific Ethanol, Inc,10706.72\nSynthesis Energy Systems, Inc,2390.51\nSunesis Pharmaceuticals, Inc,781.82\nSypris Solutions, Inc,36836.36\nTotal: 15"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "5",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "Essex Property Trust, Inc\nGeneral Dynamics Corporation\nMettler-Toledo International, Inc\nSaratoga Investment Corp\nSunlands Technology Group\nTotal: 5"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "Essex Property Trust, Inc\nGeneral Dynamics Corporation\nMettler-Toledo International, Inc\nSaratoga Investment Corp\nSunlands Technology Group\nTotal: 5"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "Essex Property Trust, Inc\nGeneral Dynamics Corporation\nMettler-Toledo International, Inc\nSaratoga Investment Corp\nSunlands Technology Group\nTotal: 5"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "Essex Property Trust, Inc\nGeneral Dynamics Corporation\nMettler-Toledo International, Inc\nSaratoga Investment Corp\nSunlands Technology Group\nTotal: 5"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "Viemed Healthcare, Inc\nTotal: 1"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "Viemed Healthcare, Inc\nTotal: 1"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "Viemed Healthcare, Inc\nTotal: 1"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "Viemed Healthcare, Inc\nTotal: 1"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "5",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "I need to join the MongoDB business data (with state info) to the DuckDB review data, group by state, sum reviews, find the max, then compute flat AVG rating."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "I need to join the MongoDB business data (with state info) to the DuckDB review data, group by state, sum reviews, find the max, then compute flat avg rating."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "I need to join the MongoDB business data (with state info) to the DuckDB review data, group by state, sum reviews, find the max, then compute flat avg rating."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "5",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "I need to:"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "Coffee House Too Cafe, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "Coffee House Too Cafe, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "Coffee House Too Cafe, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "Coffee House Too Cafe, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "Coffee House Too Cafe, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "5",
+    "answer": "I need to find the category from the description field."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "N/A"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "N/A"
+  }
+]
