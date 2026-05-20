@@ -238,12 +238,14 @@ AZURE_API_KEY=
 AZURE_API_VERSION=
 GEMINI_API_KEY=
 TOGETHER_API_KEY=
+OPENROUTER_API_KEY=
 ```
 
 Currently, we support 
 - Microsoft Azure API (for GPT models)
 - Google Gemini API (for Gemini models)
 - Together.AI API (for Kimi and Qwen models)
+- OpenRouter API (for OpenRouter model IDs, e.g. `openrouter/google/gemini-2.5-pro`)
 
 If you want to use a model not yet supported by default, you may register it in [DataAgent.py](./common_scaffold/DataAgent.py):
 ```python

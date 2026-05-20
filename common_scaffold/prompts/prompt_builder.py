@@ -1,3 +1,5 @@
+import os
+
 PREVIEW_LENGTH = 10000
 
 GPT_TOOL_CALL_INSTRUCTIONS = """2. Inside execute_python code you may read storage entries directly as variables using the provided key names. You should directly use the key names as variable names in your code, e.g., if the tool call id is "call_1", you can access its result via the variable `var_call_1` in your code, without quotes or other modifications."""
@@ -76,7 +78,12 @@ Do not output explanations, reasoning, or any natural language outside of the re
 
 def init_messages(user_query: str, db_description: str, deployment_name: str, system_prompt: str=SYSTEM_PROMPT) -> list[dict]:
     system_prompt_suffix = ""
-    if "gemini" in deployment_name.lower():
+    use_openrouter = bool(os.getenv("OPENROUTER_API_KEY")) and "/" in deployment_name and not deployment_name.lower().startswith("gemini")
+    if "openrouter" in deployment_name.lower() or use_openrouter:
+        # OpenRouter model IDs vary widely (and may include hyphens/colons), so
+        # use the safest access pattern for tool-call result variables.
+        tool_call_instructions = GEMINI_TOOL_CALL_INSTRUCTIONS
+    elif "gemini" in deployment_name.lower():
         tool_call_instructions = GEMINI_TOOL_CALL_INSTRUCTIONS
         if deployment_name.lower() == "gemini-2.5-flash":
             tool_call_instructions = GEMINI_25FLASH_TOOL_CALL_INSTRUCTIONS
