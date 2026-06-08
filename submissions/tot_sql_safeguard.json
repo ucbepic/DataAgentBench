@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 0,
+    "answer": "THECHAT"
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 1,
+    "answer": "THECHAT"
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 2,
+    "answer": "THECHAT"
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 3,
+    "answer": "THECHAT"
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 4,
+    "answer": "THECHAT"
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 0,
+    "answer": "N/A"
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 1,
+    "answer": "N/A"
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 2,
+    "answer": "N/A"
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 3,
+    "answer": "N/A"
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 4,
+    "answer": "N/A"
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 0,
+    "answer": "7.818181818181818"
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 1,
+    "answer": "7.818181818181818"
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 2,
+    "answer": "7.818181818181818"
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 3,
+    "answer": "7.818181818181818"
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 4,
+    "answer": "7.818181818181818"
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 0,
+    "answer": "South America, 19"
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 1,
+    "answer": "South America, 19"
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 2,
+    "answer": "South America, 19"
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 3,
+    "answer": "South America, 19"
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 4,
+    "answer": "South America, 19"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 0,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 1,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 2,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 3,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 4,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 0,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\n\ufefftitle: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"]\n\ufefftitle: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"]\n\ufefftitle: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"]\n\ufefftitle: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]\n\ufefftitle: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"]\n\ufefftitle: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 1,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\n\ufefftitle: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"]\n\ufefftitle: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"]\n\ufefftitle: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"]\n\ufefftitle: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]\n\ufefftitle: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"]\n\ufefftitle: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 2,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\n\ufefftitle: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"]\n\ufefftitle: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"]\n\ufefftitle: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"]\n\ufefftitle: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]\n\ufefftitle: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"]\n\ufefftitle: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 3,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\n\ufefftitle: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"]\n\ufefftitle: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"]\n\ufefftitle: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"]\n\ufefftitle: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]\n\ufefftitle: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"]\n\ufefftitle: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 4,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\n\ufefftitle: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"]\n\ufefftitle: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"]\n\ufefftitle: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"]\n\ufefftitle: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"]\n\ufefftitle: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]\n\ufefftitle: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n\ufefftitle: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\ufefftitle: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"]\n\ufefftitle: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 0,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No.\u202f1; Favorite Thorton\u202fW.\u202fBurgess Stories:\u202f6\u202fBooks; Behind the Wheel (Choose Your Own Adventure\u202f#35) (Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children\u2019s entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book\u202f2; Around the World Mazes; Cleo Porter and the Body Electric; Pok\u00e9mon: Sun & Moon, Vol.\u202f8 (8).\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n\ufefftitle: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n\ufefftitle: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n\ufefftitle: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n\ufefftitle: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n\ufefftitle: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n\ufefftitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n\ufefftitle: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n\ufefftitle: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n\ufefftitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n\ufefftitle: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n\ufefftitle: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n\ufefftitle: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n\ufefftitle: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n\ufefftitle: Pok\u00e9mon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 1,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No.\u202f1; Favorite Thorton\u202fW.\u202fBurgess Stories:\u202f6\u202fBooks; Behind the Wheel (Choose Your Own Adventure\u202f#35) (Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children\u2019s entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book\u202f2; Around the World Mazes; Cleo Porter and the Body Electric; Pok\u00e9mon: Sun & Moon, Vol.\u202f8 (8).\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n\ufefftitle: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n\ufefftitle: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n\ufefftitle: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n\ufefftitle: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n\ufefftitle: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n\ufefftitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n\ufefftitle: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n\ufefftitle: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n\ufefftitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n\ufefftitle: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n\ufefftitle: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n\ufefftitle: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n\ufefftitle: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n\ufefftitle: Pok\u00e9mon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 2,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No.\u202f1; Favorite Thorton\u202fW.\u202fBurgess Stories:\u202f6\u202fBooks; Behind the Wheel (Choose Your Own Adventure\u202f#35) (Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children\u2019s entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book\u202f2; Around the World Mazes; Cleo Porter and the Body Electric; Pok\u00e9mon: Sun & Moon, Vol.\u202f8 (8).\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n\ufefftitle: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n\ufefftitle: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n\ufefftitle: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n\ufefftitle: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n\ufefftitle: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n\ufefftitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n\ufefftitle: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n\ufefftitle: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n\ufefftitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n\ufefftitle: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n\ufefftitle: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n\ufefftitle: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n\ufefftitle: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n\ufefftitle: Pok\u00e9mon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 3,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No.\u202f1; Favorite Thorton\u202fW.\u202fBurgess Stories:\u202f6\u202fBooks; Behind the Wheel (Choose Your Own Adventure\u202f#35) (Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children\u2019s entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book\u202f2; Around the World Mazes; Cleo Porter and the Body Electric; Pok\u00e9mon: Sun & Moon, Vol.\u202f8 (8).\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n\ufefftitle: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n\ufefftitle: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n\ufefftitle: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n\ufefftitle: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n\ufefftitle: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n\ufefftitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n\ufefftitle: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n\ufefftitle: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n\ufefftitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n\ufefftitle: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n\ufefftitle: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n\ufefftitle: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n\ufefftitle: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n\ufefftitle: Pok\u00e9mon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 4,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No.\u202f1; Favorite Thorton\u202fW.\u202fBurgess Stories:\u202f6\u202fBooks; Behind the Wheel (Choose Your Own Adventure\u202f#35) (Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children\u2019s entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book\u202f2; Around the World Mazes; Cleo Porter and the Body Electric; Pok\u00e9mon: Sun & Moon, Vol.\u202f8 (8).\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n\ufefftitle: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n\ufefftitle: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n\ufefftitle: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n\ufefftitle: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n\ufefftitle: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n\ufefftitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n\ufefftitle: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n\ufefftitle: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n\ufefftitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n\ufefftitle: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n\ufefftitle: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n\ufefftitle: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n\ufefftitle: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n\ufefftitle: Pok\u00e9mon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 0,
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 1,
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 2,
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 3,
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 4,
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 0,
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 1,
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 2,
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 3,
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 4,
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 0,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 1,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 2,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 3,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 4,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 0,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 1,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 2,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 3,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 4,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 0,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 1,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 2,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 3,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 4,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 0,
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 1,
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 2,
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 3,
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 4,
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 0,
+    "answer": "None\n\nNone"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 1,
+    "answer": "None\n\nNone"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 2,
+    "answer": "None\n\nNone"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 3,
+    "answer": "None\n\nNone"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 4,
+    "answer": "None\n\nNone"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 0,
+    "answer": "#005Wt000003NBcAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 1,
+    "answer": "#005Wt000003NBcAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 2,
+    "answer": "#005Wt000003NBcAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 3,
+    "answer": "#005Wt000003NBcAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 4,
+    "answer": "#005Wt000003NBcAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 0,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 1,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 2,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 3,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 4,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 0,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 1,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 2,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 3,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 4,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 0,
+    "answer": "#005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 1,
+    "answer": "#005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 2,
+    "answer": "#005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 3,
+    "answer": "#005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 4,
+    "answer": "#005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 0,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 1,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 2,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 3,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 4,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 0,
+    "answer": "No data."
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 1,
+    "answer": "No data."
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 2,
+    "answer": "No data."
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 3,
+    "answer": "No data."
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 4,
+    "answer": "No data."
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 0,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n\ufeffproject_name: semantic-org/semantic-ui | forks: 4955\n\ufeffproject_name: react-native-community/react-native-webview | forks: 2962\n\ufeffproject_name: react-native-device-info/react-native-device-info | forks: 1449\n\ufeffproject_name: sass/node-sass | forks: 1326\n\ufeffproject_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 1,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n\ufeffproject_name: semantic-org/semantic-ui | forks: 4955\n\ufeffproject_name: react-native-community/react-native-webview | forks: 2962\n\ufeffproject_name: react-native-device-info/react-native-device-info | forks: 1449\n\ufeffproject_name: sass/node-sass | forks: 1326\n\ufeffproject_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 2,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n\ufeffproject_name: semantic-org/semantic-ui | forks: 4955\n\ufeffproject_name: react-native-community/react-native-webview | forks: 2962\n\ufeffproject_name: react-native-device-info/react-native-device-info | forks: 1449\n\ufeffproject_name: sass/node-sass | forks: 1326\n\ufeffproject_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 3,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n\ufeffproject_name: semantic-org/semantic-ui | forks: 4955\n\ufeffproject_name: react-native-community/react-native-webview | forks: 2962\n\ufeffproject_name: react-native-device-info/react-native-device-info | forks: 1449\n\ufeffproject_name: sass/node-sass | forks: 1326\n\ufeffproject_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 4,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n\ufeffproject_name: semantic-org/semantic-ui | forks: 4955\n\ufeffproject_name: react-native-community/react-native-webview | forks: 2962\n\ufeffproject_name: react-native-device-info/react-native-device-info | forks: 1449\n\ufeffproject_name: sass/node-sass | forks: 1326\n\ufeffproject_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 0,
+    "answer": "0.1259259259259259"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 1,
+    "answer": "0.1259259259259259"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 2,
+    "answer": "0.1259259259259259"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 3,
+    "answer": "0.1259259259259259"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 4,
+    "answer": "0.1259259259259259"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 0,
+    "answer": "SwiftAndro..."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 1,
+    "answer": "SwiftAndro..."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 2,
+    "answer": "SwiftAndro..."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 3,
+    "answer": "SwiftAndro..."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 4,
+    "answer": "SwiftAndro..."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 0,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 1,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 2,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 3,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 4,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 0,
+    "answer": "twbs/bootstrap"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 1,
+    "answer": "twbs/bootstrap"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 2,
+    "answer": "twbs/bootstrap"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 3,
+    "answer": "twbs/bootstrap"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 4,
+    "answer": "twbs/bootstrap"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 0,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n\ufeffbusiness_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n\ufeffbusiness_name: City Textile | avg_rating: 4.5 | review_count: 6\n\ufeffbusiness_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n\ufeffbusiness_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n\ufeffbusiness_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 1,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n\ufeffbusiness_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n\ufeffbusiness_name: City Textile | avg_rating: 4.5 | review_count: 6\n\ufeffbusiness_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n\ufeffbusiness_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n\ufeffbusiness_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 2,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n\ufeffbusiness_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n\ufeffbusiness_name: City Textile | avg_rating: 4.5 | review_count: 6\n\ufeffbusiness_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n\ufeffbusiness_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n\ufeffbusiness_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 3,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n\ufeffbusiness_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n\ufeffbusiness_name: City Textile | avg_rating: 4.5 | review_count: 6\n\ufeffbusiness_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n\ufeffbusiness_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n\ufeffbusiness_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 4,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n\ufeffbusiness_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n\ufeffbusiness_name: City Textile | avg_rating: 4.5 | review_count: 6\n\ufeffbusiness_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n\ufeffbusiness_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n\ufeffbusiness_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 0,
+    "answer": "Elite Massage,5.0; Angel-A Massage,4.333333333333333; Aurora Massage,4.178571428571429\n\nElite Massage, 5.0\n\n\ufeffbusiness_name: Elite Massage | average_rating: 5.0\n\ufeffbusiness_name: Angel-A Massage | average_rating: 4.333333333333333\n\ufeffbusiness_name: Aurora Massage | average_rating: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 1,
+    "answer": "Elite Massage,5.0; Angel-A Massage,4.333333333333333; Aurora Massage,4.178571428571429\n\nElite Massage, 5.0\n\n\ufeffbusiness_name: Elite Massage | average_rating: 5.0\n\ufeffbusiness_name: Angel-A Massage | average_rating: 4.333333333333333\n\ufeffbusiness_name: Aurora Massage | average_rating: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 2,
+    "answer": "Elite Massage,5.0; Angel-A Massage,4.333333333333333; Aurora Massage,4.178571428571429\n\nElite Massage, 5.0\n\n\ufeffbusiness_name: Elite Massage | average_rating: 5.0\n\ufeffbusiness_name: Angel-A Massage | average_rating: 4.333333333333333\n\ufeffbusiness_name: Aurora Massage | average_rating: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 3,
+    "answer": "Elite Massage,5.0; Angel-A Massage,4.333333333333333; Aurora Massage,4.178571428571429\n\nElite Massage, 5.0\n\n\ufeffbusiness_name: Elite Massage | average_rating: 5.0\n\ufeffbusiness_name: Angel-A Massage | average_rating: 4.333333333333333\n\ufeffbusiness_name: Aurora Massage | average_rating: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 4,
+    "answer": "Elite Massage,5.0; Angel-A Massage,4.333333333333333; Aurora Massage,4.178571428571429\n\nElite Massage, 5.0\n\n\ufeffbusiness_name: Elite Massage | average_rating: 5.0\n\ufeffbusiness_name: Angel-A Massage | average_rating: 4.333333333333333\n\ufeffbusiness_name: Aurora Massage | average_rating: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 0,
+    "answer": "Taba Rug Gallery \u2013 [[\"Thursday\",\"10AM\u20137PM\"],[\"Friday\",\"10AM\u20137PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"10AM\u20137PM\"],[\"Tuesday\",\"10AM\u20137PM\"],[\"Wednesday\",\"10AM\u20137PM\"]], 5.0; Beauty Divine Artistry \u2013 [[\"Thursday\",\"9AM\u20138PM\"],[\"Friday\",\"9AM\u20138PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"9AM\u20138PM\"],[\"Tuesday\",\"9AM\u20138PM\"],[\"Wednesday\",\"9AM\u20138PM\"]], 5.0; White Barn Candle Co \u2013 [[\"Thursday\",\"10AM\u20139PM\"],[\"Friday\",\"10AM\u20139PM\"],[\"Saturday\",\"10AM\u20139PM\"],[\"Sunday\",\"11AM\u20137PM\"],[\"Monday\",\"10AM\u20139PM\"],[\"Tuesday\",\"10AM\u20139PM\"],[\"Wednesday\",\"10AM\u20139PM\"]], 5.0; TACOS LA CABANA \u2013 [[\"Thursday\",\"Closed\"],[\"Friday\",\"5\u201311PM\"],[\"Saturday\",\"5\u201311PM\"],[\"Sunday\",\"5\u201311PM\"],[\"Monday\",\"5\u201311PM\"],[\"Tuesday\",\"Closed\"],[\"Wednesday\",\"Closed\"]], 5.0.\n\nHanford Auto Supply, [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]], 5.0\n\n\ufeffbusiness_name: Hanford Auto Supply | operating_hours: [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Taba Rug Gallery | operating_hours: [[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Beauty Divine Artistry | operating_hours: [[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: White Barn Candle Co | operating_hours: [[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: TACOS LA CABANA | operating_hours: [[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | average_rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 1,
+    "answer": "Taba Rug Gallery \u2013 [[\"Thursday\",\"10AM\u20137PM\"],[\"Friday\",\"10AM\u20137PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"10AM\u20137PM\"],[\"Tuesday\",\"10AM\u20137PM\"],[\"Wednesday\",\"10AM\u20137PM\"]], 5.0; Beauty Divine Artistry \u2013 [[\"Thursday\",\"9AM\u20138PM\"],[\"Friday\",\"9AM\u20138PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"9AM\u20138PM\"],[\"Tuesday\",\"9AM\u20138PM\"],[\"Wednesday\",\"9AM\u20138PM\"]], 5.0; White Barn Candle Co \u2013 [[\"Thursday\",\"10AM\u20139PM\"],[\"Friday\",\"10AM\u20139PM\"],[\"Saturday\",\"10AM\u20139PM\"],[\"Sunday\",\"11AM\u20137PM\"],[\"Monday\",\"10AM\u20139PM\"],[\"Tuesday\",\"10AM\u20139PM\"],[\"Wednesday\",\"10AM\u20139PM\"]], 5.0; TACOS LA CABANA \u2013 [[\"Thursday\",\"Closed\"],[\"Friday\",\"5\u201311PM\"],[\"Saturday\",\"5\u201311PM\"],[\"Sunday\",\"5\u201311PM\"],[\"Monday\",\"5\u201311PM\"],[\"Tuesday\",\"Closed\"],[\"Wednesday\",\"Closed\"]], 5.0.\n\nHanford Auto Supply, [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]], 5.0\n\n\ufeffbusiness_name: Hanford Auto Supply | operating_hours: [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Taba Rug Gallery | operating_hours: [[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Beauty Divine Artistry | operating_hours: [[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: White Barn Candle Co | operating_hours: [[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: TACOS LA CABANA | operating_hours: [[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | average_rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 2,
+    "answer": "Taba Rug Gallery \u2013 [[\"Thursday\",\"10AM\u20137PM\"],[\"Friday\",\"10AM\u20137PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"10AM\u20137PM\"],[\"Tuesday\",\"10AM\u20137PM\"],[\"Wednesday\",\"10AM\u20137PM\"]], 5.0; Beauty Divine Artistry \u2013 [[\"Thursday\",\"9AM\u20138PM\"],[\"Friday\",\"9AM\u20138PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"9AM\u20138PM\"],[\"Tuesday\",\"9AM\u20138PM\"],[\"Wednesday\",\"9AM\u20138PM\"]], 5.0; White Barn Candle Co \u2013 [[\"Thursday\",\"10AM\u20139PM\"],[\"Friday\",\"10AM\u20139PM\"],[\"Saturday\",\"10AM\u20139PM\"],[\"Sunday\",\"11AM\u20137PM\"],[\"Monday\",\"10AM\u20139PM\"],[\"Tuesday\",\"10AM\u20139PM\"],[\"Wednesday\",\"10AM\u20139PM\"]], 5.0; TACOS LA CABANA \u2013 [[\"Thursday\",\"Closed\"],[\"Friday\",\"5\u201311PM\"],[\"Saturday\",\"5\u201311PM\"],[\"Sunday\",\"5\u201311PM\"],[\"Monday\",\"5\u201311PM\"],[\"Tuesday\",\"Closed\"],[\"Wednesday\",\"Closed\"]], 5.0.\n\nHanford Auto Supply, [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]], 5.0\n\n\ufeffbusiness_name: Hanford Auto Supply | operating_hours: [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Taba Rug Gallery | operating_hours: [[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Beauty Divine Artistry | operating_hours: [[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: White Barn Candle Co | operating_hours: [[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: TACOS LA CABANA | operating_hours: [[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | average_rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 3,
+    "answer": "Taba Rug Gallery \u2013 [[\"Thursday\",\"10AM\u20137PM\"],[\"Friday\",\"10AM\u20137PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"10AM\u20137PM\"],[\"Tuesday\",\"10AM\u20137PM\"],[\"Wednesday\",\"10AM\u20137PM\"]], 5.0; Beauty Divine Artistry \u2013 [[\"Thursday\",\"9AM\u20138PM\"],[\"Friday\",\"9AM\u20138PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"9AM\u20138PM\"],[\"Tuesday\",\"9AM\u20138PM\"],[\"Wednesday\",\"9AM\u20138PM\"]], 5.0; White Barn Candle Co \u2013 [[\"Thursday\",\"10AM\u20139PM\"],[\"Friday\",\"10AM\u20139PM\"],[\"Saturday\",\"10AM\u20139PM\"],[\"Sunday\",\"11AM\u20137PM\"],[\"Monday\",\"10AM\u20139PM\"],[\"Tuesday\",\"10AM\u20139PM\"],[\"Wednesday\",\"10AM\u20139PM\"]], 5.0; TACOS LA CABANA \u2013 [[\"Thursday\",\"Closed\"],[\"Friday\",\"5\u201311PM\"],[\"Saturday\",\"5\u201311PM\"],[\"Sunday\",\"5\u201311PM\"],[\"Monday\",\"5\u201311PM\"],[\"Tuesday\",\"Closed\"],[\"Wednesday\",\"Closed\"]], 5.0.\n\nHanford Auto Supply, [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]], 5.0\n\n\ufeffbusiness_name: Hanford Auto Supply | operating_hours: [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Taba Rug Gallery | operating_hours: [[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Beauty Divine Artistry | operating_hours: [[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: White Barn Candle Co | operating_hours: [[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: TACOS LA CABANA | operating_hours: [[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | average_rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 4,
+    "answer": "Taba Rug Gallery \u2013 [[\"Thursday\",\"10AM\u20137PM\"],[\"Friday\",\"10AM\u20137PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"10AM\u20137PM\"],[\"Tuesday\",\"10AM\u20137PM\"],[\"Wednesday\",\"10AM\u20137PM\"]], 5.0; Beauty Divine Artistry \u2013 [[\"Thursday\",\"9AM\u20138PM\"],[\"Friday\",\"9AM\u20138PM\"],[\"Saturday\",\"10AM\u20137PM\"],[\"Sunday\",\"11AM\u20136PM\"],[\"Monday\",\"9AM\u20138PM\"],[\"Tuesday\",\"9AM\u20138PM\"],[\"Wednesday\",\"9AM\u20138PM\"]], 5.0; White Barn Candle Co \u2013 [[\"Thursday\",\"10AM\u20139PM\"],[\"Friday\",\"10AM\u20139PM\"],[\"Saturday\",\"10AM\u20139PM\"],[\"Sunday\",\"11AM\u20137PM\"],[\"Monday\",\"10AM\u20139PM\"],[\"Tuesday\",\"10AM\u20139PM\"],[\"Wednesday\",\"10AM\u20139PM\"]], 5.0; TACOS LA CABANA \u2013 [[\"Thursday\",\"Closed\"],[\"Friday\",\"5\u201311PM\"],[\"Saturday\",\"5\u201311PM\"],[\"Sunday\",\"5\u201311PM\"],[\"Monday\",\"5\u201311PM\"],[\"Tuesday\",\"Closed\"],[\"Wednesday\",\"Closed\"]], 5.0.\n\nHanford Auto Supply, [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]], 5.0\n\n\ufeffbusiness_name: Hanford Auto Supply | operating_hours: [[\"Thursday\", \"9AM\u20136PM\"], [\"Friday\", \"9AM\u20136PM\"], [\"Saturday\", \"9AM\u20135PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM\u20136PM\"], [\"Tuesday\", \"9AM\u20136PM\"], [\"Wednesday\", \"9AM\u20136PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Taba Rug Gallery | operating_hours: [[\"Thursday\", \"10AM\u20137PM\"], [\"Friday\", \"10AM\u20137PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"10AM\u20137PM\"], [\"Tuesday\", \"10AM\u20137PM\"], [\"Wednesday\", \"10AM\u20137PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: Beauty Divine Artistry | operating_hours: [[\"Thursday\", \"9AM\u20138PM\"], [\"Friday\", \"9AM\u20138PM\"], [\"Saturday\", \"10AM\u20137PM\"], [\"Sunday\", \"11AM\u20136PM\"], [\"Monday\", \"9AM\u20138PM\"], [\"Tuesday\", \"9AM\u20138PM\"], [\"Wednesday\", \"9AM\u20138PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: White Barn Candle Co | operating_hours: [[\"Thursday\", \"10AM\u20139PM\"], [\"Friday\", \"10AM\u20139PM\"], [\"Saturday\", \"10AM\u20139PM\"], [\"Sunday\", \"11AM\u20137PM\"], [\"Monday\", \"10AM\u20139PM\"], [\"Tuesday\", \"10AM\u20139PM\"], [\"Wednesday\", \"10AM\u20139PM\"]] | average_rating: 5.0\n\ufeffbusiness_name: TACOS LA CABANA | operating_hours: [[\"Thursday\", \"Closed\"], [\"Friday\", \"5\u201311PM\"], [\"Saturday\", \"5\u201311PM\"], [\"Sunday\", \"5\u201311PM\"], [\"Monday\", \"5\u201311PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | average_rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 0,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD \u2013 19; The Boochyard @ Local Roots \u2013 17; Aurora Massage \u2013 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n\ufeffbusiness_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n\ufeffbusiness_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n\ufeffbusiness_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 1,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD \u2013 19; The Boochyard @ Local Roots \u2013 17; Aurora Massage \u2013 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n\ufeffbusiness_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n\ufeffbusiness_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n\ufeffbusiness_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 2,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD \u2013 19; The Boochyard @ Local Roots \u2013 17; Aurora Massage \u2013 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n\ufeffbusiness_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n\ufeffbusiness_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n\ufeffbusiness_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 3,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD \u2013 19; The Boochyard @ Local Roots \u2013 17; Aurora Massage \u2013 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n\ufeffbusiness_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n\ufeffbusiness_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n\ufeffbusiness_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 4,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD \u2013 19; The Boochyard @ Local Roots \u2013 17; Aurora Massage \u2013 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n\ufeffbusiness_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n\ufeffbusiness_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n\ufeffbusiness_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 0,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 1,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 2,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 3,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 4,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 0,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 1,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 2,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 3,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 4,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 0,
+    "answer": "[silence], 9672.740000000003"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 1,
+    "answer": "[silence], 9672.740000000003"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 2,
+    "answer": "[silence], 9672.740000000003"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 3,
+    "answer": "[silence], 9672.740000000003"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 4,
+    "answer": "[silence], 9672.740000000003"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 0,
+    "answer": "Chi2\u202f=\u202f305.1239"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 1,
+    "answer": "Chi2\u202f=\u202f305.1239"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 2,
+    "answer": "Chi2\u202f=\u202f305.1239"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 3,
+    "answer": "Chi2\u202f=\u202f305.1239"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 4,
+    "answer": "Chi2\u202f=\u202f305.1239"
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 0,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 1,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 2,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 3,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 4,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 0,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 1,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 2,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 3,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 4,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 0,
+    "answer": "IXIC, US; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan\n\nIXIC, 4.820458770643175\n\n\ufeffIndex: IXIC | return_factor: 4.820458770643175\n\ufeffIndex: GDAXI | return_factor: 2.352596770486255\n\ufeffIndex: NSEI | return_factor: 2.3392640249710555\n\ufeffIndex: 399001.SZ | return_factor: 2.338097153885205\n\ufeffIndex: TWII | return_factor: 2.300450675351221"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 1,
+    "answer": "IXIC, US; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan\n\nIXIC, 4.820458770643175\n\n\ufeffIndex: IXIC | return_factor: 4.820458770643175\n\ufeffIndex: GDAXI | return_factor: 2.352596770486255\n\ufeffIndex: NSEI | return_factor: 2.3392640249710555\n\ufeffIndex: 399001.SZ | return_factor: 2.338097153885205\n\ufeffIndex: TWII | return_factor: 2.300450675351221"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 2,
+    "answer": "IXIC, US; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan\n\nIXIC, 4.820458770643175\n\n\ufeffIndex: IXIC | return_factor: 4.820458770643175\n\ufeffIndex: GDAXI | return_factor: 2.352596770486255\n\ufeffIndex: NSEI | return_factor: 2.3392640249710555\n\ufeffIndex: 399001.SZ | return_factor: 2.338097153885205\n\ufeffIndex: TWII | return_factor: 2.300450675351221"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 3,
+    "answer": "IXIC, US; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan\n\nIXIC, 4.820458770643175\n\n\ufeffIndex: IXIC | return_factor: 4.820458770643175\n\ufeffIndex: GDAXI | return_factor: 2.352596770486255\n\ufeffIndex: NSEI | return_factor: 2.3392640249710555\n\ufeffIndex: 399001.SZ | return_factor: 2.338097153885205\n\ufeffIndex: TWII | return_factor: 2.300450675351221"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 4,
+    "answer": "IXIC, US; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan\n\nIXIC, 4.820458770643175\n\n\ufeffIndex: IXIC | return_factor: 4.820458770643175\n\ufeffIndex: GDAXI | return_factor: 2.352596770486255\n\ufeffIndex: NSEI | return_factor: 2.3392640249710555\n\ufeffIndex: 399001.SZ | return_factor: 2.338097153885205\n\ufeffIndex: TWII | return_factor: 2.300450675351221"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 0,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 1,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 2,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 3,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 4,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 0,
+    "answer": "BOIL\n\n\ufeffSymbol: BOIL\n\ufeffSymbol: BZQ\n\ufeffSymbol: COM\n\ufeffSymbol: DUST\n\ufeffSymbol: EDZ\n\ufeffSymbol: ERX\n\ufeffSymbol: FAZ\n\ufeffSymbol: FXP\n\ufeffSymbol: GFIN\n\ufeffSymbol: GUSH\n\ufeffSymbol: HYUP\n\ufeffSymbol: JDST\n\ufeffSymbol: JNUG\n\ufeffSymbol: JPN\n\ufeffSymbol: LABD\n\ufeffSymbol: LABU\n\ufeffSymbol: LBJ\n\ufeffSymbol: MDY\n\ufeffSymbol: PTIN\n\ufeffSymbol: RTL\n\ufeffSymbol: SDOW\n\ufeffSymbol: SOXS\n\ufeffSymbol: SSG\n\ufeffSymbol: TECS\n\ufeffSymbol: TOTAL | total_etfs: 31.0\n\ufeffSymbol: TZA\n\ufeffSymbol: UVXY\n\ufeffSymbol: VIXY\n\ufeffSymbol: VPC\n\ufeffSymbol: XES\n\ufeffSymbol: XOP\n\ufeffSymbol: YANG"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 1,
+    "answer": "BOIL\n\n\ufeffSymbol: BOIL\n\ufeffSymbol: BZQ\n\ufeffSymbol: COM\n\ufeffSymbol: DUST\n\ufeffSymbol: EDZ\n\ufeffSymbol: ERX\n\ufeffSymbol: FAZ\n\ufeffSymbol: FXP\n\ufeffSymbol: GFIN\n\ufeffSymbol: GUSH\n\ufeffSymbol: HYUP\n\ufeffSymbol: JDST\n\ufeffSymbol: JNUG\n\ufeffSymbol: JPN\n\ufeffSymbol: LABD\n\ufeffSymbol: LABU\n\ufeffSymbol: LBJ\n\ufeffSymbol: MDY\n\ufeffSymbol: PTIN\n\ufeffSymbol: RTL\n\ufeffSymbol: SDOW\n\ufeffSymbol: SOXS\n\ufeffSymbol: SSG\n\ufeffSymbol: TECS\n\ufeffSymbol: TOTAL | total_etfs: 31.0\n\ufeffSymbol: TZA\n\ufeffSymbol: UVXY\n\ufeffSymbol: VIXY\n\ufeffSymbol: VPC\n\ufeffSymbol: XES\n\ufeffSymbol: XOP\n\ufeffSymbol: YANG"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 2,
+    "answer": "BOIL\n\n\ufeffSymbol: BOIL\n\ufeffSymbol: BZQ\n\ufeffSymbol: COM\n\ufeffSymbol: DUST\n\ufeffSymbol: EDZ\n\ufeffSymbol: ERX\n\ufeffSymbol: FAZ\n\ufeffSymbol: FXP\n\ufeffSymbol: GFIN\n\ufeffSymbol: GUSH\n\ufeffSymbol: HYUP\n\ufeffSymbol: JDST\n\ufeffSymbol: JNUG\n\ufeffSymbol: JPN\n\ufeffSymbol: LABD\n\ufeffSymbol: LABU\n\ufeffSymbol: LBJ\n\ufeffSymbol: MDY\n\ufeffSymbol: PTIN\n\ufeffSymbol: RTL\n\ufeffSymbol: SDOW\n\ufeffSymbol: SOXS\n\ufeffSymbol: SSG\n\ufeffSymbol: TECS\n\ufeffSymbol: TOTAL | total_etfs: 31.0\n\ufeffSymbol: TZA\n\ufeffSymbol: UVXY\n\ufeffSymbol: VIXY\n\ufeffSymbol: VPC\n\ufeffSymbol: XES\n\ufeffSymbol: XOP\n\ufeffSymbol: YANG"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 3,
+    "answer": "BOIL\n\n\ufeffSymbol: BOIL\n\ufeffSymbol: BZQ\n\ufeffSymbol: COM\n\ufeffSymbol: DUST\n\ufeffSymbol: EDZ\n\ufeffSymbol: ERX\n\ufeffSymbol: FAZ\n\ufeffSymbol: FXP\n\ufeffSymbol: GFIN\n\ufeffSymbol: GUSH\n\ufeffSymbol: HYUP\n\ufeffSymbol: JDST\n\ufeffSymbol: JNUG\n\ufeffSymbol: JPN\n\ufeffSymbol: LABD\n\ufeffSymbol: LABU\n\ufeffSymbol: LBJ\n\ufeffSymbol: MDY\n\ufeffSymbol: PTIN\n\ufeffSymbol: RTL\n\ufeffSymbol: SDOW\n\ufeffSymbol: SOXS\n\ufeffSymbol: SSG\n\ufeffSymbol: TECS\n\ufeffSymbol: TOTAL | total_etfs: 31.0\n\ufeffSymbol: TZA\n\ufeffSymbol: UVXY\n\ufeffSymbol: VIXY\n\ufeffSymbol: VPC\n\ufeffSymbol: XES\n\ufeffSymbol: XOP\n\ufeffSymbol: YANG"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 4,
+    "answer": "BOIL\n\n\ufeffSymbol: BOIL\n\ufeffSymbol: BZQ\n\ufeffSymbol: COM\n\ufeffSymbol: DUST\n\ufeffSymbol: EDZ\n\ufeffSymbol: ERX\n\ufeffSymbol: FAZ\n\ufeffSymbol: FXP\n\ufeffSymbol: GFIN\n\ufeffSymbol: GUSH\n\ufeffSymbol: HYUP\n\ufeffSymbol: JDST\n\ufeffSymbol: JNUG\n\ufeffSymbol: JPN\n\ufeffSymbol: LABD\n\ufeffSymbol: LABU\n\ufeffSymbol: LBJ\n\ufeffSymbol: MDY\n\ufeffSymbol: PTIN\n\ufeffSymbol: RTL\n\ufeffSymbol: SDOW\n\ufeffSymbol: SOXS\n\ufeffSymbol: SSG\n\ufeffSymbol: TECS\n\ufeffSymbol: TOTAL | total_etfs: 31.0\n\ufeffSymbol: TZA\n\ufeffSymbol: UVXY\n\ufeffSymbol: VIXY\n\ufeffSymbol: VPC\n\ufeffSymbol: XES\n\ufeffSymbol: XOP\n\ufeffSymbol: YANG"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 0,
+    "answer": "Apex Global Brands Inc.: 23781.4229; BIO-key International, Inc.: 10988.1423; CBAK Energy Technology, Inc.: 86223.3202; China Ceramics Co., Ltd.: 4366.7984; Correvio Pharma Corp.: 145247.8261; CounterPath Corporation: 375.4941; DASAN Zhone Solutions, Inc.: 15578.6561; Frontier Communications Corporation: 254397.6285; Future FinTech Group Inc.: 9.8452; Ideanomics, Inc.: 10.2767; Ocean Power Technologies, Inc.: 254.1502; Pacific Ethanol, Inc.: 10706.7194; Sunesis Pharmaceuticals, Inc.: 781.8182; Synthesis Energy Systems, Inc.: 2390.5138; Sypris Solutions, Inc.: 36836.3636.\n\nApex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide., 23781.422924901184\n\n\ufeffcompany_name: Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide. | avg_volume: 23781.422924901184\n\ufeffcompany_name: BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike. | avg_volume: 10988.142292490118\n\ufeffcompany_name: CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions. | avg_volume: 86223.32015810277\n\ufeffcompany_name: China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes. | avg_volume: 4366.798418972332\n\ufeffcompany_name: Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes. | avg_volume: 145247.8260869565\n\ufeffcompany_name: CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals. | avg_volume: 375.49407114624506\n\ufeffcompany_name: DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide. | avg_volume: 15578.656126482214\n\ufeffcompany_name: Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States. | avg_volume: 254397.62845849802\n\ufeffcompany_name: Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications. | avg_volume: 9.845238095238095\n\ufeffcompany_name: Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and sustainability in transportation and energy. | avg_volume: 10.276679841897232\n\ufeffcompany_name: Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology. | avg_volume: 254.1501976284585\n\ufeffcompany_name: Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector. | avg_volume: 10706.719367588932\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | avg_volume: 781.8181818181819\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | avg_volume: 2390.513833992095\n\ufeffcompany_name: Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges. | avg_volume: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 1,
+    "answer": "Apex Global Brands Inc.: 23781.4229; BIO-key International, Inc.: 10988.1423; CBAK Energy Technology, Inc.: 86223.3202; China Ceramics Co., Ltd.: 4366.7984; Correvio Pharma Corp.: 145247.8261; CounterPath Corporation: 375.4941; DASAN Zhone Solutions, Inc.: 15578.6561; Frontier Communications Corporation: 254397.6285; Future FinTech Group Inc.: 9.8452; Ideanomics, Inc.: 10.2767; Ocean Power Technologies, Inc.: 254.1502; Pacific Ethanol, Inc.: 10706.7194; Sunesis Pharmaceuticals, Inc.: 781.8182; Synthesis Energy Systems, Inc.: 2390.5138; Sypris Solutions, Inc.: 36836.3636.\n\nApex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide., 23781.422924901184\n\n\ufeffcompany_name: Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide. | avg_volume: 23781.422924901184\n\ufeffcompany_name: BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike. | avg_volume: 10988.142292490118\n\ufeffcompany_name: CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions. | avg_volume: 86223.32015810277\n\ufeffcompany_name: China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes. | avg_volume: 4366.798418972332\n\ufeffcompany_name: Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes. | avg_volume: 145247.8260869565\n\ufeffcompany_name: CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals. | avg_volume: 375.49407114624506\n\ufeffcompany_name: DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide. | avg_volume: 15578.656126482214\n\ufeffcompany_name: Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States. | avg_volume: 254397.62845849802\n\ufeffcompany_name: Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications. | avg_volume: 9.845238095238095\n\ufeffcompany_name: Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and sustainability in transportation and energy. | avg_volume: 10.276679841897232\n\ufeffcompany_name: Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology. | avg_volume: 254.1501976284585\n\ufeffcompany_name: Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector. | avg_volume: 10706.719367588932\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | avg_volume: 781.8181818181819\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | avg_volume: 2390.513833992095\n\ufeffcompany_name: Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges. | avg_volume: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 2,
+    "answer": "Apex Global Brands Inc.: 23781.4229; BIO-key International, Inc.: 10988.1423; CBAK Energy Technology, Inc.: 86223.3202; China Ceramics Co., Ltd.: 4366.7984; Correvio Pharma Corp.: 145247.8261; CounterPath Corporation: 375.4941; DASAN Zhone Solutions, Inc.: 15578.6561; Frontier Communications Corporation: 254397.6285; Future FinTech Group Inc.: 9.8452; Ideanomics, Inc.: 10.2767; Ocean Power Technologies, Inc.: 254.1502; Pacific Ethanol, Inc.: 10706.7194; Sunesis Pharmaceuticals, Inc.: 781.8182; Synthesis Energy Systems, Inc.: 2390.5138; Sypris Solutions, Inc.: 36836.3636.\n\nApex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide., 23781.422924901184\n\n\ufeffcompany_name: Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide. | avg_volume: 23781.422924901184\n\ufeffcompany_name: BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike. | avg_volume: 10988.142292490118\n\ufeffcompany_name: CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions. | avg_volume: 86223.32015810277\n\ufeffcompany_name: China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes. | avg_volume: 4366.798418972332\n\ufeffcompany_name: Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes. | avg_volume: 145247.8260869565\n\ufeffcompany_name: CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals. | avg_volume: 375.49407114624506\n\ufeffcompany_name: DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide. | avg_volume: 15578.656126482214\n\ufeffcompany_name: Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States. | avg_volume: 254397.62845849802\n\ufeffcompany_name: Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications. | avg_volume: 9.845238095238095\n\ufeffcompany_name: Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and sustainability in transportation and energy. | avg_volume: 10.276679841897232\n\ufeffcompany_name: Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology. | avg_volume: 254.1501976284585\n\ufeffcompany_name: Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector. | avg_volume: 10706.719367588932\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | avg_volume: 781.8181818181819\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | avg_volume: 2390.513833992095\n\ufeffcompany_name: Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges. | avg_volume: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 3,
+    "answer": "Apex Global Brands Inc.: 23781.4229; BIO-key International, Inc.: 10988.1423; CBAK Energy Technology, Inc.: 86223.3202; China Ceramics Co., Ltd.: 4366.7984; Correvio Pharma Corp.: 145247.8261; CounterPath Corporation: 375.4941; DASAN Zhone Solutions, Inc.: 15578.6561; Frontier Communications Corporation: 254397.6285; Future FinTech Group Inc.: 9.8452; Ideanomics, Inc.: 10.2767; Ocean Power Technologies, Inc.: 254.1502; Pacific Ethanol, Inc.: 10706.7194; Sunesis Pharmaceuticals, Inc.: 781.8182; Synthesis Energy Systems, Inc.: 2390.5138; Sypris Solutions, Inc.: 36836.3636.\n\nApex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide., 23781.422924901184\n\n\ufeffcompany_name: Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide. | avg_volume: 23781.422924901184\n\ufeffcompany_name: BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike. | avg_volume: 10988.142292490118\n\ufeffcompany_name: CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions. | avg_volume: 86223.32015810277\n\ufeffcompany_name: China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes. | avg_volume: 4366.798418972332\n\ufeffcompany_name: Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes. | avg_volume: 145247.8260869565\n\ufeffcompany_name: CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals. | avg_volume: 375.49407114624506\n\ufeffcompany_name: DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide. | avg_volume: 15578.656126482214\n\ufeffcompany_name: Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States. | avg_volume: 254397.62845849802\n\ufeffcompany_name: Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications. | avg_volume: 9.845238095238095\n\ufeffcompany_name: Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and sustainability in transportation and energy. | avg_volume: 10.276679841897232\n\ufeffcompany_name: Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology. | avg_volume: 254.1501976284585\n\ufeffcompany_name: Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector. | avg_volume: 10706.719367588932\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | avg_volume: 781.8181818181819\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | avg_volume: 2390.513833992095\n\ufeffcompany_name: Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges. | avg_volume: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 4,
+    "answer": "Apex Global Brands Inc.: 23781.4229; BIO-key International, Inc.: 10988.1423; CBAK Energy Technology, Inc.: 86223.3202; China Ceramics Co., Ltd.: 4366.7984; Correvio Pharma Corp.: 145247.8261; CounterPath Corporation: 375.4941; DASAN Zhone Solutions, Inc.: 15578.6561; Frontier Communications Corporation: 254397.6285; Future FinTech Group Inc.: 9.8452; Ideanomics, Inc.: 10.2767; Ocean Power Technologies, Inc.: 254.1502; Pacific Ethanol, Inc.: 10706.7194; Sunesis Pharmaceuticals, Inc.: 781.8182; Synthesis Energy Systems, Inc.: 2390.5138; Sypris Solutions, Inc.: 36836.3636.\n\nApex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide., 23781.422924901184\n\n\ufeffcompany_name: Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide. | avg_volume: 23781.422924901184\n\ufeffcompany_name: BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike. | avg_volume: 10988.142292490118\n\ufeffcompany_name: CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions. | avg_volume: 86223.32015810277\n\ufeffcompany_name: China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes. | avg_volume: 4366.798418972332\n\ufeffcompany_name: Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes. | avg_volume: 145247.8260869565\n\ufeffcompany_name: CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals. | avg_volume: 375.49407114624506\n\ufeffcompany_name: DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide. | avg_volume: 15578.656126482214\n\ufeffcompany_name: Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States. | avg_volume: 254397.62845849802\n\ufeffcompany_name: Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications. | avg_volume: 9.845238095238095\n\ufeffcompany_name: Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and sustainability in transportation and energy. | avg_volume: 10.276679841897232\n\ufeffcompany_name: Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology. | avg_volume: 254.1501976284585\n\ufeffcompany_name: Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector. | avg_volume: 10706.719367588932\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | avg_volume: 781.8181818181819\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | avg_volume: 2390.513833992095\n\ufeffcompany_name: Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges. | avg_volume: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 0,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n\ufeffcompany_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\ufeffcompany_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n\ufeffcompany_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n\ufeffcompany_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n\ufeffcompany_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 1,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n\ufeffcompany_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\ufeffcompany_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n\ufeffcompany_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n\ufeffcompany_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n\ufeffcompany_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 2,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n\ufeffcompany_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\ufeffcompany_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n\ufeffcompany_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n\ufeffcompany_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n\ufeffcompany_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 3,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n\ufeffcompany_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\ufeffcompany_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n\ufeffcompany_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n\ufeffcompany_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n\ufeffcompany_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 4,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n\ufeffcompany_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\ufeffcompany_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n\ufeffcompany_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n\ufeffcompany_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n\ufeffcompany_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 0,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\ufeffcompany_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n\ufeffcompany_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n\ufeffcompany_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 1,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\ufeffcompany_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n\ufeffcompany_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n\ufeffcompany_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 2,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\ufeffcompany_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n\ufeffcompany_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n\ufeffcompany_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 3,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\ufeffcompany_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n\ufeffcompany_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n\ufeffcompany_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 4,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n\ufeffcompany_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\ufeffcompany_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n\ufeffcompany_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n\ufeffcompany_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n\ufeffcompany_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 0,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 1,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 2,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 3,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 4,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 0,
+    "answer": "PA, 617, 3.7633711507293355"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 1,
+    "answer": "PA, 617, 3.7633711507293355"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 2,
+    "answer": "PA, 617, 3.7633711507293355"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 3,
+    "answer": "PA, 617, 3.7633711507293355"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 4,
+    "answer": "PA, 617, 3.7633711507293355"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 0,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 1,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 2,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 3,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 4,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 0,
+    "answer": "Shopping, 7, 3.375283446712018"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 1,
+    "answer": "Shopping, 7, 3.375283446712018"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 2,
+    "answer": "Shopping, 7, 3.375283446712018"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 3,
+    "answer": "Shopping, 7, 3.375283446712018"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 4,
+    "answer": "Shopping, 7, 3.375283446712018"
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 0,
+    "answer": "Coffee House Too Cafe, 4.285714285714286"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 1,
+    "answer": "Coffee House Too Cafe, 4.285714285714286"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 2,
+    "answer": "Coffee House Too Cafe, 4.285714285714286"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 3,
+    "answer": "Coffee House Too Cafe, 4.285714285714286"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 4,
+    "answer": "Coffee House Too Cafe, 4.285714285714286"
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 0,
+    "answer": "Food, American (New), Local Services, Restaurants, Shopping\n\nFood, 19\n\n\ufeffcategory: Food | review_count: 19\n\ufeffcategory: American (New) | review_count: 16\n\ufeffcategory: Local Services | review_count: 16\n\ufeffcategory: Restaurants | review_count: 15\n\ufeffcategory: Shopping | review_count: 11"
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 1,
+    "answer": "Food, American (New), Local Services, Restaurants, Shopping\n\nFood, 19\n\n\ufeffcategory: Food | review_count: 19\n\ufeffcategory: American (New) | review_count: 16\n\ufeffcategory: Local Services | review_count: 16\n\ufeffcategory: Restaurants | review_count: 15\n\ufeffcategory: Shopping | review_count: 11"
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 2,
+    "answer": "Food, American (New), Local Services, Restaurants, Shopping\n\nFood, 19\n\n\ufeffcategory: Food | review_count: 19\n\ufeffcategory: American (New) | review_count: 16\n\ufeffcategory: Local Services | review_count: 16\n\ufeffcategory: Restaurants | review_count: 15\n\ufeffcategory: Shopping | review_count: 11"
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 3,
+    "answer": "Food, American (New), Local Services, Restaurants, Shopping\n\nFood, 19\n\n\ufeffcategory: Food | review_count: 19\n\ufeffcategory: American (New) | review_count: 16\n\ufeffcategory: Local Services | review_count: 16\n\ufeffcategory: Restaurants | review_count: 15\n\ufeffcategory: Shopping | review_count: 11"
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 4,
+    "answer": "Food, American (New), Local Services, Restaurants, Shopping\n\nFood, 19\n\n\ufeffcategory: Food | review_count: 19\n\ufeffcategory: American (New) | review_count: 16\n\ufeffcategory: Local Services | review_count: 16\n\ufeffcategory: Restaurants | review_count: 15\n\ufeffcategory: Shopping | review_count: 11"
+  }
+]
