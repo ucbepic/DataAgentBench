@@ -1,0 +1,84 @@
+{
+  "submission_file": "submissions/scribe_actioneer_opus47.json",
+  "expected_trials": 270,
+  "found_trials": 270,
+  "datasets": {
+    "agnews": 4,
+    "bookreview": 3,
+    "crmarenapro": 13,
+    "deps_dev_v1": 2,
+    "github_repos": 4,
+    "googlelocal": 4,
+    "music_brainz_20k": 3,
+    "pancancer_atlas": 3,
+    "patents": 3,
+    "stockindex": 3,
+    "stockmarket": 5,
+    "yelp": 7
+  },
+  "checks": {
+    "hf_dataset_load": {
+      "hits": 0,
+      "patterns": [
+        "load_dataset(",
+        "from datasets import",
+        "import datasets",
+        ".cache/huggingface",
+        "huggingface.co",
+        "ag_news",
+        "generating train split",
+        "models--sentence-transformers"
+      ],
+      "evidence": []
+    },
+    "answer_key_access": {
+      "hits": 0,
+      "patterns": [
+        "ground_truth.csv",
+        "validate.py",
+        "GROUND_TRUTH"
+      ],
+      "evidence": []
+    },
+    "prior_run_leak": {
+      "hits": 0,
+      "patterns": [
+        "final_agent.json",
+        "logs/data_agent"
+      ],
+      "evidence": []
+    },
+    "external_fetch": {
+      "hits": 0,
+      "patterns": [
+        "kagglehub",
+        "kaggle.com",
+        "requests.get(",
+        "requests.post(",
+        "urllib.request",
+        "wget ",
+        "curl http",
+        "httpx."
+      ],
+      "evidence": []
+    }
+  },
+  "json_trace_reconciliation": {
+    "checked": 270,
+    "mismatches": 0,
+    "mismatch_detail": []
+  },
+  "runs_real": {
+    "distinct_traces": 270,
+    "all5_identical_queries": [],
+    "ok": true
+  },
+  "empty_answers": 0,
+  "coverage_ok": true,
+  "validator": {
+    "validated": 270,
+    "validator_errors": 0,
+    "passed": 233
+  },
+  "result": "270/270 clean"
+}
