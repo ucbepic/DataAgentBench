@@ -3,7 +3,7 @@
     "dataset": "deps_dev_v1",
     "query": "1",
     "run": "0",
-    "answer": "[('@dmrvos/infrajs>0.0.5>typescript', '2.6.2', 94931), ('@dmrvos/infrajs>0.0.6>typescript', '2.6.2', 94931), ('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dollarshaveclub/cli>1.0.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.1.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.10.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.10.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.4>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5-rc.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.12.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.2.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.3.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.1>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.4>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.5>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.6>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.7>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.6.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.7.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.8.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>2.0.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.0.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.2>lodash', '4.17.11', 57779), ('@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash', '4.9.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arraycopy', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arrayeach', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseassign', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseclone', '3.3.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basecopy', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basefor', '3.0.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._bindcallback', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._createcompounder', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._getnative', '3.9.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._root', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.assign', '4.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.camelcase', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.clonedeep', '4.5.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.cond', '4.5.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.deburr', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.endswith', '4.2.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.find', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.findindex', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.indexof', '4.0.5', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarguments', '3.1.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarray', '3.0.4', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.keys', '3.1.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.pickby', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.words', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep', '3.0.2', 57779), ('@dummmy/pack-cli>1.0.8>lodash', '4.17.19', 57779), ('@dummmy/pack-cli>1.0.9>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.2>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.3>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.4>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.5>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.6>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.7>lodash', '4.17.19', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash', '4.17.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arraycopy', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arrayeach', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseassign', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseclone', '3.3.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basecopy', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basefor', '3.0.3', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._bindcallback', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._createcompounder', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._getnative', '3.9.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._root', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.assign', '4.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.camelcase', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.clonedeep', '3.0.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.cond', '4.5.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.deburr', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.indexof', '4.0.5', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarguments', '3.1.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarray', '3.0.4', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.keys', '3.1.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.pickby', '4.6.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.words', '3.2.0', 57779), ('@dreampie/semantic-ui', '2.2.11', 51069)]"
+    "answer": "[('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dreampie/semantic-ui', '2.2.11', 51069), ('@dongls/pdfjs-dist', '3.2.72', 44231), ('@dman777/shadow-dom-quill-temp', '1.0.0', 42407)]"
   },
   {
     "dataset": "deps_dev_v1",
@@ -15,7 +15,7 @@
     "dataset": "github_repos",
     "query": "1",
     "run": "0",
-    "answer": "0.3333"
+    "answer": "0.0005"
   },
   {
     "dataset": "github_repos",
@@ -111,19 +111,19 @@
     "dataset": "agnews",
     "query": "2",
     "run": "0",
-    "answer": "0.189189"
+    "answer": "0.1892"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "0",
-    "answer": "855.09"
+    "answer": "353.64"
   },
   {
     "dataset": "agnews",
     "query": "4",
     "run": "0",
-    "answer": "Africa"
+    "answer": "Europe"
   },
   {
     "dataset": "bookreview",
@@ -147,13 +147,13 @@
     "dataset": "crmarenapro",
     "query": "1",
     "run": "0",
-    "answer": "['Budget', 'Authority']"
+    "answer": "Authority, Timeline"
   },
   {
     "dataset": "crmarenapro",
     "query": "2",
     "run": "0",
-    "answer": "ka0Wt000000Eq0MIAS"
+    "answer": "ka0Wt000000Ens5IAC"
   },
   {
     "dataset": "crmarenapro",
@@ -219,7 +219,7 @@
     "dataset": "crmarenapro",
     "query": "13",
     "run": "0",
-    "answer": "005Wt000003NIXCIA4"
+    "answer": "005Wt000003NHw5IAG"
   },
   {
     "dataset": "googlelocal",
@@ -231,7 +231,7 @@
     "dataset": "googlelocal",
     "query": "2",
     "run": "0",
-    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17)]"
+    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17), ('Orient Massage', 3.93), ('Good Massage', 3.88), ('SUSY massage', 3.88), ('Happy Spa & Massage (Formerly Hawaii Massage & Spa)', 2.12)]"
   },
   {
     "dataset": "googlelocal",
@@ -249,7 +249,7 @@
     "dataset": "pancancer_atlas",
     "query": "1",
     "run": "0",
-    "answer": "[('9382/3', 2.7136), ('9400/3', 2.6014), ('9401/3', 2.5584), ('9450/3', 2.6967), ('9451/3', 2.5826)]"
+    "answer": "[('Astrocytoma', 2.5713), ('Oligoastrocytoma', 2.7136), ('Oligodendroglioma', 2.6825)]"
   },
   {
     "dataset": "pancancer_atlas",
@@ -309,7 +309,7 @@
     "dataset": "deps_dev_v1",
     "query": "1",
     "run": "1",
-    "answer": "[('@dmrvos/infrajs>0.0.5>typescript', '2.6.2', 94931), ('@dmrvos/infrajs>0.0.6>typescript', '2.6.2', 94931), ('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dollarshaveclub/cli>1.0.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.1.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.10.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.10.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.4>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5-rc.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.12.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.2.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.3.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.1>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.4>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.5>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.6>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.7>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.6.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.7.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.8.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>2.0.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.0.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.2>lodash', '4.17.11', 57779), ('@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash', '4.9.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arraycopy', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arrayeach', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseassign', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseclone', '3.3.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basecopy', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basefor', '3.0.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._bindcallback', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._createcompounder', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._getnative', '3.9.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._root', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.assign', '4.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.camelcase', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.clonedeep', '4.5.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.cond', '4.5.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.deburr', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.endswith', '4.2.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.find', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.findindex', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.indexof', '4.0.5', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarguments', '3.1.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarray', '3.0.4', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.keys', '3.1.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.pickby', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.words', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep', '3.0.2', 57779), ('@dummmy/pack-cli>1.0.8>lodash', '4.17.19', 57779), ('@dummmy/pack-cli>1.0.9>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.2>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.3>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.4>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.5>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.6>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.7>lodash', '4.17.19', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash', '4.17.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arraycopy', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arrayeach', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseassign', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseclone', '3.3.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basecopy', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basefor', '3.0.3', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._bindcallback', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._createcompounder', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._getnative', '3.9.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._root', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.assign', '4.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.camelcase', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.clonedeep', '3.0.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.cond', '4.5.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.deburr', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.indexof', '4.0.5', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarguments', '3.1.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarray', '3.0.4', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.keys', '3.1.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.pickby', '4.6.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.words', '3.2.0', 57779), ('@dreampie/semantic-ui', '2.2.11', 51069)]"
+    "answer": "[('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dreampie/semantic-ui', '2.2.11', 51069), ('@dongls/pdfjs-dist', '3.2.72', 44231), ('@dman777/shadow-dom-quill-temp', '1.0.0', 42407)]"
   },
   {
     "dataset": "deps_dev_v1",
@@ -321,7 +321,7 @@
     "dataset": "github_repos",
     "query": "1",
     "run": "1",
-    "answer": "0.3333"
+    "answer": "0.0005"
   },
   {
     "dataset": "github_repos",
@@ -417,19 +417,19 @@
     "dataset": "agnews",
     "query": "2",
     "run": "1",
-    "answer": "0.189189"
+    "answer": "0.1532"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "1",
-    "answer": "1081.82"
+    "answer": "353.64"
   },
   {
     "dataset": "agnews",
     "query": "4",
     "run": "1",
-    "answer": "Africa"
+    "answer": "Europe"
   },
   {
     "dataset": "bookreview",
@@ -453,13 +453,13 @@
     "dataset": "crmarenapro",
     "query": "1",
     "run": "1",
-    "answer": "['Authority']"
+    "answer": "Authority, Timeline"
   },
   {
     "dataset": "crmarenapro",
     "query": "2",
     "run": "1",
-    "answer": "ka0Wt000000Eq0MIAS"
+    "answer": "ka0Wt000000Ens5IAC"
   },
   {
     "dataset": "crmarenapro",
@@ -495,7 +495,7 @@
     "dataset": "crmarenapro",
     "query": "8",
     "run": "1",
-    "answer": "005Wt000003NBcAIAW"
+    "answer": "005Wt000003NIliIAG"
   },
   {
     "dataset": "crmarenapro",
@@ -525,7 +525,7 @@
     "dataset": "crmarenapro",
     "query": "13",
     "run": "1",
-    "answer": "005Wt000003NIXCIA4"
+    "answer": "005Wt000003NHw5IAG"
   },
   {
     "dataset": "googlelocal",
@@ -537,7 +537,7 @@
     "dataset": "googlelocal",
     "query": "2",
     "run": "1",
-    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17)]"
+    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17), ('Orient Massage', 3.93), ('Good Massage', 3.88), ('SUSY massage', 3.88), ('Happy Spa & Massage (Formerly Hawaii Massage & Spa)', 2.12)]"
   },
   {
     "dataset": "googlelocal",
@@ -555,7 +555,7 @@
     "dataset": "pancancer_atlas",
     "query": "1",
     "run": "1",
-    "answer": "[('9382/3', 2.7135713052), ('9400/3', 2.6014163320), ('9401/3', 2.5583903451), ('9450/3', 2.6967184429), ('9451/3', 2.5826348457)]"
+    "answer": "[('Astrocytoma', 2.5713), ('Oligoastrocytoma', 2.7136), ('Oligodendroglioma', 2.6825)]"
   },
   {
     "dataset": "pancancer_atlas",
@@ -615,7 +615,7 @@
     "dataset": "deps_dev_v1",
     "query": "1",
     "run": "2",
-    "answer": "[('@dmrvos/infrajs>0.0.5>typescript', '2.6.2', 94931), ('@dmrvos/infrajs>0.0.6>typescript', '2.6.2', 94931), ('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dollarshaveclub/cli>1.0.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.1.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.10.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.10.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.4>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5-rc.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.12.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.2.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.3.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.1>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.4>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.5>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.6>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.7>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.6.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.7.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.8.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>2.0.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.0.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.2>lodash', '4.17.11', 57779), ('@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash', '4.9.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arraycopy', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arrayeach', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseassign', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseclone', '3.3.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basecopy', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basefor', '3.0.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._bindcallback', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._createcompounder', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._getnative', '3.9.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._root', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.assign', '4.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.camelcase', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.clonedeep', '4.5.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.cond', '4.5.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.deburr', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.endswith', '4.2.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.find', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.findindex', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.indexof', '4.0.5', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarguments', '3.1.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarray', '3.0.4', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.keys', '3.1.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.pickby', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.words', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep', '3.0.2', 57779), ('@dummmy/pack-cli>1.0.8>lodash', '4.17.19', 57779), ('@dummmy/pack-cli>1.0.9>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.2>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.3>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.4>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.5>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.6>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.7>lodash', '4.17.19', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash', '4.17.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arraycopy', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arrayeach', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseassign', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseclone', '3.3.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basecopy', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basefor', '3.0.3', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._bindcallback', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._createcompounder', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._getnative', '3.9.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._root', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.assign', '4.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.camelcase', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.clonedeep', '3.0.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.cond', '4.5.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.deburr', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.indexof', '4.0.5', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarguments', '3.1.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarray', '3.0.4', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.keys', '3.1.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.pickby', '4.6.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.words', '3.2.0', 57779), ('@dmrvos/infrajs>0.0.5>moment', '2.20.1', 47549), ('@dmrvos/infrajs>0.0.6>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.10.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.10.1>moment', '2.22.0', 47549), ('@dollarshaveclub/cli>1.11.0>moment', '2.22.1', 47549), ('@dollarshaveclub/cli>1.11.1>moment', '2.22.1', 47549), ('@dollarshaveclub/cli>1.11.2>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.11.3>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.11.4>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.11.5-rc.1>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.11.5>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.12.0>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.13.0>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.13.1>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.5.0>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.1>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.2>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.3>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.4>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.5>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.6>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.7>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.7.1>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.8.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.9.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.9.1>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>2.0.0>moment', '2.23.0', 47549), ('@dollarshaveclub/cli>2.0.1>moment', '2.23.0', 47549), ('@dollarshaveclub/cli>2.1.0>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.1.1>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.0>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.1>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.2>moment', '2.24.0', 47549)]"
+    "answer": "[('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dreampie/semantic-ui', '2.2.11', 51069), ('@dongls/pdfjs-dist', '3.2.72', 44231), ('@dman777/shadow-dom-quill-temp', '1.0.0', 42407)]"
   },
   {
     "dataset": "deps_dev_v1",
@@ -627,7 +627,7 @@
     "dataset": "github_repos",
     "query": "1",
     "run": "2",
-    "answer": "0.3333"
+    "answer": "0.0005"
   },
   {
     "dataset": "github_repos",
@@ -723,19 +723,19 @@
     "dataset": "agnews",
     "query": "2",
     "run": "2",
-    "answer": "0.189189"
+    "answer": "0.1532"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "2",
-    "answer": "1081.82"
+    "answer": "353.64"
   },
   {
     "dataset": "agnews",
     "query": "4",
     "run": "2",
-    "answer": "Africa"
+    "answer": "Europe"
   },
   {
     "dataset": "bookreview",
@@ -759,13 +759,13 @@
     "dataset": "crmarenapro",
     "query": "1",
     "run": "2",
-    "answer": "['Authority', 'Timeline']"
+    "answer": "Authority, Timeline"
   },
   {
     "dataset": "crmarenapro",
     "query": "2",
     "run": "2",
-    "answer": "ka0Wt000000Eq0MIAS"
+    "answer": "ka0Wt000000Ens5IAC"
   },
   {
     "dataset": "crmarenapro",
@@ -795,7 +795,7 @@
     "dataset": "crmarenapro",
     "query": "7",
     "run": "2",
-    "answer": "ka0Wt000000EpSUIA0"
+    "answer": "ka0Wt000000EoD3IAK"
   },
   {
     "dataset": "crmarenapro",
@@ -843,7 +843,7 @@
     "dataset": "googlelocal",
     "query": "2",
     "run": "2",
-    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17)]"
+    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17), ('Orient Massage', 3.93), ('Good Massage', 3.88), ('SUSY massage', 3.88), ('Happy Spa & Massage (Formerly Hawaii Massage & Spa)', 2.12)]"
   },
   {
     "dataset": "googlelocal",
@@ -861,7 +861,7 @@
     "dataset": "pancancer_atlas",
     "query": "1",
     "run": "2",
-    "answer": "[('9382/3', 2.713571), ('9400/3', 2.601416), ('9401/3', 2.558390), ('9450/3', 2.696718), ('9451/3', 2.582635)]"
+    "answer": "[('Astrocytoma', 2.5713), ('Oligoastrocytoma', 2.7136), ('Oligodendroglioma', 2.6825)]"
   },
   {
     "dataset": "pancancer_atlas",
@@ -921,7 +921,7 @@
     "dataset": "deps_dev_v1",
     "query": "1",
     "run": "3",
-    "answer": "[('@dmrvos/infrajs>0.0.5>typescript', '2.6.2', 94931), ('@dmrvos/infrajs>0.0.6>typescript', '2.6.2', 94931), ('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dollarshaveclub/cli>1.0.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.1.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.10.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.10.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.4>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5-rc.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.12.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.2.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.3.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.1>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.4>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.5>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.6>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.7>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.6.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.7.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.8.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>2.0.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.0.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.2>lodash', '4.17.11', 57779), ('@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash', '4.9.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arraycopy', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arrayeach', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseassign', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseclone', '3.3.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basecopy', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basefor', '3.0.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._bindcallback', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._createcompounder', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._getnative', '3.9.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._root', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.assign', '4.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.camelcase', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.clonedeep', '4.5.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.cond', '4.5.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.deburr', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.endswith', '4.2.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.find', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.findindex', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.indexof', '4.0.5', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarguments', '3.1.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarray', '3.0.4', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.keys', '3.1.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.pickby', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.words', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep', '3.0.2', 57779), ('@dummmy/pack-cli>1.0.8>lodash', '4.17.19', 57779), ('@dummmy/pack-cli>1.0.9>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.2>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.3>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.4>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.5>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.6>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.7>lodash', '4.17.19', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash', '4.17.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arraycopy', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arrayeach', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseassign', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseclone', '3.3.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basecopy', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basefor', '3.0.3', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._bindcallback', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._createcompounder', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._getnative', '3.9.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._root', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.assign', '4.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.camelcase', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.clonedeep', '3.0.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.cond', '4.5.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.deburr', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.indexof', '4.0.5', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarguments', '3.1.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarray', '3.0.4', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.keys', '3.1.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.pickby', '4.6.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.words', '3.2.0', 57779), ('@dmrvos/infrajs>0.0.5>moment', '2.20.1', 47549), ('@dmrvos/infrajs>0.0.6>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.10.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.10.1>moment', '2.22.0', 47549), ('@dollarshaveclub/cli>1.11.0>moment', '2.22.1', 47549), ('@dollarshaveclub/cli>1.11.1>moment', '2.22.1', 47549), ('@dollarshaveclub/cli>1.11.2>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.11.3>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.11.4>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.11.5-rc.1>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.11.5>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.12.0>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.13.0>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.13.1>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.5.0>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.1>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.2>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.3>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.4>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.5>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.6>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.7>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.7.1>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.8.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.9.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.9.1>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>2.0.0>moment', '2.23.0', 47549), ('@dollarshaveclub/cli>2.0.1>moment', '2.23.0', 47549), ('@dollarshaveclub/cli>2.1.0>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.1.1>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.0>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.1>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.2>moment', '2.24.0', 47549)]"
+    "answer": "[('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dreampie/semantic-ui', '2.2.11', 51069), ('@dongls/pdfjs-dist', '3.2.72', 44231), ('@dman777/shadow-dom-quill-temp', '1.0.0', 42407)]"
   },
   {
     "dataset": "deps_dev_v1",
@@ -933,7 +933,7 @@
     "dataset": "github_repos",
     "query": "1",
     "run": "3",
-    "answer": "0.3333"
+    "answer": "0.0005"
   },
   {
     "dataset": "github_repos",
@@ -1029,19 +1029,19 @@
     "dataset": "agnews",
     "query": "2",
     "run": "3",
-    "answer": "0.189189"
+    "answer": "0.1712"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "3",
-    "answer": "1081.82"
+    "answer": "353.64"
   },
   {
     "dataset": "agnews",
     "query": "4",
     "run": "3",
-    "answer": "Africa"
+    "answer": "Europe"
   },
   {
     "dataset": "bookreview",
@@ -1065,13 +1065,13 @@
     "dataset": "crmarenapro",
     "query": "1",
     "run": "3",
-    "answer": "['Authority']"
+    "answer": "Authority, Timeline"
   },
   {
     "dataset": "crmarenapro",
     "query": "2",
     "run": "3",
-    "answer": "ka0Wt000000Eq0MIAS"
+    "answer": "ka0Wt000000Ens5IAC"
   },
   {
     "dataset": "crmarenapro",
@@ -1137,7 +1137,7 @@
     "dataset": "crmarenapro",
     "query": "13",
     "run": "3",
-    "answer": "005Wt000003NIXCIA4"
+    "answer": "005Wt000003NHw5IAG"
   },
   {
     "dataset": "googlelocal",
@@ -1149,7 +1149,7 @@
     "dataset": "googlelocal",
     "query": "2",
     "run": "3",
-    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17)]"
+    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17), ('Orient Massage', 3.93), ('Good Massage', 3.88), ('SUSY massage', 3.88), ('Happy Spa & Massage (Formerly Hawaii Massage & Spa)', 2.12)]"
   },
   {
     "dataset": "googlelocal",
@@ -1167,7 +1167,7 @@
     "dataset": "pancancer_atlas",
     "query": "1",
     "run": "3",
-    "answer": "[('9382/3', 2.713571), ('9400/3', 2.601416), ('9401/3', 2.558390), ('9450/3', 2.696718), ('9451/3', 2.582635)]"
+    "answer": "[('Astrocytoma', 2.5713), ('Oligoastrocytoma', 2.7136), ('Oligodendroglioma', 2.6825)]"
   },
   {
     "dataset": "pancancer_atlas",
@@ -1227,7 +1227,7 @@
     "dataset": "deps_dev_v1",
     "query": "1",
     "run": "4",
-    "answer": "[('@dmrvos/infrajs>0.0.5>typescript', '2.6.2', 94931), ('@dmrvos/infrajs>0.0.6>typescript', '2.6.2', 94931), ('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dollarshaveclub/cli>1.0.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.1.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.10.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.10.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.11.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.11.4>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5-rc.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.11.5>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.12.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.13.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>1.2.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.3.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.1>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.2>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.3>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.4>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.5>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.6>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.5.7>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.6.0>lodash', '4.17.4', 57779), ('@dollarshaveclub/cli>1.7.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.8.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.0>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>1.9.1>lodash', '4.17.5', 57779), ('@dollarshaveclub/cli>2.0.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.0.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.1.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.0>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.1>lodash', '4.17.11', 57779), ('@dollarshaveclub/cli>2.2.2>lodash', '4.17.11', 57779), ('@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash', '4.16.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash', '4.9.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arraycopy', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._arrayeach', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseassign', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._baseclone', '3.3.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basecopy', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._basefor', '3.0.3', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._bindcallback', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._createcompounder', '3.0.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._getnative', '3.9.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash._root', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.assign', '4.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.camelcase', '3.0.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.clonedeep', '4.5.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.cond', '4.5.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.deburr', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.endswith', '4.2.1', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.find', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.findindex', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.indexof', '4.0.5', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarguments', '3.1.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.isarray', '3.0.4', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.keys', '3.1.2', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.pickby', '4.6.0', 57779), ('@dpoineau/react-scripts>1.0.0>lodash.words', '3.2.0', 57779), ('@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep', '3.0.2', 57779), ('@dummmy/pack-cli>1.0.8>lodash', '4.17.19', 57779), ('@dummmy/pack-cli>1.0.9>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.2>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.3>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.4>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.5>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.6>lodash', '4.17.19', 57779), ('@dummmy/webpack-cli>1.0.7>lodash', '4.17.19', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash', '4.17.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arraycopy', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._arrayeach', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseassign', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._baseclone', '3.3.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basecopy', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._basefor', '3.0.3', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._bindcallback', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._createcompounder', '3.0.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._getnative', '3.9.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash._root', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.assign', '4.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.camelcase', '3.0.1', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.clonedeep', '3.0.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.cond', '4.5.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.deburr', '3.2.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.indexof', '4.0.5', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarguments', '3.1.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.isarray', '3.0.4', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.keys', '3.1.2', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.pickby', '4.6.0', 57779), ('@dwarvesf/react-scripts>0.7.0>lodash.words', '3.2.0', 57779), ('@dmrvos/infrajs>0.0.5>moment', '2.20.1', 47549), ('@dmrvos/infrajs>0.0.6>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.10.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.10.1>moment', '2.22.0', 47549), ('@dollarshaveclub/cli>1.11.0>moment', '2.22.1', 47549), ('@dollarshaveclub/cli>1.11.1>moment', '2.22.1', 47549), ('@dollarshaveclub/cli>1.11.2>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.11.3>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.11.4>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.11.5-rc.1>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.11.5>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.12.0>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.13.0>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.13.1>moment', '2.22.2', 47549), ('@dollarshaveclub/cli>1.5.0>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.1>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.2>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.3>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.4>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.5>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.6>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.5.7>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.7.1>moment', '2.20.1', 47549), ('@dollarshaveclub/cli>1.8.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.9.0>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>1.9.1>moment', '2.21.0', 47549), ('@dollarshaveclub/cli>2.0.0>moment', '2.23.0', 47549), ('@dollarshaveclub/cli>2.0.1>moment', '2.23.0', 47549), ('@dollarshaveclub/cli>2.1.0>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.1.1>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.0>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.1>moment', '2.24.0', 47549), ('@dollarshaveclub/cli>2.2.2>moment', '2.24.0', 47549)]"
+    "answer": "[('@dylanvann/svelte', '3.25.4', 73499), ('@dumc11/tailwindcss', '0.4.0', 73464), ('@dreampie/semantic-ui', '2.2.11', 51069), ('@dongls/pdfjs-dist', '3.2.72', 44231), ('@dman777/shadow-dom-quill-temp', '1.0.0', 42407)]"
   },
   {
     "dataset": "deps_dev_v1",
@@ -1239,7 +1239,7 @@
     "dataset": "github_repos",
     "query": "1",
     "run": "4",
-    "answer": "0.3333"
+    "answer": "0.0005"
   },
   {
     "dataset": "github_repos",
@@ -1335,19 +1335,19 @@
     "dataset": "agnews",
     "query": "2",
     "run": "4",
-    "answer": "0.189189"
+    "answer": "0.1712"
   },
   {
     "dataset": "agnews",
     "query": "3",
     "run": "4",
-    "answer": "1081.82"
+    "answer": "353.64"
   },
   {
     "dataset": "agnews",
     "query": "4",
     "run": "4",
-    "answer": "Africa"
+    "answer": "Europe"
   },
   {
     "dataset": "bookreview",
@@ -1371,13 +1371,13 @@
     "dataset": "crmarenapro",
     "query": "1",
     "run": "4",
-    "answer": "['Authority', 'Timeline']"
+    "answer": "Authority, Timeline"
   },
   {
     "dataset": "crmarenapro",
     "query": "2",
     "run": "4",
-    "answer": "ka0Wt000000Eq0MIAS"
+    "answer": "ka0Wt000000Ens5IAC"
   },
   {
     "dataset": "crmarenapro",
@@ -1401,13 +1401,13 @@
     "dataset": "crmarenapro",
     "query": "6",
     "run": "4",
-    "answer": "#ka0Wt000000EnwvIAC"
+    "answer": "ka0Wt000000EnwvIAC"
   },
   {
     "dataset": "crmarenapro",
     "query": "7",
     "run": "4",
-    "answer": "ka0Wt000000EpSUIA0"
+    "answer": "ka0Wt000000EoD3IAK"
   },
   {
     "dataset": "crmarenapro",
@@ -1443,7 +1443,7 @@
     "dataset": "crmarenapro",
     "query": "13",
     "run": "4",
-    "answer": "005Wt000003NIXCIA4"
+    "answer": "005Wt000003NHw5IAG"
   },
   {
     "dataset": "googlelocal",
@@ -1455,7 +1455,7 @@
     "dataset": "googlelocal",
     "query": "2",
     "run": "4",
-    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17)]"
+    "answer": "[('Elite Massage', 5.0), ('Angel-A Massage', 4.33), ('Aurora Massage', 4.18), ('J B Oriental Inc', 4.17), ('Orient Massage', 3.93), ('Good Massage', 3.88), ('SUSY massage', 3.88), ('Happy Spa & Massage (Formerly Hawaii Massage & Spa)', 2.12)]"
   },
   {
     "dataset": "googlelocal",
@@ -1473,7 +1473,7 @@
     "dataset": "pancancer_atlas",
     "query": "1",
     "run": "4",
-    "answer": "[('9382/3', 2.713571), ('9400/3', 2.601416), ('9401/3', 2.558390), ('9450/3', 2.696718), ('9451/3', 2.582635)]"
+    "answer": "[('Astrocytoma', 2.5713), ('Oligoastrocytoma', 2.7136), ('Oligodendroglioma', 2.6825)]"
   },
   {
     "dataset": "pancancer_atlas",
@@ -1539,7 +1539,7 @@
     "dataset": "patents",
     "query": "2",
     "run": "0",
-    "answer": "A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016"
+    "answer": "[('A01', 'AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING', 2022), ('A21', 'BAKING; EDIBLE DOUGHS', 2018), ('A23', 'FOODS OR FOODSTUFFS; TREATMENT THEREOF, NOT COVERED BY OTHER CLASSES', 2021), ('A43', 'FOOTWEAR', 2018), ('A47', 'FURNITURE; DOMESTIC ARTICLES OR APPLIANCES; COFFEE MILLS; SPICE MILLS; SUCTION CLEANERS IN GENERAL', 2021), ('A61', 'MEDICAL OR VETERINARY SCIENCE; HYGIENE', 2021), ('B01', 'PHYSICAL OR CHEMICAL PROCESSES OR APPARATUS IN GENERAL', 2022), ('B29', 'WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL', 2021), ('B32', 'LAYERED PRODUCTS', 2021), ('B41', 'PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS', 2020), ('B42', 'BOOKBINDING; ALBUMS; FILES; SPECIAL PRINTED MATTER', 2022), ('B60', 'VEHICLES IN GENERAL', 2022), ('B62', 'LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS', 2021), ('B63', 'SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT', 2022), ('B64', 'AIRCRAFT; AVIATION; COSMONAUTICS', 2022), ('B65', 'CONVEYING; PACKING; STORING; HANDLING THIN OR FILAMENTARY MATERIAL', 2022), ('B66', 'HOISTING; LIFTING; HAULING', 2022), ('C01', 'INORGANIC CHEMISTRY', 2022), ('C03', 'GLASS; MINERAL OR SLAG WOOL', 2018), ('C04', 'CEMENTS; CONCRETE; ARTIFICIAL STONE; CERAMICS; REFRACTORIES', 2022), ('C07', 'ORGANIC CHEMISTRY', 2021), ('C09', 'DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('C10', 'PETROLEUM, GAS OR COKE INDUSTRIES; TECHNICAL GASES CONTAINING CARBON MONOXIDE; FUELS; LUBRICANTS; PEAT', 2018), ('C11', 'ANIMAL OR VEGETABLE OILS, FATS, FATTY SUBSTANCES OR WAXES; FATTY ACIDS THEREFROM; DETERGENTS; CANDLES', 2018), ('C12', 'BIOCHEMISTRY; BEER; SPIRITS; WINE; VINEGAR; MICROBIOLOGY; ENZYMOLOGY; MUTATION OR GENETIC ENGINEERING', 2022), ('C30', 'CRYSTAL GROWTH', 2021), ('D04', 'BRAIDING; LACE-MAKING; KNITTING; TRIMMINGS; NON-WOVEN FABRICS', 2021), ('D06', 'TREATMENT OF TEXTILES OR THE LIKE; LAUNDERING; FLEXIBLE MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('E02', 'HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING', 2022), ('E05', 'LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES', 2019), ('E21', 'EARTH OR ROCK DRILLING; MINING', 2022), ('F01', 'MACHINES OR ENGINES IN GENERAL; ENGINE PLANTS IN GENERAL; STEAM ENGINES', 2019), ('F02', 'COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS', 2019), ('F04', 'POSITIVE - DISPLACEMENT MACHINES FOR LIQUIDS; PUMPS FOR LIQUIDS OR ELASTIC FLUIDS', 2021), ('F05', 'INDEXING SCHEMES RELATING TO ENGINES OR PUMPS IN VARIOUS SUBCLASSES OF CLASSES F01-F04', 2021), ('F15', 'FLUID-PRESSURE ACTUATORS; HYDRAULICS OR PNEUMATICS IN GENERAL', 2021), ('F16', 'ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL', 2021), ('F21', 'LIGHTING', 2021), ('F23', 'COMBUSTION APPARATUS; COMBUSTION PROCESSES', 2019), ('F24', 'HEATING; RANGES; VENTILATING', 2022), ('F25', 'REFRIGERATION OR COOLING; COMBINED HEATING AND REFRIGERATION SYSTEMS; HEAT PUMP SYSTEMS; MANUFACTURE OR STORAGE OF ICE; LIQUEFACTION SOLIDIFICATION OF GASES', 2021), ('F41', 'WEAPONS', 2021), ('F42', 'AMMUNITION; BLASTING', 2022), ('G01', 'MEASURING; TESTING', 2022), ('G02', 'OPTICS', 2021), ('G05', 'CONTROLLING; REGULATING', 2022), ('G06', 'COMPUTING; CALCULATING OR COUNTING', 2022), ('G07', 'CHECKING-DEVICES', 2021), ('G08', 'SIGNALLING', 2022), ('H01', 'ELECTRIC ELEMENTS', 2022), ('H02', 'GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER', 2022), ('H04', 'ELECTRIC COMMUNICATION TECHNIQUE', 2021), ('Y02', 'TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE', 2023), ('Y10', 'TECHNICAL SUBJECTS COVERED BY FORMER USPC', 2013)]"
   },
   {
     "dataset": "patents",
@@ -1557,7 +1557,7 @@
     "dataset": "patents",
     "query": "2",
     "run": "1",
-    "answer": "['MEASURING; TESTING', 'G01', 2018]"
+    "answer": "[('A01', 'AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING', 2022), ('A21', 'BAKING; EDIBLE DOUGHS', 2018), ('A23', 'FOODS OR FOODSTUFFS; TREATMENT THEREOF, NOT COVERED BY OTHER CLASSES', 2021), ('A43', 'FOOTWEAR', 2018), ('A47', 'FURNITURE; DOMESTIC ARTICLES OR APPLIANCES; COFFEE MILLS; SPICE MILLS; SUCTION CLEANERS IN GENERAL', 2021), ('A61', 'MEDICAL OR VETERINARY SCIENCE; HYGIENE', 2021), ('B01', 'PHYSICAL OR CHEMICAL PROCESSES OR APPARATUS IN GENERAL', 2022), ('B29', 'WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL', 2021), ('B32', 'LAYERED PRODUCTS', 2021), ('B41', 'PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS', 2020), ('B42', 'BOOKBINDING; ALBUMS; FILES; SPECIAL PRINTED MATTER', 2022), ('B60', 'VEHICLES IN GENERAL', 2022), ('B62', 'LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS', 2021), ('B63', 'SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT', 2022), ('B64', 'AIRCRAFT; AVIATION; COSMONAUTICS', 2022), ('B65', 'CONVEYING; PACKING; STORING; HANDLING THIN OR FILAMENTARY MATERIAL', 2022), ('B66', 'HOISTING; LIFTING; HAULING', 2022), ('C01', 'INORGANIC CHEMISTRY', 2022), ('C03', 'GLASS; MINERAL OR SLAG WOOL', 2018), ('C04', 'CEMENTS; CONCRETE; ARTIFICIAL STONE; CERAMICS; REFRACTORIES', 2022), ('C07', 'ORGANIC CHEMISTRY', 2021), ('C09', 'DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('C10', 'PETROLEUM, GAS OR COKE INDUSTRIES; TECHNICAL GASES CONTAINING CARBON MONOXIDE; FUELS; LUBRICANTS; PEAT', 2018), ('C11', 'ANIMAL OR VEGETABLE OILS, FATS, FATTY SUBSTANCES OR WAXES; FATTY ACIDS THEREFROM; DETERGENTS; CANDLES', 2018), ('C12', 'BIOCHEMISTRY; BEER; SPIRITS; WINE; VINEGAR; MICROBIOLOGY; ENZYMOLOGY; MUTATION OR GENETIC ENGINEERING', 2022), ('C30', 'CRYSTAL GROWTH', 2021), ('D04', 'BRAIDING; LACE-MAKING; KNITTING; TRIMMINGS; NON-WOVEN FABRICS', 2021), ('D06', 'TREATMENT OF TEXTILES OR THE LIKE; LAUNDERING; FLEXIBLE MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('E02', 'HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING', 2022), ('E05', 'LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES', 2019), ('E21', 'EARTH OR ROCK DRILLING; MINING', 2022), ('F01', 'MACHINES OR ENGINES IN GENERAL; ENGINE PLANTS IN GENERAL; STEAM ENGINES', 2019), ('F02', 'COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS', 2019), ('F04', 'POSITIVE - DISPLACEMENT MACHINES FOR LIQUIDS; PUMPS FOR LIQUIDS OR ELASTIC FLUIDS', 2021), ('F05', 'INDEXING SCHEMES RELATING TO ENGINES OR PUMPS IN VARIOUS SUBCLASSES OF CLASSES F01-F04', 2021), ('F15', 'FLUID-PRESSURE ACTUATORS; HYDRAULICS OR PNEUMATICS IN GENERAL', 2021), ('F16', 'ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL', 2021), ('F21', 'LIGHTING', 2021), ('F23', 'COMBUSTION APPARATUS; COMBUSTION PROCESSES', 2019), ('F24', 'HEATING; RANGES; VENTILATING', 2022), ('F25', 'REFRIGERATION OR COOLING; COMBINED HEATING AND REFRIGERATION SYSTEMS; HEAT PUMP SYSTEMS; MANUFACTURE OR STORAGE OF ICE; LIQUEFACTION SOLIDIFICATION OF GASES', 2021), ('F41', 'WEAPONS', 2021), ('F42', 'AMMUNITION; BLASTING', 2022), ('G01', 'MEASURING; TESTING', 2022), ('G02', 'OPTICS', 2021), ('G05', 'CONTROLLING; REGULATING', 2022), ('G06', 'COMPUTING; CALCULATING OR COUNTING', 2022), ('G07', 'CHECKING-DEVICES', 2021), ('G08', 'SIGNALLING', 2022), ('H01', 'ELECTRIC ELEMENTS', 2022), ('H02', 'GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER', 2022), ('H04', 'ELECTRIC COMMUNICATION TECHNIQUE', 2021), ('Y02', 'TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE', 2023), ('Y10', 'TECHNICAL SUBJECTS COVERED BY FORMER USPC', 2013)]"
   },
   {
     "dataset": "patents",
@@ -1575,7 +1575,7 @@
     "dataset": "patents",
     "query": "2",
     "run": "2",
-    "answer": "MEASURING; TESTING, G01, 2018"
+    "answer": "[('A01', 'AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING', 2022), ('A21', 'BAKING; EDIBLE DOUGHS', 2018), ('A23', 'FOODS OR FOODSTUFFS; TREATMENT THEREOF, NOT COVERED BY OTHER CLASSES', 2021), ('A43', 'FOOTWEAR', 2018), ('A47', 'FURNITURE; DOMESTIC ARTICLES OR APPLIANCES; COFFEE MILLS; SPICE MILLS; SUCTION CLEANERS IN GENERAL', 2021), ('A61', 'MEDICAL OR VETERINARY SCIENCE; HYGIENE', 2021), ('B01', 'PHYSICAL OR CHEMICAL PROCESSES OR APPARATUS IN GENERAL', 2022), ('B29', 'WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL', 2021), ('B32', 'LAYERED PRODUCTS', 2021), ('B41', 'PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS', 2020), ('B42', 'BOOKBINDING; ALBUMS; FILES; SPECIAL PRINTED MATTER', 2022), ('B60', 'VEHICLES IN GENERAL', 2022), ('B62', 'LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS', 2021), ('B63', 'SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT', 2022), ('B64', 'AIRCRAFT; AVIATION; COSMONAUTICS', 2022), ('B65', 'CONVEYING; PACKING; STORING; HANDLING THIN OR FILAMENTARY MATERIAL', 2022), ('B66', 'HOISTING; LIFTING; HAULING', 2022), ('C01', 'INORGANIC CHEMISTRY', 2022), ('C03', 'GLASS; MINERAL OR SLAG WOOL', 2018), ('C04', 'CEMENTS; CONCRETE; ARTIFICIAL STONE; CERAMICS; REFRACTORIES', 2022), ('C07', 'ORGANIC CHEMISTRY', 2021), ('C09', 'DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('C10', 'PETROLEUM, GAS OR COKE INDUSTRIES; TECHNICAL GASES CONTAINING CARBON MONOXIDE; FUELS; LUBRICANTS; PEAT', 2018), ('C11', 'ANIMAL OR VEGETABLE OILS, FATS, FATTY SUBSTANCES OR WAXES; FATTY ACIDS THEREFROM; DETERGENTS; CANDLES', 2018), ('C12', 'BIOCHEMISTRY; BEER; SPIRITS; WINE; VINEGAR; MICROBIOLOGY; ENZYMOLOGY; MUTATION OR GENETIC ENGINEERING', 2022), ('C30', 'CRYSTAL GROWTH', 2021), ('D04', 'BRAIDING; LACE-MAKING; KNITTING; TRIMMINGS; NON-WOVEN FABRICS', 2021), ('D06', 'TREATMENT OF TEXTILES OR THE LIKE; LAUNDERING; FLEXIBLE MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('E02', 'HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING', 2022), ('E05', 'LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES', 2019), ('E21', 'EARTH OR ROCK DRILLING; MINING', 2022), ('F01', 'MACHINES OR ENGINES IN GENERAL; ENGINE PLANTS IN GENERAL; STEAM ENGINES', 2019), ('F02', 'COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS', 2019), ('F04', 'POSITIVE - DISPLACEMENT MACHINES FOR LIQUIDS; PUMPS FOR LIQUIDS OR ELASTIC FLUIDS', 2021), ('F05', 'INDEXING SCHEMES RELATING TO ENGINES OR PUMPS IN VARIOUS SUBCLASSES OF CLASSES F01-F04', 2021), ('F15', 'FLUID-PRESSURE ACTUATORS; HYDRAULICS OR PNEUMATICS IN GENERAL', 2021), ('F16', 'ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL', 2021), ('F21', 'LIGHTING', 2021), ('F23', 'COMBUSTION APPARATUS; COMBUSTION PROCESSES', 2019), ('F24', 'HEATING; RANGES; VENTILATING', 2022), ('F25', 'REFRIGERATION OR COOLING; COMBINED HEATING AND REFRIGERATION SYSTEMS; HEAT PUMP SYSTEMS; MANUFACTURE OR STORAGE OF ICE; LIQUEFACTION SOLIDIFICATION OF GASES', 2021), ('F41', 'WEAPONS', 2021), ('F42', 'AMMUNITION; BLASTING', 2022), ('G01', 'MEASURING; TESTING', 2022), ('G02', 'OPTICS', 2021), ('G05', 'CONTROLLING; REGULATING', 2022), ('G06', 'COMPUTING; CALCULATING OR COUNTING', 2022), ('G07', 'CHECKING-DEVICES', 2021), ('G08', 'SIGNALLING', 2022), ('H01', 'ELECTRIC ELEMENTS', 2022), ('H02', 'GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER', 2022), ('H04', 'ELECTRIC COMMUNICATION TECHNIQUE', 2021), ('Y02', 'TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE', 2023), ('Y10', 'TECHNICAL SUBJECTS COVERED BY FORMER USPC', 2013)]"
   },
   {
     "dataset": "patents",
@@ -1593,7 +1593,7 @@
     "dataset": "patents",
     "query": "2",
     "run": "3",
-    "answer": "MEASURING; TESTING, G01, 2018"
+    "answer": "[('A01', 'AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING', 2022), ('A21', 'BAKING; EDIBLE DOUGHS', 2018), ('A23', 'FOODS OR FOODSTUFFS; TREATMENT THEREOF, NOT COVERED BY OTHER CLASSES', 2021), ('A43', 'FOOTWEAR', 2018), ('A47', 'FURNITURE; DOMESTIC ARTICLES OR APPLIANCES; COFFEE MILLS; SPICE MILLS; SUCTION CLEANERS IN GENERAL', 2021), ('A61', 'MEDICAL OR VETERINARY SCIENCE; HYGIENE', 2021), ('B01', 'PHYSICAL OR CHEMICAL PROCESSES OR APPARATUS IN GENERAL', 2022), ('B29', 'WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL', 2021), ('B32', 'LAYERED PRODUCTS', 2021), ('B41', 'PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS', 2020), ('B42', 'BOOKBINDING; ALBUMS; FILES; SPECIAL PRINTED MATTER', 2022), ('B60', 'VEHICLES IN GENERAL', 2022), ('B62', 'LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS', 2021), ('B63', 'SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT', 2022), ('B64', 'AIRCRAFT; AVIATION; COSMONAUTICS', 2022), ('B65', 'CONVEYING; PACKING; STORING; HANDLING THIN OR FILAMENTARY MATERIAL', 2022), ('B66', 'HOISTING; LIFTING; HAULING', 2022), ('C01', 'INORGANIC CHEMISTRY', 2022), ('C03', 'GLASS; MINERAL OR SLAG WOOL', 2018), ('C04', 'CEMENTS; CONCRETE; ARTIFICIAL STONE; CERAMICS; REFRACTORIES', 2022), ('C07', 'ORGANIC CHEMISTRY', 2021), ('C09', 'DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('C10', 'PETROLEUM, GAS OR COKE INDUSTRIES; TECHNICAL GASES CONTAINING CARBON MONOXIDE; FUELS; LUBRICANTS; PEAT', 2018), ('C11', 'ANIMAL OR VEGETABLE OILS, FATS, FATTY SUBSTANCES OR WAXES; FATTY ACIDS THEREFROM; DETERGENTS; CANDLES', 2018), ('C12', 'BIOCHEMISTRY; BEER; SPIRITS; WINE; VINEGAR; MICROBIOLOGY; ENZYMOLOGY; MUTATION OR GENETIC ENGINEERING', 2022), ('C30', 'CRYSTAL GROWTH', 2021), ('D04', 'BRAIDING; LACE-MAKING; KNITTING; TRIMMINGS; NON-WOVEN FABRICS', 2021), ('D06', 'TREATMENT OF TEXTILES OR THE LIKE; LAUNDERING; FLEXIBLE MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('E02', 'HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING', 2022), ('E05', 'LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES', 2019), ('E21', 'EARTH OR ROCK DRILLING; MINING', 2022), ('F01', 'MACHINES OR ENGINES IN GENERAL; ENGINE PLANTS IN GENERAL; STEAM ENGINES', 2019), ('F02', 'COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS', 2019), ('F04', 'POSITIVE - DISPLACEMENT MACHINES FOR LIQUIDS; PUMPS FOR LIQUIDS OR ELASTIC FLUIDS', 2021), ('F05', 'INDEXING SCHEMES RELATING TO ENGINES OR PUMPS IN VARIOUS SUBCLASSES OF CLASSES F01-F04', 2021), ('F15', 'FLUID-PRESSURE ACTUATORS; HYDRAULICS OR PNEUMATICS IN GENERAL', 2021), ('F16', 'ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL', 2021), ('F21', 'LIGHTING', 2021), ('F23', 'COMBUSTION APPARATUS; COMBUSTION PROCESSES', 2019), ('F24', 'HEATING; RANGES; VENTILATING', 2022), ('F25', 'REFRIGERATION OR COOLING; COMBINED HEATING AND REFRIGERATION SYSTEMS; HEAT PUMP SYSTEMS; MANUFACTURE OR STORAGE OF ICE; LIQUEFACTION SOLIDIFICATION OF GASES', 2021), ('F41', 'WEAPONS', 2021), ('F42', 'AMMUNITION; BLASTING', 2022), ('G01', 'MEASURING; TESTING', 2022), ('G02', 'OPTICS', 2021), ('G05', 'CONTROLLING; REGULATING', 2022), ('G06', 'COMPUTING; CALCULATING OR COUNTING', 2022), ('G07', 'CHECKING-DEVICES', 2021), ('G08', 'SIGNALLING', 2022), ('H01', 'ELECTRIC ELEMENTS', 2022), ('H02', 'GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER', 2022), ('H04', 'ELECTRIC COMMUNICATION TECHNIQUE', 2021), ('Y02', 'TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE', 2023), ('Y10', 'TECHNICAL SUBJECTS COVERED BY FORMER USPC', 2013)]"
   },
   {
     "dataset": "patents",
@@ -1611,7 +1611,7 @@
     "dataset": "patents",
     "query": "2",
     "run": "4",
-    "answer": "['MEASURING; TESTING', 'G01', 2018]"
+    "answer": "[('A01', 'AGRICULTURE; FORESTRY; ANIMAL HUSBANDRY; HUNTING; TRAPPING; FISHING', 2022), ('A21', 'BAKING; EDIBLE DOUGHS', 2018), ('A23', 'FOODS OR FOODSTUFFS; TREATMENT THEREOF, NOT COVERED BY OTHER CLASSES', 2021), ('A43', 'FOOTWEAR', 2018), ('A47', 'FURNITURE; DOMESTIC ARTICLES OR APPLIANCES; COFFEE MILLS; SPICE MILLS; SUCTION CLEANERS IN GENERAL', 2021), ('A61', 'MEDICAL OR VETERINARY SCIENCE; HYGIENE', 2021), ('B01', 'PHYSICAL OR CHEMICAL PROCESSES OR APPARATUS IN GENERAL', 2022), ('B29', 'WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL', 2021), ('B32', 'LAYERED PRODUCTS', 2021), ('B41', 'PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS', 2020), ('B42', 'BOOKBINDING; ALBUMS; FILES; SPECIAL PRINTED MATTER', 2022), ('B60', 'VEHICLES IN GENERAL', 2022), ('B62', 'LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS', 2021), ('B63', 'SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT', 2022), ('B64', 'AIRCRAFT; AVIATION; COSMONAUTICS', 2022), ('B65', 'CONVEYING; PACKING; STORING; HANDLING THIN OR FILAMENTARY MATERIAL', 2022), ('B66', 'HOISTING; LIFTING; HAULING', 2022), ('C01', 'INORGANIC CHEMISTRY', 2022), ('C03', 'GLASS; MINERAL OR SLAG WOOL', 2018), ('C04', 'CEMENTS; CONCRETE; ARTIFICIAL STONE; CERAMICS; REFRACTORIES', 2022), ('C07', 'ORGANIC CHEMISTRY', 2021), ('C09', 'DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('C10', 'PETROLEUM, GAS OR COKE INDUSTRIES; TECHNICAL GASES CONTAINING CARBON MONOXIDE; FUELS; LUBRICANTS; PEAT', 2018), ('C11', 'ANIMAL OR VEGETABLE OILS, FATS, FATTY SUBSTANCES OR WAXES; FATTY ACIDS THEREFROM; DETERGENTS; CANDLES', 2018), ('C12', 'BIOCHEMISTRY; BEER; SPIRITS; WINE; VINEGAR; MICROBIOLOGY; ENZYMOLOGY; MUTATION OR GENETIC ENGINEERING', 2022), ('C30', 'CRYSTAL GROWTH', 2021), ('D04', 'BRAIDING; LACE-MAKING; KNITTING; TRIMMINGS; NON-WOVEN FABRICS', 2021), ('D06', 'TREATMENT OF TEXTILES OR THE LIKE; LAUNDERING; FLEXIBLE MATERIALS NOT OTHERWISE PROVIDED FOR', 2021), ('E02', 'HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING', 2022), ('E05', 'LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES', 2019), ('E21', 'EARTH OR ROCK DRILLING; MINING', 2022), ('F01', 'MACHINES OR ENGINES IN GENERAL; ENGINE PLANTS IN GENERAL; STEAM ENGINES', 2019), ('F02', 'COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS', 2019), ('F04', 'POSITIVE - DISPLACEMENT MACHINES FOR LIQUIDS; PUMPS FOR LIQUIDS OR ELASTIC FLUIDS', 2021), ('F05', 'INDEXING SCHEMES RELATING TO ENGINES OR PUMPS IN VARIOUS SUBCLASSES OF CLASSES F01-F04', 2021), ('F15', 'FLUID-PRESSURE ACTUATORS; HYDRAULICS OR PNEUMATICS IN GENERAL', 2021), ('F16', 'ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL', 2021), ('F21', 'LIGHTING', 2021), ('F23', 'COMBUSTION APPARATUS; COMBUSTION PROCESSES', 2019), ('F24', 'HEATING; RANGES; VENTILATING', 2022), ('F25', 'REFRIGERATION OR COOLING; COMBINED HEATING AND REFRIGERATION SYSTEMS; HEAT PUMP SYSTEMS; MANUFACTURE OR STORAGE OF ICE; LIQUEFACTION SOLIDIFICATION OF GASES', 2021), ('F41', 'WEAPONS', 2021), ('F42', 'AMMUNITION; BLASTING', 2022), ('G01', 'MEASURING; TESTING', 2022), ('G02', 'OPTICS', 2021), ('G05', 'CONTROLLING; REGULATING', 2022), ('G06', 'COMPUTING; CALCULATING OR COUNTING', 2022), ('G07', 'CHECKING-DEVICES', 2021), ('G08', 'SIGNALLING', 2022), ('H01', 'ELECTRIC ELEMENTS', 2022), ('H02', 'GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER', 2022), ('H04', 'ELECTRIC COMMUNICATION TECHNIQUE', 2021), ('Y02', 'TECHNOLOGIES OR APPLICATIONS FOR MITIGATION OR ADAPTATION AGAINST CLIMATE CHANGE', 2023), ('Y10', 'TECHNICAL SUBJECTS COVERED BY FORMER USPC', 2013)]"
   },
   {
     "dataset": "patents",

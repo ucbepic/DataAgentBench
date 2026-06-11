@@ -1,5 +1,5 @@
 {
-  "submission_file": "submissions/scribe_actioneer_opus47.json",
+  "submission_file": "submissions/scribe_actioneer_opus47_clean.json",
   "expected_trials": 270,
   "found_trials": 270,
   "datasets": {
@@ -28,6 +28,18 @@
         "ag_news",
         "generating train split",
         "models--sentence-transformers"
+      ],
+      "evidence": []
+    },
+    "hf_cache_file_read": {
+      "hits": 0,
+      "patterns": [
+        ".cache/huggingface",
+        "datasets--ag_news",
+        "ag_news-train.arrow",
+        "ag_news-test.arrow",
+        "train-00000-of",
+        "datasets/ag_news"
       ],
       "evidence": []
     },
@@ -78,7 +90,11 @@
   "validator": {
     "validated": 270,
     "validator_errors": 0,
-    "passed": 233
+    "passed": 207
+  },
+  "gold_in_spec": {
+    "hits": 0,
+    "evidence": []
   },
   "result": "270/270 clean"
 }
