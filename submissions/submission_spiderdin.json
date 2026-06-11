@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 0,
+    "answer": "The Rundown 4 Miami at N.C. State."
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 1,
+    "answer": "The Rundown 4 Miami at N.C. State"
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 2,
+    "answer": "The Rundown 4 Miami at N.C. State."
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 3,
+    "answer": "The Rundown."
+  },
+  {
+    "dataset": "agnews",
+    "query": 1,
+    "run": 4,
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 0,
+    "answer": "13/13."
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 1,
+    "answer": "12/13 of Amy Jones’s articles are in the Science/Technology category."
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 2,
+    "answer": "11/13"
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 3,
+    "answer": "All of Amy Jones’s articles (14 out of 14) are in the Science/Technology category."
+  },
+  {
+    "dataset": "agnews",
+    "query": 2,
+    "run": 4,
+    "answer": "11/13"
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 0,
+    "answer": "The provided data does not contain enough information to calculate the average number of Europe business articles per year."
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 1,
+    "answer": "Approximately 0.55 business articles per year."
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 2,
+    "answer": "The provided data does not contain the information needed to calculate that average."
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 3,
+    "answer": "Insufficient data to calculate the average."
+  },
+  {
+    "dataset": "agnews",
+    "query": 3,
+    "run": 4,
+    "answer": "Approximately 0.45 business articles per year."
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 0,
+    "answer": "South America."
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 1,
+    "answer": "North America."
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 2,
+    "answer": "South America."
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 3,
+    "answer": "North America."
+  },
+  {
+    "dataset": "agnews",
+    "query": 4,
+    "run": 4,
+    "answer": "South America."
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 0,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 1,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 2,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 3,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 1,
+    "run": 4,
+    "answer": "2020"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 0,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\n﻿title: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n﻿title: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"]\n﻿title: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"]\n﻿title: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"]\n﻿title: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"]\n﻿title: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"]\n﻿title: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]\n﻿title: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n﻿title: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n﻿title: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"]\n﻿title: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 1,
+    "answer": "No English-language books in the “Literature & Fiction” category have a perfect average rating of 5.0."
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 2,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n\n﻿title: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: The Prophet: With Original 1923 Illustrations by the Author | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/b61g45vrb7u1g1rbso6rd26qpd._SY600_.jpg\", \"name\": \"Kahlil Gibran\", \"about\": [\"Khalil Gibran (/dʒɪˈbrɑːn/; Full Arabic name Gibran Khalil Gibran, sometimes spelled Kahlil;[a] Arabic: جبران خليل جبران‎ / ALA-LC: Jubrān Khalīl Jubrān or Jibrān Khalīl Jibrān) (January 6, 1883 – April 10, 1931) was a Lebanese-American artist, poet, and writer of the New York Pen League.\", \"Khalil Gibran was born in the town of Bsharri in the Mount Lebanon Mutasarrifate, Ottoman Empire (north of modern-day Lebanon), to Khalil Gibran and Kamila Gibran(Rahmeh). As a young man Khalil emigrated with his family to the United States, where he studied art and began his literary career, writing in both English and Arabic. In the Arab world, Gibran is regarded as a literary and political rebel. His romantic style was at the heart of a renaissance in modern Arabic literature, especially prose poetry, breaking away from the classical school. In Lebanon, he is still celebrated as a literary hero.\", \"He is chiefly known in the English-speaking world for his 1923 book The Prophet, an early example of inspirational fiction including a series of philosophical essays written in poetic English prose. The book sold well despite a cool critical reception, gaining popularity in the 1930s and again especially in the 1960s counterculture. Gibran is the third best-selling poet of all time, behind Shakespeare and Laozi.\", \"Bio from Wikipedia, the free encyclopedia. Photo by unknown [Public domain], via Wikimedia Commons.\"]} | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n﻿title: The Melancholy Strumpet Master | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/qni9n7pv1s2e14ilckdh94bvpp._SY600_.jpg\", \"name\": \"Zeb Beck\", \"about\": [\"Zeb Beck lives in Los Angeles with his lovely wife and difficult pets. He likes and dislikes the same things you do.\"]} | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"]\n﻿title: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | author: {\"avatar\": \"https://m.media-amazon.com/images/I/01Kv-W2ysOL._SY600_.png\", \"name\": \"K. G. Ingram\", \"about\": [\"Discover more of the author’s books, see similar authors, read author blogs and more\"]} | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"]\n﻿title: Fire Cracker | author: {\"avatar\": \"https://m.media-amazon.com/images/I/61rBqsmOAEL._SY600_.jpg\", \"name\": \"Shirley Kennett\", \"about\": [\"I've worn a number of hats, including those of corporate analyst, business systems programmer, independent computer consultant , and pet store employee (the one who cleans the cages), but my writer's hat is by far the most comfortable - and most satisfying - of them all. I've been a mystery fan as long as I can remember, which may have had something to do with growing up in a converted turn-of-the-century funeral home.\", \"I've been involved with computers most of my life. In my consulting career, I focused on improving the quality of patient care through computerized clinical applications. Conducting business with clients around the country from my home office, I was a pioneer of telecommuting before the word was commonplace.\", \"As Shirley Kennett, I write the PJ Gray series of suspense/police procedural novels and short stories. As Dakota Banks, I write the Mortal Path series of paranormal thrillers.\", \"I'm a St. Louis native and a member of the Mystery Writers of America, the American Crime Writers League, Science Fiction and Fantasy Writers of America,Horror Writers Association, and International Thriller Writers. My hobbies are reading (not surprising), gardening, and photography.\"]} | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"]\n﻿title: Local Honey | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/f0qa31setadkj3p887mrpih2qf._SY600_.jpg\", \"name\": \"Jo Stewart Wray\", \"about\": [\"Jo Stewart Wray is the author of Games of Greed, Queen of the World Walkers, Deep South Gold, Local Honey, Deep South Secrets, Voodoo Charlie, Red Rage, and The Cheapskate's Guide to Home Decorating: How to Make, Find, or Buy Inexpensive but Stylish Décor.\", \"She also is an indie one of one art-to-wear clothing designer for her brand Wild Flower Heart and owns an antiques store in Kilmichael, MS, Jo Wray's Antiques. Check out more about Jo Stewart Wray at www.shopwildflowerheart.com, Instagram @luvwildflowerheart,or on facebook - Jo Stewart Wray.\", \"Send any questions you have to wildflowerheart17@yahoo.com\", \"Jo is a retired teacher. She taught for 37 years.\"]} | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"]\n﻿title: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/k6127ea22g6p8f2d71oe76opi7._SY600_.jpg\", \"name\": \"Gemma Halliday\", \"about\": [\"Gemma Halliday is the #1 Amazon, New York Times &amp; USA Today bestselling author of several mystery series, suspense novels, and young adult books. Gemma's books have received numerous awards, including a Golden Heart, two National Reader's Choice awards, three RITA nominations, and a RONE award for best mystery. She currently lives in the San Francisco Bay Area with her large, loud, and loving family.\", \"Want a FREE ebook? Sign up for Gemma's newsletter and get a free ebook as a thank you! http://www.gemmahalliday.com\"]} | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: Knowing When To Die: Uncollected Stories | author: {\"avatar\": \"https://m.media-amazon.com/images/I/01Kv-W2ysOL._SY600_.png\", \"name\": \"Mort Castle\", \"about\": [\"Discover more of the author’s books, see similar authors, read author blogs and more\"]} | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"]\n﻿title: Forged in Blood (Freehold) | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/gq39urdv9inbq41htchmvq1hjv._SY600_.jpg\", \"name\": \"Michael Z. Williamson\", \"about\": [\"Michael Z. Williamson is retired military, having served twenty-five years in the U.S. Army and the U.S. Air Force. He was deployed for Operation Iraqi Freedom and Operation Desert Fox. Williamson is a state-ranked competitive shooter in combat rifle and combat pistol. He has consulted on military matters, weapons and disaster preparedness for Discovery Channel and Outdoor Channel productions and is Editor-at-Large for Survivalblog, with 300K weekly readers. In addition to these activities, Williamson tests and reviews firearms and gear for manufacturers. Williamson’s books set in his Freehold Universe include Freehold, Better to Beg Forgiveness, and Do Unto Others. His novel The Hero – written in collaboration with New York Times best-selling author John Ringo–has reached modern classic status. Williamson was born in England, raised in Liverpool and Toronto, Canada, and now resides in Indianapolis with his wife and children.\"]} | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]\n﻿title: Exits, Desires, & Slow Fires | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/mcplfdtav0lto4jg57up6btdie._SY600_.jpg\", \"name\": \"J.R. Rogue\", \"about\": [\"J.R. Rogue is the author of three Goodreads Choice Awards Nominate poetry collections. She first put pen to paper at the age of fifteen after developing an unrequited high school crush & has never stopped writing about heartache, sorrow, and hope. Rogue has published multiple volumes of poetry & novels. In addition, she is a Certified Yoga Teacher with additional certification in Yoga Nidra & Trauma-Informed Yoga.\", \"She lives in a small town in the midwest with her family, where she enjoys a quiet life reading & telling stories.\"]} | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n﻿title: Kennebago Moments | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/7kc4luv1llcllhh7h0k5j7flfe._SY600_.jpg\", \"name\": \"Betsy Wolff Frey\", \"about\": [\"Betsy Wolff Frey is a software developer and author of stories for children.\", \"She improvised bedtime stories when her children were young. When she later put the stories on paper, she was horrified to discover that every few sentences screamed for a fresh page with an illustration. Readers might question whether the right side of her brain was up to the illustration task, but she prefers to view her pictures as classic naive art, with its markedly childlike style.\", \"She is delighted to be able to exercise both sides of her brain, using the logical left side for programming, web design, and writing books that demystify advanced subjects for students. The right side gets its workout from children's stories and artwork.\", \"She feels very lucky to be able to live in beautiful places and to have enjoyable work that stimulates her mind. She lives with her husband, Eric, in California and Maine.\"]} | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"]\n﻿title: The Sludge | author: {\"avatar\": \"https://m.media-amazon.com/images/I/71MFjIrVtuL._SY600_.jpg\", \"name\": \"David Bernstein\", \"about\": [\"I am a dark fiction writer, a horror writer. I write the gamut, from atmospheric horror to extreme gory horror to dark fiction and dark thriller, oh, and the occasional bizarro tale.\", \"Gory: The Unhinged, Damaged Souls, Witch Island, Apartment 7C, Amongst the Dead\", \"Extreme horror: The Unhinged (you were warned)\", \"Horror with a twist: The Tree Man, Apartment 7C\", \"Zombie fiction: Machines of the Dead trilogy. Amongst the Dead.\", \"Darkfuse horror: Relic of Death, Surrogate, Skinner (coming July 2015)\", \"Dark thriller/supernatural/ action: Tears of No Return, Toxic Behemoth\", \"Monster horror: Toxic Behemoth (Deep Sea/Kaiju book)\", \"Bizarro/Gross out/funny horror: Fecal Terror\", \"Please visit me at davidbernsteinauthor.blogspot.com for more about me and my work or on Facebook. https://www.facebook.com/david.bernstein.3\"]} | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"]\n﻿title: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"]\n﻿title: Something That Feels Like Truth (Switchgrass Books) | author: {\"avatar\": \"https://m.media-amazon.com/images/S/amzn-author-media-prod/2j0jkbvj2m08l9s45h9errmr36._SY600_.jpg\", \"name\": \"DONALD LYSTRA\", \"about\": [\"Discover more of the author’s books, see similar authors, read author blogs and more\"]} | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"]"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 3,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"], This book, published independently on September 25, 2019, is written in English and spans 367 pages. It is available in paperback format and has an ISBN-10 of 1694621731 and an ISBN-13 of 978-1694621733. The item weighs 1.38 pounds and measures 6 x 0.92 x 9 inches.\n\n﻿title: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: This book, published independently on September 25, 2019, is written in English and spans 367 pages. It is available in paperback format and has an ISBN-10 of 1694621731 and an ISBN-13 of 978-1694621733. The item weighs 1.38 pounds and measures 6 x 0.92 x 9 inches.\n﻿title: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"] | details: The book, published by Suzeteo Enterprises on February 14, 2019, is available in English and consists of 48 pages. It has an ISBN-10 of 1947844938 and an ISBN-13 of 978-1947844933. The Lexile measure for this book is 990L. Weighing 2.08 ounces, its dimensions are 5 inches in width, 0.1 inches in thickness, and 8 inches in height.\n﻿title: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"] | details: This book, published independently on February 19, 2023, is written in English and spans 257 pages in paperback format. It has an ISBN 13 of 979-8378201969 and weighs 14.1 ounces. The dimensions of the book are 5.5 x 0.65 x 8.5 inches.\n﻿title: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"] | details: This book, published by Self Publishing on December 1, 2022, is written in English and comprises 192 pages. It has an ISBN 13 of 979-8887592497 and weighs 8.8 ounces. The dimensions of the book are 5.5 by 0.48 by 8.5 inches.\n﻿title: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"] | details: This book, published by Kensington on July 1, 1997, is available in English and features a paperback format with a total of 312 pages. It has an ISBN-10 of 1575661810 and an ISBN-13 of 978-1575661810. The item weighs 1.3 pounds and its dimensions are 6.25 inches in width, 1.25 inches in thickness, and 9.5 inches in height.\n﻿title: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"] | details: This book, published by Xlibris on June 26, 2015, is written in English and spans 166 pages in paperback format. It has an ISBN 10 of 1503581098 and an ISBN 13 of 978-1503581098. The item weighs 8.8 ounces and has dimensions of 6 x 0.42 x 9 inches.\n﻿title: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: This book, published by CreateSpace Independent Publishing Platform on May 31, 2011, is written in English and features a paperback format consisting of 209 pages. It has an ISBN 10 number of 1463534795 and an ISBN 13 number of 978-1463534790. The item weighs 7.8 ounces and has dimensions of 5.25 x 0.48 x 8 inches.\n﻿title: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: This book, published by Independent Legions Publishing in its first edition on June 19, 2018, is written in English and spans 216 pages. It is available in paperback and has an ISBN-10 of 8831959018 and an ISBN-13 of 978-8831959018. The item weighs 9.9 ounces and has dimensions of 5.5 x 0.54 x 8.5 inches.\n﻿title: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"] | details: The book, published by Naydus Press on July 27, 2021, is written in English and features a paperback format consisting of 80 pages. It has an ISBN 10 of 1734193603 and an ISBN 13 of 978-1734193602. Weighing 4 ounces, the book measures 4.9 by 0.3 by 7.8 inches.\n﻿title: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"] | details: The book is published by Baen in a reissue edition dated September 25, 2018. It is written in English and is available as a mass market paperback, consisting of 528 pages. The ISBN-10 for this edition is 1481483536, while the ISBN-13 is 978-1481483537. The item weighs 8.8 ounces and has dimensions of 4.13 x 1.3 x 6.75 inches.\n﻿title: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"] | details: The book, published by CreateSpace Independent Publishing Platform in its first edition on September 20, 2017, is written in English and consists of 83 pages. It has an ISBN 10 of 154710435X and an ISBN 13 of 978-1547104352. The item weighs 3.2 ounces and has dimensions of 5 x 0.21 x 8 inches.\n﻿title: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"] | details: This book, published by CreateSpace Independent Publishing Platform on November 24, 2010, is written in English and has a total of 52 pages. It is available in paperback format and weighs 3.2 ounces. The book's dimensions are 5.98 x 0.12 x 9.02 inches. It can be identified by its ISBN 10 number, 1453850171, and its ISBN 13 number, 978-1453850176.\n﻿title: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: The book, published by Great Old Ones Publishing in its first edition on July 5, 2016, is written in English and consists of 198 pages. It has an ISBN-10 of 0692726446 and an ISBN-13 of 978-0692726440. Weighing 10.4 ounces, the book measures 6 inches in width, 0.5 inches in thickness, and 9 inches in height.\n﻿title: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"] | details: This book, published independently on June 1, 2020, is available in English and comprises 125 pages in paperback format. It has an ISBN 13 of 979-8650407126 and weighs 6.9 ounces. The dimensions of the book are 6 x 0.32 x 9 inches.\n﻿title: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"] | details: This book, published by Northern Illinois University Press in its first edition on September 1, 2013, is available in English and is presented in paperback format with a total of 290 pages. It has an ISBN-10 of 9780875806938 and an ISBN-13 of 978-0875806938. Suitable for readers aged 18 years and older, the book weighs 11.7 ounces and its dimensions are 5 x 0.9 x 8 inches."
+  },
+  {
+    "dataset": "bookreview",
+    "query": 2,
+    "run": 4,
+    "answer": "The Sludge; Something That Feels Like Truth (Switchgrass Books)\n\nReunion: The Children of Lauderdale Park, bookid_9, [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"], This book, published independently on September 25, 2019, is written in English and spans 367 pages. It is available in paperback format and has an ISBN-10 of 1694621731 and an ISBN-13 of 978-1694621733. The item weighs 1.38 pounds and measures 6 x 0.92 x 9 inches.\n\n﻿title: Reunion: The Children of Lauderdale Park | book_id: bookid_9 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: This book, published independently on September 25, 2019, is written in English and spans 367 pages. It is available in paperback format and has an ISBN-10 of 1694621731 and an ISBN-13 of 978-1694621733. The item weighs 1.38 pounds and measures 6 x 0.92 x 9 inches.\n﻿title: The Prophet: With Original 1923 Illustrations by the Author | book_id: bookid_38 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"] | details: The book, published by Suzeteo Enterprises on February 14, 2019, is available in English and consists of 48 pages. It has an ISBN-10 of 1947844938 and an ISBN-13 of 978-1947844933. The Lexile measure for this book is 990L. Weighing 2.08 ounces, its dimensions are 5 inches in width, 0.1 inches in thickness, and 8 inches in height.\n﻿title: The Melancholy Strumpet Master | book_id: bookid_39 | categories: [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"] | details: This book, published independently on February 19, 2023, is written in English and spans 257 pages in paperback format. It has an ISBN 13 of 979-8378201969 and weighs 14.1 ounces. The dimensions of the book are 5.5 x 0.65 x 8.5 inches.\n﻿title: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | book_id: bookid_74 | categories: [\"Books\", \"Literature & Fiction\"] | details: This book, published by Self Publishing on December 1, 2022, is written in English and comprises 192 pages. It has an ISBN 13 of 979-8887592497 and weighs 8.8 ounces. The dimensions of the book are 5.5 by 0.48 by 8.5 inches.\n﻿title: Fire Cracker | book_id: bookid_82 | categories: [\"Books\", \"Literature & Fiction\", \"United States\"] | details: This book, published by Kensington on July 1, 1997, is available in English and features a paperback format with a total of 312 pages. It has an ISBN-10 of 1575661810 and an ISBN-13 of 978-1575661810. The item weighs 1.3 pounds and its dimensions are 6.25 inches in width, 1.25 inches in thickness, and 9.5 inches in height.\n﻿title: Local Honey | book_id: bookid_84 | categories: [\"Books\", \"Literature & Fiction\"] | details: This book, published by Xlibris on June 26, 2015, is written in English and spans 166 pages in paperback format. It has an ISBN 10 of 1503581098 and an ISBN 13 of 978-1503581098. The item weighs 8.8 ounces and has dimensions of 6 x 0.42 x 9 inches.\n﻿title: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | book_id: bookid_98 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: This book, published by CreateSpace Independent Publishing Platform on May 31, 2011, is written in English and features a paperback format consisting of 209 pages. It has an ISBN 10 number of 1463534795 and an ISBN 13 number of 978-1463534790. The item weighs 7.8 ounces and has dimensions of 5.25 x 0.48 x 8 inches.\n﻿title: Knowing When To Die: Uncollected Stories | book_id: bookid_101 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: This book, published by Independent Legions Publishing in its first edition on June 19, 2018, is written in English and spans 216 pages. It is available in paperback and has an ISBN-10 of 8831959018 and an ISBN-13 of 978-8831959018. The item weighs 9.9 ounces and has dimensions of 5.5 x 0.54 x 8.5 inches.\n﻿title: Childe Harold of Dysna | book_id: bookid_122 | categories: [\"Books\", \"Literature & Fiction\", \"History & Criticism\"] | details: The book, published by Naydus Press on July 27, 2021, is written in English and features a paperback format consisting of 80 pages. It has an ISBN 10 of 1734193603 and an ISBN 13 of 978-1734193602. Weighing 4 ounces, the book measures 4.9 by 0.3 by 7.8 inches.\n﻿title: Forged in Blood (Freehold) | book_id: bookid_144 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"] | details: The book is published by Baen in a reissue edition dated September 25, 2018. It is written in English and is available as a mass market paperback, consisting of 528 pages. The ISBN-10 for this edition is 1481483536, while the ISBN-13 is 978-1481483537. The item weighs 8.8 ounces and has dimensions of 4.13 x 1.3 x 6.75 inches.\n﻿title: Exits, Desires, & Slow Fires | book_id: bookid_171 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"] | details: The book, published by CreateSpace Independent Publishing Platform in its first edition on September 20, 2017, is written in English and consists of 83 pages. It has an ISBN 10 of 154710435X and an ISBN 13 of 978-1547104352. The item weighs 3.2 ounces and has dimensions of 5 x 0.21 x 8 inches.\n﻿title: Kennebago Moments | book_id: bookid_177 | categories: [\"Books\", \"Literature & Fiction\", \"Poetry\"] | details: This book, published by CreateSpace Independent Publishing Platform on November 24, 2010, is written in English and has a total of 52 pages. It is available in paperback format and weighs 3.2 ounces. The book's dimensions are 5.98 x 0.12 x 9.02 inches. It can be identified by its ISBN 10 number, 1453850171, and its ISBN 13 number, 978-1453850176.\n﻿title: The Sludge | book_id: bookid_180 | categories: [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | details: The book, published by Great Old Ones Publishing in its first edition on July 5, 2016, is written in English and consists of 198 pages. It has an ISBN-10 of 0692726446 and an ISBN-13 of 978-0692726440. Weighing 10.4 ounces, the book measures 6 inches in width, 0.5 inches in thickness, and 9 inches in height.\n﻿title: Liza of Lambeth | book_id: bookid_182 | categories: [\"Books\", \"Literature & Fiction\", \"Classics\"] | details: This book, published independently on June 1, 2020, is available in English and comprises 125 pages in paperback format. It has an ISBN 13 of 979-8650407126 and weighs 6.9 ounces. The dimensions of the book are 6 x 0.32 x 9 inches.\n﻿title: Something That Feels Like Truth (Switchgrass Books) | book_id: bookid_195 | categories: [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"] | details: This book, published by Northern Illinois University Press in its first edition on September 1, 2013, is available in English and is presented in paperback format with a total of 290 pages. It has an ISBN-10 of 9780875806938 and an ISBN-13 of 978-0875806938. Suitable for readers aged 18 years and older, the book weighs 11.7 ounces and its dimensions are 5 x 0.9 x 8 inches."
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 0,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35) (Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children’s entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8 (8).\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n﻿title: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n﻿title: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n﻿title: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n﻿title: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n﻿title: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n﻿title: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n﻿title: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n﻿title: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n﻿title: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n﻿title: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n﻿title: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n﻿title: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n﻿title: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n﻿title: Pokémon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 1,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still, The Old Man and the Pirate Princess, Egypt (Enchantment of the World), Clark the Shark: Tooth Trouble, No. 1, Favorite Thorton W. Burgess Stories: 6 Books, Behind the Wheel (Choose Your Own Adventure #35), Cheer Up, Ben Franklin!, The Library Book, Benny Goes To The Moon, LunaLu the Llamacorn, Trouble in the CTC!: The Terra Prime Adventures Book 2, Around the World Mazes, Cleo Porter and the Body Electric, Pokémon: Sun & Moon, Vol. 8.\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n﻿title: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n﻿title: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n﻿title: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n﻿title: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n﻿title: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n﻿title: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n﻿title: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n﻿title: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n﻿title: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n﻿title: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n﻿title: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n﻿title: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n﻿title: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n﻿title: Pokémon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 2,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35); Cheer Up, Ben Franklin!; The Library Book; Benny Goes To The Moon; LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8.\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n﻿title: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n﻿title: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n﻿title: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n﻿title: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n﻿title: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n﻿title: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n﻿title: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n﻿title: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n﻿title: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n﻿title: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n﻿title: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n﻿title: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n﻿title: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n﻿title: Pokémon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 3,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still, The Old Man and the Pirate Princess, Egypt (Enchantment of the World), Clark the Shark: Tooth Trouble, No. 1, Favorite Thorton W. Burgess Stories: 6 Books, Behind the Wheel (Choose Your Own Adventure #35), Cheer Up, Ben Franklin!, The Library Book, Benny Goes To The Moon, LunaLu the Llamacorn, Trouble in the CTC!: The Terra Prime Adventures Book 2, Around the World Mazes, Cleo Porter and the Body Electric, Pokémon: Sun & Moon, Vol. 8.\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n﻿title: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n﻿title: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n﻿title: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n﻿title: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n﻿title: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n﻿title: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n﻿title: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n﻿title: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n﻿title: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n﻿title: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n﻿title: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n﻿title: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n﻿title: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n﻿title: Pokémon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": 3,
+    "run": 4,
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still, The Old Man and the Pirate Princess, Egypt (Enchantment of the World), Clark the Shark: Tooth Trouble, No. 1, Favorite Thorton W. Burgess Stories: 6 Books, Behind the Wheel (Choose Your Own Adventure #35), Cheer Up, Ben Franklin!, The Library Book, Benny Goes To The Moon, LunaLu the Llamacorn, Trouble in the CTC!: The Terra Prime Adventures Book 2, Around the World Mazes, Cleo Porter and the Body Electric, Pokémon: Sun & Moon, Vol. 8.\n\nMonstrous Stories #4: The Day the Mice Stood Still, bookid_4, 5.0\n\n﻿title: Monstrous Stories #4: The Day the Mice Stood Still | book_id: bookid_4 | avg_rating: 5.0\n﻿title: The Old Man and the Pirate Princess | book_id: bookid_14 | avg_rating: 5.0\n﻿title: Egypt (Enchantment of the World) | book_id: bookid_40 | avg_rating: 5.0\n﻿title: Clark the Shark: Tooth Trouble, No. 1 | book_id: bookid_48 | avg_rating: 4.75\n﻿title: Favorite Thorton W. Burgess Stories: 6 Books | book_id: bookid_54 | avg_rating: 5.0\n﻿title: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | book_id: bookid_55 | avg_rating: 5.0\n﻿title: Cheer Up, Ben Franklin! (Young Historians) | book_id: bookid_96 | avg_rating: 5.0\n﻿title: The Library Book | book_id: bookid_108 | avg_rating: 5.0\n﻿title: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | book_id: bookid_130 | avg_rating: 5.0\n﻿title: LunaLu the Llamacorn | book_id: bookid_146 | avg_rating: 5.0\n﻿title: Trouble in the CTC!: The Terra Prime Adventures Book 2 | book_id: bookid_149 | avg_rating: 4.9\n﻿title: Around the World Mazes | book_id: bookid_152 | avg_rating: 5.0\n﻿title: Cleo Porter and the Body Electric | book_id: bookid_158 | avg_rating: 4.708333333333333\n﻿title: Pokémon: Sun & Moon, Vol. 8 (8) | book_id: bookid_170 | avg_rating: 5.0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 0,
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 1,
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 2,
+    "answer": "After classifying 1 rows, no rows matched the 'Missing' category. Cannot determine the answer."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 3,
+    "answer": "After classifying 1 rows, no rows matched the 'fail_factors' category. Cannot determine the answer."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 1,
+    "run": 4,
+    "answer": "After classifying 1 rows, no rows matched the 'Missing' category. Cannot determine the answer."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 0,
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 1,
+    "answer": "The required information about company policy, cost thresholds, and setup criteria is not present in the available tables, making it impossible to assess compliance or identify a conflicting knowledge article."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 2,
+    "answer": "The database does not contain information about company policy compliance or setup details needed to determine violations."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 3,
+    "answer": "The database does not contain information about quote setup details or company policy compliance criteria, nor a direct link to relevant knowledge articles for validation."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 2,
+    "run": 4,
+    "answer": "The database does not store policy criteria or setup information needed to determine compliance, nor a mapping from quotes to relevant knowledge articles. Therefore the requested compliance check cannot be performed with the available data."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 0,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 1,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 2,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 3,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 3,
+    "run": 4,
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 0,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 1,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 2,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 3,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 4,
+    "run": 4,
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 0,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 1,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 2,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 3,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 5,
+    "run": 4,
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 0,
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 1,
+    "answer": "The database does not store company regulation rules or a mapping of product configurations to knowledge articles, so the required validation cannot be performed."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 2,
+    "answer": "The database does not contain any representation of company regulations or mapping of quote configurations to knowledge articles, making it impossible to determine violations."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 3,
+    "answer": "The required concept of company regulations is not present in the schema, so the compliance check cannot be performed."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 6,
+    "run": 4,
+    "answer": "Company regulations are not represented in any column, so compliance cannot be evaluated from the available data."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 0,
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 1,
+    "answer": "None\n\nNone"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 2,
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 3,
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 7,
+    "run": 4,
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 0,
+    "answer": "#005Wt000003NBcAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 1,
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 8,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 0,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 1,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 2,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 3,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 9,
+    "run": 4,
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 0,
+    "answer": "005Wt000003NDqDIAW, 14.0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 3,
+    "answer": "005Wt000003NDqDIAW, 14.0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 10,
+    "run": 4,
+    "answer": "005Wt000003NIddIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 0,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 1,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 2,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 3,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 11,
+    "run": 4,
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 0,
+    "answer": "#005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 1,
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 2,
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 3,
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 12,
+    "run": 4,
+    "answer": "005Wt000003NDEBIA4, 304.0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 0,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 1,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 2,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 3,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": 13,
+    "run": 4,
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 0,
+    "answer": "@ec-nordbund/leaflet,1.7.1-build-81dc2489\n@dongjiang/textmate-grammars,0.0.5\n@dpoineau/react-scripts>1.0.0>node-sass,3.10.1\n\n@ec-nordbund/leaflet, 1.7.1-build-81dc2489, 38715\n\n﻿Name: @ec-nordbund/leaflet | Version: 1.7.1-build-81dc2489 | stars: 38715\n﻿Name: @dongjiang/textmate-grammars | Version: 0.0.5 | stars: 18526\n﻿Name: @dongjiang/textmate-grammars | Version: 0.0.5 | stars: 18526\n﻿Name: @dpoineau/react-scripts>1.0.0>node-sass | Version: 3.10.1 | stars: 8498\n﻿Name: @dpoineau/react-scripts>1.0.0>node-sass | Version: 3.10.1 | stars: 8498"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 1,
+    "answer": "@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n\n@dmrvos/infrajs>0.0.5>typescript, 2.6.2, 94931\n\n﻿Name: @dmrvos/infrajs>0.0.5>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dmrvos/infrajs>0.0.6>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dollarshaveclub/cli>1.0.0>lodash | Version: 4.17.4 | stars: 57779\n﻿Name: @dollarshaveclub/cli>1.1.0>lodash | Version: 4.17.4 | stars: 57779\n﻿Name: @dollarshaveclub/cli>1.10.0>lodash | Version: 4.17.5 | stars: 57779"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 2,
+    "answer": "@ec-nordbund/leaflet,1.7.1-build-81dc2489\n@dongjiang/textmate-grammars,0.0.5\n@dpoineau/react-scripts>1.0.0>node-sass,3.10.1\n@dollarshaveclub/cli>1.13.1>qs,6.5.2\n\n@ec-nordbund/leaflet, 1.7.1-build-81dc2489, 38715\n\n﻿PackageName: @ec-nordbund/leaflet | PackageVersion: 1.7.1-build-81dc2489 | GithubStars: 38715\n﻿PackageName: @dongjiang/textmate-grammars | PackageVersion: 0.0.5 | GithubStars: 18526\n﻿PackageName: @dpoineau/react-scripts>1.0.0>node-sass | PackageVersion: 3.10.1 | GithubStars: 8498\n﻿PackageName: @dollarshaveclub/cli>1.11.0>qs | PackageVersion: 6.5.1 | GithubStars: 8073\n﻿PackageName: @dollarshaveclub/cli>1.13.1>qs | PackageVersion: 6.5.2 | GithubStars: 8073"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 3,
+    "answer": "@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dpoineau/react-scripts>1.0.0>lodash._baseclone,3.3.0\n\n@dmrvos/infrajs>0.0.5>typescript, 2.6.2, 94931\n\n﻿Name: @dmrvos/infrajs>0.0.5>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dmrvos/infrajs>0.0.5>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dmrvos/infrajs>0.0.6>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dmrvos/infrajs>0.0.6>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dpoineau/react-scripts>1.0.0>lodash._baseclone | Version: 3.3.0 | stars: 57779"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 1,
+    "run": 4,
+    "answer": "@dmrvos/infrajs>0.0.6>typescript,2.6.2\n@dollarshaveclub/cli>1.10.0>lodash,4.17.5\n\n@dmrvos/infrajs>0.0.5>typescript, 2.6.2, 94931\n\n﻿Name: @dmrvos/infrajs>0.0.5>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dmrvos/infrajs>0.0.6>typescript | Version: 2.6.2 | stars: 94931\n﻿Name: @dollarshaveclub/cli>1.0.0>lodash | Version: 4.17.4 | stars: 57779\n﻿Name: @dollarshaveclub/cli>1.1.0>lodash | Version: 4.17.4 | stars: 57779\n﻿Name: @dollarshaveclub/cli>1.10.0>lodash | Version: 4.17.5 | stars: 57779"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 0,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n﻿project_name: semantic-org/semantic-ui | forks: 4955\n﻿project_name: react-native-community/react-native-webview | forks: 2962\n﻿project_name: react-native-device-info/react-native-device-info | forks: 1449\n﻿project_name: sass/node-sass | forks: 1326\n﻿project_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 1,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n﻿project_name: semantic-org/semantic-ui | forks: 4955\n﻿project_name: react-native-community/react-native-webview | forks: 2962\n﻿project_name: react-native-device-info/react-native-device-info | forks: 1449\n﻿project_name: sass/node-sass | forks: 1326\n﻿project_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 2,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n﻿project_name: semantic-org/semantic-ui | forks: 4955\n﻿project_name: react-native-community/react-native-webview | forks: 2962\n﻿project_name: react-native-device-info/react-native-device-info | forks: 1449\n﻿project_name: sass/node-sass | forks: 1326\n﻿project_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 3,
+    "answer": "semantic-org/semantic-ui, 4955; react-native-community/react-native-webview, 2962; react-native-device-info/react-native-device-info, 1449; sass/node-sass, 1326; mbrn/material-table, 1035\n\nsemantic-org/semantic-ui, 4955\n\n﻿project_name: semantic-org/semantic-ui | forks: 4955\n﻿project_name: react-native-community/react-native-webview | forks: 2962\n﻿project_name: react-native-device-info/react-native-device-info | forks: 1449\n﻿project_name: sass/node-sass | forks: 1326\n﻿project_name: mbrn/material-table | forks: 1035"
+  },
+  {
+    "dataset": "deps_dev_v1",
+    "query": 2,
+    "run": 4,
+    "answer": "No data found for the query (Catalog Error: Table with name packageinfo does not exist!\nDid you mean \"package_query_db.packageinfo\"?\n\nLINE 1: ..., pi.Project_Information, pi.Licenses, pp.ProjectName FROM packageinfo p JOIN project_packageversion pp ON p.System...\n                                                                      ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 0,
+    "answer": "0.3333333333333333"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 1,
+    "answer": "100%"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 2,
+    "answer": "0.1259259259259259"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 3,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 1: ...le_repo_name = f.repo_name AND c.sample_path = f.path JOIN languages l ON l.repo_name = c.sample_repo_name WHERE f...\n                                                                      ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 1,
+    "run": 4,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 1: ... AS repo_name, c.content AS content FROM contents c JOIN languages l ON c.sample_repo_name = l.repo_name WHERE c...\n                                                                    ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 0,
+    "answer": "SwiftAndroid/swift, 71a17ce92451858f3eb01aa8082551e48bc5550d, validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 1,
+    "answer": "After classifying a sample of 24286 rows, no rows matched the 'non-binary Swift' category. Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 2,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 8: LEFT JOIN languages l ON f.repo_name = l.repo_name\n                  ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 3,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 1: ...scription FROM files f JOIN contents c ON f.id = c.id JOIN languages l ON f.repo_name = l.repo_name WHERE f.path LIKE...\n                                                                      ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 2,
+    "run": 4,
+    "answer": "After classifying a sample of 24286 rows, no rows matched the 'swift_nonbinary' category. Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 0,
+    "answer": "1077"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 1,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 2,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 3,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 3,
+    "run": 4,
+    "answer": "0"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 0,
+    "answer": "apple/swift, twbs/bootstrap, Microsoft/vscode, facebook/react, tensorflow/tensorflow\n\napple/swift\n\n﻿repo_name: apple/swift\n﻿repo_name: twbs/bootstrap\n﻿repo_name: Microsoft/vscode\n﻿repo_name: facebook/react\n﻿repo_name: tensorflow/tensorflow"
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 1,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 1: SELECT repo_name, language_description FROM languages\n                                                    ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 2,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 1: SELECT repo_name, language_description FROM languages\n                                                    ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 3,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 1: SELECT repo_name, language_description FROM languages\n                                                    ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "github_repos",
+    "query": 4,
+    "run": 4,
+    "answer": "No data found for the query (Catalog Error: Table with name languages does not exist!\nDid you mean \"repo_metadata_db.languages\"?\n\nLINE 1: SELECT repo_name, language_description FROM languages\n                                                    ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 0,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n﻿business_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n﻿business_name: City Textile | avg_rating: 4.5 | review_count: 6\n﻿business_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n﻿business_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n﻿business_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 1,
+    "answer": "Widows Peak Salon, City Textile, Nobel Textile Co, San Soo Dang, Nova Fabrics\n\nWidows Peak Salon, 4.857142857142857, 35\n\n﻿business_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n﻿business_name: City Textile | avg_rating: 4.5 | review_count: 6\n﻿business_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n﻿business_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n﻿business_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 2,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n﻿business_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n﻿business_name: City Textile | avg_rating: 4.5 | review_count: 6\n﻿business_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n﻿business_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n﻿business_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 3,
+    "answer": "The provided data does not include any rating information to determine the top five businesses by average rating."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 1,
+    "run": 4,
+    "answer": "Widows Peak Salon, 4.857142857142857, 35; City Textile, 4.5, 6; Nobel Textile Co, 4.285714285714286, 7; San Soo Dang, 4.277777777777778, 18; Nova Fabrics, 3.3333333333333335, 6\n\nWidows Peak Salon, 4.857142857142857, 35\n\n﻿business_name: Widows Peak Salon | avg_rating: 4.857142857142857 | review_count: 35\n﻿business_name: City Textile | avg_rating: 4.5 | review_count: 6\n﻿business_name: Nobel Textile Co | avg_rating: 4.285714285714286 | review_count: 7\n﻿business_name: San Soo Dang | avg_rating: 4.277777777777778 | review_count: 18\n﻿business_name: Nova Fabrics | avg_rating: 3.3333333333333335 | review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 0,
+    "answer": "Elite Massage,5.0; Angel-A Massage,4.333333333333333; Aurora Massage,4.178571428571429\n\nElite Massage, 5.0\n\n﻿business_name: Elite Massage | average_rating: 5.0\n﻿business_name: Angel-A Massage | average_rating: 4.333333333333333\n﻿business_name: Aurora Massage | average_rating: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 1,
+    "answer": "Elite Massage, 5.0; Angel-A Massage, 4.333333333333333; Aurora Massage, 4.178571428571429\n\nElite Massage, 5.0\n\n﻿business_name: Elite Massage | average_rating: 5.0\n﻿business_name: Angel-A Massage | average_rating: 4.333333333333333\n﻿business_name: Aurora Massage | average_rating: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 2,
+    "answer": "The provided data does not include average rating information."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 3,
+    "answer": "The provided data does not include any average rating information."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 2,
+    "run": 4,
+    "answer": "The provided data does not include any rating information."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 0,
+    "answer": "Taba Rug Gallery – [[\"Thursday\",\"10AM–7PM\"],[\"Friday\",\"10AM–7PM\"],[\"Saturday\",\"10AM–7PM\"],[\"Sunday\",\"11AM–6PM\"],[\"Monday\",\"10AM–7PM\"],[\"Tuesday\",\"10AM–7PM\"],[\"Wednesday\",\"10AM–7PM\"]], 5.0; Beauty Divine Artistry – [[\"Thursday\",\"9AM–8PM\"],[\"Friday\",\"9AM–8PM\"],[\"Saturday\",\"10AM–7PM\"],[\"Sunday\",\"11AM–6PM\"],[\"Monday\",\"9AM–8PM\"],[\"Tuesday\",\"9AM–8PM\"],[\"Wednesday\",\"9AM–8PM\"]], 5.0; White Barn Candle Co – [[\"Thursday\",\"10AM–9PM\"],[\"Friday\",\"10AM–9PM\"],[\"Saturday\",\"10AM–9PM\"],[\"Sunday\",\"11AM–7PM\"],[\"Monday\",\"10AM–9PM\"],[\"Tuesday\",\"10AM–9PM\"],[\"Wednesday\",\"10AM–9PM\"]], 5.0; TACOS LA CABANA – [[\"Thursday\",\"Closed\"],[\"Friday\",\"5–11PM\"],[\"Saturday\",\"5–11PM\"],[\"Sunday\",\"5–11PM\"],[\"Monday\",\"5–11PM\"],[\"Tuesday\",\"Closed\"],[\"Wednesday\",\"Closed\"]], 5.0.\n\nHanford Auto Supply, [[\"Thursday\", \"9AM–6PM\"], [\"Friday\", \"9AM–6PM\"], [\"Saturday\", \"9AM–5PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM–6PM\"], [\"Tuesday\", \"9AM–6PM\"], [\"Wednesday\", \"9AM–6PM\"]], 5.0\n\n﻿business_name: Hanford Auto Supply | operating_hours: [[\"Thursday\", \"9AM–6PM\"], [\"Friday\", \"9AM–6PM\"], [\"Saturday\", \"9AM–5PM\"], [\"Sunday\", \"Closed\"], [\"Monday\", \"9AM–6PM\"], [\"Tuesday\", \"9AM–6PM\"], [\"Wednesday\", \"9AM–6PM\"]] | average_rating: 5.0\n﻿business_name: Taba Rug Gallery | operating_hours: [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]] | average_rating: 5.0\n﻿business_name: Beauty Divine Artistry | operating_hours: [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]] | average_rating: 5.0\n﻿business_name: White Barn Candle Co | operating_hours: [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]] | average_rating: 5.0\n﻿business_name: TACOS LA CABANA | operating_hours: [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | average_rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 1,
+    "answer": "Rating data isn’t provided, so the top 5 businesses cannot be identified."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 2,
+    "answer": "The top five businesses that stay open past 6 PM on a weekday, ranked by highest average rating, are Aurora Massage (9:30 AM–9:30 PM weekdays, rating 211), Good Massage (9:30 AM–9:30 PM weekdays, rating 211), Regus – California, Irvine – Oracle Tower (Open 24 hours, rating 211), Mobile Moreno Valley Dispensary (Open 24 hours, rating 211) and Angel‑A Massage (9:30 AM–9:30 PM weekdays, rating 202)."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 3,
+    "answer": "gmap_63 (Open 24 h) – rating 211; gmap_55 (Open 24 h) – rating 211; gmap_28 (9:30 AM–9:30 PM) – rating 211; gmap_20 (9:30 AM–9:30 PM) – rating 211; gmap_22 (9:30 AM–9:30 PM weekdays, 10 AM–8 PM Sunday) – rating 202."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 3,
+    "run": 4,
+    "answer": "Insufficient data to determine the top 5 businesses by average rating."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 0,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD – 19; The Boochyard @ Local Roots – 17; Aurora Massage – 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n﻿business_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n﻿business_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n﻿business_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 1,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD – 19; The Boochyard @ Local Roots – 17; Aurora Massage – 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n﻿business_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n﻿business_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n﻿business_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 2,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD – 19; The Boochyard @ Local Roots – 17; Aurora Massage – 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n﻿business_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n﻿business_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n﻿business_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 3,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD – 19; The Boochyard @ Local Roots – 17; Aurora Massage – 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n﻿business_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n﻿business_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n﻿business_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": 4,
+    "run": 4,
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD – 19; The Boochyard @ Local Roots – 17; Aurora Massage – 14.\n\nEncino Dermatology & Laser: Alex Khadavi MD, 19\n\n﻿business_name: Encino Dermatology & Laser: Alex Khadavi MD | high_rating_review_count: 19\n﻿business_name: The Boochyard @ Local Roots | high_rating_review_count: 17\n﻿business_name: Aurora Massage | high_rating_review_count: 14"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 0,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 1,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 2,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 3,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 1,
+    "run": 4,
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 0,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 1,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 2,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 3,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 2,
+    "run": 4,
+    "answer": "Amazon Music, 304.13"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 0,
+    "answer": "[silence], 9672.740000000003"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 1,
+    "answer": "[silence], 9672.740000000003"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 2,
+    "answer": "Systemisch bled, 2522.82"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 3,
+    "answer": "Systemisch bled, 2522.82"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": 3,
+    "run": 4,
+    "answer": "Systemisch bled, 2522.82"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 1,
+    "answer": "The provided data does not include IGF2 expression values, so the average log10‑transformed expression cannot be calculated."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 2,
+    "answer": "The data provided do not include IGF2 expression values, so the average log10‑transformed IGF2 expression cannot be calculated."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 3,
+    "answer": "No data found for the query (Catalog Error: Table with name clinical_info does not exist!\nDid you mean \"pancancer_clinical_db.clinical_info\"?\n\nLINE 5: FROM clinical_info ci\n             ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 1,
+    "run": 4,
+    "answer": "The database does not contain a column that directly stores the disease type 'LGG', making it impossible to filter the appropriate patient cohort for the requested analysis."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 1,
+    "answer": "Invasive Lobular Carcinoma ≈ 12%; Mixed Ductal & Lobular Carcinoma ≈ 5%; Invasive Ductal Carcinoma ≈ 2%"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 2,
+    "answer": "No data found for the query (Catalog Error: Table with name clinical_info does not exist!\nDid you mean \"pancancer_clinical_db.clinical_info\"?\n\nLINE 1: ... md.Hugo_Symbol IS NOT NULL THEN 1 ELSE 0 END AS has_cdh1 FROM clinical_info ci LEFT JOIN Mutation_Data md ON ci.patient_id...\n                                                                          ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 3,
+    "answer": "No data available."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 2,
+    "run": 4,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 0,
+    "answer": "Chi2 = 305.1239"
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 1,
+    "answer": "No data found for the query (Catalog Error: Table with name clinical_info does not exist!\nDid you mean \"pancancer_clinical_db.clinical_info\"?\n\nLINE 1: ..., ci.Patient_description, md.Hugo_Symbol, md.FILTER FROM clinical_info ci LEFT JOIN Mutation_Data md ON ci.patient_id...\n                                                                    ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 2,
+    "answer": "No data found for the query (Catalog Error: Table with name clinical_info does not exist!\nDid you mean \"pancancer_clinical_db.clinical_info\"?\n\nLINE 5: FROM clinical_info ci\n             ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 3,
+    "answer": "No data found for the query (Catalog Error: Table with name clinical_info does not exist!\nDid you mean \"pancancer_clinical_db.clinical_info\"?\n\nLINE 6: FROM clinical_info ci\n             ^). Cannot determine the answer."
+  },
+  {
+    "dataset": "pancancer_atlas",
+    "query": 3,
+    "run": 4,
+    "answer": "The provided data lack the required counts of CDH1 mutation status by histology, so a chi‑square statistic cannot be computed."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 1,
+    "answer": "None"
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 3,
+    "answer": "The data lacks explicit year fields and precomputed EMA values, making it impossible to answer the query directly with the available schema."
+  },
+  {
+    "dataset": "patents",
+    "query": 1,
+    "run": 4,
+    "answer": "The necessary year information is embedded in unstructured text fields, and the required EMA calculations cannot be performed directly with the available schema."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 1,
+    "answer": "No data available to determine the CPC technology areas in Germany for the specified criteria."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 2,
+    "answer": "The provided data does not include the year‑specific filing counts needed to compute exponential moving averages for patents granted in the second half of 2019, so the requested CPC technology areas cannot be identified."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 3,
+    "answer": "The provided data does not contain the information needed to identify the German CPC technology areas with the highest exponential moving average of patent filings for the second half of 2019."
+  },
+  {
+    "dataset": "patents",
+    "query": 2,
+    "run": 4,
+    "answer": "The provided data does not include German CPC technology areas or the required filing information for patents granted in the second half of 2019."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 0,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 2,
+    "answer": "No assignees (other than UNIV CALIFORNIA) have cited its patents, so no CPC subclass titles are associated."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 3,
+    "answer": "After classifying a sample of 277813 rows, no rows matched the 'cited_by_univ_california' category. Cannot determine the answer."
+  },
+  {
+    "dataset": "patents",
+    "query": 3,
+    "run": 4,
+    "answer": "After classifying a sample of 277813 rows, no rows matched the 'cites_univ_california' category. Cannot determine the answer."
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 0,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 1,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 2,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 3,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 1,
+    "run": 4,
+    "answer": "HSI, 0.014931673425125852"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 0,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 1,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "stockindex",
+    "query": 2,
+    "run": 4,
+    "answer": "IXIC, 131, 120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 0,
+    "answer": "IXIC, US; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan\n\nIXIC, 4.820458770643175\n\n﻿Index: IXIC | return_factor: 4.820458770643175\n﻿Index: GDAXI | return_factor: 2.352596770486255\n﻿Index: NSEI | return_factor: 2.3392640249710555\n﻿Index: 399001.SZ | return_factor: 2.338097153885205\n﻿Index: TWII | return_factor: 2.300450675351221"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 1,
+    "answer": "The database lacks a column that directly or indirectly provides the country for each index, making it impossible to answer the question using only the available data."
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 2,
+    "answer": "IXIC, USA; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan.\n\nIXIC, 4.8204587706431825\n\n﻿Index: IXIC | return_factor: 4.8204587706431825\n﻿Index: GDAXI | return_factor: 2.3525967704862576\n﻿Index: NSEI | return_factor: 2.339264024971059\n﻿Index: 399001.SZ | return_factor: 2.338097153885195\n﻿Index: TWII | return_factor: 2.3004506753512213"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 3,
+    "answer": "IXIC, United States; GDAXI, Germany; NSEI, India; 399001.SZ, China; TWII, Taiwan.\n\nIXIC, 4.820458770643185\n\n﻿Index: IXIC | return_factor: 4.820458770643185\n﻿Index: GDAXI | return_factor: 2.352596770486253\n﻿Index: NSEI | return_factor: 2.339264024971054\n﻿Index: 399001.SZ | return_factor: 2.3380971538851942\n﻿Index: TWII | return_factor: 2.300450675351222"
+  },
+  {
+    "dataset": "stockindex",
+    "query": 3,
+    "run": 4,
+    "answer": "IXIC, USA; NSEI, India; GDAXI, Germany; 399001.SZ, China; TWII, Taiwan.\n\nIXIC, 4.816205036184268\n\n﻿Index: IXIC | overall_return_factor: 4.816205036184268\n﻿Index: NSEI | overall_return_factor: 2.356409177742646\n﻿Index: GDAXI | overall_return_factor: 2.3537005565588847\n﻿Index: 399001.SZ | overall_return_factor: 2.338381188967095\n﻿Index: TWII | overall_return_factor: 2.2447368452852596"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 0,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 1,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 2,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 3,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 1,
+    "run": 4,
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 0,
+    "answer": "BOIL\n\n﻿Symbol: BOIL\n﻿Symbol: BZQ\n﻿Symbol: COM\n﻿Symbol: DUST\n﻿Symbol: EDZ\n﻿Symbol: ERX\n﻿Symbol: FAZ\n﻿Symbol: FXP\n﻿Symbol: GFIN\n﻿Symbol: GUSH\n﻿Symbol: HYUP\n﻿Symbol: JDST\n﻿Symbol: JNUG\n﻿Symbol: JPN\n﻿Symbol: LABD\n﻿Symbol: LABU\n﻿Symbol: LBJ\n﻿Symbol: MDY\n﻿Symbol: PTIN\n﻿Symbol: RTL\n﻿Symbol: SDOW\n﻿Symbol: SOXS\n﻿Symbol: SSG\n﻿Symbol: TECS\n﻿Symbol: TOTAL | total_etfs: 31.0\n﻿Symbol: TZA\n﻿Symbol: UVXY\n﻿Symbol: VIXY\n﻿Symbol: VPC\n﻿Symbol: XES\n﻿Symbol: XOP\n﻿Symbol: YANG"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 1,
+    "answer": "ProShares Ultra Bloomberg – total 1​"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 2,
+    "answer": "ProShares Ultra Bloomberg – 1 ETF."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 3,
+    "answer": "None; total = 0."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 2,
+    "run": 4,
+    "answer": "0 ETFs; total count: 0."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 0,
+    "answer": "Apex Global Brands Inc.: 23781.4229; BIO-key International, Inc.: 10988.1423; CBAK Energy Technology, Inc.: 86223.3202; China Ceramics Co., Ltd.: 4366.7984; Correvio Pharma Corp.: 145247.8261; CounterPath Corporation: 375.4941; DASAN Zhone Solutions, Inc.: 15578.6561; Frontier Communications Corporation: 254397.6285; Future FinTech Group Inc.: 9.8452; Ideanomics, Inc.: 10.2767; Ocean Power Technologies, Inc.: 254.1502; Pacific Ethanol, Inc.: 10706.7194; Sunesis Pharmaceuticals, Inc.: 781.8182; Synthesis Energy Systems, Inc.: 2390.5138; Sypris Solutions, Inc.: 36836.3636.\n\nApex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide., 23781.422924901184\n\n﻿company_name: Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide. | avg_volume: 23781.422924901184\n﻿company_name: BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike. | avg_volume: 10988.142292490118\n﻿company_name: CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions. | avg_volume: 86223.32015810277\n﻿company_name: China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes. | avg_volume: 4366.798418972332\n﻿company_name: Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes. | avg_volume: 145247.8260869565\n﻿company_name: CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals. | avg_volume: 375.49407114624506\n﻿company_name: DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide. | avg_volume: 15578.656126482214\n﻿company_name: Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States. | avg_volume: 254397.62845849802\n﻿company_name: Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications. | avg_volume: 9.845238095238095\n﻿company_name: Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and sustainability in transportation and energy. | avg_volume: 10.276679841897232\n﻿company_name: Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology. | avg_volume: 254.1501976284585\n﻿company_name: Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector. | avg_volume: 10706.719367588932\n﻿company_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | avg_volume: 781.8181818181819\n﻿company_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | avg_volume: 2390.513833992095\n﻿company_name: Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges. | avg_volume: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 1,
+    "answer": "Apex Global Brands Inc – 23,781.42; BIO‑key International, Inc – 10,988.14."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 2,
+    "answer": "Apex Global Brands Inc: 23781.42; BIO-key International, Inc: 10988.14"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 3,
+    "answer": "Apex Global Brands Inc, 23781.42; BIO-key International, Inc, 10988.14"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 3,
+    "run": 4,
+    "answer": "Apex Global Brands Inc., 23781.42; BIO-key International, Inc., 10988.14; CBAK Energy Technology, Inc., 86223.32; China Ceramics Co., Ltd., 4366.80; Correvio Pharma Corp., 145247.83; CounterPath Corporation, 375.49; DASAN Zhone Solutions, Inc., 15578.66; Frontier Communications Corporation, 254397.63; Future FinTech Group Inc., 9.85; Ideanomics, Inc., 10.28; Ocean Power Technologies, Inc., 254.15; Pacific Ethanol, Inc., 10706.72; Sunesis Pharmaceuticals, Inc., 781.82; Synthesis Energy Systems, Inc., 2390.51; Sypris Solutions, Inc., 36836.36\n\nApex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide., 23781.422924901184\n\n﻿company_name: Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide. | avg_volume: 23781.422924901184\n﻿company_name: BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike. | avg_volume: 10988.142292490118\n﻿company_name: CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions. | avg_volume: 86223.32015810277\n﻿company_name: China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes. | avg_volume: 4366.798418972332\n﻿company_name: Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes. | avg_volume: 145247.8260869565\n﻿company_name: CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals. | avg_volume: 375.49407114624506\n﻿company_name: DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide. | avg_volume: 15578.656126482214\n﻿company_name: Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States. | avg_volume: 254397.62845849802\n﻿company_name: Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications. | avg_volume: 9.845238095238095\n﻿company_name: Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and sustainability in transportation and energy. | avg_volume: 10.276679841897232\n﻿company_name: Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology. | avg_volume: 254.1501976284585\n﻿company_name: Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector. | avg_volume: 10706.719367588932\n﻿company_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | avg_volume: 781.8181818181819\n﻿company_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | avg_volume: 2390.513833992095\n﻿company_name: Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges. | avg_volume: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 0,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n﻿company_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n﻿company_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n﻿company_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n﻿company_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n﻿company_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 1,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n﻿company_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n﻿company_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n﻿company_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n﻿company_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n﻿company_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 2,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n﻿company_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n﻿company_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n﻿company_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n﻿company_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n﻿company_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 3,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n﻿company_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n﻿company_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n﻿company_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n﻿company_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n﻿company_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 4,
+    "run": 4,
+    "answer": "HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., Ameriprise Financial, Inc.\n\nHDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n\n﻿company_name: HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.\n﻿company_name: Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.\n﻿company_name: Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.\n﻿company_name: Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.\n﻿company_name: Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 0,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n﻿company_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n﻿company_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n﻿company_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n﻿company_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n﻿company_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 1,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n﻿company_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n﻿company_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n﻿company_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n﻿company_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n﻿company_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 2,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions., 51\n\n﻿company_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. | days_exceeding_range: 51\n﻿company_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials. | days_exceeding_range: 42\n﻿company_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes. | days_exceeding_range: 40\n﻿company_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth. | days_exceeding_range: 38\n﻿company_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. | days_exceeding_range: 32"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 3,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n﻿company_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n﻿company_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n﻿company_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n﻿company_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n﻿company_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": 5,
+    "run": 4,
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc.\n\nSynthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n\n﻿company_name: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.\n﻿company_name: TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.\n﻿company_name: TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.\n﻿company_name: Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.\n﻿company_name: Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease."
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 0,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 1,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 2,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 3,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 1,
+    "run": 4,
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 0,
+    "answer": "PA, 662, 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 1,
+    "answer": "PA, 662, 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 2,
+    "answer": "PA, 662, 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 3,
+    "answer": "PA, 662, 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": 2,
+    "run": 4,
+    "answer": "PA, 662, 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 0,
+    "answer": "39"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 1,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 2,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 3,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 3,
+    "run": 4,
+    "answer": "41"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 0,
+    "answer": "Restaurants, 26, 3.6407263294422827"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 1,
+    "answer": "Restaurants, 26, 3.6407263294422827"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 2,
+    "answer": "Restaurants, 3.6407263294422827"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 3,
+    "answer": "Restaurants, 3.6407263294422827"
+  },
+  {
+    "dataset": "yelp",
+    "query": 4,
+    "run": 4,
+    "answer": "Restaurants, 3.6407263294422827"
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 0,
+    "answer": "PA, 8, 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 1,
+    "answer": "PA, 8, 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 2,
+    "answer": "PA, 8, 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 3,
+    "answer": "PA, 12, 3.7006802721088436"
+  },
+  {
+    "dataset": "yelp",
+    "query": 5,
+    "run": 4,
+    "answer": "PA, 12, 3.7006802721088436"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 0,
+    "answer": "Coffee House Too Cafe, 4.285714285714286, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 1,
+    "answer": "Coffee House Too Cafe, 4.285714285714286, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 2,
+    "answer": "Coffee House Too Cafe, 4.285714285714286, Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 3,
+    "answer": "Coffee House Too Cafe, 4.285714285714286"
+  },
+  {
+    "dataset": "yelp",
+    "query": 6,
+    "run": 4,
+    "answer": "Coffee House Too Cafe, 4.285714285714286, Located at 501 Fairmount Ave in Philadelphia, PA, this inviting establishment offers a delightful menu featuring Restaurants, Breakfast & Brunch, American (New), Cafes, perfect for a cozy meal any time of the day."
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 0,
+    "answer": "Restaurants – 43; Food – 30; American (New) – 23; Shopping – 20; Breakfast & Brunch – 19.\n\nRestaurants, 43\n\n﻿category: Restaurants | total_reviews: 43\n﻿category: Food | total_reviews: 30\n﻿category: American (New) | total_reviews: 23\n﻿category: Shopping | total_reviews: 20\n﻿category: Breakfast & Brunch | total_reviews: 19"
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 1,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 2,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 3,
+    "answer": "No results found."
+  },
+  {
+    "dataset": "yelp",
+    "query": 7,
+    "run": 4,
+    "answer": "Restaurants: 8; experiences: 4; Nightlife: 4; Cocktail Bars: 4; including Wine Bars: 4.\n\nRestaurants, 8\n\n﻿category: Restaurants | total_reviews: 8\n﻿category: experiences | total_reviews: 4\n﻿category: Nightlife | total_reviews: 4\n﻿category: Cocktail Bars | total_reviews: 4\n﻿category: including Wine Bars | total_reviews: 4"
+  }
+]
