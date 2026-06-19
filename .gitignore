@@ -8,6 +8,11 @@ __pycache__/
 # runtime
 claude_projects/
 
+# failed traces collection
+failed_traces_claude_code_sonnet_4_6/
+failed_traces_claude_code_sonnet_4_6.zip
+collect_failed_traces.py
+
 # results
 results/
 
@@ -51,7 +56,8 @@ query_krama/query_dataset/misc_files/
 query_krama/query_dataset/geo.db
 query_krama/query*/ground_truth.py
 query_krama/scripts/
-query_civic_unstructured/
+query_civic_unstructured_old/
+query_civic_unstructured/query*/compute_ground_truth.py
 query_paper_unstructured/
 query_notice_unstructured/
 potentialdb_for_query_snowflake
@@ -79,6 +85,7 @@ query_googlelocal/query*/ground_truth.py
 query_music_brainz_20k/create_databases.py
 query_music_brainz_20k/create_queries.py
 query_music_brainz_20k/create_track_repre.py
+query_music_brainz_20k/ground_truth_dataset/
 query_PANCANCER_ATLAS/query*/ground_truth.py
 query_PANCANCER_ATLAS/detail_hint_ifneeded.txt
 # large db: 5.1G
@@ -99,4 +106,43 @@ query_yelp/query*/ground_truth.py
 # manifest are the answer key — keep local-only. Construction code in
 # manual_querycode/ IS shipped (see PROVENANCE.md) for full reproducibility.
 query_cve/clean/
+query_cve/query*/logs
 query_usaspending/clean/
+query_usaspending/query*/logs
+# === Dataset files mirrored on Hugging Face (fetched by download.sh) ===
+# These are NOT committed to git. See dataset_manifest.tsv.
+query_DEPS_DEV_V1/query_dataset/package_query.db
+query_DEPS_DEV_V1/query_dataset/project_query.db
+query_GITHUB_REPOS/query_dataset/repo_artifacts.db
+query_GITHUB_REPOS/query_dataset/repo_metadata.db
+query_PANCANCER_ATLAS/query_dataset/pancancer_clinical.sql
+query_PANCANCER_ATLAS/query_dataset/pancancer_molecular.db
+query_PATENTS/query_dataset/patent_CPCDefinition.sql
+query_agnews/query_dataset/metadata.db
+query_bookreview/query_dataset/books_info.sql
+query_bookreview/query_dataset/review_query.db
+query_civic_unstructured/query_dataset/civic_docs_dump/civic_db/civic_docs.bson
+query_civic_unstructured/query_dataset/funding.db
+query_crmarenapro/query_dataset/activities.duckdb
+query_crmarenapro/query_dataset/core_crm.db
+query_crmarenapro/query_dataset/products_orders.db
+query_crmarenapro/query_dataset/sales_pipeline.duckdb
+query_crmarenapro/query_dataset/support.sql
+query_crmarenapro/query_dataset/territory.db
+query_cve/query_dataset/kev.sql
+query_cve/query_dataset/vulns.db
+query_googlelocal/query_dataset/business_description.sql
+query_googlelocal/query_dataset/review_query.db
+query_imdb/query_dataset/movies.sql
+query_imdb/query_dataset/people.sqlite
+query_krama/query_dataset/domain_assets.db
+query_krama/query_dataset/domain_docs/domain_docs_db/files.bson
+query_krama/query_dataset/us_geo.db
+query_music_brainz_20k/query_dataset/tracks.db
+query_stockindex/query_dataset/indexInfo_query.db
+query_stockindex/query_dataset/indextrade_query.db
+query_stockmarket/query_dataset/stockinfo_query.db
+query_stockmarket/query_dataset/stocktrade_query.db
+query_usaspending/query_dataset/contracts.sql
+query_usaspending/query_dataset/recipients.db
+query_yelp/query_dataset/yelp_user.db

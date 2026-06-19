@@ -137,25 +137,16 @@ Before running DAB, please complete the following setup steps.
 
 ### Clone the Repository
 
-Some datasets in DAB contain large database files exceeding 50MB and are thus stored in Git LFS. To automatically get the full datasets, you need to ensure you have Git LFS enabled:
-```bash
-git lfs install
-```
-Then you can run:
 ```bash
 git clone https://github.com/ucbepic/DataAgentBench.git
 cd DataAgentBench
 ```
-One database file of `PATENTS` dataset, `patent_publication.db`, exceeds Git LFS file-size limits (5GB). It is on [Google Drive](https://drive.google.com/file/d/1pALQ1UH-OwaEUeGYAx47uCyzClfK94XC/view?usp=sharing).
 
-**Option 1:**
-Manually download the database to `query_PATENTS/query_dataset/patent_publication.db`
-
-**Option 2:**
-Run the following script to automatically download the database:
+The large dataset files (PostgreSQL dumps, SQLite/DuckDB databases, MongoDB BSON, etc.) are **not** stored in the Git repository. They are mirrored on the [Hugging Face Hub](https://huggingface.co/datasets/ruiyingm/DataAgentBench-data) (~13.4GB total). After cloning, download them with:
 ```bash
 bash download.sh
 ```
+This reads [`dataset_manifest.tsv`](./dataset_manifest.tsv), downloads every dataset file into its correct location, and verifies each one against a recorded sha256 checksum. Re-running is safe — files already present and intact are skipped. To re-verify everything (slow), run `VERIFY_ALL=1 bash download.sh`.
 
 
 ### Install Dependencies
