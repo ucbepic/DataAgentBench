@@ -1,0 +1,1622 @@
+[
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "0",
+  "answer": "top5_popular_packages: Name,Version,GithubStars\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "1",
+  "answer": "top5_popular_packages: Name,Version,Stars\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "2",
+  "answer": "top5_packages_by_stars: Name,Version,GithubStars\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "3",
+  "answer": "top5_popular_packages: Name,Version,Stars,ProjectName\n@dylanvann/svelte,3.25.4,73499,sveltejs/svelte\n@dumc11/tailwindcss,0.4.0,73464,tailwindcss/tailwindcss\n@dman777/shadow-dom-quill-temp,1.0.0,42407,quilljs/quill\n@dothq/styled-components,1.0.0,39660,styled-components/styled-components\n@dynasty/styled-components,3.2.1,39660,styled-components/styled-components\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "4",
+  "answer": "top5_popular_packages: Name,Version,GithubStars\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "0",
+  "answer": "top5_mit_release_fork_projects: ProjectName,ForkCount\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "1",
+  "answer": "top5_mit_release_projects_by_forks: ProjectName,fork_count\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "2",
+  "answer": "top5_projects_by_forks: ProjectName,ForkCount\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "3",
+  "answer": "top5_mit_release_fork_projects: project_name,fork_count\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091\n"
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "4",
+  "answer": "top5_mit_release_forks: project_name,fork_count\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091\n"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "0",
+  "answer": "copyright_proportion: 0.3333333333333333"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "1",
+  "answer": "copyright_readme_proportion: 0.3333333333333333"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "2",
+  "answer": "copyright_readme_proportion: 0.3333333333333333\nnumerator_with_copyright: 1\ndenominator_total_readmes: 3"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "3",
+  "answer": "copyright_readme_proportion: 0\nreadme_with_copyright_count: 0\ntotal_readme_count: 0"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "4",
+  "answer": "copyright_proportion: 0"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "0",
+  "answer": "result_repository: uacaps/PageMenu"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "1",
+  "answer": "result_repository: uacaps/PageMenu\nresult_file_id: 6f4cdb70f044b0486a24a07403600cb964a02672"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "2",
+  "answer": "result_repository: uacaps/PageMenu"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "3",
+  "answer": "result_repository: uacaps/PageMenu"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "4",
+  "answer": "target_repository: uacaps/PageMenu"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "0",
+  "answer": "commit_message_count: 1077"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "1",
+  "answer": "commit_message_count: 1077"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "2",
+  "answer": "commit_message_count: 1077"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "3",
+  "answer": "commit_message_count: 1077"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "4",
+  "answer": "commit_message_count: 1077"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "0",
+  "answer": "top_five_repo_names: [\"apple/swift\", \"twbs/bootstrap\", \"Microsoft/vscode\", \"facebook/react\", \"tensorflow/tensorflow\"]"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "1",
+  "answer": "top5_non_python_repos: [\"apple/swift\", \"twbs/bootstrap\", \"Microsoft/vscode\", \"facebook/react\", \"tensorflow/tensorflow\"]"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "2",
+  "answer": "top_five_repo_names: [\"torvalds/linux\", \"apple/swift\", \"twbs/bootstrap\", \"Microsoft/vscode\", \"facebook/react\"]"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "3",
+  "answer": "top_five_non_python_repos: [\"apple/swift\", \"twbs/bootstrap\", \"Microsoft/vscode\", \"facebook/react\", \"tensorflow/tensorflow\"]"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "4",
+  "answer": "top_five_non_python_repos: [\"apple/swift\", \"twbs/bootstrap\", \"Microsoft/vscode\", \"facebook/react\", \"tensorflow/tensorflow\"]"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "0",
+  "answer": "avg_log10_igf2_by_histology: histological_type,avg_log10_igf2_expression\nAstrocytoma,2.571298\nOligoastrocytoma,2.713571\nOligodendroglioma,2.682458\n"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "1",
+  "answer": "avg_igf2_by_histology: histological_type,avg_igf2_log10\nAstrocytoma,2.571298141143903\nOligoastrocytoma,2.713571305193452\nOligodendroglioma,2.682457993294452\n"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "2",
+  "answer": "avg_igf2_log10_by_histology: histological_type,avg_log10_igf2_expression\nOligodendroglioma,2.682458\nAstrocytoma,2.571298\nOligoastrocytoma,2.713571\n"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "3",
+  "answer": "avg_log10_igf2_by_histology: {\"Astrocytoma\": 2.571298, \"Oligoastrocytoma\": 2.713571, \"Oligodendroglioma\": 2.682458}"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "4",
+  "answer": "avg_log10_igf2_by_histology: histological_type,avg_log10_igf2_expression\nAstrocytoma,2.571298141143903\nOligoastrocytoma,2.713571305193452\nOligodendroglioma,2.682457993294452\n"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "0",
+  "answer": "top3_histological_types_cdh1: Among alive BRCA patients in the PanCancer Atlas, the top three histological types with the highest percentage of CDH1 gene mutations are:\n1. Infiltrating Lobular Carcinoma: 50.56% (90 of 178)\n2. Mixed Histology (please specify): 16.67% (4 of 24)\n3. Other  specify: 8.33% (3 of 36)"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "1",
+  "answer": "top3_histological_types_cdh1: Among alive BRCA PanCancer Atlas patients, the top three histological types by CDH1 mutation percentage are:\n1. Infiltrating Lobular Carcinoma: 50.56% (90/178)\n2. Mixed Histology (please specify): 16.67% (4/24)\n3. Other  specify: 8.33% (3/36)"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "2",
+  "answer": "top3_histological_types_cdh1: Top 3 histological types by CDH1 mutation percentage (BRCA, alive patients):\n1. Infiltrating Lobular Carcinoma: 50.56% (90/178)\n2. Mixed Histology (please specify): 16.67% (4/24)\n3. Other  specify: 8.33% (3/36)"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "3",
+  "answer": "top3_histological_types_cdh1: Top 3 histological types of alive BRCA (PanCancer Atlas) patients by CDH1 mutation percentage:\n1. Infiltrating Lobular Carcinoma: 50.56% (90/178)\n2. Mixed Histology (please specify): 16.67% (4/24)\n3. Other  specify: 8.33% (3/36)"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "4",
+  "answer": "top3_histological_types_cdh1: [{\"histological_type\": \"Infiltrating Lobular Carcinoma\", \"cdh1_mutation_percentage\": 50.56179775280899, \"num_cdh1_mutated_patients\": 90, \"total_patients\": 178}, {\"histological_type\": \"Mixed Histology (please specify)\", \"cdh1_mutation_percentage\": 16.666666666666664, \"num_cdh1_mutated_patients\": 4, \"total_patients\": 24}, {\"histological_type\": \"Other specify\", \"cdh1_mutation_percentage\": 8.333333333333332, \"num_cdh1_mutated_patients\": 3, \"total_patients\": 36}]"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "0",
+  "answer": "chi_square_statistic: 305.1239198007461"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "1",
+  "answer": "chi_square_statistic: 305.1239198007461"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "2",
+  "answer": "chi_square_statistic: 305.1239198007461"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "3",
+  "answer": "cdh1_histology_chi_square: 305.1239198007461"
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "4",
+  "answer": "chi_square_statistic: 305.12391980074597"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "0",
+  "answer": "result_cpc_codes: [\"A01B29/048\", \"A01B35/08\", \"A01B35/16\", \"A01C7/20\", \"A01C9/08\", \"A01D27/02\", \"A01D34/685\", \"A01D43/085\", \"A01D46/247\", \"A01D51/007\", \"A01F12/10\", \"A01G18/69\", \"A01G2/30\", \"A01G22/20\", \"A01G22/22\", \"A01G23/04\", \"A01G25/02\", \"A01G25/09\", \"A01G3/08\", \"A01G9/088\", \"A01H1/022\", \"A01H6/60\", \"A01H6/7427\", \"A01K1/0128\", \"A01K85/1863\", \"A01K97/18\", \"A01M1/026\", \"A01M1/10\", \"A01M7/0075\", \"A01N37/04\", \"A01N43/16\", \"A01N63/25\", \"A01N65/44\", \"A21C9/085\", \"A21D13/30\", \"A22B5/0041\", \"A22C17/006\", \"A22C17/06\", \"A23C19/054\", \"A23J1/008\", \"A23J3/227\", \"A23J3/265\", \"A23K10/26\", \"A23K50/80\", \"A23L13/72\", \"A23L2/70\", \"A23L27/86\", \"A23L33/105\", \"A23L33/135\", \"A23L5/23\", \"A23N15/045\", \"A23P20/25\", \"A24C5/54\", \"A24D1/20\", \"A24D3/04\", \"A24F19/0085\", \"A24F19/02\", \"A24F40/40\", \"A24F40/42\", \"A24F40/485\", \"A24F40/50\", \"A24F40/53\", \"A24F40/60\", \"A24F40/65\", \"A41D13/0556\", \"A41D13/1236\", \"A41D19/01505\", \"A41H43/0257\", \"A42B1/019\", \"A42B3/205\", \"A43B13/143\", \"A43B23/029\", \"A43B5/08\", \"A44B11/2503\", \"A44B11/2549\", \"A45C11/12\", \"A45D19/0041\", \"A45D29/17\", \"A46B9/026\", \"A47B27/02\", \"A47B47/021\", \"A47B88/407\", \"A47C17/86\", \"A47C19/022\", \"A47C27/005\", \"A47C27/122\", \"A47F11/04\", \"A47F3/005\", \"A47G23/0633\", \"A47J27/04\", \"A47J37/0885\", \"A47J37/1233\", \"A47J42/08\", \"A47J42/32\", \"A47K7/043\", \"A47L11/29\", \"A47L15/0018\", \"A61B1/0052\", \"A61B17/0218\", \"A61B17/0401\", \"A61B17/07292\", \"A61B17/1796\", \"A61B17/320758\", \"A61B3/09\", \"A61B3/111\", \"A61B34/10\", \"A61B5/01\", \"A61B5/0205\", \"A61B5/02427\", \"A61B5/14552\", \"A61B5/14735\", \"A61B5/262\", \"A61B5/27\", \"A61B5/367\", \"A61B5/372\", \"A61B5/4851\", \"A61B5/4854\", \"A61B5/6848\", \"A61B5/6866\", \"A61B50/36\", \"A61B8/02\", \"A61B8/12\", \"A61B8/52\", \"A61C17/028\", \"A61C17/28\", \"A61C17/3463\", \"A61F13/024\", \"A61F13/49446\", \"A61F2/07\", \"A61F2/4611\", \"A61F2/9522\", \"A61F5/019\", \"A61F7/0053\", \"A61F9/00836\", \"A61G13/08\", \"A61G7/015\", \"A61H15/0078\", \"A61H19/30\", \"A61H33/063\", \"A61H9/0078\", \"A61K31/4375\", \"A61K31/454\", \"A61K31/519\", \"A61K31/522\", \"A61K31/7048\", \"A61K35/17\", \"A61K35/747\", \"A61K36/09\", \"A61K36/12\", \"A61K36/232\", \"A61K36/9062\", \"A61K38/52\", \"A61K39/001189\", \"A61K39/215\", \"A61K39/4632\", \"A61K39/4644\", \"A61K39/464426\", \"A61K47/60\", \"A61K47/68031\", \"A61K47/6887\", \"A61K51/103\", \"A61K8/38\", \"A61K8/498\", \"A61K8/99\", \"A61K9/0087\", \"A61K9/06\", \"A61K9/08\", \"A61K9/5123\", \"A61L15/50\", \"A61L2/22\", \"A61L9/035\", \"A61L9/20\", \"A61M16/0883\", \"A61M16/201\", \"A61M25/02\", \"A61M31/002\", \"A61M39/10\", \"A61M60/17\", \"A61N1/02\", \"A61N1/048\", \"A61N1/3624\", \"A61N5/1017\", \"A61N5/1047\", \"A61P19/08\", \"A61P25/20\", \"A61P3/10\", \"A61P31/02\", \"A61P31/04\", \"A61P35/02\", \"A61P39/02\", \"A61P7/04\", \"A62B35/0037\", \"A62C2/12\", \"A62C3/0292\", \"A62D1/0021\", \"A62D3/115\", \"A63B21/4001\", \"A63B21/4007\", \"A63B21/4027\", \"A63B22/0605\", \"A63B53/026\", \"A63B69/3621\", \"A63B69/38\", \"A63B71/03\", \"A63D15/04\", \"A63F13/60\", \"A63F9/1208\", \"A63H11/20\", \"A63H17/008\", \"A63H33/003\", \"B01D15/12\", \"B01D21/0024\", \"B01D3/148\", \"B01D3/28\", \"B01D39/2065\", \"B01D46/10\", \"B01D46/68\", \"B01D47/06\", \"B01D5/006\", \"B01D53/1443\", \"B01D53/326\", \"B01D53/78\", \"B01D53/8612\", \"B01D53/9463\", \"B01D61/002\", \"B01D61/02\", \"B01D69/14111\", \"B01D71/028\", \"B01D71/261\", \"B01D9/0031\", \"B01F25/74\", \"B01F27/906\", \"B01F33/812\", \"B01F35/71\", \"B01J20/0229\", \"B01J20/3291\", \"B01J29/7057\", \"B01J3/008\", \"B01J3/067\", \"B01J31/069\", \"B01J38/20\", \"B01J47/127\", \"B01J8/004\", \"B01J8/0446\", \"B01L3/5027\", \"B01L3/5635\", \"B01L7/52\", \"B01L9/065\", \"B02C4/02\", \"B03D1/145\", \"B05B11/0008\", \"B05B12/1418\", \"B05B13/0271\", \"B05B13/0609\", \"B05B16/20\", \"B05B7/0491\", \"B05B7/1626\", \"B05B7/20\", \"B05B7/2464\", \"B05D7/06\", \"B07B1/28\", \"B07B1/30\", \"B07C5/02\", \"B08B1/12\", \"B08B3/08\", \"B08B3/123\", \"B08B5/023\", \"B08B5/026\", \"B08B7/026\", \"B09B3/24\", \"B09B3/32\", \"B09B3/60\", \"B09C1/08\", \"B21B38/006\", \"B21D1/065\", \"B21D43/12\", \"B21D45/02\", \"B21D5/002\", \"B21J5/008\", \"B21J7/28\", \"B21L1/04\", \"B22C5/08\", \"B22D17/263\", \"B22D2/001\", \"B22D7/06\", \"B22F1/068\", \"B22F10/366\", \"B22F10/50\", \"B22F10/73\", \"B22F12/43\", \"B22F12/50\", \"B22F12/67\", \"B22F12/80\", \"B23B39/20\", \"B23B41/14\", \"B23C3/26\", \"B23D21/08\", \"B23D49/16\", \"B23G1/26\", \"B23K1/0056\", \"B23K1/203\", \"B23K26/0608\", \"B23K26/21\", \"B23K26/322\", \"B23K26/354\", \"B23K26/3576\", \"B23K26/702\", \"B23K31/003\", \"B23K31/02\", \"B23K31/125\", \"B23K35/0227\", \"B23K9/0352\", \"B23K9/296\", \"B23P23/04\", \"B23Q3/06\", \"B23Q37/002\", \"B24B27/02\", \"B24B31/03\", \"B24B5/047\", \"B25B27/14\", \"B25B7/04\", \"B25D1/005\", \"B25D11/06\", \"B25D11/064\", \"B25H3/022\", \"B25J11/008\", \"B25J15/0033\", \"B25J19/0066\", \"B25J19/061\", \"B25J9/1615\", \"B25J9/1628\", \"B26B19/3866\", \"B26D1/06\", \"B27B33/14\", \"B27G19/04\", \"B27K3/0228\", \"B27K5/06\", \"B27M1/04\", \"B29B17/02\", \"B29B7/22\", \"B29C33/3807\", \"B29C33/50\", \"B29C33/505\", \"B29C44/145\", \"B29C44/18\", \"B29C45/23\", \"B29C45/63\", \"B29C48/397\", \"B29C49/062\", \"B29C49/6418\", \"B29C53/665\", \"B29C64/20\", \"B29C64/236\", \"B29C65/069\", \"B29C65/08\", \"B29C65/088\", \"B29C65/2053\", \"B29C65/3636\", \"B29C65/7805\", \"B29C65/7832\", \"B29C66/022\", \"B29C66/433\", \"B30B11/022\", \"B32B5/02\", \"B32B5/026\", \"B33Y70/10\", \"B41F15/04\", \"B41F19/066\", \"B41F23/0459\", \"B41J2/14201\", \"B41J2/14233\", \"B41J33/003\", \"B41K3/12\", \"B42D1/06\", \"B43K23/002\", \"B43L11/04\", \"B60B17/0027\", \"B60B3/12\", \"B60C15/0653\", \"B60G11/265\", \"B60G21/0556\", \"B60H1/00278\", \"B60H1/00414\", \"B60H1/00428\", \"B60H1/00807\", \"B60H1/248\", \"B60H1/3223\", \"B60K35/53\", \"B60K35/85\", \"B60K5/1275\", \"B60L5/24\", \"B60L5/28\", \"B60L53/16\", \"B60L53/31\", \"B60L53/51\", \"B60L53/80\", \"B60L58/10\", \"B60L58/18\", \"B60N2/02246\", \"B60N2/0256\", \"B60N2/0277\", \"B60N2/5891\", \"B60P3/062\", \"B60P3/205\", \"B60Q1/0035\", \"B60R1/22\", \"B60R16/0231\", \"B60R16/03\", \"B60R21/21\", \"B60S1/0488\", \"B60T13/24\", \"B60T17/22\", \"B60T8/88\", \"B60W30/04\", \"B60W30/06\", \"B60W30/0956\", \"B60W30/18163\", \"B60W40/02\", \"B60W40/06\", \"B60W60/001\", \"B60W60/0025\", \"B60W60/0027\", \"B60W60/00272\", \"B60W60/0053\", \"B61L27/02\", \"B61L5/026\", \"B61L5/062\", \"B62D1/183\", \"B62D21/02\", \"B62D43/007\", \"B62D5/0463\", \"B62D5/064\", \"B62D53/005\", \"B62D63/02\", \"B62J1/06\", \"B62J43/30\", \"B63B32/40\", \"B63B39/005\", \"B63B77/10\", \"B63C11/16\", \"B63G8/001\", \"B63H5/165\", \"B64C1/1461\", \"B64C11/008\", \"B64C21/02\", \"B64C21/04\", \"B64C3/38\", \"B64C35/005\", \"B64D37/20\", \"B64D37/24\", \"B64U10/14\", \"B64U70/20\", \"B65B3/22\", \"B65B61/007\", \"B65B9/2056\", \"B65D13/04\", \"B65D19/42\", \"B65D21/0204\", \"B65D43/0268\", \"B65D43/0287\", \"B65D43/167\", \"B65D5/2042\", \"B65D5/208\", \"B65D5/3621\", \"B65D5/48022\", \"B65D71/40\", \"B65D77/046\", \"B65D81/382\", \"B65D88/10\", \"B65D9/32\", \"B65D90/545\", \"B65F1/1473\", \"B65G1/04\", \"B65G1/0492\", \"B65G15/20\", \"B65G45/04\", \"B65G45/26\", \"B65G53/50\", \"B65G57/02\", \"B65G57/035\", \"B65G65/463\", \"B65H16/005\", \"B65H23/0322\", \"B65H23/0324\", \"B65H35/0066\", \"B65H45/30\", \"B65H49/26\", \"B65H63/04\", \"B65H75/2218\", \"B65H75/44\", \"B65H81/06\", \"B65H9/18\", \"B66B13/14\", \"B66B17/34\", \"B66B5/0018\", \"B66B7/042\", \"B66B9/025\", \"B66B9/193\", \"B66C1/12\", \"B66C13/44\", \"B66C17/20\", \"B66C23/26\", \"B66C5/02\", \"B66D3/24\", \"B66F7/0608\", \"B66F7/0658\", \"B67C7/002\", \"B67C7/004\", \"B67C7/0086\", \"B67D3/0077\", \"B81B7/0067\", \"B81C1/00119\", \"B81C1/00666\", \"B82B3/0033\", \"C01B21/0602\", \"C01B21/0685\", \"C01B25/45\", \"C01B32/05\", \"C01B33/155\", \"C01B33/157\", \"C01D15/005\", \"C01D15/04\", \"C01D7/26\", \"C01F17/34\", \"C01F5/40\", \"C01F7/142\", \"C01G21/003\", \"C01G31/02\", \"C01G35/006\", \"C01G53/006\", \"C01G53/50\", \"C02F1/001\", \"C02F1/043\", \"C02F1/385\", \"C02F1/685\", \"C02F3/025\", \"C02F3/2886\", \"C02F3/303\", \"C02F3/32\", \"C02F5/025\", \"C03B23/203\", \"C03B35/187\", \"C03B9/14\", \"C03C17/3441\", \"C03C17/3482\", \"C03C25/25\", \"C03C3/04\", \"C04B2/102\", \"C04B20/123\", \"C04B24/282\", \"C04B33/26\", \"C04B35/48\", \"C04B35/4885\", \"C04B35/5622\", \"C04B35/62625\", \"C04B38/0041\", \"C04B40/029\", \"C07C209/42\", \"C07C217/72\", \"C07C225/34\", \"C07C233/54\", \"C07C237/12\", \"C07C255/23\", \"C07C327/40\", \"C07C39/19\", \"C07C39/21\", \"C07C43/168\", \"C07C45/33\", \"C07D327/02\", \"C07D333/70\", \"C07D471/14\", \"C07D497/22\", \"C07D498/04\", \"C07D513/20\", \"C07F15/0086\", \"C07F15/03\", \"C07F7/226\", \"C07F9/92\", \"C07H13/10\", \"C07K14/001\", \"C07K16/18\", \"C07K16/205\", \"C07K16/2818\", \"C07K16/2866\", \"C07K16/2878\", \"C07K16/40\", \"C07K16/468\", \"C08B1/08\", \"C08F120/12\", \"C08F210/02\", \"C08F210/16\", \"C08F212/20\", \"C08F220/42\", \"C08F226/02\", \"C08F290/048\", \"C08F291/12\", \"C08G12/427\", \"C08G18/2063\", \"C08G18/348\", \"C08G18/7664\", \"C08G18/831\", \"C08G65/336\", \"C08K3/105\", \"C08K3/22\", \"C08K5/0058\", \"C08L39/06\", \"C09D175/14\", \"C09D195/005\", \"C09D5/1637\", \"C09J4/06\", \"C09K5/16\", \"C09K8/584\", \"C10B1/08\", \"C10B49/06\", \"C10L1/1233\", \"C10L1/146\", \"C10L5/363\", \"C10M105/18\", \"C11D1/945\", \"C12M23/12\", \"C12M23/58\", \"C12M41/22\", \"C12N15/111\", \"C12N15/67\", \"C12N15/8206\", \"C12N15/86\", \"C12N5/0618\", \"C12N5/0619\", \"C12N5/0642\", \"C12N5/0646\", \"C12N5/0653\", \"C12N5/0662\", \"C12N5/0696\", \"C12N9/248\", \"C12N9/93\", \"C12P21/06\", \"C12Q1/6806\", \"C12Q1/701\", \"C12Y101/03015\", \"C12Y302/01076\", \"C21B13/0073\", \"C22B23/0484\", \"C22B3/045\", \"C22B9/20\", \"C22C38/02\", \"C22C38/38\", \"C22C38/58\", \"C23C16/4557\", \"C23C22/63\", \"C23C24/103\", \"C23C8/62\", \"C23F1/04\", \"C25B1/042\", \"C25B11/032\", \"C25B15/021\", \"C25B15/023\", \"C25B15/027\", \"C25B15/081\", \"C25B3/11\", \"C25B9/05\", \"C25B9/60\", \"C25B9/75\", \"C25B9/77\", \"C30B29/06\", \"C30B29/36\", \"D02G3/10\", \"D02H13/28\", \"D03D47/275\", \"D03D49/12\", \"D04B1/104\", \"D04H1/4318\", \"D06B3/206\", \"D06F33/32\", \"D06F33/52\", \"D06F39/022\", \"D06H7/06\", \"D06M13/224\", \"D06P1/5285\", \"D06P3/241\", \"D21C7/16\", \"D21C9/005\", \"D21H11/04\", \"D21H19/12\", \"D21H19/60\", \"D21H27/30\", \"D21J1/04\", \"E01C11/18\", \"E01C19/44\", \"E01C23/12\", \"E01C5/223\", \"E01D21/10\", \"E01F15/0484\", \"E01F9/518\", \"E01H8/10\", \"E02B15/10\", \"E02B8/04\", \"E02B9/06\", \"E02D29/127\", \"E02D29/1418\", \"E02D3/02\", \"E02D5/50\", \"E02D5/54\", \"E02F3/3677\", \"E02F3/46\", \"E03C1/0405\", \"E03C1/1222\", \"E03D5/024\", \"E04B1/2403\", \"E04B1/80\", \"E04B2/88\", \"E04D1/365\", \"E04D13/14\", \"E04F13/0816\", \"E04F21/023\", \"E04G13/066\", \"E04G13/068\", \"E04G21/1858\", \"E04G23/065\", \"E04H1/125\", \"E04H12/18\", \"E04H12/2246\", \"E04H3/12\", \"E04H4/1636\", \"E05B17/147\", \"E05B63/0004\", \"E05B65/025\", \"E05C17/28\", \"E05D15/1042\", \"E05D15/20\", \"E05F11/16\", \"E05F11/22\", \"E05F15/662\", \"E05F15/6909\", \"E06B3/5436\", \"E06B3/67321\", \"E06B9/322\", \"E06B9/521\", \"E21B19/087\", \"E21B34/10\", \"E21B7/10\", \"E21D20/021\", \"E21D20/028\", \"E21D23/14\", \"E21F1/08\", \"F01N3/106\", \"F01N3/2013\", \"F02B11/02\", \"F02B37/14\", \"F02B55/14\", \"F02B77/083\", \"F02D41/3017\", \"F02K1/46\", \"F02K9/52\", \"F02K9/82\", \"F02K9/95\", \"F02M61/1826\", \"F03B11/08\", \"F03D1/0667\", \"F03D9/008\", \"F04B27/0414\", \"F04B7/0019\", \"F04C18/0276\", \"F04D29/403\", \"F16B12/10\", \"F16B21/08\", \"F16B21/084\", \"F16C17/105\", \"F16C19/02\", \"F16C31/04\", \"F16C32/0662\", \"F16C33/581\", \"F16C33/7876\", \"F16D41/082\", \"F16D43/02\", \"F16D55/025\", \"F16D65/561\", \"F16F9/3235\", \"F16F9/43\", \"F16H1/222\", \"F16H1/32\", \"F16H25/2454\", \"F16H57/039\", \"F16H57/0435\", \"F16H57/0436\", \"F16H57/0445\", \"F16H61/433\", \"F16H63/40\", \"F16J15/188\", \"F16K11/0856\", \"F16K15/023\", \"F16K99/0005\", \"F16K99/0055\", \"F16L1/06\", \"F16L37/40\", \"F16L55/1604\", \"F16L55/34\", \"F16L59/121\", \"F16M11/04\", \"F16M11/043\", \"F16M11/046\", \"F16M11/20\", \"F17B1/02\", \"F17C13/04\", \"F17C13/126\", \"F17C5/04\", \"F21K9/235\", \"F21S10/043\", \"F21S45/20\", \"F21S8/026\", \"F21V23/008\", \"F21V29/10\", \"F21V33/0084\", \"F21V7/048\", \"F23D14/02\", \"F23J3/026\", \"F24B1/022\", \"F24B1/26\", \"F24C3/128\", \"F24D17/0052\", \"F24F3/14\", \"F24F7/06\", \"F24F8/108\", \"F24H1/0045\", \"F24H15/104\", \"F24H15/174\", \"F24H15/219\", \"F24H15/305\", \"F24H15/35\", \"F25D23/028\", \"F25J1/0012\", \"F25J1/0022\", \"F25J1/0057\", \"F25J1/0244\", \"F26B11/0477\", \"F26B17/20\", \"F26B23/06\", \"F26B25/16\", \"F26B9/06\", \"F28C3/005\", \"F41A3/80\", \"F41A3/82\", \"F41B9/0009\", \"F41C27/22\", \"F41H13/0012\", \"F41H13/0025\", \"F41J5/06\", \"F42B39/002\", \"F42B39/26\", \"G01B5/18\", \"G01B9/02069\", \"G01C21/16\", \"G01C21/1656\", \"G01C25/005\", \"G01D21/02\", \"G01D5/241\", \"G01D5/54\", \"G01F1/6884\", \"G01F1/704\", \"G01G19/035\", \"G01G3/1414\", \"G01H3/04\", \"G01H9/004\", \"G01J5/80\", \"G01K13/026\", \"G01L1/122\", \"G01L13/026\", \"G01L19/0636\", \"G01L21/32\", \"G01L3/06\", \"G01L3/14\", \"G01L5/102\", \"G01L5/165\", \"G01M11/0278\", \"G01M3/10\", \"G01N1/14\", \"G01N1/30\", \"G01N1/44\", \"G01N21/01\", \"G01N21/6458\", \"G01N21/8851\", \"G01N21/95\", \"G01N23/04\", \"G01N23/046\", \"G01N24/087\", \"G01N25/20\", \"G01N27/83\", \"G01N29/043\", \"G01N3/08\", \"G01N3/565\", \"G01N30/02\", \"G01N30/06\", \"G01N33/0054\", \"G01N33/20\", \"G01N33/5076\", \"G01N33/56961\", \"G01N33/574\", \"G01N33/57434\", \"G01N33/57484\", \"G01N35/04\", \"G01P15/16\", \"G01Q30/06\", \"G01R29/023\", \"G01R31/085\", \"G01R31/2813\", \"G01R31/2844\", \"G01R31/2851\", \"G01R31/31703\", \"G01R31/31835\", \"G01R31/31903\", \"G01R31/392\", \"G01R31/40\", \"G01R31/52\", \"G01R33/1253\", \"G01R33/5616\", \"G01S13/53\", \"G01S13/62\", \"G01S13/885\", \"G01S13/931\", \"G01S17/08\", \"G01S19/425\", \"G01S5/0244\", \"G01S7/2883\", \"G01S7/356\", \"G01S7/481\", \"G01S7/4813\", \"G01S7/4817\", \"G01S7/4876\", \"G02B13/0015\", \"G02B17/0856\", \"G02B19/0052\", \"G02B27/0068\", \"G02B27/0176\", \"G02B5/286\", \"G02B6/12014\", \"G02B6/385\", \"G02B6/3882\", \"G02B7/12\", \"G02F1/061\", \"G02F1/134318\", \"G02F1/13768\", \"G02F1/1523\", \"G02F1/3544\", \"G02F1/3548\", \"G03B21/22\", \"G04B19/235\", \"G04B27/004\", \"G04B37/1493\", \"G05B13/048\", \"G05B17/02\", \"G05B19/054\", \"G05B19/4183\", \"G05B19/4187\", \"G05B19/41875\", \"G05B23/0283\", \"G05D1/0022\", \"G05D1/0221\", \"G05D1/024\", \"G05D1/226\", \"G05D1/644\", \"G05D1/646\", \"G05D1/654\", \"G05D1/6546\", \"G05D16/0655\", \"G05D16/204\", \"G05D27/02\", \"G06F1/163\", \"G06F1/1671\", \"G06F1/182\", \"G06F11/079\", \"G06F11/1068\", \"G06F11/3017\", \"G06F11/302\", \"G06F11/3438\", \"G06F11/3628\", \"G06F11/3668\", \"G06F13/28\", \"G06F15/7825\", \"G06F15/8038\", \"G06F16/2228\", \"G06F16/2246\", \"G06F16/26\", \"G06F16/27\", \"G06F16/29\", \"G06F16/325\", \"G06F16/35\", \"G06F16/432\", \"G06F16/56\", \"G06F16/64\", \"G06F16/9024\", \"G06F16/9535\", \"G06F16/9536\", \"G06F16/9537\", \"G06F16/958\", \"G06F17/16\", \"G06F17/18\", \"G06F18/2433\", \"G06F21/554\", \"G06F21/566\", \"G06F21/6254\", \"G06F21/64\", \"G06F21/72\", \"G06F3/04166\", \"G06F3/04812\", \"G06F3/0483\", \"G06F3/0614\", \"G06F3/0655\", \"G06F3/0656\", \"G06F3/0659\", \"G06F3/0667\", \"G06F3/1202\", \"G06F3/1204\", \"G06F3/1231\", \"G06F3/1276\", \"G06F3/1423\", \"G06F3/147\", \"G06F30/12\", \"G06F30/15\", \"G06F30/18\", \"G06F30/20\", \"G06F30/23\", \"G06F30/27\", \"G06F30/367\", \"G06F30/392\", \"G06F30/394\", \"G06F40/151\", \"G06F40/205\", \"G06F40/232\", \"G06F7/08\", \"G06F8/10\", \"G06F8/20\", \"G06F8/30\", \"G06F8/43\", \"G06F8/71\", \"G06F9/30141\", \"G06F9/44505\", \"G06F9/451\", \"G06F9/4881\", \"G06F9/5038\", \"G06F9/5066\", \"G06F9/5072\", \"G06F9/546\", \"G06K7/10297\", \"G06K7/10722\", \"G06K9/00536\", \"G06N20/20\", \"G06N3/0427\", \"G06N3/043\", \"G06N3/0436\", \"G06N3/0442\", \"G06N3/045\", \"G06N3/0455\", \"G06N3/0464\", \"G06N3/09\", \"G06N5/027\", \"G06Q10/04\", \"G06Q10/063112\", \"G06Q10/063114\", \"G06Q10/06312\", \"G06Q10/06313\", \"G06Q10/0633\", \"G06Q10/0635\", \"G06Q10/06393\", \"G06Q10/06395\", \"G06Q10/06398\", \"G06Q10/103\", \"G06Q20/2295\", \"G06Q20/401\", \"G06Q30/015\", \"G06Q30/018\", \"G06Q30/0201\", \"G06Q30/0206\", \"G06Q30/0251\", \"G06Q30/0613\", \"G06Q30/0643\", \"G06Q40/125\", \"G06Q50/02\", \"G06Q50/10\", \"G06Q50/20\", \"G06Q50/205\", \"G06T1/0035\", \"G06T11/001\", \"G06T11/005\", \"G06T13/20\", \"G06T15/005\", \"G06T15/02\", \"G06T15/04\", \"G06T15/20\", \"G06T19/003\", \"G06T3/0056\", \"G06T3/06\", \"G06T3/4053\", \"G06T5/50\", \"G06T5/80\", \"G06T7/10\", \"G06T7/13\", \"G06T7/20\", \"G06T7/248\", \"G06T7/251\", \"G06T7/30\", \"G06T7/337\", \"G06T7/50\", \"G06T7/55\", \"G06T7/593\", \"G06T7/60\", \"G06T7/62\", \"G06T7/80\", \"G06V10/145\", \"G06V10/25\", \"G06V10/759\", \"G06V10/761\", \"G06V10/765\", \"G06V10/7715\", \"G06V10/803\", \"G06V10/811\", \"G06V10/993\", \"G06V20/17\", \"G06V20/41\", \"G06V20/52\", \"G06V20/58\", \"G06V20/584\", \"G06V20/59\", \"G06V20/95\", \"G06V30/1475\", \"G06V40/172\", \"G06V40/40\", \"G07C5/10\", \"G07C9/00174\", \"G08B21/0266\", \"G08B21/10\", \"G08B25/04\", \"G08G1/0104\", \"G08G1/0116\", \"G08G1/0125\", \"G08G1/048\", \"G08G1/085\", \"G08G5/0017\", \"G08G5/006\", \"G09B15/003\", \"G09B19/0023\", \"G09B21/008\", \"G09B29/004\", \"G09B7/02\", \"G09F9/30\", \"G09F9/301\", \"G09G3/3208\", \"G09G3/3225\", \"G09G3/3291\", \"G09G3/3406\", \"G10K11/17823\", \"G10K11/17873\", \"G10L15/063\", \"G10L15/16\", \"G10L17/14\", \"G11B33/0461\", \"G11B33/127\", \"G11B5/483\", \"G11B5/4873\", \"G11C11/40607\", \"G11C11/4074\", \"G11C11/4087\", \"G11C16/0483\", \"G11C16/08\", \"G11C7/1006\", \"G11C8/08\", \"G16B15/10\", \"G16B20/20\", \"G16B40/20\", \"G16C20/70\", \"G16H10/20\", \"G16H10/60\", \"G16H20/13\", \"G16H20/40\", \"G16H20/60\", \"G16H20/70\", \"G16H40/40\", \"G16H50/20\", \"G16H50/50\", \"G21C19/202\", \"G21F9/125\", \"G21G1/06\", \"H01B11/1041\", \"H01B11/1091\", \"H01B12/10\", \"H01B13/0003\", \"H01B7/0861\", \"H01B7/40\", \"H01F27/002\", \"H01F27/303\", \"H01F27/306\", \"H01F41/094\", \"H01G4/232\", \"H01G4/302\", \"H01H50/645\", \"H01J3/021\", \"H01J37/075\", \"H01J37/143\", \"H01J37/32128\", \"H01J37/32449\", \"H01J37/32715\", \"H01J37/32862\", \"H01J37/3417\", \"H01J49/24\", \"H01J9/125\", \"H01L21/0201\", \"H01L21/02247\", \"H01L21/02488\", \"H01L21/31144\", \"H01L21/4814\", \"H01L21/6708\", \"H01L21/67092\", \"H01L21/67155\", \"H01L21/6735\", \"H01L21/67742\", \"H01L21/68707\", \"H01L21/76272\", \"H01L21/823431\", \"H01L23/367\", \"H01L23/4012\", \"H01L23/49822\", \"H01L23/49838\", \"H01L23/5226\", \"H01L23/5385\", \"H01L23/5386\", \"H01L23/5387\", \"H01L23/5389\", \"H01L24/83\", \"H01L25/0652\", \"H01L25/0655\", \"H01L25/167\", \"H01L25/18\", \"H01L27/1218\", \"H01L27/124\", \"H01L27/14627\", \"H01L27/156\", \"H01L27/307\", \"H01L29/0843\", \"H01L29/0847\", \"H01L29/152\", \"H01L29/41775\", \"H01L29/66545\", \"H01L29/66969\", \"H01L29/7412\", \"H01L29/78663\", \"H01L29/78696\", \"H01L31/02327\", \"H01L31/0443\", \"H01L33/46\", \"H01M10/0404\", \"H01M10/0445\", \"H01M10/052\", \"H01M10/42\", \"H01M10/4207\", \"H01M10/4285\", \"H01M10/446\", \"H01M10/54\", \"H01M10/613\", \"H01M10/651\", \"H01M10/6568\", \"H01M10/657\", \"H01M4/0404\", \"H01M4/0426\", \"H01M4/13\", \"H01M4/131\", \"H01M4/134\", \"H01M4/386\", \"H01M4/405\", \"H01M4/5805\", \"H01M4/587\", \"H01M4/62\", \"H01M4/624\", \"H01M4/808\", \"H01M50/105\", \"H01M50/179\", \"H01M50/204\", \"H01M50/244\", \"H01M50/249\", \"H01M50/298\", \"H01M50/358\", \"H01M50/367\", \"H01M50/434\", \"H01M50/446\", \"H01M50/451\", \"H01M50/502\", \"H01M50/503\", \"H01M50/531\", \"H01M50/55\", \"H01M8/04014\", \"H01M8/04932\", \"H01Q15/242\", \"H01Q21/24\", \"H01R12/7041\", \"H01R13/02\", \"H01R13/2464\", \"H01R13/502\", \"H01R4/44\", \"H01R4/4833\", \"H01S5/0028\", \"H01S5/0225\", \"H01S5/0268\", \"H01S5/04254\", \"H01S5/18366\", \"H01S5/18397\", \"H02B1/30\", \"H02B1/505\", \"H02B13/0655\", \"H02H7/0805\", \"H02J1/04\", \"H02J1/086\", \"H02J13/00001\", \"H02J13/00022\", \"H02J3/001\", \"H02J3/007\", \"H02J3/0075\", \"H02J3/14\", \"H02J3/322\", \"H02J3/381\", \"H02J50/005\", \"H02J50/30\", \"H02J50/40\", \"H02J7/0024\", \"H02J7/0029\", \"H02J7/0044\", \"H02J7/0047\", \"H02J7/007\", \"H02J7/007182\", \"H02K11/33\", \"H02K11/38\", \"H02K3/521\", \"H02K7/116\", \"H02M1/0064\", \"H02M1/0067\", \"H02M1/009\", \"H02M1/385\", \"H02M3/07\", \"H02M3/155\", \"H02M7/487\", \"H02N11/002\", \"H02N11/008\", \"H02P29/024\", \"H03B5/04\", \"H03B5/1212\", \"H03B9/12\", \"H03F3/45968\", \"H03H17/0657\", \"H03H7/0138\", \"H03H9/02055\", \"H03H9/02086\", \"H03H9/02125\", \"H03H9/02228\", \"H03H9/02559\", \"H03H9/02732\", \"H03H9/0552\", \"H03H9/14544\", \"H03K17/81\", \"H03K5/24\", \"H03K7/02\", \"H03L7/20\", \"H03M1/403\", \"H03M5/02\", \"H04B10/035\", \"H04B10/501\", \"H04B10/54\", \"H04B10/6162\", \"H04B17/254\", \"H04B5/73\", \"H04B7/0695\", \"H04B7/18519\", \"H04H20/61\", \"H04J3/1658\", \"H04K3/224\", \"H04K3/65\", \"H04L1/0041\", \"H04L1/0042\", \"H04L1/0043\", \"H04L12/40\", \"H04L41/0803\", \"H04L41/507\", \"H04L45/16\", \"H04L45/302\", \"H04L45/745\", \"H04L45/748\", \"H04L47/286\", \"H04L47/76\", \"H04L49/9089\", \"H04L5/0028\", \"H04L61/255\", \"H04L61/6022\", \"H04L63/0263\", \"H04L63/0428\", \"H04L63/0876\", \"H04L63/10\", \"H04L63/166\", \"H04L65/403\", \"H04L65/4053\", \"H04L67/10\", \"H04L67/141\", \"H04L67/50\", \"H04L69/08\", \"H04L69/168\", \"H04L69/22\", \"H04L9/008\", \"H04L9/0643\", \"H04L9/0852\", \"H04L9/14\", \"H04L9/3239\", \"H04L9/3242\", \"H04L9/3263\", \"H04L9/3268\", \"H04L9/50\", \"H04M1/026\", \"H04N1/0066\", \"H04N13/243\", \"H04N13/312\", \"H04N19/119\", \"H04N19/167\", \"H04N19/593\", \"H04N19/61\", \"H04N21/2187\", \"H04N21/23103\", \"H04N21/4104\", \"H04N21/64738\", \"H04N23/665\", \"H04N23/684\", \"H04N23/689\", \"H04N23/69\", \"H04N23/73\", \"H04N23/90\", \"H04N23/951\", \"H04N25/131\", \"H04N25/47\", \"H04N25/74\", \"H04N5/22525\", \"H04N5/23219\", \"H04N5/2628\", \"H04N5/265\", \"H04N5/765\", \"H04N5/77\", \"H04N7/183\", \"H04N9/04553\", \"H04R1/028\", \"H04R1/20\", \"H04R1/406\", \"H04R25/40\", \"H04R3/005\", \"H04R7/045\", \"H04R9/025\", \"H04R9/10\", \"H04W12/08\", \"H04W12/47\", \"H04W12/71\", \"H04W24/02\", \"H04W24/04\", \"H04W28/0268\", \"H04W28/24\", \"H04W36/008355\", \"H04W4/029\", \"H04W4/44\", \"H04W4/50\", \"H04W4/80\", \"H04W4/90\", \"H04W40/026\", \"H04W48/04\", \"H04W48/08\", \"H04W56/0075\", \"H04W56/009\", \"H04W68/02\", \"H04W72/115\", \"H04W72/1263\", \"H04W72/232\", \"H04W74/004\", \"H04W76/11\", \"H04W76/28\", \"H04W76/40\", \"H04W8/18\", \"H04W8/22\", \"H04W80/06\", \"H04W84/06\", \"H05B3/34\", \"H05B3/72\", \"H05B47/11\", \"H05B6/1281\", \"H05B6/42\", \"H05B7/103\", \"H05K3/227\", \"H05K5/0018\", \"H05K5/0217\", \"H05K7/1488\", \"H05K7/2019\", \"H05K7/20281\", \"H05K7/20818\", \"H10B10/12\", \"H10B12/34\", \"H10B63/80\", \"H10K30/50\", \"H10K39/34\", \"H10K59/12\", \"H10K59/121\", \"H10K59/131\", \"H10K59/1315\", \"H10K59/8792\", \"H10K85/654\", \"H10N70/861\", \"H10N80/107\"]"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "1",
+  "answer": "level5_groups_best_2022: [\"A22B\", \"A23J\", \"A23P\", \"A24D\", \"A24F\", \"A41G\", \"A47F\", \"A61G\", \"A61H\", \"A61P\", \"A62D\", \"A63H\", \"B04B\", \"B07B\", \"B08B\", \"B09C\", \"B21J\", \"B22F\", \"B24B\", \"B25B\", \"B25D\", \"B27C\", \"B27M\", \"B60D\", \"B60L\", \"B60P\", \"B61H\", \"B63C\", \"B63G\", \"B65G\", \"B66F\", \"C01D\", \"C01G\", \"C21B\", \"C21C\", \"C22C\", \"D21B\", \"E01H\", \"E02B\", \"E02D\", \"E03B\", \"E04B\", \"E04G\", \"E21D\", \"E21F\", \"F02K\", \"F04F\", \"F16M\", \"F25J\", \"F26B\", \"G01H\", \"G01L\", \"G01S\", \"G05D\", \"G06N\", \"G06Q\", \"G06T\", \"G06V\", \"G08G\", \"G09F\", \"G10L\", \"G16B\", \"G16C\", \"G16H\", \"G21F\", \"H01M\", \"H02B\", \"H02G\", \"H02J\", \"H03H\", \"H04K\", \"H05F\"]"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "2",
+  "answer": "level5_cpc_codes_best_year_2022: [\"A22B\", \"A23J\", \"A23P\", \"A24D\", \"A24F\", \"A41G\", \"A47F\", \"A61G\", \"A61H\", \"A61P\", \"A62D\", \"A63H\", \"B04B\", \"B07B\", \"B08B\", \"B09C\", \"B21J\", \"B22F\", \"B24B\", \"B25B\", \"B25D\", \"B27C\", \"B27M\", \"B60D\", \"B60L\", \"B60P\", \"B61H\", \"B63C\", \"B63G\", \"B65G\", \"B66F\", \"C01D\", \"C01G\", \"C21B\", \"C21C\", \"C22C\", \"D21B\", \"E01H\", \"E02B\", \"E02D\", \"E03B\", \"E04B\", \"E04G\", \"E21D\", \"E21F\", \"F02K\", \"F04F\", \"F16M\", \"F25J\", \"F26B\", \"G01H\", \"G01L\", \"G01S\", \"G05D\", \"G06N\", \"G06Q\", \"G06T\", \"G06V\", \"G08G\", \"G09F\", \"G10L\", \"G16B\", \"G16C\", \"G16H\", \"G21F\", \"H01M\", \"H02B\", \"H02G\", \"H02J\", \"H03H\", \"H04K\", \"H05F\"]"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "3",
+  "answer": "level5_cpc_codes_best_year_2022: [\"A22B\", \"A23J\", \"A23P\", \"A24D\", \"A24F\", \"A41G\", \"A47F\", \"A61G\", \"A61P\", \"A62B\", \"A62D\", \"A63H\", \"B07B\", \"B08B\", \"B09B\", \"B09C\", \"B21H\", \"B21J\", \"B24B\", \"B27B\", \"B27C\", \"B27M\", \"B28D\", \"B60H\", \"B60L\", \"B60P\", \"B61H\", \"B61L\", \"B63C\", \"B63G\", \"B65G\", \"B66F\", \"C01D\", \"C01G\", \"C21B\", \"C21C\", \"C22C\", \"C25B\", \"C30B\", \"D06P\", \"D21B\", \"E01H\", \"E02D\", \"E03B\", \"E04C\", \"E04G\", \"E21D\", \"E21F\", \"F02K\", \"F04F\", \"F16M\", \"F24D\", \"F25J\", \"F26B\", \"G01H\", \"G01L\", \"G01Q\", \"G01R\", \"G01S\", \"G05D\", \"G06N\", \"G06T\", \"G06V\", \"G08G\", \"G16B\", \"G16C\", \"G16H\", \"G21F\", \"H01M\", \"H02B\", \"H02G\", \"H02J\", \"H03H\", \"H04K\", \"H05F\"]"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "4",
+  "answer": "result_cpc_codes: [\"A22B\", \"A23J\", \"A23P\", \"A24D\", \"A24F\", \"A41G\", \"A47F\", \"A61G\", \"A61P\", \"A62B\", \"A62D\", \"A63H\", \"B07B\", \"B08B\", \"B09B\", \"B09C\", \"B21H\", \"B21J\", \"B24B\", \"B27B\", \"B27C\", \"B27M\", \"B28D\", \"B60H\", \"B60L\", \"B60P\", \"B61H\", \"B61L\", \"B63C\", \"B63G\", \"B65G\", \"B66F\", \"C01D\", \"C01G\", \"C21B\", \"C21C\", \"C22C\", \"C25B\", \"C30B\", \"D06P\", \"D21B\", \"E01H\", \"E02D\", \"E03B\", \"E04C\", \"E04G\", \"E21D\", \"E21F\", \"F02K\", \"F04F\", \"F16M\", \"F24D\", \"F25J\", \"F26B\", \"G01H\", \"G01L\", \"G01Q\", \"G01R\", \"G01S\", \"G05D\", \"G06N\", \"G06T\", \"G06V\", \"G08G\", \"G16B\", \"G16C\", \"G16H\", \"G21F\", \"H01M\", \"H02B\", \"H02G\", \"H02J\", \"H03H\", \"H04K\", \"H05F\"]"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "0",
+  "answer": "cpc_level4_best_year: cpc_level4_code,titleFull,best_year,best_ema\nH04,ELECTRIC COMMUNICATION TECHNIQUE,2015,2.0\nA61,MEDICAL OR VETERINARY SCIENCE; HYGIENE,2016,2.0\nF16,ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,2009,1.0\nH03,ELECTRONIC CIRCUITRY,2015,1.0\nH02,GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,2009,1.0\nH01,ELECTRIC ELEMENTS,2008,1.0\nG08,SIGNALLING,2017,1.0\nG02,OPTICS,2016,1.0\nG01,MEASURING; TESTING,2008,1.0\nF41,WEAPONS,2012,1.0\nF24,HEATING; RANGES; VENTILATING,2018,1.0\nF23,COMBUSTION APPARATUS; COMBUSTION PROCESSES,2018,1.0\nA21,BAKING; EDIBLE DOUGHS,2015,1.0\nE05,LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,2012,1.0\nE02,HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,2012,1.0\nC09,DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,2015,1.0\nB63,SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,2014,1.0\nB62,LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,2010,1.0\nB60,VEHICLES IN GENERAL,2009,1.0\nB41,PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,2007,1.0\nB29,WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,2007,1.0\nB23,MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,2015,1.0\nF02,COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,2010,1.0\n"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "1",
+  "answer": "cpc_level4_best_year: cpc_group_code,title_full,best_year\nB41,PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,2007\n"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "2",
+  "answer": "cpc_level4_ema_best_year: level4_group_code,titleFull,best_year,best_year_ema\nA61,MEDICAL OR VETERINARY SCIENCE; HYGIENE,2016,2.0\nH04,ELECTRIC COMMUNICATION TECHNIQUE,2015,2.0\nA21,BAKING; EDIBLE DOUGHS,2015,1.0\nB23,MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,2015,1.0\nB29,WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,2007,1.0\nB41,PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,2007,1.0\nB60,VEHICLES IN GENERAL,2009,1.0\nB62,LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,2010,1.0\nB63,SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,2014,1.0\nC09,DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,2015,1.0\nE02,HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,2012,1.0\nE05,LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,2012,1.0\nF02,COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,2010,1.0\nF16,ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,2009,1.0\nF23,COMBUSTION APPARATUS; COMBUSTION PROCESSES,2018,1.0\nF24,HEATING; RANGES; VENTILATING,2018,1.0\nF41,WEAPONS,2012,1.0\nG01,MEASURING; TESTING,2008,1.0\nG02,OPTICS,2016,1.0\nG08,SIGNALLING,2017,1.0\nH01,ELECTRIC ELEMENTS,2008,1.0\nH02,GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,2009,1.0\nH03,ELECTRONIC CIRCUITRY,2015,1.0\n"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "3",
+  "answer": "cpc_level4_best_year_ema: level4_group_code,level4_titleFull,best_year,max_ema\nH04,ELECTRIC COMMUNICATION TECHNIQUE,2015,2.0\nA61,MEDICAL OR VETERINARY SCIENCE; HYGIENE,2016,2.0\nF16,ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,2009,1.0\nH03,ELECTRONIC CIRCUITRY,2015,1.0\nH02,GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,2009,1.0\nH01,ELECTRIC ELEMENTS,2008,1.0\nG08,SIGNALLING,2017,1.0\nG02,OPTICS,2016,1.0\nG01,MEASURING; TESTING,2008,1.0\nF41,WEAPONS,2012,1.0\nF24,HEATING; RANGES; VENTILATING,2018,1.0\nF23,COMBUSTION APPARATUS; COMBUSTION PROCESSES,2018,1.0\nA21,BAKING; EDIBLE DOUGHS,2015,1.0\nE05,LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,2012,1.0\nE02,HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,2012,1.0\nC09,DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,2015,1.0\nB63,SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,2014,1.0\nB62,LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,2010,1.0\nB60,VEHICLES IN GENERAL,2009,1.0\nB41,PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,2007,1.0\nB29,WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,2007,1.0\nB23,MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,2015,1.0\nF02,COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,2010,1.0\n"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "4",
+  "answer": "level4_best_year: A21: BAKING; EDIBLE DOUGHS — best year: 2015\nG01: MEASURING; TESTING — best year: 2008\nH02: GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER — best year: 2009"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "0",
+  "answer": "citing_assignee_cpc_subclass_titles: citing_assignee,cpc_subclass_title\nBLOOM ENERGY CORP,\"PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\"\nCRYSTAL IS INC,SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J,SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10\n"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "1",
+  "answer": "citing_assignee_cpc_titles: BLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "2",
+  "answer": "assignee_cpc_subclass_titles: CRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nBLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nSCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "3",
+  "answer": "citing_assignee_cpc_subclass_titles: CRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nBLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nSCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "4",
+  "answer": "citing_assignee_cpc_titles: CRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nBLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCALIFORNIA INST OF TECHN: GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\nSCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "0",
+  "answer": "sports_longest_description_title: The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "1",
+  "answer": "longest_desc_sports_title: Baltimore's quot;Free Books! quot; Charity in Dire Straits"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "2",
+  "answer": "sports_longest_description_title: Baltimore's quot;Free Books! quot; Charity in Dire Straits"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "3",
+  "answer": "longest_sports_description_title: The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "4",
+  "answer": "sports_article_title: The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "0",
+  "answer": "science_tech_fraction: 0.12612612612612611"
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "1",
+  "answer": "science_tech_fraction: 0.12612612612612611"
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "2",
+  "answer": "science_tech_fraction: 0.10810810810810811"
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "3",
+  "answer": "science_technology_fraction: 0.10810810810810811"
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "4",
+  "answer": "science_tech_fraction: 0.11711711711711711"
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "0",
+  "answer": "avg_business_articles_per_year: 351.6363636363636"
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "1",
+  "answer": "avg_business_articles_per_year: 351.72727272727275"
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "2",
+  "answer": "avg_business_articles_per_year: 352.8181818181818"
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "3",
+  "answer": "avg_business_articles_per_year: 341.1818181818182"
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "4",
+  "answer": "avg_business_articles_per_year: 359.90909090909093"
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "0",
+  "answer": "top_world_region_2015: Africa\nworld_region_counts_2015: {\"Africa\": 361, \"Asia\": 345, \"Europe\": 358, \"North America\": 359, \"South America\": 360}"
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "1",
+  "answer": "top_region_world_2015: Africa\nregion_world_counts_2015: {\"Africa\": 351, \"Asia\": 328, \"Europe\": 347, \"North America\": 342, \"South America\": 341}"
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "2",
+  "answer": "top_region: Africa\ntop_region_count: 371"
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "3",
+  "answer": "top_region: South America"
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "4",
+  "answer": "top_region_world_2015: Africa\nworld_2015_region_counts: {\"Africa\": 344, \"Asia\": 326, \"Europe\": 340, \"North America\": 338, \"South America\": 343}"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "0",
+  "answer": "top_decade: 2020s\ndecade_rating_summary: decade,distinct_rated_books,avg_rating\n1980s,11,4.208333333333333\n1990s,18,3.8405797101449277\n2000s,46,4.273684210526316\n2010s,88,4.608591885441528\n2020s,21,4.663636363636364\n"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "1",
+  "answer": "top_decade: 2020s"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "2",
+  "answer": "top_decade: 2020s"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "3",
+  "answer": "top_decade: 2020s"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "4",
+  "answer": "top_decade: 2020s"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "0",
+  "answer": "perfect_rating_books: book_id,title,average_rating\nbookid_9,Reunion: The Children of Lauderdale Park,5.0\nbookid_38,The Prophet: With Original 1923 Illustrations by the Author,5.0\nbookid_39,The Melancholy Strumpet Master,5.0\nbookid_74,Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message,5.0\nbookid_82,Fire Cracker,5.0\nbookid_84,Local Honey,5.0\nbookid_98,Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries),5.0\nbookid_101,Knowing When To Die: Uncollected Stories,5.0\nbookid_122,Childe Harold of Dysna,5.0\nbookid_144,Forged in Blood (Freehold),5.0\nbookid_171,\"Exits, Desires, & Slow Fires\",5.0\nbookid_177,Kennebago Moments,5.0\nbookid_180,The Sludge,5.0\nbookid_182,Liza of Lambeth,5.0\nbookid_195,Something That Feels Like Truth (Switchgrass Books),5.0\n"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "1",
+  "answer": "perfect_rating_books: book_id,title,average_rating\nbookid_9,Reunion: The Children of Lauderdale Park,5.0\nbookid_38,The Prophet: With Original 1923 Illustrations by the Author,5.0\nbookid_39,The Melancholy Strumpet Master,5.0\nbookid_74,Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message,5.0\nbookid_82,Fire Cracker,5.0\nbookid_84,Local Honey,5.0\nbookid_98,Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries),5.0\nbookid_101,Knowing When To Die: Uncollected Stories,5.0\nbookid_122,Childe Harold of Dysna,5.0\nbookid_144,Forged in Blood (Freehold),5.0\nbookid_171,\"Exits, Desires, & Slow Fires\",5.0\nbookid_177,Kennebago Moments,5.0\nbookid_180,The Sludge,5.0\nbookid_182,Liza of Lambeth,5.0\nbookid_195,Something That Feels Like Truth (Switchgrass Books),5.0\n"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "2",
+  "answer": "perfect_rating_books: book_id,title,average_rating\nbookid_9,Reunion: The Children of Lauderdale Park,5.0\nbookid_38,The Prophet: With Original 1923 Illustrations by the Author,5.0\nbookid_39,The Melancholy Strumpet Master,5.0\nbookid_74,Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message,5.0\nbookid_82,Fire Cracker,5.0\nbookid_84,Local Honey,5.0\nbookid_98,Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries),5.0\nbookid_101,Knowing When To Die: Uncollected Stories,5.0\nbookid_122,Childe Harold of Dysna,5.0\nbookid_144,Forged in Blood (Freehold),5.0\nbookid_171,\"Exits, Desires, & Slow Fires\",5.0\nbookid_177,Kennebago Moments,5.0\nbookid_180,The Sludge,5.0\nbookid_182,Liza of Lambeth,5.0\nbookid_195,Something That Feels Like Truth (Switchgrass Books),5.0\n"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "3",
+  "answer": "perfect_rating_books: book_id,title,average_rating\nbookid_9,Reunion: The Children of Lauderdale Park,5.0\nbookid_38,The Prophet: With Original 1923 Illustrations by the Author,5.0\nbookid_39,The Melancholy Strumpet Master,5.0\nbookid_74,Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message,5.0\nbookid_82,Fire Cracker,5.0\nbookid_84,Local Honey,5.0\nbookid_98,Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries),5.0\nbookid_101,Knowing When To Die: Uncollected Stories,5.0\nbookid_122,Childe Harold of Dysna,5.0\nbookid_144,Forged in Blood (Freehold),5.0\nbookid_171,\"Exits, Desires, & Slow Fires\",5.0\nbookid_177,Kennebago Moments,5.0\nbookid_180,The Sludge,5.0\nbookid_182,Liza of Lambeth,5.0\nbookid_195,Something That Feels Like Truth (Switchgrass Books),5.0\n"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "4",
+  "answer": "perfect_rating_books: book_id,title,average_rating\nbookid_9,Reunion: The Children of Lauderdale Park,5.0\nbookid_38,The Prophet: With Original 1923 Illustrations by the Author,5.0\nbookid_39,The Melancholy Strumpet Master,5.0\nbookid_74,Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message,5.0\nbookid_82,Fire Cracker,5.0\nbookid_84,Local Honey,5.0\nbookid_98,Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries),5.0\nbookid_101,Knowing When To Die: Uncollected Stories,5.0\nbookid_122,Childe Harold of Dysna,5.0\nbookid_144,Forged in Blood (Freehold),5.0\nbookid_171,\"Exits, Desires, & Slow Fires\",5.0\nbookid_177,Kennebago Moments,5.0\nbookid_180,The Sludge,5.0\nbookid_182,Liza of Lambeth,5.0\nbookid_195,Something That Feels Like Truth (Switchgrass Books),5.0\n"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "0",
+  "answer": "qualifying_childrens_books: Books categorized as 'Children's Books' with an average rating of at least 4.5 (reviews from 2020 onwards):\n\nMonstrous Stories #4: The Day the Mice Stood Still: 5.00\nThe Old Man and the Pirate Princess: 5.00\nEgypt (Enchantment of the World): 5.00\nClark the Shark: Tooth Trouble, No. 1: 4.75\nFavorite Thorton W. Burgess Stories: 6 Books: 5.00\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.00\nCheer Up, Ben Franklin! (Young Historians): 5.00\nThe Library Book: 5.00\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.00\nLunaLu the Llamacorn: 5.00\nTrouble in the CTC!: The Terra Prime Adventures Book 2: 4.90\nAround the World Mazes: 5.00\nCleo Porter and the Body Electric: 4.71\nPokémon: Sun & Moon, Vol. 8 (8): 5.00"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "1",
+  "answer": "qualifying_childrens_books: Books categorized as 'Children's Books' with an average rating of at least 4.5 (reviews from 2020 onwards):\n\nAround the World Mazes: 5.00\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.00\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.00\nCheer Up, Ben Franklin! (Young Historians): 5.00\nEgypt (Enchantment of the World): 5.00\nFavorite Thorton W. Burgess Stories: 6 Books: 5.00\nLunaLu the Llamacorn: 5.00\nMonstrous Stories #4: The Day the Mice Stood Still: 5.00\nPokémon: Sun & Moon, Vol. 8 (8): 5.00\nThe Library Book: 5.00\nThe Old Man and the Pirate Princess: 5.00\nTrouble in the CTC!: The Terra Prime Adventures Book 2: 4.90\nClark the Shark: Tooth Trouble, No. 1: 4.75\nCleo Porter and the Body Electric: 4.71"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "2",
+  "answer": "qualifying_childrens_books: Children's Books with an average rating of at least 4.5 (reviews from 2020 onwards):\n\nbookid_108 — The Library Book: avg_rating 5.0, review_count 3\nbookid_130 — Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): avg_rating 5.0, review_count 1\nbookid_14 — The Old Man and the Pirate Princess: avg_rating 5.0, review_count 1\nbookid_146 — LunaLu the Llamacorn: avg_rating 5.0, review_count 3\nbookid_149 — Trouble in the CTC!: The Terra Prime Adventures Book 2: avg_rating 4.9, review_count 10\nbookid_152 — Around the World Mazes: avg_rating 5.0, review_count 1\nbookid_158 — Cleo Porter and the Body Electric: avg_rating 4.708333, review_count 24\nbookid_170 — Pokémon: Sun & Moon, Vol. 8 (8): avg_rating 5.0, review_count 1\nbookid_4 — Monstrous Stories #4: The Day the Mice Stood Still: avg_rating 5.0, review_count 1\nbookid_40 — Egypt (Enchantment of the World): avg_rating 5.0, review_count 1\nbookid_48 — Clark the Shark: Tooth Trouble, No. 1: avg_rating 4.75, review_count 4\nbookid_54 — Favorite Thorton W. Burgess Stories: 6 Books: avg_rating 5.0, review_count 3\nbookid_55 — Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): avg_rating 5.0, review_count 1\nbookid_96 — Cheer Up, Ben Franklin! (Young Historians): avg_rating 5.0, review_count 1"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "3",
+  "answer": "qualifying_childrens_books: book_id,title,avg_rating\nbookid_4,Monstrous Stories #4: The Day the Mice Stood Still,5.0\nbookid_14,The Old Man and the Pirate Princess,5.0\nbookid_40,Egypt (Enchantment of the World),5.0\nbookid_48,\"Clark the Shark: Tooth Trouble, No. 1\",4.75\nbookid_54,Favorite Thorton W. Burgess Stories: 6 Books,5.0\nbookid_55,Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised),5.0\nbookid_96,\"Cheer Up, Ben Franklin! (Young Historians)\",5.0\nbookid_108,The Library Book,5.0\nbookid_130,Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1),5.0\nbookid_146,LunaLu the Llamacorn,5.0\nbookid_149,Trouble in the CTC!: The Terra Prime Adventures Book 2,4.9\nbookid_152,Around the World Mazes,5.0\nbookid_158,Cleo Porter and the Body Electric,4.708333333333333\nbookid_170,\"Pokémon: Sun & Moon, Vol. 8 (8)\",5.0\n"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "4",
+  "answer": "qualifying_children_books: Books categorized as 'Children's Books' with an average rating of at least 4.5 (reviews from 2020 onwards):\n\nMonstrous Stories #4: The Day the Mice Stood Still: 5.00\nThe Old Man and the Pirate Princess: 5.00\nEgypt (Enchantment of the World): 5.00\nClark the Shark: Tooth Trouble, No. 1: 4.75\nFavorite Thorton W. Burgess Stories: 6 Books: 5.00\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.00\nCheer Up, Ben Franklin! (Young Historians): 5.00\nThe Library Book: 5.00\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.00\nLunaLu the Llamacorn: 5.00\nTrouble in the CTC!: The Terra Prime Adventures Book 2: 4.90\nAround the World Mazes: 5.00\nCleo Porter and the Body Electric: 4.71\nPokémon: Sun & Moon, Vol. 8 (8): 5.00"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "0",
+  "answer": "bant_failed_factors: [\"Authority\"]"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "1",
+  "answer": "failed_bant_factors: [\"Authority\"]"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "2",
+  "answer": "failed_bant_factors: [\"Authority\"]"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "3",
+  "answer": "failed_bant_factors: [\"Authority\"]"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "4",
+  "answer": "bant_qualification_result: {\"qualified\": false, \"failed_factors\": [\"Authority\"]}"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "0",
+  "answer": "violated_article_id: ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "1",
+  "answer": ""
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "2",
+  "answer": "violated_knowledge_article_id: ka0Wt000000Eq0MIAS"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "3",
+  "answer": ""
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "4",
+  "answer": "violated_article_id: ka0Wt000000Eq0MIAS"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "0",
+  "answer": "correct_stage_label: Quote"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "1",
+  "answer": "correct_stage_label: Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "2",
+  "answer": "correct_stage_label: Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "3",
+  "answer": "correct_stage_label: Closed"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "4",
+  "answer": "correct_stage_label: Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "0",
+  "answer": "peak_month_name: November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "1",
+  "answer": "peak_month_name: November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "2",
+  "answer": "peak_month_name: November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "3",
+  "answer": "peak_month_name: November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "4",
+  "answer": "final_answer: November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "0",
+  "answer": "most_frequent_issue_id: a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "1",
+  "answer": "most_reported_issue_id: a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "2",
+  "answer": "most_frequent_issue_id: a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "3",
+  "answer": "most_reported_issue_id: a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "4",
+  "answer": "most_frequent_issue_id: a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "0",
+  "answer": "violated_article_id: ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "1",
+  "answer": "violated_knowledge_article_id: ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "2",
+  "answer": "violated_knowledge_article_id: ka0Wt000000Eq0MIAS"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "3",
+  "answer": "violated_article_id: ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "4",
+  "answer": "violated_knowledge_article_id: ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "0",
+  "answer": "breached_article_id: ka0Wt000000EpSUIA0"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "1",
+  "answer": ""
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "2",
+  "answer": "breached_article_id: ka0Wt000000EooBIAS"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "3",
+  "answer": ""
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "4",
+  "answer": ""
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "0",
+  "answer": "agent_id: 005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "1",
+  "answer": "agent_id: 005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "2",
+  "answer": "agent_id: 005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "3",
+  "answer": "agent_id: 005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "4",
+  "answer": "agent_id: 005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "0",
+  "answer": "quickest_state: MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "1",
+  "answer": "quickest_state: MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "2",
+  "answer": "quickest_state: MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "3",
+  "answer": "quickest_closure_state: MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "4",
+  "answer": "quickest_closure_state: MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "0",
+  "answer": "lowest_avg_handle_time_agent_id: 005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "1",
+  "answer": "lowest_avg_handle_time_agent_id: 005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "2",
+  "answer": "agent_id: 005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "3",
+  "answer": "lowest_avg_handle_time_agent_id: 005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "4",
+  "answer": "lowest_avg_handle_time_agent_id: 005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "0",
+  "answer": "product_id: 01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "1",
+  "answer": "ai_product_id: 01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "2",
+  "answer": "product_id: 01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "3",
+  "answer": "product_id: 01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "4",
+  "answer": "product_id: 01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "0",
+  "answer": "quickest_agent_id: 005Wt000003NDEBIA4"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "1",
+  "answer": "quickest_agent_id: 005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "2",
+  "answer": "agent_id: 005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "3",
+  "answer": "quickest_agent_id: 005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "4",
+  "answer": "agent_id: 005Wt000003NDEBIA4"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "0",
+  "answer": "top_agent_id: 005Wt000003NHw5IAG"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "1",
+  "answer": "top_agent_id: 005Wt000003NHw5IAG"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "2",
+  "answer": "top_agent_id: 005Wt000003NHw5IAG"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "3",
+  "answer": "top_agent_id: 005Wt000003NHw5IAG"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "4",
+  "answer": "top_agent_id: 005Wt000003NHw5IAG"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "0",
+  "answer": "top5_la_businesses: name,avg_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "1",
+  "answer": "top5_la_businesses: name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "2",
+  "answer": "top5_la_businesses: name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "3",
+  "answer": "top5_la_businesses: name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "4",
+  "answer": "top5_la_businesses: name,avg_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "0",
+  "answer": "qualified_massage_ratings: name,average_rating\nAurora Massage,4.178571428571429\nElite Massage,5.0\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "1",
+  "answer": "qualifying_massage_businesses: name,avg_rating\nElite Massage,5.0\nAurora Massage,4.178571428571429\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "2",
+  "answer": "qualifying_massage_businesses: name,avg_rating\nElite Massage,5.0\nAngel-A Massage,4.333333333333333\nAurora Massage,4.178571428571429\nJ B Oriental Inc,4.166666666666667\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "3",
+  "answer": "qualifying_massage_businesses: name,avg_rating\nElite Massage,5.0\nAurora Massage,4.178571428571429\nJ B Oriental Inc,4.166666666666667\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "4",
+  "answer": "qualifying_massage_businesses: name,gmap_id,average_rating\nElite Massage,gmap_25,5.0\nAurora Massage,gmap_20,4.178571428571429\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "0",
+  "answer": "top5_businesses: Top 5 businesses open after 6:00 PM on at least one weekday, ranked by highest average rating:\n\n1. Beauty Divine Artistry — Rating: 5.0\n   Hours: [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]]\n\n2. TACOS LA CABANA — Rating: 5.0\n   Hours: [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]]\n\n3. Taba Rug Gallery — Rating: 5.0\n   Hours: [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]]\n\n4. White Barn Candle Co — Rating: 5.0\n   Hours: [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]]\n\n5. Paradise tattoo — Rating: 4.9603174603174605\n   Hours: [[\"Thursday\", \"12–10PM\"], [\"Friday\", \"12PM–12AM\"], [\"Saturday\", \"12PM–12AM\"], [\"Sunday\", \"12–10PM\"], [\"Monday\", \"12–10PM\"], [\"Tuesday\", \"12–10PM\"], [\"Wednesday\", \"12–10PM\"]]"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "1",
+  "answer": "top5_businesses: name,hours,avg_rating\nBeauty Divine Artistry,\"[[\"\"Thursday\"\", \"\"9AM–8PM\"\"], [\"\"Friday\"\", \"\"9AM–8PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"9AM–8PM\"\"], [\"\"Tuesday\"\", \"\"9AM–8PM\"\"], [\"\"Wednesday\"\", \"\"9AM–8PM\"\"]]\",5.0\nMariscos el poblano,\"[[\"\"Thursday\"\", \"\"Open 24 hours\"\"], [\"\"Friday\"\", \"\"8AM–3:30PM\"\"], [\"\"Saturday\"\", \"\"8AM–3:30PM\"\"], [\"\"Sunday\"\", \"\"8AM–3:30PM\"\"], [\"\"Monday\"\", \"\"9AM–3:30AM\"\"], [\"\"Tuesday\"\", \"\"8AM–3:30PM\"\"], [\"\"Wednesday\"\", \"\"8AM–3:30PM\"\"]]\",5.0\nTACOS LA CABANA,\"[[\"\"Thursday\"\", \"\"Closed\"\"], [\"\"Friday\"\", \"\"5–11PM\"\"], [\"\"Saturday\"\", \"\"5–11PM\"\"], [\"\"Sunday\"\", \"\"5–11PM\"\"], [\"\"Monday\"\", \"\"5–11PM\"\"], [\"\"Tuesday\"\", \"\"Closed\"\"], [\"\"Wednesday\"\", \"\"Closed\"\"]]\",5.0\nTaba Rug Gallery,\"[[\"\"Thursday\"\", \"\"10AM–7PM\"\"], [\"\"Friday\"\", \"\"10AM–7PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"10AM–7PM\"\"], [\"\"Tuesday\"\", \"\"10AM–7PM\"\"], [\"\"Wednesday\"\", \"\"10AM–7PM\"\"]]\",5.0\nWhite Barn Candle Co,\"[[\"\"Thursday\"\", \"\"10AM–9PM\"\"], [\"\"Friday\"\", \"\"10AM–9PM\"\"], [\"\"Saturday\"\", \"\"10AM–9PM\"\"], [\"\"Sunday\"\", \"\"11AM–7PM\"\"], [\"\"Monday\"\", \"\"10AM–9PM\"\"], [\"\"Tuesday\"\", \"\"10AM–9PM\"\"], [\"\"Wednesday\"\", \"\"10AM–9PM\"\"]]\",5.0\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "2",
+  "answer": "top5_businesses: name,hours,average_rating\nBeauty Divine Artistry,\"[[\"\"Thursday\"\", \"\"9AM–8PM\"\"], [\"\"Friday\"\", \"\"9AM–8PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"9AM–8PM\"\"], [\"\"Tuesday\"\", \"\"9AM–8PM\"\"], [\"\"Wednesday\"\", \"\"9AM–8PM\"\"]]\",5.0\nMariscos el poblano,\"[[\"\"Thursday\"\", \"\"Open 24 hours\"\"], [\"\"Friday\"\", \"\"8AM–3:30PM\"\"], [\"\"Saturday\"\", \"\"8AM–3:30PM\"\"], [\"\"Sunday\"\", \"\"8AM–3:30PM\"\"], [\"\"Monday\"\", \"\"9AM–3:30AM\"\"], [\"\"Tuesday\"\", \"\"8AM–3:30PM\"\"], [\"\"Wednesday\"\", \"\"8AM–3:30PM\"\"]]\",5.0\nTACOS LA CABANA,\"[[\"\"Thursday\"\", \"\"Closed\"\"], [\"\"Friday\"\", \"\"5–11PM\"\"], [\"\"Saturday\"\", \"\"5–11PM\"\"], [\"\"Sunday\"\", \"\"5–11PM\"\"], [\"\"Monday\"\", \"\"5–11PM\"\"], [\"\"Tuesday\"\", \"\"Closed\"\"], [\"\"Wednesday\"\", \"\"Closed\"\"]]\",5.0\nTaba Rug Gallery,\"[[\"\"Thursday\"\", \"\"10AM–7PM\"\"], [\"\"Friday\"\", \"\"10AM–7PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"10AM–7PM\"\"], [\"\"Tuesday\"\", \"\"10AM–7PM\"\"], [\"\"Wednesday\"\", \"\"10AM–7PM\"\"]]\",5.0\nWhite Barn Candle Co,\"[[\"\"Thursday\"\", \"\"10AM–9PM\"\"], [\"\"Friday\"\", \"\"10AM–9PM\"\"], [\"\"Saturday\"\", \"\"10AM–9PM\"\"], [\"\"Sunday\"\", \"\"11AM–7PM\"\"], [\"\"Monday\"\", \"\"10AM–9PM\"\"], [\"\"Tuesday\"\", \"\"10AM–9PM\"\"], [\"\"Wednesday\"\", \"\"10AM–9PM\"\"]]\",5.0\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "3",
+  "answer": "top5_businesses: name,hours,average_rating\nTaba Rug Gallery,\"[[\"\"Thursday\"\", \"\"10AM–7PM\"\"], [\"\"Friday\"\", \"\"10AM–7PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"10AM–7PM\"\"], [\"\"Tuesday\"\", \"\"10AM–7PM\"\"], [\"\"Wednesday\"\", \"\"10AM–7PM\"\"]]\",5.0\nBeauty Divine Artistry,\"[[\"\"Thursday\"\", \"\"9AM–8PM\"\"], [\"\"Friday\"\", \"\"9AM–8PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"9AM–8PM\"\"], [\"\"Tuesday\"\", \"\"9AM–8PM\"\"], [\"\"Wednesday\"\", \"\"9AM–8PM\"\"]]\",5.0\nWhite Barn Candle Co,\"[[\"\"Thursday\"\", \"\"10AM–9PM\"\"], [\"\"Friday\"\", \"\"10AM–9PM\"\"], [\"\"Saturday\"\", \"\"10AM–9PM\"\"], [\"\"Sunday\"\", \"\"11AM–7PM\"\"], [\"\"Monday\"\", \"\"10AM–9PM\"\"], [\"\"Tuesday\"\", \"\"10AM–9PM\"\"], [\"\"Wednesday\"\", \"\"10AM–9PM\"\"]]\",5.0\nTACOS LA CABANA,\"[[\"\"Thursday\"\", \"\"Closed\"\"], [\"\"Friday\"\", \"\"5–11PM\"\"], [\"\"Saturday\"\", \"\"5–11PM\"\"], [\"\"Sunday\"\", \"\"5–11PM\"\"], [\"\"Monday\"\", \"\"5–11PM\"\"], [\"\"Tuesday\"\", \"\"Closed\"\"], [\"\"Wednesday\"\", \"\"Closed\"\"]]\",5.0\nMariscos el poblano,\"[[\"\"Thursday\"\", \"\"Open 24 hours\"\"], [\"\"Friday\"\", \"\"8AM–3:30PM\"\"], [\"\"Saturday\"\", \"\"8AM–3:30PM\"\"], [\"\"Sunday\"\", \"\"8AM–3:30PM\"\"], [\"\"Monday\"\", \"\"9AM–3:30AM\"\"], [\"\"Tuesday\"\", \"\"8AM–3:30PM\"\"], [\"\"Wednesday\"\", \"\"8AM–3:30PM\"\"]]\",5.0\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "4",
+  "answer": "top5_businesses: name,hours,average_rating\nTaba Rug Gallery,\"[[\"\"Thursday\"\", \"\"10AM–7PM\"\"], [\"\"Friday\"\", \"\"10AM–7PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"10AM–7PM\"\"], [\"\"Tuesday\"\", \"\"10AM–7PM\"\"], [\"\"Wednesday\"\", \"\"10AM–7PM\"\"]]\",5.0\nTACOS LA CABANA,\"[[\"\"Thursday\"\", \"\"Closed\"\"], [\"\"Friday\"\", \"\"5–11PM\"\"], [\"\"Saturday\"\", \"\"5–11PM\"\"], [\"\"Sunday\"\", \"\"5–11PM\"\"], [\"\"Monday\"\", \"\"5–11PM\"\"], [\"\"Tuesday\"\", \"\"Closed\"\"], [\"\"Wednesday\"\", \"\"Closed\"\"]]\",5.0\nWhite Barn Candle Co,\"[[\"\"Thursday\"\", \"\"10AM–9PM\"\"], [\"\"Friday\"\", \"\"10AM–9PM\"\"], [\"\"Saturday\"\", \"\"10AM–9PM\"\"], [\"\"Sunday\"\", \"\"11AM–7PM\"\"], [\"\"Monday\"\", \"\"10AM–9PM\"\"], [\"\"Tuesday\"\", \"\"10AM–9PM\"\"], [\"\"Wednesday\"\", \"\"10AM–9PM\"\"]]\",5.0\nBeauty Divine Artistry,\"[[\"\"Thursday\"\", \"\"9AM–8PM\"\"], [\"\"Friday\"\", \"\"9AM–8PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"9AM–8PM\"\"], [\"\"Tuesday\"\", \"\"9AM–8PM\"\"], [\"\"Wednesday\"\", \"\"9AM–8PM\"\"]]\",5.0\nParadise tattoo,\"[[\"\"Thursday\"\", \"\"12–10PM\"\"], [\"\"Friday\"\", \"\"12PM–12AM\"\"], [\"\"Saturday\"\", \"\"12PM–12AM\"\"], [\"\"Sunday\"\", \"\"12–10PM\"\"], [\"\"Monday\"\", \"\"12–10PM\"\"], [\"\"Tuesday\"\", \"\"12–10PM\"\"], [\"\"Wednesday\"\", \"\"12–10PM\"\"]]\",4.9603174603174605\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "0",
+  "answer": "top3_businesses: name,high_rating_review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "1",
+  "answer": "top3_businesses_high_rating_2019: name,high_rating_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "2",
+  "answer": "top3_businesses: name,review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "3",
+  "answer": "top3_businesses_high_rating_2019: name,high_rating_review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14\n"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "4",
+  "answer": "top3_businesses_high_rating_2019: name,high_rating_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14\n"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "0",
+  "answer": "total_revenue_usd: 1059.46"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "1",
+  "answer": "apple_music_canada_revenue_usd: 601.44"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "2",
+  "answer": "apple_music_canada_revenue_usd: 1059.46"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "3",
+  "answer": "apple_music_canada_revenue_usd: 1059.46"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "4",
+  "answer": "apple_music_canada_revenue_usd: 601.44"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "0",
+  "answer": "top_store: Amazon Music\ntop_store_revenue_usd: 304.13"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "1",
+  "answer": "top_store: Amazon Music\ntop_store_revenue_usd: 304.13"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "2",
+  "answer": "top_store: Amazon Music\ntop_store_revenue_usd: 304.13"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "3",
+  "answer": "top_store: Amazon Music\ntop_store_revenue_usd: 304.13"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "4",
+  "answer": "top_store: Amazon Music\ntop_store_revenue_usd: 682.23"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "0",
+  "answer": "top_song_by_revenue: {\"rep_title\": \"003-\", \"rep_artist\": \"[unknown]\", \"total_revenue_usd\": 145985.93}"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "1",
+  "answer": "top_revenue_song: {\"rep_title\": \"001-\", \"rep_artist\": \"Twins\", \"total_revenue_usd\": 13391.29}"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "2",
+  "answer": "top_revenue_song: {\"canonical_song_id\": 5541, \"representative_title\": \"004-\", \"representative_artist\": \"\\\"\\\"\", \"total_revenue_usd\": 7271.32}"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "3",
+  "answer": "top_revenue_song: {\"canonical_song_id\": 149, \"title\": \"Άνοιξαν οι ουρανοί (Υπάρχει λόγος)\", \"artist\": \"岩崎文紀\", \"album\": \"Лявоны\", \"year\": 2006, \"total_revenue_usd\": 15390.94}"
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "4",
+  "answer": "top_song_by_revenue: {\"rep_title\": \"n.a.\", \"rep_artist\": \"Banda Magnificos\", \"total_revenue_usd\": 12978.06}"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "0",
+  "answer": "highest_volatility_asia_index: 399001.SZ\nasia_index_avg_volatility: {\"000001.SS\": 0.013781104973401204, \"399001.SZ\": 0.018340688080570655, \"HSI\": 0.014931673425125849, \"N225\": 0.013426763944978336, \"NSEI\": 0.01707150430790845, \"TWII\": 0.013225469311378099}"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "1",
+  "answer": "top_asia_index: 399001.SZ\ntop_avg_intraday_volatility: 0.018340688080570655\nasia_avg_intraday_volatility: {\"000001.SS\": 0.013781104973401204, \"399001.SZ\": 0.018340688080570655, \"HSI\": 0.014931673425125849, \"N225\": 0.013426763944978336, \"NSEI\": 0.01707150430790845, \"TWII\": 0.013225469311378099}"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "2",
+  "answer": "highest_volatility_index: 399001.SZ\naverage_intraday_volatility: 0.018340688080570655"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "3",
+  "answer": "top_asian_volatility_index: 399001.SZ\ntop_average_intraday_volatility: 0.018340688080570655\nasian_index_avg_volatility: {\"000001.SS\": 0.013781104973401204, \"399001.SZ\": 0.018340688080570655, \"HSI\": 0.014931673425125849, \"N225\": 0.013426763944978336, \"NSEI\": 0.01707150430790845, \"TWII\": 0.013225469311378099}"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "4",
+  "answer": "top_asia_volatility_index: 399001.SZ\ntop_asia_volatility_value: 0.018340688080570655"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "0",
+  "answer": "indices_more_up_than_down_2018: [\"IXIC\"]"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "1",
+  "answer": "indices_more_up_than_down_2018: [\"IXIC\"]"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "2",
+  "answer": "indices_more_up_than_down_2018: [{\"Index\": \"IXIC\", \"up_days\": 131, \"down_days\": 120}]"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "3",
+  "answer": "indices_more_up_than_down_2018: [\"IXIC\"]\nup_down_day_counts_2018: {\"NYA\": {\"up_days\": 125, \"down_days\": 126}, \"IXIC\": {\"up_days\": 131, \"down_days\": 120}, \"GSPTSE\": {\"up_days\": 115, \"down_days\": 135}}"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "4",
+  "answer": "indices_more_up_than_down_2018: [{\"Index\": \"IXIC\", \"up_days\": 131, \"down_days\": 120}]"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "0",
+  "answer": "top5_indices_with_countries: [{\"index\": \"IXIC\", \"overall_return\": 3.8269431542041943, \"country\": \"United States\"}, {\"index\": \"NSEI\", \"overall_return\": 1.3584273445798654, \"country\": \"India\"}, {\"index\": \"399001.SZ\", \"overall_return\": 1.3474636718846307, \"country\": \"China\"}, {\"index\": \"GDAXI\", \"overall_return\": 1.347028715908275, \"country\": \"Germany\"}, {\"index\": \"TWII\", \"overall_return\": 1.2982003158446507, \"country\": \"Taiwan\"}]"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "1",
+  "answer": "top5_indices_with_country: Index,overall_return,Country\nIXIC,3.8269431542041943,United States\nNSEI,1.3584273445798654,India\n399001.SZ,1.3474636718846307,China\nGDAXI,1.347028715908275,Germany\nTWII,1.2982003158446507,Taiwan\n"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "2",
+  "answer": "top5_indices_with_countries: Index,overall_return_pct,Country\nIXIC,382.69431542041946,United States\nNSEI,135.84273445798652,India\n399001.SZ,134.74636718846307,China\nGDAXI,134.7028715908275,Germany\nTWII,129.82003158446506,Taiwan\n"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "3",
+  "answer": "top5_indices_with_countries: Index,overall_return,Country\nIXIC,3.8269431542041943,United States\nNSEI,1.3584273445798654,India\n399001.SZ,1.3474636718846307,China\nGDAXI,1.347028715908275,Germany\nTWII,1.2982003158446507,Taiwan\n"
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "4",
+  "answer": "top5_indices_returns_countries: Index,overall_return,Country\nIXIC,3.8269431542041943,United States\nNSEI,1.3584273445798654,India\n399001.SZ,1.3474636718846302,China\nGDAXI,1.3470287159082754,Germany\nTWII,1.2982003158446507,Taiwan\n"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "0",
+  "answer": "max_adj_close_2020: 18.440000534057617"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "1",
+  "answer": "max_adj_close_2020: 18.440000534057617"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "2",
+  "answer": "max_adj_close_2020: 18.440000534057617"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "3",
+  "answer": "max_adj_close_2020: 18.440000534057617"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "4",
+  "answer": "max_adj_close_2020: 18.440000534057617"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "0",
+  "answer": "qualifying_etfs: [\"BOIL\", \"BZQ\", \"COM\", \"DUST\", \"EDZ\", \"ERX\", \"FAZ\", \"FXP\", \"GFIN\", \"GUSH\", \"HYUP\", \"JDST\", \"JNUG\", \"JPN\", \"LABD\", \"LABU\", \"LBJ\", \"MDY\", \"PTIN\", \"RTL\", \"SDOW\", \"SOXS\", \"SSG\", \"TECS\", \"TZA\", \"UVXY\", \"VIXY\", \"VPC\", \"XES\", \"XOP\", \"YANG\"]\nqualifying_etf_count: 31"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "1",
+  "answer": "qualifying_etfs: [\"BOIL\", \"BZQ\", \"COM\", \"DUST\", \"EDZ\", \"ERX\", \"FAZ\", \"FXP\", \"GFIN\", \"GUSH\", \"HYUP\", \"JDST\", \"JNUG\", \"JPN\", \"LABD\", \"LABU\", \"LBJ\", \"MDY\", \"PTIN\", \"RTL\", \"SDOW\", \"SOXS\", \"SSG\", \"TECS\", \"TZA\", \"UVXY\", \"VIXY\", \"VPC\", \"XES\", \"XOP\", \"YANG\"]\nqualifying_etf_count: 31"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "2",
+  "answer": "qualifying_etf_symbols: [\"BOIL\", \"BZQ\", \"COM\", \"DUST\", \"EDZ\", \"ERX\", \"FAZ\", \"FXP\", \"GFIN\", \"GUSH\", \"HYUP\", \"JDST\", \"JNUG\", \"JPN\", \"LABD\", \"LABU\", \"LBJ\", \"MDY\", \"PTIN\", \"RTL\", \"SDOW\", \"SOXS\", \"SSG\", \"TECS\", \"TZA\", \"UVXY\", \"VIXY\", \"VPC\", \"XES\", \"XOP\", \"YANG\"]\nqualifying_etf_count: 31"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "3",
+  "answer": "qualifying_etf_symbols: [\"BOIL\", \"BZQ\", \"COM\", \"DUST\", \"EDZ\", \"ERX\", \"FAZ\", \"FXP\", \"GFIN\", \"GUSH\", \"HYUP\", \"JDST\", \"JNUG\", \"JPN\", \"LABD\", \"LABU\", \"LBJ\", \"MDY\", \"PTIN\", \"RTL\", \"SDOW\", \"SOXS\", \"SSG\", \"TECS\", \"TZA\", \"UVXY\", \"VIXY\", \"VPC\", \"XES\", \"XOP\", \"YANG\"]\nqualifying_etf_count: 31"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "4",
+  "answer": "qualifying_etf_symbols: [\"BOIL\", \"BZQ\", \"COM\", \"DUST\", \"EDZ\", \"ERX\", \"FAZ\", \"FXP\", \"GFIN\", \"GUSH\", \"HYUP\", \"JDST\", \"JNUG\", \"JPN\", \"LABD\", \"LABU\", \"LBJ\", \"MDY\", \"PTIN\", \"RTL\", \"SDOW\", \"SOXS\", \"SSG\", \"TECS\", \"TZA\", \"UVXY\", \"VIXY\", \"VPC\", \"XES\", \"XOP\", \"YANG\"]\nqualifying_etf_count: 31"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "0",
+  "answer": "company_avg_volume_2008: Apex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "1",
+  "answer": "avg_volume_2008: Apex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "2",
+  "answer": "result: Apex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "3",
+  "answer": "troubled_nasdaq_2008_avg_volume: Apex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "4",
+  "answer": "troubled_nasdaq_2008_avg_volume: Apex Global Brands Inc.: 23781.422925\nBIO-key International, Inc.: 10988.142292\nCBAK Energy Technology, Inc.: 86223.320158\nChina Ceramics Co., Ltd.: 4366.798419\nCorrevio Pharma Corp.: 145247.826087\nCounterPath Corporation: 375.494071\nDASAN Zhone Solutions, Inc.: 15578.656126\nFuture FinTech Group Inc.: 9.845238\nFrontier Communications Corporation: 254397.628458\nIdeanomics, Inc.: 10.276680\nOcean Power Technologies, Inc.: 254.150198\nPacific Ethanol, Inc.: 10706.719368\nSynthesis Energy Systems, Inc.: 2390.513834\nSunesis Pharmaceuticals, Inc.: 781.818182\nSypris Solutions, Inc.: 36836.363636"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "0",
+  "answer": "top5_company_names: [\"MFA Financial, Inc.\", \"Argo Group International Holdings, Ltd.\", \"HDFC Bank Limited\", \"Albany International Corporation\", \"DTE Energy Company\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "1",
+  "answer": "top5_company_names: [\"MFA Financial, Inc.\", \"Argo Group International Holdings, Ltd.\", \"HDFC Bank Limited\", \"Albany International Corporation\", \"DTE Energy Company\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "2",
+  "answer": "top5_company_names: [\"HDFC Bank Limited\", \"Albany International Corporation\", \"Getty Realty Corporation\", \"Mettler-Toledo International, Inc.\", \"Pfizer, Inc.\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "3",
+  "answer": "top5_company_names: [\"MFA Financial, Inc\", \"Argo Group International Holdings, Ltd\", \"HDFC Bank Limited\", \"Albany International Corporation\", \"DTE Energy Company\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "4",
+  "answer": "top5_up_day_stock_names: [\"MFA Financial, Inc\", \"Argo Group International Holdings, Ltd\", \"HDFC Bank Limited\", \"Albany International Corporation\", \"DTE Energy Company\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "0",
+  "answer": "top5_company_names: [\"Synthesis Energy Systems, Inc.\", \"TD Holdings, Inc.\", \"TMSR Holding Company Limited\", \"Verb Technology Company, Inc.\", \"Sunesis Pharmaceuticals, Inc.\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "1",
+  "answer": "top5_company_names: [\"Synthesis Energy Systems, Inc.\", \"TD Holdings, Inc.\", \"TMSR Holding Company Limited\", \"Verb Technology Company, Inc.\", \"Sunesis Pharmaceuticals, Inc.\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "2",
+  "answer": "top5_company_names: [\"Synthesis Energy Systems, Inc.\", \"TD Holdings, Inc.\", \"TMSR Holding Company Limited\", \"Verb Technology Company, Inc.\", \"Sunesis Pharmaceuticals, Inc.\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "3",
+  "answer": "top5_company_names: [\"Synthesis Energy Systems, Inc.\", \"TD Holdings, Inc.\", \"TMSR Holding Company Limited\", \"Verb Technology Company, Inc.\", \"Sunesis Pharmaceuticals, Inc.\"]"
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "4",
+  "answer": "top5_company_names: [\"Synthesis Energy Systems, Inc.\", \"TD Holdings, Inc.\", \"TMSR Holding Company Limited\", \"Verb Technology Company, Inc.\", \"Sunesis Pharmaceuticals, Inc.\"]"
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "0",
+  "answer": "average_rating_indianapolis: 3.547008547008547"
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "1",
+  "answer": "average_rating_indianapolis: 3.547008547008547"
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "2",
+  "answer": "average_rating_indianapolis: 3.547008547008547"
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "3",
+  "answer": "average_rating_indianapolis: 3.547008547008547"
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "4",
+  "answer": "average_rating_indianapolis: 3.547008547008547"
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "0",
+  "answer": "top_state: PA\ntop_state_review_count: 662\ntop_state_avg_rating: 3.7"
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "1",
+  "answer": "top_state: PA\ntop_state_review_count: 617\ntop_state_avg_rating: 3.7633711507293355"
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "2",
+  "answer": "top_state_review_result: {\"state\": \"PA\", \"review_count\": 662, \"average_rating\": 3.7}"
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "3",
+  "answer": "top_state_result: {\"state\": \"PA\", \"review_count\": 662, \"average_rating\": 3.7}"
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "4",
+  "answer": "top_state: PA\nreview_count: 617\naverage_rating: 3.7633711507293355"
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "0",
+  "answer": "business_count: 35"
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "1",
+  "answer": "business_count: 35"
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "2",
+  "answer": "count_businesses_with_parking_2018: 35"
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "3",
+  "answer": "business_count: 35"
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "4",
+  "answer": "count_parking_businesses_2018: 35"
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "0",
+  "answer": "category_average_rating: 3.6916890080428955\nanswer_category: PA"
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "1",
+  "answer": "average_rating: Business category: PA\nAverage rating: 3.69"
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "2",
+  "answer": "average_rating: Business category with the largest number of businesses accepting credit card payments: PA (17 businesses)\nAverage rating: 3.69"
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "3",
+  "answer": "average_rating: Business category with the largest number of credit-card-accepting businesses: Food\nAverage rating: 3.433673469387755"
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "4",
+  "answer": "average_rating: Business category with the largest number of businesses that accept credit card payments: Restaurants\nAverage rating: 3.55"
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "0",
+  "answer": "top_wifi_state: PA\naverage_rating_wifi_businesses: 3.48"
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "1",
+  "answer": "result: {\"state\": \"PA\", \"business_count\": 8, \"average_rating\": 3.48}"
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "2",
+  "answer": "average_rating: State with the highest number of businesses offering WiFi: PA (8 businesses)\nAverage rating for those businesses: 3.4839857651245554"
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "3",
+  "answer": "average_rating: State with the highest number of WiFi-offering businesses: PA\nAverage rating for those businesses: 3.4839857651245554"
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "4",
+  "answer": "average_rating_top_state_wifi: State with the highest number of WiFi businesses: PA\nAverage rating for those businesses: 3.4839857651245554"
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "0",
+  "answer": "final_answer: Business: Coffee House Too Cafe\nCategory: Restaurants, Breakfast & Brunch, American (New), Cafes"
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "1",
+  "answer": "business_category_result: Business: Coffee House Too Cafe (business_id: businessid_9)\nCategory: Restaurants, Breakfast & Brunch, American (New), Cafes\nAverage rating: 4.375 (based on 16 reviews)"
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "2",
+  "answer": "final_answer: Business: Coffee House Too Cafe\nCategory: Restaurants, Breakfast & Brunch, American (New), Cafes"
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "3",
+  "answer": "final_answer: business_name: Coffee House Too Cafe\ncategory: Restaurants, Breakfast & Brunch, American (New), Cafes"
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "4",
+  "answer": "final_answer: Coffee House Too Cafe: Restaurants, Breakfast & Brunch, American (New), Cafes"
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "0",
+  "answer": "top5_categories: category,total_reviews\nRestaurants,38\nAmerican (New),23\nFood,21\nLocal Services,16\nAmerican (Traditional),15\n"
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "1",
+  "answer": "top5_categories: [{\"category\": \"Restaurants\", \"review_count\": 14}, {\"category\": \"Food\", \"review_count\": 13}, {\"category\": \"Shopping\", \"review_count\": 9}, {\"category\": \"American (New)\", \"review_count\": 8}, {\"category\": \"Automotive\", \"review_count\": 8}]"
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "2",
+  "answer": "top5_categories: [{\"category\": \"Restaurants\", \"total_reviews\": 44}, {\"category\": \"Food\", \"total_reviews\": 27}, {\"category\": \"PA\", \"total_reviews\": 27}, {\"category\": \"American (New)\", \"total_reviews\": 19}, {\"category\": \"Breakfast & Brunch\", \"total_reviews\": 19}]"
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "3",
+  "answer": "top5_categories_by_reviews: [{\"category\": \"Restaurants\", \"total_reviews\": 46}, {\"category\": \"Food\", \"total_reviews\": 27}, {\"category\": \"PA\", \"total_reviews\": 27}, {\"category\": \"American (New)\", \"total_reviews\": 19}, {\"category\": \"Breakfast & Brunch\", \"total_reviews\": 19}]"
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "4",
+  "answer": "top5_categories_by_reviews: category,total_reviews\nRestaurants,49\nFood,27\nAmerican (New),23\nBreakfast & Brunch,19\nShopping,19\n"
+ }
+]
