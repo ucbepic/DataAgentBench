@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript 2.6.2 94931; @dmrvos/infrajs>0.0.6>typescript 2.6.2 94931; @dylanvann/svelte 3.25.4 73499; @dumc11/tailwindcss 0.4.0 73464; @dollarshaveclub/cli>1.0.0>lodash 4.17.4 57779 (5th place is a 95-way tie at 57779 stars among lodash dependency-path packages)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "answer": "@dylanvann/svelte 3.25.4 73499; @dumc11/tailwindcss 0.4.0 73464; @dreampie/semantic-ui 2.2.11 51069; @dongls/pdfjs-dist 3.2.72 44231; @dman777/shadow-dom-quill-temp 1.0.0 42407"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "answer": "@dylanvann/svelte 3.25.4 73499; @dumc11/tailwindcss 0.4.0 73464; @dreampie/semantic-ui 2.2.11 51069; @dongls/pdfjs-dist 3.2.72 44231; @dman777/shadow-dom-quill-temp 1.0.0 42407"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "answer": "@dylanvann/svelte 3.25.4; @dumc11/tailwindcss 0.4.0; @dreampie/semantic-ui 2.2.11; @dongls/pdfjs-dist 3.2.72; @dman777/shadow-dom-quill-temp 1.0.0"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "answer": "@dylanvann/svelte 3.25.4 (73499 stars); @dumc11/tailwindcss 0.4.0 (73464 stars); @dreampie/semantic-ui 2.2.11 (51069 stars); @dongls/pdfjs-dist 3.2.72 (44231 stars); @dman777/shadow-dom-quill-temp 1.0.0 (42407 stars)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "answer": "mui-org/material-ui 30522; moment/moment 7201; semantic-org/semantic-ui 4955; react-native-elements/react-native-elements 4623; sveltejs/svelte 4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "answer": "mui-org/material-ui 30522; moment/moment 7201; semantic-org/semantic-ui 4955; react-native-elements/react-native-elements 4623; sveltejs/svelte 4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "answer": "mui-org/material-ui 30522; moment/moment 7201; semantic-org/semantic-ui 4955; react-native-elements/react-native-elements 4623; sveltejs/svelte 4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "answer": "mui-org/material-ui 30522; moment/moment 7201; semantic-org/semantic-ui 4955; react-native-elements/react-native-elements 4623; sveltejs/svelte 4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "answer": "mui-org/material-ui 30522; moment/moment 7201; semantic-org/semantic-ui 4955; react-native-elements/react-native-elements 4623; sveltejs/svelte 4091"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "0.1485148514851485 (15 of 101 README.md files in non-Python repositories contain copyright information)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "answer": "0.1485 (15 of 101 README.md files from non-Python repositories include copyright information; 15/101 = 0.148514851485…)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "answer": "0.148515 (15 of 101 README.md files from non-Python repositories include copyright information)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "answer": "0.1485 (15 of 101 README.md files from non-Python repositories contain copyright information)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "answer": "0.1485148514851485 (15 of 101 README.md files in non-Python repositories contain copyright information)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "uacaps/PageMenu"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "uacaps/PageMenu"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "uacaps/PageMenu"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "uacaps/PageMenu"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "uacaps/PageMenu"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react; tensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "answer": "apple/swift 1051; twbs/bootstrap 340; Microsoft/vscode 190; facebook/react 178; tensorflow/tensorflow 156"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "answer": "apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react; tensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "answer": "apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react; tensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "answer": "apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react; tensorflow/tensorflow"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "answer": "Astrocytoma 2.5712981411; Oligoastrocytoma 2.7135713052; Oligodendroglioma 2.6824579933"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "answer": "Astrocytoma 2.5712981411439024; Oligodendroglioma 2.6824579932944520; Oligoastrocytoma 2.7135713051934520"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "answer": "Astrocytoma 2.5713; Oligodendroglioma 2.6825; Oligoastrocytoma 2.7136 (full precision — Astrocytoma 2.571298141143903 [n=10], Oligodendroglioma 2.682457993294452 [n=8], Oligoastrocytoma 2.713571305193452 [n=5])."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "answer": "Astrocytoma 2.5713; Oligoastrocytoma 2.7136; Oligodendroglioma 2.6825 (full precision — Astrocytoma 2.5712981411439024, Oligoastrocytoma 2.713571305193452, Oligodendroglioma 2.682457993294452)"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "answer": "Astrocytoma 2.5713; Oligoastrocytoma 2.7136; Oligodendroglioma 2.6825 (full precision: Astrocytoma 2.5712981411, Oligoastrocytoma 2.7135713052, Oligodendroglioma 2.6824579933)"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "answer": "Infiltrating Lobular Carcinoma 50.56% (90/178); Mixed Histology (please specify) 16.67% (4/24); Other  specify 8.33% (3/36)"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "answer": "The top three histological types by percentage of CDH1 gene mutations among alive BRCA patients are: Infiltrating Lobular Carcinoma 50.56% (90/178); Mixed Histology (please specify) 16.67% (4/24); Other specify 8.33% (3/36)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "answer": "Infiltrating Lobular Carcinoma 50.5618% (90/178); Mixed Histology (please specify) 16.6667% (4/24); Other  specify 8.3333% (3/36)"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "answer": "The top three histological types by CDH1 mutation percentage among alive BRCA patients are: Infiltrating Lobular Carcinoma 50.56% (90/178); Mixed Histology (please specify) 16.67% (4/24); Other specify 8.33% (3/36)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "answer": "Infiltrating Lobular Carcinoma 50.5618%; Mixed Histology (please specify) 16.6667%; Other  specify 8.3333%"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "answer": "χ² = 305.123920 (≈ 305.12), degrees of freedom = 4"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "answer": "305.1239 (chi-square statistic ≈ 305.12, df = 4)"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "answer": "305.12"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "answer": "305.12392"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "answer": "305.123920 (chi-square statistic, dof = 4; computed over the 5 histological types remaining after excluding those with a marginal total ≤ 10 — Infiltrating Ductal Carcinoma, Infiltrating Lobular Carcinoma, Mixed Histology, Mucinous Carcinoma, Other specify — for female BRCA patients with known histology, CDH1 presence from reliable FILTER='PASS' mutation entries)"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G10L; G16B; G16C; G16H; G21F; H01M; H02B; H02G; H02J; H03H; H04K; H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G10L; G16B; G16C; G16H; G21F; H01M; H02B; H02G; H02J; H03H; H04K; H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G10L; G16B; G16C; G16H; G21F; H01M; H02B; H02G; H02J; H03H; H04K; H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G10L; G16B; G16C; G16H; G21F; H01M; H02B; H02G; H02J; H03H; H04K; H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "answer": "G06Q; H01M; G06T; G06V; H02J; G01S; G06N; B65G; A61P; G16H; G05D; C22C; B60L; G08G; G10L; B24B; E04B; E02D; B08B; G09F; A24F; H02G; A61H; E04G; B22F; B25B; A61G; G01L; F16M; C01G; F26B; H03H; H02B; E02B; B66F; E21D; G16B; B07B; B60P; A63H; A24D; E21F; F02K; E01H; G01H; A47F; C21B; B09C; E03B; B21J; A23P; F25J; B04B; G21F; C01D; C21C; B63C; G16C; A23J; B60D; B27M; F04F; B27C; A41G; B63G; B25D; A62D; B61H; A22B; H04K; H05F; D21B"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "answer": "A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE 2016; H04 ELECTRIC COMMUNICATION TECHNIQUE 2015; A21 BAKING; EDIBLE DOUGHS 2015; B23 MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR 2015; B29 WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL 2007; B41 PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS 2007; B60 VEHICLES IN GENERAL 2009; B62 LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS 2010; B63 SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT 2014; C09 DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR 2015; E02 HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING 2012; E05 LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES 2012; F02 COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS 2010; F16 ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL 2009; F23 COMBUSTION APPARATUS; COMBUSTION PROCESSES 2018; F24 HEATING; RANGES; VENTILATING 2018; F41 WEAPONS 2012; G01 MEASURING; TESTING 2008; G02 OPTICS 2016; G08 SIGNALLING 2017; H01 ELECTRIC ELEMENTS 2008; H02 GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER 2009; H03 ELECTRONIC CIRCUITRY 2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "answer": "MEDICAL OR VETERINARY SCIENCE; HYGIENE A61 2016; ELECTRIC COMMUNICATION TECHNIQUE H04 2015; BAKING; EDIBLE DOUGHS A21 2015; MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR B23 2015; WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL B29 2007; PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS B41 2007; VEHICLES IN GENERAL B60 2009; LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS B62 2010; SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT B63 2014; DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR C09 2015; HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING E02 2012; LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES E05 2012; COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS F02 2010; ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL F16 2009; COMBUSTION APPARATUS; COMBUSTION PROCESSES F23 2018; HEATING; RANGES; VENTILATING F24 2018; WEAPONS F41 2012; MEASURING; TESTING G01 2008; OPTICS G02 2016; SIGNALLING G08 2017; ELECTRIC ELEMENTS H01 2008; GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER H02 2009; ELECTRONIC CIRCUITRY H03 2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "answer": "MEDICAL OR VETERINARY SCIENCE; HYGIENE A61 2016; ELECTRIC COMMUNICATION TECHNIQUE H04 2015; BAKING; EDIBLE DOUGHS A21 2015; MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR B23 2015; WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL B29 2007; PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS B41 2007; VEHICLES IN GENERAL B60 2009; LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS B62 2010; SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT B63 2014; DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR C09 2015; HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING E02 2012; LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES E05 2012; COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS F02 2010; ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL F16 2009; COMBUSTION APPARATUS; COMBUSTION PROCESSES F23 2018; HEATING; RANGES; VENTILATING F24 2018; WEAPONS F41 2012; MEASURING; TESTING G01 2008; OPTICS G02 2016; SIGNALLING G08 2017; ELECTRIC ELEMENTS H01 2008; GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER H02 2009; ELECTRONIC CIRCUITRY H03 2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "answer": "A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE 2016; H04 ELECTRIC COMMUNICATION TECHNIQUE 2015; A21 BAKING; EDIBLE DOUGHS 2015; B23 MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR 2015; B29 WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL 2007; B41 PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS 2007; B60 VEHICLES IN GENERAL 2009; B62 LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS 2010; B63 SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT 2014; C09 DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR 2015; E02 HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING 2012; E05 LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES 2012; F02 COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS 2010; F16 ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL 2009; F23 COMBUSTION APPARATUS; COMBUSTION PROCESSES 2018; F24 HEATING; RANGES; VENTILATING 2018; F41 WEAPONS 2012; G01 MEASURING; TESTING 2008; G02 OPTICS 2016; G08 SIGNALLING 2017; H01 ELECTRIC ELEMENTS 2008; H02 GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER 2009; H03 ELECTRONIC CIRCUITRY 2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "answer": "MEDICAL OR VETERINARY SCIENCE; HYGIENE A61 2016; ELECTRIC COMMUNICATION TECHNIQUE H04 2015; BAKING; EDIBLE DOUGHS A21 2015; MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR B23 2015; WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL B29 2007; PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS B41 2007; VEHICLES IN GENERAL B60 2009; LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS B62 2010; SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT B63 2014; DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR C09 2015; HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING E02 2012; LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES E05 2012; COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS F02 2010; ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL F16 2009; COMBUSTION APPARATUS; COMBUSTION PROCESSES F23 2018; HEATING; RANGES; VENTILATING F24 2018; WEAPONS F41 2012; MEASURING; TESTING G01 2008; OPTICS G02 2016; SIGNALLING G08 2017; ELECTRIC ELEMENTS H01 2008; GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER H02 2009; ELECTRONIC CIRCUITRY H03 2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "answer": "BLOOM ENERGY CORP PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "answer": "BLOOM ENERGY CORP PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "answer": "BLOOM ENERGY CORP — PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC — SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J — SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "answer": "BLOOM ENERGY CORP PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "answer": "BLOOM ENERGY CORP PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "0.2072"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "0.1532 (17/111 ≈ 0.153153153315… of Amy Jones's 111 articles are Science/Technology)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "0.1712 (19 of 111 Amy Jones articles are Science/Technology, 19/111 = 0.17117117117117117)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "0.1892"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "0.2162 (24 of 111 articles by Amy Jones are Science/Technology; 24/111 = 0.21621621621621623)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "327.18 (average business articles per year in Europe, 2010–2020 inclusive; 3,599 total over 11 years — per-year counts 2010: 286, 2011: 338, 2012: 323, 2013: 337, 2014: 337, 2015: 322, 2016: 319, 2017: 364, 2018: 339, 2019: 321, 2020: 313)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "Cohort text saved. Now I'll build the deterministic keyword classifier (AG News-style 4-class scheme), informed by the sample above. Writing the classifier script:"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "336.91"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "336.18 (average business articles published per year in Europe from 2010 to 2020 inclusive; 3,698 total business articles over 11 years, ≈336 per year)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "322.27 (3,545 business articles in Europe across 2010–2020 inclusive ÷ 11 years = 322.2727272727...)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "Both extracts are ready. Now materialize the 2015 rows to a file for the Python join."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "Africa"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "Africa"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "Africa"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "Africa"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "Reunion: The Children of Lauderdale Park; The Prophet: With Original 1923 Illustrations by the Author; The Melancholy Strumpet Master; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Fire Cracker; Local Honey; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Knowing When To Die: Uncollected Stories; Childe Harold of Dysna; Forged in Blood (Freehold); Exits, Desires, & Slow Fires; Kennebago Moments; The Sludge; Liza of Lambeth; Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "Reunion: The Children of Lauderdale Park; The Prophet: With Original 1923 Illustrations by the Author; The Melancholy Strumpet Master; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Fire Cracker; Local Honey; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Knowing When To Die: Uncollected Stories; Childe Harold of Dysna; Forged in Blood (Freehold); Exits, Desires, & Slow Fires; Kennebago Moments; The Sludge; Liza of Lambeth; Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Childe Harold of Dysna; Exits, Desires, & Slow Fires; Fire Cracker; Forged in Blood (Freehold); Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Kennebago Moments; Knowing When To Die: Uncollected Stories; Liza of Lambeth; Local Honey; Reunion: The Children of Lauderdale Park; Something That Feels Like Truth (Switchgrass Books); The Melancholy Strumpet Master; The Prophet: With Original 1923 Illustrations by the Author; The Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "Reunion: The Children of Lauderdale Park; The Prophet: With Original 1923 Illustrations by the Author; The Melancholy Strumpet Master; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Fire Cracker; Local Honey; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Knowing When To Die: Uncollected Stories; Childe Harold of Dysna; Forged in Blood (Freehold); Exits, Desires, & Slow Fires; Kennebago Moments; The Sludge; Liza of Lambeth; Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "Reunion: The Children of Lauderdale Park; The Prophet: With Original 1923 Illustrations by the Author; The Melancholy Strumpet Master; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Fire Cracker; Local Honey; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Knowing When To Die: Uncollected Stories; Childe Harold of Dysna; Forged in Blood (Freehold); Exits, Desires, & Slow Fires; Kennebago Moments; The Sludge; Liza of Lambeth; Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8 (8)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8 (8)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8 (8)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8 (8)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "Monstrous Stories #4: The Day the Mice Stood Still; The Old Man and the Pirate Princess; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians); The Library Book; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8 (8)"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "Authority; Timeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "No — the lead cannot be qualified; failing BANT factors: Budget; Authority; Timeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "No — the lead cannot be qualified; failing BANT factors: Budget; Authority; Timeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "Budget; Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "No — the lead cannot be qualified; failing BANT factors: Budget; Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "ka0Wt000000EpSUIA0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "ka0Wt000000EpSUIA0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "Widows Peak Salon 4.857142857142857; City Textile 4.5; Nobel Textile Co 4.285714285714286; San Soo Dang 4.277777777777778; Nova Fabrics 3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "Widows Peak Salon 4.857142857142857; City Textile 4.5; Nobel Textile Co 4.285714285714286; San Soo Dang 4.277777777777778; Nova Fabrics 3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "Widows Peak Salon 4.857142857142857; City Textile 4.5; Nobel Textile Co 4.285714285714286; San Soo Dang 4.277777777777778; Nova Fabrics 3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "Widows Peak Salon 4.857142857142857; City Textile 4.5; Nobel Textile Co 4.285714285714286; San Soo Dang 4.277777777777778; Nova Fabrics 3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "Widows Peak Salon 4.857142857142857; City Textile 4.5; Nobel Textile Co 4.285714285714286; San Soo Dang 4.277777777777778; Nova Fabrics 3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "Elite Massage 5.0; Angel-A Massage 4.333333333333333; Aurora Massage 4.178571428571429; J B Oriental Inc 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "Elite Massage 5.0; Angel-A Massage 4.333333333333333; Aurora Massage 4.178571428571429; J B Oriental Inc 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "Elite Massage 5.0; Angel-A Massage 4.333333333333333; Aurora Massage 4.178571428571429; J B Oriental Inc 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "Elite Massage 5.0; Angel-A Massage 4.333333333333333; Aurora Massage 4.178571428571429; J B Oriental Inc 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "Elite Massage 5.0; Angel-A Massage 4.333333333333333; Aurora Massage 4.178571428571429; J B Oriental Inc 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "Taba Rug Gallery, Mon–Sat 10AM–7PM Sun 11AM–6PM, 5.0; Beauty Divine Artistry, Mon–Fri 9AM–8PM Sat 10AM–7PM Sun 11AM–6PM, 5.0; Mariscos el poblano, Mon 9AM–3:30AM Tue–Wed 8AM–3:30PM Thu Open 24 hours Fri–Sun 8AM–3:30PM, 5.0; TACOS LA CABANA, Mon 5–11PM Tue–Thu Closed Fri–Sun 5–11PM, 5.0; White Barn Candle Co, Mon–Sat 10AM–9PM Sun 11AM–7PM, 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "Taba Rug Gallery (Mon–Sat 10AM–7PM, Sun 11AM–6PM) 5.0; Beauty Divine Artistry (Mon–Fri 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM) 5.0; Mariscos el poblano (Thu Open 24 hours, Mon 9AM–3:30AM, Tue/Wed/Fri/Sat/Sun 8AM–3:30PM) 5.0; TACOS LA CABANA (Mon/Fri/Sat/Sun 5–11PM, Tue–Thu Closed) 5.0; White Barn Candle Co (Mon–Sat 10AM–9PM, Sun 11AM–7PM) 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "Taba Rug Gallery (Mon–Sat 10AM–7PM; Sun 11AM–6PM) 5.0; Beauty Divine Artistry (Mon–Fri 9AM–8PM; Sat 10AM–7PM; Sun 11AM–6PM) 5.0; Mariscos el poblano (Mon 9AM–3:30AM; Tue–Wed 8AM–3:30PM; Thu Open 24 hours; Fri–Sun 8AM–3:30PM) 5.0; White Barn Candle Co (Mon–Sat 10AM–9PM; Sun 11AM–7PM) 5.0; TACOS LA CABANA (Mon 5–11PM; Tue–Thu Closed; Fri–Sun 5–11PM) 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "Taba Rug Gallery, Mon–Sat 10AM–7PM Sun 11AM–6PM, 5.0; Beauty Divine Artistry, Mon–Fri 9AM–8PM Sat 10AM–7PM Sun 11AM–6PM, 5.0; Mariscos el poblano, Mon 9AM–3:30AM Tue–Wed 8AM–3:30PM Thu Open 24 hours Fri–Sun 8AM–3:30PM, 5.0; White Barn Candle Co, Mon–Sat 10AM–9PM Sun 11AM–7PM, 5.0; TACOS LA CABANA, Mon 5–11PM Tue–Thu Closed Fri–Sun 5–11PM, 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "Taba Rug Gallery (Mon–Sat 10AM–7PM, Sun 11AM–6PM) 5.0; Beauty Divine Artistry (Mon–Fri 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM) 5.0; Mariscos el poblano (Mon 9AM–3:30AM, Tue–Wed 8AM–3:30PM, Thu Open 24 hours, Fri–Sun 8AM–3:30PM) 5.0; White Barn Candle Co (Mon–Sat 10AM–9PM, Sun 11AM–7PM) 5.0; TACOS LA CABANA (Mon 5–11PM, Tue–Thu Closed, Fri–Sun 5–11PM) 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD 19; The Boochyard @ Local Roots 17; Aurora Massage 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD 19; The Boochyard @ Local Roots 17; Aurora Massage 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD 19; The Boochyard @ Local Roots 17; Aurora Massage 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD 19; The Boochyard @ Local Roots 17; Aurora Massage 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD 19; The Boochyard @ Local Roots 17; Aurora Massage 14"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "Amazon Music 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "Amazon Music 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "Amazon Music 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "Amazon Music 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "Amazon Music 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "Zo gaat het leven aan je voor by Syb van der Ploeg — total revenue 9013.69 USD"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "Zo gaat het leven aan je voor by Syb van der Ploeg — total revenue 9013.69 USD"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "Zo gaat het leven aan je voor by Syb van der Ploeg — total revenue 9013.69 USD (track_ids 3024, 13225, 12620, 12854, 3435)"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "Zo gaat het leven aan je voor by Syb van der Ploeg, total revenue 9013.69 USD"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "Zo gaat het leven aan je voor by Syb van der Ploeg — total revenue 9013.69 USD (duplicate track_ids 3024, 13225, 12620, 12854, 3435)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "399001.SZ (Shenzhen Component Index, Shenzhen Stock Exchange) with an average intraday volatility of 0.01834068808057066 (~1.83% per day) since 2020"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "399001.SZ (Shenzhen Stock Exchange index) with average intraday volatility 0.01834068808057066 since 2020"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "399001.SZ (Shenzhen Component Index, Shenzhen Stock Exchange, China) — average intraday volatility 0.01834068808057066 (~1.83%) since 2020"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "399001.SZ (Shenzhen Stock Exchange, Shenzhen Component Index) with average intraday volatility 0.01834068808057066 since 2020"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "399001.SZ (Shenzhen Component Index, Shenzhen Stock Exchange) with average intraday volatility 0.01834068808057066"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "IXIC (NASDAQ Composite, NASDAQ exchange) — 131 up days vs 120 down days in 2018; it is the only North American index with more up days than down days (NYA: 125 up vs 126 down; GSPTSE: 115 up vs 135 down)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "IXIC (131 up days vs 120 down days in 2018 — the only North American index with more up days than down days; NYA had 125 up vs 126 down, GSPTSE had 115 up vs 135 down)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "IXIC United States 382.69%; NSEI India 135.84%; 399001.SZ China 134.75%; GDAXI Germany 134.70%; TWII Taiwan 129.82%"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "IXIC United States 3.826943154204197; NSEI India 1.3584273445798676; 399001.SZ China 1.3474636718846291; GDAXI Germany 1.3470287159082752; TWII Taiwan 1.2982003158446518"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "IXIC United States 382.69%; NSEI India 135.84%; 399001.SZ China 134.75%; GDAXI Germany 134.70%; TWII Taiwan 129.82%"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "IXIC United States 3.8269 (+382.69%); NSEI India 1.3584 (+135.84%); 399001.SZ China 1.3475 (+134.75%); GDAXI Germany 1.3470 (+134.70%); TWII Taiwan 1.2982 (+129.82%)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "IXIC (NASDAQ Composite) United States 3.8269; NSEI (Nifty 50) India 1.3584; 399001.SZ (SZSE Component) China 1.3475; GDAXI (DAX) Germany 1.3470; TWII (TAIEX) Taiwan 1.2982"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG — total 31 ETFs"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG — total number of such ETFs: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG — total number of such ETFs: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "UVXY; GUSH; COM; RTL; JDST; HYUP; SOXS; VPC; DUST; LBJ; PTIN; GFIN; ERX; LABD; VIXY; BZQ; JNUG; SDOW; BOIL; YANG; EDZ; FAZ; XES; TZA; SSG; MDY; TECS; LABU; XOP; FXP; JPN — total 31 ETFs"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG — total number of such ETFs: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "Apex Global Brands Inc. 23781.422924901184; BIO-key International, Inc. 10988.142292490118; CBAK Energy Technology, Inc. 86223.32015810277; China Ceramics Co., Ltd. 4366.798418972332; Correvio Pharma Corp. 145247.8260869565; CounterPath Corporation 375.49407114624506; DASAN Zhone Solutions, Inc. 15578.656126482214; Frontier Communications Corporation 254397.62845849802; Future FinTech Group Inc. 9.845238095238095; Ideanomics, Inc. 10.276679841897232; Ocean Power Technologies, Inc. 254.1501976284585; Pacific Ethanol, Inc. 10706.719367588932; Sunesis Pharmaceuticals, Inc. 781.8181818181819; Synthesis Energy Systems, Inc. 2390.513833992095; Sypris Solutions, Inc. 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "Apex Global Brands Inc. 23781.422924901184; BIO-key International, Inc. 10988.142292490118; CBAK Energy Technology, Inc. 86223.32015810277; China Ceramics Co., Ltd. 4366.798418972332; Correvio Pharma Corp. 145247.8260869565; CounterPath Corporation 375.49407114624506; DASAN Zhone Solutions, Inc. 15578.656126482214; Frontier Communications Corporation 254397.62845849802; Future FinTech Group Inc. 9.845238095238095; Ideanomics, Inc. 10.276679841897232; Ocean Power Technologies, Inc. 254.1501976284585; Pacific Ethanol, Inc. 10706.719367588932; Sunesis Pharmaceuticals, Inc. 781.8181818181819; Synthesis Energy Systems, Inc. 2390.513833992095; Sypris Solutions, Inc. 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "Apex Global Brands Inc. 23781.422924901184; BIO-key International, Inc. 10988.142292490118; CBAK Energy Technology, Inc. 86223.32015810277; China Ceramics Co., Ltd. 4366.798418972332; Correvio Pharma Corp. 145247.8260869565; CounterPath Corporation 375.49407114624506; DASAN Zhone Solutions, Inc. 15578.656126482214; Frontier Communications Corporation 254397.62845849802; Future FinTech Group Inc. 9.845238095238095; Ideanomics, Inc. 10.276679841897232; Ocean Power Technologies, Inc. 254.1501976284585; Pacific Ethanol, Inc. 10706.719367588932; Sunesis Pharmaceuticals, Inc. 781.8181818181819; Synthesis Energy Systems, Inc. 2390.513833992095; Sypris Solutions, Inc. 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "Apex Global Brands Inc. 23781.422924901184; BIO-key International, Inc. 10988.142292490118; CBAK Energy Technology, Inc. 86223.32015810277; China Ceramics Co., Ltd. 4366.798418972332; Correvio Pharma Corp. 145247.8260869565; CounterPath Corporation 375.49407114624506; DASAN Zhone Solutions, Inc. 15578.656126482214; Frontier Communications Corporation 254397.62845849802; Future FinTech Group Inc. 9.845238095238095; Ideanomics, Inc. 10.276679841897232; Ocean Power Technologies, Inc. 254.1501976284585; Pacific Ethanol, Inc. 10706.719367588932; Sunesis Pharmaceuticals, Inc. 781.8181818181819; Synthesis Energy Systems, Inc. 2390.513833992095; Sypris Solutions, Inc. 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "Frontier Communications Corporation 254397.62845849802; Correvio Pharma Corp. 145247.8260869565; CBAK Energy Technology, Inc. 86223.32015810277; Sypris Solutions, Inc. 36836.36363636364; Apex Global Brands Inc. 23781.422924901184; DASAN Zhone Solutions, Inc. 15578.656126482214; BIO-key International, Inc. 10988.142292490118; Pacific Ethanol, Inc. 10706.719367588932; China Ceramics Co., Ltd. 4366.798418972332; Synthesis Energy Systems, Inc. 2390.513833992095; Sunesis Pharmaceuticals, Inc. 781.8181818181819; CounterPath Corporation 375.49407114624506; Ocean Power Technologies, Inc. 254.1501976284585; Ideanomics, Inc. 10.276679841897232; Future FinTech Group Inc. 9.845238095238095"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "MFA Financial, Inc.; Argo Group International Holdings, Ltd.; HDFC Bank Limited; Albany International Corporation; DTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "MFA Financial, Inc.; Argo Group International Holdings, Ltd.; HDFC Bank Limited; Albany International Corporation; DTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "MFA Financial, Inc.; Argo Group International Holdings, Ltd.; HDFC Bank Limited; Albany International Corporation; DTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "MFA Financial, Inc.; Argo Group International Holdings, Ltd.; HDFC Bank Limited; Albany International Corporation; DTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "MFA Financial, Inc.; Argo Group International Holdings, Ltd.; HDFC Bank Limited; Albany International Corporation; DTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "Synthesis Energy Systems, Inc. 51; TD Holdings, Inc. 42; TMSR Holding Company Limited 40; Verb Technology Company, Inc. 38; Sunesis Pharmaceuticals, Inc. 32"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "Synthesis Energy Systems, Inc. 51; TD Holdings, Inc. 42; TMSR Holding Company Limited 40; Verb Technology Company, Inc. 38; Sunesis Pharmaceuticals, Inc. 32"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "Synthesis Energy Systems, Inc. 51; TD Holdings, Inc. 42; TMSR Holding Company Limited 40; Verb Technology Company, Inc. 38; Sunesis Pharmaceuticals, Inc. 32"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "Synthesis Energy Systems, Inc. 51; TD Holdings, Inc. 42; TMSR Holding Company Limited 40; Verb Technology Company, Inc. 38; Sunesis Pharmaceuticals, Inc. 32"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "Pennsylvania PA, highest number of reviews 662, average rating 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "PA Pennsylvania, 662 reviews, average rating 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "Pennsylvania (PA), with 662 reviews; average rating 3.699395770392749 (≈ 3.70)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "PA (Pennsylvania), with 662 reviews; average rating of businesses in PA = 3.699395770392749 (≈3.70)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "PA (Pennsylvania) — 662 reviews; average rating 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "Restaurants (27 credit-card-accepting businesses), average rating 3.633676092544987 (≈3.63)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "Restaurants 3.633676092544987"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "Restaurants (27 credit-card-accepting businesses), average rating 3.633676092544987 (≈3.63)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "Restaurants, with 27 credit-card-accepting businesses, average rating 3.633676092544987 (~3.63)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "Restaurants (27 businesses accepting credit cards), average rating 3.633676092544987"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "PA 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "Pennsylvania (PA) with 8 businesses offering WiFi; average rating 3.4839857651245554 (≈ 3.48)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "Pennsylvania (PA), with 8 businesses offering WiFi; average rating 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "PA (Pennsylvania), with 8 businesses offering WiFi; average rating for those businesses = 3.4839857651245554 (≈3.48)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "PA (Pennsylvania) with 8 businesses offering WiFi; average rating 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "Coffee House Too Cafe (highest average rating 4.375 from 16 reviews between 2016-01-01 and 2016-06-30); category: Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "Coffee House Too Cafe (businessid_9) with an average rating of 4.375 (16 reviews between 2016-01-01 and 2016-06-30); its categories are Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "Coffee House Too Cafe (average rating 4.375 from 16 reviews between 2016-01-01 and 2016-06-30); categories: Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "Coffee House Too Cafe (average rating 4.375 from 16 reviews, Jan 1–Jun 30 2016); category: Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "Coffee House Too Cafe (businessid_9) received the highest average rating of 4.375 (16 reviews between 2016-01-01 and 2016-06-30); its categories are Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "Restaurants 58; Food 38; American (New) 24; Shopping 20; Breakfast & Brunch 19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "Restaurants 58; Food 38; American (New) 24; Shopping 20; Breakfast & Brunch 19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "Restaurants 58; Food 38; American (New) 24; Shopping 20; Breakfast & Brunch 19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "Restaurants 58; Food 38; American (New) 24; Shopping 20; Breakfast & Brunch 19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "Restaurants 58; Food 38; American (New) 24; Shopping 20; Breakfast & Brunch 19"
+  }
+]
