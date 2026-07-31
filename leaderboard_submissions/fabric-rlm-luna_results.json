@@ -1,0 +1,1622 @@
+[
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "1",
+  "answer": "The top five latest-release NPM packages are @dmrvos/infrajs>0.0.5>typescript: version 2.6.2, GitHub stars 94931.0; @dmrvos/infrajs>0.0.6>typescript: version 2.6.2, GitHub stars 94931.0; @dylanvann/svelte: version 3.25.4, GitHub stars 73499.0; @dumc11/tailwindcss: version 0.4.0, GitHub stars 73464.0; @dollarshaveclub/cli>1.0.0>lodash: version 4.17.4, GitHub stars 57779.0. The two analyst responses are identical, so neither is a losing answer."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "2",
+  "answer": "The top five NPM packages are @dylanvann/svelte: version 3.25.4, GitHub stars 73499.0; @dumc11/tailwindcss: version 0.4.0, GitHub stars 73464.0; @dman777/shadow-dom-quill-temp: version 1.0.0, GitHub stars 42407.0; @dothq/styled-components: version 1.0.0, GitHub stars 39660.0; and @dynasty/styled-components: version 3.2.1, GitHub stars 39660.0. Analyst 1 was wrong because it counted greater-than-delimited dependency paths as distinct NPM packages."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "3",
+  "answer": "The top five NPM packages are @dmrvos/infrajs>0.0.5>typescript: 2.6.2 (GitHub stars: 94931.0); @dmrvos/infrajs>0.0.6>typescript: 2.6.2 (GitHub stars: 94931.0); @dylanvann/svelte: 3.25.4 (GitHub stars: 73499.0); @dumc11/tailwindcss: 0.4.0 (GitHub stars: 73464.0); and @dollarshaveclub/cli>1.0.0>lodash: 4.17.4 (GitHub stars: 57779.0). Analyst 2 was wrong because it excluded distinct NPM names containing '>' rather than using the stored NPM package names."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "4",
+  "answer": "The top five latest-release NPM packages by GitHub stars are @dmrvos/infrajs>0.0.5>typescript: version 2.6.2, 94931.0 GitHub stars; @dmrvos/infrajs>0.0.6>typescript: version 2.6.2, 94931.0 GitHub stars; @dylanvann/svelte: version 3.25.4, 73499.0 GitHub stars; @dumc11/tailwindcss: version 0.4.0, 73464.0 GitHub stars; and @dollarshaveclub/cli>1.0.0>lodash: version 4.17.4, 57779.0 GitHub stars. There is no losing analyst answer because both supplied answers are identical."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "1",
+  "run": "5",
+  "answer": "Top 5 NPM packages by GitHub stars are @dmrvos/infrajs>0.0.5>typescript: 2.6.2 (94931.0 GitHub stars); @dmrvos/infrajs>0.0.6>typescript: 2.6.2 (94931.0 GitHub stars); @dylanvann/svelte: 3.25.4 (73499.0 GitHub stars); @dumc11/tailwindcss: 0.4.0 (73464.0 GitHub stars); and fifth-place tied at 57779.0 GitHub stars, @dollarshaveclub/cli>1.0.0>lodash: 4.17.4 and @dpoineau/react-scripts>1.0.0>lodash._basefor: 3.0.3. The analysts disagreed only because a strict five-row cutoff arbitrarily breaks this fifth-place tie."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "1",
+  "answer": "The five projects with the highest GitHub fork counts are mui-org/material-ui: 30522.0 forks; moment/moment: 7201.0 forks; semantic-org/semantic-ui: 4955.0 forks; react-native-elements/react-native-elements: 4623.0 forks; sveltejs/svelte: 4091.0 forks. Analyst 2 was wrong because it omitted moment/moment and semantic-org/semantic-ui, which rank above its tailwindcss/tailwindcss and react-native-community/react-native-webview."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "2",
+  "answer": "The five projects with the highest GitHub fork counts are mui-org/material-ui: 30522.0 forks; moment/moment: 7201.0 forks; semantic-org/semantic-ui: 4955.0 forks; react-native-elements/react-native-elements: 4623.0 forks; and sveltejs/svelte: 4091.0 forks. Analyst 1 was wrong because moment/moment has 7201.0 forks, exceeding tailwindcss/tailwindcss's 3848.0 forks."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "3",
+  "answer": "The 5 projects with the highest GitHub fork counts are mui-org/material-ui: 30522.0 forks; moment/moment: 7201.0 forks; semantic-org/semantic-ui: 4955.0 forks; react-native-elements/react-native-elements: 4623.0 forks; sveltejs/svelte: 4091.0 forks. Analyst 2 was wrong because moment/moment satisfies the MIT project-license and release filters and ranks above tailwindcss/tailwindcss."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "4",
+  "answer": "The 5 projects with the highest GitHub fork counts are mui-org/material-ui: 30522.0 forks; moment/moment: 7201.0 forks; semantic-org/semantic-ui: 4955.0 forks; react-native-elements/react-native-elements: 4623.0 forks; sveltejs/svelte: 4091.0 forks. The result placing lodash/lodash in third was wrong because it filtered the package license but omitted the required MIT license filter on the project record."
+ },
+ {
+  "dataset": "DEPS_DEV_V1",
+  "query": "2",
+  "run": "5",
+  "answer": "The 5 projects with the highest GitHub fork counts are mui-org/material-ui: 30522.0 forks; moment/moment: 7201.0 forks; lodash/lodash: 7109.0 forks; semantic-org/semantic-ui: 4955.0 forks; react-native-elements/react-native-elements: 4623.0 forks. Analyst 1 was wrong because it omitted sortablejs/vue.draggable: 2890.0 forks, which ranks above styled-components: 2513.0 forks."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "1",
+  "answer": "The proportion is 0 (0.0 of 0.0 README.md files). Analyst 2 was wrong because its filter produced an empty denominator (0.0/0.0) instead of counting the eligible README.md files."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "2",
+  "answer": "The proportion is 0.1523809523809524 (16.0 of 105.0 root README.md files, or 15.2380952380952390%). Analyst 2 was wrong because its join or filter eliminated all README rows, producing an invalid 0.0/0.0 denominator."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "3",
+  "answer": "18.1818181818182% (18.0 of 99.0; proportion 0.18181818181818182). Analyst 2 was wrong because it treated repositories with missing language metadata as non-Python, using 111.0 instead of the 101.0 established non-Python README repositories."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "4",
+  "answer": "The proportion is 0.14782608695652174 (17.0 of 115.0 non-Python README.md files; 14.782608695652174%). Analyst 2's 0.1125 was wrong because it counted the broader 160.0-file set without excluding repositories that use Python."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "1",
+  "run": "5",
+  "answer": "The proportion is 0.1478260869565217391304347826 (17.0 of 115.0 non-Python README.md files). Analyst 2 was wrong because its additional files-to-contents ID join discarded valid README content rows."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "1",
+  "answer": "SwiftAndroid/swift"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "2",
+  "answer": "SwiftAndroid/swift: 23.0 copies. uacaps/PageMenu was wrong because it has no matching Swift file row in artifacts_database.files; the winning file is uniquely identified by ID 71a17ce92451858f3eb01aa8082551e48bc5550d."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "3",
+  "answer": "uacaps/PageMenu: 38.0 copies. The losing answer selected a lower-frequency file; its maximum was 23.0 copies."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "4",
+  "answer": "SwiftAndroid/swift: 23.0 copies; file ID 71a17ce92451858f3eb01aa8082551e48bc5550d. Analyst 1 was incomplete because it named the repository but did not uniquely identify the file or state its copy count."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "2",
+  "run": "5",
+  "answer": "uacaps/PageMenu"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "1",
+  "answer": "1077.0"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "2",
+  "answer": "1077.0"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "3",
+  "answer": "Commit messages: 1077.0."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "4",
+  "answer": "1077.0 commit messages"
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "3",
+  "run": "5",
+  "answer": "The number of commit messages is 1077.0."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "1",
+  "answer": "The top five repositories are apple/swift (1051.0 commits), twbs/bootstrap (340.0 commits), Microsoft/vscode (190.0 commits), facebook/react (178.0 commits), and tensorflow/tensorflow (156.0 commits), in descending order. Analyst 1 was wrong because it counted Microsoft/vscode twice instead of including the fifth distinct qualifying repository, tensorflow/tensorflow."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "2",
+  "answer": "The top five are torvalds/linux (16061.0 commits), apple/swift (1051.0 commits), twbs/bootstrap (340.0 commits), Microsoft/vscode (190.0 commits), and facebook/react (178.0 commits), in descending commit-count order. Analyst 1 was wrong because it excluded torvalds/linux even though its main language is C, not Python, and therefore included tensorflow/tensorflow instead."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "3",
+  "answer": "The top five are apple/swift: 1051.0 commits; twbs/bootstrap: 340.0 commits; Microsoft/vscode: 190.0 commits; facebook/react: 178.0 commits; tensorflow/tensorflow: 156.0 commits. Analyst 1 was incomplete rather than substantively different because it omitted the commit totals and the unclassified-repository treatment."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "4",
+  "answer": "The top five repositories are apple/swift (1051.0 commits), twbs/bootstrap (340.0 commits), Microsoft/vscode (190.0 commits), facebook/react (178.0 commits), and tensorflow/tensorflow (156.0 commits). Analyst 1 was wrong because it duplicated Microsoft/vscode and omitted tensorflow/tensorflow instead of ranking five distinct repositories by aggregated commit counts."
+ },
+ {
+  "dataset": "GITHUB_REPOS",
+  "query": "4",
+  "run": "5",
+  "answer": "In descending commit-count order: apple/swift, twbs/bootstrap, Microsoft/vscode, facebook/react, tensorflow/tensorflow."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "1",
+  "answer": "Astrocytoma: 2.571298141143903; Oligoastrocytoma: 2.713571305193452; Oligodendroglioma: 2.682457993294452. There is no substantive losing answer: Analyst 2's four-decimal values are the correctly rounded versions of Analyst 1's values."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "2",
+  "answer": "Astrocytoma: 2.5712981411; Oligoastrocytoma: 2.7135713052; Oligodendroglioma: 2.6824579933. Analyst 1 was the same result rounded more heavily, so Analyst 2 is preferred for the requested precision."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "3",
+  "answer": "Astrocytoma: 2.571298141143903; Oligoastrocytoma: 2.713571305193452; Oligodendroglioma: 2.682457993294452. Analyst 1 was less precise because it rounded the results to ten decimal places, whereas Analyst 2 retained full precision."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "4",
+  "answer": "Astrocytoma: 2.5712981411; Oligoastrocytoma: 2.7135713052; Oligodendroglioma: 2.6824579933. Analyst 1 was the losing answer because it reported lower-precision rounded means rather than the more precise recomputed values."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "1",
+  "run": "5",
+  "answer": "For LGG patients, the average log10-transformed IGF2 expression is Astrocytoma: 2.5712981411; Oligoastrocytoma: 2.7135713052; Oligodendroglioma: 2.6824579933. The apparent losing answer was not substantively wrong; it reported the same values rounded to fewer decimal places."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "1",
+  "answer": "Among alive BRCA patients, the top three histological types by CDH1 mutation percentage are Infiltrating Lobular Carcinoma: 50.561797752808985%; Mixed Histology (please specify): 16.666666666666668%; and Other specify: 8.333333333333334%. Analyst 2 was wrong because it excluded eligible clinical records and used inconsistent denominators instead of calculating mutations over all alive BRCA patients within each histological type."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "2",
+  "answer": "The top three histological types are Infiltrating Ductal Carcinoma: 0.0%. Analyst 2 was wrong because it used a narrower mutation/alive join and excluded eligible living BRCA patients from the denominators."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "3",
+  "answer": "The top three histological types are Infiltrating Lobular Carcinoma: 50.561797752808985% (90.0 of 178.0 patients); Mixed Histology (please specify): 16.666666666666668% (4.0 of 24.0 patients); Other  specify: 8.333333333333334% (3.0 of 36.0 patients). The other response was not numerically different, but it was incomplete because it omitted the supporting patient counts."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "4",
+  "answer": "The top three histological types by CDH1 mutation percentage are Infiltrating Lobular Carcinoma: 50.56% (unrounded: 50.56179775280898876404494382022471910112%); Mixed Histology (please specify): 16.67% (unrounded: 16.66666666666666666666666666666666666667%); and Other specify: 8.33% (unrounded: 8.333333333333333333333333333333333333333%). Analyst 2 was wrong only in the last displayed digits: those are binary floating-point artifacts, whereas the underlying count ratios produce the decimal values above."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "2",
+  "run": "5",
+  "answer": "The top three histological types are Infiltrating Lobular Carcinoma: 50.561797752808985%; Mixed Histology (please specify): 16.666666666666668%; and Other  specify: 8.333333333333334%. There is no substantive losing answer: Analyst 2's rounded values, with the exact values in parentheses, match Analyst 1's results."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "1",
+  "answer": "Chi-square statistic: 305.12391980074597. Analyst 1 was wrong because its terminal digit was an over-precise formatting artifact; the correctly rounded re-derived result is 305.12391980074597."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "2",
+  "answer": "The chi-square statistic is 305.123919800746023 (df = 4.0). Analyst 2's 305.123919800746 is only a truncated presentation of the same result, so it is not the requested unrounded value."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "3",
+  "answer": "Chi-square statistic: 305.12391980074605215870170470536785177679920675127, with 4.0 degrees of freedom from 1059.0 retained patients. Analyst 1 was incomplete because it omitted the degrees of freedom and retained-patient count, although its rounded statistic was numerically equivalent."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "4",
+  "answer": "The chi-square statistic is 305.123919800746052158701704705367851776799206751274090816587. Analyst 1 was wrong because its result incurred floating-point precision loss; the exact calculation after excluding marginal totals less than or equal to 10 gives the value above."
+ },
+ {
+  "dataset": "PANCANCER_ATLAS",
+  "query": "3",
+  "run": "5",
+  "answer": "Chi-square statistic: 305.123919800746 (N: 1059.0; degrees of freedom: 4.0). Analyst 2's value is only the rounded representation of the same statistic, so it is not substantively different."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "1",
+  "answer": "A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F. Analyst 1 was wrong because it failed to parse and normalize the JSON-encoded primary CPC codes before matching them to level-5 definitions."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "2",
+  "answer": "A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "3",
+  "answer": "A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F. Analyst 2 was wrong because an erroneous filter or join dropped all valid level-5 groups."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "4",
+  "answer": "A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F. The losing answer was wrong because it did not consistently apply the primary first=true CPC filter, one-count-per-patent deduplication, and zero-filled filing-year EMA."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "1",
+  "run": "5",
+  "answer": "A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F"
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "1",
+  "answer": "The highest-EMA CPC level-4 technology areas by filing year are:\n2007.0: B29 — WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL; best year 2007.0; EMA 1.0 | B41 — PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS; best year 2007.0; EMA 1.0\n2008.0: G01 — MEASURING; TESTING; best year 2008.0; EMA 1.0 | H01 — ELECTRIC ELEMENTS; best year 2008.0; EMA 1.0\n2009.0: B60 — VEHICLES IN GENERAL; best year 2009.0; EMA 1.0 | F16 — ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL; best year 2009.0; EMA 1.0 | H02 — GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER; best year 2009.0; EMA 1.0\n2010.0: B62 — LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS; best year 2010.0; EMA 1.0 | F02 — COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS; best year 2010.0; EMA 1.0\n2011.0: F02 — COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS; best year 2010.0; EMA 1.0\n2012.0: E02 — HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING; best year 2012.0; EMA 1.0 | E05 — LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES; best year 2012.0; EMA 1.0 | F41 — WEAPONS; best year 2012.0; EMA 1.0\n2013.0: F02 — COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS; best year 2010.0; EMA 0.810\n2014.0: B63 — SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT; best year 2014.0; EMA 1.0\n2015.0: H04 — ELECTRIC COMMUNICATION TECHNIQUE; best year 2015.0; EMA 2.0\n2016.0: A61 — MEDICAL OR VETERINARY SCIENCE; HYGIENE; best year 2016.0; EMA 2.0\n2017.0: G08 — SIGNALLING; best year 2017.0; EMA 1.0\n2018.0: F23 — COMBUSTION APPARATUS; COMBUSTION PROCESSES; best year 2018.0; EMA 1.0 | F24 — HEATING; RANGES; VENTILATING; best year 2018.0; EMA 1.0\nAnalyst 1 reported only the global peak, while Analyst 2 ranked raw yearly counts rather than EMA and missed tied leaders and the two-patent H04/A61 peaks."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "2",
+  "answer": "The highest exponential moving average is 1.0, tied by 18 CPC level-4 areas: MEDICAL OR VETERINARY SCIENCE; HYGIENE — CPC group code A61 — best year 2016.0 — EMA 1.0; MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR — CPC group code B23 — best year 2015.0 — EMA 1.0; WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL — CPC group code B29 — best year 2007.0 — EMA 1.0; PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS — CPC group code B41 — best year 2007.0 — EMA 1.0; VEHICLES IN GENERAL — CPC group code B60 — best year 2013.0 — EMA 1.0; SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT — CPC group code B63 — best year 2014.0 — EMA 1.0; DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR — CPC group code C09 — best year 2015.0 — EMA 1.0; HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING — CPC group code E02 — best year 2012.0 — EMA 1.0; LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES — CPC group code E05 — best year 2012.0 — EMA 1.0; COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS — CPC group code F02 — best year 2010.0 — EMA 1.0; ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL — CPC group code F16 — best year 2009.0 — EMA 1.0; COMBUSTION APPARATUS; COMBUSTION PROCESSES — CPC group code F23 — best year 2018.0 — EMA 1.0; HEATING; RANGES; VENTILATING — CPC group code F24 — best year 2018.0 — EMA 1.0; WEAPONS — CPC group code F41 — best year 2012.0 — EMA 1.0; OPTICS — CPC group code G02 — best year 2016.0 — EMA 1.0; SIGNALLING — CPC group code G08 — best year 2017.0 — EMA 1.0; ELECTRIC ELEMENTS — CPC group code H01 — best year 2008.0 — EMA 1.0; ELECTRIC COMMUNICATION TECHNIQUE — CPC group code H04 — best year 2015.0 — EMA 1.0. The analysts' 2.0 result was wrong because it counted duplicate CPC entries instead of counting each patent once per CPC group."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "3",
+  "answer": "For German patents granted in July–December 2019, the level-4 CPC technology areas tied for the highest yearly EMA are: MEDICAL OR VETERINARY SCIENCE; HYGIENE — CPC group code A61; best year 2016.0; annual leader year(s) 2016.0; highest EMA 1.0; MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR — CPC group code B23; best year 2015.0; annual leader year(s) 2015.0; highest EMA 1.0; WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL — CPC group code B29; best year 2007.0; annual leader year(s) 2007.0; highest EMA 1.0; PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS — CPC group code B41; best year 2007.0; annual leader year(s) 2007.0; highest EMA 1.0; VEHICLES IN GENERAL — CPC group code B60; best year 2013.0; annual leader year(s) 2013.0; highest EMA 1.0; SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT — CPC group code B63; best year 2014.0; annual leader year(s) 2014.0; highest EMA 1.0; DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR — CPC group code C09; best year 2015.0; annual leader year(s) 2015.0; highest EMA 1.0; HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING — CPC group code E02; best year 2012.0; annual leader year(s) 2012.0; highest EMA 1.0; LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES — CPC group code E05; best year 2012.0; annual leader year(s) 2012.0; highest EMA 1.0; COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS — CPC group code F02; best year 2010.0; annual leader year(s) 2010.0; highest EMA 1.0; ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL — CPC group code F16; best year 2009.0; annual leader year(s) 2009.0, 2011.0; highest EMA 1.0; COMBUSTION APPARATUS; COMBUSTION PROCESSES — CPC group code F23; best year 2018.0; annual leader year(s) 2018.0; highest EMA 1.0; HEATING; RANGES; VENTILATING — CPC group code F24; best year 2018.0; annual leader year(s) 2018.0; highest EMA 1.0; WEAPONS — CPC group code F41; best year 2012.0; annual leader year(s) 2012.0; highest EMA 1.0; OPTICS — CPC group code G02; best year 2016.0; annual leader year(s) 2016.0; highest EMA 1.0; SIGNALLING — CPC group code G08; best year 2017.0; annual leader year(s) 2017.0; highest EMA 1.0; ELECTRIC ELEMENTS — CPC group code H01; best year 2008.0; annual leader year(s) 2008.0; highest EMA 1.0; ELECTRIC COMMUNICATION TECHNIQUE — CPC group code H04; best year 2015.0; annual leader year(s) 2015.0; highest EMA 1.0. The losing analyst answer was wrong because it omitted tied leaders and did not apply primary-CPC deduplication with zero-filled filing years."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "4",
+  "answer": "The CPC technology areas with the highest EMA by filing year are: 2007.0: PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS — CPC group B41 — EMA 1.0 — best year 2007.0; 2007.0: WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL — CPC group B29 — EMA 1.0 — best year 2007.0; 2008.0: ELECTRIC ELEMENTS — CPC group H01 — EMA 1.0 — best year 2008.0; 2008.0: MEASURING; TESTING — CPC group G01 — EMA 1.0 — best year 2008.0; 2009.0: VEHICLES IN GENERAL — CPC group B60 — EMA 1.0 — best year 2009.0; 2009.0: ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL — CPC group F16 — EMA 1.0 — best year 2009.0; 2009.0: GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER — CPC group H02 — EMA 1.0 — best year 2009.0; 2010.0: COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS — CPC group F02 — EMA 1.0 — best year 2010.0; 2010.0: LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS — CPC group B62 — EMA 1.0 — best year 2010.0; 2011.0: COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS — CPC group F02 — EMA 1.0 — best year 2010.0; 2012.0: LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES — CPC group E05 — EMA 1.0 — best year 2012.0; 2012.0: HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING — CPC group E02 — EMA 1.0 — best year 2012.0; 2012.0: WEAPONS — CPC group F41 — EMA 1.0 — best year 2012.0; 2013.0: COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS — CPC group F02 — EMA 0.810 — best year 2010.0; 2014.0: SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT — CPC group B63 — EMA 1.0 — best year 2014.0; 2015.0: ELECTRIC COMMUNICATION TECHNIQUE — CPC group H04 — EMA 2.0 — best year 2015.0; 2016.0: MEDICAL OR VETERINARY SCIENCE; HYGIENE — CPC group A61 — EMA 2.0 — best year 2016.0; 2017.0: SIGNALLING — CPC group G08 — EMA 1.0 — best year 2017.0; 2018.0: HEATING; RANGES; VENTILATING — CPC group F24 — EMA 1.0 — best year 2018.0; 2018.0: COMBUSTION APPARATUS; COMBUSTION PROCESSES — CPC group F23 — EMA 1.0 — best year 2018.0. The losing answer was wrong because it listed non-leading candidate groups instead of the per-year EMA leaders and reported 1.0 rather than 2.0 for the two-filings-in-2015/2016 leaders."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "2",
+  "run": "5",
+  "answer": "The highest exponential moving average is 2.0: A61 — MEDICAL OR VETERINARY SCIENCE; HYGIENE — best year 2016.0 — EMA 2.0; H04 — ELECTRIC COMMUNICATION TECHNIQUE — best year 2015.0 — EMA 2.0. Analyst 1 was wrong because it reported every CPC group's local peak instead of only the groups tied for the global maximum."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "1",
+  "answer": "The citing assignees and full primary CPC subclass titles are: CALIFORNIA INST OF TECHN — G01V: GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS; BLOOM ENERGY CORP — H01M: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC — C30B: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J — H01L: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10. Analyst 1 was wrong because it reported lower-level CPC group titles rather than the full titles of the four-character primary CPC subclasses."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "2",
+  "answer": "The citing assignees and full titles of the primary CPC subclasses are: CALIFORNIA INST OF TECHN — G01V: GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS; BLOOM ENERGY CORP — H01M: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC — C30B: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J — H01L: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10. Neither analyst was substantively wrong; both gave the same four pairs and differed only in ordering."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "3",
+  "answer": "The citing assignees and primary CPC subclass titles are: CALIFORNIA INST OF TECHN: G01V1/01 — Measuring or predicting earthquakes; BLOOM ENERGY CORP: H01M4/9066 — Metals or alloys specially used in fuel cell operating at high temperature, e.g. SOFC of metal-ceramic composites or mixtures, e.g. cermets; H01M8/2425 — High-temperature cells with solid electrolytes; CRYSTAL IS INC: C30B11/003 — Heating or cooling of the melt or the crystallised material; C30B25/10 — Heating of the reaction chamber or the substrate; C30B25/16 — Controlling or regulating; SCHOWALTER LEO J: H01L21/0262 — Reduction or decomposition of gaseous compounds, e.g. CVD. Analyst 1 was wrong because it collapsed the exact primary CPC entry to a broad H01L subclass and omitted the other citing assignees."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "4",
+  "answer": "The citing assignees and primary CPC subclass titles are: CALIFORNIA INST OF TECHN: G01V1/01 — Measuring or predicting earthquakes; BLOOM ENERGY CORP: H01M8/2425 — High-temperature cells with solid electrolytes; H01M4/9066 — Metals or alloys specially used in fuel cell operating at high temperature, e.g. SOFC of metal-ceramic composites or mixtures, e.g. cermets; CRYSTAL IS INC: C30B11/003 — Heating or cooling of the melt or the crystallised material; C30B25/16 — Controlling or regulating; C30B25/10 — Heating of the reaction chamber or the substrate; SCHOWALTER LEO J: H01L21/0262 — Reduction or decomposition of gaseous compounds, e.g. CVD. Analyst 2 was wrong because its extraction or join dropped the valid cited-publication matches and produced a false empty set."
+ },
+ {
+  "dataset": "PATENTS",
+  "query": "3",
+  "run": "5",
+  "answer": "The citing assignees and associated primary CPC subclass titles are: CALIFORNIA INST OF TECHN: G01V1/01 — Measuring or predicting earthquakes; BLOOM ENERGY CORP: H01M4/9066 — Metals or alloys specially used in fuel cell operating at high temperature, e.g. SOFC of metal-ceramic composites or mixtures, e.g. cermets; H01M8/2425 — High-temperature cells with solid electrolytes; CRYSTAL IS INC: C30B11/003 — Heating or cooling of the melt or the crystallised material; C30B25/10 — Heating of the reaction chamber or the substrate; C30B25/16 — Controlling or regulating; SCHOWALTER LEO J: H01L21/0262 — Reduction or decomposition of gaseous compounds, e.g. CVD."
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "1",
+  "answer": "The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "2",
+  "answer": "The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "3",
+  "answer": "The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "4",
+  "answer": "The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "1",
+  "run": "5",
+  "answer": "The Rundown"
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "1",
+  "answer": "Science/Technology: 0.12612612612612612 of Amy Jones's 111.0 articles (14.0/111.0 = 0.126126126126126126...). Analyst 2's answer was wrong because it counted one Science/Technology article as another category."
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "2",
+  "answer": "Science/Technology: 0.1261261261261261 (14.0/111.0 articles; 12.612612612612612% of Amy Jones's articles). The apparent disagreement is only precision: Analyst 2 truncated the same exact 14.0/111.0 fraction."
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "3",
+  "answer": "Science/Technology: 0.13513513513513514 of Amy Jones's articles (15.0 of 111.0; 13.513513513513514%). Neither analyst is wrong—their answers are numerically identical."
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "4",
+  "answer": "Science/Technology: 14.0/111.0 = 0.12612612612612611. The losing answer was wrong because it used 17.0 instead of the verified 14.0 Science/Technology articles."
+ },
+ {
+  "dataset": "agnews",
+  "query": "2",
+  "run": "5",
+  "answer": "The Science/Technology fraction is 0.135135135135135135... (15.0 of 111.0 Amy Jones articles; exact ratio 15.0/111.0). Neither analyst was wrong: both reported the same ratio, with only decimal precision differing."
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "1",
+  "answer": "The average is 336.6363636363636 business articles per year in Europe from 2010.0 through 2020.0 inclusive (3703.0 articles across 11.0 years). Analyst 1 was wrong because its category filter undercounted Business articles by 61.0 articles."
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "2",
+  "answer": "The average is 336.63636363636363636364 business articles per year in Europe from 2010.0 to 2020.0 inclusive (3703.0 articles divided by 11.0 years). Neither analyst is numerically wrong: both answers agree, with Analyst 2 displaying fewer decimal places."
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "3",
+  "answer": "The average is 336.6363636363... business articles per year in Europe from 2010.0 through 2020.0 inclusive (3703.0 / 11.0; rounded: 336.64). Analyst 2 was wrong only because it presented the rounded 336.64 as the answer; its underlying 3703.0 / 11.0 calculation agrees with Analyst 1."
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "4",
+  "answer": "The average number of Business articles published per year in Europe from 2010 to 2020 inclusive is 336.6363636363636. Analyst 1 was wrong because it provided no numeric answer."
+ },
+ {
+  "dataset": "agnews",
+  "query": "3",
+  "run": "5",
+  "answer": "The average is 336.6363636363636 business articles per year in Europe from 2010 to 2020 inclusive (3703.0 articles over 11.0 years). Analyst 2 gave only a rounded presentation of the same result, omitting the unrounded average."
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "1",
+  "answer": "Africa: 338.0 articles. The losing response was wrong because it omitted a region and count; the database-derived 2015 World-category totals show Africa is highest at 338.0."
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "2",
+  "answer": "Africa: 338.0 articles. The other answer was incomplete because it omitted the verified article count."
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "3",
+  "answer": "Europe: 387.0 articles. The losing answer was wrong because its World-category filter omitted one qualifying 2015 article."
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "4",
+  "answer": "Africa: 434.0 articles—the largest 2015 total for the World category. The other answer was wrong because it provided no region or count."
+ },
+ {
+  "dataset": "agnews",
+  "query": "4",
+  "run": "5",
+  "answer": "Africa: 338.0"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "1",
+  "answer": "2020s: 4.663636363636364. The losing answer was incomplete because it named the decade without reporting the required average rating."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "2",
+  "answer": "2020s"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "3",
+  "answer": "2020s"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "4",
+  "answer": "2020s: 4.663636363636364. Analyst 2 was incomplete because it omitted the verified average-rating value."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "1",
+  "run": "5",
+  "answer": "2020s: 4.663636363636364. The competing answer was incomplete because it omitted the computed average rating."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "1",
+  "answer": "The matching books are: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message: 5.0; Childe Harold of Dysna: 5.0; Exits, Desires, & Slow Fires: 5.0; Fire Cracker: 5.0; Forged in Blood (Freehold): 5.0; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries): 5.0; Kennebago Moments: 5.0; Knowing When To Die: Uncollected Stories: 5.0; Liza of Lambeth: 5.0; Local Honey: 5.0; Reunion: The Children of Lauderdale Park: 5.0; Something That Feels Like Truth (Switchgrass Books): 5.0; The Melancholy Strumpet Master: 5.0; The Prophet: With Original 1923 Illustrations by the Author: 5.0; The Sludge: 5.0"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "2",
+  "answer": "The matching books are Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message: 5.0; Childe Harold of Dysna: 5.0; Exits, Desires, & Slow Fires: 5.0; Fire Cracker: 5.0; Forged in Blood (Freehold): 5.0; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries): 5.0; Kennebago Moments: 5.0; Knowing When To Die: Uncollected Stories: 5.0; Liza of Lambeth: 5.0; Local Honey: 5.0; Reunion: The Children of Lauderdale Park: 5.0; Something That Feels Like Truth (Switchgrass Books): 5.0; The Melancholy Strumpet Master: 5.0; The Prophet: With Original 1923 Illustrations by the Author: 5.0; The Sludge: 5.0. Analyst 1's blank answer was wrong because it omitted all 15 matching books."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "3",
+  "answer": "The matching books are: Knowing When To Die: Uncollected Stories: 5.0; Childe Harold of Dysna: 5.0; Forged in Blood (Freehold): 5.0; Exits, Desires, & Slow Fires: 5.0; Kennebago Moments: 5.0; The Sludge: 5.0; Liza of Lambeth: 5.0; Something That Feels Like Truth (Switchgrass Books): 5.0; The Prophet: With Original 1923 Illustrations by the Author: 5.0; The Melancholy Strumpet Master: 5.0; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message: 5.0; Fire Cracker: 5.0; Local Honey: 5.0; Reunion: The Children of Lauderdale Park: 5.0; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries): 5.0"
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "4",
+  "answer": "The matching English-language books are Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message: 5.0; Childe Harold of Dysna: 5.0; Exits, Desires, & Slow Fires: 5.0; Fire Cracker: 5.0; Forged in Blood (Freehold): 5.0; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries): 5.0; Kennebago Moments: 5.0; Knowing When To Die: Uncollected Stories: 5.0; Liza of Lambeth: 5.0; Local Honey: 5.0; Reunion: The Children of Lauderdale Park: 5.0; Something That Feels Like Truth (Switchgrass Books): 5.0; The Melancholy Strumpet Master: 5.0; The Prophet: With Original 1923 Illustrations by the Author: 5.0; The Sludge: 5.0. There is no substantive losing answer: both analysts listed the same 15 books and differed only in ordering."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "2",
+  "run": "5",
+  "answer": "The matching books are: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message: 5.0; Childe Harold of Dysna: 5.0; Exits, Desires, & Slow Fires: 5.0; Fire Cracker: 5.0; Forged in Blood (Freehold): 5.0; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries): 5.0; Kennebago Moments: 5.0; Knowing When To Die: Uncollected Stories: 5.0; Liza of Lambeth: 5.0; Local Honey: 5.0; Reunion: The Children of Lauderdale Park: 5.0; Something That Feels Like Truth (Switchgrass Books): 5.0; The Melancholy Strumpet Master: 5.0; The Prophet: With Original 1923 Illustrations by the Author: 5.0; The Sludge: 5.0. Analyst 1 was wrong because it omitted all 15 books that satisfy the category, English-language, join, and 5.0-average-rating filters."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "1",
+  "answer": "The qualifying books are: Around the World Mazes: 5.0; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.0; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.0; Cheer Up, Ben Franklin! (Young Historians): 5.0; Clark the Shark: Tooth Trouble, No. 1: 4.75; Cleo Porter and the Body Electric: 4.708333333333333; Egypt (Enchantment of the World): 5.0; Favorite Thorton W. Burgess Stories: 6 Books: 5.0; LunaLu the Llamacorn: 5.0; Monstrous Stories #4: The Day the Mice Stood Still: 5.0; Pokémon: Sun & Moon, Vol. 8 (8): 5.0; The Library Book: 5.0; The Old Man and the Pirate Princess: 5.0; Trouble in the CTC!: The Terra Prime Adventures Book 2: 4.9. The two analyst answers were identical, so neither was wrong."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "2",
+  "answer": "The qualifying books are: Around the World Mazes: 5.0; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.0; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.0; Cheer Up, Ben Franklin! (Young Historians): 5.0; Egypt (Enchantment of the World): 5.0; Favorite Thorton W. Burgess Stories: 6 Books: 5.0; LunaLu the Llamacorn: 5.0; Monstrous Stories #4: The Day the Mice Stood Still: 5.0; Pokémon: Sun & Moon, Vol. 8 (8): 5.0; The Library Book: 5.0; The Old Man and the Pirate Princess: 5.0; Trouble in the CTC!: The Terra Prime Adventures Book 2: 4.9; Clark the Shark: Tooth Trouble, No. 1: 4.75; Cleo Porter and the Body Electric: 4.708333333333333. Analyst 1 was wrong because the verified purchaseid-to-bookid join and the 2020-onward filter produced these qualifying books."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "3",
+  "answer": "The qualifying Children's Books are: Around the World Mazes: 5.0; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.0; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.0; Cheer Up, Ben Franklin! (Young Historians): 5.0; Clark the Shark: Tooth Trouble, No. 1: 4.75; Cleo Porter and the Body Electric: 4.708333333333333; Egypt (Enchantment of the World): 5.0; Favorite Thorton W. Burgess Stories: 6 Books: 5.0; LunaLu the Llamacorn: 5.0; Monstrous Stories #4: The Day the Mice Stood Still: 5.0; Pokémon: Sun & Moon, Vol. 8 (8): 5.0; The Library Book: 5.0; The Old Man and the Pirate Princess: 5.0; Trouble in the CTC!: The Terra Prime Adventures Book 2: 4.9. Neither analyst was wrong: both answers contain the same books and averages, differing only in order."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "4",
+  "answer": "The qualifying books are: Around the World Mazes: 5.0; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.0; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.0; Cheer Up, Ben Franklin! (Young Historians): 5.0; Egypt (Enchantment of the World): 5.0; Favorite Thorton W. Burgess Stories: 6 Books: 5.0; LunaLu the Llamacorn: 5.0; Monstrous Stories #4: The Day the Mice Stood Still: 5.0; Pokémon: Sun & Moon, Vol. 8 (8): 5.0; The Library Book: 5.0; The Old Man and the Pirate Princess: 5.0; Trouble in the CTC!: The Terra Prime Adventures Book 2: 4.9; Clark the Shark: Tooth Trouble, No. 1: 4.75; Cleo Porter and the Body Electric: 4.708333333333333. Analyst 1 was wrong because it failed to retain the post-2020 reviews or correctly join and filter the records."
+ },
+ {
+  "dataset": "bookreview",
+  "query": "3",
+  "run": "5",
+  "answer": "The qualifying books are Around the World Mazes: 5.0; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.0; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.0; Cheer Up, Ben Franklin! (Young Historians): 5.0; Clark the Shark: Tooth Trouble, No. 1: 4.75; Cleo Porter and the Body Electric: 4.708333333333333; Egypt (Enchantment of the World): 5.0; Favorite Thorton W. Burgess Stories: 6 Books: 5.0; LunaLu the Llamacorn: 5.0; Monstrous Stories #4: The Day the Mice Stood Still: 5.0; Pokémon: Sun & Moon, Vol. 8 (8): 5.0; The Library Book: 5.0; The Old Man and the Pirate Princess: 5.0; Trouble in the CTC!: The Terra Prime Adventures Book 2: 4.9. Analyst 2 was wrong because it treated the differently prefixed book and review keys as nonmatching instead of joining on their numeric suffixes."
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "1",
+  "answer": "Budget, Authority"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "2",
+  "answer": "Authority"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "3",
+  "answer": "Authority"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "4",
+  "answer": "Authority"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "1",
+  "run": "5",
+  "answer": "Authority"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "1",
+  "answer": "ka0Wt000000Ens5IAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "2",
+  "answer": "ka0Wt000000Ens5IAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "3",
+  "answer": "ka0Wt000000Ens5IAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "4",
+  "answer": "ka0Wt000000Ens5IAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "2",
+  "run": "5",
+  "answer": "ka0Wt000000Ens5IAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "1",
+  "answer": "Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "2",
+  "answer": "Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "3",
+  "answer": "Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "4",
+  "answer": "Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "3",
+  "run": "5",
+  "answer": "Negotiation"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "1",
+  "answer": "November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "2",
+  "answer": "November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "3",
+  "answer": "November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "4",
+  "answer": "November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "4",
+  "run": "5",
+  "answer": "November"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "1",
+  "answer": "a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "2",
+  "answer": "a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "3",
+  "answer": "a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "4",
+  "answer": "a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "5",
+  "run": "5",
+  "answer": "a03Wt00000JqnHwIAJ"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "1",
+  "answer": "ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "2",
+  "answer": "ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "3",
+  "answer": "#ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "4",
+  "answer": "ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "6",
+  "run": "5",
+  "answer": "#ka0Wt000000EnwvIAC"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "1",
+  "answer": "ka0Wt000000EoD3IAK"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "2",
+  "answer": "None"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "3",
+  "answer": "ka0Wt000000EoD3IAK"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "4",
+  "answer": "ka0Wt000000EpSUIA0"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "7",
+  "run": "5",
+  "answer": "None"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "1",
+  "answer": "005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "2",
+  "answer": "005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "3",
+  "answer": "005Wt000003NBcAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "4",
+  "answer": "005Wt000003NIliIAG. The losing result counted a transfer outside the four-quarter window ending 2023-04-10."
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "8",
+  "run": "5",
+  "answer": "005Wt000003NIliIAG"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "1",
+  "answer": "MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "2",
+  "answer": "MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "3",
+  "answer": "MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "4",
+  "answer": "MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "9",
+  "run": "5",
+  "answer": "MI"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "1",
+  "answer": "005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "2",
+  "answer": "005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "3",
+  "answer": "005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "4",
+  "answer": "005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "10",
+  "run": "5",
+  "answer": "005Wt000003NDqDIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "1",
+  "answer": "01tWt000006hV8LIAU. The no-match result missed the contact-to-account transaction link and/or the required cleanup of corrupted join keys."
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "2",
+  "answer": "01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "3",
+  "answer": "01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "4",
+  "answer": "01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "11",
+  "run": "5",
+  "answer": "01tWt000006hV8LIAU"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "1",
+  "answer": "005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "2",
+  "answer": "005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "3",
+  "answer": "005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "4",
+  "answer": "005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "12",
+  "run": "5",
+  "answer": "005Wt000003NJgAIAW"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "1",
+  "answer": "005Wt000003NIXCIA4"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "2",
+  "answer": "005Wt000003NEa3IAG"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "3",
+  "answer": "005Wt000003NIXCIA4"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "4",
+  "answer": "005Wt000003NIXCIA4"
+ },
+ {
+  "dataset": "crmarenapro",
+  "query": "13",
+  "run": "5",
+  "answer": "005Wt000003NIXCIA4"
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "1",
+  "answer": "The top 5 businesses in Los Angeles, California, ranked by average rating are Widows Peak Salon: 4.857142857142857…, City Textile: 4.5, Nobel Textile Co: 4.285714285714285…, San Soo Dang: 4.277777777777777…, and Nova Fabrics: 3.333333333333333…. The other answer was not substantively wrong; the disagreement was only finite-decimal rounding or truncation, and both answers have the same ranking."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "2",
+  "answer": "The top five businesses in Los Angeles, California, ranked by descending average rating are Widows Peak Salon: 4.857142857142857; City Textile: 4.5; Nobel Textile Co: 4.285714285714286; San Soo Dang: 4.277777777777778; Nova Fabrics: 3.3333333333333335. Neither analyst was wrong, because their answers are identical and agree with the database."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "3",
+  "answer": "The top five businesses in Los Angeles, California, by descending average rating are Widows Peak Salon: 4.857142857142857; City Textile: 4.5; Nobel Textile Co: 4.285714285714286; San Soo Dang: 4.277777777777778; Nova Fabrics: 3.3333333333333335. The losing answer was not substantively wrong: the apparent disagreement is only floating-point tail formatting, not a different filter, join, or ranking."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "4",
+  "answer": "The top 5 businesses in Los Angeles, California are: Widows Peak Salon: 4.857142857142857142857142857142857142857142857...; City Textile: 4.5; Nobel Textile Co: 4.285714285714285714285714285714285714285714285...; San Soo Dang: 4.277777777777777777777777777777777777777777777...; Nova Fabrics: 3.333333333333333333333333333333333333333333333.... Analyst 2 was wrong because its last digits are binary floating-point approximations rather than the exact decimal averages."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "1",
+  "run": "5",
+  "answer": "The top five businesses in Los Angeles, California by descending average rating are Widows Peak Salon: 4.857142857142857142857142857142857142857; City Textile: 4.5; Nobel Textile Co: 4.285714285714285714285714285714285714286; San Soo Dang: 4.277777777777777777777777777777777777778; Nova Fabrics: 3.333333333333333333333333333333333333333. Analyst 2 was wrong because it reported finite floating-point approximations instead of the higher-precision averages, although the ordering was unchanged."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "1",
+  "answer": "The massage therapy businesses with average ratings of at least 4.0 are Angel-A Massage: 4.33333333333333; Aurora Massage: 4.17857142857143; Elite Massage: 5.0; and J B Oriental Inc: 4.16666666666667. Analyst 1 was wrong because it omitted all four qualifying businesses."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "2",
+  "answer": "The massage therapy businesses with average ratings of at least 4.0 are Angel-A Massage: 4.333333333333333; Aurora Massage: 4.178571428571429; Elite Massage: 5.0; and J B Oriental Inc: 4.166666666666667. Analyst 1 was wrong because an overly restrictive description filter falsely returned no qualifying businesses."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "3",
+  "answer": "The massage therapy businesses with average ratings of at least 4.0 are Elite Massage: 5.0; Angel-A Massage: 4.333333333333333; Aurora Massage: 4.178571428571429; J B Oriental Inc: 4.166666666666667. There is no losing answer: both analysts give the same four businesses and identical averages, differing only in order."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "4",
+  "answer": "No massage therapy businesses with an average rating of at least 4.0 were found."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "2",
+  "run": "5",
+  "answer": "The massage therapy businesses with average ratings of at least 4.0 are Elite Massage: 5.0; Angel-A Massage: 4.333333333333333; Aurora Massage: 4.178571428571429; and J B Oriental Inc: 4.166666666666667. Analyst 1 was wrong because filtering only for the literal word 'massage' in descriptions missed descriptions using terms such as 'bodywork' and 'therapies'."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "1",
+  "answer": "The top five businesses, all tied at a 5.0 average rating, are: 1. Beauty Divine Artistry — operating hours: Monday–Friday 9AM–8PM, Saturday 10AM–7PM, Sunday 11AM–6PM; average rating: 5.0. 2. Mariscos el poblano — operating hours: Monday 9AM–3:30AM, Tuesday–Wednesday 8AM–3:30PM, Thursday Open 24 hours, Friday–Sunday 8AM–3:30PM; average rating: 5.0. 3. Taba Rug Gallery — operating hours: Monday–Saturday 10AM–7PM, Sunday 11AM–6PM; average rating: 5.0. 4. TACOS LA CABANA — operating hours: Monday and Friday–Sunday 5PM–11PM, Tuesday–Thursday Closed; average rating: 5.0. 5. White Barn Candle Co — operating hours: Monday–Saturday 10AM–9PM, Sunday 11AM–7PM; average rating: 5.0. The analysts did not differ on membership or ratings; they only ordered two equally rated businesses differently, so neither ordering is wrong."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "2",
+  "answer": "The top five qualifying businesses are all tied at an exact average rating of 5.0: Beauty Divine Artistry, Mariscos el poblano, Taba Rug Gallery, TACOS LA CABANA, and White Barn Candle Co.\n\n1. Beauty Divine Artistry — average rating: 5.0; operating hours: Monday–Friday 9AM–8PM, Saturday 10AM–7PM, Sunday 11AM–6PM.\n2. Mariscos el poblano — average rating: 5.0; operating hours: Monday 9AM–3:30AM, Tuesday–Wednesday 8AM–3:30PM, Thursday open 24 hours, Friday–Sunday 8AM–3:30PM.\n3. Taba Rug Gallery — average rating: 5.0; operating hours: Monday–Saturday 10AM–7PM, Sunday 11AM–6PM.\n4. TACOS LA CABANA — average rating: 5.0; operating hours: Monday and Friday–Sunday 5–11PM, Tuesday–Thursday closed.\n5. White Barn Candle Co — average rating: 5.0; operating hours: Monday–Saturday 10AM–9PM, Sunday 11AM–7PM.\n\nThe apparent losing answer differed only by swapping Taba Rug Gallery and TACOS LA CABANA; both have an exact average rating of 5.0, so the requested metric does not distinguish their order."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "3",
+  "answer": "The top five qualifying businesses are Beauty Divine Artistry (average rating: 5.0), Mariscos el poblano (average rating: 5.0), TACOS LA CABANA (average rating: 5.0), Taba Rug Gallery (average rating: 5.0), and White Barn Candle Co (average rating: 5.0).\n\n1. Beauty Divine Artistry — hours: Monday–Friday 9:00 AM–8:00 PM; Saturday 10:00 AM–7:00 PM; Sunday 11:00 AM–6:00 PM; average rating: 5.0.\n2. Mariscos el poblano — hours: Monday 9:00 AM–3:30 AM; Tuesday–Wednesday 8:00 AM–3:30 PM; Thursday open 24 hours; Friday–Sunday 8:00 AM–3:30 PM; average rating: 5.0.\n3. TACOS LA CABANA — hours: Monday 5:00 PM–11:00 PM; Tuesday–Thursday closed; Friday–Sunday 5:00 PM–11:00 PM; average rating: 5.0.\n4. Taba Rug Gallery — hours: Monday–Saturday 10:00 AM–7:00 PM; Sunday 11:00 AM–6:00 PM; average rating: 5.0.\n5. White Barn Candle Co — hours: Monday–Saturday 10:00 AM–9:00 PM; Sunday 11:00 AM–7:00 PM; average rating: 5.0.\n\nAnalyst 1 was wrong because it omitted TACOS LA CABANA, which qualifies through its weekday evening hours, and included the lower-rated Paradise tattoo instead."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "4",
+  "answer": "The top five businesses, ranked by average rating, are:\n1. Beauty Divine Artistry — operating hours: Thursday: 9AM–8PM; Friday: 9AM–8PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 9AM–8PM; Tuesday: 9AM–8PM; Wednesday: 9AM–8PM — average rating: 5.0.\n2. Mariscos el poblano — operating hours: Thursday: Open 24 hours; Friday: 8AM–3:30PM; Saturday: 8AM–3:30PM; Sunday: 8AM–3:30PM; Monday: 9AM–3:30AM; Tuesday: 8AM–3:30PM; Wednesday: 8AM–3:30PM — average rating: 5.0.\n3. Taba Rug Gallery — operating hours: Thursday: 10AM–7PM; Friday: 10AM–7PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 10AM–7PM; Tuesday: 10AM–7PM; Wednesday: 10AM–7PM — average rating: 5.0.\n4. White Barn Candle Co — operating hours: Thursday: 10AM–9PM; Friday: 10AM–9PM; Saturday: 10AM–9PM; Sunday: 11AM–7PM; Monday: 10AM–9PM; Tuesday: 10AM–9PM; Wednesday: 10AM–9PM — average rating: 5.0.\n5. Paradise tattoo — operating hours: Thursday: 12–10PM; Friday: 12PM–12AM; Saturday: 12PM–12AM; Sunday: 12–10PM; Monday: 12–10PM; Tuesday: 12–10PM; Wednesday: 12–10PM — average rating: 4.9603174603174605.\n\nAnalyst 1 was wrong because it included TACOS LA CABANA even though its database status is not open; its posted hours do not make it an eligible currently open business."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "3",
+  "run": "5",
+  "answer": "The top five businesses ranked by highest average rating are: 1. Beauty Divine Artistry — operating hours: Thursday: 9AM–8PM; Friday: 9AM–8PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 9AM–8PM; Tuesday: 9AM–8PM; Wednesday: 9AM–8PM; average rating: 5.0; 2. Mariscos el poblano — operating hours: Thursday: Open 24 hours; Friday: 8AM–3:30PM; Saturday: 8AM–3:30PM; Sunday: 8AM–3:30PM; Monday: 9AM–3:30AM; Tuesday: 8AM–3:30PM; Wednesday: 8AM–3:30PM; average rating: 5.0; 3. Taba Rug Gallery — operating hours: Thursday: 10AM–7PM; Friday: 10AM–7PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 10AM–7PM; Tuesday: 10AM–7PM; Wednesday: 10AM–7PM; average rating: 5.0; 4. TACOS LA CABANA — operating hours: Thursday: Closed; Friday: 5–11PM; Saturday: 5–11PM; Sunday: 5–11PM; Monday: 5–11PM; Tuesday: Closed; Wednesday: Closed; average rating: 5.0; 5. White Barn Candle Co — operating hours: Thursday: 10AM–9PM; Friday: 10AM–9PM; Saturday: 10AM–9PM; Sunday: 11AM–7PM; Monday: 10AM–9PM; Tuesday: 10AM–9PM; Wednesday: 10AM–9PM; average rating: 5.0. Analyst 2 was wrong because it provided no businesses, hours, or ratings."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "1",
+  "answer": "The top three businesses were Encino Dermatology & Laser: Alex Khadavi MD: 19.0 high-rating reviews; The Boochyard @ Local Roots: 17.0 high-rating reviews; Aurora Massage: 14.0 high-rating reviews."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "2",
+  "answer": "The top three businesses were Encino Dermatology & Laser: Alex Khadavi MD: 19.0 high-rating reviews; The Boochyard @ Local Roots: 17.0 high-rating reviews; Aurora Massage: 14.0 high-rating reviews. The losing answer was not wrong; both analysts reported the same verified result."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "3",
+  "answer": "The top three businesses were Aurora Massage: 8.0 high-rating reviews; The Boochyard @ Local Roots: 7.0 high-rating reviews; Encino Dermatology & Laser: Alex Khadavi MD: 6.0 high-rating reviews. Analyst 1 was wrong because its count included reviews outside the requested period."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "4",
+  "answer": "The top three businesses were Encino Dermatology & Laser: Alex Khadavi MD: 19.0 high-rating reviews; The Boochyard @ Local Roots: 17.0 high-rating reviews; Aurora Massage: 14.0 high-rating reviews. Analyst 2 used the wrong rating threshold or date filter."
+ },
+ {
+  "dataset": "googlelocal",
+  "query": "4",
+  "run": "5",
+  "answer": "Encino Dermatology & Laser: Alex Khadavi MD — 19.0 high-rating reviews; The Boochyard @ Local Roots — 17.0 high-rating reviews; Aurora Massage — 14.0 high-rating reviews. There is no losing answer: both analysts reported the same result."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "1",
+  "answer": "Apple Music revenue from Beyoncé's song 'Get Me Bodied' in Canada: 458.02 USD. Analyst 1's 1059.46 USD figure was wrong because it used an incomplete set of duplicate track records rather than resolving the song entity."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "2",
+  "answer": "Apple Music revenue from Beyoncé's song 'Get Me Bodied' in Canada: 458.02 USD. Neither analyst was numerically wrong; 458.0200 USD is the same amount as 458.02 USD, differing only in trailing-zero formatting."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "3",
+  "answer": "Apple Music made $458.02 USD in Canada from Beyoncé's song 'Get Me Bodied'."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "4",
+  "answer": "Apple Music made $601.44 USD from Beyoncé's song 'Get Me Bodied' in Canada. Analyst 1's $458.02 was wrong because it omitted one matching duplicate track record."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "1",
+  "run": "5",
+  "answer": "Apple Music made USD 1059.460000 from Beyoncé's song 'Get Me Bodied' in Canada. The USD 601.4400 answer wrongly excluded duplicate track 5281, titled 'GetMe Bodied' without a space."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "1",
+  "answer": "Amazon Music: 682.23 USD. The losing result was wrong because it omitted duplicate track records for the same song; resolving all four matching track IDs gives Amazon Music the highest total."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "2",
+  "answer": "Amazon Music: 682.23 USD across all countries. Analyst 1's iTunes result of 505.61 USD omitted the other duplicate track records for the song."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "3",
+  "answer": "Amazon Music: 682.23 USD (unrounded: 682.23 USD). The losing answer was wrong because it omitted sales from duplicate track records representing the same song."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "4",
+  "answer": "Amazon Music: 682.23 USD. The losing answer was incomplete because it omitted the verified all-country revenue total."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "2",
+  "run": "5",
+  "answer": "iTunes: 505.61 USD. The losing answer was wrong because it counted only one resolved track record instead of all duplicate records for the song."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "1",
+  "answer": "Zo gaat het leven aan je voor: USD 9013.69. The losing answer was wrong because its duplicate-resolved total was only USD 5668.50."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "2",
+  "answer": "Groovey generated the highest total revenue in USD across all stores and countries. Unknown was wrong because it is a placeholder title, not a resolved song entity."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "3",
+  "answer": "Groovey by Rich Matteson: 5668.50 USD. The losing answer was wrong because it counted only three of the five duplicate track records, omitting two source-specific representations."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "4",
+  "answer": "Zo gaat het leven aan je voor by Syb van der Ploeg generated the highest total revenue: 9013.69 USD. Analyst 2 was wrong because it failed to resolve and sum the song's matching records across all five source databases."
+ },
+ {
+  "dataset": "music_brainz_20k",
+  "query": "3",
+  "run": "5",
+  "answer": "Zo gaat het leven aan je voor by Syb van der Ploeg — total revenue: 9013.69 USD. The competing result was wrong because it did not resolve duplicate track records before aggregating revenue across all stores and countries."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "1",
+  "answer": "399001.SZ: 0.018293021165089372 average intraday volatility since 2020. Analyst 2's figure was wrong because it did not use the inclusive daily mean of (High - Low) / Open from the start of 2020."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "2",
+  "answer": "399001.SZ (Shenzhen Composite Index): 0.01834068808057066. Both analyst figures were wrong because they split the mixed date formats: one omitted ISO-formatted rows and the other retained only ISO-formatted rows."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "3",
+  "answer": "The Shenzhen Stock Exchange index (399001.SZ): 0.01834068808057066. Analyst 1 was wrong because it omitted ISO-formatted 2020–2021 dates; parsing all date formats gives the complete post-2020 average."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "4",
+  "answer": "399001.SZ: 0.018293021165089372 average intraday volatility since 2020. Analyst 2 was wrong because its figure is not the unweighted daily mean of (High - Low) / Open from 2020-01-01 onward."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "1",
+  "run": "5",
+  "answer": "Shenzhen Component (399001.SZ): 0.018367121551882994 average intraday volatility since 2020. The losing answer was wrong because it used an inconsistent date/period filter instead of parsing both stored date formats before applying the since-2020 cutoff."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "1",
+  "answer": "The only North American index with more up days than down days in 2018 was IXIC (NASDAQ Composite): 131.0 up days versus 120.0 down days. Analyst 2 was wrong because its date filter captured only a subset of the mixed-format 2018 date rows."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "2",
+  "answer": "The only North American index with more up days than down days in 2018 was NASDAQ (IXIC): 131.0 up days versus 120.0 down days. Analyst 2 was incomplete rather than factually different: it named the right index but omitted the verified day counts."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "3",
+  "answer": "IXIC (NASDAQ Composite): 131.0 up days versus 120.0 down days in 2018. Analyst 2 was wrong because its 44.0/41.0 and 44.0/31.0 figures came from an incorrect period or filter rather than all 2018 daily records."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "4",
+  "answer": "The only North American index with more up days than down days in 2018 was the NASDAQ Composite (IXIC): 131.0 up days and 120.0 down days. Analyst 2 was wrong because its 44.0/31.0 and 44.0/41.0 figures came from an incomplete or misapplied period/filter rather than all 2018 trading days."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "2",
+  "run": "5",
+  "answer": "The North American indices with more up days than down days were IXIC (NASDAQ): 131.0 up days versus 120.0 down days."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "1",
+  "answer": "The five highest-return indices were IXIC (NASDAQ Composite) — United States: net return 3.8269431542041943 (382.69431542041943%); NSEI (NIFTY 50) — India: 1.3584273445798654 (135.84273445798654%); 399001.SZ (Shenzhen Component) — China: 1.347463671884631 (134.7463671884631%); GDAXI (DAX) — Germany: 1.3470287159082748 (134.70287159082748%); and TWII (Taiwan Weighted Index) — Taiwan: 1.298200315844651 (129.8200315844651%). Analyst 1 was wrong because its monthly DCA calculation produced different totals and incorrectly ranked GDAXI above 399001.SZ; the database result ranks Shenzhen slightly higher than DAX."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "2",
+  "answer": "The five highest-return indices are IXIC (NASDAQ, United States), NSEI (National Stock Exchange of India, India), 399001.SZ (Shenzhen Stock Exchange, China), GDAXI (Frankfurt Stock Exchange, Germany), and TWII (Taiwan Stock Exchange, Taiwan). Analyst 2 was wrong because it used a different monthly price and terminal-value convention and incorrectly left 399001.SZ's country unresolved; 399001.SZ is the Shenzhen Stock Exchange index of China."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "3",
+  "answer": "The five highest-return indices were IXIC (NASDAQ): United States; 399001.SZ (Shenzhen Component): China; GDAXI (DAX): Germany; NSEI (Nifty 50): India; and TWII (Taiwan Weighted): Taiwan. The losing numerical answer used a different monthly purchase/valuation convention, which changed the reported percentages but not the verified five-index set."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "4",
+  "answer": "The five highest-return indices are IXIC: 381.6205036184268% — United States; NSEI: 135.6409177742646% — India; GDAXI: 135.3700556558885% — Germany; 399001.SZ: 133.83811889670955% — China; TWII: 124.47368452852596% — Taiwan. Analyst 2 was wrong because it used first-trading-day monthly prices rather than the last available trading price in each month."
+ },
+ {
+  "dataset": "stockindex",
+  "query": "3",
+  "run": "5",
+  "answer": "The five highest-return indices, using equal monthly USD contributions on each month's first available trading day and CloseUSD through the last available record, were IXIC (NASDAQ Composite), United States: 382.69431542041946%; NSEI (Nifty 50), India: 135.84273445798652%; 399001.SZ (Shenzhen Component), China: 134.746367188463%; GDAXI (DAX), Germany: 134.70287159082747%; TWII (Taiwan Weighted Index), Taiwan: 129.82003158446514%. The losing answer was wrong because correctly parsed dates and the same DCA calculation rank 399001.SZ slightly above GDAXI and identify TWII as Taiwan."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "1",
+  "answer": "The RealReal, Inc.: 18.440000534057617."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "2",
+  "answer": "The RealReal, Inc.: 18.440000534057617."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "3",
+  "answer": "The RealReal, Inc.: 18.440000534057617. There is no losing analyst answer: both answers match the database maximum for 2020.0, recorded on 2020-01-03."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "4",
+  "answer": "The RealReal, Inc.: 18.440000534057617. Analyst 2 was wrong because it truncated the full stored-precision maximum."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "1",
+  "run": "5",
+  "answer": "The RealReal, Inc.: 18.440000534057617. The two analyst responses agree, so there is no losing answer."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "1",
+  "answer": "NYSE Arca ETFs above $200.0 adjusted close during 2015: BOIL, BZQ, COM, DUST, EDZ, ERX, FAZ, FXP, GFIN, GUSH, HYUP, JDST, JNUG, JPN, LABD, LABU, LBJ, MDY, PTIN, RTL, SDOW, SOXS, SSG, TECS, TZA, UVXY, VIXY, VPC, XES, XOP, YANG. Total: 31.0 ETFs. The analysts' supplied answers are identical, so there is no losing answer."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "2",
+  "answer": "The NYSE Arca ETF securities are BOIL, BZQ, COM, DUST, EDZ, ERX, FAZ, FXP, GFIN, GUSH, HYUP, JDST, JNUG, JPN, LABD, LABU, LBJ, MDY, PTIN, RTL, SDOW, SOXS, SSG, TECS, TZA, UVXY, VIXY, VPC, XES, XOP, YANG; total: 31.0 ETFs above $200.0 adjusted close during 2015.0. The two analyst answers were identical, so neither has a losing answer."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "3",
+  "answer": "NYSE Arca ETFs with an adjusted closing price above $200.0 during 2015.0: BOIL, BZQ, COM, DUST, EDZ, ERX, FAZ, FXP, GFIN, GUSH, HYUP, JDST, JNUG, JPN, LABD, LABU, LBJ, MDY, PTIN, RTL, SDOW, SOXS, SSG, TECS, TZA, UVXY, VIXY, VPC, XES, XOP, YANG. Total number: 31.0. Neither analyst was wrong; both independently reported the same result."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "4",
+  "answer": "NYSE Arca ETFs above $200.0 adjusted close during 2015: BOIL, BZQ, COM, DUST, EDZ, ERX, FAZ, FXP, GFIN, GUSH, HYUP, JDST, JNUG, JPN, LABD, LABU, LBJ, MDY, PTIN, RTL, SDOW, SOXS, SSG, TECS, TZA, UVXY, VIXY, VPC, XES, XOP, YANG. Total: 31.0 ETFs. There is no losing analyst answer because both supplied answers are identical."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "2",
+  "run": "5",
+  "answer": "The NYSE Arca ETFs with adjusted closing prices above $200.0 during 2015.0 are BOIL, BZQ, COM, DUST, EDZ, ERX, FAZ, FXP, GFIN, GUSH, HYUP, JDST, JNUG, JPN, LABD, LABU, LBJ, MDY, PTIN, RTL, SDOW, SOXS, SSG, TECS, TZA, UVXY, VIXY, VPC, XES, XOP, and YANG; total: 31.0. Neither analyst was wrong—their answers agree and match the database result."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "1",
+  "answer": "The financially troubled NASDAQ-listed companies with non-null 2008 average daily trading volume are: Apex Global Brands Inc. (APEX): 23781.422924901184; BIO-key International, Inc. (BKYI): 10988.142292490118; CBAK Energy Technology, Inc. (CBAT): 86223.32015810277; China Ceramics Co., Ltd. (CCCL): 4366.798418972332; Correvio Pharma Corp. (CORV): 145247.8260869565; CounterPath Corporation (CPAH): 375.49407114624506; DASAN Zhone Solutions, Inc. (DZSI): 15578.656126482214; Future FinTech Group Inc. (FTFT): 9.845238095238095; Frontier Communications Corporation (FTR): 254397.62845849802; Ideanomics, Inc. (IDEX): 10.276679841897232; Ocean Power Technologies, Inc. (OPTT): 254.1501976284585; Pacific Ethanol, Inc. (PEIX): 10706.719367588932; Synthesis Energy Systems, Inc. (SES): 2390.513833992095; Sunesis Pharmaceuticals, Inc. (SNSS): 781.8181818181819; Sypris Solutions, Inc. (SYPR): 36836.36363636364. Neither analyst is substantively wrong: both give the same 15 companies and identical averages, with only ordering and ticker-label differences."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "2",
+  "answer": "The financially troubled NASDAQ-listed companies with non-null 2008 average daily trading volume are Apex Global Brands Inc. (APEX): 23781.422924901184; BIO-key International, Inc. (BKYI): 10988.142292490118; CBAK Energy Technology, Inc. (CBAT): 86223.32015810277; China Ceramics Co., Ltd. (CCCL): 4366.798418972332; Correvio Pharma Corp. (CORV): 145247.8260869565; CounterPath Corporation (CPAH): 375.49407114624506; DASAN Zhone Solutions, Inc. (DZSI): 15578.656126482214; Frontier Communications Corporation (FTR): 254397.62845849802; Future FinTech Group Inc. (FTFT): 9.845238095238095; Ideanomics, Inc. (IDEX): 10.276679841897232; Ocean Power Technologies, Inc. (OPTT): 254.1501976284585; Pacific Ethanol, Inc. (PEIX): 10706.719367588932; Sunesis Pharmaceuticals, Inc. (SNSS): 781.8181818181819; Synthesis Energy Systems, Inc. (SES): 2390.513833992095; Sypris Solutions, Inc. (SYPR): 36836.36363636364. There is no substantive losing answer: both analysts list the same 15 tickers and identical averages, differing only in order and description formatting."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "3",
+  "answer": "The companies are Apex Global Brands Inc. (APEX): 23781.42292490118577075098814229249011858; BIO-key International, Inc. (BKYI): 10988.14229249011857707509881422924901186; CBAK Energy Technology, Inc. (CBAT): 86223.32015810276679841897233201581027668; China Ceramics Co., Ltd. (CCCL): 4366.798418972332015810276679841897233202; Correvio Pharma Corp. (CORV): 145247.8260869565217391304347826086956522; CounterPath Corporation (CPAH): 375.4940711462450592885375494071146245059; DASAN Zhone Solutions, Inc. (DZSI): 15578.65612648221343873517786561264822134; Future FinTech Group Inc. (FTFT): 9.845238095238095238095238095238095238095; Frontier Communications Corporation (FTR): 254397.6284584980237154150197628458498024; Ideanomics, Inc. (IDEX): 10.27667984189723320158102766798418972332; Ocean Power Technologies, Inc. (OPTT): 254.1501976284584980237154150197628458498; Pacific Ethanol, Inc. (PEIX): 10706.71936758893280632411067193675889328; Synthesis Energy Systems, Inc. (SES): 2390.513833992094861660079051383399209486; Sunesis Pharmaceuticals, Inc. (SNSS): 781.8181818181818181818181818181818181818; Sypris Solutions, Inc. (SYPR): 36836.36363636363636363636363636363636364. Analyst 2 was wrong because it included full company descriptions instead of only the requested company names."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "4",
+  "answer": "The companies are Apex Global Brands Inc. (APEX): 23781.422924901184; BIO-key International, Inc. (BKYI): 10988.142292490118; CBAK Energy Technology, Inc. (CBAT): 86223.32015810277; China Ceramics Co., Ltd. (CCCL): 4366.798418972332; Correvio Pharma Corp. (CORV): 145247.8260869565; CounterPath Corporation (CPAH): 375.49407114624506; DASAN Zhone Solutions, Inc. (DZSI): 15578.656126482214; Future FinTech Group Inc. (FTFT): 9.845238095238095; Frontier Communications Corporation (FTR): 254397.62845849802; Ideanomics, Inc. (IDEX): 10.276679841897232; Ocean Power Technologies, Inc. (OPTT): 254.1501976284585; Pacific Ethanol, Inc. (PEIX): 10706.719367588932; Synthesis Energy Systems, Inc. (SES): 2390.513833992095; Sunesis Pharmaceuticals, Inc. (SNSS): 781.8181818181819; Sypris Solutions, Inc. (SYPR): 36836.36363636364. Analyst 1 was the less precise answer because it omitted the ticker identifiers and returned full descriptions instead of exact ticker-linked company names."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "3",
+  "run": "5",
+  "answer": "The financially troubled NASDAQ-listed companies with non-null 2008 average daily trading volume are: Apex Global Brands Inc.: 23781.422924901184; BIO-key International, Inc.: 10988.142292490118; CBAK Energy Technology, Inc.: 86223.32015810277; China Ceramics Co., Ltd.: 4366.798418972332; Correvio Pharma Corp.: 145247.8260869565; CounterPath Corporation: 375.49407114624506; DASAN Zhone Solutions, Inc.: 15578.656126482214; Future FinTech Group Inc.: 9.845238095238095; Frontier Communications Corporation: 254397.62845849802; Ideanomics, Inc.: 10.276679841897232; Ocean Power Technologies, Inc.: 254.1501976284585; Pacific Ethanol, Inc.: 10706.719367588932; Synthesis Energy Systems, Inc.: 2390.513833992095; Sunesis Pharmaceuticals, Inc.: 781.8181818181819; Sypris Solutions, Inc.: 36836.36363636364. Analyst 2 was wrong because it reported full descriptions instead of company names, although its averages matched."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "1",
+  "answer": "The top five names are HDFC Bank Limited; Albany International Corporation; Getty Realty Corporation; Mettler-Toledo International, Inc.; and Pfizer, Inc. These are the five qualifying NYSE non-ETF stocks ranked by 2017 up-day count; Analyst 2 was wrong because it returned company descriptions rather than names."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "2",
+  "answer": "The top five names are HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., and Pfizer, Inc. Both analyst answers match this result, so there is no losing answer to correct."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "3",
+  "answer": "The top five are HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.; Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.; Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.; Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.; Pfizer, Inc. is a leading pharmaceutical giant known for developing life-saving medications and vaccines, including the widely recognized COVID-19 vaccine.. The analysts' answers are identical, so neither is a losing answer; Analyst 2 only states the ranking explicitly."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "4",
+  "answer": "The top 5 are HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., and Pfizer, Inc."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "4",
+  "run": "5",
+  "answer": "The top five are HDFC Bank Limited, Albany International Corporation, Getty Realty Corporation, Mettler-Toledo International, Inc., and Pfizer, Inc.. Analyst 1 was wrong because it supplied full company descriptions rather than only the requested names; Analyst 2 supplied the names correctly."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "1",
+  "answer": "The five companies are Synthesis Energy Systems, Inc.: 51.0 days; TD Holdings, Inc.: 42.0 days; TMSR Holding Company Limited: 40.0 days; Verb Technology Company, Inc.: 38.0 days; and Sunesis Pharmaceuticals, Inc.: 32.0 days. Both analysts gave the same result, so there is no losing answer to distinguish."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "2",
+  "answer": "The five companies are Synthesis Energy Systems, Inc.: 51.0 days; TD Holdings, Inc.: 42.0 days; TMSR Holding Company Limited: 40.0 days; Verb Technology Company, Inc.: 38.0 days; and Sunesis Pharmaceuticals, Inc.: 32.0 days. There was no losing answer because both analysts gave the same result."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "3",
+  "answer": "The five companies are: Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.: 51.0 days; TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials.: 42.0 days; TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes.: 40.0 days; Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth.: 38.0 days; Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease.: 32.0 days."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "4",
+  "answer": "The five companies are Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions. (SES): 51.0 days; TD Holdings, Inc. is involved in commodity trading and supply chain management, specializing in the distribution of non-ferrous metals and other industrial materials. (GLG): 42.0 days; TMSR Holding Company Limited engages in the development and distribution of advanced industrial materials, focusing on enhancing efficiency and sustainability in various manufacturing processes. (TMSR): 40.0 days; Verb Technology Company, Inc. specializes in developing interactive video-based sales and marketing applications designed to enhance customer engagement and drive business growth. (VERB): 38.0 days; and Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease. (SNSS): 32.0 days. Analyst 2 was wrong because it added unrequested descriptions; the rankings and counts agree."
+ },
+ {
+  "dataset": "stockmarket",
+  "query": "5",
+  "run": "5",
+  "answer": "The five companies are Synthesis Energy Systems, Inc.: 51.0 days; TD Holdings, Inc.: 42.0 days; TMSR Holding Company Limited: 40.0 days; Verb Technology Company, Inc.: 38.0 days; and Sunesis Pharmaceuticals, Inc.: 32.0 days. The two supplied analyst answers are identical, so there is no losing answer to distinguish."
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "1",
+  "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.547008547008547."
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "2",
+  "answer": "Indianapolis, Indiana: 3.55 (unrounded: 3.547008547008547). Analyst 1's value is the precise aggregate; Analyst 2's leading 3.55 is only its rounded form."
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "3",
+  "answer": "Indianapolis, Indiana: 3.547008547008547."
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "4",
+  "answer": "Indianapolis, Indiana: 3.547008547008547008547008547"
+ },
+ {
+  "dataset": "yelp",
+  "query": "1",
+  "run": "5",
+  "answer": "Indianapolis, Indiana: 3.55 (unrounded: 3.547008547008547). Analyst 1's 3.5 is only a one-decimal rounding; the exact mean rounds to 3.55 at two decimals."
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "1",
+  "answer": "Pennsylvania: 617.0 reviews; average rating: 3.7633711507293355. The losing result used an incorrect state/filter definition rather than the normalized businessid_ to businessref_ review join."
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "2",
+  "answer": "Pennsylvania: 3.76 average rating (unrounded: 3.76337115072933549432739059967585089141004862236628849270665). The losing answer was only a less-precise presentation of the same database average."
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "3",
+  "answer": "Pennsylvania: 3.7633711507293355 average rating (617.0 reviews). The losing figure used a different business-level aggregation rather than the rating mean over the 617.0 reviews matched after normalizing the businessid_ and businessref_ prefixes."
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "4",
+  "answer": "Pennsylvania: 662.0 reviews; average rating: 3.699395770392749. The lower 617.0 figure was wrong because the initial state filter missed a Pennsylvania business with a differently worded location description."
+ },
+ {
+  "dataset": "yelp",
+  "query": "2",
+  "run": "5",
+  "answer": "Pennsylvania: 617.0 reviews; average rating: 3.7633711507293355."
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "1",
+  "answer": "During 2018, 35.0 businesses that received reviews offered either business parking or bike parking. Analyst 2's 21.0 omitted businesses with BikeParking=True or a true BusinessParking mode."
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "2",
+  "answer": "During 2018, 35.0 businesses that received reviews offered either business parking or bike parking. The 21.0 answer was wrong because it undercounted the inclusive OR after correctly parsing the nested BusinessParking values and matching the business ID prefixes."
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "3",
+  "answer": "21.0 businesses received reviews during 2018 and offered business parking or bike parking."
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "4",
+  "answer": "During 2018, 21.0 businesses that received reviews offered either business parking or bike parking. The losing 35.0 answer treated parking attributes as offered without requiring their values to be true."
+ },
+ {
+  "dataset": "yelp",
+  "query": "3",
+  "run": "5",
+  "answer": "35.0 businesses received reviews during 2018 and offered either business parking or bike parking. The 20.0 figure is wrong because it applies a stricter intersection requiring both parking attributes instead of the requested OR."
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "1",
+  "answer": "Restaurants: 27.0 credit-card-accepting businesses; average rating: 3.63 (unrounded: 3.633676092544987). Analyst 1 was wrong because it applied an extra open-business restriction and counted only 23.0 businesses."
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "2",
+  "answer": "Shopping: 15.0 credit-card-accepting businesses; average rating: 3.3872549019607843137254901960784313725490196078431. The losing answer used an incomplete review filter or join and omitted valid ratings from the full qualifying population."
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "3",
+  "answer": "Restaurants: 27.0 businesses accepting credit card payments; average rating: 3.633676092544987. The losing answer was wrong because it used an incomplete category/filter match and omitted qualifying restaurant businesses."
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "4",
+  "answer": "Restaurants: 3.6407263294422827 average rating, based on 26.0 credit-card-accepting businesses. Analyst 1 used a different averaging population instead of the credit-card-filtered restaurant set."
+ },
+ {
+  "dataset": "yelp",
+  "query": "4",
+  "run": "5",
+  "answer": "Shopping: 3.482233502538071 average rating, with 11.0 businesses accepting credit card payments. The losing calculation was wrong because it omitted the BusinessAcceptsCreditCards=True filter."
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "1",
+  "answer": "Pennsylvania: 8.0 businesses offering WiFi; average rating: 3.48 (unrounded: 3.4839857651245554). The losing answer was wrong because it did not use the verified state-level count after normalizing the business-ID join."
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "2",
+  "answer": "Pennsylvania: 8.0 WiFi businesses; average rating: 3.48 (unrounded average: 3.4839857651245554). Analyst 1's 3.70 used an incorrect aggregation or review subset; the correct prefix-normalized join averages all 281.0 matching reviews."
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "3",
+  "answer": "Pennsylvania: 8.0 businesses offering WiFi; average rating: 3.48 (unrounded: 3.4839857651245554). Neither analyst is numerically wrong—their answers are identical apart from wording and order."
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "4",
+  "answer": "Pennsylvania: 3.48 (unrounded average: 3.4839857651245554). The unrounded-only response was wrong in presentation because it omitted the requested rounded value, although its underlying mean matched."
+ },
+ {
+  "dataset": "yelp",
+  "query": "5",
+  "run": "5",
+  "answer": "Pennsylvania: 8.0 businesses offering WiFi; average rating: 3.4839857651245554."
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "1",
+  "answer": "Coffee House Too Cafe: 4.375 average rating; category: Restaurants, Breakfast & Brunch, American (New), Cafes. The 4.0 result was wrong because the qualifying reviews totaled 35.0 points across 8.0 reviews, giving an average of 4.375."
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "2",
+  "answer": "Coffee House Too Cafe: 4.375 average rating; category: Restaurants, Breakfast & Brunch, American (New), Cafes. Neither analyst answer was wrong; both reported the same result."
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "3",
+  "answer": "Coffee House Too Cafe: 4.375 average rating from 16.0 reviews; category: Restaurants (also recorded under Breakfast & Brunch, American (New), and Cafes). Analyst 2 was incomplete because it omitted the other recorded category tags."
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "4",
+  "answer": "Coffee House Too Cafe: average rating 4.0; category: Restaurants, Breakfast & Brunch, American (New), Cafes. The 4.375 answer is wrong because the five qualifying reviews total 20.0 rating points, yielding 4.0."
+ },
+ {
+  "dataset": "yelp",
+  "query": "6",
+  "run": "5",
+  "answer": "Coffee House Too Cafe: 4.375 average rating; category: Restaurants, Breakfast & Brunch, American (New), Cafes, perfect for a cozy meal any time of the day. Analyst 2 was wrong because it used an incomplete date-format subset."
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "1",
+  "answer": "Restaurants: 58.0 reviews; Food: 33.0 reviews; American (New): 24.0 reviews; Shopping: 20.0 reviews; Breakfast & Brunch: 19.0 reviews. Analyst 1 was wrong because it counted only reviews during 2016 instead of all reviews dated 2016 or later."
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "2",
+  "answer": "The top five business categories are Restaurants: 22.0 reviews; Food: 21.0 reviews; Shopping: 17.0 reviews; American (New): 16.0 reviews; Local Services: 16.0 reviews. Analyst 1 was wrong because it omitted valid records when handling the mixed-format dates."
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "3",
+  "answer": "Restaurants: 55.0 total reviews; Food: 38.0 total reviews; American (New): 24.0 total reviews; Shopping: 20.0 total reviews; Breakfast & Brunch: 19.0 total reviews. Analyst 1 was wrong because it undercounted Food by 9.0 and Shopping by 1.0."
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "4",
+  "answer": "Restaurants: 22.0 reviews; Food: 21.0 reviews; Shopping: 17.0 reviews; American (New): 16.0 reviews; Local Services: 16.0 reviews. The losing answer used an incorrect review-period filter."
+ },
+ {
+  "dataset": "yelp",
+  "query": "7",
+  "run": "5",
+  "answer": "Restaurants: 58.0 reviews; Food: 38.0 reviews; American (New): 24.0 reviews; Shopping: 20.0 reviews; Breakfast & Brunch: 19.0 reviews. Analyst 2 was wrong because it matched only one registration-date format, excluding many qualifying users and their reviews."
+ }
+]
