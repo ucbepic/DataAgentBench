@@ -423,7 +423,7 @@
   "dataset": "agnews",
   "query": "3",
   "run": "1",
-  "answer": "The average is 336.6363636363636 business articles per year in Europe from 2010.0 through 2020.0 inclusive (3703.0 articles across 11.0 years). Analyst 1 was wrong because its category filter undercounted Business articles by 61.0 articles."
+  "answer": ""
  },
  {
   "dataset": "agnews",
@@ -453,13 +453,13 @@
   "dataset": "agnews",
   "query": "4",
   "run": "1",
-  "answer": "Africa: 338.0 articles. The losing response was wrong because it omitted a region and count; the database-derived 2015 World-category totals show Africa is highest at 338.0."
+  "answer": ""
  },
  {
   "dataset": "agnews",
   "query": "4",
   "run": "2",
-  "answer": "Africa: 338.0 articles. The other answer was incomplete because it omitted the verified article count."
+  "answer": ""
  },
  {
   "dataset": "agnews",
@@ -477,7 +477,7 @@
   "dataset": "agnews",
   "query": "4",
   "run": "5",
-  "answer": "Africa: 338.0"
+  "answer": ""
  },
  {
   "dataset": "bookreview",
