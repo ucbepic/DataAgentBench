@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30",
+  "updatedAt": "2026-09-04",
   "sources": [
     "DEPS_DEV_V1 query 1 re-scored 2026-08-18 by re-running its validate.py under a revised validator (accepting any of the 95 packages tied at fifth place on 57779 stars rather than the single tied package recorded in ground_truth.csv, see issue #86), from the same submission JSONs, with no other query changed",
     "All Pass@1 scores recomputed 2026-06-12 by re-running each query's validate.py under the current validators (including the regenerated PATENTS ground truths), from the submission JSONs in this repository or in the corresponding submission PR branches",
@@ -161,6 +161,18 @@
     },
     {
       "rank": 14,
+      "agent": "Phoenix-CLI (Claude Opus 5)",
+      "trials": 5,
+      "passAt1": 0.7556,
+      "promptGroup": "general-purpose",
+      "team": "Phoenix-CLI",
+      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/94",
+      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/94",
+      "date": "2026-09-04",
+      "note": "Claude Code CLI driven one query per process (claude --print), Claude Opus 5, hints used, generic data-analyst system prompt. All data access goes through a helper that reads each dataset's own db_config.yaml; WebSearch and WebFetch disallowed (0 web calls across 270 traces); nested model CLIs shadowed by refusing shims. Scored on the text after the agent's own FINAL ANSWER: marker."
+    },
+    {
+      "rank": 15,
       "agent": "AgenDA + Claude Opus 4.8",
       "trials": 5,
       "passAt1": 0.7244,
@@ -171,7 +183,7 @@
       "date": "2026-07-10"
     },
     {
-      "rank": 15,
+      "rank": 16,
       "agent": "fabric-rlm (GPT-5.6 Luna Max)",
       "trials": 5,
       "passAt1": 0.6956,
@@ -183,7 +195,7 @@
       "note": "Notebook-importable Recursive Language Model library (PyPI fabric-rlm), not an agent CLI: per trial the dataset's sanctioned stores are consolidated into one DuckDB file and solved twice in fresh contexts, with a code-based agreement check and a reconciler on disagreement. Uses db_description_withhint.txt hints. 8 of 270 agnews records counted as non-passes: q3 trial 1 and q4 trials 1, 2 and 5 loaded the external HuggingFace ag_news gold labels, and q3 trials 2-5 submitted the gold value with no derivation anywhere in the supplied traces. No off-limits filesystem access anywhere in the run, no gold values in prompts, no per-dataset rules or validator references. Traces cover the winning ensemble stage only, one per trial."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "agent": "Altimate Code + Claude Sonnet 4.6",
       "trials": 5,
       "passAt1": 0.6822,
@@ -194,7 +206,7 @@
       "date": "2026-05-10"
     },
     {
-      "rank": 17,
+      "rank": 18,
       "agent": "Spacedock (Recce) + Claude Opus 4.8",
       "trials": 5,
       "passAt1": 0.6804,
@@ -205,7 +217,7 @@
       "date": "2026-06-08"
     },
     {
-      "rank": 18,
+      "rank": 19,
       "agent": "MinusX + Claude Sonnet 4.6 + GPT-5.5-mini + Claude Haiku 4.5",
       "trials": 5,
       "passAt1": 0.6601,
@@ -216,7 +228,7 @@
       "date": "2026-05-21"
     },
     {
-      "rank": 19,
+      "rank": 20,
       "agent": "DataBridge + GLM-5.2",
       "trials": 6,
       "passAt1": 0.6137,
@@ -228,7 +240,7 @@
       "note": "6-run average; only 1 run includes open-source execution traces; runs on a large system prompt that hard-codes dataset-specific handling rules (e.g. bracket-notation null codes, weighted decade-averaging, diacritic/parenthetical normalization)"
     },
     {
-      "rank": 20,
+      "rank": 21,
       "agent": "Pi Coding Agent + Claude Opus 4.6",
       "trials": 5,
       "passAt1": 0.6103,
@@ -239,7 +251,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 21,
+      "rank": 22,
       "agent": "LabRat (Claude Sonnet 4.6 + Cartographer)",
       "trials": 5,
       "passAt1": 0.6088,
@@ -250,7 +262,7 @@
       "date": "2026-06-24"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "agent": "PromptQL + Gemini 3.1 Pro",
       "trials": 5,
       "passAt1": 0.6,
@@ -261,7 +273,7 @@
       "date": "2026-03-18"
     },
     {
-      "rank": 23,
+      "rank": 24,
       "agent": "PromptQL + Claude Opus 4.6",
       "trials": 5,
       "passAt1": 0.5933,
@@ -272,7 +284,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 24,
+      "rank": 25,
       "agent": "Spacedock (Recce) + Claude Opus 4.6",
       "trials": 5,
       "passAt1": 0.5828,
@@ -283,7 +295,7 @@
       "date": "2026-05-08"
     },
     {
-      "rank": 25,
+      "rank": 26,
       "agent": "Claude Opus 4.6 ReAct",
       "trials": 5,
       "passAt1": 0.5551,
@@ -294,7 +306,7 @@
       "date": "2026-03-18"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "agent": "LabRat (Claude Sonnet 4.6)",
       "trials": 5,
       "passAt1": 0.5138,
@@ -305,7 +317,7 @@
       "date": "2026-06-01"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "agent": "Oracle Forge (Team PaLM) + Gemini 3.1 Pro Preview",
       "trials": 5,
       "passAt1": 0.4721,
@@ -316,7 +328,7 @@
       "date": "2026-04-19"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "agent": "Gemini-3-Pro ReAct",
       "trials": 50,
       "passAt1": 0.4663,
@@ -326,7 +338,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "agent": "nQuery (gpt-oss-safeguard-120b)",
       "trials": 5,
       "passAt1": 0.4547,
@@ -338,7 +350,7 @@
       "note": "Uses the sanctioned db_description_withhint.txt files (hints used), despite the PR's 'Hint: No' label."
     },
     {
-      "rank": 30,
+      "rank": 31,
       "agent": "Oracle Forge (Tenacious Intelligence) + Claude Sonnet 4.6",
       "trials": 5,
       "passAt1": 0.4464,
@@ -349,7 +361,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 31,
+      "rank": 32,
       "agent": "GPT-5-mini ReAct",
       "trials": 50,
       "passAt1": 0.3663,
@@ -359,7 +371,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "agent": "GPT-5.2 ReAct",
       "trials": 50,
       "passAt1": 0.2991,
@@ -369,7 +381,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 33,
+      "rank": 34,
       "agent": "Kimi-K2 ReAct",
       "trials": 50,
       "passAt1": 0.2925,
@@ -379,7 +391,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 34,
+      "rank": 35,
       "agent": "Oracle Forge (Team Cohere) + Gemini 2.0 Flash",
       "trials": 5,
       "passAt1": 0.1671,
@@ -390,7 +402,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "agent": "Gemini-2.5-Flash ReAct",
       "trials": 50,
       "passAt1": 0.1049,
