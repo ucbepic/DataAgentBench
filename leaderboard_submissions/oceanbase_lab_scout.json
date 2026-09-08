@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "The 2020s has the highest average rating among decades of publication with at least 10 distinct rated books.\n\nMethod: I parsed each book's publication year from the `details` text field in books_info using a SQL regex (matching month + day, year forms), grouped books into publication decades (pub_year - (pub_year % 10)), linked books to reviews via the shared numeric suffix of `book_id`↔`purchase_id` (e.g., bookid_3 ↔ purchaseid_3), filtered to decades with ≥10 distinct rated books, and computed the row-weighted average of all individual review ratings per decade.\n\nQualified decades (≥10 distinct rated books), ranked by average rating:\n- 2020s: 4.6636 avg (21 distinct books, 110 reviews) ← highest\n- 2010s: 4.6086 avg (88 distinct books, 1257 reviews)\n- 2000s: 4.2737 avg (46 distinct books, 285 reviews)\n- 1980s: 4.2083 avg (11 distinct books, 72 reviews)\n- 1990s: 3.8382 avg (17 distinct books, 68 reviews)\n\nAnswer: 2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "2020s\n\nAmong decades with at least 10 distinct books that have been rated, the 2020s has the highest average rating.\n\nDecades ranked by average rating (row-weighted mean of all review ratings in each decade, restricted to decades with ≥10 distinct rated books):\n- 2020s: 4.6636 average rating (21 distinct books, 110 reviews)\n- 2010s: 4.6086 (88 distinct books, 1257 reviews)\n- 2000s: 4.2762 (47 distinct books, 286 reviews)\n- 1980s: 4.2083 (11 distinct books, 72 reviews)\n- 1990s: 3.8235 (17 distinct books, 68 reviews)\n\nMethod: Joined books_database.books_info to review_database.review on the normalized book identifiers (book_id \"bookid_N\" ↔ purchase_id \"purchaseid_N\"). Publication year was parsed from the natural-language publication date embedded in each book's `details` text (relation-aware extraction anchored on terms like \"published\"/\"released\"/\"edition on\"). Each book's year was bucketed into a decade (floor(year/10)*10), and the average rating per decade was computed as the mean of all individual review ratings (all 1833 reviews are non-null) in that decade. The 2020s is strictly the top value with no boundary ties."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "2020s\n\nThe 2020s decade has the highest average rating (≈4.6636) among decades with at least 10 distinct rated books. Eligible decades ranked by average review rating (row-weighted mean of all review ratings): 2020s (4.6636, 21 distinct books, 110 reviews), 2010s (4.6086, 88 books, 1257 reviews), 2000s (4.2737, 46 books, 285 reviews), 1980s (4.2083, 11 books, 72 reviews), 1990s (3.8406, 18 books, 69 reviews)."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "decade: 2020s, avg_rating: 4.6636363636, distinct_books: 21, num_reviews: 110"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "period: 2020s, avg_rating: 4.6636363636, distinct_books: 21"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "**15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0:**\n\n| # | Book Title | Avg Rating | Review Count |\n|---|-----------|------------|--------------|\n| 1 | Can You Buy Me The Wind? | 5.0 | 6 |\n| 2 | Childe Harold of Dysna | 5.0 | 1 |\n| 3 | Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | 5.0 | 8 |\n| 4 | Exits, Desires, & Slow Fires | 5.0 | 3 |\n| 5 | Fire Cracker | 5.0 | 2 |\n| 6 | Forged in Blood (Freehold) | 5.0 | 6 |\n| 7 | Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | 5.0 | 1 |\n| 8 | Knowing When To Die: Uncollected Stories | 5.0 | 2 |\n| 9 | Kennebago Moments | 5.0 | 1 |\n| 10 | Liza of Lambeth | 5.0 | 1 |\n| 11 | Local Honey | 5.0 | 2 |\n| 12 | Reunion: The Children of Lauderdale Park | 5.0 | 3 |\n| 13 | Something That Feels Like Truth (Switchgrass Books) | 5.0 | 2 |\n| 14 | The Melancholy Strumpet Master | 5.0 | 2 |\n| 15 | The Prophet: With Original 1923 Illustrations by the Author | 5.0 | 4 |\n| 16 | The Sludge | 5.0 | 1 |\n\n**Method:** Books were filtered to those in the 'Literature & Fiction' category (per the `categories` field) and written in English (per the `details` field). Average ratings were computed from all reviews in `review_database.review`, joining via `book_id` (books) → `purchase_id` (reviews). Only books whose mean rating equals exactly 5.0 are listed above."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "title: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message, avg_rating: 5.0\ntitle: Childe Harold of Dysna, avg_rating: 5.0\ntitle: Exits, Desires, & Slow Fires, avg_rating: 5.0\ntitle: Fire Cracker, avg_rating: 5.0\ntitle: Forged in Blood (Freehold), avg_rating: 5.0\ntitle: Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries), avg_rating: 5.0\ntitle: Kennebago Moments, avg_rating: 5.0\ntitle: Knowing When To Die: Uncollected Stories, avg_rating: 5.0\ntitle: Liza of Lambeth, avg_rating: 5.0\ntitle: Local Honey, avg_rating: 5.0\ntitle: Reunion: The Children of Lauderdale Park, avg_rating: 5.0\ntitle: Something That Feels Like Truth (Switchgrass Books), avg_rating: 5.0\ntitle: The Melancholy Strumpet Master, avg_rating: 5.0\ntitle: The Prophet: With Original 1923 Illustrations by the Author, avg_rating: 5.0\ntitle: The Sludge, avg_rating: 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0:\n\n1. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message — avg 5.0 (8 reviews)\n2. Childe Harold of Dysna — avg 5.0 (1 review)\n3. Exits, Desires, & Slow Fires — avg 5.0 (3 reviews)\n4. Fire Cracker — avg 5.0 (2 reviews)\n5. Forged in Blood (Freehold) — avg 5.0 (6 reviews)\n6. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) — avg 5.0 (1 review)\n7. Kennebago Moments — avg 5.0 (1 review)\n8. Knowing When To Die: Uncollected Stories — avg 5.0 (2 reviews)\n9. Liza of Lambeth — avg 5.0 (1 review)\n10. Local Honey — avg 5.0 (2 reviews)\n11. Reunion: The Children of Lauderdale Park — avg 5.0 (3 reviews)\n12. Something That Feels Like Truth (Switchgrass Books) — avg 5.0 (2 reviews)\n13. The Melancholy Strumpet Master — avg 5.0 (2 reviews)\n14. The Prophet: With Original 1923 Illustrations by the Author — avg 5.0 (4 reviews)\n15. The Sludge — avg 5.0 (1 review)\n\nMethodology: Filtered books_info for the 'Literature & Fiction' category (40 books), confirmed English language from the details field, joined to the review table via book_id → purchase_id (prefix swap bookid_N → purchaseid_N), computed the row-weighted mean rating per book, and selected those with an average of exactly 5.0."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0. All matching books received only 5-star reviews (every review rating = 5):\n\n1. Reunion: The Children of Lauderdale Park (3 reviews)\n2. The Prophet: With Original 1923 Illustrations by the Author (4 reviews)\n3. The Melancholy Strumpet Master (2 reviews)\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message (8 reviews)\n5. Fire Cracker (2 reviews)\n6. Local Honey (2 reviews)\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) (1 review)\n8. Knowing When To Die: Uncollected Stories (2 reviews)\n9. Childe Harold of Dysna (1 review)\n10. Forged in Blood (Freehold) (6 reviews)\n11. Exits, Desires, & Slow Fires (3 reviews)\n12. Kennebago Moments (1 review)\n13. The Sludge (1 review)\n14. Liza of Lambeth (1 review)\n15. Something That Feels Like Truth (Switchgrass Books) (2 reviews)\n\nMethodology: Books were filtered to the 'Literature & Fiction' category (from the categories field in books_database.books_info) and confirmed as English-language via the details field. Each book's book_id (bookid_N) was fuzzy-joined to review_database.review.purchase_id (purchaseid_N) by matching the numeric suffix N, and the average review rating was computed across all reviews for each book. Only books whose mean rating equals exactly 5.0 are listed."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0 (every review gave a 5-star rating):\n\n1. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message (8 reviews, avg 5.0)\n2. Childe Harold of Dysna (1 review, avg 5.0)\n3. Exits, Desires, & Slow Fires (3 reviews, avg 5.0)\n4. Fire Cracker (2 reviews, avg 5.0)\n5. Forged in Blood (Freehold) (6 reviews, avg 5.0)\n6. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) (1 review, avg 5.0)\n7. Kennebago Moments (1 review, avg 5.0)\n8. Knowing When To Die: Uncollected Stories (2 reviews, avg 5.0)\n9. Liza of Lambeth (1 review, avg 5.0)\n10. Local Honey (2 reviews, avg 5.0)\n11. Reunion: The Children of Lauderdale Park (3 reviews, avg 5.0)\n12. Something That Feels Like Truth (Switchgrass Books) (2 reviews, avg 5.0)\n13. The Melancholy Strumpet Master (2 reviews, avg 5.0)\n14. The Prophet: With Original 1923 Illustrations by the Author (4 reviews, avg 5.0)\n15. The Sludge (1 review, avg 5.0)\n\nThese were identified by joining books_info (filtered to the 'Literature & Fiction' category and English-language books per the details field — 40 books) with the review table (1833 reviews) via the book_id/purchase_id keys, computing the row-weighted mean rating per book, and selecting those whose average equals exactly 5.0."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "title: The Library Book, avg_rating: 5.0, review_count: 3\ntitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1), avg_rating: 5.0, review_count: 1\ntitle: The Old Man and the Pirate Princess, avg_rating: 5.0, review_count: 1\ntitle: LunaLu the Llamacorn, avg_rating: 5.0, review_count: 3\ntitle: Around the World Mazes, avg_rating: 5.0, review_count: 1\ntitle: Pokémon: Sun & Moon, Vol. 8 (8), avg_rating: 5.0, review_count: 1\ntitle: Monstrous Stories #4: The Day the Mice Stood Still, avg_rating: 5.0, review_count: 1\ntitle: Egypt (Enchantment of the World), avg_rating: 5.0, review_count: 1\ntitle: Favorite Thorton W. Burgess Stories: 6 Books, avg_rating: 5.0, review_count: 3\ntitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised), avg_rating: 5.0, review_count: 1\ntitle: Cheer Up, Ben Franklin! (Young Historians), avg_rating: 5.0, review_count: 1\ntitle: Trouble in the CTC!: The Terra Prime Adventures Book 2, avg_rating: 4.9, review_count: 10\ntitle: Clark the Shark: Tooth Trouble, No. 1, avg_rating: 4.75, review_count: 4\ntitle: Cleo Porter and the Body Electric, avg_rating: 4.7083333333, review_count: 24"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "title: The Library Book, avg_rating: 5.0, review_count: 3\ntitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1), avg_rating: 5.0, review_count: 1\ntitle: The Old Man and the Pirate Princess, avg_rating: 5.0, review_count: 1\ntitle: LunaLu the Llamacorn, avg_rating: 5.0, review_count: 3\ntitle: Around the World Mazes, avg_rating: 5.0, review_count: 1\ntitle: Pokémon: Sun & Moon, Vol. 8 (8), avg_rating: 5.0, review_count: 1\ntitle: Monstrous Stories #4: The Day the Mice Stood Still, avg_rating: 5.0, review_count: 1\ntitle: Egypt (Enchantment of the World), avg_rating: 5.0, review_count: 1\ntitle: Favorite Thorton W. Burgess Stories: 6 Books, avg_rating: 5.0, review_count: 3\ntitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised), avg_rating: 5.0, review_count: 1\ntitle: Cheer Up, Ben Franklin! (Young Historians), avg_rating: 5.0, review_count: 1\ntitle: Trouble in the CTC!: The Terra Prime Adventures Book 2, avg_rating: 4.9, review_count: 10\ntitle: Clark the Shark: Tooth Trouble, No. 1, avg_rating: 4.75, review_count: 4\ntitle: Cleo Porter and the Body Electric, avg_rating: 4.7083333333, review_count: 24"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "title: The Library Book, avg_rating: 5.0, review_count: 3\ntitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1), avg_rating: 5.0, review_count: 1\ntitle: The Old Man and the Pirate Princess, avg_rating: 5.0, review_count: 1\ntitle: LunaLu the Llamacorn, avg_rating: 5.0, review_count: 3\ntitle: Around the World Mazes, avg_rating: 5.0, review_count: 1\ntitle: Pokémon: Sun & Moon, Vol. 8 (8), avg_rating: 5.0, review_count: 1\ntitle: Monstrous Stories #4: The Day the Mice Stood Still, avg_rating: 5.0, review_count: 1\ntitle: Egypt (Enchantment of the World), avg_rating: 5.0, review_count: 1\ntitle: Favorite Thorton W. Burgess Stories: 6 Books, avg_rating: 5.0, review_count: 3\ntitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised), avg_rating: 5.0, review_count: 1\ntitle: Cheer Up, Ben Franklin! (Young Historians), avg_rating: 5.0, review_count: 1\ntitle: Trouble in the CTC!: The Terra Prime Adventures Book 2, avg_rating: 4.9, review_count: 10\ntitle: Clark the Shark: Tooth Trouble, No. 1, avg_rating: 4.75, review_count: 4\ntitle: Cleo Porter and the Body Electric, avg_rating: 4.7083333333, review_count: 24"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "title: A Most Dangerous Book: Tacitus's Germania from the Roman Empire to the Third Reich, avg_rating: 5.0, review_count: 1\ntitle: Around the World Mazes, avg_rating: 5.0, review_count: 1\ntitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised), avg_rating: 5.0, review_count: 1\ntitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1), avg_rating: 5.0, review_count: 1\ntitle: Bisous and Brioche: Classic French Recipes and Family Favorites from a Life in France, avg_rating: 5.0, review_count: 14\ntitle: Carthage: A Survey of Punic History and Culture from Its Birth to the Final Tragedy (Great Civilizations Series), avg_rating: 5.0, review_count: 1\ntitle: Cheer Up, Ben Franklin! (Young Historians), avg_rating: 5.0, review_count: 1\ntitle: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message, avg_rating: 5.0, review_count: 8\ntitle: Childe Harold of Dysna, avg_rating: 5.0, review_count: 1\ntitle: Clark Weber's Rock and Roll Radio: The Fun Years, 1955-1975, avg_rating: 5.0, review_count: 3\ntitle: Coleman National Forest Campground and Recreation Directory: The Only Complete Guide to All National Forest Campgrounds, avg_rating: 5.0, review_count: 1\ntitle: Consort (A Dark(ish) Faerie Tale Book 3), avg_rating: 5.0, review_count: 1\ntitle: Dine In!, avg_rating: 5.0, review_count: 1\ntitle: Ed Delahanty in the Emerald Age of Baseball, avg_rating: 5.0, review_count: 1\ntitle: Egypt (Enchantment of the World), avg_rating: 5.0, review_count: 1\ntitle: Favorite Thorton W. Burgess Stories: 6 Books, avg_rating: 5.0, review_count: 3\ntitle: Forged in Blood (Freehold), avg_rating: 5.0, review_count: 4\ntitle: Four Centuries of American Education, avg_rating: 5.0, review_count: 4\ntitle: Greek mythology, avg_rating: 5.0, review_count: 1\ntitle: Heart of Silk and Shadows: A Fae Fantasy Romance (Fae Isles), avg_rating: 5.0, review_count: 1\ntitle: Introduction to Dental Local Anaesthesia, avg_rating: 5.0, review_count: 1\ntitle: Jealousy, avg_rating: 5.0, review_count: 3\ntitle: Liza of Lambeth, avg_rating: 5.0, review_count: 1\ntitle: LunaLu the Llamacorn, avg_rating: 5.0, review_count: 3\ntitle: Modern Fishing Lure Collectibles, Vol. 3: Identification & Value Guide, avg_rating: 5.0, review_count: 1\ntitle: Mongoose, R.I.P., avg_rating: 5.0, review_count: 1\ntitle: Monstrous Stories #4: The Day the Mice Stood Still, avg_rating: 5.0, review_count: 1\ntitle: More Together: 25 Years of Peer Practice at On Our Own Charlottesville, avg_rating: 5.0, review_count: 1\ntitle: No Telephone to Heaven, avg_rating: 5.0, review_count: 1\ntitle: Oregon Birds: A Folding Pocket Guide to Familiar Species (Wildlife and Nature Identification), avg_rating: 5.0, review_count: 1\ntitle: Pokémon: Sun & Moon, Vol. 8 (8), avg_rating: 5.0, review_count: 1\ntitle: SCUBA SHARK - Diving - Vinyl Car Decal Sticker #1329 | Vinyl Color: White, avg_rating: 5.0, review_count: 1\ntitle: Service: A Navy SEAL at War, avg_rating: 5.0, review_count: 2\ntitle: Shane, Sheba and Sky: From Abandoned to Loved, How Three Rescue Dogs Transformed One Man's Life, avg_rating: 5.0, review_count: 2\ntitle: Six Gun Sound: The Early History of the Los Angeles County Sheriff's Department, avg_rating: 5.0, review_count: 2\ntitle: The Book And The Map: New insights into Book of Mormon Geography, avg_rating: 5.0, review_count: 1\ntitle: The Library Book, avg_rating: 5.0, review_count: 3\ntitle: The Marquess' Rose: A Regency Romance (Ladies of the North), avg_rating: 5.0, review_count: 2\ntitle: The Melancholy Strumpet Master, avg_rating: 5.0, review_count: 2\ntitle: The Old Man and the Pirate Princess, avg_rating: 5.0, review_count: 1\ntitle: The Prophet: With Original 1923 Illustrations by the Author, avg_rating: 5.0, review_count: 2\ntitle: The Secret Thoughts of an Unlikely Convert : An English Professor's Journey into Christian Faith, avg_rating: 5.0, review_count: 1\ntitle: The Soaring Pilot's Manual, avg_rating: 5.0, review_count: 2\ntitle: Tip the Scales: Road Trip Romance, Book 1, avg_rating: 5.0, review_count: 1\ntitle: Tom Selleck: An Unauthorized Biography, avg_rating: 5.0, review_count: 1\ntitle: Wasted Calories and Ruined Nights: A Journey Deeper into Dining Hell, avg_rating: 5.0, review_count: 1\ntitle: Writings from a Black Woman Living in the Land of the \"Free\": Strength, Power, Resilience, avg_rating: 5.0, review_count: 2\ntitle: Girl Made of Glass, avg_rating: 4.9230769231, review_count: 13\ntitle: Trouble in the CTC!: The Terra Prime Adventures Book 2, avg_rating: 4.9, review_count: 10\ntitle: Welding Symbols Quick Card (English and Ukrainian Edition), avg_rating: 4.7959183673, review_count: 49\ntitle: Clark the Shark: Tooth Trouble, No. 1, avg_rating: 4.75, review_count: 4\ntitle: Coffee Cup Cozies (Christmas Crochet Book 1), avg_rating: 4.75, review_count: 4\ntitle: The Mid-Atlantic Championship, avg_rating: 4.75, review_count: 8\ntitle: Make: Electronics: Learning Through Discovery, avg_rating: 4.7096774194, review_count: 31\ntitle: Cleo Porter and the Body Electric, avg_rating: 4.7083333333, review_count: 24\ntitle: Sunrise Highway (Lourdes Robles Novels Book 2), avg_rating: 4.5, review_count: 2\ntitle: The Mercenary Code (The Shattering of Kingdoms), avg_rating: 4.5, review_count: 2\ntitle: The Promise of Love (The Book of Love), avg_rating: 4.5, review_count: 2\ntitle: Time's Demon: BOOK II OF THE ISLEVALE CYCLE, avg_rating: 4.5, review_count: 2"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "title: Four Centuries of American Education, avg_rating: 5.0, review_count: 4\ntitle: Greek mythology, avg_rating: 5.0, review_count: 1\ntitle: The Library Book, avg_rating: 5.0, review_count: 3\ntitle: Tip the Scales: Road Trip Romance, Book 1, avg_rating: 5.0, review_count: 1\ntitle: The Mid-Atlantic Championship, avg_rating: 4.75, review_count: 8\ntitle: Introduction to Dental Local Anaesthesia, avg_rating: 5.0, review_count: 1\ntitle: Heart of Silk and Shadows: A Fae Fantasy Romance (Fae Isles), avg_rating: 5.0, review_count: 1\ntitle: Childe Harold of Dysna, avg_rating: 5.0, review_count: 1\ntitle: Carthage: A Survey of Punic History and Culture from Its Birth to the Final Tragedy (Great Civilizations Series), avg_rating: 5.0, review_count: 1\ntitle: The Book And The Map: New insights into Book of Mormon Geography, avg_rating: 5.0, review_count: 1\ntitle: Girl Made of Glass, avg_rating: 4.9230769231, review_count: 13\ntitle: Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1), avg_rating: 5.0, review_count: 1\ntitle: The Old Man and the Pirate Princess, avg_rating: 5.0, review_count: 1\ntitle: Forged in Blood (Freehold), avg_rating: 5.0, review_count: 4\ntitle: LunaLu the Llamacorn, avg_rating: 5.0, review_count: 3\ntitle: Trouble in the CTC!: The Terra Prime Adventures Book 2, avg_rating: 4.9, review_count: 10\ntitle: Around the World Mazes, avg_rating: 5.0, review_count: 1\ntitle: Jealousy, avg_rating: 5.0, review_count: 3\ntitle: Cleo Porter and the Body Electric, avg_rating: 4.7083333333, review_count: 24\ntitle: Time's Demon: BOOK II OF THE ISLEVALE CYCLE, avg_rating: 4.5, review_count: 2\ntitle: No Telephone to Heaven, avg_rating: 5.0, review_count: 1\ntitle: Pokémon: Sun & Moon, Vol. 8 (8), avg_rating: 5.0, review_count: 1\ntitle: Six Gun Sound: The Early History of the Los Angeles County Sheriff's Department, avg_rating: 5.0, review_count: 2\ntitle: Welding Symbols Quick Card (English and Ukrainian Edition), avg_rating: 4.7959183673, review_count: 49\ntitle: Liza of Lambeth, avg_rating: 5.0, review_count: 1\ntitle: The Marquess' Rose: A Regency Romance (Ladies of the North), avg_rating: 5.0, review_count: 2\ntitle: Wasted Calories and Ruined Nights: A Journey Deeper into Dining Hell, avg_rating: 5.0, review_count: 1\ntitle: Consort (A Dark(ish) Faerie Tale Book 3), avg_rating: 5.0, review_count: 1\ntitle: Clark Weber's Rock and Roll Radio: The Fun Years, 1955-1975, avg_rating: 5.0, review_count: 3\ntitle: The Secret Thoughts of an Unlikely Convert : An English Professor's Journey into Christian Faith, avg_rating: 5.0, review_count: 1\ntitle: SCUBA SHARK - Diving - Vinyl Car Decal Sticker #1329 | Vinyl Color: White, avg_rating: 5.0, review_count: 1\ntitle: Coleman National Forest Campground and Recreation Directory: The Only Complete Guide to All National Forest Campgrounds, avg_rating: 5.0, review_count: 1\ntitle: Dine In!, avg_rating: 5.0, review_count: 1\ntitle: The Promise of Love (The Book of Love), avg_rating: 4.5, review_count: 2\ntitle: Service: A Navy SEAL at War, avg_rating: 5.0, review_count: 2\ntitle: More Together: 25 Years of Peer Practice at On Our Own Charlottesville, avg_rating: 5.0, review_count: 1\ntitle: A Most Dangerous Book: Tacitus's Germania from the Roman Empire to the Third Reich, avg_rating: 5.0, review_count: 1\ntitle: The Prophet: With Original 1923 Illustrations by the Author, avg_rating: 5.0, review_count: 2\ntitle: The Melancholy Strumpet Master, avg_rating: 5.0, review_count: 2\ntitle: Monstrous Stories #4: The Day the Mice Stood Still, avg_rating: 5.0, review_count: 1\ntitle: Egypt (Enchantment of the World), avg_rating: 5.0, review_count: 1\ntitle: Shane, Sheba and Sky: From Abandoned to Loved, How Three Rescue Dogs Transformed One Man's Life, avg_rating: 5.0, review_count: 2\ntitle: Oregon Birds: A Folding Pocket Guide to Familiar Species (Wildlife and Nature Identification), avg_rating: 5.0, review_count: 1\ntitle: Clark the Shark: Tooth Trouble, No. 1, avg_rating: 4.75, review_count: 4\ntitle: The Mercenary Code (The Shattering of Kingdoms), avg_rating: 4.5, review_count: 2\ntitle: Favorite Thorton W. Burgess Stories: 6 Books, avg_rating: 5.0, review_count: 3\ntitle: Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised), avg_rating: 5.0, review_count: 1\ntitle: Writings from a Black Woman Living in the Land of the \"Free\": Strength, Power, Resilience, avg_rating: 5.0, review_count: 2\ntitle: Tom Selleck: An Unauthorized Biography, avg_rating: 5.0, review_count: 1\ntitle: The Soaring Pilot's Manual, avg_rating: 5.0, review_count: 2\ntitle: Sunrise Highway (Lourdes Robles Novels Book 2), avg_rating: 4.5, review_count: 2\ntitle: Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message, avg_rating: 5.0, review_count: 8\ntitle: Coffee Cup Cozies (Christmas Crochet Book 1), avg_rating: 4.75, review_count: 4\ntitle: Make: Electronics: Learning Through Discovery, avg_rating: 4.7096774194, review_count: 31\ntitle: Mongoose, R.I.P., avg_rating: 5.0, review_count: 1\ntitle: Bisous and Brioche: Classic French Recipes and Family Favorites from a Life in France, avg_rating: 5.0, review_count: 14\ntitle: Ed Delahanty in the Emerald Age of Baseball, avg_rating: 5.0, review_count: 1\ntitle: Modern Fishing Lure Collectibles, Vol. 3: Identification & Value Guide, avg_rating: 5.0, review_count: 1\ntitle: Cheer Up, Ben Franklin! (Young Historians), avg_rating: 5.0, review_count: 1"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "Budget, Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "Authority, Need"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": ""
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "{\"month_name\": \"November\", \"period\": \"2020-11\", \"case_count\": 2}"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "#ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "#ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "#ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "#ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "#ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "ka0Wt000000EpSUIA0"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "005Wt000003NJjNIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript - 2.6.2\n@dmrvos/infrajs>0.0.6>typescript - 2.6.2\n@dylanvann/svelte - 3.25.4\n@dumc11/tailwindcss - 0.4.0\n@dollarshaveclub/cli>1.0.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.1.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.10.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.10.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.4>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5>lodash - 4.17.11\n@dollarshaveclub/cli>1.12.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.2.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.3.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.1>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.4>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.5>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.6>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.7>lodash - 4.17.4\n@dollarshaveclub/cli>1.6.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.7.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.8.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.1>lodash - 4.17.5\n@dollarshaveclub/cli>2.0.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.0.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.2>lodash - 4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>lodash - 4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone - 3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor - 3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative - 3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign - 4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep - 4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond - 4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith - 4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof - 4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments - 3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray - 3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys - 3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words - 3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep - 3.0.2\n@dummmy/pack-cli>1.0.8>lodash - 4.17.19\n@dummmy/pack-cli>1.0.9>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.2>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.3>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.4>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.5>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.6>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.7>lodash - 4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash - 4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone - 3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor - 3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative - 3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign - 4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep - 3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond - 4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof - 4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments - 3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray - 3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys - 3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby - 4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words - 3.2.0"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "answer": "Considering only the latest release versions for each distinct NPM package, the top 5 most popular packages by GitHub star number (with boundary ties) are:\n\n**Rank 1 (tie, 94931 stars — microsoft/typescript):**\n- @dmrvos/infrajs>0.0.5>typescript: 2.6.2\n- @dmrvos/infrajs>0.0.6>typescript: 2.6.2\n\n**Rank 3 (73499 stars — sveltejs/svelte):**\n- @dylanvann/svelte: 3.25.4\n\n**Rank 4 (73464 stars — tailwindcss/tailwindcss):**\n- @dumc11/tailwindcss: 0.4.0\n\n**Rank 5 (57779 stars — lodash/lodash, boundary tie: 95 packages all tied):**\n- @dollarshaveclub/cli>1.0.0>lodash: 4.17.4\n- @dollarshaveclub/cli>1.1.0>lodash: 4.17.4\n- @dollarshaveclub/cli>1.10.0>lodash: 4.17.5\n- @dollarshaveclub/cli>1.10.1>lodash: 4.17.5\n- @dollarshaveclub/cli>1.11.0>lodash: 4.17.5\n- @dollarshaveclub/cli>1.11.1>lodash: 4.17.5\n- @dollarshaveclub/cli>1.11.2>lodash: 4.17.4\n- @dollarshaveclub/cli>1.11.3>lodash: 4.17.4\n- @dollarshaveclub/cli>1.11.4>lodash: 4.17.11\n- @dollarshaveclub/cli>1.11.5-rc.1>lodash: 4.17.11\n- @dollarshaveclub/cli>1.11.5>lodash: 4.17.11\n- @dollarshaveclub/cli>1.12.0>lodash: 4.17.11\n- @dollarshaveclub/cli>1.13.0>lodash: 4.17.11\n- @dollarshaveclub/cli>1.13.1>lodash: 4.17.11\n- @dollarshaveclub/cli>1.2.0>lodash: 4.17.4\n- @dollarshaveclub/cli>1.3.0>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.0>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.1>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.2>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.3>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.4>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.5>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.6>lodash: 4.17.4\n- @dollarshaveclub/cli>1.5.7>lodash: 4.17.4\n- @dollarshaveclub/cli>1.6.0>lodash: 4.17.4\n- @dollarshaveclub/cli>1.7.1>lodash: 4.17.5\n- @dollarshaveclub/cli>1.8.0>lodash: 4.17.5\n- @dollarshaveclub/cli>1.9.0>lodash: 4.17.5\n- @dollarshaveclub/cli>1.9.1>lodash: 4.17.5\n- @dollarshaveclub/cli>2.0.0>lodash: 4.17.11\n- @dollarshaveclub/cli>2.0.1>lodash: 4.17.11\n- @dollarshaveclub/cli>2.1.0>lodash: 4.17.11\n- @dollarshaveclub/cli>2.1.1>lodash: 4.17.11\n- @dollarshaveclub/cli>2.2.0>lodash: 4.17.11\n- @dollarshaveclub/cli>2.2.1>lodash: 4.17.11\n- @dollarshaveclub/cli>2.2.2>lodash: 4.17.11\n- @dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash: 4.16.3\n- @dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash: 4.16.3\n- @dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash: 4.16.3\n- @dpoineau/react-scripts>1.0.0>lodash: 4.9.0\n- @dpoineau/react-scripts>1.0.0>lodash._arraycopy: 3.0.0\n- @dpoineau/react-scripts>1.0.0>lodash._arrayeach: 3.0.0\n- @dpoineau/react-scripts>1.0.0>lodash._baseassign: 3.2.0\n- @dpoineau/react-scripts>1.0.0>lodash._baseclone: 3.3.0\n- @dpoineau/react-scripts>1.0.0>lodash._basecopy: 3.0.1\n- @dpoineau/react-scripts>1.0.0>lodash._basefor: 3.0.3\n- @dpoineau/react-scripts>1.0.0>lodash._bindcallback: 3.0.1\n- @dpoineau/react-scripts>1.0.0>lodash._createcompounder: 3.0.0\n- @dpoineau/react-scripts>1.0.0>lodash._getnative: 3.9.1\n- @dpoineau/react-scripts>1.0.0>lodash._root: 3.0.1\n- @dpoineau/react-scripts>1.0.0>lodash.assign: 4.2.0\n- @dpoineau/react-scripts>1.0.0>lodash.camelcase: 3.0.1\n- @dpoineau/react-scripts>1.0.0>lodash.clonedeep: 4.5.0\n- @dpoineau/react-scripts>1.0.0>lodash.cond: 4.5.2\n- @dpoineau/react-scripts>1.0.0>lodash.deburr: 3.2.0\n- @dpoineau/react-scripts>1.0.0>lodash.endswith: 4.2.1\n- @dpoineau/react-scripts>1.0.0>lodash.find: 4.6.0\n- @dpoineau/react-scripts>1.0.0>lodash.findindex: 4.6.0\n- @dpoineau/react-scripts>1.0.0>lodash.indexof: 4.0.5\n- @dpoineau/react-scripts>1.0.0>lodash.isarguments: 3.1.0\n- @dpoineau/react-scripts>1.0.0>lodash.isarray: 3.0.4\n- @dpoineau/react-scripts>1.0.0>lodash.keys: 3.1.2\n- @dpoineau/react-scripts>1.0.0>lodash.pickby: 4.6.0\n- @dpoineau/react-scripts>1.0.0>lodash.words: 3.2.0\n- @dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep: 3.0.2\n- @dummmy/pack-cli>1.0.8>lodash: 4.17.19\n- @dummmy/pack-cli>1.0.9>lodash: 4.17.19\n- @dummmy/webpack-cli>1.0.2>lodash: 4.17.19\n- @dummmy/webpack-cli>1.0.3>lodash: 4.17.19\n- @dummmy/webpack-cli>1.0.4>lodash: 4.17.19\n- @dummmy/webpack-cli>1.0.5>lodash: 4.17.19\n- @dummmy/webpack-cli>1.0.6>lodash: 4.17.19\n- @dummmy/webpack-cli>1.0.7>lodash: 4.17.19\n- @dwarvesf/react-scripts>0.7.0>lodash: 4.17.2\n- @dwarvesf/react-scripts>0.7.0>lodash._arraycopy: 3.0.0\n(and remaining packages tied at the same 57779-star boundary — 95 packages total at this tie level)\n\nNote: The boundary tie at rank 5 (57779 stars) includes 95 NPM packages whose latest release versions all map to the lodash/lodash GitHub project. Per the boundary tie policy, all items tied at the 5th position are included, resulting in 99 total packages returned."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript - 2.6.2\n@dmrvos/infrajs>0.0.6>typescript - 2.6.2\n@dylanvann/svelte - 3.25.4\n@dumc11/tailwindcss - 0.4.0\n@dollarshaveclub/cli>1.0.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.1.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.10.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.10.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.4>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5>lodash - 4.17.11\n@dollarshaveclub/cli>1.12.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.2.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.3.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.1>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.4>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.5>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.6>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.7>lodash - 4.17.4\n@dollarshaveclub/cli>1.6.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.7.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.8.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.1>lodash - 4.17.5\n@dollarshaveclub/cli>2.0.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.0.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.2>lodash - 4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>lodash - 4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone - 3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor - 3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative - 3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign - 4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep - 4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond - 4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith - 4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof - 4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments - 3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray - 3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys - 3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words - 3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep - 3.0.2\n@dummmy/pack-cli>1.0.8>lodash - 4.17.19\n@dummmy/pack-cli>1.0.9>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.2>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.3>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.4>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.5>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.6>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.7>lodash - 4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash - 4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone - 3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor - 3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative - 3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign - 4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep - 3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond - 4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof - 4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments - 3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray - 3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys - 3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby - 4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words - 3.2.0"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript - 2.6.2\n@dmrvos/infrajs>0.0.6>typescript - 2.6.2\n@dylanvann/svelte - 3.25.4\n@dumc11/tailwindcss - 0.4.0\n@dollarshaveclub/cli>1.0.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.1.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.10.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.10.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.4>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5>lodash - 4.17.11\n@dollarshaveclub/cli>1.12.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.2.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.3.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.1>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.4>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.5>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.6>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.7>lodash - 4.17.4\n@dollarshaveclub/cli>1.6.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.7.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.8.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.1>lodash - 4.17.5\n@dollarshaveclub/cli>2.0.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.0.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.2>lodash - 4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>lodash - 4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone - 3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor - 3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative - 3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign - 4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep - 4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond - 4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith - 4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof - 4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments - 3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray - 3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys - 3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words - 3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep - 3.0.2\n@dummmy/pack-cli>1.0.8>lodash - 4.17.19\n@dummmy/pack-cli>1.0.9>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.2>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.3>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.4>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.5>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.6>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.7>lodash - 4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash - 4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone - 3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor - 3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative - 3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign - 4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep - 3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond - 4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof - 4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments - 3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray - 3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys - 3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby - 4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words - 3.2.0"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript - 2.6.2\n@dmrvos/infrajs>0.0.6>typescript - 2.6.2\n@dylanvann/svelte - 3.25.4\n@dumc11/tailwindcss - 0.4.0\n@dollarshaveclub/cli>1.0.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.1.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.10.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.10.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.11.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.11.4>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5-rc.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.11.5>lodash - 4.17.11\n@dollarshaveclub/cli>1.12.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.0>lodash - 4.17.11\n@dollarshaveclub/cli>1.13.1>lodash - 4.17.11\n@dollarshaveclub/cli>1.2.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.3.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.1>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.2>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.3>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.4>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.5>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.6>lodash - 4.17.4\n@dollarshaveclub/cli>1.5.7>lodash - 4.17.4\n@dollarshaveclub/cli>1.6.0>lodash - 4.17.4\n@dollarshaveclub/cli>1.7.1>lodash - 4.17.5\n@dollarshaveclub/cli>1.8.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.0>lodash - 4.17.5\n@dollarshaveclub/cli>1.9.1>lodash - 4.17.5\n@dollarshaveclub/cli>2.0.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.0.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.1.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.0>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.1>lodash - 4.17.11\n@dollarshaveclub/cli>2.2.2>lodash - 4.17.11\n@dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash - 4.16.3\n@dpoineau/react-scripts>1.0.0>lodash - 4.9.0\n@dpoineau/react-scripts>1.0.0>lodash._arraycopy - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._arrayeach - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._baseassign - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash._baseclone - 3.3.0\n@dpoineau/react-scripts>1.0.0>lodash._basecopy - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._basefor - 3.0.3\n@dpoineau/react-scripts>1.0.0>lodash._bindcallback - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash._createcompounder - 3.0.0\n@dpoineau/react-scripts>1.0.0>lodash._getnative - 3.9.1\n@dpoineau/react-scripts>1.0.0>lodash._root - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.assign - 4.2.0\n@dpoineau/react-scripts>1.0.0>lodash.camelcase - 3.0.1\n@dpoineau/react-scripts>1.0.0>lodash.clonedeep - 4.5.0\n@dpoineau/react-scripts>1.0.0>lodash.cond - 4.5.2\n@dpoineau/react-scripts>1.0.0>lodash.deburr - 3.2.0\n@dpoineau/react-scripts>1.0.0>lodash.endswith - 4.2.1\n@dpoineau/react-scripts>1.0.0>lodash.find - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.findindex - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.indexof - 4.0.5\n@dpoineau/react-scripts>1.0.0>lodash.isarguments - 3.1.0\n@dpoineau/react-scripts>1.0.0>lodash.isarray - 3.0.4\n@dpoineau/react-scripts>1.0.0>lodash.keys - 3.1.2\n@dpoineau/react-scripts>1.0.0>lodash.pickby - 4.6.0\n@dpoineau/react-scripts>1.0.0>lodash.words - 3.2.0\n@dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep - 3.0.2\n@dummmy/pack-cli>1.0.8>lodash - 4.17.19\n@dummmy/pack-cli>1.0.9>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.2>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.3>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.4>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.5>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.6>lodash - 4.17.19\n@dummmy/webpack-cli>1.0.7>lodash - 4.17.19\n@dwarvesf/react-scripts>0.7.0>lodash - 4.17.2\n@dwarvesf/react-scripts>0.7.0>lodash._arraycopy - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._arrayeach - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseassign - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash._baseclone - 3.3.0\n@dwarvesf/react-scripts>0.7.0>lodash._basecopy - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._basefor - 3.0.3\n@dwarvesf/react-scripts>0.7.0>lodash._bindcallback - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash._createcompounder - 3.0.0\n@dwarvesf/react-scripts>0.7.0>lodash._getnative - 3.9.1\n@dwarvesf/react-scripts>0.7.0>lodash._root - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.assign - 4.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.camelcase - 3.0.1\n@dwarvesf/react-scripts>0.7.0>lodash.clonedeep - 3.0.2\n@dwarvesf/react-scripts>0.7.0>lodash.cond - 4.5.2\n@dwarvesf/react-scripts>0.7.0>lodash.deburr - 3.2.0\n@dwarvesf/react-scripts>0.7.0>lodash.indexof - 4.0.5\n@dwarvesf/react-scripts>0.7.0>lodash.isarguments - 3.1.0\n@dwarvesf/react-scripts>0.7.0>lodash.isarray - 3.0.4\n@dwarvesf/react-scripts>0.7.0>lodash.keys - 3.1.2\n@dwarvesf/react-scripts>0.7.0>lodash.pickby - 4.6.0\n@dwarvesf/react-scripts>0.7.0>lodash.words - 3.2.0"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "answer": "Among all NPM packages with project license 'MIT' and marked as release, the 5 projects with the highest GitHub fork count are:\n\n1. mui-org/material-ui — 30522 forks\n2. moment/moment — 7201 forks\n3. semantic-org/semantic-ui — 4955 forks\n4. react-native-elements/react-native-elements — 4623 forks\n5. sveltejs/svelte — 4091 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "answer": "The 5 NPM projects with project license 'MIT' and marked as release, ranked by highest GitHub fork count, are:\n\n1. **mui-org/material-ui** — 30522 forks\n2. **moment/moment** — 7201 forks\n3. **semantic-org/semantic-ui** — 4955 forks\n4. **react-native-elements/react-native-elements** — 4623 forks\n5. **sveltejs/svelte** — 4091 forks\n\n(Next: tailwindcss/tailwindcss at 3848 forks — no tie at the boundary.)\n\nMethod: Parsed ProjectName and fork_count from the Project_Information text field across all 770 project_info rows (via LLM extraction). Filtered to projects whose project_info.Licenses contains \"MIT\". Eligibility required that the project have at least one (Name, Version) in project_packageversion (System='NPM') that also appears in packageinfo (System='NPM', VersionInfo.IsRelease=true). 441 MIT projects had fork counts; after applying the release-package eligibility filter, projects were ranked by max fork_count."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "answer": "Among all NPM packages with project license 'MIT' and marked as release, the 5 projects with the highest GitHub fork count are:\n\n1. mui-org/material-ui — 30522 forks\n2. moment/moment — 7201 forks\n3. semantic-org/semantic-ui — 4955 forks\n4. react-native-elements/react-native-elements — 4623 forks\n5. sveltejs/svelte — 4091 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "answer": "Among all NPM packages marked as release (VersionInfo.IsRelease = true), linked to GitHub projects whose project_info Licenses = \"MIT\", the 5 projects with the highest GitHub fork count are:\n\n1. mui-org/material-ui — 30522 forks\n2. moment/moment — 7201 forks\n3. semantic-org/semantic-ui — 4955 forks\n4. react-native-elements/react-native-elements — 4623 forks\n5. sveltejs/svelte — 4091 forks\n\nMethod: joined packageinfo (NPM, IsRelease=1) with project_packageversion (NPM, GITHUB) on (System, Name, Version) to get the set of GitHub projects linked to NPM release packages; filtered project_info to MIT-licensed projects (Licenses JSON array contains \"MIT\"); matched on ProjectName (extracted from Project_Information text); extracted the fork count from each project's Project_Information text; ranked distinct projects by fork count descending (no ties at rank 5)."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "answer": "Among all NPM packages with project license 'MIT' and marked as release, the 5 projects with the highest GitHub fork count are:\n\n1. **mui-org/material-ui** — 30522 forks\n2. **rails/rails** — 21423 forks\n3. **moment/moment** — 7201 forks\n4. **semantic-org/semantic-ui** — 4955 forks\n5. **react-native-elements/react-native-elements** — 4623 forks\n\n**Methodology:** NPM release packages (VersionInfo.IsRelease=true) from packageinfo were joined to project_packageversion via (System, Name, Version) to obtain ProjectName, then joined to project_info via ProjectName→project_name (extracted from Project_Information text). Fork counts were extracted from the Project_Information text field. The project license MIT filter was applied on project_info.Licenses (JSON array containing \"MIT\"), confirmed via direct SQL verification. Projects with non-MIT licenses (e.g., microsoft/typescript=Apache-2.0, mozilla/pdf.js=Apache-2.0, swagger-api/swagger-ui=Apache-2.0) were correctly excluded despite having higher fork counts."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "0.1625"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "answer": "Among repositories that do not use Python, approximately 0.3333 (1/3, or 33.33%) of their README.md files with available content include copyright information.\n\nThis proportion is computed over the README.md files in the `files` table that belong to non-Python repositories (filtered via `languages.language_description NOT LIKE '%Python%'`) and that have stored content available through the canonical blob-content join (`files.id = contents.id`).\n\nKey measurements:\n- Total README.md files (path basename = README.md): 2740 across 2129 repositories\n- README.md files in non-Python repositories: 1939 (denominator)\n- Of those, README.md files with available blob content: 3\n- README.md files with copyright information (content containing \"copyright\", \"©\", or \"all rights reserved\"): 1 (numerator)\n- Proportion: 1/3 ≈ 0.3333333333\n\nNote: The `contents` table stores text content for only a small sample of files (24286 rows total vs 524077 in `files`). Only 4 of the 2740 README.md files have a matching content blob via the `files.id = contents.id` join, and 3 of those 4 belong to non-Python repositories. This very low content coverage (0.15% of the README.md file population) means the proportion is measured over the evaluable subset rather than the full population of 1939 non-Python README.md files."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "answer": "0.3333333333"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "answer": "0.13125"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "answer": "0.3333333333"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "SwiftAndroid/swift is the answer"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "SwiftAndroid/swift is the answer"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": ""
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "SwiftAndroid/swift\n\nThe most frequently copied non-binary Swift (.swift) file uniquely determined by its ID in the files table resides in the repository `SwiftAndroid/swift`:\n\n- File ID: 71a17ce92451858f3eb01aa8082551e48bc5550d\n- Path: validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift\n- Non-binary, repeated/copied 23 times (the highest copy count among non-binary .swift files joined by id between contents and files)\n\nRepository confirmation: metadata_database.languages lists `SwiftAndroid/swift` with Swift among its languages (Swift: 12538936 bytes).\n\n(For reference, the only other qualifying non-binary .swift file uniquely determined by ID was 273 bytes, appearing 15 times, in practicalswift/swift-compiler-crashes — which has no entry in metadata_database.languages, so it is excluded from the \"contains Swift code\" population.)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": ""
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "answer": "1077 commit messages.\n\nBreakdown:\n- apple/swift: 963\n- tensorflow/tensorflow: 114\n\nThese are the only two repositories in the commits database that (1) are licensed under Apache-2.0 and (2) use the Shell programming language (apple/swift: Shell 217313 bytes; tensorflow/tensorflow: Shell 621854 bytes). Of the other repositories with commit records, torvalds/linux has no license/language metadata row and was excluded, while Microsoft/vscode, facebook/react, and twbs/bootstrap are licensed under MIT. The count includes only commit messages that are non-empty, shorter than 1000 characters, and do not begin with \"merge\", \"update\", or \"test\" (case-insensitive)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "answer": "1077 commit messages.\n\nBreakdown by repository:\n- apple/swift: 963 commit messages\n- tensorflow/tensorflow: 114 commit messages\n\nReasoning: Of the 6 distinct repositories in the commits table (Microsoft/vscode, apple/swift, facebook/react, tensorflow/tensorflow, torvalds/linux, twbs/bootstrap), only tensorflow/tensorflow and apple/swift satisfy both constraints — they use the Shell programming language and are licensed under Apache-2.0. Applying the message filters (message exists, length < 1000 characters, and does not begin with 'merge', 'update', or 'test') yields 963 + 114 = 1077 commit messages."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "answer": "1077 commit messages"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "repo_name: apple/swift, commit_count: 1051, main_language: C++\nrepo_name: twbs/bootstrap, commit_count: 340, main_language: JavaScript\nrepo_name: Microsoft/vscode, commit_count: 190, main_language: TypeScript\nrepo_name: facebook/react, commit_count: 178, main_language: JavaScript\nrepo_name: tensorflow/tensorflow, commit_count: 156, main_language: C++"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "answer": "repo_name: apple/swift, commit_count: 1051, main_language: C++\nrepo_name: twbs/bootstrap, commit_count: 340, main_language: JavaScript\nrepo_name: Microsoft/vscode, commit_count: 190, main_language: TypeScript\nrepo_name: facebook/react, commit_count: 178, main_language: JavaScript\nrepo_name: tensorflow/tensorflow, commit_count: 156, main_language: C++"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "answer": "The top five GitHub repositories whose main language is not Python, ordered by highest number of commits, are:\n\n1. apple/swift — 1051 commits (main language: C++)\n2. twbs/bootstrap — 340 commits (main language: JavaScript)\n3. Microsoft/vscode — 190 commits (main language: TypeScript)\n4. facebook/react — 178 commits (main language: JavaScript)\n5. tensorflow/tensorflow — 156 commits (main language: C++)\n\nNote: torvalds/linux has the most commits (16061) but has no row in the languages table, so its main language cannot be determined; since \"main language not Python\" cannot be verified for it, it is excluded from this list. The remaining five repositories all have non-Python primary languages."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "answer": "Top 5 GitHub repositories whose main language is not Python, ordered by highest number of commits:\n\n1. apple/swift — 1051 commits (main language: C++)\n2. twbs/bootstrap — 340 commits (main language: JavaScript)\n3. Microsoft/vscode — 190 commits (main language: TypeScript)\n4. facebook/react — 178 commits (main language: JavaScript)\n5. tensorflow/tensorflow — 156 commits (main language: C++)\n\nMethodology: Commit counts were aggregated per repository from the commits table. The main language for each repository was determined from the languages table by parsing the language byte counts in the natural-language language_description field and selecting the language with the most bytes. Repositories whose main language equals \"Python\" were excluded. torvalds/linux (16061 commits) was excluded because it has no row in the languages table, so its main language is unknown and cannot satisfy the \"not Python\" condition. No boundary ties exist (all five commit counts are distinct)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "answer": "Top 5 GitHub repositories whose main language is not Python, ordered by highest number of commits:\n\n1. torvalds/linux — 16061 commits (main language: unknown — no language metadata record; not Python)\n2. apple/swift — 1051 commits (main language: C++)\n3. twbs/bootstrap — 340 commits (main language: JavaScript)\n4. Microsoft/vscode — 190 commits (main language: TypeScript)\n5. facebook/react — 178 commits (main language: JavaScript)\n\nNote: tensorflow/tensorflow (156 commits) was excluded since its main language is C++, which is not Python — but it ranks 6th and falls outside the top 5 by commit count. No repository in the commits table has Python as its main language, so the top 5 by commit count all qualify."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "Top 5 businesses located in Los Angeles, California, ranked by highest average rating (descending):\n\n1. Widows Peak Salon (gmap_40) — avg rating 4.8571 (35 reviews)\n2. City Textile (gmap_44) — avg rating 4.5000 (6 reviews)\n3. Nobel Textile Co (gmap_38) — avg rating 4.2857 (7 reviews)\n4. San Soo Dang (gmap_41) — avg rating 4.2778 (18 reviews)\n5. Nova Fabrics (gmap_43) — avg rating 3.3333 (6 reviews)"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "Top 5 businesses located in Los Angeles, California, ranked by highest average rating (descending):\n\n1. Widows Peak Salon — avg rating 4.857143 (35 reviews)\n2. City Textile — avg rating 4.5 (6 reviews)\n3. Nobel Textile Co — avg rating 4.285714 (7 reviews)\n4. San Soo Dang — avg rating 4.277778 (18 reviews)\n5. Nova Fabrics — avg rating 3.333333 (6 reviews)\n\nMethod: The 7 businesses whose descriptions explicitly state a location in Los Angeles, CA were identified in business_database.business_description, then joined to review_database.review on gmap_id, and average(rating) was computed per business (row-weighted mean of all reviews) and sorted descending. The 5th-place boundary (3.333333) has no ties."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "Top 5 businesses in Los Angeles, California ranked by highest average rating (descending):\n\n1. Widows Peak Salon — avg rating 4.8571 (35 reviews)\n2. City Textile — avg rating 4.5000 (6 reviews)\n3. Nobel Textile Co — avg rating 4.2857 (7 reviews)\n4. San Soo Dang — avg rating 4.2778 (18 reviews)\n5. Nova Fabrics — avg rating 3.3333 (6 reviews)"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "business_name: Widows Peak Salon, average_rating: 4.8571428571, review_count: 35\nbusiness_name: City Textile, average_rating: 4.5, review_count: 6\nbusiness_name: Nobel Textile Co, average_rating: 4.2857142857, review_count: 7\nbusiness_name: San Soo Dang, average_rating: 4.2777777778, review_count: 18\nbusiness_name: Nova Fabrics, average_rating: 3.3333333333, review_count: 6"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "Top 5 businesses located in Los Angeles, California, ranked by highest average rating (descending):\n\n1. Widows Peak Salon — average rating 4.8571 (35 reviews)\n2. City Textile — average rating 4.5000 (6 reviews)\n3. Nobel Textile Co — average rating 4.2857 (7 reviews)\n4. San Soo Dang — average rating 4.2778 (18 reviews)\n5. Nova Fabrics — average rating 3.3333 (6 reviews)\n\nMethod: The population of Los Angeles, CA businesses was established by extracting the city from each business description across all 79 businesses in business_database.business_description (7 businesses confirmed as located in Los Angeles: gmap_38, gmap_39, gmap_40, gmap_41, gmap_42, gmap_43, gmap_44). These were joined to review_database.review on gmap_id (97 review rows, one-to-many) and grouped by business name to compute the row-weighted mean rating per business, then sorted descending by average rating with boundary-tie inclusion (no ties occurred at the 5th-place cutoff of 3.3333; the next business, Ace Jewelry & Loan, had an average of 3.2857)."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "business_name: Elite Massage: 5.0\nbusiness_name: Angel-A Massage: 4.3333333333\nbusiness_name: Aurora Massage: 4.1785714286\nbusiness_name: J B Oriental Inc: 4.1666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "business_name: Elite Massage: 5.0\nbusiness_name: Angel-A Massage: 4.3333333333\nbusiness_name: Aurora Massage: 4.1785714286\nbusiness_name: J B Oriental Inc: 4.1666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "Elite Massage - 5.0\nAngel-A Massage - 4.3333333333\nAurora Massage - 4.1785714286\nJ B Oriental Inc - 4.1666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "Four massage therapy businesses have an average rating of at least 4.0:\n\n1. Elite Massage: 5.0000\n2. Angel-A Massage: 4.3333\n3. Aurora Massage: 4.1786\n4. J B Oriental Inc: 4.1667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "Elite Massage: 5.0\nAngel-A Massage: 4.3333333333\nAurora Massage: 4.1785714286\nJ B Oriental Inc: 4.1666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "## Top 5 Businesses Open After 6:00 PM on at Least One Weekday, Ranked by Highest Average Rating\n\nAll five businesses below are tied at a perfect average rating of 5.0 (the maximum possible), so each is included at the top-5 boundary:\n\n| Rank | Business Name | Operating Hours | Average Rating |\n|------|---------------|------------------|----------------|\n| 1 | **Mariscos el poblano** | Thu: Open 24 hours; Fri: 8AM–3:30PM; Sat: 8AM–3:30PM; Sun: 8AM–3:30PM; Mon: 9AM–3:30AM (overnight); Tue: 8AM–3:30PM; Wed: 8AM–3:30PM | 5.0 (3 reviews) |\n| 2 | **TACOS LA CABANA** | Thu: Closed; Fri: 5–11PM; Sat: 5–11PM; Sun: 5–11PM; Mon: 5–11PM; Tue: Closed; Wed: Closed | 5.0 (2 reviews) |\n| 3 | **Taba Rug Gallery** | Thu: 10AM–7PM; Fri: 10AM–7PM; Sat: 10AM–7PM; Sun: 11AM–6PM; Mon: 10AM–7PM; Tue: 10AM–7PM; Wed: 10AM–7PM | 5.0 (18 reviews) |\n| 4 | **Beauty Divine Artistry** | Thu: 9AM–8PM; Fri: 9AM–8PM; Sat: 10AM–7PM; Sun: 11AM–6PM; Mon: 9AM–8PM; Tue: 9AM–8PM; Wed: 9AM–8PM | 5.0 (8 reviews) |\n| 5 | **White Barn Candle Co** | Thu: 10AM–9PM; Fri: 10AM–9PM; Sat: 10AM–9PM; Sun: 11AM–7PM; Mon: 10AM–9PM; Tue: 10AM–9PM; Wed: 10AM–9PM | 5.0 (2 reviews) |\n\n### Methodology\n- **Eligibility**: Parsed the `hours` JSON field from `business_database.business_description` for all 79 businesses. A business qualifies if, on at least one weekday (Monday–Friday), its closing time is after 6:00 PM (18:00) or it operates an overnight range. 25 businesses met this criterion.\n- **Rating**: Computed the row-weighted average rating from all reviews in `review_database.review` grouped by `gmap_id` (joined via `gmap_id`).\n- **Ranking**: Sorted descending by average rating. All five businesses above share the boundary value of 5.0; the next-ranked business (Paradise tattoo, avg ≈ 4.96) falls below, so these five constitute the complete top-5 set with no additional ties at the boundary."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "Taba Rug Gallery - [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]], 5.0\nBeauty Divine Artistry - [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]], 5.0\nWhite Barn Candle Co - [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]], 5.0\nTACOS LA CABANA - [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]], 5.0\nMariscos el poblano - [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]], 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "Taba Rug Gallery - [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]], 5.0\nBeauty Divine Artistry - [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]], 5.0\nWhite Barn Candle Co - [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]], 5.0\nTACOS LA CABANA - [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]], 5.0\nMariscos el poblano - [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]], 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "Taba Rug Gallery - [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]], 5.0\nBeauty Divine Artistry - [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]], 5.0\nWhite Barn Candle Co - [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]], 5.0\nTACOS LA CABANA - [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]], 5.0\nMariscos el poblano - [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]], 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "Taba Rug Gallery - [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]], 5.0\nBeauty Divine Artistry - [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]], 5.0\nWhite Barn Candle Co - [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]], 5.0\nTACOS LA CABANA - [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]], 5.0\nMariscos el poblano - [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]], 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD - 19\nThe Boochyard @ Local Roots - 17\nAurora Massage - 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD - 19\nThe Boochyard @ Local Roots - 17\nAurora Massage - 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD - 19\nThe Boochyard @ Local Roots - 17\nAurora Massage - 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "The 3 businesses that received the highest number of reviews with ratings of 4.5 or higher during 2019 are:\n\n1. **Encino Dermatology & Laser: Alex Khadavi MD** — 19 high-rating reviews\n2. **The Boochyard @ Local Roots** — 17 high-rating reviews\n3. **Aurora Massage** — 14 high-rating reviews\n\n(Methodology: filtered reviews to rating ≥ 4.5, parsed mixed-format timestamps to isolate 2019 reviews, grouped by gmap_id, counted per business, joined to business_description for names, and ranked descending. There were no ties at the 3rd-place boundary.)"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD - 19\nThe Boochyard @ Local Roots - 17\nAurora Massage - 14"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "answer": "For LGG (Brain lower grade glioma) patients, the average log10-transformed IGF2 expression — computed as mean(log10(normalized_count + 1)) across valid IGF2 expression values and histology annotations not enclosed in square brackets — grouped by ICD-O-3 histology type:\n\n- 9382/3: 2.7136 (Oligoastrocytoma)\n- 9400/3: 2.6014 (Astrocytoma)\n- 9401/3: 2.5584 (Astrocytoma)\n- 9450/3: 2.6967 (Oligodendroglioma)\n- 9451/3: 2.5826 (Oligodendroglioma)"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "answer": "9382/3: 2.7135713052 | Oligoastrocytoma: 2.7135713052\n9450/3: 2.6967184429 | Oligodendroglioma: 2.6967184429\n9400/3: 2.6014163320 | Astrocytoma: 2.6014163320\n9451/3: 2.5826348457 | Oligodendroglioma: 2.5826348457\n9401/3: 2.5583903451 | Astrocytoma: 2.5583903451"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "answer": "9382/3: 2.7136 | Oligoastrocytoma: 2.7136\n9450/3: 2.6967 | Oligodendroglioma: 2.6967\n9400/3: 2.6014 | Astrocytoma: 2.6014\n9451/3: 2.5826 | Oligodendroglioma: 2.5826\n9401/3: 2.5584 | Astrocytoma: 2.5584"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "answer": "9382/3: 2.7135713052 (Oligoastrocytoma)\n9450/3: 2.6967184429 (Oligodendroglioma)\n9400/3: 2.6014163320\n9451/3: 2.5826348457\n9401/3: 2.5583903451"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "answer": "9382/3: 2.713571 | Oligoastrocytoma: 2.713571\n9400/3: 2.601416 | Astrocytoma: 2.601416\n9401/3: 2.558390 | Astrocytoma: 2.558390\n9450/3: 2.696718 | Oligodendroglioma: 2.696718\n9451/3: 2.582635 | Oligodendroglioma: 2.582635"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "answer": "Among alive BRCA (Breast Invasive Carcinoma) patients in the PanCancer Atlas, the top three histological types by CDH1 gene mutation percentage are:\n\n1. Infiltrating Lobular Carcinoma — 50.5618% (90 of 178 patients)\n2. Mixed Histology (please specify) — 16.6667% (4 of 24 patients)\n3. Other  specify — 8.3333% (3 of 36 patients)\n\nMethod: The base population (935 alive BRCA patients with a non-null histological_type) was built from clinical_info by filtering Patient_description for \"Breast invasive carcinoma\" and \"Alive\", then extracting the TCGA barcode via substring. The CDH1-positive population (301 distinct patients with Hugo_Symbol = 'CDH1') came from molecular_database.Mutation_Data. A left membership join on patient_barcode preserved every base patient; per-histological-type CDH1 mutation percentage = distinct patients with ≥1 CDH1 mutation / distinct total alive patients of that type. The 3rd-place boundary at 8.3333% had no ties."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "answer": "Among BRCA (Breast Invasive Carcinoma) patients in the PanCancer Atlas who are alive, the top three histological types by percentage of CDH1 gene mutations are:\n\n1. Infiltrating Lobular Carcinoma — 90 of 178 patients (50.56%)\n2. Mixed Histology (please specify) — 4 of 24 patients (16.67%)\n3. Other  specify — 3 of 36 patients (8.33%)\n\nMethod: Identified 936 alive BRCA patients from clinical_info (Patient_description containing \"Breast invasive carcinoma\" and \"Alive\"), extracted their TCGA barcodes, and matched them against 301 distinct patients with Hugo_Symbol='CDH1' mutations in Mutation_Data, then grouped by histological_type and computed the per-type mutation ratio."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "answer": "Among BRCA (Breast Invasive Carcinoma) patients in the PanCancer Atlas who are alive, the top three histological types by percentage of patients with CDH1 gene mutations are:\n\n1. **Infiltrating Lobular Carcinoma** — 90 of 178 patients (≈50.5618%)\n2. **Mixed Histology (please specify)** — 4 of 24 patients (≈16.6667%)\n3. **Other  specify** — 3 of 36 patients (≈8.3333%)\n\nMethodology: The denominator for each type is the distinct count of alive BRCA patients (Patient_description contains \"Breast invasive carcinoma\" and \"Alive\") with that non-null histological_type (935 alive BRCA patients in total across all types). The numerator is the distinct count of those patients having at least one Mutation_Data record with Hugo_Symbol = 'CDH1'. The ratio (numerator/denominator) is the CDH1 mutation percentage per type, ranked descending. No additional ties occurred at the 3rd-place boundary (8.3333%)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "answer": "Among alive BRCA (Breast Invasive Carcinoma) patients in the PanCancer Atlas, the top three histological types showing the highest percentage of CDH1 gene mutations are:\n\n1. Infiltrating Lobular Carcinoma — 90 of 178 patients (50.56%)\n2. Mixed Histology (please specify) — 4 of 24 patients (16.67%)\n3. Other specify — 3 of 36 patients (8.33%)\n\nMethod: Identified alive BRCA patients from clinical_info via Patient_description (containing \"Breast invasive carcinoma\" and \"Alive\"), extracted their TCGA participant barcodes, and joined them to the molecular_database Mutation_Data table on ParticipantBarcode to flag patients carrying at least one CDH1 mutation (Hugo_Symbol = 'CDH1'). Computed, per histological_type, the ratio of CDH1-mutated patients to total alive BRCA patients, then ranked descending. No ties occurred at the 3rd-place boundary (8.33%)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "answer": "Among BRCA (Breast Invasive Carcinoma) patients in the PanCancer Atlas who are alive, the top three histological types with the highest percentage of CDH1 gene mutations are:\n\n1. **Infiltrating Lobular Carcinoma** — 90 of 178 patients had CDH1 mutations (50.56%)\n2. **Mixed Histology (please specify)** — 4 of 24 patients had CDH1 mutations (16.67%)\n3. **Other specify** — 3 of 36 patients had CDH1 mutations (8.33%)\n\nMethodology: Identified 936 alive BRCA patients from clinical_info (via Patient_description containing \"Breast invasive carcinoma\" and \"Alive\"), extracted their TCGA barcodes, and joined to molecular_database.Mutation_Data where Hugo_Symbol = 'CDH1' (301 distinct CDH1-mutated patients across all molecular data; 111 matched the alive BRCA cohort). Computed per-histological-type CDH1 mutation percentage = (distinct patients with CDH1 mutation) / (total patients of that histological type), then ranked descending.\n\nNote: Infiltrating Ductal Carcinoma, the most common histological type, ranked below these three."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "answer": "chi_square: 305.1239198007, degrees_of_freedom: 4, total_count: 1059.0, row_category_count: 5, column_category_count: 2"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "answer": "**Chi-Square Statistic: 305.1239** (degrees of freedom = 4)\n\n## Methodology\n\n**Population:** Female BRCA (Breast Invasive Carcinoma) patients from the PanCancer Atlas with known histological types (1074 patients identified via Patient_description containing \"Breast invasive carcinoma\" and \"FEMALE\" with non-null histological_type).\n\n**CDH1 Mutation Presence:** Patients with at least one CDH1 mutation in Mutation_Data where Hugo_Symbol='CDH1', FILTER='PASS' (reliable calls only), and ParticipantBarcode confirmed via join to RNASeq_Expression (239 distinct patients genome-wide; 99 of these matched female BRCA patients).\n\n## Full Contingency Table (Histological Type × CDH1 Mutation)\n\n| Histological Type | CDH1 Present | CDH1 Absent | Row Total |\n|---|---|---|---|\n| Infiltrating Ductal Carcinoma | 9 | 757 | 766 |\n| Infiltrating Lobular Carcinoma | 83 | 118 | 201 |\n| Mixed Histology (please specify) | 4 | 26 | 30 |\n| Mucinous Carcinoma | 0 | 17 | 17 |\n| Other specify | 3 | 42 | 45 |\n| Medullary Carcinoma | 1 | 5 | 6 |\n| Metaplastic Carcinoma | 0 | 8 | 8 |\n| Infiltrating Carcinoma NOS | 0 | 1 | 1 |\n| **Column Total** | **100** | **974** | **1074** |\n\n## After Excluding Categories with Marginal Totals ≤ 10\n\nExcluded: Infiltrating Carcinoma NOS (total=1), Medullary Carcinoma (total=6), Metaplastic Carcinoma (total=8)\n\n| Histological Type | O(present) | E(present) | O(absent) | E(absent) | Contribution |\n|---|---|---|---|---|---|\n| Infiltrating Ductal Carcinoma | 9 | 71.61 | 757 | 694.39 | 60.39 |\n| Infiltrating Lobular Carcinoma | 83 | 18.79 | 118 | 182.21 | 242.04 |\n| Mixed Histology | 4 | 2.80 | 26 | 27.20 | 0.56 |\n| Mucinous Carcinoma | 0 | 1.59 | 17 | 15.41 | 1.75 |\n| Other specify | 3 | 4.21 | 42 | 40.79 | 0.38 |\n| **Column Total** | **99** | | **960** | | **Grand=1059** |\n\n**χ² = Σ(O-E)²/E = 305.1239**, df = (5-1)×(2-1) = 4\n\nThe very high chi-square value (305.12) indicates a strong association between histological type and CDH1 mutation presence, driven primarily by the enrichment of CDH1 mutations in Infiltrating Lobular Carcinoma (83 observed vs 18.79 expected) and depletion in Infiltrating Ductal Carcinoma (9 observed vs 71.61 expected)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "answer": "## Chi-Square Statistic: Association between Histological Types and CDH1 Gene Mutations in Female BRCA Patients\n\n**Chi-square statistic (χ²) = 305.1239** (df = 4, N = 1059)\n\n### Methodology\n\n**Population (n = 1074 female BRCA patients):**\n- Selected from clinical_database.clinical_info where Patient_description contains \"Breast invasive carcinoma\" (= BRCA cohort per the PanCancer Atlas acronym) AND \"FEMALE\" (gender embedded in the Patient_description text), restricted to patients with known (non-null) histological_type.\n\n**CDH1 mutation presence (reliable entries):**\n- From molecular_database.Mutation_Data, selected 247 distinct ParticipantBarcodes having Hugo_Symbol = 'CDH1' AND FILTER = 'PASS' (the \"PASS\" filter designates reliable/reliable-quality mutation calls; all other FILTER values such as wga, oxog, common_in_exac, etc. were excluded).\n- Patient linkage: TCGA barcode (ParticipantBarcode) was extracted from the clinical Patient_description text via regex (TCGA-XX-XXXX pattern; coverage 1.0 = 1074/1074 patients matched). The clinical barcodes were left-joined to the distinct CDH1-mutated barcodes to create a binary cdh1_present (yes/no) column per patient.\n\n**Contingency table:** rows = histological_type, columns = CDH1 mutation present (yes/no). Categories with marginal totals ≤ 10 were excluded iteratively (applied to both row and column margins). Three rare histological types were removed (Metaplastic Carcinoma = 8, Medullary Carcinoma = 6, Infiltrating Carcinoma NOS = 1), leaving 5 histological types covering 1059 patients:\n\n| Histological Type | Total | (CDH1+ / CDH1− split used by the chi-square kernel) |\n|---|---|---|\n| Infiltrating Ductal Carcinoma | 766 | — |\n| Infiltrating Lobular Carcinoma | 201 | — |\n| Other (specify) | 45 | — |\n| Mixed Histology (please specify) | 30 | — |\n| Mucinous Carcinoma | 17 | — |\n\n**Statistic (Pearson chi-square, χ² = Σ (O−E)² / E, with Eᵢⱼ = (row_total × col_total) / grand_total):**\n- χ² = 305.1239198007\n- Degrees of freedom = (5 − 1) × (2 − 1) = 4\n- Grand total N = 1059\n\nThis large χ² (df = 4) indicates a strong, statistically significant association between histological type and the presence of CDH1 mutations in female BRCA patients (the CDH1 enrichment in Infiltrating Lobular Carcinoma is the dominant contributor, consistent with CDH1's known role in lobular breast cancer biology)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "answer": "## Chi-Square Statistic: Association Between Histological Types and CDH1 Gene Mutations in Female BRCA Patients\n\n**Chi-square statistic = 305.1239**\n\n**Degrees of freedom = 4**\n\n### Methodology\n\n**Population definition:**\n- Female BRCA (Breast Invasive Carcinoma) patients from the PanCancer Atlas (identified via Patient_description text containing \"breast invasive carcinoma\" and \"FEMALE\")\n- Only patients with known histological types (histological_type IS NOT NULL): 1074 patients\n\n**CDH1 mutation presence:**\n- Reliable mutation entries only: Hugo_Symbol = 'CDH1' AND FILTER = 'PASS' in Mutation_Data\n- Patient linkage: TCGA barcode extracted from Patient_description matched to Mutation_Data.ParticipantBarcode\n- CDH1 mutated = at least one reliable CDH1 PASS mutation for that patient\n\n### Contingency Table (after marginal filtering)\n\nCategories with row marginal totals ≤ 10 were iteratively removed. Three categories were excluded:\n- Metaplastic Carcinoma (row total = 8)\n- Medullary Carcinoma (row total = 6)\n- Infiltrating Carcinoma NOS (row total = 1)\n\n| Histological Type | CDH1 Mutated | CDH1 Not Mutated | Row Total |\n|---|---|---|---|\n| Infiltrating Ductal Carcinoma | 9 | 757 | 766 |\n| Infiltrating Lobular Carcinoma | 83 | 118 | 201 |\n| Other, specify | 3 | 42 | 45 |\n| Mixed Histology (please specify) | 4 | 26 | 30 |\n| Mucinous Carcinoma | 0 | 17 | 17 |\n| **Column Total** | **99** | **960** | **1059** |\n\n### Chi-Square Calculation\n\nUsing χ² = Σ (Oᵢⱼ - Eᵢⱼ)² / Eᵢⱼ, where Eᵢⱼ = (row_total × col_total) / grand_total:\n\n- Grand total = 1059\n- Column total (mutated) = 99\n- Column total (not mutated) = 960\n- Degrees of freedom = (5 rows - 1) × (2 columns - 1) = 4\n\n**Chi-square statistic = 305.1239**\n\nThis very high chi-square value indicates a statistically significant association between histological type and CDH1 mutation status. The association is driven primarily by Infiltrating Lobular Carcinoma having a much higher CDH1 mutation rate (83/201 = 41.3%) compared to Infiltrating Ductal Carcinoma (9/766 = 1.2%), which is consistent with the known biological role of CDH1 (E-cadherin) loss in lobular breast carcinoma."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "answer": "chi_square: 305.1239, degrees_of_freedom: 4, grand_total: 1059, num_categories_retained: 5, categories_retained: ['Infiltrating Ductal Carcinoma', 'Infiltrating Lobular Carcinoma', 'Mixed Histology (please specify)', 'Mucinous Carcinoma', 'Other  specify'], categories_excluded: ['Infiltrating Carcinoma NOS', 'Medullary Carcinoma', 'Metaplastic Carcinoma'], cdh1_present_total: 99, cdh1_absent_total: 960"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "answer": "G06Q\nH01M\nG06T\nG06V\nH02J\nG01S\nG06N\nB65G\nA61P\nG16H\nG05D\nC22C\nB60L\nG08G\nG10L\nB24B\nE04B\nE02D\nB08B\nG09F\nA24F\nH02G\nA61H\nE04G\nB22F\nB25B\nA61G\nG01L\nF16M\nC01G\nF26B\nH03H\nH02B\nE02B\nB66F\nE21D\nG16B\nB07B\nB60P\nA63H\nA24D\nE21F\nF02K\nE01H\nG01H\nA47F\nC21B\nB09C\nE03B\nB21J\nA23P\nF25J\nB04B\nG21F\nC01D\nC21C\nB63C\nG16C\nA23J\nB60D\nB27M\nF04F\nB27C\nA41G\nB63G\nB25D\nA62D\nB61H\nA22B\nH04K\nH05F\nD21B"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "answer": "G06Q\nH01M\nG06T\nG06V\nH02J\nG01S\nG06N\nB65G\nA61P\nG16H\nG05D\nC22C\nB60L\nG08G\nG10L\nB24B\nE04B\nE02D\nB08B\nG09F\nA24F\nH02G\nA61H\nE04G\nB22F\nB25B\nA61G\nG01L\nF16M\nC01G\nF26B\nH03H\nH02B\nE02B\nB66F\nE21D\nG16B\nB07B\nB60P\nA63H\nA24D\nE21F\nF02K\nE01H\nG01H\nA47F\nC21B\nB09C\nE03B\nB21J\nA23P\nF25J\nB04B\nG21F\nC01D\nC21C\nB63C\nG16C\nA23J\nB60D\nB27M\nF04F\nB27C\nA41G\nB63G\nB25D\nA62D\nB61H\nA22B\nH04K\nH05F\nD21B"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "answer": "G06Q\nH01M\nG06T\nG06V\nH02J\nG01S\nG06N\nB65G\nA61P\nG05D\nG16H\nC22C\nB60L\nG08G\nG10L\nB24B\nE02D\nE04B\nB08B\nG09F\nA24F\nH02G\nA61H\nE04G\nB22F\nB25B\nA61G\nG01L\nF16M\nC01G\nF26B\nH03H\nH02B\nE02B\nB66F\nE21D\nG16B\nB07B\nB60P\nA63H\nA24D\nE21F\nF02K\nE01H\nG01H\nA47F\nC21B\nB09C\nE03B\nB21J\nA23P\nF25J\nB04B\nG21F\nC01D\nC21C\nB63C\nG16C\nA23J\nB60D\nB27M\nF04F\nB27C\nA41G\nB63G\nB25D\nA62D\nB61H\nA22B\nH04K\nH05F\nD21B"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "answer": "The CPC group codes at level 5 whose best year (highest EMA of patent filings, smoothing factor 0.2) is 2022 are (72 codes, ranked by EMA descending):\n\n1. G06Q (EMA 276.6165) — ICT specially adapted for administrative, commercial, financial, managerial or supervisory purposes\n2. H01M (EMA 183.1167) — Processes or means, e.g. batteries, for the direct conversion of chemical energy into electrical energy\n3. G06T (EMA 171.7337) — Image data processing or generation, in general\n4. G06V (EMA 98.9754) — Image or video recognition or understanding\n5. H02J (EMA 90.2456) — Circuit arrangements or systems for supplying or distributing electric power; systems for storing electric energy\n6. G01S (EMA 78.3157) — Radio direction-finding; radio navigation; determining distance or velocity by use of radio waves\n7. G06N (EMA 70.0458) — Computing arrangements based on specific computational models\n8. B65G (EMA 67.3095) — Transport or storage devices, e.g. conveyors\n9. A61P (EMA 56.3344) — Specific therapeutic activity of chemical compounds or medicinal preparations\n10. G16H (EMA 49.3258) — Healthcare informatics\n11. G05D (EMA 48.9065) — Systems for controlling or regulating non-electric variables\n12. C22C (EMA 48.6946) — Alloys\n13. B60L (EMA 46.4397) — Propulsion of electrically-propelled vehicles\n14. G08G (EMA 42.5169) — Traffic control systems\n15. G10L (EMA 40.1847) — Speech analysis techniques or speech synthesis; speech recognition\n16. B24B (EMA 33.0497) — Machines, devices, or processes for grinding or polishing\n17. E04B (EMA 30.7308) — General building constructions; walls, e.g. partitions; roofs; floors; ceilings\n18. E02D (EMA 30.5226) — Foundations; excavations; embankments; underground or underwater structures\n19. B08B (EMA 28.9883) — Cleaning in general; prevention of fouling in general\n20. G09F (EMA 26.9704) — Displaying; advertising; signs; labels or name-plates; seals\n21. A24F (EMA 26.2986) — Smokers' requisites; match boxes; simulated smoking devices\n22. H02G (EMA 25.3806) — Installation of electric cables or lines\n23. A61H (EMA 24.8266) — Physical therapy apparatus\n24. E04G (EMA 22.6802) — Scaffolding; forms; shuttering; building implements or aids\n25. B22F (EMA 22.0320) — Working metallic powder; manufacture of articles from metallic powder\n26. B25B (EMA 20.5721) — Tools or bench devices for fastening, connecting, disengaging or holding\n27. A61G (EMA 18.8140) — Transport, personal conveyances, or accommodation specially adapted for patients or disabled persons\n28. G01L (EMA 18.5499) — Measuring force, stress, torque, work, mechanical power, mechanical efficiency, or fluid pressure\n29. F16M (EMA 17.9585) — Frames, casings or beds of engines, machines or apparatus; stands; supports\n30. C01G (EMA 16.3348) — Compounds containing metals not covered by subclasses C01D or C01F\n31. F26B (EMA 15.1336) — Drying solid materials or objects by removing liquid therefrom\n32. H03H (EMA 14.7288) — Impedance networks, e.g. resonant circuits; resonators\n33. H02B (EMA 14.0638) — Boards, substations or switching arrangements for the supply or distribution of electric power\n34. E02B (EMA 12.9173) — Hydraulic engineering\n35. B66F (EMA 12.2210) — Hoisting, lifting, hauling or pushing, not otherwise provided for\n36. E21D (EMA 11.6555) — Shafts; tunnels; galleries; large underground chambers\n37. G16B (EMA 9.5613) — Bioinformatics\n38. B07B (EMA 8.8099) — Separating solids from solids by sieving, screening, sifting or by using gas currents\n39. B60P (EMA 8.7252) — Vehicles adapted for load transportation\n40. A63H (EMA 8.4367) — Toys, e.g. tops, dolls, hoops or building blocks\n41. A24D (EMA ~6) — Cigars; cigarettes; tobacco smoke filters; mouthpieces\n42. A61P (already listed above)\n43–72: A22B, A23J, A23P, A41G, A47F, A62D, B04B, B09C, B21J, B25D, B27C, B27M, B60D, B61H, B63C, B63G, C01D, C21B, C21C, D21B, E01H, E03B, E21F, F02K, F04F, F25J, G01H, G16C, G21F, H04K, H05F\n\nFull sorted list of all 72 codes: A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "answer": "G06Q\nH01M\nG06T\nG06V\nH02J\nG01S\nG06N\nB65G\nA61P\nG16H\nG05D\nC22C\nB60L\nG08G\nG10L\nB24B\nE04B\nE02D\nB08B\nG09F\nA24F\nH02G\nA61H\nE04G\nB22F\nB25B\nA61G\nG01L\nF16M\nC01G\nF26B\nH03H\nH02B\nE02B\nB66F\nE21D\nG16B\nB07B\nB60P\nA63H\nA24D\nE21F\nF02K\nE01H\nG01H\nA47F\nC21B\nB09C\nE03B\nB21J\nA23P\nF25J\nB04B\nG21F\nC01D\nC21C\nB63C\nG16C\nA23J\nB60D\nB27M\nF04F\nB27C\nA41G\nB63G\nB25D\nA62D\nB61H\nA22B\nH04K\nH05F\nD21B"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "answer": "A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0\nH04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0\nA21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0\nB23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0\nB29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0\nB41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0\nB60 | VEHICLES IN GENERAL | 2009 | 1.0\nB62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0\nB63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0\nC09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0\nE02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0\nE05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0\nF02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0\nF16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0\nF23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0\nF24 | HEATING; RANGES; VENTILATING | 2018 | 1.0\nF41 | WEAPONS | 2012 | 1.0\nG01 | MEASURING; TESTING | 2008 | 1.0\nG02 | OPTICS | 2016 | 1.0\nG08 | SIGNALLING | 2017 | 1.0\nH01 | ELECTRIC ELEMENTS | 2008 | 1.0\nH02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0\nH03 | ELECTRONIC CIRCUITRY | 2015 | 1.0"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "answer": "A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0\nA61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0\nB23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0\nB29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0\nB41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0\nB60 | VEHICLES IN GENERAL | 2009 | 1.0\nB62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0\nB63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0\nC09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0\nE02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0\nE05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0\nF02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0\nF16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0\nF23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0\nF24 | HEATING; RANGES; VENTILATING | 2018 | 1.0\nF41 | WEAPONS | 2012 | 1.0\nG01 | MEASURING; TESTING | 2008 | 1.0\nG02 | OPTICS | 2016 | 1.0\nG08 | SIGNALLING | 2017 | 1.0\nH01 | ELECTRIC ELEMENTS | 2008 | 1.0\nH02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0\nH03 | ELECTRONIC CIRCUITRY | 2015 | 1.0\nH04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "answer": "MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | A61\nELECTRIC COMMUNICATION TECHNIQUE | 2015 | H04\nBAKING; EDIBLE DOUGHS | 2015 | A21\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | B23\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | B29\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | B41\nVEHICLES IN GENERAL | 2009 | B60\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | B62\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | B63\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | C09\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | E02\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | E05\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | F02\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | F16\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | F23\nHEATING; RANGES; VENTILATING | 2018 | F24\nWEAPONS | 2012 | F41\nMEASURING; TESTING | 2008 | G01\nOPTICS | 2016 | G02\nSIGNALLING | 2017 | G08\nELECTRIC ELEMENTS | 2008 | H01\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | H02\nELECTRONIC CIRCUITRY | 2015 | H03"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "answer": "MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | A61\nELECTRIC COMMUNICATION TECHNIQUE | 2015 | H04\nBAKING; EDIBLE DOUGHS | 2015 | A21\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | B23\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | B29\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | B41\nVEHICLES IN GENERAL | 2009 | B60\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | B62\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | B63\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | C09\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | E02\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | E05\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | F02\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | F16\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | F23\nHEATING; RANGES; VENTILATING | 2018 | F24\nWEAPONS | 2012 | F41\nMEASURING; TESTING | 2008 | G01\nOPTICS | 2016 | G02\nSIGNALLING | 2017 | G08\nELECTRIC ELEMENTS | 2008 | H01\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | H02\nELECTRONIC CIRCUITRY | 2015 | H03"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "answer": "MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | A61\nELECTRIC COMMUNICATION TECHNIQUE | 2015 | H04\nBAKING; EDIBLE DOUGHS | 2015 | A21\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | B23\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | B29\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | B41\nVEHICLES IN GENERAL | 2009 | B60\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | B62\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | B63\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | C09\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | E02\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | E05\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | F02\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | F16\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | F23\nHEATING; RANGES; VENTILATING | 2018 | F24\nWEAPONS | 2012 | F41\nMEASURING; TESTING | 2008 | G01\nOPTICS | 2016 | G02\nSIGNALLING | 2017 | G08\nELECTRIC ELEMENTS | 2008 | H01\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | H02\nELECTRONIC CIRCUITRY | 2015 | H03"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "answer": "BLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nBLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nBLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "answer": "BLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "answer": "BLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nBLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nBLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "answer": "BLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "answer": "BLOOM ENERGY CORP - PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\nCRYSTAL IS INC - SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J - SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "399001.SZ (Shenzhen Component Index, Shenzhen Stock Exchange) exhibits the highest average intraday volatility in the Asia region since 2020.\n\nAverage intraday volatility = mean of (High - Low)/Open per trading day, for rows dated on/after 2020-01-01, across the Asian indices present in the trade data (399001.SZ, NSEI, HSI, 000001.SS, N225, TWII).\n\nRanking (since 2020, descending):\n1. 399001.SZ — 0.0183406881 (342 days)\n2. NSEI — lower\n3. HSI — lower\n4. 000001.SS — lower\n5. N225 — lower\n6. TWII — lower\n\nNo boundary ties at rank 1."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "The Asia-region stock index with the highest average intraday volatility since 2020 is **399001.SZ** (Shenzhen Component Index, tracking the Shenzhen Stock Exchange in China).\n\nAverage intraday volatility (computed as (High − Low) / Open per trading day, then averaged across all trading days since 2020-01-01): **0.0183406881** (~1.83% per day), based on 342 trading days.\n\nFor context, the full ranking of Asia-region indices by average intraday volatility since 2020:\n1. 399001.SZ (Shenzhen) — 0.0183\n2. NSEI (Nifty 50, India) — 0.0165\n3. HSI (Hang Seng, Hong Kong) — 0.0146\n4. N225 (Nikkei 225, Japan) — 0.0143\n5. 000001.SS (Shanghai Composite) — 0.0137\n6. TWII (Taiwan Weighted Index) — 0.0126\n\nNote: The Date column contains mixed text formats (e.g., \"2020-01-07 00:00:00\", \"06 Jan 2020, 00:00\", \"January 03, 2020 at 12:00 AM\"). The certified result uses a complete multi-format date parser (100% coverage, 0 parse loss) so all valid post-2020 trading days are included."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "The stock index in the Asia region with the highest average intraday volatility since 2020 is **399001.SZ** (Shenzhen Stock Exchange — Shenzhen Component Index).\n\nAverage intraday volatility was computed as (High − Low) / Open for each trading day, then averaged across all trading days from 2020-01-01 onward (data available through mid-2021). The mixed-format text Date column was fully parsed (100% of rows parsed, 0 unparsed) before applying the temporal filter.\n\n**399001.SZ** — avg intraday volatility ≈ 0.01834 (1.83%), over 342 trading days.\n\nThis is the clear top-ranked Asia index, ahead of the second-ranked NSEI (National Stock Exchange of India, ≈0.01707) and with no boundary tie at the top."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "The stock index in the Asia region with the highest average intraday volatility since 2020 is 399001.SZ (Shenzhen Stock Exchange / Shenzhen Component Index), with an average intraday volatility of 0.0183406881 (i.e., ~1.834% per trading day).\n\nMethod: For each trading day from 2020 onward (2020-01-02 through 2021-06-02), intraday volatility was computed as (High − Low) / Open, then averaged (row-weighted) across all trading days per index. The Asia-region indices available in the trade data were identified by mapping index symbols to their exchanges via geographic knowledge (Hong Kong→HSI, Shanghai→000001.SS, Shenzhen→399001.SZ, Tokyo→N225, India→NSEI, Taiwan→TWII).\n\nRanking of Asia indices by average intraday volatility since 2020:\n1. 399001.SZ (Shenzhen) — 0.0183406881 (342 trading days)  ← highest\n2. NSEI (India/National Stock Exchange) — 0.0170715043 (349 days)\n3. HSI (Hong Kong) — 0.0149316734 (348 days)\n4. 000001.SS (Shanghai) — 0.0137811050 (340 days)\n5. N225 (Tokyo/Nikkei 225) — 0.0134267639 (344 days)\n6. TWII (Taiwan) — 0.0132254693 (339 days)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "399001.SZ (Shenzhen Stock Exchange, China) exhibited the highest average intraday volatility among Asia-region stock indices since 2020, with an average daily (High − Low) / Open of approximately 0.0183 (1.83%) across 342 trading days from 2020 onward.\n\nAsia-region index comparison (average intraday volatility, dates ≥ 2020-01-01):\n- 399001.SZ (Shenzhen) — 0.0183406881 ← highest\n- NSEI (India/Nifty 50) — 0.0170715043\n- HSI (Hong Kong) — 0.0149316734\n- 000001.SS (Shanghai) — 0.0137811050\n- N225 (Tokyo/Nikkei 225) — 0.0134267639\n- TWII (Taiwan) — 0.0132254693"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "Among North American stock indices, only **IXIC (NASDAQ Composite)** had more up days than down days in 2018.\n\n2018 up/down day breakdown for the three North American indices (each with 251 trading days in 2018):\n- IXIC (NASDAQ Composite, NASDAQ): 131 up days, 120 down days → more up days ✓\n- NYA (NYSE Composite, New York Stock Exchange): 125 up days, 126 down days → more down days ✗\n- GSPTSE (S&P/TSX Composite, Toronto Stock Exchange): 115 up days, 135 down days, 1 flat → more down days ✗\n\nAnswer: IXIC (NASDAQ Composite)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "IXIC (NASDAQ Composite) was the only North American stock index with more up days than down days in 2018, with 131 up days vs 120 down days.\n\nNorth American indices considered (mapped from exchanges in indexinfo_database): NYA (New York Stock Exchange), IXIC (NASDAQ), and GSPTSE (Toronto Stock Exchange). Each traded 251 days in 2018. Results:\n- IXIC: 131 up / 120 down (net +11) ✓\n- NYA: 125 up / 126 down (net -1)\n- GSPTSE: 115 up / 135 down (net -20)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "IXIC (NASDAQ) is the only North American stock index that had more up days than down days in 2018, with 131 up days versus 120 down days.\n\nFor context, the other two North American indices did not meet the criterion:\n- NYA (New York Stock Exchange): 125 up days vs 126 down days\n- GSPTSE (Toronto Stock Exchange): 115 up days vs 135 down days\n\nAn \"up day\" is a trading day where Close > Open; a \"down day\" is a trading day where Close < Open. North American indices were identified by mapping the three North American exchanges in index_info (New York Stock Exchange → NYA, NASDAQ → IXIC, Toronto Stock Exchange → GSPTSE). The 2018 calendar year was applied by parsing the mixed-format Date column to a datetime and filtering to 2018-01-01 through 2018-12-31."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "IXIC (NASDAQ Composite). Among the three North American stock indices — NYA (New York Stock Exchange), IXIC (NASDAQ), and GSPTSE (Toronto Stock Exchange) — only IXIC had more up days than down days in 2018, with 131 up days versus 120 down days (out of 251 total trading days; net +11). By comparison, NYA had 125 up vs 126 down (net −1) and GSPTSE had 115 up vs 135 down (net −20)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "Among North American stock indices in 2018, only IXIC (NASDAQ Composite) had more up days than down days.\n\nNorth American indices examined (2018, 251 trading days each):\n- IXIC (NASDAQ Composite): 131 up days, 120 down days → more up days ✓\n- NYA (NYSE Composite, New York Stock Exchange): 125 up days, 126 down days → more down days\n- GSPTSE (S&P/TSX Composite, Toronto Stock Exchange): 115 up days, 135 down days, 1 flat day → more down days\n\nAn \"up day\" = Close > Open; a \"down day\" = Close < Open."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "Top 5 indices by overall return from regular monthly investments since 2000 ($100/month, USD-denominated via CloseUSD, buying at the first available observation each month):\n\n1. IXIC — United States (NASDAQ) | return ratio 3.8269 (≈382.7%) | $25700 → $124052.44 | 2000-01-03 to 2021-05-28\n2. NSEI — India (National Stock Exchange of India) | return ratio 1.3584 (≈135.8%) | $16500 → $38914.05 | 2007-09-17 to 2021-05-31\n3. 399001.SZ — China (Shenzhen Stock Exchange) | return ratio 1.3475 (≈134.7%) | $25800 → $60564.56 | 2000-01-04 to 2021-06-02\n4. GDAXI — Germany (Frankfurt Stock Exchange) | return ratio 1.3470 (≈134.7%) | $25700 → $60318.64 | 2000-01-03 to 2021-05-31\n5. TWII — Taiwan (Taiwan Stock Exchange) | return ratio 1.2982 (≈129.8%) | $25700 → $59063.75 | 2000-01-04 to 2021-05-31\n\nSummary (Index — Country): IXIC — United States; NSEI — India; 399001.SZ — China; GDAXI — Germany; TWII — Taiwan.\n\nNote: Each index was valued over its own available periods (common_periods=false). Indices whose data began after 2000 (notably NSEI, starting 2007) therefore had fewer monthly contributions and are compared on return ratio rather than absolute final value. The 5th-place cutoff (return_ratio ≈ 1.2982) had no additional ties."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "If an investor had made regular monthly investments ($100/month) in all indices since 2000, the 5 indices with the highest overall returns are:\n\n| Rank | Index | Exchange | Country | Return Ratio |\n|------|-------|----------|---------|-------------|\n| 1 | IXIC | NASDAQ | United States | 382.67% |\n| 2 | NSEI | National Stock Exchange of India | India | 135.84% |\n| 3 | GDAXI | Frankfurt Stock Exchange | Germany | 134.82% |\n| 4 | 399001.SZ | Shenzhen Stock Exchange | China | 134.80% |\n| 5 | TWII | Taiwan Stock Exchange | Taiwan | 129.67% |\n\n**Methodology:** A dollar-cost-averaging (DCA) strategy was simulated where $100 was invested monthly at the first available trading day of each month, buying units at the adjusted closing price. Accumulated units were then valued at each index's last available closing price. The return ratio = (final_value − total_invested) / total_invested.\n\n**Key findings:**\n- **IXIC (NASDAQ, United States)** dominated with a 382.67% return — investing $25700 over 257 months yielded a final value of ~$124047.\n- **NSEI (India)** came in second at 135.84%, but note its data starts later (2007), so its total invested ($16500) and period are shorter.\n- **GDAXI (Germany)** and **399001.SZ (China)** were nearly tied at ~134.8%.\n- **TWII (Taiwan)** rounded out the top 5 at 129.67%.\n\nThe index-to-country mapping was derived by matching index symbols to their corresponding exchanges in the index_info metadata table (e.g., IXIC → NASDAQ → United States, NSEI → National Stock Exchange of India → India, GDAXI → Frankfurt Stock Exchange → Germany, 399001.SZ → Shenzhen Stock Exchange → China, TWII → Taiwan Stock Exchange → Taiwan)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "If an investor had made regular monthly $100 investments in all indices since 2000 (purchased at the first available USD closing price of each month, accumulated units valued at each index's last available observation), the 5 indices with the highest overall returns (ranked by return ratio = (final_value − total_invested) / total_invested) are:\n\n| Rank | Index | Exchange | Country | Monthly Purchases | Total Invested | Final Value | Return Ratio | First Purchase | Valuation Date |\n|------|-------|----------|---------|:-:|---:|---:|---:|---|---|\n| 1 | IXIC | NASDAQ | United States | 257 | $25700 | $124052.44 | 3.8269 | 2000-01-03 | 2021-05-28 |\n| 2 | NSEI | National Stock Exchange of India | India | 165 | $16500 | $38914.05 | 1.3584 | 2007-09-17 | 2021-05-31 |\n| 3 | 399001.SZ | Shenzhen Stock Exchange | China | 258 | $25800 | $60564.56 | 1.3475 | 2000-01-04 | 2021-06-02 |\n| 4 | GDAXI | Frankfurt Stock Exchange | Germany | 257 | $25700 | $60318.64 | 1.3470 | 2000-01-03 | 2021-05-31 |\n| 5 | TWII | Taiwan Stock Exchange | Taiwan | 257 | $25700 | $59063.75 | 1.2982 | 2000-01-04 | 2021-05-31 |\n\nThe top performer by a wide margin is IXIC (NASDAQ, United States) with a return ratio of ~3.83 (≈383% total return). The remaining four indices (NSEI/India, 399001.SZ/China, GDAXI/Germany, TWII/Taiwan) are closely bunched between ~1.30 and ~1.36 (≈130–136% total return).\n\nNote: Indices whose available data began after January 2000 (e.g., NSEI started September 2007) are valued over their available coverage starting from their first available month; all indices present since 2000 were purchased from January 2000 through their last available observation (~May–June 2021)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "If an investor had made regular monthly investments of $100 in all indices since 2000 (using Adj Close prices, dollar-cost-averaging on the first trading day of each month), the 5 indices with the highest overall returns were:\n\n1. IXIC (NASDAQ) — United States — Return ratio: 3.8269 (382.69%)\n   • Total invested: $25700 (257 monthly purchases, Jan 2000 – May 2021)\n   • Final value: $124052.44\n\n2. NSEI (National Stock Exchange of India) — India — Return ratio: 1.3584 (135.84%)\n   • Total invested: $16500 (165 monthly purchases, Sep 2007 – May 2021)\n   • Final value: $38914.05\n   • Note: NSEI data availability was limited; it began purchasing in Sep 2007 rather than Jan 2000 due to sparse data coverage.\n\n3. 399001.SZ (Shenzhen Stock Exchange) — China — Return ratio: 1.3475 (134.75%)\n   • Total invested: $25800 (258 monthly purchases, Jan 2000 – Jun 2021)\n   • Final value: $60565.18\n\n4. GDAXI (Frankfurt Stock Exchange / DAX) — Germany — Return ratio: 1.3470 (134.70%)\n   • Total invested: $25700 (257 monthly purchases, Jan 2000 – May 2021)\n   • Final value: $60318.64\n\n5. TWII (Taiwan Stock Exchange) — Taiwan — Return ratio: 1.2982 (129.82%)\n   • Total invested: $25700 (257 monthly purchases, Jan 2000 – May 2021)\n   • Final value: $59063.94\n\nReturn ratio = (final_value − total_invested) / total_invested.\n\nBy country: United States (IXIC/NASDAQ), India (NSEI), China (399001.SZ/Shenzhen), Germany (GDAXI/Frankfurt), and Taiwan (TWII)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "If an investor had made regular monthly investments of $100 in every index from 2000 onward (using USD-denominated closing prices, buying on the first available trading day of each month, and valuing accumulated units at each index's last available close), the 5 indices producing the highest overall returns were:\n\n1. IXIC — NASDAQ (United States) — return ratio ≈ 3.8269 (final value $124052.44 on $25700 invested across 257 months)\n2. NSEI — National Stock Exchange of India (India) — return ratio ≈ 1.3584 (final value $38914.05 on $16500 invested across 165 months)\n3. 399001.SZ — Shenzhen Stock Exchange (China) — return ratio ≈ 1.3475 (final value $60564.56 on $25800 invested across 258 months)\n4. GDAXI — Frankfurt Stock Exchange (Germany) — return ratio ≈ 1.3470 (final value $60318.64 on $25700 invested across 257 months)\n5. TWII — Taiwan Stock Exchange (Taiwan) — return ratio ≈ 1.2982 (final value $59063.75 on $25700 invested across 257 months)\n\nSo the top 5, with their countries, are: IXIC (United States), NSEI (India), 399001.SZ (China), GDAXI (Germany), and TWII (Taiwan). IXIC/NASDAQ dominated by a wide margin; the other four were closely grouped."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "18.4400005341"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "18.4400005341"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "The maximum adjusted closing price for The RealReal, Inc. (ticker: REAL) in 2020 was $18.44, which occurred on January 3, 2020."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc. (ticker: REAL) was approximately $18.44, recorded on 2020-01-03."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc. (ticker: REAL) was $18.44, recorded on January 3, 2020."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "**31 ETFs listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015.**\n\n| # | Ticker | Fund Name | Max Adj Close in 2015 | Days Above $200 |\n|---|--------|-----------|----------------------|-----------------|\n| 1 | BOIL | ProShares Ultra Bloomberg Natural Gas | $382.20 | 158 |\n| 2 | BZQ | ProShares UltraShort MSCI Brazil Capped | $462.78 | 218 |\n| 3 | COM | Direxion Auspice Broad Commodity Strategy ETF | $40487.99 | 23 |\n| 4 | DUST | Direxion Daily Gold Miners Index Bear 2X Shares | $1923.28 | 252 |\n| 5 | EDZ | Direxion Emerging Markets Bear 3X Shares | $302.01 | 74 |\n| 6 | ERX | Direxion Energy Bull 2X Shares | $645.16 | 252 |\n| 7 | FAZ | Direxion Financial Bear 3X Shares | $288.54 | 221 |\n| 8 | FXP | ProShares Ultrashort FTSE China 50 | $206.00 | 2 |\n| 9 | GFIN | Goldman Sachs Motif Finance Reimagined ETF | $686.76 | 107 |\n| 10 | GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares | $78699.22 | 151 |\n| 11 | HYUP | Xtrackers High Beta High Yield Bond ETF | $4329.75 | 99 |\n| 12 | JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares | $12988.41 | 252 |\n| 13 | JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares | $451.07 | 100 |\n| 14 | JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF | $201.52 | 8 |\n| 15 | LABD | Direxion Daily S&P Biotech Bear 3X Shares | $624.08 | 152 |\n| 16 | LABU | Direxion Daily S&P Biotech Bull 3X Shares | $230.28 | 11 |\n| 17 | LBJ | Direxion Daily Latin America 3x Bull Shares | $998.11 | 252 |\n| 18 | MDY | SPDR MidCap Trust Series I | $263.77 | 252 |\n| 19 | PTIN | Pacer Trendpilot International ETF | $843.53 | 108 |\n| 20 | RTL | Pacer Benchmark Retail Real Estate SCTR ETF | $13306.76 | 98 |\n| 21 | SDOW | UltraPro Short Dow30 | $415.17 | 252 |\n| 22 | SOXS | Direxion Daily Semiconductor Bear 3x Shares | $3886.62 | 252 |\n| 23 | SSG | ProShares UltraShort Semiconductors | $263.87 | 73 |\n| 24 | TECS | Direxion Technology Bear 3X Shares | $253.30 | 68 |\n| 25 | TZA | Direxion Small Cap Bear 3X Shares | $272.63 | 160 |\n| 26 | UVXY | ProShares Trust Ultra VIX Short Term Futures ETF | $81500.00 | 252 |\n| 27 | VIXY | ProShares Trust VIX Short-Term Futures ETF | $491.00 | 252 |\n| 28 | VPC | Virtus Private Credit Strategy ETF | $2250.14 | 114 |\n| 29 | XES | SPDR S&P Oil & Gas Equipment & Services ETF | $278.55 | 155 |\n| 30 | XOP | SPDR S&P Oil & Gas Exploration & Production | $208.74 | 12 |\n| 31 | YANG | Direxion Daily FTSE China Bear 3x Shares | $347.35 | 168 |\n\n**Total number of such ETFs: 31**\n\n**Methodology:** The stockinfo_database was queried to identify all 1435 securities with ETF flag ('Y') listed on NYSE Arca (Listing Exchange = 'P'). For each of these ETFs, the corresponding daily price table in the stocktrade_database was queried with a temporal filter (Date ≥ '2015-01-01' AND Date < '2016-01-01') and metric filter (\"Adj Close\" > 200). A total of 4548 individual trading-day records were retrieved across 31 matching ETF tables (all 1435 tables scanned, no truncation). These were aggregated per ETF to count trading days with adjusted close above $200 and to find the maximum adjusted close reached in 2015."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "**ETF securities listed on NYSE Arca (Listing Exchange = P) that reached an adjusted closing price above $200 at any point during 2015:**\n\nTotal count: **31 ETFs**\n\n| # | Symbol | Max Adj Close (2015) | Security Name / Description |\n|---|--------|---------------------|-----------------------------|\n| 1 | BOIL | 382.20 | ProShares Ultra Bloomberg Natural Gas |\n| 2 | BZQ | 462.78 | ProShares UltraShort MSCI Brazil Capped |\n| 3 | COM | 40487.99 | Direxion Auspice Broad Commodity Strategy ETF |\n| 4 | DUST | 1923.28 | Direxion Daily Gold Miners Index Bear 2X Shares |\n| 5 | EDZ | 302.01 | Direxion Emerging Markets Bear 3X Shares |\n| 6 | ERX | 645.16 | Direxion Energy Bull 2X Shares |\n| 7 | FAZ | 288.54 | Direxion Financial Bear 3X Shares |\n| 8 | FXP | 206.00 | ProShares Ultrashort FTSE China 50 |\n| 9 | GFIN | 686.76 | Goldman Sachs Motif Finance Reimagined ETF |\n| 10 | GUSH | 78699.22 | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares |\n| 11 | HYUP | 4329.75 | Xtrackers High Beta High Yield Bond ETF |\n| 12 | JDST | 12988.41 | Direxion Daily Junior Gold Miners Index Bear 2X Shares |\n| 13 | JNUG | 451.07 | Direxion Daily Junior Gold Miners Index Bull 2X Shares |\n| 14 | JPN | 201.52 | Xtrackers Japan JPX-Nikkei 400 Equity ETF |\n| 15 | LABD | 624.08 | Direxion Daily S&P Biotech Bear 3X Shares |\n| 16 | LABU | 230.28 | Direxion Daily S&P Biotech Bull 3X Shares |\n| 17 | LBJ | 998.11 | Direxion Daily Latin America 3x Bull Shares |\n| 18 | MDY | 263.77 | SPDR MidCap Trust Series I |\n| 19 | PTIN | 843.53 | Pacer Trendpilot International ETF |\n| 20 | RTL | 13306.76 | Pacer Benchmark Retail Real Estate SCTR ETF |\n| 21 | SDOW | 415.17 | UltraPro Short Dow30 |\n| 22 | SOXS | 3886.62 | Direxion Daily Semiconductor Bear 3x Shares |\n| 23 | SSG | 263.87 | ProShares UltraShort Semiconductors |\n| 24 | TECS | 253.30 | Direxion Technology Bear 3X Shares |\n| 25 | TZA | 272.63 | Direxion Small Cap Bear 3X Shares |\n| 26 | UVXY | 81500.00 | ProShares Trust Ultra VIX Short Term Futures ETF |\n| 27 | VIXY | 491.00 | ProShares Trust VIX Short-Term Futures ETF |\n| 28 | VPC | 2250.14 | Invesco Variable Rate Trust ETF |\n| 29 | XES | 278.55 | SPDR S&P Oil & Gas Equipment & Services ETF |\n| 30 | XOP | 208.74 | SPDR S&P Oil & Gas Exploration & Production ETF |\n| 31 | YANG | 347.35 | Direxion Daily FTSE China Bull 2X Shares |\n\n**Summary:** A total of **31 ETF securities** listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015. The \"Max Adj Close\" column shows the highest adjusted closing price each ETF reached on any trading day within 2015."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "**Total number of ETFs: 31**\n\nAll 31 ETF securities listed on NYSE Arca that reached an adjusted closing price above $200 at some point during 2015 (with their peak 2015 adjusted closing price):\n\n| # | Symbol | Max Adj Close (2015) | ETF Name / Description |\n|---|--------|---------------------|----------------------|\n| 1 | BOIL | $382.20 | ProShares Ultra Bloomberg Natural Gas |\n| 2 | BZQ | $462.78 | ProShares UltraShort MSCI Brazil Capped |\n| 3 | COM | $40487.99 | Direxion Auspice Broad Commodity Strategy ETF |\n| 4 | DUST | $1923.28 | Direxion Daily Gold Miners Index Bear 2X Shares |\n| 5 | EDZ | $302.01 | Direxion Emerging Markets Bear 3X Shares |\n| 6 | ERX | $645.16 | Direxion Energy Bull 2X Shares |\n| 7 | FAZ | $288.54 | Direxion Financial Bear 3X Shares |\n| 8 | FXP | $206.00 | ProShares Ultrashort FTSE China 50 |\n| 9 | GFIN | $686.76 | Goldman Sachs Motif Finance Reimagined ETF |\n| 10 | GUSH | $78699.22 | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares |\n| 11 | HYUP | $4329.75 | Xtrackers High Beta High Yield Bond ETF |\n| 12 | JDST | $12988.41 | Direxion Daily Junior Gold Miners Index Bear 2X Shares |\n| 13 | JNUG | $451.07 | Direxion Daily Junior Gold Miners Index Bull 2X Shares |\n| 14 | JPN | $201.52 | Xtrackers Japan JPX-Nikkei 400 Equity ETF |\n| 15 | LABD | $624.08 | Direxion Daily S&P Biotech Bear 3X Shares |\n| 16 | LABU | $230.28 | Direxion Daily S&P Biotech Bull 3X Shares |\n| 17 | LBJ | $998.11 | Direxion Daily Latin America 3x Bull Shares |\n| 18 | MDY | $263.77 | SPDR MidCap Trust Series I (SPDR S&P MidCap 400 ETF) |\n| 19 | PTIN | $843.53 | Pacer Trendpilot International ETF |\n| 20 | RTL | $13306.76 | Pacer Benchmark Retail Real Estate SCTR ETF |\n| 21 | SDOW | $415.17 | UltraPro Short Dow30 (ProShares UltraPro Short Dow30) |\n| 22 | SOXS | $3886.62 | Direxion Daily Semiconductor Bear 3x Shares |\n| 23 | SSG | $263.87 | ProShares UltraShort Semiconductors |\n| 24 | TECS | $253.30 | Direxion Technology Bear 3X Shares |\n| 25 | TZA | $272.63 | Direxion Small Cap Bear 3X Shares |\n| 26 | UVXY | $81500.00 | ProShares Ultra VIX Short Term Futures ETF |\n| 27 | VIXY | $491.00 | ProShares VIX Short-Term Futures ETF |\n| 28 | VPC | $2250.14 | Vanguard Preferred Securities Index ETF |\n| 29 | XES | $278.55 | SPDR S&P Oil & Gas Equipment & Services ETF |\n| 30 | XOP | $208.74 | SPDR S&P Oil & Gas Exploration & Production ETF |\n| 31 | YANG | $347.35 | Direxion Daily FTSE China Bull (Bear) 3X Shares |\n\n**Methodology:** From the stockinfo database, 1435 ETFs (ETF='Y') listed on NYSE Arca (Listing Exchange='P') were identified. Each corresponding price-history table in the stocktrade database was queried for any trading day in 2015 (Date ≥ '2015-01-01' AND Date < '2016-01-01') where the Adj Close exceeded $200. All 1435 tables were queried; 31 had at least one such occurrence."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "**31 ETF securities listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015.**\n\nBelow is the complete list (sorted by peak 2015 adjusted close, descending):\n\n| # | Ticker | ETF Name | Peak 2015 Adj. Close |\n|---|--------|----------|---------------------:|\n| 1 | UVXY | ProShares Trust Ultra VIX Short-Term Futures ETF | $81500.00 |\n| 2 | GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares | $78699.22 |\n| 3 | COM | Direxion Auspice Broad Commodity Strategy ETF | $40487.99 |\n| 4 | RTL | Pacer Benchmark Retail Real Estate SCTR ETF | $13306.76 |\n| 5 | JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares | $12988.41 |\n| 6 | HYUP | Xtrackers High Beta High Yield Bond ETF | $4329.75 |\n| 7 | SOXS | Direxion Daily Semiconductor Bear 3X Shares | $3886.62 |\n| 8 | VPC | Virtus Private Credit Strategy ETF | $2250.14 |\n| 9 | DUST | Direxion Daily Gold Miners Index Bear 2X Shares | $1923.28 |\n| 10 | LBJ | Direxion Daily Latin America 3X Bull Shares | $998.11 |\n| 11 | PTIN | Pacer Trendpilot International ETF | $843.53 |\n| 12 | GFIN | Goldman Sachs Motif Finance Reimagined ETF | $686.76 |\n| 13 | ERX | Direxion Energy Bull 2X Shares | $645.16 |\n| 14 | LABD | Direxion Daily S&P Biotech Bear 3X Shares | $624.08 |\n| 15 | VIXY | ProShares Trust VIX Short-Term Futures ETF | $491.00 |\n| 16 | BZQ | ProShares UltraShort MSCI Brazil Capped | $462.78 |\n| 17 | JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares | $451.07 |\n| 18 | SDOW | UltraPro Short Dow30 | $415.17 |\n| 19 | BOIL | ProShares Ultra Bloomberg Natural Gas | $382.20 |\n| 20 | YANG | Direxion Daily FTSE China Bear 3X Shares | $347.35 |\n| 21 | EDZ | Direxion Emerging Markets Bear 3X Shares | $302.01 |\n| 22 | FAZ | Direxion Financial Bear 3X Shares | $288.54 |\n| 23 | XES | SPDR S&P Oil & Gas Equipment & Services ETF | $278.55 |\n| 24 | TZA | Direxion Small Cap Bear 3X Shares | $272.63 |\n| 25 | SSG | ProShares UltraShort Semiconductors | $263.87 |\n| 26 | MDY | SPDR MidCap Trust Series I (S&P MidCap 400) | $263.77 |\n| 27 | TECS | Direxion Daily Technology Bear 3X Shares | $253.30 |\n| 28 | FXP | ProShares UltraShort FTSE China 50 | $206.00 |\n| 29 | XOP | SPDR S&P Oil & Gas Exploration & Production ETF | $208.74 |\n| 30 | LABU | Direxion Daily S&P Biotech Bull 3X Shares | $230.28 |\n| 31 | JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF | $201.52 |\n\n**Total: 31 ETFs**\n\nMethodology: From the stockinfo table, all securities with Listing Exchange = 'P' (NYSE Arca) and ETF = 'Y' (1435 securities) were selected. For each of these tickers, the corresponding daily price table in stocktrade_database was queried for the maximum adjusted closing price during 2015-01-01 through 2015-12-31. The 31 ETFs above are those whose maximum 2015 adjusted close exceeded $200."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "ProShares Trust Ultra VIX Short Term Futures ETF: 81500.00\nDirexion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares: 78699.22\nDirexion Auspice Broad Commodity Strategy ETF: 40487.99\nPacer Benchmark Retail Real Estate SCTR ETF: 13306.76\nDirexion Daily Junior Gold Miners Index Bear 2X Shares: 12988.41\nXtrackers High Beta High Yield Bond ETF: 4329.75\nDirexion Daily Semiconductor Bear 3x Shares: 3886.62\nVirtus Private Credit Strategy ETF: 2250.14\nDirexion Daily Gold Miners Index Bear 2X Shares: 1923.28\nDirexion Daily Latin America 3x Bull Shares: 998.11\nPacer Trendpilot International ETF: 843.53\nGoldman Sachs Motif Finance Reimagined ETF: 686.76\nDirexion Energy Bull 2X Shares: 645.16\nDirexion Daily S&P Biotech Bear 3X Shares: 624.08\nProShares Trust VIX Short-Term Futures ETF: 491.00\nProShares UltraShort MSCI Brazil Capped: 462.78\nDirexion Daily Junior Gold Miners Index Bull 2X Shares: 451.07\nUltraPro Short Dow30: 415.17\nProShares Ultra Bloomberg Natural Gas: 382.20\nDirexion Daily FTSE China Bear 3x Shares: 347.35\nDirexion Emerging Markets Bear 3X Shares: 302.01\nDirexion Financial Bear 3X Shares: 288.54\nSPDR S&P Oil & Gas Equipment & Services ETF: 278.55\nDirexion Small Cap Bear 3X Shares: 272.63\nProShares UltraShort Semiconductors: 263.87\nSPDR MidCap Trust Series I: 263.77\nDirexion Technology Bear 3X Shares: 253.30\nDirexion Daily S&P Biotech Bull 3X Shares: 230.28\nSPDR S&P Oil & Gas Exploration & Production ETF: 208.74\nProShares Ultrashort FTSE China 50: 206.00\nXtrackers Japan JPX-Nikkei 400 Equity ETF: 201.52"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "15 NASDAQ-listed companies that were financially troubled (Financial Status D = Deficient, or H = Deficient and Delinquent) and had trading volume in 2008. For each, the existing non-null average daily trading volume in 2008 (shares/day):\n\n1. Apex Global Brands Inc.: 23781.4229\n2. BIO-key International, Inc.: 10988.1423\n3. CBAK Energy Technology, Inc.: 86223.3202\n4. China Ceramics Co., Ltd.: 4366.7984\n5. Correvio Pharma Corp.: 145247.8261\n6. CounterPath Corporation: 375.4941\n7. DASAN Zhone Solutions, Inc.: 15578.6561\n8. Future FinTech Group Inc.: 9.8452\n9. Frontier Communications Corporation: 254397.6285\n10. Ideanomics, Inc.: 10.2767\n11. Ocean Power Technologies, Inc.: 254.1502\n12. Pacific Ethanol, Inc.: 10706.7194\n13. Synthesis Energy Systems, Inc.: 2390.5138\n14. Sunesis Pharmaceuticals, Inc.: 781.8182\n15. Sypris Solutions, Inc.: 36836.3636\n\nSelection criteria: Listing Exchange = Q (NASDAQ Global Select Market) AND Market Category in (Q, G, S) = NASDAQ-listed market; Financial Status in (D, H), i.e. deficient, delinquent, or both (H = deficient and delinquent per the provided code definitions). Of the 25 financially-troubled NASDAQ-listed companies identified in stockinfo, 10 had no trading data in calendar year 2008 (no rows in their trade tables matching 2008-01-01 to 2008-12-31) and were excluded; the 15 above had existing non-null 2008 trading volume. All averages are computed as mean(Volume) over all trading days in calendar year 2008 for which the trade table had data."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "15 NASDAQ-listed, financially troubled companies have non-null trading volume in 2008. Below is each company with its existing non-null average daily trading volume in 2008:\n\n1. Frontier Communications Corporation: 254397.63\n2. Correvio Pharma Corp.: 145247.83\n3. CBAK Energy Technology, Inc.: 86223.32\n4. Sypris Solutions, Inc.: 36836.36\n5. Apex Global Brands Inc.: 23781.42\n6. DASAN Zhone Solutions, Inc.: 15578.66\n7. BIO-key International, Inc.: 10988.14\n8. Pacific Ethanol, Inc.: 10706.72\n9. China Ceramics Co., Ltd.: 4366.80\n10. Synthesis Energy Systems, Inc.: 2390.51\n11. Sunesis Pharmaceuticals, Inc.: 781.82\n12. CounterPath Corporation: 375.49\n13. Ocean Power Technologies, Inc.: 254.15\n14. Ideanomics, Inc.: 10.28\n15. Future FinTech Group Inc.: 9.85\n\nNote: \"Financially troubled\" = Financial Status code D (Deficient), E (Delinquent), H (Deficient and Delinquent), or codes also including bankruptcy (G, J, K). The NASDAQ-listed Market filter used Market Category Q (Global Select), G (Global Market), and S (Capital Market). All 25 eligible financially-troubled NASDAQ-listed companies were checked for 2008 trade data; the 10 with no 2008 trading table data (e.g., AGMH, AMTX, BIOC, FAMI, MCEP, etc.) are excluded because they had no 2008 trading volume to report."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "Frontier Communications Corporation: 254397.6285\nCorrevio Pharma Corp.: 145247.8261\nCBAK Energy Technology, Inc.: 86223.3202\nSypris Solutions, Inc.: 36836.3636\nApex Global Brands Inc.: 23781.4229\nDASAN Zhone Solutions, Inc.: 15578.6561\nBIO-key International, Inc.: 10988.1423\nPacific Ethanol, Inc.: 10706.7194\nChina Ceramics Co., Ltd.: 4366.7984\nSynthesis Energy Systems, Inc.: 2390.5138\nSunesis Pharmaceuticals, Inc.: 781.8182\nCounterPath Corporation: 375.4941\nOcean Power Technologies, Inc.: 254.1502\nIdeanomics, Inc.: 10.2767\nFuture FinTech Group Inc.: 9.8452"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "Apex Global Brands Inc.: 23781.42\nBIO-key International, Inc.: 10988.14\nCBAK Energy Technology, Inc.: 86223.32\nChina Ceramics Co., Ltd.: 4366.80\nCorrevio Pharma Corp.: 145247.83\nCounterPath Corporation: 375.49\nDASAN Zhone Solutions, Inc.: 15578.66\nFuture FinTech Group Inc.: 9.85\nFrontier Communications Corporation: 254397.63\nIdeanomics, Inc.: 10.28\nOcean Power Technologies, Inc.: 254.15\nPacific Ethanol, Inc.: 10706.72\nSynthesis Energy Systems, Inc.: 2390.51\nSunesis Pharmaceuticals, Inc.: 781.82\nSypris Solutions, Inc.: 36836.36"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "Apex Global Brands Inc.: 23781.4229\nBIO-key International, Inc.: 10988.1423\nCBAK Energy Technology, Inc.: 86223.3202\nChina Ceramics Co., Ltd.: 4366.7984\nCorrevio Pharma Corp.: 145247.8261\nCounterPath Corporation: 375.4941\nDASAN Zhone Solutions, Inc.: 15578.6561\nFrontier Communications Corporation: 254397.6285\nFuture FinTech Group Inc.: 9.8452\nIdeanomics, Inc.: 10.2767\nOcean Power Technologies, Inc.: 254.1502\nPacific Ethanol, Inc.: 10706.7194\nSunesis Pharmaceuticals, Inc.: 781.8182\nSynthesis Energy Systems, Inc.: 2390.5138\nSypris Solutions, Inc.: 36836.3636"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "Top 5 NYSE-listed non-ETF stocks with the most up days minus down days in 2017 (up day = Close > Open; down day = Close < Open), ranked by (up days − down days) descending:\n\n1. MFA Financial, Inc. (MFO) — up days: 139, down days: 67, net: +72\n2. Argo Group International Holdings, Ltd. (ARGD) — up days: 133, down days: 82, net: +51\n3. HDFC Bank Limited (HDB) — up days: 146, down days: 102, net: +44\n4. Albany International Corporation (AIN) — up days: 143, down days: 101, net: +42\n5. DTE Energy Company (DTQ) — up days: 139, down days: 98, net: +41\n\nMethodology: From stockinfo_database.stockinfo, the complete set of 234 symbols with Listing Exchange = 'N' (NYSE) and ETF = 'N' (non-ETF) was selected as the eligibility population. Each symbol's daily price table in stocktrade_database was queried for rows with Date in 2017 (2017-01-01 to 2017-12-31), counting up days (Close > Open), down days (Close < Open), and flat days (Close = Open). Net (up days − down days) was computed and ranked descending; all five had positive net values (more up days than down days). The top-5 boundary cutoff value is 41; boundary tie check found no additional ties. Company names were taken from the Company Description field joined from stockinfo."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "The top 5 non-ETF stocks listed on the NYSE with the most up days minus down days in 2017 (i.e., the greatest excess of up days over down days, where up day = Close > Open and down day = Close < Open):\n\n1. MFA Financial, Inc. (MFO) — +72 net up days (139 up / 67 down)\n2. Argo Group International Holdings, Ltd. (ARGD) — +51 net up days (133 up / 82 down)\n3. HDFC Bank Limited (HDB) — +44 net up days (146 up / 102 down)\n4. Albany International Corporation (AIN) — +42 net up days (143 up / 101 down)\n5. DTE Energy Company (DTQ) — +41 net up days (139 up / 98 down)\n\nAll five had more up days than down days in 2017, and there were no ties at the 5th-place boundary."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "The top 5 non-ETF stocks listed on the NYSE with the most up days minus down days in 2017 (up days = Close > Open; down days = Close < Open), ranked descending by the difference, are:\n\n1. MFA Financial, Inc. (MFO) — up days: 139, down days: 67, difference: 72\n2. Argo Group International Holdings, Ltd. (ARGD) — up days: 133, down days: 82, difference: 51\n3. HDFC Bank Limited (HDB) — up days: 146, down days: 102, difference: 44\n4. Albany International Corporation (AIN) — up days: 143, down days: 101, difference: 42\n5. DTE Energy Company (DTQ) — up days: 139, down days: 98, difference: 41\n\n(Ticker symbols shown in parentheses for reference; the requested answer is the company names.)"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "Top 5 non-ETF stocks listed on the NYSE with the most up days minus down days in 2017 (Up day: Close > Open; Down day: Close < Open):\n\n1. MFA Financial, Inc. (MFO) — +72 net days (139 up, 67 down)\n2. Argo Group International Holdings, Ltd. (ARGD) — +51 net days (133 up, 82 down)\n3. HDFC Bank Limited (HDB) — +44 net days (146 up, 102 down)\n4. Albany International Corporation (AIN) — +42 net days (143 up, 101 down)\n5. DTE Energy Company (DTQ) — +41 net days (139 up, 98 down)\n\nNote: These were filtered to Listing Exchange = 'N' (NYSE) and ETF = 'N' from the stockinfo metadata, then ranked by (up days − down days) computed from 2017 daily price data across all 234 eligible symbols' trade tables. No boundary ties existed at the rank-5 cutoff (the 6th-ranked stock, Getty Realty (GTY), had +39 net days)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "Top 5 non-ETF NYSE-listed stocks with more up days than down days in 2017, ranked by (up days − down days):\n\n1. MFA Financial, Inc. (MFO) — 139 up days, 67 down days → +72\n2. Argo Group International Holdings, Ltd. (ARGD) — 133 up days, 82 down days → +51\n3. HDFC Bank Limited (HDB) — 146 up days, 102 down days → +44\n4. Albany International Corporation (AIN) — 143 up days, 101 down days → +42\n5. DTE Energy Company (DTQ) — 139 up days, 98 down days → +41"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "The 5 NASDAQ Capital Market companies with the most days in 2019 where the intraday price range (High − Low) exceeded 20% of the Low price were:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 42 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 32 days"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "The 5 companies listed on the NASDAQ Capital Market with the highest number of days in 2019 where the intraday price range (High - Low) exceeded 20% of the Low price are:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 42 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 32 days\n\nNote: Companies were filtered to those on the NASDAQ Capital Market (Market Category = 'S'), excluding ETFs and test issues. No other company tied at the boundary (32 days)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "The 5 companies listed on the NASDAQ Capital Market with the highest number of days in 2019 where the intraday price range (High − Low) exceeded 20% of the Low price, in descending order:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 42 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 32 days"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "The 5 NASDAQ Capital Market companies with the highest number of days in 2019 where the intraday price range (High − Low) exceeded 20% of the Low price are:\n\n1. **Synthesis Energy Systems, Inc.** (SES) — 51 days\n2. **TD Holdings, Inc.** (GLG) — 42 days\n3. **TMSR Holding Company Limited** (TMSR) — 40 days\n4. **Verb Technology Company, Inc.** (VERB) — 38 days\n5. **Sunesis Pharmaceuticals, Inc.** (SNSS) — 32 days\n\nMethodology: Identified all 86 NASDAQ Capital Market companies (Market Category = 'S', non-ETF, non-test issue) from stockinfo_database, queried each company's daily trading data in stocktrade_database for 2019 trading days where Low > 0 and (High − Low) > 0.2 × Low, counted qualifying days per company, ranked descending, and enriched with company names."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "The 5 NASDAQ Capital Market companies with the most days in 2019 where the intraday price range (High − Low) exceeded 20% of the Low price were:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 42 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 32 days"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "3.547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is approximately 3.5470 (based on 117 reviews across 8 businesses)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "3.5470\n\nThe average rating of all businesses located in Indianapolis, Indiana is approximately 3.5470 (based on 117 reviews across 8 businesses identified as located in Indianapolis, IN).\n\nComputation path: The business collection's `description` field was classified (classify_aggregate, 100/100 businesses, 0 unclassified) to identify the 8 businesses located in Indianapolis, IN. These 8 business IDs were joined to the `review` table via the `business_id`/`business_ref` prefix mapping (businessid_ → businessref_), and the mean of the `rating` column was computed over the 117 matching reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is approximately 3.5470 (based on 117 reviews across 8 Indianapolis businesses).\n\nPer-business breakdown:\n- Fox and Hound English Pub and Grille: 3.02 (41 reviews)\n- Architectural Antiques of Indianapolis: 4.17 (6 reviews)\n- Pat Flynn's Public House: 3.83 (18 reviews)\n- Big Lots: 3.56 (9 reviews)\n- Gamestop: 5.00 (4 reviews)\n- Jordans Fish and Chicken: 3.33 (6 reviews)\n- Long John Silver's: 1.00 (3 reviews)\n- Taste of Europe: 4.07 (30 reviews)\n\nRow-weighted mean = 3.5470085470"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana is 3.5470.\n\nThis is based on 117 reviews across 8 Indianapolis businesses: Architectural Antiques of Indianapolis, Gamestop, Big Lots, Jordans Fish and Chicken, Pat Flynn's Public House, Taste of Europe, Long John Silver's, and Fox and Hound English Pub and Grille."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "Pennsylvania (PA) has the highest number of reviews with 662 reviews, and the average rating of businesses in that state is 3.6994."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "Pennsylvania (PA) is the U.S. state with the highest number of reviews, with 662 reviews and an average rating of 3.6994.\n\nMethod: Extracted the U.S. state from each business's description field in businessinfo_database.business (100 businesses), joined to all 2000 reviews in user_database.review via the business_id ↔ business_ref prefix mapping (businessid_ → businessref_), excluded the one non-U.S. (Alberta, Canada) business, then counted reviews and computed the row-weighted average rating per state. 1955 of 2000 reviews matched to U.S. states.\n\nFull ranking by review count:\n- PA: 662 reviews, avg rating 3.6994\n- FL: 406 reviews, avg rating 3.0271\n- MO: 213 reviews, avg rating 3.9061\n- IN: 176 reviews, avg rating 3.4659\n- ID: 126 reviews, avg rating 3.6508\n- LA: 125 reviews, avg rating 3.5360\n- CA: 75 reviews, avg rating 2.7467\n- NV: 65 reviews, avg rating 3.7077\n- TN: 39 reviews, avg rating 3.8718\n- IL: 28 reviews, avg rating 3.5357\n- NJ: 27 reviews, avg rating 4.0000\n- AZ: 13 reviews, avg rating 3.3846"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "Pennsylvania (PA) is the U.S. state with the highest number of reviews, with 662 reviews and an average rating of approximately 3.6994 for businesses in that state."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "Pennsylvania (PA) has the highest number of reviews with 662 reviews, and the average rating of businesses in that state is 3.6994 (approximately 3.70)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "Pennsylvania (PA) has the highest number of reviews with 662 reviews. The average rating of businesses in PA (computed row-weighted across all 662 reviews) is 3.6994."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "35\n\nDuring 2018, 35 distinct businesses that received reviews offered either business parking or bike parking.\n\nMethod: I identified all 2018 reviews from user_database.review by parsing the mixed-format date column (ISO format like '2018-01-05 00:33:00', natural-language like 'November 05, 2018 at 05:46 PM', and abbreviated like '20 Jul 2018, 17:24'), yielding 211 reviews across 67 distinct businesses. I then joined those businesses to businessinfo_database.business (normalizing the businessref_/businessid_ prefix difference) and examined each business's attributes.BusinessParking (a dict indicating whether garage/street/validated/lot/valet parking is offered — counted as offered when at least one type is True) and attributes.BikeParking (a \"True\"/\"False\" string). Of the 67 businesses reviewed in 2018, 35 offered business parking, bike parking, or both."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "138"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "Restaurants is the business category with the largest number of businesses that accept credit card payments: 27 businesses. Its average (mean) rating across reviews for those businesses is approximately 3.6337 (≈ 3.63 out of 5)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "Restaurants is the business category with the largest number of businesses that accept credit card payments: 27 businesses. Its average rating is approximately 3.6337."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "Restaurants is the business category with the largest number of businesses that accept credit card payments: 27 businesses. Its average rating is 3.6337 (the row-weighted mean across all 778 individual review ratings for those 27 businesses)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "Restaurants — the category with the largest number of credit-card-accepting businesses (27 distinct businesses) and an average rating of 3.6337 (row-weighted mean across all reviews for those businesses).\n\nMethod: Filtered the 75 businesses whose attributes.BusinessAcceptsCreditCards = \"True\", extracted each business's category list from its description, joined those businesses to all reviews in user_database.review (key transform businessid_→businessref_), exploded the per-business category lists, then grouped by category computing count_distinct(business_id) and mean(rating). Of 157 categories, Restaurants had the most businesses (27); no other category tied at that count."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": ""
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "Pennsylvania (PA) has the highest number of businesses that offer WiFi, with 8 distinct WiFi-offering businesses. The average rating for those businesses is 3.4840 (row-weighted mean across 281 reviews for those 8 businesses)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "Pennsylvania (PA) is the U.S. state with the highest number of businesses that offer WiFi, with 8 businesses (attributes.WiFi = \"free\" or \"paid\"). The average rating for those businesses, computed as a row-weighted mean across all their Yelp reviews (281 reviews total, sum of ratings = 979), is approximately 3.4840.\n\nThe top state was selected by ranking states by business: 8\n- King of Prussia Laundromat: 25 reviews, avg 3.04\n- Executive Auto Body: 17 reviews, avg 4.29\n- Hanoi's Pho: 46 reviews, avg 3.33\n- Holiday Inn Philadelphia Stadium: 42 reviews, avg 2.55\n- Humpty's Dumplings: 46 reviews, avg 3.74\n- Artesano Gallery & Iron Works: 21 reviews, avg 4.48\n- Fishtown Diner: 42 reviews, avg 2.93\n42 reviews: 4.31"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "Pennsylvania (PA) has the highest number of businesses that offer WiFi, with 8 such businesses. The average rating for those businesses (row-weighted across all 281 reviews of the 8 WiFi-offering PA businesses) is 3.4840."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "Pennsylvania (PA) is the U.S. state with the highest number of businesses offering WiFi, with 8 WiFi-enabled businesses. The average rating for those businesses (based on 281 reviews across the 8 businesses) is approximately 3.4840."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "Pennsylvania (PA) has the highest number of U.S. businesses that offer WiFi, with 8 such businesses. The average rating for these businesses is 3.4840 (computed across 281 reviews)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "**Coffee House Too Cafe** (business_id: businessid_9) received the highest average rating of 4.375 between January 1, 2016 and June 30, 2016, among businesses with at least 5 reviews in that period. It had 16 reviews during this time frame.\n\n**Category**: Restaurants, Breakfast & Brunch, American (New), Cafes\n\nLocated at 501 Fairmount Ave in Philadelphia, PA."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "Dentistry for Children and Adolescents - St. Charles received the highest average rating of 5.0 between January 1, 2016 and June 30, 2016 among businesses with at least 5 reviews (7 reviews in that period). It belongs to the categories: Health & Medical, Pediatric Dentists, Dentists."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "Coffee House Too Cafe (business_ref: businessref_9) received the highest average rating of 4.375 between January 1, 2016 and June 30, 2016, based on 16 reviews in that period. It belongs to the categories: Restaurants, Breakfast & Brunch, American (New), and Cafes. It is located at 501 Fairmount Ave in Philadelphia, PA."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "**Coffee House Too Cafe** received the highest average rating of **4.375** (based on 16 reviews) between January 1, 2016 and June 30, 2016, among businesses with at least 5 reviews.\n\nIt belongs to the following categories: **Restaurants, Breakfast & Brunch, American (New), Cafes**.\n\n(Source: business description — \"Located at 501 Fairmount Ave in Philadelphia, PA, this inviting establishment offers a delightful menu featuring Restaurants, Breakfast & Brunch, American (New), Cafes, perfect for a cozy meal any time of the day.\")"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "Coffee House Too Cafe received the highest average rating (4.375, from 16 reviews) between January 1, 2016 and June 30, 2016 among businesses with at least 5 reviews. It belongs to the categories: Restaurants, Breakfast & Brunch, American (New), and Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "Among users who registered on Yelp in 2016, the 5 business categories that received the most total reviews from those users since 2016 are:\n\n1. Restaurants — 58 reviews\n2. Food — 38 reviews\n3. American (New) — 24 reviews\n4. Shopping — 20 reviews\n5. Breakfast & Brunch — 19 reviews\n\nMethodology: Identified 168 users whose yelping_since date parses to calendar year 2016 using a multi-format date parser (covering all observed formats: ISO, \"DD Mon YYYY, HH:MM\", \"Month DD, YYYY at HH:MM AM/PM\"). Filtered reviews to those from 2016-registered users with review date on or after 2016-01-01 (150 eligible reviews across 62 distinct businesses). Extracted comma-separated category lists from each business description via LLM extraction (covering all 62 businesses in two complete batches of 29 and 33). Exploded each review across all categories of its business and summed counts per category. Ranked descending; no boundary ties at 5th position (19 vs next 17)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "Among users who registered on Yelp in 2016, the 5 business categories that have received the most total reviews from those users since 2016 are:\n\n1. Restaurants — 58 reviews\n2. Food — 38 reviews\n3. American (New) — 24 reviews\n4. Shopping — 20 reviews\n5. Breakfast & Brunch — 19 reviews"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "Among users who registered on Yelp in 2016, the 5 business categories that received the most total reviews from those users since 2016 are:\n\n1. Restaurants — 58 reviews\n2. Food — 38 reviews\n3. American (New) — 24 reviews\n4. Shopping — 20 reviews\n5. Breakfast & Brunch — 19 reviews\n\nThese counts reflect reviews written by the 168 users whose yelping_since date falls in 2016, restricted to reviews dated on or after 2016-01-01, with each review counted once per business category listed for the reviewed business."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "Among users who registered on Yelp in 2016, the 5 business categories that received the most total reviews from those users since 2016 are:\n\n1. Restaurants — 58 total reviews\n2. Food — 38 total reviews\n3. American (New) — 24 total reviews\n4. Shopping — 20 total reviews\n5. Breakfast & Brunch — 19 total reviews\n\n(Methodology: Identified 168 users whose yelping_since year was 2016, joined their reviews (dated 2016 onward) to the business collection, summed reviews per business, extracted category lists from each business description, and aggregated the per-business review counts up to the category level — counting each business's reviews once per category it belongs to.)"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "Among users who registered on Yelp in 2016, the 5 business categories that received the most total reviews from those users since 2016 are:\n\n1. Restaurants — 58 reviews\n2. Food — 38 reviews\n3. American (New) — 24 reviews\n4. Shopping — 20 reviews\n5. Breakfast & Brunch — 19 reviews\n\n(Methodology: Parsed yelping_since dates to identify the 168 users who registered in 2016; filtered reviews to those dated 2016 or later and written by those users (150 reviews); joined each review's business to the business collection via the business_ref→business_id prefix transform; extracted the verbatim category labels from each business description; and summed reviews per category, counting each review once per category label it belongs to.)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "0.13513513513513514\n\nOf the 111 articles authored by Amy Jones, 15 belong to the Science/Technology category, giving a fraction of 15/111 ≈ 0.13513513513513514.\n\nCategory breakdown of Amy Jones's 111 articles:\n- Business: 39\n- World: 29\n- Sports: 28\n- Science/Technology: 15"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "18/111 ≈ 0.1622 (about 16.22%) of all articles authored by Amy Jones belong to the Science/Technology category."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "Approximately 0.1532 (17/111) of all articles authored by Amy Jones belong to the Science/Technology category.\n\nComputation:\n- Amy Jones (author_id = 218) authored 111 articles total (denominator).\n- Classifying all 111 articles by the meaning of their title and description into the four categories (World, Sports, Business, Science/Technology), 17 were classified as Science/Technology (numerator).\n- Fraction = 17 / 111 ≈ 0.15315315."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "18/111 ≈ 0.1622 (≈16.22%). Amy Jones authored 111 articles total, of which 18 belong to the Science/Technology category."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "Approximately 0.1622 (18/111) of all articles authored by Amy Jones belong to the Science/Technology category. Of the 111 articles authored by Amy Jones, 18 were classified as Science/Technology."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "370.8181818181818"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "The average number of business articles published per year in Europe from 2010 to 2020 (inclusive) is **368.0**.\n\nThis is based on 4048 business articles identified across the 11-year period (2010–2020), derived by classifying all 14860 Europe-region articles published during that date range into one of four categories (World, Sports, Business, Science/Technology) using their title and description text.\n\nBusiness articles per year:\n- 2010: 340\n- 2011: 373\n- 2012: 368\n- 2013: 369\n- 2014: 379\n- 2015: 356\n- 2016: 357\n- 2017: 406\n- 2018: 383\n- 2019: 352\n- 2020: 365\n\nTotal: 4048 business articles over 11 years → 4048 / 11 = **368.0 articles per year**."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "365.1818"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "387.9091\n\nThe average number of business articles published per year in Europe from 2010 to 2020 (inclusive) is approximately 387.9091.\n\nThis is computed from 4267 business articles published in Europe across 11 years (2010–2020), giving 4267 / 11 = 387.9091.\n\nBreakdown of business articles per year in Europe:\n- 2010: 356\n- 2011: 404\n- 2012: 390\n- 2013: 393\n- 2014: 391\n- 2015: 384\n- 2016: 374\n- 2017: 420\n- 2018: 399\n- 2019: 373\n- 2020: 383\n\nThe 14860 articles published in Europe during 2010–2020 were classified into four categories (World, Sports, Business, Science/Technology) using their titles and descriptions, yielding 4267 Business articles."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "The average number of business articles published per year in Europe from 2010 to 2020 (inclusive) is approximately 366.55.\n\nThis was computed by:\n- Identifying 14860 articles published in Europe between 2010 and 2020 (from the article_metadata table filtered by region='Europe' and publication_date between 2010-01-01 and 2020-12-31)\n- Classifying all 14860 articles by their title and description into four categories (World, Sports, Business, Science/Technology), yielding 4032 Business articles\n- Dividing 4032 Business articles by 11 years (2010–2020 inclusive) = 366.545454... ≈ 366.55 business articles per year"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "In 2015, Africa published the largest number of articles in the World category, with 329 World-category articles. The full breakdown by region was: Africa 329, North America 328, South America 323, Europe 318, Asia 303 (out of 1601 total World-category articles in 2015)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "North America, Europe, Africa, South America, Asia"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "In 2015, **North America** published the largest number of World-category articles, with 325 articles (compared to Africa and Europe tied at 318 each, South America at 314, and Asia at 308)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "In 2015, North America published the largest number of World-category articles (323), the most among all regions after classifying the 6696 articles published that year into World, Sports, Business, and Science/Technology categories (1581 were classified as World)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "North America, Africa, Europe, South America, Asia"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "$1059.46\n\nApple Music made $1059.46 in revenue from Beyoncé's song \"Get Me Bodied\" in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "Apple Music made $1059.46 USD in revenue from Beyoncé's song \"Get Me Bodied\" in Canada.\n\nBreakdown (3 resolved track records representing \"Get Me Bodied\" had Apple Music sales in Canada):\n- track_id 4233: 354 units, $377.62\n- track_id 5281: 426 units, $458.02\n- track_id 12954: 210 units, $223.82\nTotal: 990 units, $1059.46 USD\n\nNote: track_ids 10838 and 15158 also resolve to the same real-world track but had no Apple Music sales in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "Apple Music made $1059.46 USD in revenue from Beyoncé's song \"Get Me Bodied\" in Canada.\n\nThis total comes from 3 sale transactions across the resolved entity (5 track records representing the same song across sources; 3 of them had Canada/Apple Music sales):\n- track_id 4233: $377.62 (354 units)\n- track_id 5281: $458.02 (426 units)\n- track_id 12954: $223.82 (210 units)\n\nTotal: $1059.46 USD (990 units sold)"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "Apple Music made $1059.46 USD in revenue from Beyoncé's song 'Get Me Bodied' in Canada.\n\nThis total comes from 3 sales records (990 total units sold) after entity resolution identified 4 duplicate track records (track_ids 4233, 5281, 12954, 15158) as the same real-world song. The matching Apple Music / Canada sales were:\n- $377.62 (354 units, track_id 4233)\n- $458.02 (426 units, track_id 5281)\n- $223.82 (210 units, track_id 12954)"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "store: Amazon Music, total_revenue_usd: 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "Amazon Music earned the most revenue from Brucqe Maginnis' song \"Street Hype\" across all countries, with a total of $1108.99 USD.\n\nEntity resolution identified 5 track_ids (7, 4122, 4628, 13758, 14080) as representing the same real-world song — including title variants (\"Sttreet Hype\", \"StreetH ype\", \"Street Hype - Groove City\", \"011-Street Hype\") and artist name variants (\"Brucqe Maginnis\", \"Bruce Maginnis\"), all from the album \"Groove City\" (2005). Revenue was summed across all sales records for these track_ids in all five countries."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "Amazon Music earned the most revenue from Brucqe Maginnis' song \"Street Hype\" across all countries, with a total of USD 682.23 in revenue (615 units sold across 2 sales records)."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "store: Amazon Music, total_revenue_usd: 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "store: Amazon Music, total_revenue_usd: 1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "title: Zo gaat het leven aan je voor, artist: Syb van der Ploeg, album: Hillich fjoer | Heilig vuur, total_revenue: 9013.69, total_units: 7792, num_track_ids: 5"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "The song that generated the highest total revenue in USD across all stores and countries is \"Zo gaat het leven aan je voor\" by Syb van der Ploeg, with a total revenue of $9013.69."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "title: Zo gaat het leven aan je voor, artist: Syb van der Ploeg, song_total_revenue: 9013.69, member_track_count: 5"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "title: Zo gaat het leven aan je voor, total_revenue: 9013.69"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "title: Zo gaat het leven aan je voor, artist: Syb van der Ploeg, album: Hillich fjoer | Heilig vuur, total_revenue_usd: 9013.69"
+  }
+]
