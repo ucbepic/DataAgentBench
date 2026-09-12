@@ -1,0 +1,121 @@
+{
+  "coverage": {
+    "expected": 270,
+    "recorded": 270,
+    "unique": 270,
+    "missing": [],
+    "extra": [],
+    "duplicates": []
+  },
+  "passed": 201,
+  "micro_accuracy": 0.7444444444444445,
+  "macro_pass_at_1": 0.7086721611721613,
+  "per_dataset": {
+    "DEPS_DEV_V1": {
+      "trials": 10,
+      "passed": 5,
+      "failed_execution": 0,
+      "queries": 2,
+      "pass_at_1": 0.5
+    },
+    "GITHUB_REPOS": {
+      "trials": 20,
+      "passed": 11,
+      "failed_execution": 0,
+      "queries": 4,
+      "pass_at_1": 0.55
+    },
+    "PANCANCER_ATLAS": {
+      "trials": 15,
+      "passed": 10,
+      "failed_execution": 0,
+      "queries": 3,
+      "pass_at_1": 0.6666666666666666
+    },
+    "PATENTS": {
+      "trials": 15,
+      "passed": 6,
+      "failed_execution": 0,
+      "queries": 3,
+      "pass_at_1": 0.4
+    },
+    "agnews": {
+      "trials": 20,
+      "passed": 6,
+      "failed_execution": 4,
+      "queries": 4,
+      "pass_at_1": 0.3
+    },
+    "bookreview": {
+      "trials": 15,
+      "passed": 15,
+      "failed_execution": 0,
+      "queries": 3,
+      "pass_at_1": 1.0
+    },
+    "crmarenapro": {
+      "trials": 65,
+      "passed": 57,
+      "failed_execution": 0,
+      "queries": 13,
+      "pass_at_1": 0.8769230769230769
+    },
+    "googlelocal": {
+      "trials": 20,
+      "passed": 14,
+      "failed_execution": 0,
+      "queries": 4,
+      "pass_at_1": 0.7
+    },
+    "music_brainz_20k": {
+      "trials": 15,
+      "passed": 14,
+      "failed_execution": 1,
+      "queries": 3,
+      "pass_at_1": 0.9333333333333333
+    },
+    "stockindex": {
+      "trials": 15,
+      "passed": 15,
+      "failed_execution": 0,
+      "queries": 3,
+      "pass_at_1": 1.0
+    },
+    "stockmarket": {
+      "trials": 25,
+      "passed": 18,
+      "failed_execution": 0,
+      "queries": 5,
+      "pass_at_1": 0.72
+    },
+    "yelp": {
+      "trials": 35,
+      "passed": 30,
+      "failed_execution": 0,
+      "queries": 7,
+      "pass_at_1": 0.8571428571428571
+    }
+  },
+  "per_run": {
+    "0": [
+      43,
+      54
+    ],
+    "1": [
+      42,
+      54
+    ],
+    "2": [
+      40,
+      54
+    ],
+    "3": [
+      39,
+      54
+    ],
+    "4": [
+      37,
+      54
+    ]
+  }
+}

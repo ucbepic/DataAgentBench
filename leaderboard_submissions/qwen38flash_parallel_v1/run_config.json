@@ -1,0 +1,1677 @@
+{
+  "created_at": "2026-09-11T17:41:21+08:00",
+  "config": {
+    "schema_version": 2,
+    "dab_revision": "aae973009f65e20585c81d6f860ba92c86d39368",
+    "git_commit": "200fcd9ae313521b3077bf8a330b1708e8f1c697",
+    "sources": {
+      "Dockerfile": "c5d0fc9f476ee9fc8ba4d9d4ae48e931bd52387c976ab1ebc068a4bba6eb3569",
+      "common_scaffold/DataAgent.py": "1828c12f2e11476f270d8feb5243d96358160ca6cee38ab5236863cb2953e1e2",
+      "common_scaffold/benchmark_config.py": "b249fda2e0f8abaf782ac5a7ed63b2422cf2bc1d40b1570ec089fa8d470ba7d7",
+      "common_scaffold/benchmark_processes.py": "2a38d5eb4d8adee860a12077ddeea2dddf8e87d7bba3b92001165c7d012ea53d",
+      "common_scaffold/benchmark_scheduler.py": "aa349bc1b6035cc7d10ee4a53cbac6dbd48a083c6d1308927507f664507419b4",
+      "common_scaffold/config.py": "cc8142c0ee730f767b1bbb565fbcc7954f7672628389b45c90e987ab9e823ea0",
+      "common_scaffold/prompts/prompt_builder.py": "9e94c64f49182cc7fc10a93da04cefdea8a79441c584e370d15ba5bcd6ddd760",
+      "common_scaffold/tools/BaseTool.py": "1a0c759aaedf3f52900d7161b71dcfa9f576dd7d4a68e6f27c0d5ce1c32ea6f8",
+      "common_scaffold/tools/ExecTool.py": "c24fe29804dee7ca51b61d1c2a7fd10ffecd44959e7d0ea5322d9c2245a4dd20",
+      "common_scaffold/tools/ListDBTool.py": "bdcfabc42f7ab04f5030b918707866b87c796a6a4708cb226d42223275089287",
+      "common_scaffold/tools/QueryDBTool.py": "b664e86be71baf735a71b1097c64227f5d49c7483dc5bb6719b061cbe955f8ab",
+      "common_scaffold/tools/ReturnAnswerTool.py": "17c6c1716fb7f0a30c7c0e1740e93df13e621e855a6e3f4e76c5235668f2f014",
+      "common_scaffold/tools/db_utils/db_config.py": "408234cf4189b257b261ac8ce16f483c636a562be77340291805a6b9b424fde5",
+      "common_scaffold/tools/db_utils/duckdb_utils.py": "63a7d486e8095a99cb2ac5c8c74a11ace007b0d0ff51d71712db448c3c6b6870",
+      "common_scaffold/tools/db_utils/mongo_utils.py": "251e9514fc7effbdc3460ede0733342b098e19b1feaccd7f9f23f398a6813f31",
+      "common_scaffold/tools/db_utils/postgres_utils.py": "dcdf5d0fe183c087cb40c06ccfffbfa4d6d1fb817dbf542fb591ec362df0f1b1",
+      "common_scaffold/tools/db_utils/sqlite_utils.py": "59eba86019b61dbd2b28e224ad58826c552e1dbc60c4f4b077d20a417daebdff",
+      "common_scaffold/tools/exec_utils/parse_result.py": "2d63b4352f0ace8109fef849f15af48f8802ed218051ab549c17b1fbe4f7bffd",
+      "common_scaffold/validate/levenshtein.py": "77c2cc868169345908261ad9c14bec48f29f6e25f4b690607c2936fefefa67c1",
+      "common_scaffold/validate/pass_k.py": "44fb0dff55f93a9659e9778911da9076b096ad4c8e19e6d8df793c67a777c2e6",
+      "common_scaffold/validate/validate.py": "676810b87b9372489db3a8fae7e394803126f28881b7e548f7bf885a79809154",
+      "logging_config.py": "38dbefae0f332c075110c0482de529ee60620b507aa29dc3db3bbe42dbb1edbc",
+      "requirements.lock.txt": "f2f52db010d2bfff5cfe74ed42b64feeed43cde06c973455360bad770d4732a1",
+      "run_agent.py": "78379d29168ca2ca93eaf5e2e4b367041f8c0deadcb43f14e9c193cb0e4bf45f",
+      "run_benchmark.py": "d3f5dbd9b46a282f9e66642e4b61d433e0d41f55b5f5b16c8aec3a399a67b663"
+    },
+    "inputs": {
+      "dataset_manifest.tsv": "b9fc770629644862ac5354fca82253b601f1fc85fbbc9e708918cfe09418eb39",
+      "query_DEPS_DEV_V1/db_config.yaml": "fb41b42f81a17377459e5d80415360e91641d4b3dbbf06e039eb17a01fec0c3e",
+      "query_DEPS_DEV_V1/db_description.txt": "cc42969175de961c82d1660b44f4c49eeeac5476cb2442234a5aa9ad5a45278a",
+      "query_DEPS_DEV_V1/db_description_withhint.txt": "b19a9ab19dc779942a8b4838cc89d1a30992e5a99c54485162594f81db25a6e5",
+      "query_DEPS_DEV_V1/query1/query.json": "0cedd62ce3f61e3fa7d45f1db9809b912273bded66b13310823fed671607c0a5",
+      "query_DEPS_DEV_V1/query1/validate.py": "691a1910f0eb76e20b7d0652141584320b5bcfcaa399f07d8601f0dbc00c2d35",
+      "query_DEPS_DEV_V1/query2/query.json": "5fe660eaae9c882a79e1afcb8e91baccdfaf88a0aa59197e3ac1a790fb2f4aed",
+      "query_DEPS_DEV_V1/query2/validate.py": "e7c49325c40ebc7a028f27dd5d677e22485e7acfed456ba6e029f6bdb03d480d",
+      "query_DEPS_DEV_V1/query_dataset/package_query.db": "6676259f784aa89aec838a3e4a74bc68793085e49520c819b2356205a6eaf68a",
+      "query_DEPS_DEV_V1/query_dataset/project_query.db": "e6b171594cbb8dbb5298b54206b235a396b0eee9dd8c2c68deefab8d76c72e6a",
+      "query_GITHUB_REPOS/db_config.yaml": "528a10e2a1827882af97d47514733cddb8264e81cb4e4d6dd2bcff6d8cab6cd5",
+      "query_GITHUB_REPOS/db_description.txt": "9a14a7a391f729498b51334a52612fa3c7f917d0c18d8f691a807834de63379c",
+      "query_GITHUB_REPOS/db_description_withhint.txt": "6105987c80e9aa6d1690dca00d8bdc770ade5daf9c48f84aa75de8ea6c1353dd",
+      "query_GITHUB_REPOS/query1/query.json": "c1ec5a8a222f1df528c246e18cc7791cfc5ffd5bdba3cd3da1f6362a526bd40f",
+      "query_GITHUB_REPOS/query1/validate.py": "c8e979be70776b67ee32372ac1e77b75f7474946809dc81d4941821bf5683bd5",
+      "query_GITHUB_REPOS/query2/query.json": "d643fbf44aef32f8b5f4c24cc5ab9ffc642ac2b5a6a52b6f7bae65b8087b632b",
+      "query_GITHUB_REPOS/query2/validate.py": "782a94fd3f78285d3035fcaa2b9de187c4a8a599b8203c9433f6aaa9ba1c83ef",
+      "query_GITHUB_REPOS/query3/query.json": "be348f0f9207fd049040a6cb3785a2e7d18a24aeb5d75a877e34e28d7916e0f0",
+      "query_GITHUB_REPOS/query3/validate.py": "e415c60c301c0376ee0c9b922390efa20500d5e23dd24fc574d2c000603c4f7c",
+      "query_GITHUB_REPOS/query4/query.json": "e19192b4f504d1c0dd8f61c13b36022f95a0f125fa82a5383d893a6bc0f63f88",
+      "query_GITHUB_REPOS/query4/validate.py": "b6d8110867225717a23f9e217f5586f8b32639b80a57d7d4bbd3f05cbc8d8287",
+      "query_GITHUB_REPOS/query_dataset/repo_artifacts.db": "d514c66eb07403f79b8da2ff6a79a6c82f2d862cadaf71d536ea58644cd07bbc",
+      "query_GITHUB_REPOS/query_dataset/repo_metadata.db": "e9b71beb5d7e2b344f996baf19fb34231c24ab354019d65bd14a1cbfc62c67a1",
+      "query_PANCANCER_ATLAS/db_config.yaml": "5711035bea1820d94eb5041faa687d5974553004dc993023970d3ed9493f5d13",
+      "query_PANCANCER_ATLAS/db_description.txt": "ff2b6e2989c785eaf5d62d7665d2539d5405f65b53451cfb9921b49724b7dc92",
+      "query_PANCANCER_ATLAS/db_description_withhint.txt": "6824e704afbd5b3653908e71ba3d8f0a6e901457689021745a340f668c958795",
+      "query_PANCANCER_ATLAS/query1/query.json": "7a127ebaa5aadfdd3eabf6a01891eda9211b15fa462f3e03f15e67f3a98ec328",
+      "query_PANCANCER_ATLAS/query1/validate.py": "3f1b15e3c24c1ce258ba064fcc3f2523ee4b7c8079ab58c5ac215cd90d1d6d7a",
+      "query_PANCANCER_ATLAS/query2/query.json": "352c6f13e64220ec8cb518ac3411382a66577f98f3c536d9610ea7f5a3e8b628",
+      "query_PANCANCER_ATLAS/query2/validate.py": "e48251d37463258951299880b5784724274aa87fee40583cd3c513fc3ff02312",
+      "query_PANCANCER_ATLAS/query3/query.json": "c21bb23a1d4c9e40717b73a55edf04b237a953a5c79a894e44672a5eab36d1b5",
+      "query_PANCANCER_ATLAS/query3/validate.py": "14b8be8849e25f4ba71b0347589ade0e51dec3e8a51f1273b485244981427520",
+      "query_PANCANCER_ATLAS/query_dataset/pancancer_clinical.sql": "ce57356f7a0f72e1c43a1fc2083d46293991645cbce2f6f237c731bf4035fdd6",
+      "query_PANCANCER_ATLAS/query_dataset/pancancer_molecular.db": "7e1131c386014ea8bdd528d2fd040a85f6891dd9e46e8dc18947f7a712cf8610",
+      "query_PATENTS/db_config.yaml": "1989d2c52cc76beae80a62d68ea46d62a5926118cbce8faf02b64de80711074c",
+      "query_PATENTS/db_description.txt": "3f85a6d3b5bcf450668938c4828f5c6ca03172623efe2311c3d919bc1be3ca26",
+      "query_PATENTS/db_description_withhint.txt": "26a2bd2123730dde9e63d506ad9311c203d7957672fc533d870185be2e6e78f0",
+      "query_PATENTS/query1/query.json": "b181e9bd7ee711fe45783c7bcdd04cc9c44da38ad96592d5895d90b5a33a5912",
+      "query_PATENTS/query1/validate.py": "764c9af0492c15fc12d2ce796fd312717c066af04937aa25c95a6351fe2efee8",
+      "query_PATENTS/query2/query.json": "85222e70a218b55a186a5be14e3ec047739558afbaf98b21b7f824dc9f6ce7ba",
+      "query_PATENTS/query2/validate.py": "28741289c1bb9065924f97981af0b64f19b0415fb110ee8e9d8c536a9f550c28",
+      "query_PATENTS/query3/query.json": "65a4054537b7662556db4ab5e0d04b290b5103080b8759da3d65573fe6034968",
+      "query_PATENTS/query3/validate.py": "c34efa6c273789795d3bf52a02e11503924644a665fa81ca752914a0c5577d50",
+      "query_PATENTS/query_dataset/patent_CPCDefinition.sql": "f888382228bf87538744194ca2ea1be126c316423d6d10e35e7d4ec226da0144",
+      "query_PATENTS/query_dataset/patent_publication.db": "1e22b92b9849b3f7a07dcf89075f37787c84feacb0cdbc7b4bd96ae4fa88071c",
+      "query_agnews/db_config.yaml": "97240184ab0646b66dc5015e10a5884bc673abe70c5a4d0610f5028fe7559d7d",
+      "query_agnews/db_description.txt": "296c7dabfd0fdc1343d2e3d4b17491f2946b44a8e807619bcda350d1397cba47",
+      "query_agnews/db_description_withhint.txt": "db6e3f29714e7898b8c8e91efa1077b2e120fbe0fb0bede47fb9a75481d7f988",
+      "query_agnews/query1/query.json": "bbc94a9e190cc3efe66b92537cb856622c111e52964c9c8bb7c530f3d9e182ce",
+      "query_agnews/query1/validate.py": "f2fd963afb74ae60921613f4662aacc7be39e6fae6d1acc2c121aeec7f61d322",
+      "query_agnews/query2/query.json": "79f736db6659b00b8ce85f03ce0eb9af962ec283404a72ee9e10fb8a477c2ae8",
+      "query_agnews/query2/validate.py": "4f38f4768db4b5bc392efdc495fe5d98a20d937bed9a773ae876445dd6287145",
+      "query_agnews/query3/query.json": "2444519816264b71fb76ba72cb641e04daebb340d8232651f2ab04e4d1b5a855",
+      "query_agnews/query3/validate.py": "809d8d3f011655336e2579577b93681b2f7170eadccf08551de74190e9a61b7f",
+      "query_agnews/query4/query.json": "b9e4940960a6376ea3ebec7bbb46e82fb470862ea7cd083c122dddaa1bedf6f1",
+      "query_agnews/query4/validate.py": "a90e70fefb2f2b97c408d9f236d1b1f07037e5bf553162157c6df36b627a8776",
+      "query_agnews/query_dataset/agnews_articles/articles_db/articles.bson": "ad74220284cb2737273f5b6a9e6c2c1e34374a232db1072a5842f82f8a539488",
+      "query_agnews/query_dataset/metadata.db": "30cfb96d29b4e49c5f6ae6e5cb2c754d98e118a183ddd57ae44ee3564aeb1955",
+      "query_bookreview/db_config.yaml": "974daea2f4e2bd804ad41691207ce86a2562876518487790d4825a5438b27aab",
+      "query_bookreview/db_description.txt": "d180e884f6481699379fcc3f7bc51b99b64d7866b3d63e9ffd82c8efb6e35153",
+      "query_bookreview/db_description_withhint.txt": "fc6a2b44133281359e39eae650ddd00c88117f9cfde58cec1c63ec13638846e6",
+      "query_bookreview/query1/query.json": "908099cc5c9202b498f2f21233bbe0dc1f1d346eb7c79ad4f836d0bb53567289",
+      "query_bookreview/query1/validate.py": "acb4462bb0fe6e1e7b54faf1ec6b7e75e3e88b38b074a9ebbb3d7c4e8f23759e",
+      "query_bookreview/query2/query.json": "97b6ecbd39ac559caab7f0cf6bec74a32011583db87f153afe6cbffeeb18c8b6",
+      "query_bookreview/query2/validate.py": "b85d464dea068a5f49587d6bc0067a50759ad7aca1c3dbf99679f8b45feb4a56",
+      "query_bookreview/query3/query.json": "118b330352dd14214a20a7bea1c2691ff18aa65e7546fb8e270af2e2ff62b976",
+      "query_bookreview/query3/validate.py": "7d234b73b4c2c256ea5f19b1d840e38589b0449e804a126eb9c18881a09d40aa",
+      "query_bookreview/query_dataset/books_info.sql": "80acb3ece574f26b634107c9c553dc5ab0c95ca11f6b226c9602dff9465393d9",
+      "query_bookreview/query_dataset/review_query.db": "01f07a5894f058613374694a8f46d19341bf1fa316367494d019191e772b3e2c",
+      "query_crmarenapro/db_config.yaml": "8440fe2fba1ca42ea5106bb0113c7f3eb4b248f2ea38d63bc432d9e4553b6390",
+      "query_crmarenapro/db_description.txt": "7a5421cb138f6e4bb0b2d1a7458b9b2a53dfbd1df8d5ebd852b6a2f8d9a9ad18",
+      "query_crmarenapro/db_description_withhint.txt": "8dd1fc389af715a4af0dae53543c6e996bbb63eaf75e9813c07cb2ce7176d256",
+      "query_crmarenapro/query1/query.json": "894e6fb92a2c798b3dd29e486a7ec78c5c9f8aa7ff398bef227b8784529d5f66",
+      "query_crmarenapro/query1/validate.py": "579be6cfae68087cc8efd8e2e9c1ae0a5283e722d2a1d033705d52f28b9f9835",
+      "query_crmarenapro/query10/query.json": "cad473f5f29c0965ea73e0c136a96034e3436df59c016c2a3549d03beeca2010",
+      "query_crmarenapro/query10/validate.py": "33e391562f728b4a5d80b7a1a8b046746a8d40a48817db1f379271ed99329193",
+      "query_crmarenapro/query11/query.json": "f26f335645c4383dde4f4532c4c84f21f4b01a26f9dd2738be6d151e8116b0f1",
+      "query_crmarenapro/query11/validate.py": "0a0b8e676ad86e4e90c8c06e0034a04d2b1fb28ef5bf63d097ecbd440d4bb8a7",
+      "query_crmarenapro/query12/query.json": "c4a10a08df2a82e5bbba81c38820f441acc4e69f0e8784b4cd9df76045244a20",
+      "query_crmarenapro/query12/validate.py": "99476c2b08ba7f07bfbe1fb4fd32938a5a78c7942e88fb57c35da748e6c7d2cc",
+      "query_crmarenapro/query13/query.json": "e45a2ab8feb029efd1fdc6dd175053d253ec6a833bec576015ca0fff5bde1044",
+      "query_crmarenapro/query13/validate.py": "cf707902d5ccb87233fbba008ebc70d6e7001d2f77e10ddebeb082575ded4486",
+      "query_crmarenapro/query2/query.json": "9e4834b6399ed135885379b58092992df72a6abfda6d63289c3c6d632ff7a67b",
+      "query_crmarenapro/query2/validate.py": "a9e852fda1bbda63d3d1940e129e32d5af4a428c75a78424b4495db02a984d1d",
+      "query_crmarenapro/query3/query.json": "3413c9ccae6924385e20ca4e5683a2b2bb53e988df87cbd40b2154885824d294",
+      "query_crmarenapro/query3/validate.py": "0b8dda4ccc5958a7ae292ff782329785ac450ac1ccec890484a6ff5a9f774767",
+      "query_crmarenapro/query4/query.json": "e7b8341035f0e32bb2dfe08a1112b2e973bf45ebffde77ec42de102d427f0da3",
+      "query_crmarenapro/query4/validate.py": "44a9efc64699eb0f99703ef0cb1e37d7c11af5bcfb62974a9f3c5d890af27c14",
+      "query_crmarenapro/query5/query.json": "12f4ad0de8c065b851dd9edb53f9003c58ddd02516c73d7b941c7b08ff432962",
+      "query_crmarenapro/query5/validate.py": "2c9fd2b1cef51e8e00b5cbefb15dfe4cb8261d726519f394ab4b2dc1f2c05797",
+      "query_crmarenapro/query6/query.json": "366e380fb2873420a22a287a85a3eeea802bc10985709a0b1ded7eb90aa8736f",
+      "query_crmarenapro/query6/validate.py": "62d23cae1947acf29b02fdc186e25b10b2d11e223965c6f384fbbab6ccf6a7df",
+      "query_crmarenapro/query7/query.json": "82d93f1e5317b087cb59b785270191915f0d1d542779dc1d7035efe99277689a",
+      "query_crmarenapro/query7/validate.py": "6a3a4ce64de4fe3abbb7c38f50f0bd5c54ef09506445b384fa9f2f537bb0704e",
+      "query_crmarenapro/query8/query.json": "c0d1d62e8696fc91c2469b719753ba8c6e4273c3cdeade0f4c58b5d9df5a8408",
+      "query_crmarenapro/query8/validate.py": "f5286f8dadbe0c2d0895b6f0fe4085691fdd2e6ae916e79f2f9293a960c30334",
+      "query_crmarenapro/query9/query.json": "ad49f3909ed2da0fd72a99db50de26652f1a4c7b7b35aead6656092918357a71",
+      "query_crmarenapro/query9/validate.py": "fd1b20664e106209005d1d3f8321d935616927f4529d9a9388098481e6799b78",
+      "query_crmarenapro/query_dataset/activities.duckdb": "f3299b9214885f00c71c9af77d89b62ad73f3e545e3cf5baa4861d1265151c60",
+      "query_crmarenapro/query_dataset/core_crm.db": "aa595797e41db401136a0a68bf14bac44707f9f86ed235f61d9f051728e50506",
+      "query_crmarenapro/query_dataset/products_orders.db": "92ad52f2a624ee5e0cdf7cd4cc64ac60b1e3f7af2c672be27f651f80af4a6bdb",
+      "query_crmarenapro/query_dataset/sales_pipeline.duckdb": "5b44cc3754820bff20c3f25e50cf09c6be401f86e69df6b9d3ee7a4cf64ac5af",
+      "query_crmarenapro/query_dataset/support.sql": "5248cd64cddf4936027859c5d6f74b2d32fbeb4e1939d784b2ff26d45d83950c",
+      "query_crmarenapro/query_dataset/territory.db": "1a9650d4ba3c0a3690b936d294feb31a3227bf6f2ebe886f74cf12e14936366a",
+      "query_googlelocal/db_config.yaml": "e4c808ba9f5d0fa01c4497d1ad3f79d0607a18374efa41397c8bc22def0e8eb0",
+      "query_googlelocal/db_description.txt": "2d865cf4dbfe9d67eafee802e2dca9d3cbe7937d173458bb8f1cbe839e0278a3",
+      "query_googlelocal/db_description_withhint.txt": "231b81dc1f3ff2c708765f65969c9a81afc7dc31d46828c4352a19bca203458f",
+      "query_googlelocal/query1/query.json": "3f9cae56516b7ae78edb2d96a28634746762b983219b85d995db679c554226be",
+      "query_googlelocal/query1/validate.py": "380e9dd0d57319d8c887ebfb5161c38add6bb8d19283265bf9f84e0e4c6323d3",
+      "query_googlelocal/query2/query.json": "d4b527325a39563c28e17bb29a694082677ba6190ecd7d8b232f923de947e2a6",
+      "query_googlelocal/query2/validate.py": "0a2db3d2e36578165b3135c309b9e6d7b4f67665b2e3cf025524efcb711e2ad4",
+      "query_googlelocal/query3/query.json": "edc69dda56e12bd4b5c1b4ec50d98fef8a1f24a1af951aa3933511dae7cc651d",
+      "query_googlelocal/query3/validate.py": "37b5175ce2fe38edf5cf813d1b293ae4b42d22b8b8afe1348e4d56db898096fa",
+      "query_googlelocal/query4/query.json": "1ffd55d9fca7f959216dc13dda75bfc37c3dddadd939b3fad072b1a1f3e48cae",
+      "query_googlelocal/query4/validate.py": "4b9c7096546d5f581c5212e8617caa41b19820f56025ee309abcf7a97ba5f6d9",
+      "query_googlelocal/query_dataset/business_description.sql": "cac36db1c60ab1fcbc661cc7df46c9980db1c2fcdaedb65b57f7a2618339ddd4",
+      "query_googlelocal/query_dataset/review_query.db": "1e9ef561d4edf62ff49bf874253935caf8d404a79c60d21b9b0fc40ee041692c",
+      "query_music_brainz_20k/db_config.yaml": "31c3180aea769887628cf51e91998f9d5e72df98449608fb887d92203f212c6e",
+      "query_music_brainz_20k/db_description.txt": "6741a5467641016ac78d05f8ec6501b48efb182355cc63db8aa4f3cc715a8dc7",
+      "query_music_brainz_20k/db_description_withhint.txt": "c18a833cc12c1ccb055a7a7a717404c2b55129a4ad48941328eb7fb33488ebda",
+      "query_music_brainz_20k/query1/query.json": "b49b9e624260d2ea09ec1191ef32bf7a85fe00a428288140a2ea4fb9233e267f",
+      "query_music_brainz_20k/query1/validate.py": "95e75de5b663e836372faeab70420527c7b42bcf3767e8431beca1ebde17637b",
+      "query_music_brainz_20k/query2/query.json": "8918f918a333b6c28250bfa169a4acd2e7c36876c98b946c30b64e0aeb0c677c",
+      "query_music_brainz_20k/query2/validate.py": "2ef8b4f76ade27acfeed410e59fd52c608a04b86a6bed8626b71c8b589bfcff3",
+      "query_music_brainz_20k/query3/query.json": "c73ce87fbc8a1a57563705070de6867e9d275656ef48d5be0b1b28dfa3375146",
+      "query_music_brainz_20k/query3/validate.py": "cdc581cea003b72d490ab83e3e005bac94531a990a737aa96a39b8cceee33d2e",
+      "query_music_brainz_20k/query_dataset/sales.duckdb": "52ce48c0027eab1b3f85932139425107dd5cf7422217bd8adedfc3edf21ad0e2",
+      "query_music_brainz_20k/query_dataset/tracks.db": "0c349f70e5bafcba1deb605b49e224abfa95c5a83a44688faa511f9e123a02cc",
+      "query_stockindex/db_config.yaml": "d5a8fb635912bbb6aed71bad8e8ca4b93289d5fefbe4dd009287aa501129aa34",
+      "query_stockindex/db_description.txt": "d3e240825f702b68ff87bc72ab341ad10ea47a8581437ac735e01b09def59153",
+      "query_stockindex/db_description_withhint.txt": "7154b91720f27159ef67c085468cf39dd9eac497785adcbfe96bf2927e5e16b3",
+      "query_stockindex/query1/query.json": "cdf0ad83ee620ca66a1c46cdf8eb3ee24ecffc65c362802ab722c7a19ea4a8d7",
+      "query_stockindex/query1/validate.py": "827c71dc7ab3b6624437a4af3c21bedbe64a7b3614d86241e547e70c7e1a7c15",
+      "query_stockindex/query2/query.json": "1f06ad9ec6f8dbd571ef75b77c411bb72349ca2a64d5ae4e4ae1efa3b56fc296",
+      "query_stockindex/query2/validate.py": "834e41dd6de60ef5c824b229560738c7fca33672e8978bb9eb8ca0f71d052355",
+      "query_stockindex/query3/query.json": "d872cc5cce95bfa4f498fecbb8947b143f0cc75bc195c6647b5cdb92a47c903e",
+      "query_stockindex/query3/validate.py": "eff4734185a8d3c7ebd1ec94b13feb50d7e6bd2ee431c01018cf88d3556444cd",
+      "query_stockindex/query_dataset/indexInfo_query.db": "976511f3eb213269c81b286dd4517e4948b3d3bb776e221559943f0439916b55",
+      "query_stockindex/query_dataset/indextrade_query.db": "12e9cf350be2a6396f6be9f0c2bb057013859956bc8269952dc7a85008973bb1",
+      "query_stockmarket/db_config.yaml": "2a5a60ca2ad14195da7f6d98eab8efe7c665ebfb9f149bbb42befa63fab5efd2",
+      "query_stockmarket/db_description.txt": "e795a9ef086b388149f0d31bd422f688b5930fa11e80131adf506e09689b9c89",
+      "query_stockmarket/db_description_withhint.txt": "b915c5cdafca960929cab6f3fc0ff0f1167b83bfaf7417e2535e70aa6ed047a2",
+      "query_stockmarket/query1/query.json": "ec4541f3706936b4950c984be32b011dee7c47cf0333b75c2f45a59d93a29c4d",
+      "query_stockmarket/query1/validate.py": "58282597518b0432ab5d15c0f7845ae97d93a9d8dd66549c840f0c98fa9c815e",
+      "query_stockmarket/query2/query.json": "1dfdfba655707afbb3e02084a572b173b79e20e47be036f413975ecd57664473",
+      "query_stockmarket/query2/validate.py": "be6ef9996c48d357291d87b8e572d20311d8cb6b05a3a6e9702f8d93dad8d63d",
+      "query_stockmarket/query3/query.json": "0770ab30b8e79b9af5a3e91d0dd180a1d5f4708981a6c48f8ebf2716baf55010",
+      "query_stockmarket/query3/validate.py": "948ed2b64b2ea8de48c11034c8c4e2772b5ca7dbdf898f8ff816bea407b227cb",
+      "query_stockmarket/query4/query.json": "01590225dde474c7496ca27c8c79a15a908da8b1388eef730d8b660146c59bc7",
+      "query_stockmarket/query4/validate.py": "09538392d54f1c68d9aac70e5d7d1c692cebe3a743078067b211bbf0909d7f8d",
+      "query_stockmarket/query5/query.json": "a40bc9e12f4723c5b54e3661c8d58518854e0cef2abf330612215d5de2fedd53",
+      "query_stockmarket/query5/validate.py": "8f0e5b28bad6e209a6509662e7fab27d2a0a8114228dd04b49a2851dbefc95c4",
+      "query_stockmarket/query_dataset/stockinfo_query.db": "b8cf6b5627c92e17c10e27779afa8aa77c659e44bd4ccc14b10f1116053bc6a2",
+      "query_stockmarket/query_dataset/stocktrade_query.db": "e9cbf3c4d05d2eeb919c5b207374aefd19aa02e40dca49f2688618beb180350d",
+      "query_yelp/db_config.yaml": "c782c74ef5df85627e3993ab194cb6d0ee7350789546cfed80eea97566e59f41",
+      "query_yelp/db_description.txt": "345e23f2306d398c0fee113a043504a2599d2ec11d7d98d8f82f132fbcde8f34",
+      "query_yelp/db_description_withhint.txt": "81cf2d9f99f12a778bf6412bc57b1cb334ec14457b282418653f314ee9062806",
+      "query_yelp/query1/query.json": "6d7feb548d68d731ea7c3b4cfeed0cc86bd796d4aaf4f142cd00ba02307d0be8",
+      "query_yelp/query1/validate.py": "30d1f2535c4fea561260aa3e5e59fa3af25a98b0528557b11ba5af09f9a27475",
+      "query_yelp/query2/query.json": "271ac8527fd063db0d58911d55429175cdb815d83fc39ba6b3794bafcda0e027",
+      "query_yelp/query2/validate.py": "aa1e9fe46484d1319fe7da725441e34d6c2008672a990ccc8424b75fa19a582b",
+      "query_yelp/query3/query.json": "1dcf772c1298a4df34e9f486ff9ae56dfd6e379fcef4986dbff6f00967af99a1",
+      "query_yelp/query3/validate.py": "c79185af0b0bc5d163d2c617fc853f724ecf30142e903978363e7ad82a4fb4ee",
+      "query_yelp/query4/query.json": "23ec6db6b39fb023c42c753c3b8a834190220b4bfe994bb69c7580fdedcd0080",
+      "query_yelp/query4/validate.py": "fb27e15bd68c5671fd1e152790d220bdd78c88270e398c0ccc4a91ee28b31ed2",
+      "query_yelp/query5/query.json": "26cb0e7d3cadead760b4201dfadfacf333aa6b143637b72c31d6609cd8db8848",
+      "query_yelp/query5/validate.py": "b9e2d3c797b7e51b13cdfdc62896a4dd074bb3135168e57e7faad5b8de52859b",
+      "query_yelp/query6/query.json": "5b9b951319a32b32a070b29ea598f25332afb5529f92926f8268eedb07a49114",
+      "query_yelp/query6/validate.py": "14b3488f8a0b35c69167d93fee30db11f02d2552c2003fd24e2061eb6f7d38b0",
+      "query_yelp/query7/query.json": "5f226f1a026b89cc7d22903987c215df6837d561ebc193f607c12ccb48e40d3f",
+      "query_yelp/query7/validate.py": "b35b9f67c8c915c9e06d02b1abacfe853655b45cb34aef30e5ee972d84a21caf",
+      "query_yelp/query_dataset/yelp_business/yelp_db/business.bson": "3aed3f77a2b0360b0f431decc63aaa0fd69e539a3fe4cb7e08f5ea081eb65c01",
+      "query_yelp/query_dataset/yelp_business/yelp_db/checkin.bson": "879afe04080efd1bfc405109eb87efe4b127bf52d1c749224ca5e9c2f914fc6c",
+      "query_yelp/query_dataset/yelp_user.db": "155ecf989e62e0d087ed9d4586893e6825ab56504bc5e62ad46d454067f9b730"
+    },
+    "runtime": {
+      "python": "3.12.13 (main, Jun 11 2026, 04:03:26) [Clang 22.1.3 ]",
+      "model": {
+        "id": "Qwen/Qwen3.8-Flash-Next",
+        "object": "model",
+        "created": 1789119712,
+        "owned_by": "vllm",
+        "root": "/model",
+        "parent": null,
+        "max_model_len": 262144,
+        "permission": [
+          {
+            "id": "modelperm-8e71c788d498ad24",
+            "object": "model_permission",
+            "created": 1789119712,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      },
+      "model_revision": null,
+      "base_url": "http://MODEL_ENDPOINT/v1",
+      "packages": {
+        "PyYAML": "6.0.2",
+        "SQLAlchemy": "2.0.41",
+        "annotated-types": "0.8.0",
+        "anyio": "4.15.1",
+        "asyncio-atexit": "1.0.1",
+        "autogen-core": "0.7.5",
+        "autogen-ext": "0.7.5",
+        "certifi": "2026.7.22",
+        "charset-normalizer": "3.5.1",
+        "click": "8.5.0",
+        "colorlog": "6.10.1",
+        "distro": "1.9.0",
+        "dnspython": "2.8.0",
+        "docker": "7.1.0",
+        "duckdb": "1.3.1",
+        "filelock": "3.32.6",
+        "fsspec": "2026.7.0",
+        "greenlet": "3.5.5",
+        "h11": "0.16.0",
+        "hf-xet": "1.6.0",
+        "httpcore": "1.0.9",
+        "httpx": "0.28.1",
+        "huggingface_hub": "1.31.0",
+        "idna": "3.19",
+        "jiter": "0.16.0",
+        "jsonref": "1.1.0",
+        "numpy": "2.2.6",
+        "openai": "2.9.0",
+        "opentelemetry-api": "1.44.0",
+        "packaging": "26.3",
+        "pandas": "2.3.0",
+        "pillow": "12.3.0",
+        "protobuf": "5.29.6",
+        "psycopg2-binary": "2.9.9",
+        "pyarrow": "22.0.0",
+        "pydantic": "2.13.5",
+        "pydantic_core": "2.46.5",
+        "pymongo": "4.13.2",
+        "python-dateutil": "2.9.0.post0",
+        "python-dotenv": "1.1.1",
+        "pytz": "2026.3.post1",
+        "requests": "2.34.2",
+        "six": "1.17.0",
+        "sniffio": "1.3.1",
+        "tqdm": "4.70.0",
+        "typing-inspection": "0.4.4",
+        "typing_extensions": "4.16.0",
+        "tzdata": "2026.3",
+        "urllib3": "2.7.0"
+      },
+      "executor_image": "sha256:ba2ba9013eb356a5da68ecd6f68f5ae47d833be5acc81e996cb4b839851f8553",
+      "postgres_version": "18.4",
+      "postgres_endpoint": {
+        "PG_HOST": "127.0.0.1",
+        "PG_PORT": "15437",
+        "PG_USER": "postgres"
+      },
+      "mongo_version": "8.0.30",
+      "mongo_connection_sha256": "2ef6045640e799273bb243f8dcd7301ea6f03a767c16722f87a38fdb0a80fcef"
+    },
+    "tasks": [
+      {
+        "dataset": "bookreview",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "bookreview",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "bookreview",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 4,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 5,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 6,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 7,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 8,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 9,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 10,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 11,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 12,
+        "run": 0
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 13,
+        "run": 0
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 4,
+        "run": 0
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 4,
+        "run": 0
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "stockindex",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "stockindex",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "stockindex",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 4,
+        "run": 0
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 5,
+        "run": 0
+      },
+      {
+        "dataset": "yelp",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "yelp",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "yelp",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "yelp",
+        "query": 4,
+        "run": 0
+      },
+      {
+        "dataset": "yelp",
+        "query": 5,
+        "run": 0
+      },
+      {
+        "dataset": "yelp",
+        "query": 6,
+        "run": 0
+      },
+      {
+        "dataset": "yelp",
+        "query": 7,
+        "run": 0
+      },
+      {
+        "dataset": "agnews",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "agnews",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "agnews",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "agnews",
+        "query": 4,
+        "run": 0
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 1,
+        "run": 0
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 2,
+        "run": 0
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 3,
+        "run": 0
+      },
+      {
+        "dataset": "bookreview",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "bookreview",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "bookreview",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 4,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 5,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 6,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 7,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 8,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 9,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 10,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 11,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 12,
+        "run": 1
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 13,
+        "run": 1
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 4,
+        "run": 1
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 4,
+        "run": 1
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "stockindex",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "stockindex",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "stockindex",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 4,
+        "run": 1
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 5,
+        "run": 1
+      },
+      {
+        "dataset": "yelp",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "yelp",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "yelp",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "yelp",
+        "query": 4,
+        "run": 1
+      },
+      {
+        "dataset": "yelp",
+        "query": 5,
+        "run": 1
+      },
+      {
+        "dataset": "yelp",
+        "query": 6,
+        "run": 1
+      },
+      {
+        "dataset": "yelp",
+        "query": 7,
+        "run": 1
+      },
+      {
+        "dataset": "agnews",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "agnews",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "agnews",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "agnews",
+        "query": 4,
+        "run": 1
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 1,
+        "run": 1
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 2,
+        "run": 1
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 3,
+        "run": 1
+      },
+      {
+        "dataset": "bookreview",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "bookreview",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "bookreview",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 4,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 5,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 6,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 7,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 8,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 9,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 10,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 11,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 12,
+        "run": 2
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 13,
+        "run": 2
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 4,
+        "run": 2
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 4,
+        "run": 2
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "stockindex",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "stockindex",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "stockindex",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 4,
+        "run": 2
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 5,
+        "run": 2
+      },
+      {
+        "dataset": "yelp",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "yelp",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "yelp",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "yelp",
+        "query": 4,
+        "run": 2
+      },
+      {
+        "dataset": "yelp",
+        "query": 5,
+        "run": 2
+      },
+      {
+        "dataset": "yelp",
+        "query": 6,
+        "run": 2
+      },
+      {
+        "dataset": "yelp",
+        "query": 7,
+        "run": 2
+      },
+      {
+        "dataset": "agnews",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "agnews",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "agnews",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "agnews",
+        "query": 4,
+        "run": 2
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 1,
+        "run": 2
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 2,
+        "run": 2
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 3,
+        "run": 2
+      },
+      {
+        "dataset": "bookreview",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "bookreview",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "bookreview",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 4,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 5,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 6,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 7,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 8,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 9,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 10,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 11,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 12,
+        "run": 3
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 13,
+        "run": 3
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 4,
+        "run": 3
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 4,
+        "run": 3
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "stockindex",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "stockindex",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "stockindex",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 4,
+        "run": 3
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 5,
+        "run": 3
+      },
+      {
+        "dataset": "yelp",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "yelp",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "yelp",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "yelp",
+        "query": 4,
+        "run": 3
+      },
+      {
+        "dataset": "yelp",
+        "query": 5,
+        "run": 3
+      },
+      {
+        "dataset": "yelp",
+        "query": 6,
+        "run": 3
+      },
+      {
+        "dataset": "yelp",
+        "query": 7,
+        "run": 3
+      },
+      {
+        "dataset": "agnews",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "agnews",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "agnews",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "agnews",
+        "query": 4,
+        "run": 3
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 1,
+        "run": 3
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 2,
+        "run": 3
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 3,
+        "run": 3
+      },
+      {
+        "dataset": "bookreview",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "bookreview",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "bookreview",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 4,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 5,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 6,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 7,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 8,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 9,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 10,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 11,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 12,
+        "run": 4
+      },
+      {
+        "dataset": "crmarenapro",
+        "query": 13,
+        "run": 4
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "DEPS_DEV_V1",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "GITHUB_REPOS",
+        "query": 4,
+        "run": 4
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "googlelocal",
+        "query": 4,
+        "run": 4
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "PANCANCER_ATLAS",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "PATENTS",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "stockindex",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "stockindex",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "stockindex",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 4,
+        "run": 4
+      },
+      {
+        "dataset": "stockmarket",
+        "query": 5,
+        "run": 4
+      },
+      {
+        "dataset": "yelp",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "yelp",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "yelp",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "yelp",
+        "query": 4,
+        "run": 4
+      },
+      {
+        "dataset": "yelp",
+        "query": 5,
+        "run": 4
+      },
+      {
+        "dataset": "yelp",
+        "query": 6,
+        "run": 4
+      },
+      {
+        "dataset": "yelp",
+        "query": 7,
+        "run": 4
+      },
+      {
+        "dataset": "agnews",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "agnews",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "agnews",
+        "query": 3,
+        "run": 4
+      },
+      {
+        "dataset": "agnews",
+        "query": 4,
+        "run": 4
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 1,
+        "run": 4
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 2,
+        "run": 4
+      },
+      {
+        "dataset": "music_brainz_20k",
+        "query": 3,
+        "run": 4
+      }
+    ],
+    "prefix": "qwen38flash_parallel_v1",
+    "use_hints": true,
+    "iterations": 300,
+    "llm_timeout": 7200,
+    "generation_config": {
+      "temperature": 1.0,
+      "top_p": 0.95,
+      "top_k": 20,
+      "min_p": 0.0,
+      "presence_penalty": 0.0,
+      "repetition_penalty": 1.0,
+      "max_tokens": 131072,
+      "enable_thinking": true,
+      "preserve_thinking": true,
+      "reasoning_effort": "xhigh"
+    },
+    "serial_execution": false,
+    "scheduler": {
+      "version": 2,
+      "strategy": "per_dataset",
+      "max_parallel": 12,
+      "lock_dir": "/DAB_LOCKS",
+      "lock_wait_warn_seconds": 300
+    }
+  }
+}

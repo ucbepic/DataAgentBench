@@ -1,0 +1,14 @@
+{
+  "archive": "qwen38flash_parallel_v1-traces.tar.gz",
+  "archive_sha256": "3b2715552f6e77ca893e5fdeb5af7fe2a631fef17039475df2859271a174cb67",
+  "archive_bytes": 669024657,
+  "archived_files": 3982,
+  "public_results": 270,
+  "failed_trials_retained": 5,
+  "redactions": {
+    "model_endpoint": 2,
+    "lock_directory": 3,
+    "evaluation_root": 10020
+  },
+  "policy": "Credentials, model endpoint, evaluation-root and lock-directory prefixes are redacted from text files. Binary intermediates are unchanged and checked for known credentials. Answers are verbatim; original files are unchanged. Original and public file hashes are supplied."
+}
