@@ -1,0 +1,65 @@
+{
+  "inspected_at": "2026-09-12T01:10:58.938284+00:00",
+  "model_name": "Qwen/Qwen3.8-Flash-Next",
+  "exact_weight_revision": null,
+  "revision_note": "Not captured by original run; no upstream commit or download-cache revision present in local model metadata. Metadata hashes below do not hash weight tensors.",
+  "container_created_at": "2026-09-10T04:52:47.317515501Z",
+  "container_started_at": "2026-09-10T04:52:47.336295551Z",
+  "serving_image": "m.daocloud.io/docker.io/vllm/vllm-openai:qwen38-flash-next",
+  "serving_image_id": "sha256:fc120ece0a388cc0aa1caad4a9f1cd92113484ab7ec2fd0efadd62585be05bf8",
+  "serving_image_repo_digests": [
+    "m.daocloud.io/docker.io/vllm/vllm-openai@sha256:fc120ece0a388cc0aa1caad4a9f1cd92113484ab7ec2fd0efadd62585be05bf8"
+  ],
+  "serving_command": [
+    "/model",
+    "--served-model-name",
+    "Qwen/Qwen3.8-Flash-Next",
+    "--api-key",
+    "[REDACTED_CREDENTIAL]",
+    "--tensor-parallel-size",
+    "8",
+    "--moe-backend",
+    "triton",
+    "--gpu-memory-utilization",
+    "0.90",
+    "--max-model-len",
+    "auto",
+    "--max-num-batched-tokens",
+    "8192",
+    "--max-num-seqs",
+    "64",
+    "--enable-prefix-caching",
+    "--no-enable-flashinfer-autotune",
+    "--disable-custom-all-reduce",
+    "--enable-auto-tool-choice",
+    "--tool-call-parser",
+    "qwen3_xml",
+    "--reasoning-parser",
+    "qwen3"
+  ],
+  "versions": {
+    "vllm": "0.1.dev20073+g8e685d198",
+    "transformers": "5.15.1",
+    "torch": "2.13.0+cu130"
+  },
+  "gpu_inventory": [
+    "NVIDIA L40S, 46068 MiB",
+    "NVIDIA L40S, 46068 MiB",
+    "NVIDIA L40S, 46068 MiB",
+    "NVIDIA L40S, 46068 MiB",
+    "NVIDIA L40S, 46068 MiB",
+    "NVIDIA L40S, 46068 MiB",
+    "NVIDIA L40S, 46068 MiB",
+    "NVIDIA L40S, 46068 MiB"
+  ],
+  "checkpoint_config_dtype": "bfloat16",
+  "quantization_config": null,
+  "max_context_tokens": 262144,
+  "metadata_sha256": {
+    "config.json": "889658f2508e8c61d409b02e70e0d78d8d4452ec65aaafbe129805d213d2e74b",
+    "generation_config.json": "e70c136c1b78ddc1fb0905bac8e733a4dc448d4f852a5dd75143fffc70be550e",
+    "model.safetensors.index.json": "99e815241ef03325536b0aaa4441deea45174c17fae31e10f0bb456410c590de",
+    "chat_template.jinja": "c3cf9e34abf4f9e36c2d72165aa9c132d3e2a725b6c2586aaa3a8af9d7a81041",
+    "tokenizer_config.json": "b11349aafa7cdc6a320767cf7ceb29ed82f7eda5d65e8e0819e76f0ce947bf27"
+  }
+}

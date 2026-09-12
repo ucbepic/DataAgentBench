@@ -1,0 +1,2162 @@
+[
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "9c8f38d76de23f54b55d663a8837906424d9ce4681ef27912bb1c3534511dd12",
+    "final_trace": "query_DEPS_DEV_V1/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "37ffb1af2680d520c8b69e07841ce34492d55fbfacb0b89c2cc379df9c031c06",
+    "final_trace": "query_DEPS_DEV_V1/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "2cbe811711c19eb227f89f5601857c022a16b46a0cc1da3c3e3b60191ed0462c",
+    "final_trace": "query_DEPS_DEV_V1/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "53d3d52ee56f3e6a40b4744c94c4f19fff7d6255a5ee37134128afdbda5a8c7c",
+    "final_trace": "query_DEPS_DEV_V1/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "90391c8392fe551a8a5d29abcabab6dad5057cd64763901b64e587978cc21ee1",
+    "final_trace": "query_DEPS_DEV_V1/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "5170b6a860fc69e66a05a9f38a76b9f2de2910fe1caa1e3d2e398a476747d9b5",
+    "final_trace": "query_DEPS_DEV_V1/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "1992226c287bcab437307e65fecdb3718643b5a83afee99ea511b58a2af2440b",
+    "final_trace": "query_DEPS_DEV_V1/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "9f28b461753939818e4e5324814f0e3c9c38a96fb6a72c1405ee94566c50537a",
+    "final_trace": "query_DEPS_DEV_V1/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "256e038feaf68262f8d78624393628bae2c6c3ba36298c000d834b8cc84008af",
+    "final_trace": "query_DEPS_DEV_V1/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "42915a3412d767b53d4608e55a9cf53ed812418c6b393c931d4e286c1f382c1d",
+    "final_trace": "query_DEPS_DEV_V1/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "3071846a5692acddb5936bda87777f49e288b1f78326ba9d05e6237156a5c708",
+    "final_trace": "query_GITHUB_REPOS/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "3151b01041498b10fbd90e46b94021fd2958d681d17dc6e44d26f60cf090b155",
+    "final_trace": "query_GITHUB_REPOS/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "4cdc35732f7a1f5528f907d0b9e92c629aecde063852843746a740d3b29456ad",
+    "final_trace": "query_GITHUB_REPOS/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "b3a8fcd0d1bff14ecb75be135f3484d1f278d98ae4b9d74e42cb2982f061a62c",
+    "final_trace": "query_GITHUB_REPOS/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "1f0ca8c47d49148c4a8dab91a7f1a427a1c4970edbaede3bd1950108f93e1a0c",
+    "final_trace": "query_GITHUB_REPOS/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "afd86e6f6add746ada514035aee76519891d0aebd904f66cd79717764839ed06",
+    "final_trace": "query_GITHUB_REPOS/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "fa0d2b3159eb73fc39943b29afede0e9486b803998882dd9e89545f66075b020",
+    "final_trace": "query_GITHUB_REPOS/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "59b1da70ea51a63093c0c92ca99c237cfe726f969c3d012757947b731e2b265e",
+    "final_trace": "query_GITHUB_REPOS/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "242edac42410b3937c53b0ce7d08f42d6fabfac6d5162ee758f50e5b85145bf7",
+    "final_trace": "query_GITHUB_REPOS/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "91d400b4d2874570d3b76c75428dd47c7190d85a97401129119faf3fd6d66192",
+    "final_trace": "query_GITHUB_REPOS/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "bcce03f625c22998dcb812feb157db59cbb8f22a424a70710a8d9ef20c7e5580",
+    "final_trace": "query_GITHUB_REPOS/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "bcce03f625c22998dcb812feb157db59cbb8f22a424a70710a8d9ef20c7e5580",
+    "final_trace": "query_GITHUB_REPOS/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "bcce03f625c22998dcb812feb157db59cbb8f22a424a70710a8d9ef20c7e5580",
+    "final_trace": "query_GITHUB_REPOS/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "bcce03f625c22998dcb812feb157db59cbb8f22a424a70710a8d9ef20c7e5580",
+    "final_trace": "query_GITHUB_REPOS/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "bcce03f625c22998dcb812feb157db59cbb8f22a424a70710a8d9ef20c7e5580",
+    "final_trace": "query_GITHUB_REPOS/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "7cd13d84508b9efabdce5c73c1fc43dce2f94d60c814aa9ce71834ab2e34b8ba",
+    "final_trace": "query_GITHUB_REPOS/query4/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "91db8c57d23ded69c7f2e04024b048ba5a73c607ab0d3c89f9f7651b86d6485c",
+    "final_trace": "query_GITHUB_REPOS/query4/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "d02eb4e2898a0c4961734579881874a493b07ee4a90f5366b592c93ab25574a4",
+    "final_trace": "query_GITHUB_REPOS/query4/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "23239ed1b4c67e5ba2e35aecd0abe91aefd55d51eda807d2c464c0502445af65",
+    "final_trace": "query_GITHUB_REPOS/query4/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "f0211cc7b40aa5888ffb377089d5bb58f7b82b2d359d6a3f51fb86a016586f3f",
+    "final_trace": "query_GITHUB_REPOS/query4/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "cf447a67d1bb0d74d379059d4bcff5b879f0ebe6f50c1fdb5d14009c7a483852",
+    "final_trace": "query_PANCANCER_ATLAS/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "54c5508d3c13b7b106c95ac23e8850e6e80564444977fb794f8a69b506b56d69",
+    "final_trace": "query_PANCANCER_ATLAS/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "d86276ac0bcd02880eb77c6f430f23843c235ca81ba7e492985f3d09973588a7",
+    "final_trace": "query_PANCANCER_ATLAS/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "4c0922b0d088c6808ba0ed8d9b2aca1279dee420b0c1008b8bf6f2bad2b42973",
+    "final_trace": "query_PANCANCER_ATLAS/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "649a35f437f444e394b4e7934cbecee202c0b1e3a66156cd0f94d7619cb4ff14",
+    "final_trace": "query_PANCANCER_ATLAS/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "cbebb057544f286a12ae6542baea5f761161d8eadfc7c86a5aebc899fd3c2b1f",
+    "final_trace": "query_PANCANCER_ATLAS/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "50f36b114d0da5b17724df9738c0ed814f66d72041dc7a5ffc0c506707f7f80b",
+    "final_trace": "query_PANCANCER_ATLAS/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "1ac7a187957c4db6f9ad4cd4b1b9b63af4d0a59a69377d1a141a54ce0e0a0722",
+    "final_trace": "query_PANCANCER_ATLAS/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "2cc115e51eade3d777dd229cf13b5ded8ea6bde0c642bf091ab95abcc894e882",
+    "final_trace": "query_PANCANCER_ATLAS/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "4a68c2983ab5d4eb93e312cc8effd0a49ee808cd2e427f44e79eda54fccf698f",
+    "final_trace": "query_PANCANCER_ATLAS/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "7914a6ad348bee8f164c8a734b5d6920d6e4e52ff48997f9c1c0045cc5f2732b",
+    "final_trace": "query_PANCANCER_ATLAS/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "764549cea5075789b350a07514b3896e32af55921cccf9f9fbb903e65fa809d9",
+    "final_trace": "query_PANCANCER_ATLAS/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "dc83e76e597e9546f01073d194294c510fd1c1645c97a45748ff0f732f6f2598",
+    "final_trace": "query_PANCANCER_ATLAS/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "f6f7c35076d44590f1aa179578ae699ce1fc5b760dc6a75cbaadbbd630207b9c",
+    "final_trace": "query_PANCANCER_ATLAS/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "42d724766171f1f13e686617d13e136be54b6938bd6b3dff4827e11260398021",
+    "final_trace": "query_PANCANCER_ATLAS/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "80a4dd9c47722430c84afdf32de8cf39a1480ea74850732c90dea59b60b9518e",
+    "final_trace": "query_PATENTS/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "ba1a65b74d7b457680905922034d5a6ac7276cc085f09d82d862b568170f61f0",
+    "final_trace": "query_PATENTS/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "74134bfac3a71ca9c3bf9788f1afe9d4abdad0e170003fb9a13d439b16144894",
+    "final_trace": "query_PATENTS/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "4070af46ce607a173a11e730613143dc1c578d94cb5fa75ff0e4d02e7c4bcbc1",
+    "final_trace": "query_PATENTS/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "29086334f8223b2d1e5fce11c411b2b0c91faf93cbed01b1613f38a31b43f585",
+    "final_trace": "query_PATENTS/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "2b2a99e62129b2de39ba90e2b189c60f0d151bc19b7fd0a49c076530c2915784",
+    "final_trace": "query_PATENTS/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "1bd1b7a83f740f57f282e4fb00a6f9acd537a8d988be5a85c1c50408a1357823",
+    "final_trace": "query_PATENTS/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "bcd6ab1eca928a0e27bb0e3238d42a075e0c44100a8e6a933fd6e1909bfafb8c",
+    "final_trace": "query_PATENTS/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "6bcc4f0fc18812197ed7216f7186016825aa081d74dbfc332f7266a590ecf637",
+    "final_trace": "query_PATENTS/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "a1b9bdfee14aa9ef84229b9df5e4d6891fa8fc3aa703163ad1b95ad54d8713cd",
+    "final_trace": "query_PATENTS/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "cd0953f10437911ca64ab42cb00184b9582225c1b54862b5ec5a0e694a95aecc",
+    "final_trace": "query_PATENTS/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "27290be0f15d4fd9141d93f732e02233f6db2661c91da257e23b31fe0cc8d20d",
+    "final_trace": "query_PATENTS/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "7dda68bf19c8e2b6e1f498ff6e341c42fa24a733dc3943924ac7533c0ed2f65e",
+    "final_trace": "query_PATENTS/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "52b84a82524d6df816652d8c6bde14b6cb29dee5f2dd5cf551b94298718ee10c",
+    "final_trace": "query_PATENTS/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "97f578f218c6f52815bd6d7ced2b148ccafdaee9967665c875a207aa4a432289",
+    "final_trace": "query_PATENTS/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "3e183c3ae5c85ec93a91c92eee92e7f0830d05cc1eb9d32bc2ac52b27f4e32b6",
+    "final_trace": "query_agnews/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "3e183c3ae5c85ec93a91c92eee92e7f0830d05cc1eb9d32bc2ac52b27f4e32b6",
+    "final_trace": "query_agnews/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "3e183c3ae5c85ec93a91c92eee92e7f0830d05cc1eb9d32bc2ac52b27f4e32b6",
+    "final_trace": "query_agnews/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "3e183c3ae5c85ec93a91c92eee92e7f0830d05cc1eb9d32bc2ac52b27f4e32b6",
+    "final_trace": "query_agnews/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "fe636cf62ee20ebc29c5bb302ff59bc97c089402f431286d72bc2b332e1c0d5a",
+    "final_trace": "query_agnews/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "0e2c3b598ec27618a94e7b8169984c6b2b1ca9047e1a37a3d9a456d267437c11",
+    "final_trace": "query_agnews/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "31d98d4e7a6bff30e2a7347e25adef265b06e00be2791ba968865ce6c3698101",
+    "final_trace": "query_agnews/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "59a5d2d5297b7efd05cad2602ff3c810afc6812b8cef104c3541e22f240bec83",
+    "final_trace": "query_agnews/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "52a77e88f331a8e124cc154dda699b69a98847852c4197dddb52f6c2128f7407",
+    "final_trace": "query_agnews/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "1c70108f2127f20bce79312cd0a99683b3e3c002070dbbdb5af46ef616fb37e4",
+    "final_trace": "query_agnews/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "5247cf3faebd4ee1b4c7bf7ef6a6e57f9cb92ffb2a7cdef309dd47fcbe8223dd",
+    "final_trace": "query_agnews/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "f429df5a80b7180cc3e678610ac1570e0be4c8fb2ae2fd8f8d113989ebc01b62",
+    "final_trace": "query_agnews/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "6df165636eae4e565ae2f657e7777b8bba3e60acc6a8af95fd51b1ea006f6849",
+    "final_trace": "query_agnews/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "e6ca19d2a83676966ab171bcfc84a787a667ee223b8ca6e60c2f07e7676bd55f",
+    "final_trace": "query_agnews/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "b2d69923f1c64f9c15924a93d47f3e555e21ac0e8353df51e85a6785c2fd1150",
+    "final_trace": "query_agnews/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "0d0c9a4aa64ebdda88d01947933c0c090e32c9e5ddfcaf26a4cb40f0d1865532",
+    "final_trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "4124e240d1dcc7a076c42ba1455aca2966ff8c5020cc8d01a2e529d485a330c9",
+    "final_trace": "query_bookreview/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "8ffe6e0f57be6a909c6b49517a4b47f7ccc995176f1d11476d1a1ac651c785bd",
+    "final_trace": "query_bookreview/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "6d7348226b6064aa406865a0095a629f0f8e1cb882275780b0b0a139cb2c37c4",
+    "final_trace": "query_bookreview/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "85bd5c279325798a62a1b970fe1506ba080e5f1f37c6de6a69caeaa580248df3",
+    "final_trace": "query_bookreview/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "3617ea1f2aad3788dafbcdbc440997966cf1e09e2cd7e2df96f12767dc6bff7b",
+    "final_trace": "query_bookreview/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "d2529236c7f5a4fa6154f43c9fe2b48654c4d760d660f8e0334cc895a0d3de17",
+    "final_trace": "query_bookreview/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "5908f309b2d06932690af5755cde0e9396ae19e7419fcf96921190c5718f0514",
+    "final_trace": "query_bookreview/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "86740c8d836119f2f60af65ac63270700a3249ccaf35118d9d3f9f47c36c2ff3",
+    "final_trace": "query_bookreview/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "14c0ba2251e9f6175ee91daea751531f8b4fde365d3b1d3fce6b0fb1a4868128",
+    "final_trace": "query_bookreview/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "b616dc1281fbb0ea7e2bc0dd28e3a3a61b8534e8618ad8fc376873c93e807504",
+    "final_trace": "query_bookreview/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "15123435f3516da86c3fca25b24a73db46c967e9a524a94a3b4966956ccd5999",
+    "final_trace": "query_bookreview/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "23820abe89448055d3de0bbe036653cda3fb570aae6af57250158af5431b4c6e",
+    "final_trace": "query_bookreview/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "676abfb95e831868fc1515d377983f338a9d075e0fa13cfa9b7014bc9836385b",
+    "final_trace": "query_bookreview/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "c96cb092006bfe60f0537bb03e2debbdff4f95b08a7c9a39613dbbccd92b896f",
+    "final_trace": "query_bookreview/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "9136a970da9aafa6fc92c7a18e42486a152ac738b7d0e9a8fb67d95e8d7bed0e",
+    "final_trace": "query_bookreview/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "b4481ac084885d8d78c7146bc593d2c780d027dc73b06c58c4196905690e4c5b",
+    "final_trace": "query_crmarenapro/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "4d015c612b1c7589d5c6b97822980bc1e5c108843669522474dd1beeaf82c156",
+    "final_trace": "query_crmarenapro/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "c55ff7640819369a5e9c7d18cdc12b35c42cdf6478cd5a9ea8dd6ade6ed67661",
+    "final_trace": "query_crmarenapro/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "c55ff7640819369a5e9c7d18cdc12b35c42cdf6478cd5a9ea8dd6ade6ed67661",
+    "final_trace": "query_crmarenapro/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "b80e403d2645d45e3503a6575390f40760515800fc9199c522bb2466c9132f1d",
+    "final_trace": "query_crmarenapro/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "6b6a6337891ae7619f92991923a68920a4c4b1eca81e1733463af2bf7ed2d458",
+    "final_trace": "query_crmarenapro/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "6b6a6337891ae7619f92991923a68920a4c4b1eca81e1733463af2bf7ed2d458",
+    "final_trace": "query_crmarenapro/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "6b6a6337891ae7619f92991923a68920a4c4b1eca81e1733463af2bf7ed2d458",
+    "final_trace": "query_crmarenapro/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "6b6a6337891ae7619f92991923a68920a4c4b1eca81e1733463af2bf7ed2d458",
+    "final_trace": "query_crmarenapro/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "6b6a6337891ae7619f92991923a68920a4c4b1eca81e1733463af2bf7ed2d458",
+    "final_trace": "query_crmarenapro/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "3e18e2dab6f2bdb77a8888916f368ab87ad7a23534560f8159744aff0e245aff",
+    "final_trace": "query_crmarenapro/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "3e18e2dab6f2bdb77a8888916f368ab87ad7a23534560f8159744aff0e245aff",
+    "final_trace": "query_crmarenapro/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "3e18e2dab6f2bdb77a8888916f368ab87ad7a23534560f8159744aff0e245aff",
+    "final_trace": "query_crmarenapro/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "3e18e2dab6f2bdb77a8888916f368ab87ad7a23534560f8159744aff0e245aff",
+    "final_trace": "query_crmarenapro/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "987adbff3959b59461c17684409e552f1ef93790566152ea9a7565a53b0c92aa",
+    "final_trace": "query_crmarenapro/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "0248061796ab2fa79218e83e558366f06ebb7f7a5f9e82933d79bd35bb07aad5",
+    "final_trace": "query_crmarenapro/query4/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "9de6fe1d72659daec67e919b0c473a24da5f03d3d096dc44ead1687240975f7c",
+    "final_trace": "query_crmarenapro/query4/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "9de6fe1d72659daec67e919b0c473a24da5f03d3d096dc44ead1687240975f7c",
+    "final_trace": "query_crmarenapro/query4/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "9de6fe1d72659daec67e919b0c473a24da5f03d3d096dc44ead1687240975f7c",
+    "final_trace": "query_crmarenapro/query4/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "9de6fe1d72659daec67e919b0c473a24da5f03d3d096dc44ead1687240975f7c",
+    "final_trace": "query_crmarenapro/query4/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "1527ff4fc7764fd9d086de285177637357747e3d583dcc594151607ea0b3409d",
+    "final_trace": "query_crmarenapro/query5/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "1527ff4fc7764fd9d086de285177637357747e3d583dcc594151607ea0b3409d",
+    "final_trace": "query_crmarenapro/query5/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "1527ff4fc7764fd9d086de285177637357747e3d583dcc594151607ea0b3409d",
+    "final_trace": "query_crmarenapro/query5/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "1527ff4fc7764fd9d086de285177637357747e3d583dcc594151607ea0b3409d",
+    "final_trace": "query_crmarenapro/query5/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "1527ff4fc7764fd9d086de285177637357747e3d583dcc594151607ea0b3409d",
+    "final_trace": "query_crmarenapro/query5/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "8cdf00212cda9d032e0fbc6640cb5084b544d45ef5f14a8480908b46d13879a4",
+    "final_trace": "query_crmarenapro/query6/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "6dcb146b0c2b9eafa8588e83f10e655a9db823987fb8638a9fc23d5106cd3d84",
+    "final_trace": "query_crmarenapro/query6/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "6dcb146b0c2b9eafa8588e83f10e655a9db823987fb8638a9fc23d5106cd3d84",
+    "final_trace": "query_crmarenapro/query6/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "6dcb146b0c2b9eafa8588e83f10e655a9db823987fb8638a9fc23d5106cd3d84",
+    "final_trace": "query_crmarenapro/query6/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "6dcb146b0c2b9eafa8588e83f10e655a9db823987fb8638a9fc23d5106cd3d84",
+    "final_trace": "query_crmarenapro/query6/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "b673d6904b108ea9c43d1ce5f49bf549de8b09d5773b27cccfd8af6aaafceea7",
+    "final_trace": "query_crmarenapro/query7/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "b673d6904b108ea9c43d1ce5f49bf549de8b09d5773b27cccfd8af6aaafceea7",
+    "final_trace": "query_crmarenapro/query7/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "b673d6904b108ea9c43d1ce5f49bf549de8b09d5773b27cccfd8af6aaafceea7",
+    "final_trace": "query_crmarenapro/query7/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "b673d6904b108ea9c43d1ce5f49bf549de8b09d5773b27cccfd8af6aaafceea7",
+    "final_trace": "query_crmarenapro/query7/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "7840e5b330e27886f150b445286739dea1b283c8c9247b84d07011bcba0745e4",
+    "final_trace": "query_crmarenapro/query7/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "be36265800ecbe24c88dee30c0ca85caae5a0affdd22455feada802d3ff8587c",
+    "final_trace": "query_crmarenapro/query8/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "be36265800ecbe24c88dee30c0ca85caae5a0affdd22455feada802d3ff8587c",
+    "final_trace": "query_crmarenapro/query8/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "be36265800ecbe24c88dee30c0ca85caae5a0affdd22455feada802d3ff8587c",
+    "final_trace": "query_crmarenapro/query8/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "be36265800ecbe24c88dee30c0ca85caae5a0affdd22455feada802d3ff8587c",
+    "final_trace": "query_crmarenapro/query8/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "be36265800ecbe24c88dee30c0ca85caae5a0affdd22455feada802d3ff8587c",
+    "final_trace": "query_crmarenapro/query8/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "176f7254b803f38a0359c42d8fe8459d0a6ecac8ca9e7539a64df346290c966d",
+    "final_trace": "query_crmarenapro/query9/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "176f7254b803f38a0359c42d8fe8459d0a6ecac8ca9e7539a64df346290c966d",
+    "final_trace": "query_crmarenapro/query9/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "176f7254b803f38a0359c42d8fe8459d0a6ecac8ca9e7539a64df346290c966d",
+    "final_trace": "query_crmarenapro/query9/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "176f7254b803f38a0359c42d8fe8459d0a6ecac8ca9e7539a64df346290c966d",
+    "final_trace": "query_crmarenapro/query9/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "176f7254b803f38a0359c42d8fe8459d0a6ecac8ca9e7539a64df346290c966d",
+    "final_trace": "query_crmarenapro/query9/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "6d935e6f705c93174be6576cdd4467bca849d126a6be8e0b9023f944284ace1c",
+    "final_trace": "query_crmarenapro/query10/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "6d935e6f705c93174be6576cdd4467bca849d126a6be8e0b9023f944284ace1c",
+    "final_trace": "query_crmarenapro/query10/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "6d935e6f705c93174be6576cdd4467bca849d126a6be8e0b9023f944284ace1c",
+    "final_trace": "query_crmarenapro/query10/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "6d935e6f705c93174be6576cdd4467bca849d126a6be8e0b9023f944284ace1c",
+    "final_trace": "query_crmarenapro/query10/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "6d935e6f705c93174be6576cdd4467bca849d126a6be8e0b9023f944284ace1c",
+    "final_trace": "query_crmarenapro/query10/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "8eae503568db8e087f4553b80f1acadcba3972fbc09cf4b697a76cbedb5e3f7e",
+    "final_trace": "query_crmarenapro/query11/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "8eae503568db8e087f4553b80f1acadcba3972fbc09cf4b697a76cbedb5e3f7e",
+    "final_trace": "query_crmarenapro/query11/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "8eae503568db8e087f4553b80f1acadcba3972fbc09cf4b697a76cbedb5e3f7e",
+    "final_trace": "query_crmarenapro/query11/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "8eae503568db8e087f4553b80f1acadcba3972fbc09cf4b697a76cbedb5e3f7e",
+    "final_trace": "query_crmarenapro/query11/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "8eae503568db8e087f4553b80f1acadcba3972fbc09cf4b697a76cbedb5e3f7e",
+    "final_trace": "query_crmarenapro/query11/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "6441453567b7c9250a1da4d322512220f0731efebaa162ea0ca7613a90bb9a32",
+    "final_trace": "query_crmarenapro/query12/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "6441453567b7c9250a1da4d322512220f0731efebaa162ea0ca7613a90bb9a32",
+    "final_trace": "query_crmarenapro/query12/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "6441453567b7c9250a1da4d322512220f0731efebaa162ea0ca7613a90bb9a32",
+    "final_trace": "query_crmarenapro/query12/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "6441453567b7c9250a1da4d322512220f0731efebaa162ea0ca7613a90bb9a32",
+    "final_trace": "query_crmarenapro/query12/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "6441453567b7c9250a1da4d322512220f0731efebaa162ea0ca7613a90bb9a32",
+    "final_trace": "query_crmarenapro/query12/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "392ca1513b6b80d358b95124c4f212920d4424d75b5ccfaa70349d4574047ab0",
+    "final_trace": "query_crmarenapro/query13/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "392ca1513b6b80d358b95124c4f212920d4424d75b5ccfaa70349d4574047ab0",
+    "final_trace": "query_crmarenapro/query13/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "145b2c3381cec1cc1f4f4a6271ea38f73fbbf6867b25c16ccf3863b3ca73c98b",
+    "final_trace": "query_crmarenapro/query13/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "392ca1513b6b80d358b95124c4f212920d4424d75b5ccfaa70349d4574047ab0",
+    "final_trace": "query_crmarenapro/query13/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "69a98287d314a75a01de4961bf71b6d5860c15546d9e6ecd3186750774b11385",
+    "final_trace": "query_crmarenapro/query13/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "f654dc310bcc2046df1b9ce0eb2666ad4c5992e427adabf487b5b2a0ec25426f",
+    "final_trace": "query_googlelocal/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "513ac0eabcb28f198ef90f6ff3680a5375572a68363c26dbfe03b82589653fff",
+    "final_trace": "query_googlelocal/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "67a0b5ec3d7fc10631064c278d561d24d9f5c4608c2a0e44e0b5f49de27111d4",
+    "final_trace": "query_googlelocal/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "c491588812d0fe24c12539fa1b8ddbb9ad87c942f679ecb3edcd6c920bb4da66",
+    "final_trace": "query_googlelocal/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "67fd0ccf65043aa6b21610db2a26795e0f08f8f8da46d43e547eb58f4d4cf106",
+    "final_trace": "query_googlelocal/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "e66d79597272d3847bbac50fd5bd009c7d75037da80faf9af0b975c9f58b4bf0",
+    "final_trace": "query_googlelocal/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "c839cfabaa4054ea8a664bd50a64a6a6378a899902b80178f919985d60a4165e",
+    "final_trace": "query_googlelocal/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "1fd5b626aa0b4998939917f420bd045f5910de8c55b77854565eee648c822ec1",
+    "final_trace": "query_googlelocal/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "0e9a3fbc8166268bce9df32f870ef5411c491c2d516bdfc2700061bf324ba89a",
+    "final_trace": "query_googlelocal/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "254a8d841fa9ca3c615e50d3642b569f89a8cd604ff43076c3e8a37976ef5fb4",
+    "final_trace": "query_googlelocal/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "3c6e8b46141eb1f2f631abfe6a9042389195a5c264c6d4f1aa231b31bb22e0cc",
+    "final_trace": "query_googlelocal/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "d6796c07333fe11f30efdb474f507ed724629d75c7796b8bd8b1cc5a2e595d7f",
+    "final_trace": "query_googlelocal/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "23db1f771066bd6a1285f19c192e7c2a20ad0e16725129e095be02b4a10253dd",
+    "final_trace": "query_googlelocal/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "d139d9753ca041d8b300e1bef83e45cdc84dc351340c16595508c6e557d89910",
+    "final_trace": "query_googlelocal/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "32b867baf9b8d45fd271ed73f486dd5b49eb9f0a79c9ef61d5b58a7279b3dc44",
+    "final_trace": "query_googlelocal/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "9609b83a854c899e12da0a9ec000512b69248cc2c2ffd948b4e3b1d75dcd7b5a",
+    "final_trace": "query_googlelocal/query4/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "34762f4edbd8caec783b21f0375a64c1ff51bea50a610e47cd4d76111c95ff7c",
+    "final_trace": "query_googlelocal/query4/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "3aeafb3289b310303800c0a74a438d408c854c834badf3463e330848e49ebdeb",
+    "final_trace": "query_googlelocal/query4/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "f0230bf99c5844752b9ac46d154ab934b75f8eb7958d5b1fbe612051a7059f64",
+    "final_trace": "query_googlelocal/query4/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "e10419a99689804fdac8ddbcc0f5f7693b5a38406f726245e9989e9f5cd8bc47",
+    "final_trace": "query_googlelocal/query4/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "3c73d8695424afce419fea1fc6e70bb354e2e5e7ddb50b2b9da8dc5385be2885",
+    "final_trace": "query_music_brainz_20k/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "dbb54c5f5104f632e837d7218b673165891729ac138c3c91bfe7636d8d353675",
+    "final_trace": "query_music_brainz_20k/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "cf572772398008afd707d43012108b892eb1868bb8b20e2ff6fa1d99e5faee0b",
+    "final_trace": "query_music_brainz_20k/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "e23e23745871145c3cf2a4406acd51ca30743700c48567671e0db68ba29d676d",
+    "final_trace": "query_music_brainz_20k/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "41bafd26c1d081baa950bcd8005409f6d01efc668a67f9ca5e32ce31b8b1a7f3",
+    "final_trace": "query_music_brainz_20k/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "439a249b4a83643637ccef37f7a4a91d87a2d41e34e82bce188f3856154e6ebd",
+    "final_trace": "query_music_brainz_20k/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "40a63f034bafb7903dc5abc4234013dc6200cfacbba73d418e4c0665584c0684",
+    "final_trace": "query_music_brainz_20k/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "a8aae464807cb0edddc568a6712350cef21674f6163b9cfd40888f698d502f0c",
+    "final_trace": "query_music_brainz_20k/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "080dc9fa4f16f0fffde65270b65576f0e3ecb401dfb1fc552981674d4265432c",
+    "final_trace": "query_music_brainz_20k/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "4b72a34c035081fc2ed7b7878c13e875ecbf312e137e050595c3b13f43a3c006",
+    "final_trace": "query_music_brainz_20k/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "5ee5c7852a0501a41769b97bb05ca7a9d1321b5d17cf0db85b55fa7261b6bcdd",
+    "final_trace": "query_music_brainz_20k/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "6e37dc1cfa923da2395c5e30fe6c01f448f03524002df242d6f7b4e279b7825e",
+    "final_trace": "query_music_brainz_20k/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "final_trace": "query_music_brainz_20k/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "912801d05c27d1c31a427cb924d31256d4952c5de368958c78d828df7872b210",
+    "final_trace": "query_music_brainz_20k/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "25a763ba7b5219cab1a6b7a9de67b4a392aa4e7daad813b63fedda55adf52298",
+    "final_trace": "query_music_brainz_20k/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "75a36e7314d06b800135fe1a8bd196366c103ef1fc4d1fb5f0543bf3d9d1bddf",
+    "final_trace": "query_stockindex/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "c106058409e6f6b3b2b496a3f6ccbdb667f7552d7979341f93f3ef0f2a3bde86",
+    "final_trace": "query_stockindex/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "bb0af4dc7b4aa4cb8c24d92a75db8ab218c44ec391f20aa75f6f7ad4d82e6427",
+    "final_trace": "query_stockindex/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "cbbf7f91043f73bea4d308efa87d6096695e2df81c693cac84de20a0e61413f0",
+    "final_trace": "query_stockindex/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "e956b0c37d542b21020f3a02c355c6c2f6654bb53e7afba464e91312816ee65a",
+    "final_trace": "query_stockindex/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "64d0c73da633cf2df5e2be70b24365599422816e54b9a826dc352c6bb8a0fca1",
+    "final_trace": "query_stockindex/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "d751ccb644862f7aee8a2328c2f98d9de5babace46daa456c0177494f620d94c",
+    "final_trace": "query_stockindex/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "08260c9def8d27259d7252cb1ca17b093eaec40af5c8d038e79a9a3c1b84ed28",
+    "final_trace": "query_stockindex/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "e198f809256b4a58fb85510b6b9ec81eb2b05b05a1cc2cf5aa9b50a078b2027a",
+    "final_trace": "query_stockindex/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "921efccb097e97c428b798a5581558d91a82f34b85223ae441d2e2c449fc3e20",
+    "final_trace": "query_stockindex/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "ddd53394544c63a147c67eecc48664b29b0e7a3cfaa5d7f1f8b2627a2a67122c",
+    "final_trace": "query_stockindex/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "8c395a6f736d48e72f94669d5694f72f89882ba45cbcb8b7a9b442060998145c",
+    "final_trace": "query_stockindex/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "2b9f810f06c8ef46f8d80ddf56d2f317a62c77e77d0e6b1e7db3ed64903fd202",
+    "final_trace": "query_stockindex/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "a16a009bec7d84d47d5d79960752676fe1f539835a30c0f8ba2a9a9a886ccbb5",
+    "final_trace": "query_stockindex/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "3ec7c7a9d94b63fa9ea47d86d562d8c5fa12402cb5322fb83f8c2e3966883950",
+    "final_trace": "query_stockindex/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "c02781c52930ee053c7516a828079dea6fc9c63f2ad012fb269ca3443b143d27",
+    "final_trace": "query_stockmarket/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "2d4e2f9245cdeaaec96959270cf00cfd5e543d2f1f7ade62b12effccab30dd76",
+    "final_trace": "query_stockmarket/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "781824304a91f8beee0536c64a27b9859da5392a973e19c1ce941bd4920db4c2",
+    "final_trace": "query_stockmarket/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "c32da32d40b3721f2a24b16356c5226d87a64e54d00150b0a9ce09230c1e7d9f",
+    "final_trace": "query_stockmarket/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "a9d5240f658a0efab6381f04f2e8a7051d39957b218210fb54e12edc763b0815",
+    "final_trace": "query_stockmarket/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "62485477b4488c30f9fce9c1cf4d5cd55e4b373f14c4d43e798c7df14c43971a",
+    "final_trace": "query_stockmarket/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "f077e435f2bf4d8b13f05cd5077691c3b30b9426de6aca33b5f51fbdca0bb866",
+    "final_trace": "query_stockmarket/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "fe98d63d17bbc89cf81adf7b60f51a1b004414636b1a992e9f67caef4ccbb3d3",
+    "final_trace": "query_stockmarket/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "8f4c46faa6f9a4ba0bf2fb43b6aa093f185ed1f1db51ad041478f2b0356c98af",
+    "final_trace": "query_stockmarket/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "96e96c67c88ec0374bc44fdf2c9cdc80ad46cf43d8848a62e515d5e77d0d1bc9",
+    "final_trace": "query_stockmarket/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "811c27b2a53da1b8c4fb1f5034b7f0feb15c30180db5a636ed89fb78da626732",
+    "final_trace": "query_stockmarket/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "252b5d3b39b448a609886ad1a9bc09b75400f8c209cc7f86c3480161f180755e",
+    "final_trace": "query_stockmarket/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "867901c372708fb25e61fca103d10d325aad5ae64b8023160f13d68032063f0f",
+    "final_trace": "query_stockmarket/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "e453a7e71f9460dfa705992bc553c63519e5dba7b54adf38deae9d7e587bc95a",
+    "final_trace": "query_stockmarket/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "654d36ba4d1ae4e6d16ed736edf6ea0373fc47211a035f474d66004faac1832f",
+    "final_trace": "query_stockmarket/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "passed": false,
+    "answer_sha256": "022a73765fb1ee1b7457b7a37ca9ed1185a550f4354eca035a908b937087825d",
+    "final_trace": "query_stockmarket/query4/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "67865c2b6aca0318ac847ee84b75d96c4a977c189ed35a563c7bd61904087b92",
+    "final_trace": "query_stockmarket/query4/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "passed": false,
+    "answer_sha256": "d54240f1be20b37e65f24a8bd01c087216f9f1f8f60611664454134a941d173d",
+    "final_trace": "query_stockmarket/query4/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "ac65deba4171a5d93fe001748f9b631742634734de2966de75f8daf12c1d64b8",
+    "final_trace": "query_stockmarket/query4/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "a0c32043ce9a22ff8025056c84f9a174e0a064ee9abb0566592d5cf620016b88",
+    "final_trace": "query_stockmarket/query4/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "7f98172eff59cb149ffeb89715e4a1333c9c70db5732f582931aeb6a92c67b32",
+    "final_trace": "query_stockmarket/query5/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "65e76dedb00d0307609dd33b37cd0849b696712fa0133167068762048f80a873",
+    "final_trace": "query_stockmarket/query5/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "4ab8f9b3eb97ca0d4d2dfb37f42b5ad983a921df64b96f5775710815cf0fb7be",
+    "final_trace": "query_stockmarket/query5/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "d3ccad410927590266cbc2f549b1e341a796b88acf20a2044f8a119b86c3350e",
+    "final_trace": "query_stockmarket/query5/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "ea786fe34dd411dfcb5a9949270010fe46f9b174040f16f3d5bbf3856482a565",
+    "final_trace": "query_stockmarket/query5/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "79d36ffb406e4bb7611477a589b3a53e9c3b338df1d756d5d0c969f23f675324",
+    "final_trace": "query_yelp/query1/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "4de045b930e001f7c093a7515c64fc05bcb53506457a31a257954418527d925c",
+    "final_trace": "query_yelp/query1/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "d04895343821d78d44fb158f49523742cb1a12772025318893ba4b18a7d3c9a3",
+    "final_trace": "query_yelp/query1/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "697ea374c59963d6e8520e04fb65e939b919bd2951ef001b741ef387573c18dd",
+    "final_trace": "query_yelp/query1/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "027e46ac41c9c9526954fc2910085584fdcde7eb5f91191e48d072115c2eb80a",
+    "final_trace": "query_yelp/query1/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "d80a512f2660c95ae9ae5827dedad4bf7f2181ac12fa239882436a0694ae21f1",
+    "final_trace": "query_yelp/query2/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "dfb520518f9e4fb270fc0f5666f9905a53abb5ea43d52bd01003001d3f7048f0",
+    "final_trace": "query_yelp/query2/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "b00bc53ddcf9aa573415db175d6da6777f99a7f5105e9251edc31ae2f3a63ad4",
+    "final_trace": "query_yelp/query2/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "2d506210ac18453ec7a8857b962c12f6efdd602a4ad6902ca9ec712bec83c2d0",
+    "final_trace": "query_yelp/query2/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "9d740e93a26952e23ecfd4f6e96dbd11268e8432174b9b159ccb143d10a3f227",
+    "final_trace": "query_yelp/query2/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "4cad110ba674769b8833ed8c39111fc148380d49aa16110ce74d776e5f03820b",
+    "final_trace": "query_yelp/query3/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "0b29ad6e561ce044662983ae6098a610123be8b56867c7df08ef3bc032e82535",
+    "final_trace": "query_yelp/query3/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "9bc138a6f7d4803220be5ae3fa99ef1c36d68ca088132e21fd075d91cc0fa47e",
+    "final_trace": "query_yelp/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "01bea53fbed28ea0d6c1c3023eb71eb4b1be321e0719acd9f404448050309bed",
+    "final_trace": "query_yelp/query3/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "9f14025af0065b30e47e23ebb3b491d39ae8ed17d33739e5ff3827ffb3634953",
+    "final_trace": "query_yelp/query3/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "21a818ddb8527f4e322db4d40554a671fdf3796df725fa3b2e566050ff4d76e7",
+    "final_trace": "query_yelp/query4/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "162b9cc1443e23132d79e499184ce5e62a91bcb7995a6ffcb67a5a2ccb649a75",
+    "final_trace": "query_yelp/query4/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "1adf47af7ebd1ade7ac655eb639c963075a5c8e6818c83bccad5ed08eb7903bc",
+    "final_trace": "query_yelp/query4/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "2258b1f26f726cbb8e0641c3e15a618a5fa2fb11c5f4034f3330840947b621a3",
+    "final_trace": "query_yelp/query4/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "passed": false,
+    "answer_sha256": "108e285ac9284bd6c14f5318fabd1391c65011099d7f200b2131ba4e8568610f",
+    "final_trace": "query_yelp/query4/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "aaffe008c2334a5900ca7ec214543b5d45c815bdd95fa25a27eebfc22aadba21",
+    "final_trace": "query_yelp/query5/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "passed": false,
+    "answer_sha256": "a57afd67781625d91302f6b22f4a797bec3ac0d15072a0b4b2f975d63195ba1b",
+    "final_trace": "query_yelp/query5/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "0799f1ff687697e1a6e8db87db6553e3257ac6f69bd9ecb8a46027062100cce8",
+    "final_trace": "query_yelp/query5/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "6ee7d10457b5670f4bd61f346693c7f8252d2870d26640b6163ad4522d6626b1",
+    "final_trace": "query_yelp/query5/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "c197cb0c8197161cc96984a3248d1218bea047402f42bff83704326ddc9a99f2",
+    "final_trace": "query_yelp/query5/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "6c58f57e218f9e445b16223dc7e466aec4ffb60e20ef3c3326f5c80bb03e2b6d",
+    "final_trace": "query_yelp/query6/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "93945b1d2ece0c687ea37d0f7dd69d384a0c70bed8d3290b59b7869c6ae5f5d1",
+    "final_trace": "query_yelp/query6/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "a996151f2a6b5d28db54d1e0298278508019f864dfe2156608059d3a9b3cbd42",
+    "final_trace": "query_yelp/query6/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "passed": true,
+    "answer_sha256": "a80636ea6648f77cc7a78e2e6506cf903e1bbb2dd64f99856d8408a75bc6f458",
+    "final_trace": "query_yelp/query6/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "41d62d5158c85d54feb031d2380a1f7adb1c35eeed5c1d95406c29d18c50f896",
+    "final_trace": "query_yelp/query6/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "passed": true,
+    "answer_sha256": "cd932f6a5937d0f152765bd2a7d8b0afa1575e5a0fb828a730a4b96b163864ef",
+    "final_trace": "query_yelp/query7/logs/data_agent/qwen38flash_parallel_v1_run_0/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "passed": true,
+    "answer_sha256": "2c11aae5ff9bf2a7220b45a9402eb26bb922b33abea6a85f9fd203bc421240cd",
+    "final_trace": "query_yelp/query7/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "passed": true,
+    "answer_sha256": "bc2b950865e728ca01ad4cfbf420b3e9c2881912cfd3afb411356af66f925e06",
+    "final_trace": "query_yelp/query7/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "passed": false,
+    "answer_sha256": "64fa9b3f75d31798b3fd0762ff530dca927b747fc3239840611d7f2521a34534",
+    "final_trace": "query_yelp/query7/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "passed": true,
+    "answer_sha256": "29cd277c98c5546dfedaa463572607e24d86c7bce367fca927440773ca802ce9",
+    "final_trace": "query_yelp/query7/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  }
+]

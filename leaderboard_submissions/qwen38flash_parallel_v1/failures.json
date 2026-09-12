@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "status": "failed:process_exit",
+    "reason": "llm_response_failed (BadRequestError): Error code: 400 - {'error': {'message': \"This model's maximum context length is 262144 tokens. However, you requested 131072 output tokens and your prompt contains at least 131073 input tokens, for a total of at least 262145 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=131073)\", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}",
+    "trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_1/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "status": "failed:process_exit",
+    "reason": "llm_response_failed (BadRequestError): Error code: 400 - {'error': {'message': \"This model's maximum context length is 262144 tokens. However, you requested 131072 output tokens and your prompt contains at least 131073 input tokens, for a total of at least 262145 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=131073)\", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}",
+    "trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "status": "failed:process_exit",
+    "reason": "llm_response_failed (BadRequestError): Error code: 400 - {'error': {'message': \"This model's maximum context length is 262144 tokens. However, you requested 131072 output tokens and your prompt contains at least 131073 input tokens, for a total of at least 262145 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=131073)\", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}",
+    "trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_3/final_agent.json"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "status": "failed:process_exit",
+    "reason": "llm_response_failed (BadRequestError): Error code: 400 - {'error': {'message': \"This model's maximum context length is 262144 tokens. However, you requested 131072 output tokens and your prompt contains at least 131073 input tokens, for a total of at least 262145 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=131073)\", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}",
+    "trace": "query_agnews/query4/logs/data_agent/qwen38flash_parallel_v1_run_4/final_agent.json"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "status": "failed:process_exit",
+    "reason": "llm_response_failed (BadRequestError): Error code: 400 - {'error': {'message': \"This model's maximum context length is 262144 tokens. However, you requested 131072 output tokens and your prompt contains at least 131073 input tokens, for a total of at least 262145 tokens. Please reduce the length of the input prompt or the number of requested output tokens. (parameter=input_tokens, value=131073)\", 'type': 'BadRequestError', 'param': 'input_tokens', 'code': 400}}",
+    "trace": "query_music_brainz_20k/query3/logs/data_agent/qwen38flash_parallel_v1_run_2/final_agent.json"
+  }
+]
