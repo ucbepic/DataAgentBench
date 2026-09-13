@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "answer": "| package_name | version | github_stars |\n| --- | --- | --- |\n| @dmrvos/infrajs>0.0.5>typescript | 2.6.2 | 94931 |\n| @dmrvos/infrajs>0.0.6>typescript | 2.6.2 | 94931 |\n| @dylanvann/svelte | 3.25.4 | 73499 |\n| @dumc11/tailwindcss | 0.4.0 | 73464 |\n| @dollarshaveclub/cli>1.0.0>lodash | 4.17.4 | 57779 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "answer": "| package | version | stars | project |\n| --- | --- | --- | --- |\n| @dylanvann/svelte | 3.25.4 | 73499 | sveltejs/svelte |\n| @dumc11/tailwindcss | 0.4.0 | 73464 | tailwindcss/tailwindcss |\n| @dothq/styled-components | 1.0.0 | 39660 | styled-components/styled-components |\n| @dynasty/styled-components | 3.2.1 | 39660 | styled-components/styled-components |\n| @ec-nordbund/leaflet | 1.7.1 | 38715 | leaflet/leaflet |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "answer": "packages_with_releases: 15811\nlatest_mapped_with_stars: 2450\ntied_at_57779: 95\n\n| package | version | stars |\n| --- | --- | --- |\n| @dmrvos/infrajs>0.0.5>typescript | 2.6.2 | 94931 |\n| @dmrvos/infrajs>0.0.6>typescript | 2.6.2 | 94931 |\n| @dylanvann/svelte | 3.25.4 | 73499 |\n| @dumc11/tailwindcss | 0.4.0 | 73464 |\n| @dollarshaveclub/cli>1.0.0>lodash | 4.17.4 | 57779 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "answer": "| package_name | version | github_project | stars |\n| --- | --- | --- | --- |\n| @dylanvann/svelte | 3.25.4 | sveltejs/svelte | 73499 |\n| @dumc11/tailwindcss | 0.4.0 | tailwindcss/tailwindcss | 73464 |\n| @dothq/styled-components | 1.0.0 | styled-components/styled-components | 39660 |\n| @dynasty/styled-components | 3.2.1 | styled-components/styled-components | 39660 |\n| @ec-nordbund/leaflet | 1.7.1 | leaflet/leaflet | 38715 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "answer": "eligible_packages: 15811\nranked_with_stars: 2439\ncutoff_stars: 57779\ntied_at_cutoff: 95\n\n| package | version | project | stars |\n| --- | --- | --- | --- |\n| @dmrvos/infrajs>0.0.5>typescript | 2.6.2 | microsoft/typescript | 94931 |\n| @dmrvos/infrajs>0.0.6>typescript | 2.6.2 | microsoft/typescript | 94931 |\n| @dylanvann/svelte | 3.25.4 | sveltejs/svelte | 73499 |\n| @dumc11/tailwindcss | 0.4.0 | tailwindcss/tailwindcss | 73464 |\n| @dollarshaveclub/cli>1.0.0>lodash | 4.17.4 | lodash/lodash | 57779 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "answer": "| project_name | fork_count |\n| --- | --- |\n| mui-org/material-ui | 30522 |\n| moment/moment | 7201 |\n| semantic-org/semantic-ui | 4955 |\n| react-native-elements/react-native-elements | 4623 |\n| sveltejs/svelte | 4091 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "answer": "total_projects: 5\n\n| project | forks |\n| --- | --- |\n| mui-org/material-ui | 30522 |\n| moment/moment | 7201 |\n| semantic-org/semantic-ui | 4955 |\n| react-native-elements/react-native-elements | 4623 |\n| sveltejs/svelte | 4091 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "answer": "| project | forks |\n| --- | --- |\n| mui-org/material-ui | 30522 |\n| moment/moment | 7201 |\n| semantic-org/semantic-ui | 4955 |\n| react-native-elements/react-native-elements | 4623 |\n| sveltejs/svelte | 4091 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "answer": "| project | forks |\n| --- | --- |\n| mui-org/material-ui | 30522 |\n| moment/moment | 7201 |\n| semantic-org/semantic-ui | 4955 |\n| react-native-elements/react-native-elements | 4623 |\n| sveltejs/svelte | 4091 |\n"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "answer": "| project | forks |\n| --- | --- |\n| mui-org/material-ui | 30522 |\n| moment/moment | 7201 |\n| semantic-org/semantic-ui | 4955 |\n| react-native-elements/react-native-elements | 4623 |\n| sveltejs/svelte | 4091 |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "proportion of README.md files in non-Python (primary language) repos that include copyright information: 0.15534\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "answer": "| numerator | denominator | proportion |\n| --- | --- | --- |\n| 16 | 103 | 0.1553398058252427 |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "answer": "denominator_repos: 119\nnumerator_with_copyright: 21\nproportion: 0.1765\nproportion_percent: 17.65\nstrict_numerator: 20\nstrict_proportion: 0.1681\nexcluded_primary_python: 9\ntotal_readme_contents: 128\n\n| repo_name | primary_language | has_copyright |\n| --- | --- | --- |\n| 3ventic/DiscordServers | C# | 0 |\n| AcyOrt/acyort | JavaScript | 0 |\n| AutoDo/AutoDo | unknown | 0 |\n| Blizzard/omniauth-bnet | Ruby | 0 |\n| CESNET/owncloud-theme | PHP | 0 |\n| Calinou/godot-snippets | unknown | 1 |\n| CfABrigadePhiladelphia/jawn | JavaScript | 0 |\n| DMarby/Harpia | Swift | 0 |\n| DUBULEE/FileCacheUtil | Java | 1 |\n| F1ReKing/wheelview | Java | 1 |\n| Flat/Konachan-for-Muzei | Java | 0 |\n| Hexworks/hexameter | unknown | 0 |\n| JMPerez/beats-audio-api | JavaScript | 0 |\n| JSSolutions/meteor-google-prediction | JavaScript | 0 |\n| JuliaDB/MySQL.jl | Julia | 0 |\n| LI-COR/eddypro-engine | Fortran | 0 |\n| MaLeLabTs/RegexGenerator | Java | 0 |\n| Magnetme/consultant | Java | 0 |\n| Moq/moq | C# | 0 |\n| Nebulosus/shamir | Rust | 0 |\n| NickolausDS/Unity-Free-Flight | C# | 0 |\n| OfficeDev/Product-List-Code-Sample | C# | 0 |\n| PECE-project/pece-distro | PHP | 0 |\n| PixarAnimationStudios/jss-api-gem | unknown | 0 |\n| SuperID/super-cache | JavaScript | 1 |\n| Swader/diffbot-php-client | PHP | 0 |\n| TelerikAcademy/TelerikAcademyPlus | C# | 0 |\n| VeliovGroup/Meteor-logger | JavaScript | 0 |\n| aceway/findX | JavaScript | 0 |\n| adafruit/Adafruit-Trinket-Gemma-Bootloader | C | 1 |\n| adobe-type-tools/cmap-resources | Makefile | 0 |\n| alexchamberlain/piimg | C | 0 |\n| analog-nico/passport-pinterest | JavaScript | 0 |\n| andres-erbsen/dename | Go | 0 |\n| atom/node-ctags | C | 0 |\n| bh107/bohrium | C++ | 0 |\n| blond/hash-set | JavaScript | 1 |\n| blynkkk/blynk-server | Java | 0 |\n| brindille/brindille-component | TypeScript | 0 |\n| chrisbarrett/emacs-refactor | Emacs Lisp | 1 |\n| chrisdone/hulk | Haskell | 0 |\n| claudijd/c7decrypt | unknown | 0 |\n| crossroadlabs/homebrew-tap | Ruby | 0 |\n| cwilso/midi-synth | HTML | 0 |\n| daemon3000/InputManager | unknown | 0 |\n| dblock/slack-google-bot | Ruby | 1 |\n| delight-im/OpenSoccer | PHP | 1 |\n| derrickburns/generalized-kmeans-clustering | Scala | 0 |\n| devsoulwolf/ChatMessageView | Java | 0 |\n| dfletcher/tsws | Shell | 0 |\n| dikiaap/mangan | SCSS | 1 |\n| durka/named-block | Rust | 0 |\n| edomaru/codeigniter_multilevel_menu | PHP | 0 |\n| fdaciuk/ajax | unknown | 1 |\n| firebase/EventSource-Examples | unknown | 0 |\n| google/traceur-compiler | JavaScript | 0 |\n| guangzhuwu/p2engine | C++ | 0 |\n| ha/doozerd | Go | 0 |\n| himanshu-soni/image-intent-handler | Java | 0 |\n| hosom/bro-file-extraction | Bro | 0 |\n| hypriot/rpi-busybox-httpd | Makefile | 1 |\n| inamiy/DebugLog | Swift | 0 |\n| isychev93/Xamarin.Forms-Drag-and-drop-ListView | C# | 0 |\n| jbboehr/php-mustache | PHP | 0 |\n| jcinnamond/el-presenti | Emacs Lisp | 0 |\n| jconst/JCDialPad | Objective-C | 0 |\n| jeelabs/jet | JavaScript | 0 |\n| jeffmo/jasmine-pit | JavaScript | 0 |\n| johnhamelink/exrm_deb | Elixir | 1 |\n| johnpneumann/portable-maya-prefs | Shell | 0 |\n| jsonld-java/jsonld-java-tools | Java | 0 |\n| jzitelli/poolvr | JavaScript | 0 |\n| keithwhor/cmnd | JavaScript | 0 |\n| kinduff/spree_reffiliate | Ruby | 1 |\n| kittens/lerna | JavaScript | 0 |\n| kluivers/jbw-builders | Objective-C | 0 |\n| krishkumar/BlockParty | unknown | 0 |\n| laxa1986/gulp-angular-embed-templates | JavaScript | 0 |\n| lmammino/gulp-cozy | JavaScript | 0 |\n| lucaspouzac/contiperf | unknown | 0 |\n| marcelklehr/gulf-contenteditable | JavaScript | 1 |\n| mattinove/SwiftySlider | unknown | 0 |\n| mluisbrown/Memories | Swift | 1 |\n| mmerian/phpcrawl | PHP | 0 |\n| mojeda/ServerStatus | PHP | 0 |\n| mozilla/oneanddone | unknown | 0 |\n| mstevenson/AssetsWatcher | C# | 0 |\n| nictuku/stardew-rocks | Go | 0 |\n| noveogroup/android-logger | Java | 1 |\n| opinkerfi/adagios | HTML | 0 |\n| otoolep/gosf-rqlite | unknown | 0 |\n| paul999/433.92-Raspberry-Pi | C | 0 |\n| pmwkaa/serenity | C | 0 |\n| polomoshnov/jQuery-UI-Resizable-Snap-extension | JavaScript | 0 |\n| pouetnet/pouet2.0 | unknown | 0 |\n| qt-pods/qt-pods | C++ | 0 |\n| radare/radeco | Rust | 0 |\n| rafiuske/papergram | HTML | 0 |\n| ravl1084/TJ2PDF | Java | 0 |\n| rdebath/Brainfuck | C | 1 |\n| richtr/plug.play.js | JavaScript | 1 |\n| rita-marylin-raquel/softbloks | C++ | 1 |\n| rluders/phaser-skeleton | JavaScript | 0 |\n| rogpeppe/showdeps | Go | 0 |\n| rubylit/guevara | Ruby | 1 |\n| rusty1s/koa2-rest-api | JavaScript | 0 |\n| sakaal/service_platform_ansible | Shell | 0 |\n| smklancher/ZeoSleepMonitor | Java | 0 |\n| spaar/besiege-modloader | unknown | 0 |\n| sskyy/redux-task | JavaScript | 0 |\n| thedeibo/ServerLoveMCPE | PHP | 0 |\n| uupaa/UserAgent.js | JavaScript | 0 |\n| varlesh/elementary-add | unknown | 0 |\n| velveteer/mithril-boilerplate | JavaScript | 0 |\n| wahern/cqueues | C | 0 |\n| winunet/Hui | HTML | 0 |\n| xxtea/xxtea-php | PHP | 0 |\n| yuvirajsinh/YCameraView | Objective-C | 0 |\n| zverok/magic_cloud | Ruby | 0 |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "answer": "total_readme_md_files: 128\nrepos_with_language_row: 118\nrepos_missing_language_row: 10\nnon_python_denominator: 101\nwith_copyright_numerator: 15\nproportion: 0.148515\nproportion_percent: 14.8515\n\n| repo_name | readme_path | has_language_row | uses_python_any | in_proportion_denominator | readme_has_copyright_word |\n| --- | --- | --- | --- | --- | --- |\n| 3ventic/DiscordServers | README.md | true | false | true | false |\n| AcyOrt/acyort | README.md | true | false | true | false |\n| AutoDo/AutoDo | README.md | true | false | true | false |\n| Blizzard/omniauth-bnet | README.md | true | false | true | false |\n| CESNET/owncloud-theme | README.md | true | false | true | false |\n| Calinou/godot-snippets | README.md | false | null | false | true |\n| CfABrigadePhiladelphia/jawn | README.md | true | false | true | false |\n| DMarby/Harpia | README.md | true | false | true | false |\n| DUBULEE/FileCacheUtil | README.md | true | false | true | true |\n| F1ReKing/wheelview | README.md | true | false | true | true |\n| Flat/Konachan-for-Muzei | README.md | true | false | true | false |\n| Hexworks/hexameter | README.md | true | false | true | false |\n| JMPerez/beats-audio-api | README.md | true | false | true | false |\n| JSSolutions/meteor-google-prediction | README.md | true | false | true | false |\n| JuliaDB/MySQL.jl | README.md | true | false | true | false |\n| LI-COR/eddypro-engine | README.md | true | false | true | false |\n| MaLeLabTs/RegexGenerator | README.md | true | false | true | false |\n| Maaphoo/Retr3d | README.md | true | true | false | false |\n| Magnetme/consultant | README.md | true | false | true | false |\n| Moq/moq | README.md | true | false | true | false |\n| Nebulosus/shamir | README.md | true | false | true | false |\n| NickolausDS/Unity-Free-Flight | README.md | true | false | true | false |\n| OfficeDev/Product-List-Code-Sample | README.md | true | false | true | false |\n| OscarES/Differential-Algebra-Tracker | README.md | true | true | false | false |\n| PECE-project/pece-distro | README.md | true | true | false | false |\n| PixarAnimationStudios/jss-api-gem | README.md | true | false | true | false |\n| SuperID/super-cache | README.md | true | false | true | true |\n| Swader/diffbot-php-client | README.md | true | false | true | false |\n| TelerikAcademy/TelerikAcademyPlus | README.md | true | false | true | false |\n| VeliovGroup/Meteor-logger | README.md | true | false | true | false |\n| aceway/findX | README.md | true | false | true | false |\n| adafruit/Adafruit-Trinket-Gemma-Bootloader | README.md | true | false | true | true |\n| adobe-type-tools/cmap-resources | README.md | true | false | true | false |\n| alexchamberlain/piimg | README.md | true | false | true | false |\n| analog-nico/passport-pinterest | README.md | true | false | true | false |\n| andres-erbsen/dename | README.md | true | true | false | false |\n| atom/node-ctags | README.md | true | true | false | false |\n| bh107/bohrium | README.md | true | true | false | false |\n| blond/hash-set | README.md | true | false | true | false |\n| blynkkk/blynk-server | README.md | true | false | true | false |\n| brindille/brindille-component | README.md | true | false | true | false |\n| chrisbarrett/emacs-refactor | README.md | true | false | true | true |\n| chrisdone/hulk | README.md | true | false | true | false |\n| claudijd/c7decrypt | README.md | false | null | false | false |\n| crossroadlabs/homebrew-tap | README.md | true | false | true | false |\n| cwilso/midi-synth | README.md | true | false | true | false |\n| daemon3000/InputManager | README.md | false | null | false | false |\n| dblock/slack-google-bot | README.md | true | false | true | true |\n| delight-im/OpenSoccer | README.md | true | false | true | true |\n| derrickburns/generalized-kmeans-clustering | README.md | true | false | true | false |\n| devsoulwolf/ChatMessageView | README.md | true | false | true | false |\n| dfletcher/tsws | README.md | true | false | true | false |\n| dikiaap/mangan | README.md | true | false | true | false |\n| divmain/GitSavvy | README.md | true | true | false | false |\n| durka/named-block | README.md | true | false | true | false |\n| edomaru/codeigniter_multilevel_menu | README.md | true | false | true | false |\n| fdaciuk/ajax | README.md | false | null | false | false |\n| firebase/EventSource-Examples | README.md | false | null | false | false |\n| google/traceur-compiler | README.md | true | false | true | false |\n| guangzhuwu/p2engine | README.md | true | false | true | false |\n| ha/doozerd | README.md | true | false | true | false |\n| himanshu-soni/image-intent-handler | README.md | true | false | true | false |\n| hosom/bro-file-extraction | README.md | true | false | true | false |\n| hypriot/rpi-busybox-httpd | README.md | true | false | true | true |\n| inamiy/DebugLog | README.md | true | false | true | false |\n| isychev93/Xamarin.Forms-Drag-and-drop-ListView | README.md | true | false | true | false |\n| j-bennet/wharfee | README.md | true | true | false | false |\n| jbboehr/php-mustache | README.md | true | false | true | false |\n| jcinnamond/el-presenti | README.md | true | false | true | false |\n| jconst/JCDialPad | README.md | true | false | true | false |\n| jeelabs/jet | README.md | true | true | false | false |\n| jeffmo/jasmine-pit | README.md | true | false | true | false |\n| jforman/munin-graphite | README.md | true | true | false | false |\n| johnhamelink/exrm_deb | README.md | true | false | true | true |\n| johnpneumann/portable-maya-prefs | README.md | true | false | true | false |\n| jsonld-java/jsonld-java-tools | README.md | true | false | true | false |\n| jzitelli/poolvr | README.md | true | true | false | false |\n| keithwhor/cmnd | README.md | true | false | true | false |\n| kinduff/spree_reffiliate | README.md | true | false | true | true |\n| kittens/lerna | README.md | true | false | true | false |\n| kluivers/jbw-builders | README.md | true | false | true | false |\n| krishkumar/BlockParty | README.md | false | null | false | false |\n| laxa1986/gulp-angular-embed-templates | README.md | true | false | true | false |\n| lmammino/gulp-cozy | README.md | true | false | true | false |\n| lucaspouzac/contiperf | README.md | false | null | false | false |\n| marcelklehr/gulf-contenteditable | README.md | true | false | true | false |\n| mattinove/SwiftySlider | README.md | false | null | false | false |\n| mluisbrown/Memories | README.md | true | false | true | true |\n| mmerian/phpcrawl | README.md | true | false | true | false |\n| mojeda/ServerStatus | README.md | true | false | true | false |\n| mozilla/oneanddone | README.md | true | false | true | false |\n| mstevenson/AssetsWatcher | README.md | true | false | true | false |\n| nictuku/stardew-rocks | README.md | true | false | true | false |\n| ninja-ide/ninja-ide | README.md | true | true | false | false |\n| nodejs/node-gyp | README.md | true | true | false | true |\n| noveogroup/android-logger | README.md | true | false | true | true |\n| opinkerfi/adagios | README.md | true | true | false | false |\n| otoolep/gosf-rqlite | README.md | true | false | true | false |\n| paul999/433.92-Raspberry-Pi | README.md | true | false | true | false |\n| pmwkaa/serenity | README.md | true | false | true | false |\n| polomoshnov/jQuery-UI-Resizable-Snap-extension | README.md | true | false | true | false |\n| pouetnet/pouet2.0 | README.md | false | null | false | false |\n| qt-pods/qt-pods | README.md | true | false | true | false |\n| radare/radeco | README.md | true | false | true | false |\n| rafiuske/papergram | README.md | true | false | true | false |\n| ravl1084/TJ2PDF | README.md | true | false | true | false |\n| rdebath/Brainfuck | README.md | true | true | false | true |\n| richtr/plug.play.js | README.md | true | false | true | true |\n| rita-marylin-raquel/softbloks | README.md | true | false | true | true |\n| rluders/phaser-skeleton | README.md | true | false | true | false |\n| rogpeppe/showdeps | README.md | true | false | true | false |\n| rubylit/guevara | README.md | true | false | true | true |\n| rusty1s/koa2-rest-api | README.md | true | false | true | false |\n| sakaal/service_platform_ansible | README.md | true | false | true | false |\n| sendgrid/python-http-client | README.md | true | true | false | false |\n| shenxgan/xblog | README.md | true | true | false | false |\n| smklancher/ZeoSleepMonitor | README.md | true | false | true | false |\n| spaar/besiege-modloader | README.md | false | null | false | false |\n| sskyy/redux-task | README.md | true | false | true | false |\n| thedeibo/ServerLoveMCPE | README.md | true | false | true | false |\n| uupaa/UserAgent.js | README.md | true | false | true | false |\n| varlesh/elementary-add | README.md | true | false | true | false |\n| velveteer/mithril-boilerplate | README.md | true | false | true | false |\n| wahern/cqueues | README.md | true | false | true | false |\n| winunet/Hui | README.md | true | false | true | false |\n| xxtea/xxtea-php | README.md | true | false | true | false |\n| yuvirajsinh/YCameraView | README.md | true | false | true | false |\n| zverok/magic_cloud | README.md | true | false | true | false |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "answer": "0.14678899082568808\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "| repo_name | file_id | file_path | copies | size_bytes | mode |\n| --- | --- | --- | --- | --- | --- |\n| SwiftAndroid/swift | 71a17ce92451858f3eb01aa8082551e48bc5550d | validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift | 23 | 470 | 33188 |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "| repo_name | path | id | copies | sample_repo_name | repo_data_description |\n| --- | --- | --- | --- | --- | --- |\n| SwiftAndroid/swift | validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift | 71a17ce92451858f3eb01aa8082551e48bc5550d | 23 | SwiftAndroid/swift | It is a non-binary file of 470 bytes, repeated 23 times in the dataset under mode 33188. |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "SwiftAndroid/swift\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "| repo_name | file_id | file_path | copies | is_non_binary | files_rows_for_id | language_contains_swift |\n| --- | --- | --- | --- | --- | --- | --- |\n| SwiftAndroid/swift | 71a17ce92451858f3eb01aa8082551e48bc5550d | validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift | 23 | True | 1 | True |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "max_copies: 23\neligible_files: 1\n\n| repo_name | file_id | file_path | copies |\n| --- | --- | --- | --- |\n| SwiftAndroid/swift | 71a17ce92451858f3eb01aa8082551e48bc5550d | validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift | 23 |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "commit_messages: 1186\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "answer": "1077\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "answer": "commit_message_count: 1186\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "answer": "commit messages: 1077\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "answer": "commit messages in Shell-using Apache-2.0 repos, message exists, <1000 chars, not starting with merge/update/test (case-insensitive): 1077\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "| repo_name |\n| --- |\n| apple/swift |\n| twbs/bootstrap |\n| Microsoft/vscode |\n| facebook/react |\n| tensorflow/tensorflow |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "answer": "| repo_name |\n| --- |\n| apple/swift |\n| twbs/bootstrap |\n| Microsoft/vscode |\n| facebook/react |\n| tensorflow/tensorflow |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "answer": "| repo_name |\n| --- |\n| apple/swift |\n| twbs/bootstrap |\n| Microsoft/vscode |\n| facebook/react |\n| tensorflow/tensorflow |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "answer": "| repo_name |\n| --- |\n| apple/swift |\n| twbs/bootstrap |\n| Microsoft/vscode |\n| facebook/react |\n| tensorflow/tensorflow |\n"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "answer": "| repo_name |\n| --- |\n| torvalds/linux |\n| apple/swift |\n| twbs/bootstrap |\n| Microsoft/vscode |\n| facebook/react |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "answer": "| histological_type | n_patients | avg_log10_expression |\n| --- | --- | --- |\n| Astrocytoma | 10 | 2.571298141143903 |\n| Oligoastrocytoma | 5 | 2.713571305193452 |\n| Oligodendroglioma | 8 | 2.682457993294452 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "answer": "| histological_type | n_patients | avg_log10_IGF2 |\n| --- | --- | --- |\n| Astrocytoma | 10 | 2.571298 |\n| Oligoastrocytoma | 5 | 2.713571 |\n| Oligodendroglioma | 8 | 2.682458 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "answer": "| histological_type | n_patients | avg_log10_expr |\n| --- | --- | --- |\n| Astrocytoma | 10 | 2.5712981411 |\n| Oligoastrocytoma | 5 | 2.7135713052 |\n| Oligodendroglioma | 8 | 2.6824579933 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "answer": "total_lgg_patients: 513\nlgg_with_valid_igf2: 23\n\n| histological_type | n_patients | avg_log10_expression |\n| --- | --- | --- |\n| Astrocytoma | 10 | 2.571298 |\n| Oligoastrocytoma | 5 | 2.713571 |\n| Oligodendroglioma | 8 | 2.682458 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "answer": "| histological_type | n_patients | avg_log10_IGF2_expression |\n| --- | --- | --- |\n| Astrocytoma | 10 | 2.5712981411439033 |\n| Oligoastrocytoma | 5 | 2.7135713051934522 |\n| Oligodendroglioma | 8 | 2.6824579932944523 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "answer": "| histological_type | n_patients | n_cdh1_mutated | pct_cdh1 |\n| --- | --- | --- | --- |\n| Infiltrating Lobular Carcinoma | 178 | 90 | 50.56 |\n| Mixed Histology (please specify) | 24 | 4 | 16.67 |\n| Other  specify | 36 | 3 | 8.33 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "answer": "| histological_type | total_patients | mutated | pct_mutated |\n| --- | --- | --- | --- |\n| Infiltrating Lobular Carcinoma | 178 | 90 | 50.56 |\n| Mixed Histology (please specify) | 24 | 4 | 16.67 |\n| Other  specify | 36 | 3 | 8.33 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "answer": "total_alive_brca_patients: 936\nnum_histological_types: 9\n\n| histological_type | total_alive_patients | cdh1_mutated_patients | percentage |\n| --- | --- | --- | --- |\n| Infiltrating Lobular Carcinoma | 178 | 90 | 50.56 |\n| Mixed Histology (please specify) | 24 | 4 | 16.67 |\n| Other  specify | 36 | 3 | 8.33 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "answer": "| histological_type | alive_patients | cdh1_mutated_patients | pct_cdh1_mutated |\n| --- | --- | --- | --- |\n| Infiltrating Lobular Carcinoma | 178 | 90 | 50.56 |\n| Mixed Histology (please specify) | 24 | 4 | 16.67 |\n| Other  specify | 36 | 3 | 8.33 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "answer": "n_alive_BRCA: 936\nn_alive_BRCA_sequenced: 873\nn_alive_BRCA_CDH1_any: 111\nn_histological_types: 9\n\n| histological_type | n_alive_BRCA_patients | n_with_CDH1_mutation | pct_with_CDH1_mutation |\n| --- | --- | --- | --- |\n| Infiltrating Lobular Carcinoma | 178 | 90 | 50.56 |\n| Mixed Histology (please specify) | 24 | 4 | 16.67 |\n| Other  specify | 36 | 3 | 8.33 |\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "answer": "chi_square_statistic: 305.123919800746\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "answer": "chi_square_statistic: 305.1239198007461\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "answer": "305.1239198007461\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "answer": "305.1239198007461\n"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "answer": "305.1239198007461\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "answer": "| cpc_group |\n| --- |\n| A22B |\n| A23J |\n| A23P |\n| A24D |\n| A24F |\n| A41G |\n| A47F |\n| A61G |\n| A61H |\n| A61P |\n| A62D |\n| A63H |\n| B04B |\n| B07B |\n| B08B |\n| B09C |\n| B21J |\n| B22F |\n| B24B |\n| B25B |\n| B25D |\n| B27C |\n| B27M |\n| B60D |\n| B60L |\n| B60P |\n| B61H |\n| B63C |\n| B63G |\n| B65G |\n| B66F |\n| C01D |\n| C01G |\n| C21B |\n| C21C |\n| C22C |\n| D21B |\n| E01H |\n| E02B |\n| E02D |\n| E03B |\n| E04B |\n| E04G |\n| E21D |\n| E21F |\n| F02K |\n| F04F |\n| F16M |\n| F25J |\n| F26B |\n| G01H |\n| G01L |\n| G01S |\n| G05D |\n| G06N |\n| G06Q |\n| G06T |\n| G06V |\n| G08G |\n| G09F |\n| G10L |\n| G16B |\n| G16C |\n| G16H |\n| G21F |\n| H01M |\n| H02B |\n| H02G |\n| H02J |\n| H03H |\n| H04K |\n| H05F |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "answer": "n_level5: 677\nn_evaluated: 637\nn_best_2022: 72\n\n| symbol |\n| --- |\n| A22B |\n| A23J |\n| A23P |\n| A24D |\n| A24F |\n| A41G |\n| A47F |\n| A61G |\n| A61H |\n| A61P |\n| A62D |\n| A63H |\n| B04B |\n| B07B |\n| B08B |\n| B09C |\n| B21J |\n| B22F |\n| B24B |\n| B25B |\n| B25D |\n| B27C |\n| B27M |\n| B60D |\n| B60L |\n| B60P |\n| B61H |\n| B63C |\n| B63G |\n| B65G |\n| B66F |\n| C01D |\n| C01G |\n| C21B |\n| C21C |\n| C22C |\n| D21B |\n| E01H |\n| E02B |\n| E02D |\n| E03B |\n| E04B |\n| E04G |\n| E21D |\n| E21F |\n| F02K |\n| F04F |\n| F16M |\n| F25J |\n| F26B |\n| G01H |\n| G01L |\n| G01S |\n| G05D |\n| G06N |\n| G06Q |\n| G06T |\n| G06V |\n| G08G |\n| G09F |\n| G10L |\n| G16B |\n| G16C |\n| G16H |\n| G21F |\n| H01M |\n| H02B |\n| H02G |\n| H02J |\n| H03H |\n| H04K |\n| H05F |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "answer": "| symbol |\n| --- |\n| A22B |\n| A23J |\n| A23P |\n| A24D |\n| A24F |\n| A41G |\n| A47F |\n| A61G |\n| A61H |\n| A61P |\n| A62D |\n| A63H |\n| B04B |\n| B07B |\n| B08B |\n| B09C |\n| B21J |\n| B22F |\n| B24B |\n| B25B |\n| B25D |\n| B27C |\n| B27M |\n| B60D |\n| B60L |\n| B60P |\n| B61H |\n| B63C |\n| B63G |\n| B65G |\n| B66F |\n| C01D |\n| C01G |\n| C21B |\n| C21C |\n| C22C |\n| D21B |\n| E01H |\n| E02B |\n| E02D |\n| E03B |\n| E04B |\n| E04G |\n| E21D |\n| E21F |\n| F02K |\n| F04F |\n| F16M |\n| F25J |\n| F26B |\n| G01H |\n| G01L |\n| G01S |\n| G05D |\n| G06N |\n| G06Q |\n| G06T |\n| G06V |\n| G08G |\n| G09F |\n| G10L |\n| G16B |\n| G16C |\n| G16H |\n| G21F |\n| H01M |\n| H02B |\n| H02G |\n| H02J |\n| H03H |\n| H04K |\n| H05F |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "answer": "| cpc_group |\n| --- |\n| A22B |\n| A23J |\n| A23P |\n| A24D |\n| A24F |\n| A41G |\n| A47F |\n| A61G |\n| A61H |\n| A61P |\n| A62D |\n| A63H |\n| B04B |\n| B07B |\n| B08B |\n| B09C |\n| B21J |\n| B22F |\n| B24B |\n| B25B |\n| B25D |\n| B27C |\n| B27M |\n| B60D |\n| B60L |\n| B60P |\n| B61H |\n| B63C |\n| B63G |\n| B65G |\n| B66F |\n| C01D |\n| C01G |\n| C21B |\n| C21C |\n| C22C |\n| D21B |\n| E01H |\n| E02B |\n| E02D |\n| E03B |\n| E04B |\n| E04G |\n| E21D |\n| E21F |\n| F02K |\n| F04F |\n| F16M |\n| F25J |\n| F26B |\n| G01H |\n| G01L |\n| G01S |\n| G05D |\n| G06N |\n| G06Q |\n| G06T |\n| G06V |\n| G08G |\n| G09F |\n| G10L |\n| G16B |\n| G16C |\n| G16H |\n| G21F |\n| H01M |\n| H02B |\n| H02G |\n| H02J |\n| H03H |\n| H04K |\n| H05F |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "answer": "| cpc_group_code |\n| --- |\n| A22B |\n| A23J |\n| A23P |\n| A24D |\n| A24F |\n| A41G |\n| A47F |\n| A61G |\n| A61H |\n| A61P |\n| A62D |\n| A63H |\n| B04B |\n| B07B |\n| B08B |\n| B09C |\n| B21J |\n| B22F |\n| B24B |\n| B25B |\n| B25D |\n| B27C |\n| B27M |\n| B60D |\n| B60L |\n| B60P |\n| B61H |\n| B63C |\n| B63G |\n| B65G |\n| B66F |\n| C01D |\n| C01G |\n| C21B |\n| C21C |\n| C22C |\n| D21B |\n| E01H |\n| E02B |\n| E02D |\n| E03B |\n| E04B |\n| E04G |\n| E21D |\n| E21F |\n| F02K |\n| F04F |\n| F16M |\n| F25J |\n| F26B |\n| G01H |\n| G01L |\n| G01S |\n| G05D |\n| G06N |\n| G06Q |\n| G06T |\n| G06V |\n| G08G |\n| G09F |\n| G10L |\n| G16B |\n| G16C |\n| G16H |\n| G21F |\n| H01M |\n| H02B |\n| H02G |\n| H02J |\n| H03H |\n| H04K |\n| H05F |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "answer": "| cpc_group | title_full | best_year | max_ema | n_patents | first_filing_year | last_filing_year |\n| --- | --- | --- | --- | --- | --- | --- |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0 | 1 | 2015 | 2015 |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0 | 2 | 2016 | 2016 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 | 1 | 2015 | 2015 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0 | 2 | 2007 | 2012 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0 | 1 | 2007 | 2007 |\n| B60 | VEHICLES IN GENERAL | 2009 | 1.0 | 3 | 2009 | 2016 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0 | 1 | 2010 | 2010 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0 | 1 | 2014 | 2014 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 | 1 | 2015 | 2015 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0 | 1 | 2012 | 2012 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0 | 1 | 2012 | 2012 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0 | 5 | 2010 | 2018 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0 | 3 | 2009 | 2014 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0 | 1 | 2018 | 2018 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 | 1.0 | 1 | 2018 | 2018 |\n| F41 | WEAPONS | 2012 | 1.0 | 1 | 2012 | 2012 |\n| G01 | MEASURING; TESTING | 2008 | 1.0 | 3 | 2008 | 2018 |\n| G02 | OPTICS | 2016 | 1.0 | 2 | 2016 | 2018 |\n| G08 | SIGNALLING | 2017 | 1.0 | 1 | 2017 | 2017 |\n| H01 | ELECTRIC ELEMENTS | 2008 | 1.0 | 3 | 2008 | 2018 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0 | 1 | 2009 | 2009 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 | 1.0 | 1 | 2015 | 2015 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0 | 2 | 2015 | 2015 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "answer": "| cpc_group | titleFull | best_year | max_ema |\n| --- | --- | --- | --- |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0 |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0 |\n| G01 | MEASURING; TESTING | 2008 | 1.0 |\n| H01 | ELECTRIC ELEMENTS | 2008 | 1.0 |\n| B60 | VEHICLES IN GENERAL | 2009 | 1.0 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0 |\n| F41 | WEAPONS | 2012 | 1.0 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0 |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 | 1.0 |\n| G02 | OPTICS | 2016 | 1.0 |\n| G08 | SIGNALLING | 2017 | 1.0 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 | 1.0 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "answer": "| cpc_group | title_full | best_year | max_ema |\n| --- | --- | --- | --- |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0 |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0 |\n| B60 | VEHICLES IN GENERAL | 2009 | 1.0 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 | 1.0 |\n| F41 | WEAPONS | 2012 | 1.0 |\n| G01 | MEASURING; TESTING | 2008 | 1.0 |\n| G02 | OPTICS | 2016 | 1.0 |\n| G08 | SIGNALLING | 2017 | 1.0 |\n| H01 | ELECTRIC ELEMENTS | 2008 | 1.0 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 | 1.0 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "answer": "total_groups: 23\ntop_max_ema: 2.0\nnum_top_groups: 2\n\n| cpc_group | title_full | best_year | max_ema |\n| --- | --- | --- | --- |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0 |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0 |\n| B60 | VEHICLES IN GENERAL | 2009 | 1.0 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 | 1.0 |\n| F41 | WEAPONS | 2012 | 1.0 |\n| G01 | MEASURING; TESTING | 2008 | 1.0 |\n| G02 | OPTICS | 2016 | 1.0 |\n| G08 | SIGNALLING | 2017 | 1.0 |\n| H01 | ELECTRIC ELEMENTS | 2008 | 1.0 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 | 1.0 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "answer": "| cpc_group | title_full | best_year | best_ema |\n| --- | --- | --- | --- |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0 |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0 |\n| B60 | VEHICLES IN GENERAL | 2009 | 1.0 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 | 1.0 |\n| F41 | WEAPONS | 2012 | 1.0 |\n| G01 | MEASURING; TESTING | 2008 | 1.0 |\n| G02 | OPTICS | 2016 | 1.0 |\n| G08 | SIGNALLING | 2017 | 1.0 |\n| H01 | ELECTRIC ELEMENTS | 2008 | 1.0 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 | 1.0 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "answer": "total_citing_assignees: 3\n\n| citing_assignee | cpc_subclass_title |\n| --- | --- |\n| BLOOM ENERGY CORP | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n| CRYSTAL IS INC | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "answer": "| citing_assignee | cpc_subclass_title |\n| --- | --- |\n| BLOOM ENERGY CORP | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n| CRYSTAL IS INC | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "answer": "| citing_assignee | cpc_subclass | subclass_title |\n| --- | --- | --- |\n| BLOOM ENERGY CORP | H01M | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n| CALIFORNIA INST OF TECHN | G01V | GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS |\n| CRYSTAL IS INC | C30B | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | H01L | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "answer": "citing_patents: 4\npairs: 4\n\n| citing_assignee | cpc_subclass | cpc_subclass_title |\n| --- | --- | --- |\n| BLOOM ENERGY CORP | H01M | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n| CALIFORNIA INST OF TECHN | G01V | GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS |\n| CRYSTAL IS INC | C30B | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | H01L | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "answer": "| citing_assignee | cpc_subclass_title |\n| --- | --- |\n| BLOOM ENERGY CORP | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n| CALIFORNIA INST OF TECHN | GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS |\n| CRYSTAL IS INC | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "| title |\n| --- |\n| The Rundown |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "| title |\n| --- |\n| The Rundown |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "| title |\n| --- |\n| The Rundown |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "| title |\n| --- |\n| The Rundown |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "title: The Rundown\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "author: Amy Jones\ntotal_articles: 111\nscience_technology_articles: 14\nfraction_science_technology: 0.12612612612612611\n\n| article_id | title | category |\n| --- | --- | --- |\n| 192 | GameBoy mini-games win prize | Science/Technology |\n| 2161 | Bailey Tries WR | Sports |\n| 2844 | Students Win \\\\$100,000 in National Team Science Competition | Science/Technology |\n| 2987 | Energy from waves  teenager wins science award | Science/Technology |\n| 3451 | China #39;s appetite boosts BHP | Business |\n| 3970 | Leading Indicators, Jobless Claims Dip (AP) | Business |\n| 4447 | Even in win, nasty vibes | Sports |\n| 5354 | Gas stoppage may have caused deadly Belgian blast: TV report (AFP) | World |\n| 6705 | Raffarin pledges to be  quot;extremely severe quot; against anti-semitism &lt;b&gt;...&lt;/b&gt; | World |\n| 6869 | Somalians sworn in | World |\n| 8962 | Muenzer races for gold | Sports |\n| 9677 | Israelis to Expand West Bank Settlements | World |\n| 9858 | Stocks End Up as Oil Prices Fall | Business |\n| 14861 | WTO Rejects U.S. Appeal on Canadian Wheat | Business |\n| 15100 | Capriati Scrambles Past Chladkova Challenge at Open | Sports |\n| 15473 | In Iraq, a Quest to Rebuild One More Broken Edifice: Science | Science/Technology |\n| 17491 | UPDATE: Intel lowers Q3 revenue estimates | Business |\n| 19469 | Calm as Kathmandu curfew lifted | World |\n| 20362 | Israeli Missiles Kill 13 Militants | World |\n| 21238 | Serena Blasts Umpire After Dramatic Defeat | Sports |\n| 22354 | Space Probe Fails to Deploy Its Parachute and Crashes | Science/Technology |\n| 23914 | Producer Prices Drop, Trade Gap Narrows | Business |\n| 24495 | Shuttle repair price tag soars | Science/Technology |\n| 25960 | Microsoft settles with UK phone maker | Business |\n| 26535 | Champions League to provide upsets | Sports |\n| 27429 | The Associated Press | Business |\n| 28079 | Not all sweet for Lou | Sports |\n| 29164 | Law pays tribute to record-breaking Ruud | Sports |\n| 29297 | Negotiations Seek End to IRA Threat | World |\n| 33489 | Kerry Questions Bush's Judgment on Iraq | World |\n| 35408 | Giants gain on Dodgers | Sports |\n| 35882 | EMC Unveils E-mail Storage For Microsoft Exchange | Science/Technology |\n| 36182 | Bed Bath   Beyond Profit Up, Shares Fall (Reuters) | Business |\n| 36483 | A Strategy for Shell? | Business |\n| 37042 | Placer Dome forecasts higher 2005 gold production | Business |\n| 38608 | Liverpool prepares for life without Gerrard | Sports |\n| 39117 | ICC Champions Trophy final today | Sports |\n| 39623 | Swedes fire into top two spots | Sports |\n| 40545 | Israel Defense Official Threatens Syria (AP) | World |\n| 41616 | TechBrief: Vodafone seeks new frontiers | Business |\n| 46531 | Ex-Astronaut Casts Doubt on Space Tourism | Science/Technology |\n| 47439 | Charging Els moves to the top | Sports |\n| 48635 | Finance Leaders Urge Vigilance on Terror (Reuters) | Business |\n| 48833 | German food retailer Spar sells 50-pct stake in Netto discount to ITM (AFP) | Business |\n| 49035 | But hurricanes and more impact in the third quarter | Business |\n| 52459 | Diabetes delay adds to AstraZeneca #39;s ills | Business |\n| 54906 | Soldering plays Spadea next | Sports |\n| 57510 | Stocks: Stocks rise as investors bet on profit reports | Business |\n| 57860 | NZ stocks: Sharemarket softens, but Air NZ takes off | Business |\n| 57918 | Devastating blow | Sports |\n| 62404 | Man remanded over Danielle murder | World |\n| 62754 | Two Soldiers Die After Crash in Iraq | World |\n| 64102 | Texas Instruments Posts Higher 3Q Profits (AP) | Business |\n| 66827 | Sergeant in Abu Ghraib Case Pleads Guilty to 8 Counts | World |\n| 68509 | 'Treasure hunt' for bandit's loot | World |\n| 68958 | Citigroup Says SEC May Take Action Against Jones (Update6) | Business |\n| 69262 | Burma army intelligence  #39;purged #39; | World |\n| 69393 | Memos Warned of Billing Fraud by Firm in Iraq | World |\n| 70498 | Owenagainlifts Real Madrid from the doldrums | Sports |\n| 70608 | Brazilian GP Race Report: Montoya claims first win of 2004 | Sports |\n| 72525 | Clinton jumps into campaign, as missing explosives force Bush on defensive (AFP) | World |\n| 73025 | FCC Approves Merger, Wireless Giant Created | Business |\n| 73684 | Crude prices fall after good news from Norway | Business |\n| 78200 | Maryland 20, No. 5 Florida State 17 | Sports |\n| 80578 | Satellite write-downs widen DirecTV #39;s loss | Business |\n| 80853 | Report: Stottlemyre won #39;t return | Sports |\n| 81851 | Backs off drastic fare  amp; service plans | World |\n| 82526 | Goodyear Sees Profit; Stock Up | Business |\n| 82668 | Israel to free Egyptian students: Cairo media | World |\n| 83273 | Why I had to leave Australia | Sports |\n| 88553 | . . . and Lost Chances | World |\n| 88911 | Coke CEO: the company may face tough times. Earnings targets &lt;b&gt;...&lt;/b&gt; | Business |\n| 89666 | Vote Fraud Theories, Spread by Blogs, Are Quickly Buried | Science/Technology |\n| 91286 | Lord Black is charged with fraud | Business |\n| 91822 | AMCC to Lay Off 150 | Business |\n| 92992 | Revealed: why the fear factor runs with the pack | Science/Technology |\n| 93287 | Gunshots echo in Indian-controlled Kashmir | World |\n| 93804 | Ontario to dedicate  #36;12.5 million to water studies and watershed protection (Canadian Press) | World |\n| 94618 | India offers unqualified talks on Kashmir | World |\n| 96641 | Mylan Shares Up As Drug Stocks Close Down | Business |\n| 96986 | Sorenstam Leads ADT Championship by Three (AP) | Sports |\n| 99699 | Cherkasky says Marsh may settle Spitzer's lawsuit within a month | Business |\n| 100613 | Call Service with a Sneer (Reuters) | Business |\n| 101514 | Lehmann slams  #39;arrogant #39; ref | Sports |\n| 103003 | Blunkett denies visa 'fast-track' | World |\n| 103591 | Anglican Leader Warns Churches on Gay Hate Message (Reuters) | World |\n| 103695 | After adjusting, Pats get busy | Sports |\n| 104123 | Asean signs historic deal with China | Business |\n| 104996 | Rams not in Pack #39;s league | Sports |\n| 104998 | Death toll rises to 63 in Shaanxi coalmine explosion | World |\n| 105804 | HP to launch  #39;virus-throttling #39; software | Science/Technology |\n| 106908 | XM CEO Sees Satellite Radio on Cell Phones | Science/Technology |\n| 107036 | 'Tis the season to be greeted with silliness | Sports |\n| 108586 | EBay Adds 'Want It Now' Feature (Reuters) | Science/Technology |\n| 109601 | Chinese Firm To Buy IBM #39;s PC Business For \\\\$1.75 Billion | Business |\n| 110096 | Virgin Atlantic Inaugural Flight Lands in Sydney | Business |\n| 111422 | Ford #39;s Scheele to Retire as President on Feb. 1 (Update2) | Business |\n| 112063 | NBA Wrap: McGrady Leads Rockets to Stunning Win | Sports |\n| 112770 | Paypal and Apple iTunes link-up | Business |\n| 113058 | Arab reform dreams run aground | World |\n| 116698 | US mobile groups confirm merger | Business |\n| 119651 | Bush Ordering Better Ocean Oversight (AP) | World |\n| 119920 | Indonesian extremists influence Thai Muslims, prime minister says &lt;b&gt;...&lt;/b&gt; | World |\n| 120129 | Peace delegation leaves Najaf empty-handed as fighting continues | World |\n| 120765 | Schumacher in uncharted territory | Sports |\n| 122137 | Karzai deputy escapes a roadside bombing | World |\n| 123747 | Ban for former Ahold executives | Business |\n| 124509 | Hendrick Motorsports | Sports |\n| 126412 | Protests in Canada over Ukraine crisis (AFP) | World |\n| 126655 | Log on to be a satellite spy | Science/Technology |\n| 126966 | NASD Warns of Risky Home-Equity Investing | Business |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "0.15315315315315314\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "amy_jones_total: 111\nscience_technology_count: 17\nfraction_decimal: 0.153153\nfraction_string: 17/111\n\n| article_id | title | description | category |\n| --- | --- | --- | --- |\n| 192 | GameBoy mini-games win prize | A set of GameBoy micro-games is named as the most innovative game of the year at a festival in Scotland. | Science/Technology |\n| 2161 | Bailey Tries WR | Pro Bowl cornerback Champ Bailey practiced with the offense at wide reciever during the Denver Broncos' practice on Tuesday. | Sports |\n| 2844 | Students Win $100,000 in National Team Science Competition | Lucie Guo, motivated by the death of her grandfather in China before she was born, spent two summers doing research in a Duke University laboratory. | Science/Technology |\n| 2987 | Energy from waves teenager wins science award | A teenager from the San Diego, California area has won The Siemens Westinghouse Competition in Math, Science and Technology for his \"Gyro-Gen, \" a machine that produces electricity from ocean waves. | Science/Technology |\n| 3451 | China 's appetite boosts BHP | BHP Billiton, the world 's biggest mining company, has doubled its profits in the second half of the year on the back of booming global commodity prices. | Business |\n| 3970 | Leading Indicators, Jobless Claims Dip (AP) | AP - A closely watched measure of future economic activity fell in July for the second consecutive month, reinforcing evidence that the nation's financial recovery is slackening. | Business |\n| 4447 | Even in win, nasty vibes | ATHENS -- As you saw yesterday, they 're fighting back now. Not with the world, but with themselves. When you 've been humiliated at your own game, ridiculed and laughed at back home and can 't intimidate Australia anymore, someone 's bound to mope. | Sports |\n| 5354 | Gas stoppage may have caused deadly Belgian blast: TV report (AFP) | AFP - A Belgian gas explosion in which 20 people were killed may have resulted from a combination of a halt in the gas circulation in a pipeline and existing damage to the main, Belgian television said. | World |\n| 6705 | Raffarin pledges to be \"extremely severe \" against anti-semitism <b>...</b> | French Prime Minister Jean-Pierre Raffarin declared Sunday that \"France will be extremely severe against those who perpetrate anti-semitism, \" after visiting the Jewish social | World |\n| 6869 | Somalians sworn in | NAIROBI International mediators swore in members of Somalia 's new Parliament on Sunday, a move seen as a crucial step toward establishing the first central government in the country since 1991. | World |\n| 8962 | Muenzer races for gold | Athens - Edmonton 's Lori-Ann Muenzer moved to within one win of Olympic gold Tuesday, defeating Australian Anna Meares in the semi-final of the sprint cycling. | Sports |\n| 9677 | Israelis to Expand West Bank Settlements | Description: Israeli Prime Minister Ariel Sharon says he is committed to dismantling Jewish settlements in Gaza. But Israel says it will continue to expand Jewish settlements in the West Bank, and cites the tacit approval of the Bush administration. | World |\n| 9858 | Stocks End Up as Oil Prices Fall | US stocks ended higher on Wednesday, as a drop in oil prices boosted investor confidence about the economy, but thin volume meant dealers were skeptical about the strength of the rally. | Business |\n| 14861 | WTO Rejects U.S. Appeal on Canadian Wheat | GENEVA (Reuters) - The World Trade Organization's (WTO) top trade court on Monday rejected a U.S. appeal against a ruling exonerating the export policies of the Canadian Wheat Board, diplomats and trade sources said. | Business |\n| 15100 | Capriati Scrambles Past Chladkova Challenge at Open | NEW YORK (Reuters) - Crowd favorite Jennifer Capriati flirted with disaster before scrambling past Czech Denisa Chladkova 2-6, 6-1, 6-2 to reach the second round of the U.S. Open on Monday. | Sports |\n| 15473 | In Iraq, a Quest to Rebuild One More Broken Edifice: Science | The most unlikely element in one Iraqi nuclear physicist's quest may be his decision to undertake it in the first place. | Science/Technology |\n| 17491 | UPDATE: Intel lowers Q3 revenue estimates | SAN FRANCISCO - Citing lower than expected product sales, Intel Corp. on Thursday lowered its revenue expectations for the third quarter of its 2004 fiscal year, which ends on Sept. 25. | Business |\n| 19469 | Calm as Kathmandu curfew lifted | Shops and businesses reopen in the Nepalese capital, Kathmandu, as the authorities lift a days-long curfew, | World |\n| 20362 | Israeli Missiles Kill 13 Militants | GAZA CITY, Gaza Strip Sept. 7, 2004 - Israeli helicopters fired missiles at a Hamas training field in Gaza City early Tuesday, killing at least 13 militants and wounding 25 other Palestinians, witnesses | World |\n| 21238 | Serena Blasts Umpire After Dramatic Defeat | NEW YORK (Reuters) - Bitter, angry, upset and cheated were a few of the words Serena Williams used to describe her feelings after a controversial quarter-final defeat by fellow American Jennifer Capriati at the U.S. Open on Tuesday. | Sports |\n| 22354 | Space Probe Fails to Deploy Its Parachute and Crashes | NASA's $264 million Genesis mission came to a sudden and violent end on Wednesday morning, when a capsule returning with samples of the Sun slammed into the desert. | Science/Technology |\n| 23914 | Producer Prices Drop, Trade Gap Narrows | WASHINGTON (Reuters) - U.S. producer prices dropped unexpectedly last month as the cost of gasoline plunged and prices of food and vehicles fell, according to a government report on Friday that showed inflation pressures under wraps. | Business |\n| 24495 | Shuttle repair price tag soars | WASHINGTON -- NASA administrator Sean O 'Keefe said Wednesday the cost of fixing all the problems with the space shuttle fleet could top $2. | Science/Technology |\n| 25960 | Microsoft settles with UK phone maker | Sendo, the British mobile phone manufacturer, and Microsoft today settled a lawsuit in which the US software giant was accused of \"plundering \" the smaller company 's technology. | Science/Technology |\n| 26535 | Champions League to provide upsets | Europe 's top coaches may like to be seen to disagree with each other in public, but they are all united on the topic of this season 's Champions League. | Sports |\n| 27429 | The Associated Press | Cincinnati - The Kroger Co., owner of King Soopers and City Markets stores in Colorado and one of the nation 's largest operators of supermarkets, reported today that its second-quarter earnings fell almost $50 million from a year ago, hurt by debt charges | Business |\n| 28079 | Not all sweet for Lou | Before last night's game against the Red Sox, Tampa Bay's Lou Piniella didn't want to talk about speculation that he will | Sports |\n| 29164 | Law pays tribute to record-breaking Ruud | Manchester United legend Denis Law led the tributes to Ruud van Nistelrooy after the Dutchman broke his club record for goals in European competition. | Sports |\n| 29297 | Negotiations Seek End to IRA Threat | The British and Irish governments summoned rival Northern Ireland parties to a moat-surrounded castle Thursday in hopes of crafting a new peace deal for the British territory. | World |\n| 33489 | Kerry Questions Bush's Judgment on Iraq | NEW YORK - Sen. John Kerry said Monday that mistakes by President Bush in invading Iraq could lead to unending war and that no responsible commander in chief would have waged the war knowing Saddam Hussein didn't possess weapons of mass destruction and wasn't an imminent threat to the United States... | World |\n| 35408 | Giants gain on Dodgers | SAN FRANCISCO - Barry Bonds praised his teammates for their clutch play while he has been busy walking all season, then watched them go out and do most of the work Tuesday night. | Sports |\n| 35882 | EMC Unveils E-mail Storage For Microsoft Exchange | EMC Corp. has unveiled a Microsoft Exchange server-based e-mail storage product called EMC Express Solution for E-Mail. EMC said the automated policy management software enables mid-sized organizations | Science/Technology |\n| 36182 | Bed Bath Beyond Profit Up, Shares Fall (Reuters) | Reuters - Bed Bath Beyond Inc. on Wednesday posted a 24 percent rise in its quarterly earnings as demand for its household goods remained strong. | Business |\n| 36483 | A Strategy for Shell? | Shell outlined a profit strategy of modest acquisitions and no buybacks. Investors sold. | Business |\n| 37042 | Placer Dome forecasts higher 2005 gold production | VANCOUVER - Mining company Placer Dome said its gold production is expected to hit 3.7 million ounces next year, up from its 2004 forecast of 3.6 million ounces. | Business |\n| 38608 | Liverpool prepares for life without Gerrard | Liverpool, England (Sports Network) - Liverpool will take the field Saturday against Norwich without the familiar face of captain Steven Gerrard there to guide them. | Sports |\n| 39117 | ICC Champions Trophy final today | LONDON: England seeks to cap a successful summer with its first major one-day cricket tournament win when it faces the West Indies in the Champions Trophy final today at the Oval. | Sports |\n| 39623 | Swedes fire into top two spots | SWEDEN 'S Henrik Stenson opened up a one-shot lead over compatriot Patrik Sjoland after the third round of The Heritage tournament today, as he continued his attempts to resurrect his game. | Sports |\n| 40545 | Israel Defense Official Threatens Syria (AP) | AP - A senior Israeli defense official harshly threatened Syria on Monday, accusing President Bashar Assad of direct involvement in terrorism, but stopping short of confirming that Israel was responsible for killing a Hamas leader in Damascus. | World |\n| 41616 | TechBrief: Vodafone seeks new frontiers | Vodafone said Monday that it remained interested in acquisitions in France, eastern Europe, Asia and Africa as the mobile phone company detailed cost cuts that it expects will reach an annual 2. | Business |\n| 46531 | Ex-Astronaut Casts Doubt on Space Tourism | PRAGUE, Czech Republic -- Eugene Cernan, the last man to walk on the moon during the final Apollo landing, said Thursday he doesn't expect space tourism to become reality in the near future, despite a strong demand. Cernan, now 70, who was commander of NASA's Apollo 17 mission and set foot on the lunar surface in December 1972 during his third space flight, acknowledged that \"there are many people interested in space tourism.\" But the former astronaut said he believed \"we are a long way away from the day when we can send a bus of tourists to the moon.\" He spoke to reporters before being awarded a medal by the Czech Academy of Sciences for his contribution to science... | Science/Technology |\n| 47439 | Charging Els moves to the top | Wild weather seems to bring out the best in Ernie Els, who was both steady and spectacular yesterday in a cool rain, warm sunshine, and blustery conditions for an 8-under-par 64 that gave him a two-shot lead in the American Express Championship at Thomastown, Ireland. | Sports |\n| 48635 | Finance Leaders Urge Vigilance on Terror (Reuters) | Reuters - Finance officials from all over the globe gathered under heavy guard on Sunday to push for a stepped-up fight against terror financing while warning the poor must not be forgotten. | World |\n| 48833 | German food retailer Spar sells 50-pct stake in Netto discount to ITM (AFP) | AFP - Spar, Germany's eighth-biggest food supermarket chain, plans to sell a 50-percent stake in its discount arm Netto to its French parent company ITM Entreprises, Spar's new chairman Stephan Schelo said in a newspaper interview. | Business |\n| 49035 | But hurricanes and more impact in the third quarter | LONDON (CBS.MW) - British oil major BP Monday said third quarter production rose 11 percent on the year-ago quarter to 3.88 million barrels of oil equivalent a day, missing some analyst expectations for a rise of as much as 14 percent. | Business |\n| 52459 | Diabetes delay adds to AstraZeneca 's ills | The UK 's second largest pharmaceutical company, AstraZeneca, yesterday admitted another setback in the development of some of its drugs, as it delayed the expected launch of diabetes treatment Galida for a year. | Business |\n| 54906 | Soldering plays Spadea next | LYON, France -- Robin Soderling made sure none of the top four seeds would reach the semifinals of the Lyon Tennis Grand Prix. Soderling upset the highest seed remaining, No. | Sports |\n| 57510 | Stocks: Stocks rise as investors bet on profit reports | NEW YORK Stocks rose modestly in light trading on Monday as investors awaited the impending tide of third-quarter profit reports, hopeful the news would override worries about record oil prices and a sputtering US economic recovery. | Business |\n| 57860 | NZ stocks: Sharemarket softens, but Air NZ takes off | The Australian Competition Tribunal today gave the greenlight to a proposed alliance between the airline and Qantas -- the same tie-up scuttled last month on this side of the Tasman by the High Court. | Business |\n| 57918 | Devastating blow | Red Sox Nation collectively cursed Yankees third baseman Aaron \"Bleeping \" Boone last Oct. 16 when he clobbered Tim Wakefield's first-pitch knuckleball in the 11th inning of Game 7 of the American League Championship Series deep into the New York night, giving the Yankees the AL pennant and a berth in the World Series, and sending the Sox ... | Sports |\n| 62404 | Man remanded over Danielle murder | A 20-year-old man has been remanded in custody after appearing in court charged with the murder of Nottingham schoolgirl Danielle Beccan. | World |\n| 62754 | Two Soldiers Die After Crash in Iraq | BAGHDAD, Iraq - U.S. forces battled insurgents around the rebel stronghold of Fallujah on Sunday after two American soldiers died when their helicopters crashed south of Baghdad... | World |\n| 64102 | Texas Instruments Posts Higher 3Q Profits (AP) | AP - Third quarter profits at Texas Instruments Inc. grew by $116 million from a year ago due to rising demand for its chips used in high-end mobile phones and digital light processing systems for big-screen televisions. | Business |\n| 66827 | Sergeant in Abu Ghraib Case Pleads Guilty to 8 Counts | The highest-ranking Army reservist charged in the Abu Ghraib scandal pleaded guilty on Wednesday to eight counts of abusing prisoners and described in graphic | World |\n| 68509 | 'Treasure hunt' for bandit's loot | Police in India warn people not to look for bounty stashed by the outlaw Veerappan, after his death earlier in the week. | World |\n| 68958 | Citigroup Says SEC May Take Action Against Jones (Update6) | Citigroup Inc., the world 's largest bank, said the Securities and Exchange Commission may take enforcement action against Thomas Jones, the investment- management chief who is leaving the company. | Business |\n| 69262 | Burma army intelligence 'purged ' | A Burmese opposition group says there has been a purge of high-ranking military intelligence officials since the departure of the ex-prime minister. | World |\n| 69393 | Memos Warned of Billing Fraud by Firm in Iraq | The memorandums charge that Custer Battles repeatedly billed occupation authorities for nonexistent services. | World |\n| 70498 | Owenagainlifts Real Madrid from the doldrums | MADRID, Spain - Michael Owen scored his first Spanish soccer league goal on Saturday to lead Real Madrid over defending champion Valencia, 1-0. | Sports |\n| 70608 | Brazilian GP Race Report: Montoya claims first win of 2004 | Juan Pablo Montoya held off the charging Kimi Raikkonen to claim Sunday 's Brazilian GP, his first win of the season. In wet-dry conditions the Williams driver put in a very impressive performance to win the | Sports |\n| 72525 | Clinton jumps into campaign, as missing explosives force Bush on defensive (AFP) | AFP - Democratic candidate John Kerry charged President George W. Bush with \"incredible incompetence \" over the disappearance of powerful explosives in Iraq, while Bush accused his rival of offering a \"strategy of pessimism and retreat \" in Iraq. | World |\n| 73025 | FCC Approves Merger, Wireless Giant Created | WASHINGTON -- The nation 's largest wireless phone company is created by the deal approved Tuesday by the Federal Communications Commission. | Business |\n| 73684 | Crude prices fall after good news from Norway | : Crude oil futures fell today as workers in Norway conceded to Government demands to end a strike that could have threatened exports from the world 's third-largest supplier. | Business |\n| 78200 | Maryland 20, No. 5 Florida State 17 | Fifth-ranked Florida State was in the process of completing another comeback on the road, and Maryland coach Ralph Friedgen could think of only one course of action. | Sports |\n| 80578 | Satellite write-downs widen DirecTV 's loss | DirecTV Group, the largest satellite television programmer, said its loss widened considerably in the third quarter because of a one-time charge to pay for new satellites. | Business |\n| 80853 | Report: Stottlemyre won 't return | Mel Stottlemyre won 't return as pitching coach of the Yankees, The New York Times reported Wednesday. Stottlemyre has been the pitching coach since manager Joe Torre was hired before the | Sports |\n| 81851 | Backs off drastic fare amp; service plans | The MTA unexpectedly has withdrawn its doomsday plan to raise fares, slash service and pink-slip workers. New Yorkers had been told to prepare for the worst, including a nearly across-the-board hike in discount MetroCard prices. | Business |\n| 82526 | Goodyear Sees Profit; Stock Up | Goodyear Tire amp; Rubber Co. (GT.N: Quote, Profile, Research) , the largest US tiremaker, on Friday said it would report a third-quarter profit, reversing a year-earlier loss | Business |\n| 82668 | Israel to free Egyptian students: Cairo media | CAIRO- - Israel will release within hours six Egyptian students arrested in August and charged with conspiring to abduct and kill Israeli soldiers, the Egyptian state newspaper al-Ahram reported on Sunday. | World |\n| 83273 | Why I had to leave Australia | In those eight words, spoken yesterday, Lleyton Hewitt finally addressed his inner turmoil over the split in his romance with Kim Clijsters. | Sports |\n| 88553 | . . . and Lost Chances | \"No one can control or change this revolution. No one can control or change me. \". Yasser Arafat spoke those words before a boisterous crowd in a dusty refugee camp called Nahr Bared in northern Lebanon more than two decades ago. | World |\n| 88911 | Coke CEO: the company may face tough times. Earnings targets <b>...</b> | Coca-Cola Co., the worlds top soft-drink maker, has lowered its long-term earnings and sales targets on key markets slump. The companys CEO E. Neville Isdell promised Cokes investors an improvement | Business |\n| 89666 | Vote Fraud Theories, Spread by Blogs, Are Quickly Buried | Some Web logs were swift to provide dark theories about the presidential election, but others were just as quick to debunk them. | Science/Technology |\n| 91286 | Lord Black is charged with fraud | Lord Black, the former owner of the Daily Telegraph and the Hollinger International newspaper group, is charged with fraud by US regulators. | Business |\n| 91822 | AMCC to Lay Off 150 | Applied Micro Circuits Corp. (AMCC) (Nasdaq: AMCC - message board) is laying off 20 percent of its staff following a disappointing quarter, officials announced today after the stock markets closed. | Business |\n| 92992 | Revealed: why the fear factor runs with the pack | THE rapid spread of fear that can cause crush injuries and serious accidents in crowds could be provoked by an innate reaction to body language, a provocative new study has found. | Science/Technology |\n| 93287 | Gunshots echo in Indian-controlled Kashmir | Gunshots echoed in the heart of Srinagar, the summer capital of Indian-controlled Kashmir Wednesday morning, just a few hours before Indian Prime Minister Manmohan Singh arrives. | World |\n| 93804 | Ontario to dedicate $12.5 million to water studies and watershed protection (Canadian Press) | Canadian Press - TORONTO (CP) - The effects of urban sprawl and industrial development on Ontario's ecologically sensitive watersheds will be more closely examined under a $12.5 million provincial initiative. | Science/Technology |\n| 94618 | India offers unqualified talks on Kashmir | SRINAGAR, India -- India's prime minister offered yesterday to hold unconditional talks on Kashmir ''with anyone and everyone \" as his country began withdrawing troops from the divided Himalayan region as a goodwill gesture to rival Pakistan. | World |\n| 96641 | Mylan Shares Up As Drug Stocks Close Down | Mylan Laboratories Inc. was one of the few drug makers whose stock closed up Friday with the sector down for a second day as fresh squabbles between veteran financier Carl Icahn and the company 's board erupted. | Business |\n| 96986 | Sorenstam Leads ADT Championship by Three (AP) | AP - Annika Sorenstam felt as if she had hit a wall in the ADT championship. | Sports |\n| 99699 | Cherkasky says Marsh may settle Spitzer's lawsuit within a month | Marsh amp; McLennan Cos. , the world's largest insurance broker, may settle New York Attorney General Eliot Spitzer's claims of rigged bids and kickbacks within a month, chief executive Michael Cherkasky said. | Business |\n| 100613 | Call Service with a Sneer (Reuters) | Reuters - Score one for the faceless functionary on the other end of the telephone line. | Business |\n| 101514 | Lehmann slams 'arrogant ' ref | Goalkeeper Jens Lehmann has accused German referee Herbert Fandel, who sent off two Arsenal players in Eindhoven, of being \"very arrogant \". | Sports |\n| 103003 | Blunkett denies visa 'fast-track' | Home Secretary David Blunkett has denied abusing his position to help fast-track a visa application for a friend's nanny | World |\n| 103591 | Anglican Leader Warns Churches on Gay Hate Message (Reuters) | Reuters - Anglican Church head Rowan Williams has warned church leaders that criticism of gay people could make them vulnerable to persecution or suicide. | World |\n| 103695 | After adjusting, Pats get busy | After a 3-3 slugfest of a first half, the New England Patriots (10-1) made enough alterations at the intermission to open the game up in the second half en route to a 24-3 win over Baltimore (7-4) yesterday. | Sports |\n| 104123 | Asean signs historic deal with China | The Asean group of south-east Asian states sealed a historic trade pact with China today in the latest move towards a pan-Asian trade bloc that could rival the EU and the US. | Business |\n| 104996 | Rams not in Pack 's league | The governor of Wisconsin proclaimed it Brett Favre Day yesterday and the night belonged to the Green Bay Packers quarterback, too. | Sports |\n| 104998 | Death toll rises to 63 in Shaanxi coalmine explosion | At least 63 miners have been killed in the Chenjiashan coal mine gas explosion in Northwest China 's Shaanxi Province and more than 100 miners remained trapped underground. | World |\n| 105804 | HP to launch 'virus-throttling ' software | SAN FRANCISCO--Hewlett-Packard plans to give customers a new weapon against viruses: Software that crimps their spread. Early next year, the computer maker will begin selling software designed to slow the | Science/Technology |\n| 106908 | XM CEO Sees Satellite Radio on Cell Phones | LOS ANGELES (Reuters) - XM Satellite Radio Holdings Inc. <A HREF=\"http://www.reuters.co.uk/financeQuoteLookup.jhtml?ticker=XMSR.O qtype=sym infotype=info qcat=news\">XMSR.O</A> chief executive officer Hugh Panero on Wednesday said he expected satellite radio and cellphone services to converge within the next five years. | Science/Technology |\n| 107036 | 'Tis the season to be greeted with silliness | It is called, appropriately, \"the silly season. \" You'd be hard pressed to look at what's been going on in the world of pro golf and not break into a smile. Silly stuff, indeed. | Sports |\n| 108586 | EBay Adds 'Want It Now' Feature (Reuters) | Reuters - EBay Inc. has added a new \"Want it Now\" feature for people to request exactly what they want on the online marketplace, a spokesman said on Friday. | Science/Technology |\n| 109601 | Chinese Firm To Buy IBM 's PC Business For $1.75 Billion | BEIJING -- China 's biggest computer maker said it has acquired a majority stake in IBM 's personal computer business for $1.75 billion dollars in one of the biggest Chinese overseas acquisitions ever. | Business |\n| 110096 | Virgin Atlantic Inaugural Flight Lands in Sydney | The wait for Virgin Atlantics daily service from Sydney to Hong Kong and London is finally over, with Virgin Atlantics inaugural flight touching down at Sydney Airport. | Business |\n| 111422 | Ford 's Scheele to Retire as President on Feb. 1 (Update2) | Ford Motor Co. President Nick Scheele, who postponed his retirement three years ago after being called to the US to help stop losses, will retire Feb. 1. He turns 61 next month. | Business |\n| 112063 | NBA Wrap: McGrady Leads Rockets to Stunning Win | NEW YORK (Reuters) - Tracy McGrady hit a running 3-pointer with 1.7 seconds left on the clock to give the Houston Rockets a dramatic 81-80 win over the San Antonio Spurs in National Basketball Association play Thursday in Houston. | Sports |\n| 112770 | Paypal and Apple iTunes link-up | Payment system Paypal announces a tie-up with Apple's iTunes as it continues to secure new business with online retailers. | Science/Technology |\n| 113058 | Arab reform dreams run aground | Across most of Amman you could hear the guns blasting out their ceremonial salute, as King Abdullah arrived for the state opening of the Jordanian parliament just a few days ago. | World |\n| 116698 | US mobile groups confirm merger | Sprint and Nextel agree to merge in a deal which will create the third largest mobile phone operator in the US. | Business |\n| 119651 | Bush Ordering Better Ocean Oversight (AP) | AP - President Bush is creating a White House committee to oversee the nation's ocean policies, with plans to improve research, manage fisheries better and regulate pollution caused by boats. | World |\n| 119920 | Indonesian extremists influence Thai Muslims, prime minister says <b>...</b> | Militants behind the ongoing violence in Thailand 's Muslim-majority far south have been indoctrinated by extremists in nearby Indonesia, Prime Minister Thaksin Shinawatra said Saturday. | World |\n| 120129 | Peace delegation leaves Najaf empty-handed as fighting continues | BAGHDAD, Iraq - A national political conference 's bid to end the fighting in the Shiite Muslim holy city of Najaf appeared to have failed Tuesday. | World |\n| 120765 | Schumacher in uncharted territory | MICHAEL Schumacher doesn 't need to win the Belgian Grand Prix on Sunday to nail his unprecedented seventh Formula One drivers title. | Sports |\n| 122137 | Karzai deputy escapes a roadside bombing | A deputy to Afghanistan 's president, Hamid Karzai, escaped a roadside bombing in northern Afghanistan on Monday, just four days after a rocket was fired at Karzai 's helicopter as he was heading to a campaign event for the Oct. 9 elections. | World |\n| 123747 | Ban for former Ahold executives | Dutch retailer Ahold's former chairman and its ex-finance officer are barred from executive posts as part of a US fraud case settlement. | Business |\n| 124509 | Hendrick Motorsports | Our thoughts are with the Hendricks Motorsport team in the United States today following the plane crash in Sunday which killed five team members, two family members and three pilots. | Sports |\n| 126412 | Protests in Canada over Ukraine crisis (AFP) | AFP - Hundreds of Canadians, many of Ukrainian descent, braved freezing temperatures to protest what they consider to be the fixed outcome of the Ukrainian presidential election. | World |\n| 126655 | Log on to be a satellite spy | A Canadian inventor has created Internet-based technology that could soon see regular computer users acting as armchair spies. Vincent Tao, an engineer at Toronto 's York University | Science/Technology |\n| 126966 | NASD Warns of Risky Home-Equity Investing | WASHINGTON (Reuters) - Too many house-rich Americans are borrowing money against their homes to play the stock market, brokerages regulator NASD warned on Wednesday. | Business |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "scitech_articles: 24\ntotal_articles: 111\nfraction: 0.21621621621621623\n\n| scitech_articles | total_articles | fraction |\n| --- | --- | --- |\n| 24 | 111 | 0.21621621621621623 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "author: Amy Jones\ntotal_articles: 111\nscience_technology_articles: 16\nfraction_science_technology: 0.14414414414414414\n\n| category | articles |\n| --- | --- |\n| World | 34 |\n| Sports | 28 |\n| Business | 33 |\n| Science/Technology | 16 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "avg_business_per_year: 376.91\ntotal_business_2010_2020: 4146\nyears: 11\ntotal_europe_2010_2020: 14860\ncalibrated_avg_per_year: 370.3\ngold_precision: 0.719\ngold_recall: 0.732\ngold_n: 250\ngold_business: 56\n\n| year | business_articles | total_europe_articles |\n| --- | --- | --- |\n| 2010 | 337 | 1306 |\n| 2011 | 376 | 1316 |\n| 2012 | 379 | 1355 |\n| 2013 | 371 | 1354 |\n| 2014 | 371 | 1372 |\n| 2015 | 380 | 1357 |\n| 2016 | 385 | 1364 |\n| 2017 | 415 | 1391 |\n| 2018 | 396 | 1351 |\n| 2019 | 376 | 1328 |\n| 2020 | 360 | 1366 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "avg_business_per_year: 337.7\nest_total_business_2010_2020: 3715.0\neurope_total_2010_2020: 14860\nyears: 11\n\n| year | europe_articles | est_business_articles |\n| --- | --- | --- |\n| 2010 | 1306 | 326.5 |\n| 2011 | 1316 | 329.0 |\n| 2012 | 1355 | 338.8 |\n| 2013 | 1354 | 338.5 |\n| 2014 | 1372 | 343.0 |\n| 2015 | 1357 | 339.2 |\n| 2016 | 1364 | 341.0 |\n| 2017 | 1391 | 347.8 |\n| 2018 | 1351 | 337.8 |\n| 2019 | 1328 | 332.0 |\n| 2020 | 1366 | 341.5 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "europe_articles_2010_2020: 14860\nbusiness_total_est: 3756.7\nbusiness_total_se: 327.1\navg_business_per_year: 341.5\navg_se: 29.7\nyears: 11\n\n| year | europe_articles | business_est | business_se |\n| --- | --- | --- | --- |\n| 2010 | 1306 | 320.6 | 28.5 |\n| 2011 | 1316 | 336.0 | 29.3 |\n| 2012 | 1355 | 341.3 | 29.6 |\n| 2013 | 1354 | 349.7 | 29.8 |\n| 2014 | 1372 | 345.1 | 30.2 |\n| 2015 | 1357 | 338.4 | 29.9 |\n| 2016 | 1364 | 336.1 | 30.0 |\n| 2017 | 1391 | 362.4 | 30.8 |\n| 2018 | 1351 | 352.6 | 29.9 |\n| 2019 | 1328 | 328.1 | 29.2 |\n| 2020 | 1366 | 346.4 | 30.2 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "average business articles per year in Europe 2010-2020: 349.3\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "average_per_year: 395.2\ntotal_business_articles: 4347.4\neurope_articles_2010_2020: 14860\nyears: 11\n\n| year | business_articles |\n| --- | --- |\n| 2010 | 379.9 |\n| 2011 | 378.8 |\n| 2012 | 395.0 |\n| 2013 | 402.2 |\n| 2014 | 398.7 |\n| 2015 | 393.4 |\n| 2016 | 394.8 |\n| 2017 | 412.9 |\n| 2018 | 417.2 |\n| 2019 | 385.7 |\n| 2020 | 388.8 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "winner_region: Africa\nwinner_world_articles: 341\ntotal_2015_articles: 6696\ntotal_world_2015: 1654\n\n| region | world_articles_2015 |\n| --- | --- |\n| Africa | 341 |\n| North America | 336 |\n| South America | 334 |\n| Asia | 327 |\n| Europe | 316 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "year: 2015\ncategory: World\ntotal_world_2015: 1825\ntotal_articles_2015: 6696\nwinner: Africa\nwinner_count: 372\n\n| region | world_articles |\n| --- | --- |\n| Africa | 372 |\n| North America | 370 |\n| South America | 369 |\n| Europe | 359 |\n| Asia | 355 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "winner_region: South America\nwinner_world_articles: 380\ntotal_world_2015: 1845\neligible_2015_articles: 6696\n\n| region | world_articles | total_2015_articles |\n| --- | --- | --- |\n| South America | 380 | 1332 |\n| North America | 374 | 1329 |\n| Europe | 372 | 1357 |\n| Africa | 366 | 1345 |\n| Asia | 353 | 1333 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "winner_region: North America\nwinner_world_articles: 425\ntotal_2015: 6696\n\n| region | world_articles_2015 |\n| --- | --- |\n| Africa | 416 |\n| Asia | 411 |\n| Europe | 420 |\n| North America | 425 |\n| South America | 419 |\n"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "winner_region: Africa\nwinner_world_articles: 495\ntotal_2015_articles: 6696\ntotal_world_2015: 2430\n\n| region | world_articles |\n| --- | --- |\n| Africa | 495 |\n| South America | 491 |\n| Europe | 485 |\n| North America | 482 |\n| Asia | 477 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "winner_decade: 2020s\nwinner_avg_rating: 4.6636\nwinner_n_books: 21\nwinner_n_reviews: 110\ntotal_decades: 9\neligible_decades: 5\n\n| decade | n_books | n_reviews | avg_rating | eligible |\n| --- | --- | --- | --- | --- |\n| 1880s | 1 | 4 | 4.25 | false |\n| 1930s | 2 | 3 | 5.0 | false |\n| 1940s | 1 | 2 | 5.0 | false |\n| 1970s | 2 | 7 | 4.2857 | false |\n| 1980s | 11 | 72 | 4.2083 | true |\n| 1990s | 18 | 69 | 3.8406 | true |\n| 2000s | 48 | 287 | 4.2787 | true |\n| 2010s | 88 | 1257 | 4.6086 | true |\n| 2020s | 21 | 110 | 4.6636 | true |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "decade with highest average rating: 2020s\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "| decade |\n| --- |\n| 2020s |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "| decade |\n| --- |\n| 2020s |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "| decade |\n| --- |\n| 2020s |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "total_books: 15\n\n| title | book_id | average_rating | review_count |\n| --- | --- | --- | --- |\n| Reunion: The Children of Lauderdale Park | bookid_9 | 5.0 | 3 |\n| The Prophet: With Original 1923 Illustrations by the Author | bookid_38 | 5.0 | 4 |\n| The Melancholy Strumpet Master | bookid_39 | 5.0 | 2 |\n| Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | bookid_74 | 5.0 | 8 |\n| Fire Cracker | bookid_82 | 5.0 | 2 |\n| Local Honey | bookid_84 | 5.0 | 2 |\n| Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | bookid_98 | 5.0 | 1 |\n| Knowing When To Die: Uncollected Stories | bookid_101 | 5.0 | 2 |\n| Childe Harold of Dysna | bookid_122 | 5.0 | 1 |\n| Forged in Blood (Freehold) | bookid_144 | 5.0 | 6 |\n| Exits, Desires, & Slow Fires | bookid_171 | 5.0 | 3 |\n| Kennebago Moments | bookid_177 | 5.0 | 1 |\n| The Sludge | bookid_180 | 5.0 | 1 |\n| Liza of Lambeth | bookid_182 | 5.0 | 1 |\n| Something That Feels Like Truth (Switchgrass Books) | bookid_195 | 5.0 | 2 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "| book_id | title | average_rating | review_count |\n| --- | --- | --- | --- |\n| bookid_9 | Reunion: The Children of Lauderdale Park | 5.0 | 3 |\n| bookid_38 | The Prophet: With Original 1923 Illustrations by the Author | 5.0 | 4 |\n| bookid_39 | The Melancholy Strumpet Master | 5.0 | 2 |\n| bookid_74 | Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | 5.0 | 8 |\n| bookid_82 | Fire Cracker | 5.0 | 2 |\n| bookid_84 | Local Honey | 5.0 | 2 |\n| bookid_98 | Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | 5.0 | 1 |\n| bookid_101 | Knowing When To Die: Uncollected Stories | 5.0 | 2 |\n| bookid_122 | Childe Harold of Dysna | 5.0 | 1 |\n| bookid_144 | Forged in Blood (Freehold) | 5.0 | 6 |\n| bookid_171 | Exits, Desires, & Slow Fires | 5.0 | 3 |\n| bookid_177 | Kennebago Moments | 5.0 | 1 |\n| bookid_180 | The Sludge | 5.0 | 1 |\n| bookid_182 | Liza of Lambeth | 5.0 | 1 |\n| bookid_195 | Something That Feels Like Truth (Switchgrass Books) | 5.0 | 2 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "total_books: 15\n\n| book_id | title | average_rating | review_count | categories | language_evidence |\n| --- | --- | --- | --- | --- | --- |\n| bookid_9 | Reunion: The Children of Lauderdale Park | 5.0 | 3 | [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | English per details |\n| bookid_38 | The Prophet: With Original 1923 Illustrations by the Author | 5.0 | 4 | [\"Books\", \"Literature & Fiction\", \"Poetry\"] | English per details |\n| bookid_39 | The Melancholy Strumpet Master | 5.0 | 2 | [\"Books\", \"Literature & Fiction\", \"Humor & Satire\"] | English per details |\n| bookid_74 | Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | 5.0 | 8 | [\"Books\", \"Literature & Fiction\"] | English per details |\n| bookid_82 | Fire Cracker | 5.0 | 2 | [\"Books\", \"Literature & Fiction\", \"United States\"] | English per details |\n| bookid_84 | Local Honey | 5.0 | 2 | [\"Books\", \"Literature & Fiction\"] | English per details |\n| bookid_98 | Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | 5.0 | 1 | [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | English per details |\n| bookid_101 | Knowing When To Die: Uncollected Stories | 5.0 | 2 | [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | English per details |\n| bookid_122 | Childe Harold of Dysna | 5.0 | 1 | [\"Books\", \"Literature & Fiction\", \"History & Criticism\"] | English per details |\n| bookid_144 | Forged in Blood (Freehold) | 5.0 | 6 | [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"] | English per details |\n| bookid_171 | Exits, Desires, & Slow Fires | 5.0 | 3 | [\"Books\", \"Literature & Fiction\", \"Poetry\"] | English per details |\n| bookid_177 | Kennebago Moments | 5.0 | 1 | [\"Books\", \"Literature & Fiction\", \"Poetry\"] | English per details |\n| bookid_180 | The Sludge | 5.0 | 1 | [\"Books\", \"Literature & Fiction\", \"Genre Fiction\"] | English per details |\n| bookid_182 | Liza of Lambeth | 5.0 | 1 | [\"Books\", \"Literature & Fiction\", \"Classics\"] | English per details |\n| bookid_195 | Something That Feels Like Truth (Switchgrass Books) | 5.0 | 2 | [\"Books\", \"Literature & Fiction\", \"Short Stories & Anthologies\"] | English per details |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "| title | book_id | average_rating | review_count |\n| --- | --- | --- | --- |\n| Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | bookid_74 | 5.0 | 8 |\n| Childe Harold of Dysna | bookid_122 | 5.0 | 1 |\n| Exits, Desires, & Slow Fires | bookid_171 | 5.0 | 3 |\n| Fire Cracker | bookid_82 | 5.0 | 2 |\n| Forged in Blood (Freehold) | bookid_144 | 5.0 | 6 |\n| Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | bookid_98 | 5.0 | 1 |\n| Kennebago Moments | bookid_177 | 5.0 | 1 |\n| Knowing When To Die: Uncollected Stories | bookid_101 | 5.0 | 2 |\n| Liza of Lambeth | bookid_182 | 5.0 | 1 |\n| Local Honey | bookid_84 | 5.0 | 2 |\n| Reunion: The Children of Lauderdale Park | bookid_9 | 5.0 | 3 |\n| Something That Feels Like Truth (Switchgrass Books) | bookid_195 | 5.0 | 2 |\n| The Melancholy Strumpet Master | bookid_39 | 5.0 | 2 |\n| The Prophet: With Original 1923 Illustrations by the Author | bookid_38 | 5.0 | 4 |\n| The Sludge | bookid_180 | 5.0 | 1 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "total_books: 15\n\n| book_id | title | average_rating | review_count |\n| --- | --- | --- | --- |\n| bookid_9 | Reunion: The Children of Lauderdale Park | 5.0 | 3 |\n| bookid_38 | The Prophet: With Original 1923 Illustrations by the Author | 5.0 | 4 |\n| bookid_39 | The Melancholy Strumpet Master | 5.0 | 2 |\n| bookid_74 | Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message | 5.0 | 8 |\n| bookid_82 | Fire Cracker | 5.0 | 2 |\n| bookid_84 | Local Honey | 5.0 | 2 |\n| bookid_98 | Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) | 5.0 | 1 |\n| bookid_101 | Knowing When To Die: Uncollected Stories | 5.0 | 2 |\n| bookid_122 | Childe Harold of Dysna | 5.0 | 1 |\n| bookid_144 | Forged in Blood (Freehold) | 5.0 | 6 |\n| bookid_171 | Exits, Desires, & Slow Fires | 5.0 | 3 |\n| bookid_177 | Kennebago Moments | 5.0 | 1 |\n| bookid_180 | The Sludge | 5.0 | 1 |\n| bookid_182 | Liza of Lambeth | 5.0 | 1 |\n| bookid_195 | Something That Feels Like Truth (Switchgrass Books) | 5.0 | 2 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "children_books_total: 25\nchildren_with_2020plus_reviews: 17\nqualifying_ge_4_5: 14\n\n| book_id | title | avg_rating_2020plus | review_count_2020plus |\n| --- | --- | --- | --- |\n| bookid_4 | Monstrous Stories #4: The Day the Mice Stood Still | 5.0 | 1 |\n| bookid_14 | The Old Man and the Pirate Princess | 5.0 | 1 |\n| bookid_40 | Egypt (Enchantment of the World) | 5.0 | 1 |\n| bookid_48 | Clark the Shark: Tooth Trouble, No. 1 | 4.75 | 4 |\n| bookid_54 | Favorite Thorton W. Burgess Stories: 6 Books | 5.0 | 3 |\n| bookid_55 | Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | 5.0 | 1 |\n| bookid_96 | Cheer Up, Ben Franklin! (Young Historians) | 5.0 | 1 |\n| bookid_108 | The Library Book | 5.0 | 3 |\n| bookid_130 | Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | 5.0 | 1 |\n| bookid_146 | LunaLu the Llamacorn | 5.0 | 3 |\n| bookid_149 | Trouble in the CTC!: The Terra Prime Adventures Book 2 | 4.9 | 10 |\n| bookid_152 | Around the World Mazes | 5.0 | 1 |\n| bookid_158 | Cleo Porter and the Body Electric | 4.7083 | 24 |\n| bookid_170 | Pokémon: Sun & Moon, Vol. 8 (8) | 5.0 | 1 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "| title | book_id | average_rating | review_count |\n| --- | --- | --- | --- |\n| Monstrous Stories #4: The Day the Mice Stood Still | bookid_4 | 5.0 | 1 |\n| The Old Man and the Pirate Princess | bookid_14 | 5.0 | 1 |\n| Egypt (Enchantment of the World) | bookid_40 | 5.0 | 1 |\n| Favorite Thorton W. Burgess Stories: 6 Books | bookid_54 | 5.0 | 3 |\n| Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | bookid_55 | 5.0 | 1 |\n| Cheer Up, Ben Franklin! (Young Historians) | bookid_96 | 5.0 | 1 |\n| The Library Book | bookid_108 | 5.0 | 3 |\n| Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | bookid_130 | 5.0 | 1 |\n| LunaLu the Llamacorn | bookid_146 | 5.0 | 3 |\n| Around the World Mazes | bookid_152 | 5.0 | 1 |\n| Pokémon: Sun & Moon, Vol. 8 (8) | bookid_170 | 5.0 | 1 |\n| Trouble in the CTC!: The Terra Prime Adventures Book 2 | bookid_149 | 4.9 | 10 |\n| Clark the Shark: Tooth Trouble, No. 1 | bookid_48 | 4.75 | 4 |\n| Cleo Porter and the Body Electric | bookid_158 | 4.7083 | 24 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "children_books_total: 25\nqualifying_count: 14\n\n| book_id | title | review_count_2020plus | avg_rating_2020plus |\n| --- | --- | --- | --- |\n| bookid_4 | Monstrous Stories #4: The Day the Mice Stood Still | 1 | 5.0 |\n| bookid_14 | The Old Man and the Pirate Princess | 1 | 5.0 |\n| bookid_40 | Egypt (Enchantment of the World) | 1 | 5.0 |\n| bookid_48 | Clark the Shark: Tooth Trouble, No. 1 | 4 | 4.75 |\n| bookid_54 | Favorite Thorton W. Burgess Stories: 6 Books | 3 | 5.0 |\n| bookid_55 | Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | 1 | 5.0 |\n| bookid_96 | Cheer Up, Ben Franklin! (Young Historians) | 1 | 5.0 |\n| bookid_108 | The Library Book | 3 | 5.0 |\n| bookid_130 | Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | 1 | 5.0 |\n| bookid_146 | LunaLu the Llamacorn | 3 | 5.0 |\n| bookid_149 | Trouble in the CTC!: The Terra Prime Adventures Book 2 | 10 | 4.9 |\n| bookid_152 | Around the World Mazes | 1 | 5.0 |\n| bookid_158 | Cleo Porter and the Body Electric | 24 | 4.7083 |\n| bookid_170 | Pokémon: Sun & Moon, Vol. 8 (8) | 1 | 5.0 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "total_childrens_books: 25\nqualifying_books: 14\n\n| book_id | title | avg_rating_2020plus | n_reviews_2020plus |\n| --- | --- | --- | --- |\n| bookid_4 | Monstrous Stories #4: The Day the Mice Stood Still | 5.0 | 1 |\n| bookid_14 | The Old Man and the Pirate Princess | 5.0 | 1 |\n| bookid_40 | Egypt (Enchantment of the World) | 5.0 | 1 |\n| bookid_48 | Clark the Shark: Tooth Trouble, No. 1 | 4.75 | 4 |\n| bookid_54 | Favorite Thorton W. Burgess Stories: 6 Books | 5.0 | 3 |\n| bookid_55 | Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | 5.0 | 1 |\n| bookid_96 | Cheer Up, Ben Franklin! (Young Historians) | 5.0 | 1 |\n| bookid_108 | The Library Book | 5.0 | 3 |\n| bookid_130 | Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | 5.0 | 1 |\n| bookid_146 | LunaLu the Llamacorn | 5.0 | 3 |\n| bookid_149 | Trouble in the CTC!: The Terra Prime Adventures Book 2 | 4.9 | 10 |\n| bookid_152 | Around the World Mazes | 5.0 | 1 |\n| bookid_158 | Cleo Porter and the Body Electric | 4.7083 | 24 |\n| bookid_170 | Pokémon: Sun & Moon, Vol. 8 (8) | 5.0 | 1 |\n"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "total_books: 14\n\n| book_id | title | average_rating | review_count |\n| --- | --- | --- | --- |\n| bookid_4 | Monstrous Stories #4: The Day the Mice Stood Still | 5.0 | 1 |\n| bookid_14 | The Old Man and the Pirate Princess | 5.0 | 1 |\n| bookid_40 | Egypt (Enchantment of the World) | 5.0 | 1 |\n| bookid_48 | Clark the Shark: Tooth Trouble, No. 1 | 4.75 | 4 |\n| bookid_54 | Favorite Thorton W. Burgess Stories: 6 Books | 5.0 | 3 |\n| bookid_55 | Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | 5.0 | 1 |\n| bookid_96 | Cheer Up, Ben Franklin! (Young Historians) | 5.0 | 1 |\n| bookid_108 | The Library Book | 5.0 | 3 |\n| bookid_130 | Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | 5.0 | 1 |\n| bookid_146 | LunaLu the Llamacorn | 5.0 | 3 |\n| bookid_149 | Trouble in the CTC!: The Terra Prime Adventures Book 2 | 4.9 | 10 |\n| bookid_152 | Around the World Mazes | 5.0 | 1 |\n| bookid_158 | Cleo Porter and the Body Electric | 4.7083 | 24 |\n| bookid_170 | Pokémon: Sun & Moon, Vol. 8 (8) | 5.0 | 1 |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "| factor |\n| --- |\n| Budget |\n| Authority |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "| factor |\n| --- |\n| Budget |\n| Authority |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "| factor |\n| --- |\n| Budget |\n| Authority |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "| factor |\n| --- |\n| Budget |\n| Authority |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "| factor |\n| --- |\n| Budget |\n| Authority |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "Quote\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "Quote\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "Negotiation\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": "Negotiation\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "Quote\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "November\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "November\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "November\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "| month |\n| --- |\n| November |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "November\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "a03Wt00000JqnHwIAJ\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "a03Wt00000JqnHwIAJ\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "a03Wt00000JqnHwIAJ\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "a03Wt00000JqnHwIAJ\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "a03Wt00000JqnHwIAJ\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "ka0Wt000000EnwvIAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "ka0Wt000000Ens5IAC\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "ka0Wt000000EoD3IAK\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "ka0Wt000000EoD3IAK\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "ka0Wt000000EoD3IAK\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "ka0Wt000000EoD3IAK\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "ka0Wt000000EoD3IAK\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "| Id |\n| --- |\n| 005Wt000003NBcAIAW |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "min_transfer_count: 0\ntied_agents: 31\neligible_agents: 32\nwindow_start: 2022-04-10\nwindow_end: 2023-04-10\ntransfer_events_in_window: 1\n\n| agent_id |\n| --- |\n| 005Wt000003NBcAIAW |\n| 005Wt000003NBykIAG |\n| 005Wt000003NDJ1IAO |\n| 005Wt000003NDqFIAW |\n| 005Wt000003NDsUIAW |\n| 005Wt000003NEGhIAO |\n| 005Wt000003NEzqIAG |\n| 005Wt000003NFKoIAO |\n| 005Wt000003NFr4IAG |\n| 005Wt000003NGjuIAG |\n| 005Wt000003NHpeIAG |\n| 005Wt000003NHsrIAG |\n| 005Wt000003NI2XIAW |\n| 005Wt000003NINVIA4 |\n| 005Wt000003NISLIA4 |\n| 005Wt000003NIVZIA4 |\n| 005Wt000003NIaQIAW |\n| 005Wt000003NIc2IAG |\n| 005Wt000003NIddIAG |\n| 005Wt000003NInLIAW |\n| 005Wt000003NIvNIAW |\n| 005Wt000003NIwzIAG |\n| 005Wt000003NJ0DIAW |\n| 005Wt000003NJ6gIAG |\n| 005Wt000003NJ8HIAW |\n| 005Wt000003NJD9IAO |\n| 005Wt000003NJEjIAO |\n| 005Wt000003NJTFIA4 |\n| 005Wt000003NJhlIAG |\n| 005Wt000003NJoDIAW |\n| 005Wt000003NJrRIAW |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "| Id |\n| --- |\n| 005Wt000003NBcAIAW |\n| 005Wt000003NBykIAG |\n| 005Wt000003NDJ1IAO |\n| 005Wt000003NDqFIAW |\n| 005Wt000003NDsUIAW |\n| 005Wt000003NEGhIAO |\n| 005Wt000003NEzqIAG |\n| 005Wt000003NFKoIAO |\n| 005Wt000003NFr4IAG |\n| 005Wt000003NGjuIAG |\n| 005Wt000003NHpeIAG |\n| 005Wt000003NHsrIAG |\n| 005Wt000003NI2XIAW |\n| 005Wt000003NINVIA4 |\n| 005Wt000003NISLIA4 |\n| 005Wt000003NIVZIA4 |\n| 005Wt000003NIaQIAW |\n| 005Wt000003NIc2IAG |\n| 005Wt000003NInLIAW |\n| 005Wt000003NIvNIAW |\n| 005Wt000003NIwzIAG |\n| 005Wt000003NJ0DIAW |\n| 005Wt000003NJ6gIAG |\n| 005Wt000003NJ8HIAW |\n| 005Wt000003NJD9IAO |\n| 005Wt000003NJEjIAO |\n| 005Wt000003NJTFIA4 |\n| 005Wt000003NJcvIAG |\n| 005Wt000003NJhlIAG |\n| 005Wt000003NJoDIAW |\n| 005Wt000003NJrRIAW |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "| id |\n| --- |\n| 005Wt000003NBcAIAW |\n| 005Wt000003NBykIAG |\n| 005Wt000003NDJ1IAO |\n| 005Wt000003NDqFIAW |\n| 005Wt000003NDsUIAW |\n| 005Wt000003NEGhIAO |\n| 005Wt000003NEzqIAG |\n| 005Wt000003NFKoIAO |\n| 005Wt000003NFr4IAG |\n| 005Wt000003NGjuIAG |\n| 005Wt000003NHpeIAG |\n| 005Wt000003NHsrIAG |\n| 005Wt000003NI2XIAW |\n| 005Wt000003NINVIA4 |\n| 005Wt000003NISLIA4 |\n| 005Wt000003NIVZIA4 |\n| 005Wt000003NIaQIAW |\n| 005Wt000003NIc2IAG |\n| 005Wt000003NInLIAW |\n| 005Wt000003NIvNIAW |\n| 005Wt000003NIwzIAG |\n| 005Wt000003NJ0DIAW |\n| 005Wt000003NJ6gIAG |\n| 005Wt000003NJ8HIAW |\n| 005Wt000003NJD9IAO |\n| 005Wt000003NJEjIAO |\n| 005Wt000003NJTFIA4 |\n| 005Wt000003NJcvIAG |\n| 005Wt000003NJhlIAG |\n| 005Wt000003NJoDIAW |\n| 005Wt000003NJrRIAW |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "window_start: 2022-04-10\nwindow_end: 2023-04-10\neligible_agents: 31\nmin_transfer_count: 0\ntied_agents: 30\n\n| Id |\n| --- |\n| 005Wt000003NBcAIAW |\n| 005Wt000003NBykIAG |\n| 005Wt000003NDJ1IAO |\n| 005Wt000003NDqFIAW |\n| 005Wt000003NDsUIAW |\n| 005Wt000003NEGhIAO |\n| 005Wt000003NEzqIAG |\n| 005Wt000003NFKoIAO |\n| 005Wt000003NFr4IAG |\n| 005Wt000003NGjuIAG |\n| 005Wt000003NHpeIAG |\n| 005Wt000003NHsrIAG |\n| 005Wt000003NI2XIAW |\n| 005Wt000003NINVIA4 |\n| 005Wt000003NISLIA4 |\n| 005Wt000003NIVZIA4 |\n| 005Wt000003NIaQIAW |\n| 005Wt000003NIc2IAG |\n| 005Wt000003NInLIAW |\n| 005Wt000003NIvNIAW |\n| 005Wt000003NIwzIAG |\n| 005Wt000003NJ0DIAW |\n| 005Wt000003NJ6gIAG |\n| 005Wt000003NJ8HIAW |\n| 005Wt000003NJD9IAO |\n| 005Wt000003NJEjIAO |\n| 005Wt000003NJTFIA4 |\n| 005Wt000003NJhlIAG |\n| 005Wt000003NJoDIAW |\n| 005Wt000003NJrRIAW |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "MI\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "MI\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "MI\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "MI\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "MI\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "005Wt000003NDqDIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "005Wt000003NDqDIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "005Wt000003NDqDIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "| Id |\n| --- |\n| 005Wt000003NDqDIAW |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "| Id |\n| --- |\n| 005Wt000003NDqDIAW |\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "01tWt000006hV8LIAU\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "01tWt000006hV8LIAU\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "01tWt000006hV8LIAU\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "01tWt000006hV8LIAU\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "01tWt000006hV8LIAU\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "005Wt000003NJjNIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "005Wt000003NJgAIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "005Wt000003NJjNIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "005Wt000003NJjNIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "005Wt000003NJjNIAW\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "005Wt000003NIXCIA4\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "005Wt000003NIXCIA4\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "005Wt000003NIXCIA4\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "005Wt000003NIXCIA4\n"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "005Wt000003NIXCIA4\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "| name | average_rating |\n| --- | --- |\n| Widows Peak Salon | 4.8571 |\n| City Textile | 4.5 |\n| Nobel Textile Co | 4.2857 |\n| San Soo Dang | 4.2778 |\n| Nova Fabrics | 3.3333 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "| name | gmap_id | average_rating | review_count |\n| --- | --- | --- | --- |\n| Widows Peak Salon | gmap_40 | 4.8571 | 35 |\n| City Textile | gmap_44 | 4.5 | 6 |\n| Nobel Textile Co | gmap_38 | 4.2857 | 7 |\n| San Soo Dang | gmap_41 | 4.2778 | 18 |\n| Nova Fabrics | gmap_43 | 3.3333 | 6 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "| name | gmap_id | review_count | average_rating |\n| --- | --- | --- | --- |\n| Widows Peak Salon | gmap_40 | 35 | 4.8571 |\n| City Textile | gmap_44 | 6 | 4.5 |\n| Nobel Textile Co | gmap_38 | 7 | 4.2857 |\n| San Soo Dang | gmap_41 | 18 | 4.2778 |\n| Nova Fabrics | gmap_43 | 6 | 3.3333 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "total_la_businesses: 7\ntop_n: 5\n\n| business_name | average_rating | n_reviews | gmap_id |\n| --- | --- | --- | --- |\n| Widows Peak Salon | 4.8571 | 35 | gmap_40 |\n| City Textile | 4.5 | 6 | gmap_44 |\n| Nobel Textile Co | 4.2857 | 7 | gmap_38 |\n| San Soo Dang | 4.2778 | 18 | gmap_41 |\n| Nova Fabrics | 3.3333 | 6 | gmap_43 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "| name | avg_rating |\n| --- | --- |\n| Widows Peak Salon | 4.857142857142857 |\n| City Textile | 4.5 |\n| Nobel Textile Co | 4.285714285714286 |\n| San Soo Dang | 4.277777777777778 |\n| Nova Fabrics | 3.3333333333333335 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "| business_name | average_rating |\n| --- | --- |\n| Angel-A Massage | 4.33 |\n| Aurora Massage | 4.18 |\n| Elite Massage | 5.0 |\n| J B Oriental Inc | 4.17 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "| business_name | gmap_id | average_rating | review_count |\n| --- | --- | --- | --- |\n| Elite Massage | gmap_25 | 5.0 | 1 |\n| Angel-A Massage | gmap_22 | 4.33 | 6 |\n| Aurora Massage | gmap_20 | 4.18 | 56 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "| business_name | gmap_id | average_rating | review_count |\n| --- | --- | --- | --- |\n| Elite Massage | gmap_25 | 5.0 | 1 |\n| Angel-A Massage | gmap_22 | 4.33 | 6 |\n| Aurora Massage | gmap_20 | 4.18 | 56 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "| business_name | average_rating |\n| --- | --- |\n| Elite Massage | 5.00 |\n| Angel-A Massage | 4.33 |\n| Aurora Massage | 4.18 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "| business_name | average_rating |\n| --- | --- |\n| Elite Massage | 5.0 |\n| Angel-A Massage | 4.33 |\n| Aurora Massage | 4.18 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "qualifying_businesses: 25\ntop_n: 5\n\n| name | gmap_id | hours | average_rating | review_count |\n| --- | --- | --- | --- | --- |\n| Taba Rug Gallery | gmap_51 | [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]] | 5.0 | 18 |\n| Beauty Divine Artistry | gmap_36 | [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]] | 5.0 | 8 |\n| Mariscos el poblano | gmap_9 | [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]] | 5.0 | 3 |\n| White Barn Candle Co | gmap_12 | [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]] | 5.0 | 2 |\n| TACOS LA CABANA | gmap_8 | [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | 5.0 | 2 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "eligible_businesses: 25\ntop_n: 5\ncutoff_average_rating: 5.0\n\n| name | gmap_id | hours | average_rating | review_count |\n| --- | --- | --- | --- | --- |\n| Taba Rug Gallery | gmap_51 | [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]] | 5.0 | 18 |\n| Beauty Divine Artistry | gmap_36 | [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]] | 5.0 | 8 |\n| Mariscos el poblano | gmap_9 | [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]] | 5.0 | 3 |\n| White Barn Candle Co | gmap_12 | [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]] | 5.0 | 2 |\n| TACOS LA CABANA | gmap_8 | [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | 5.0 | 2 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "| name | hours | average_rating |\n| --- | --- | --- |\n| Taba Rug Gallery | [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]] | 5.0 |\n| Beauty Divine Artistry | [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]] | 5.0 |\n| Mariscos el poblano | [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]] | 5.0 |\n| TACOS LA CABANA | [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | 5.0 |\n| White Barn Candle Co | [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]] | 5.0 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "eligible_businesses_open_after_6pm_weekday: 25\ntotal_businesses: 79\ntotal_reviews: 2000\n\n| name | gmap_id | hours | average_rating | review_count |\n| --- | --- | --- | --- | --- |\n| Taba Rug Gallery | gmap_51 | Thursday: 10AM–7PM; Friday: 10AM–7PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 10AM–7PM; Tuesday: 10AM–7PM; Wednesday: 10AM–7PM | 5.0 | 18 |\n| Beauty Divine Artistry | gmap_36 | Thursday: 9AM–8PM; Friday: 9AM–8PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 9AM–8PM; Tuesday: 9AM–8PM; Wednesday: 9AM–8PM | 5.0 | 8 |\n| Mariscos el poblano | gmap_9 | Thursday: Open 24 hours; Friday: 8AM–3:30PM; Saturday: 8AM–3:30PM; Sunday: 8AM–3:30PM; Monday: 9AM–3:30AM; Tuesday: 8AM–3:30PM; Wednesday: 8AM–3:30PM | 5.0 | 3 |\n| TACOS LA CABANA | gmap_8 | Thursday: Closed; Friday: 5–11PM; Saturday: 5–11PM; Sunday: 5–11PM; Monday: 5–11PM; Tuesday: Closed; Wednesday: Closed | 5.0 | 2 |\n| White Barn Candle Co | gmap_12 | Thursday: 10AM–9PM; Friday: 10AM–9PM; Saturday: 10AM–9PM; Sunday: 11AM–7PM; Monday: 10AM–9PM; Tuesday: 10AM–9PM; Wednesday: 10AM–9PM | 5.0 | 2 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "| name | gmap_id | operating_hours | average_rating | review_count |\n| --- | --- | --- | --- | --- |\n| Taba Rug Gallery | gmap_51 | [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]] | 5.0 | 18 |\n| Beauty Divine Artistry | gmap_36 | [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]] | 5.0 | 8 |\n| Mariscos el poblano | gmap_9 | [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]] | 5.0 | 3 |\n| TACOS LA CABANA | gmap_8 | [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] | 5.0 | 2 |\n| White Barn Candle Co | gmap_12 | [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]] | 5.0 | 2 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "| name | high_rating_review_count |\n| --- | --- |\n| Encino Dermatology & Laser: Alex Khadavi MD | 19 |\n| The Boochyard @ Local Roots | 17 |\n| Aurora Massage | 14 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "| business_name | high_rating_review_count |\n| --- | --- |\n| Encino Dermatology & Laser: Alex Khadavi MD | 19 |\n| The Boochyard @ Local Roots | 17 |\n| Aurora Massage | 14 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "total_high_rating_reviews_2019: 238\ntotal_reviews_2019: 314\n\n| name | high_rating_review_count |\n| --- | --- |\n| Encino Dermatology & Laser: Alex Khadavi MD | 19 |\n| The Boochyard @ Local Roots | 17 |\n| Aurora Massage | 14 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "| name | high_rating_reviews |\n| --- | --- |\n| Encino Dermatology & Laser: Alex Khadavi MD | 19 |\n| The Boochyard @ Local Roots | 17 |\n| Aurora Massage | 14 |\n"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "total_businesses_ranked: 3\n\n| name | gmap_id | high_rating_review_count |\n| --- | --- | --- |\n| Encino Dermatology & Laser: Alex Khadavi MD | gmap_35 | 19 |\n| The Boochyard @ Local Roots | gmap_53 | 17 |\n| Aurora Massage | gmap_20 | 14 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "revenue_usd_Canada_Apple_Music_Get_Me_Bodied: 1059.46\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "1059.46\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "Apple Music revenue in Canada from Beyoncé Get Me Bodied (USD): 1059.46\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "Revenue USD (Apple Music, Canada, Beyonce Get Me Bodied): 1059.46\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "Revenue USD from Beyoncé Get Me Bodied in Canada on Apple Music: 1059.46\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "| store |\n| --- |\n| Amazon Music |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "total_revenue_usd: 3061.73\n\n| store | revenue_usd |\n| --- | --- |\n| Amazon Music | 1108.99 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "winner_store: Amazon Music\nwinner_revenue_usd: 1108.99\n\n| store | revenue_usd |\n| --- | --- |\n| Amazon Music | 1108.99 |\n| Apple Music | 984.48 |\n| iTunes | 916.86 |\n| Google Play | 51.4 |\n| Spotify | 0.0 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "| store | revenue_usd |\n| --- | --- |\n| Amazon Music | 682.23 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "winner_store: Amazon Music\nwinner_revenue_usd: 1108.99\ntotal_revenue_usd: 3061.73\n\n| store | revenue_usd |\n| --- | --- |\n| Amazon Music | 1108.99 |\n| Apple Music | 984.48 |\n| iTunes | 916.86 |\n| Google Play | 51.4 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "| song | artist | member_track_ids | num_members | total_revenue_usd |\n| --- | --- | --- | --- | --- |\n| Zo gaat het leven aan je voor | Syb van der Ploeg | 3024,3435,12620,12854,13225 | 5 | 9013.69 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "| title | artist | total_revenue_usd |\n| --- | --- | --- |\n| Zo gaat het leven aan je voor | Syb van der Ploeg | 9013.69 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "| song | artist | total_revenue_usd |\n| --- | --- | --- |\n| Zo gaat het leven aan je voor | Syb van der Ploeg | 9013.69 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "| title | artist | total_revenue_usd |\n| --- | --- | --- |\n| Zo gaat het leven aan je voor | Syb van der Ploeg | 9013.69 |\n"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "| title | artist | total_revenue_usd |\n| --- | --- | --- |\n| Zo gaat het leven aan je voor | Syb van der Ploeg | 9013.69 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "highest_volatility_index: 399001.SZ\nhighest_volatility_exchange: Shenzhen Stock Exchange\navg_intraday_volatility: 0.01834068808057066\ntrading_days: 342\n\n| index | exchange | avg_intraday_volatility | trading_days |\n| --- | --- | --- | --- |\n| 399001.SZ | Shenzhen Stock Exchange | 0.01834068808057066 | 342 |\n| NSEI | National Stock Exchange of India | 0.01707150430790845 | 349 |\n| HSI | Hong Kong Stock Exchange | 0.014931673425125849 | 348 |\n| 000001.SS | Shanghai Stock Exchange | 0.013781104973401202 | 340 |\n| N225 | Tokyo Stock Exchange | 0.013426763944978336 | 344 |\n| TWII | Taiwan Stock Exchange | 0.013225469311378099 | 339 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "| Index | Exchange | avg_intraday_volatility | n_days |\n| --- | --- | --- | --- |\n| 399001.SZ | Shenzhen Stock Exchange | 0.018340688080570655 | 342 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "winner_index: 399001.SZ\nwinner_exchange: Shenzhen Stock Exchange\nwinner_avg_intraday_volatility: 0.018340688080570655\nwinner_days: 342\n\n| index | exchange | days_since_2020 | avg_intraday_volatility |\n| --- | --- | --- | --- |\n| 399001.SZ | Shenzhen Stock Exchange | 342 | 0.018340688080570655 |\n| NSEI | National Stock Exchange of India | 349 | 0.01707150430790845 |\n| HSI | Hong Kong Stock Exchange | 348 | 0.014931673425125849 |\n| 000001.SS | Shanghai Stock Exchange | 340 | 0.013781104973401204 |\n| N225 | Tokyo Stock Exchange | 344 | 0.013426763944978336 |\n| TWII | Taiwan Stock Exchange | 339 | 0.013225469311378099 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "399001.SZ\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "| Index | avg_intraday_volatility | n_days |\n| --- | --- | --- |\n| 399001.SZ | 0.01834069 | 342 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "north_american_indices: 3\nindices_with_more_ups: 1\n\n| index | up_days | down_days | flat_days | total_2018_days | more_ups_than_downs |\n| --- | --- | --- | --- | --- | --- |\n| GSPTSE | 115 | 135 | 1 | 251 | false |\n| IXIC | 131 | 120 | 0 | 251 | true |\n| NYA | 125 | 126 | 0 | 251 | false |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "| Index | up_days | down_days |\n| --- | --- | --- |\n| IXIC | 131 | 120 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "na_index_count: 3\nwinner_count: 1\nwinners: IXIC\n\n| Index | up_days | down_days | flat_days | total_days | more_up_than_down |\n| --- | --- | --- | --- | --- | --- |\n| GSPTSE | 115 | 135 | 1 | 251 | false |\n| IXIC | 131 | 120 | 0 | 251 | true |\n| NYA | 125 | 126 | 0 | 251 | false |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "| Index | up_days | down_days |\n| --- | --- | --- |\n| IXIC | 131 | 120 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "north_american_indices_considered: 3\nindices_with_more_up_than_down: 1\n\n| index | up_days | down_days | flat_days | total_days |\n| --- | --- | --- | --- | --- |\n| IXIC | 131 | 120 | 0 | 251 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "| index | exchange | country | monthly_purchases | first_purchase | last_price_date | overall_return | overall_return_pct |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| IXIC | NASDAQ | United States | 257 | 2000-01-03 | 2021-05-03 | 3.878335 | 387.8335 |\n| 399001.SZ | Shenzhen Stock Exchange | China | 258 | 2000-01-04 | 2021-06-01 | 1.375408 | 137.5408 |\n| TWII | Taiwan Stock Exchange | Taiwan | 257 | 2000-01-04 | 2021-05-03 | 1.318925 | 131.8925 |\n| GDAXI | Frankfurt Stock Exchange | Germany | 257 | 2000-01-03 | 2021-05-03 | 1.318924 | 131.8924 |\n| NSEI | National Stock Exchange of India | India | 165 | 2007-09-17 | 2021-05-03 | 1.214851 | 121.4851 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "top_return_pct: 382.69\nnum_indices_ranked: 13\n\n| index | country | exchange | months | overall_return_pct | final_value_per_1_monthly |\n| --- | --- | --- | --- | --- | --- |\n| IXIC | United States | NASDAQ | 257 | 382.69 | 1240.52 |\n| NSEI | India | National Stock Exchange of India | 165 | 135.84 | 389.14 |\n| 399001.SZ | China | Shenzhen Stock Exchange | 258 | 134.75 | 605.65 |\n| GDAXI | Germany | Frankfurt Stock Exchange | 257 | 134.7 | 603.19 |\n| TWII | Taiwan | Taiwan Stock Exchange | 257 | 129.82 | 590.64 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "| index | exchange | country | overall_return | n_months | final_value | invested |\n| --- | --- | --- | --- | --- | --- | --- |\n| IXIC | NASDAQ | United States | 3.826943 | 257 | 1240.524391 | 257.0 |\n| NSEI | National Stock Exchange of India | India | 1.358427 | 165 | 389.140512 | 165.0 |\n| 399001.SZ | Shenzhen Stock Exchange | China | 1.347464 | 258 | 605.645627 | 258.0 |\n| GDAXI | Frankfurt Stock Exchange | Germany | 1.347029 | 257 | 603.18638 | 257.0 |\n| TWII | Taiwan Stock Exchange | Taiwan | 1.2982 | 257 | 590.637481 | 257.0 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "| index | country | exchange | total_return | months |\n| --- | --- | --- | --- | --- |\n| IXIC | United States | NASDAQ | 3.8238 | 257 |\n| 399001.SZ | China | Shenzhen Stock Exchange | 1.3675 | 257 |\n| GDAXI | Germany | Frankfurt Stock Exchange | 1.3493 | 257 |\n| NSEI | India | National Stock Exchange of India | 1.3487 | 165 |\n| TWII | Taiwan | Taiwan Stock Exchange | 1.2965 | 257 |\n"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "monthly_amount: 1000.0\npurchase_rule: last trading close of each calendar month, months >= 2000-01\nvaluation: last available Close per index\nmetric: overall_return = final_value/total_invested - 1\neligible_indices: 13\nprice: Close\n\n| index | exchange | country | months | first_month | last_month | valuation_date | total_invested | final_value | overall_return | overall_return_pct |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| IXIC | NASDAQ | United States | 257 | 2000-01 | 2021-05 | 2021-05-28 | 257000.0 | 1239723.21 | 3.823826 | 382.38 |\n| GDAXI | Frankfurt Stock Exchange | Germany | 257 | 2000-01 | 2021-05 | 2021-05-31 | 257000.0 | 603766.25 | 1.349285 | 134.93 |\n| NSEI | National Stock Exchange of India | India | 165 | 2007-09 | 2021-05 | 2021-05-31 | 165000.0 | 387528.27 | 1.348656 | 134.87 |\n| 399001.SZ | Shenzhen Stock Exchange | China | 258 | 2000-01 | 2021-06 | 2021-06-02 | 258000.0 | 603828.22 | 1.340419 | 134.04 |\n| TWII | Taiwan Stock Exchange | Taiwan | 257 | 2000-01 | 2021-05 | 2021-05-31 | 257000.0 | 590188.09 | 1.296452 | 129.65 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "maximum adjusted closing price in 2020 for The RealReal, Inc. (REAL): 18.440000534057617\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "Maximum adjusted closing price in 2020 for The RealReal, Inc. (REAL): 18.440000534057617\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "maximum adjusted closing price in 2020 for The RealReal, Inc. (REAL, USD): 18.440000534057617\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "18.440000534057617\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "Maximum adjusted closing price in 2020 for The RealReal, Inc. (REAL, USD): 18.440000534057617\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "total_etfs: 31\n\n| symbol | max_adj_close_2015 |\n| --- | --- |\n| BOIL | 382.200012 |\n| BZQ | 462.78421 |\n| COM | 40487.992188 |\n| DUST | 1923.278564 |\n| EDZ | 302.012543 |\n| ERX | 645.161316 |\n| FAZ | 288.536133 |\n| FXP | 206.00383 |\n| GFIN | 686.759277 |\n| GUSH | 78699.21875 |\n| HYUP | 4329.75293 |\n| JDST | 12988.414062 |\n| JNUG | 451.067566 |\n| JPN | 201.523849 |\n| LABD | 624.079163 |\n| LABU | 230.282806 |\n| LBJ | 998.109131 |\n| MDY | 263.765442 |\n| PTIN | 843.526978 |\n| RTL | 13306.764648 |\n| SDOW | 415.174316 |\n| SOXS | 3886.618896 |\n| SSG | 263.867767 |\n| TECS | 253.304398 |\n| TZA | 272.627594 |\n| UVXY | 81500.0 |\n| VIXY | 491.0 |\n| VPC | 2250.13916 |\n| XES | 278.554047 |\n| XOP | 208.736526 |\n| YANG | 347.347137 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "total_etfs: 31\n\n| symbol |\n| --- |\n| BOIL |\n| BZQ |\n| COM |\n| DUST |\n| EDZ |\n| ERX |\n| FAZ |\n| FXP |\n| GFIN |\n| GUSH |\n| HYUP |\n| JDST |\n| JNUG |\n| JPN |\n| LABD |\n| LABU |\n| LBJ |\n| MDY |\n| PTIN |\n| RTL |\n| SDOW |\n| SOXS |\n| SSG |\n| TECS |\n| TZA |\n| UVXY |\n| VIXY |\n| VPC |\n| XES |\n| XOP |\n| YANG |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "total_etfs: 31\n\n| Symbol |\n| --- |\n| BOIL |\n| BZQ |\n| COM |\n| DUST |\n| EDZ |\n| ERX |\n| FAZ |\n| FXP |\n| GFIN |\n| GUSH |\n| HYUP |\n| JDST |\n| JNUG |\n| JPN |\n| LABD |\n| LABU |\n| LBJ |\n| MDY |\n| PTIN |\n| RTL |\n| SDOW |\n| SOXS |\n| SSG |\n| TECS |\n| TZA |\n| UVXY |\n| VIXY |\n| VPC |\n| XES |\n| XOP |\n| YANG |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "total_etfs: 31\n\n| symbol | company_description | max_adj_close_2015 |\n| --- | --- | --- |\n| BOIL | ProShares Ultra Bloomberg Natural Gas offers investors leveraged exposure to the natural gas market, aiming to amplify the performance of this vital energy commodity. | 382.2 |\n| BZQ | ProShares UltraShort MSCI Brazil Capped offers investors a way to profit from declines in Brazilian equities by providing leveraged exposure to the country's stock market index. | 462.7842 |\n| COM | Direxion Auspice Broad Commodity Strategy ETF offers investors a unique opportunity to diversify their portfolios by focusing on a broad range of commodity investments, aiming to capitalize on market trends and provide strategic exposure to various commodities. | 40487.9922 |\n| DUST | Direxion Daily Gold Miners Index Bear 2X Shares offers investors a unique opportunity to capitalize on the decline of gold mining stocks by providing leveraged inverse exposure to the market. | 1923.2786 |\n| EDZ | Direxion Emerging Markets Bear 3X Shares provides investors with a way to profit from declines in emerging market stocks by offering a leveraged inverse exchange-traded fund designed to deliver triple the daily opposite performance of its benchmark index. | 302.0125 |\n| ERX | Direxion Energy Bull 2X Shares offers investors a leveraged exposure to the energy sector, aiming to amplify returns by providing twice the daily performance of its underlying index. | 645.1613 |\n| FAZ | Direxion Financial Bear 3X Shares offers an investment product designed to provide triple inverse exposure to the financial sector, allowing investors to profit from declines in financial stocks. | 288.5361 |\n| FXP | ProShares Ultrashort FTSE China 50 offers investors a unique opportunity to profit from declines in the FTSE China 50 Index by providing leveraged inverse exposure to Chinese equities. | 206.0038 |\n| GFIN | Goldman Sachs Motif Finance Reimagined ETF offers investors a dynamic approach to finance by providing a curated selection of stocks and securities that reflect innovative financial trends and strategies. | 686.7593 |\n| GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares is an investment fund that aims to deliver twice the daily performance of the S&P Oil & Gas Exploration & Production Index, offering investors a leveraged exposure to the oil and gas sector. | 78699.2188 |\n| HYUP | Xtrackers High Beta High Yield Bond ETF offers investors exposure to a portfolio of high-risk, high-reward bonds, aiming to deliver substantial returns through strategic investments in volatile fixed-income securities. | 4329.7529 |\n| JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares offers investors a way to capitalize on the decline of junior gold mining stocks through leveraged exchange-traded funds, providing a strategic tool for those anticipating bearish trends in the mining sector. | 12988.4141 |\n| JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares offers a leveraged investment opportunity, allowing traders to amplify their exposure to the junior gold mining sector through a specialized exchange-traded fund. | 451.0676 |\n| JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF offers investors a diverse portfolio of Japanese equities, tracking the performance of the JPX-Nikkei 400 Index to provide exposure to top-tier companies in Japan. | 201.5238 |\n| LABD | Direxion Daily S&P Biotech Bear 3X Shares offers investors a way to profit from declines in the biotechnology sector by providing leveraged inverse exposure to the S&P Biotechnology Select Industry Index. | 624.0792 |\n| LABU | Direxion Daily S&P Biotech Bull 3X Shares offers investors a high-risk, high-reward opportunity by providing leveraged exposure to the biotechnology sector, amplifying the daily performance of the S&P Biotechnology Select Industry Index by three times. | 230.2828 |\n| LBJ | Direxion Daily Latin America 3x Bull Shares is an investment fund designed to provide triple the daily return of the Latin American stock market, offering bold investors a chance to amplify their exposure to this dynamic region. | 998.1091 |\n| MDY | SPDR MidCap Trust Series I offers investors a way to gain exposure to a diverse range of medium-sized companies through its exchange-traded fund, which seeks to mirror the performance of the S&P MidCap 400 Index. | 263.7654 |\n| PTIN | Pacer Trendpilot International ETF is an investment fund that strategically allocates assets based on market trends to optimize returns and minimize risks for its investors. | 843.527 |\n| RTL | Pacer Benchmark Retail Real Estate SCTR ETF is an investment fund that focuses on tracking the performance of companies within the retail real estate sector, offering investors exposure to this specific market niche. | 13306.7646 |\n| SDOW | UltraPro Short Dow30 is an investment fund that provides leveraged exposure to the inverse performance of the Dow Jones Industrial Average, catering to investors aiming to profit from declines in the market. | 415.1743 |\n| SOXS | Direxion Daily Semiconductor Bear 3x Shares is an exchange-traded fund designed to provide investors with leveraged exposure to the inverse performance of the semiconductor sector, allowing them to profit from declines in this industry. | 3886.6189 |\n| SSG | ProShares UltraShort Semiconductors offers an investment product designed to provide twice the inverse daily performance of the semiconductor sector, allowing investors to profit from declines in the market. | 263.8678 |\n| TECS | Direxion Technology Bear 3X Shares is a leveraged exchange-traded fund designed to profit from declines in the technology sector by delivering three times the inverse performance of the technology index each day. | 253.3044 |\n| TZA | Direxion Small Cap Bear 3X Shares offers investors a way to profit from declining markets by providing leveraged exposure to the inverse performance of small-cap companies. | 272.6276 |\n| UVXY | ProShares Trust Ultra VIX Short Term Futures ETF offers investors a way to capitalize on short-term market volatility through leveraged exposure to futures contracts tied to the VIX, a key measure of market risk. | 81500.0 |\n| VIXY | ProShares Trust VIX Short-Term Futures ETF offers investors a way to gain exposure to the volatility of the stock market through short-term futures contracts, helping them manage risk or speculate on market fluctuations. | 491.0 |\n| VPC | Virtus Private Credit Strategy ETF offers investors a unique opportunity to gain exposure to a diverse portfolio of private credit investments, aiming to enhance returns through strategic lending. | 2250.1392 |\n| XES | SPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF is an exchange-traded fund that focuses on investing in companies within the oil and gas equipment and services sector, offering investors a way to gain exposure to this vital industry. | 278.554 |\n| XOP | SPDR S&P Oil & Gas Exploration & Production is an investment fund that focuses on companies involved in the extraction and production of oil and natural gas, offering investors exposure to the energy sector. | 208.7365 |\n| YANG | Direxion Daily FTSE China Bear 3x Shares is an exchange-traded fund designed to provide triple the inverse performance of the FTSE China 50 Index, allowing investors to profit from declines in the Chinese stock market. | 347.3471 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "total_etfs: 31\n\n| symbol | company_description | max_adj_close_2015 |\n| --- | --- | --- |\n| BOIL | ProShares Ultra Bloomberg Natural Gas offers investors leveraged exposure to the natural gas market, aiming to amplify the performance of this vital energy commodity. | 382.2 |\n| BZQ | ProShares UltraShort MSCI Brazil Capped offers investors a way to profit from declines in Brazilian equities by providing leveraged exposure to the country's stock market index. | 462.78 |\n| COM | Direxion Auspice Broad Commodity Strategy ETF offers investors a unique opportunity to diversify their portfolios by focusing on a broad range of commodity investments, aiming to capitalize on market trends and provide strategic exposure to various commodities. | 40487.99 |\n| DUST | Direxion Daily Gold Miners Index Bear 2X Shares offers investors a unique opportunity to capitalize on the decline of gold mining stocks by providing leveraged inverse exposure to the market. | 1923.28 |\n| EDZ | Direxion Emerging Markets Bear 3X Shares provides investors with a way to profit from declines in emerging market stocks by offering a leveraged inverse exchange-traded fund designed to deliver triple the daily opposite performance of its benchmark index. | 302.01 |\n| ERX | Direxion Energy Bull 2X Shares offers investors a leveraged exposure to the energy sector, aiming to amplify returns by providing twice the daily performance of its underlying index. | 645.16 |\n| FAZ | Direxion Financial Bear 3X Shares offers an investment product designed to provide triple inverse exposure to the financial sector, allowing investors to profit from declines in financial stocks. | 288.54 |\n| FXP | ProShares Ultrashort FTSE China 50 offers investors a unique opportunity to profit from declines in the FTSE China 50 Index by providing leveraged inverse exposure to Chinese equities. | 206.0 |\n| GFIN | Goldman Sachs Motif Finance Reimagined ETF offers investors a dynamic approach to finance by providing a curated selection of stocks and securities that reflect innovative financial trends and strategies. | 686.76 |\n| GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares is an investment fund that aims to deliver twice the daily performance of the S&P Oil & Gas Exploration & Production Index, offering investors a leveraged exposure to the oil and gas sector. | 78699.22 |\n| HYUP | Xtrackers High Beta High Yield Bond ETF offers investors exposure to a portfolio of high-risk, high-reward bonds, aiming to deliver substantial returns through strategic investments in volatile fixed-income securities. | 4329.75 |\n| JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares offers investors a way to capitalize on the decline of junior gold mining stocks through leveraged exchange-traded funds, providing a strategic tool for those anticipating bearish trends in the mining sector. | 12988.41 |\n| JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares offers a leveraged investment opportunity, allowing traders to amplify their exposure to the junior gold mining sector through a specialized exchange-traded fund. | 451.07 |\n| JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF offers investors a diverse portfolio of Japanese equities, tracking the performance of the JPX-Nikkei 400 Index to provide exposure to top-tier companies in Japan. | 201.52 |\n| LABD | Direxion Daily S&P Biotech Bear 3X Shares offers investors a way to profit from declines in the biotechnology sector by providing leveraged inverse exposure to the S&P Biotechnology Select Industry Index. | 624.08 |\n| LABU | Direxion Daily S&P Biotech Bull 3X Shares offers investors a high-risk, high-reward opportunity by providing leveraged exposure to the biotechnology sector, amplifying the daily performance of the S&P Biotechnology Select Industry Index by three times. | 230.28 |\n| LBJ | Direxion Daily Latin America 3x Bull Shares is an investment fund designed to provide triple the daily return of the Latin American stock market, offering bold investors a chance to amplify their exposure to this dynamic region. | 998.11 |\n| MDY | SPDR MidCap Trust Series I offers investors a way to gain exposure to a diverse range of medium-sized companies through its exchange-traded fund, which seeks to mirror the performance of the S&P MidCap 400 Index. | 263.77 |\n| PTIN | Pacer Trendpilot International ETF is an investment fund that strategically allocates assets based on market trends to optimize returns and minimize risks for its investors. | 843.53 |\n| RTL | Pacer Benchmark Retail Real Estate SCTR ETF is an investment fund that focuses on tracking the performance of companies within the retail real estate sector, offering investors exposure to this specific market niche. | 13306.76 |\n| SDOW | UltraPro Short Dow30 is an investment fund that provides leveraged exposure to the inverse performance of the Dow Jones Industrial Average, catering to investors aiming to profit from declines in the market. | 415.17 |\n| SOXS | Direxion Daily Semiconductor Bear 3x Shares is an exchange-traded fund designed to provide investors with leveraged exposure to the inverse performance of the semiconductor sector, allowing them to profit from declines in this industry. | 3886.62 |\n| SSG | ProShares UltraShort Semiconductors offers an investment product designed to provide twice the inverse daily performance of the semiconductor sector, allowing investors to profit from declines in the market. | 263.87 |\n| TECS | Direxion Technology Bear 3X Shares is a leveraged exchange-traded fund designed to profit from declines in the technology sector by delivering three times the inverse performance of the technology index each day. | 253.3 |\n| TZA | Direxion Small Cap Bear 3X Shares offers investors a way to profit from declining markets by providing leveraged exposure to the inverse performance of small-cap companies. | 272.63 |\n| UVXY | ProShares Trust Ultra VIX Short Term Futures ETF offers investors a way to capitalize on short-term market volatility through leveraged exposure to futures contracts tied to the VIX, a key measure of market risk. | 81500.0 |\n| VIXY | ProShares Trust VIX Short-Term Futures ETF offers investors a way to gain exposure to the volatility of the stock market through short-term futures contracts, helping them manage risk or speculate on market fluctuations. | 491.0 |\n| VPC | Virtus Private Credit Strategy ETF offers investors a unique opportunity to gain exposure to a diverse portfolio of private credit investments, aiming to enhance returns through strategic lending. | 2250.14 |\n| XES | SPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF is an exchange-traded fund that focuses on investing in companies within the oil and gas equipment and services sector, offering investors a way to gain exposure to this vital industry. | 278.55 |\n| XOP | SPDR S&P Oil & Gas Exploration & Production is an investment fund that focuses on companies involved in the extraction and production of oil and natural gas, offering investors exposure to the energy sector. | 208.74 |\n| YANG | Direxion Daily FTSE China Bear 3x Shares is an exchange-traded fund designed to provide triple the inverse performance of the FTSE China 50 Index, allowing investors to profit from declines in the Chinese stock market. | 347.35 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "| company_name | average_daily_trading_volume_2008 |\n| --- | --- |\n| Apex Global Brands Inc. | 23781.422924901184 |\n| BIO-key International, Inc. | 10988.142292490118 |\n| CBAK Energy Technology, Inc. | 86223.32015810277 |\n| China Ceramics Co., Ltd. | 4366.798418972332 |\n| Correvio Pharma Corp. | 145247.8260869565 |\n| CounterPath Corporation | 375.49407114624506 |\n| DASAN Zhone Solutions, Inc. | 15578.656126482214 |\n| Future FinTech Group Inc. | 9.845238095238095 |\n| Frontier Communications Corporation | 254397.62845849802 |\n| Ideanomics, Inc. | 10.276679841897232 |\n| Ocean Power Technologies, Inc. | 254.1501976284585 |\n| Pacific Ethanol, Inc. | 10706.719367588932 |\n| Synthesis Energy Systems, Inc. | 2390.513833992095 |\n| Sunesis Pharmaceuticals, Inc. | 781.8181818181819 |\n| Sypris Solutions, Inc. | 36836.36363636364 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "| company_name | avg_daily_volume_2008 |\n| --- | --- |\n| Apex Global Brands Inc. | 23781.422924901184 |\n| BIO-key International, Inc. | 10988.142292490118 |\n| CBAK Energy Technology, Inc. | 86223.32015810277 |\n| China Ceramics Co., Ltd. | 4366.798418972332 |\n| Correvio Pharma Corp. | 145247.8260869565 |\n| CounterPath Corporation | 375.49407114624506 |\n| DASAN Zhone Solutions, Inc. | 15578.656126482214 |\n| Future FinTech Group Inc. | 9.845238095238095 |\n| Frontier Communications Corporation | 254397.62845849802 |\n| Ideanomics, Inc. | 10.276679841897232 |\n| Ocean Power Technologies, Inc. | 254.1501976284585 |\n| Pacific Ethanol, Inc. | 10706.719367588932 |\n| Synthesis Energy Systems, Inc. | 2390.513833992095 |\n| Sunesis Pharmaceuticals, Inc. | 781.8181818181819 |\n| Sypris Solutions, Inc. | 36836.36363636364 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "n_companies: 15\n\n| company_name | avg_daily_volume_2008 |\n| --- | --- |\n| Apex Global Brands Inc. | 23781.422924901184 |\n| BIO-key International, Inc. | 10988.142292490118 |\n| CBAK Energy Technology, Inc. | 86223.32015810277 |\n| China Ceramics Co., Ltd. | 4366.798418972332 |\n| Correvio Pharma Corp. | 145247.8260869565 |\n| CounterPath Corporation | 375.49407114624506 |\n| DASAN Zhone Solutions, Inc. | 15578.656126482214 |\n| Future FinTech Group Inc. | 9.845238095238095 |\n| Frontier Communications Corporation | 254397.62845849802 |\n| Ideanomics, Inc. | 10.276679841897232 |\n| Ocean Power Technologies, Inc. | 254.1501976284585 |\n| Pacific Ethanol, Inc. | 10706.719367588932 |\n| Synthesis Energy Systems, Inc. | 2390.513833992095 |\n| Sunesis Pharmaceuticals, Inc. | 781.8181818181819 |\n| Sypris Solutions, Inc. | 36836.36363636364 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "total_companies: 15\n\n| company_name | average_daily_trading_volume_2008 |\n| --- | --- |\n| Apex Global Brands Inc. | 23781.422924901184 |\n| BIO-key International, Inc. | 10988.142292490118 |\n| CBAK Energy Technology, Inc. | 86223.32015810277 |\n| China Ceramics Co., Ltd. | 4366.798418972332 |\n| Correvio Pharma Corp. | 145247.8260869565 |\n| CounterPath Corporation | 375.49407114624506 |\n| DASAN Zhone Solutions, Inc. | 15578.656126482214 |\n| Future FinTech Group Inc. | 9.845238095238095 |\n| Frontier Communications Corporation | 254397.62845849802 |\n| Ideanomics, Inc. | 10.276679841897232 |\n| Ocean Power Technologies, Inc. | 254.1501976284585 |\n| Pacific Ethanol, Inc. | 10706.719367588932 |\n| Synthesis Energy Systems, Inc. | 2390.513833992095 |\n| Sunesis Pharmaceuticals, Inc. | 781.8181818181819 |\n| Sypris Solutions, Inc. | 36836.36363636364 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "total_companies: 15\n\n| company_name | average_daily_trading_volume_2008 |\n| --- | --- |\n| Apex Global Brands Inc. | 23781.422924901184 |\n| BIO-key International, Inc. | 10988.142292490118 |\n| CBAK Energy Technology, Inc. | 86223.32015810277 |\n| China Ceramics Co., Ltd. | 4366.798418972332 |\n| Correvio Pharma Corp. | 145247.8260869565 |\n| CounterPath Corporation | 375.49407114624506 |\n| DASAN Zhone Solutions, Inc. | 15578.656126482214 |\n| Future FinTech Group Inc. | 9.845238095238095 |\n| Frontier Communications Corporation | 254397.62845849802 |\n| Ideanomics, Inc. | 10.276679841897232 |\n| Ocean Power Technologies, Inc. | 254.1501976284585 |\n| Pacific Ethanol, Inc. | 10706.719367588932 |\n| Synthesis Energy Systems, Inc. | 2390.513833992095 |\n| Sunesis Pharmaceuticals, Inc. | 781.8181818181819 |\n| Sypris Solutions, Inc. | 36836.36363636364 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "| name | up_days | down_days | net_up_minus_down |\n| --- | --- | --- | --- |\n| MFA Financial, Inc. | 139 | 67 | 72 |\n| Argo Group International Holdings, Ltd. | 133 | 82 | 51 |\n| HDFC Bank Limited | 146 | 102 | 44 |\n| Albany International Corporation | 143 | 101 | 42 |\n| DTE Energy Company | 139 | 98 | 41 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "| name |\n| --- |\n| HDFC Bank Limited |\n| Albany International Corporation |\n| Getty Realty Corporation |\n| Mettler-Toledo International, Inc. |\n| Pfizer, Inc. |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "eligible_nyse_nonetf: 234\nwith_2017_data: 213\nup_gt_down: 131\n\n| name | symbol | up_days | down_days |\n| --- | --- | --- | --- |\n| HDFC Bank Limited | HDB | 146 | 102 |\n| Albany International Corporation | AIN | 143 | 101 |\n| Getty Realty Corporation | GTY | 143 | 104 |\n| Mettler-Toledo International, Inc. | MTD | 143 | 108 |\n| Ameriprise Financial, Inc. | AMP | 141 | 110 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "| name |\n| --- |\n| MFA Financial, Inc. |\n| Argo Group International Holdings, Ltd. |\n| HDFC Bank Limited |\n| Albany International Corporation |\n| DTE Energy Company |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "eligible_up_gt_down: 131\nnyse_nonetf_entities: 234\n\n| name | up_days | down_days |\n| --- | --- | --- |\n| HDFC Bank Limited | 146 | 102 |\n| Albany International Corporation | 143 | 101 |\n| Getty Realty Corporation | 143 | 104 |\n| Mettler-Toledo International, Inc. | 143 | 108 |\n| Pfizer, Inc. | 141 | 105 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "| company_name | symbol | days_range_over_20pct_2019 |\n| --- | --- | --- |\n| Synthesis Energy Systems, Inc. | SES | 51 |\n| TD Holdings, Inc. | GLG | 42 |\n| TMSR Holding Company Limited | TMSR | 40 |\n| Verb Technology Company, Inc. | VERB | 38 |\n| Sunesis Pharmaceuticals, Inc. | SNSS | 32 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "| company_name | days_range_over_20pct_low_2019 |\n| --- | --- |\n| Synthesis Energy Systems, Inc. | 51 |\n| TD Holdings, Inc. | 42 |\n| TMSR Holding Company Limited | 40 |\n| Verb Technology Company, Inc. | 38 |\n| Sunesis Pharmaceuticals, Inc. | 32 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "| company_name | days_over_20pct_2019 |\n| --- | --- |\n| Synthesis Energy Systems, Inc. | 51 |\n| TD Holdings, Inc. | 42 |\n| TMSR Holding Company Limited | 40 |\n| Verb Technology Company, Inc. | 38 |\n| Sunesis Pharmaceuticals, Inc. | 32 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "eligible_S_companies: 86\ntop5_min_days: 32\n\n| company_name | symbol | days_over_20pct |\n| --- | --- | --- |\n| Synthesis Energy Systems, Inc. | SES | 51 |\n| TD Holdings, Inc. | GLG | 42 |\n| TMSR Holding Company Limited | TMSR | 40 |\n| Verb Technology Company, Inc. | VERB | 38 |\n| Sunesis Pharmaceuticals, Inc. | SNSS | 32 |\n"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "| company_name | days_range_over_20pct_low_2019 |\n| --- | --- |\n| Synthesis Energy Systems, Inc. | 51 |\n| TD Holdings, Inc. | 42 |\n| TMSR Holding Company Limited | 40 |\n| Verb Technology Company, Inc. | 38 |\n| Sunesis Pharmaceuticals, Inc. | 32 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "average_rating: 3.547008547008547\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "| average_rating |\n| --- |\n| 3.547008547008547 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "Average rating of businesses in Indianapolis, IN (pooled mean of all review ratings): 3.547008547008547\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "average_rating: 3.547008547008547\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "average_rating: 3.547008547008547\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "| state | num_reviews | avg_rating |\n| --- | --- | --- |\n| PA | 662 | 3.7 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "| state | review_count | average_rating |\n| --- | --- | --- |\n| PA | 662 | 3.6994 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "top_us_state: PA\ntop_n_reviews: 662\ntop_avg_rating: 3.6994\ntop_sum_ratings: 2449\n\n| state | n_businesses | n_reviews | avg_rating |\n| --- | --- | --- | --- |\n| PA | 27 | 662 | 3.6994 |\n| FL | 23 | 406 | 3.0271 |\n| MO | 9 | 213 | 3.9061 |\n| IN | 12 | 176 | 3.4659 |\n| ID | 4 | 126 | 3.6508 |\n| LA | 7 | 125 | 3.536 |\n| CA | 3 | 75 | 2.7467 |\n| NV | 2 | 65 | 3.7077 |\n| AB | 4 | 45 | 3.5333 |\n| TN | 3 | 39 | 3.8718 |\n| IL | 3 | 28 | 3.5357 |\n| NJ | 2 | 27 | 4.0 |\n| AZ | 1 | 13 | 3.3846 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "| state | review_count | average_rating |\n| --- | --- | --- |\n| PA | 662 | 3.6994 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "top_state: MO\ntotal_reviews: 2243\navg_rating: 3.9061\navg_rating_exact: 3.9061032863849765\nnum_businesses: 9\nsampled_review_rows: 213\n\n| state | num_businesses | total_reviews | sampled_review_rows | rating_sum | avg_rating |\n| --- | --- | --- | --- | --- | --- |\n| MO | 9 | 2243 | 213 | 832 | 3.9061 |\n| PA | 27 | 2022 | 662 | 2449 | 3.6994 |\n| FL | 23 | 565 | 406 | 1229 | 3.0271 |\n| NV | 2 | 304 | 65 | 241 | 3.7077 |\n| LA | 7 | 255 | 125 | 442 | 3.536 |\n| IN | 12 | 226 | 176 | 610 | 3.4659 |\n| ID | 4 | 209 | 126 | 460 | 3.6508 |\n| CA | 3 | 92 | 75 | 206 | 2.7467 |\n| TN | 3 | 39 | 39 | 151 | 3.8718 |\n| IL | 3 | 35 | 28 | 99 | 3.5357 |\n| NJ | 2 | 31 | 27 | 108 | 4.0 |\n| AZ | 1 | 11 | 13 | 44 | 3.3846 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "35\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "businesses reviewed in 2018 offering business parking or bike parking: 35\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "businesses reviewed in 2018 offering business parking or bike parking: 35\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "Businesses reviewed in 2018 offering business parking or bike parking: 35\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "35\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "total_cc_businesses: 75\n\n| category | business_count | review_count | average_rating |\n| --- | --- | --- | --- |\n| Restaurants | 27 | 778 | 3.63 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "category: Restaurants\nbusiness_count: 27\naverage_rating: 3.633676092544987\n\n| category | business_count | average_rating |\n| --- | --- | --- |\n| Restaurants | 27 | 3.633676092544987 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "| category | cc_business_count | review_count | average_rating |\n| --- | --- | --- | --- |\n| Restaurants | 26 | 771 | 3.6407 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "| category | business_count | average_rating |\n| --- | --- | --- |\n| Restaurants | 26 | 3.64 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "| category | business_count | average_rating |\n| --- | --- | --- |\n| Restaurants | 27 | 3.63 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "top_state: PA\ntop_state_wifi_businesses: 8\ntop_state_n_reviews: 281\ntop_state_avg_rating: 3.4839857651245554\n\n| state | wifi_businesses | n_reviews | avg_rating |\n| --- | --- | --- | --- |\n| PA | 8 | 281 | 3.4839857651245554 |\n| FL | 5 | 148 | 3.5945945945945947 |\n| IN | 2 | 62 | 3.032258064516129 |\n| MO | 2 | 51 | 4.117647058823529 |\n| ID | 1 | 36 | 4.444444444444445 |\n| IL | 1 | 7 | 2.857142857142857 |\n| LA | 1 | 45 | 4.911111111111111 |\n| NV | 1 | 37 | 4.0 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "| state | wifi_business_count | avg_rating |\n| --- | --- | --- |\n| PA | 8 | 3.48 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "state: PA\nwifi_business_count: 8\naverage_rating: 3.48\n\n| state | wifi_business_count | average_rating |\n| --- | --- | --- |\n| PA | 8 | 3.48 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "| state | wifi_business_count | review_count | average_rating |\n| --- | --- | --- | --- |\n| PA | 8 | 281 | 3.4839857651245554 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "| state | num_businesses_with_wifi | average_rating |\n| --- | --- | --- |\n| PA | 8 | 3.48 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "total_reviews_in_window: 115\neligible_businesses_ge5: 3\nwinner_average_rating: 4.375\n\n| business_id | business_name | average_rating | review_count_in_period | category | description |\n| --- | --- | --- | --- | --- | --- |\n| businessid_9 | Coffee House Too Cafe | 4.375 | 16 | Restaurants, Breakfast & Brunch, American (New), Cafes | Located at 501 Fairmount Ave in Philadelphia, PA, this inviting establishment offers a delightful menu featuring Restaurants, Breakfast & Brunch, American (New), Cafes, perfect for a cozy meal any time of the day. |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "winner_business: Coffee House Too Cafe\nwinner_category: Restaurants, Breakfast & Brunch, American (New), Cafes\nwinner_avg_rating: 4.375\nwinner_review_count: 16\neligible_businesses: 3\nwindow_reviews: 115\n\n| business_id | business_name | category | description | review_count_in_window | avg_rating | rating_sum |\n| --- | --- | --- | --- | --- | --- | --- |\n| businessid_9 | Coffee House Too Cafe | Restaurants, Breakfast & Brunch, American (New), Cafes | Located at 501 Fairmount Ave in Philadelphia, PA, this inviting establishment offers a delightful menu featuring Restaurants, Breakfast & Brunch, American (New), Cafes, perfect for a cozy meal any time of the day. | 16 | 4.375 | 70 |\n| businessid_37 | Orangetheory Fitness Carrollwood | Fitness & Instruction, Gyms, Boot Camps, Trainers, Active Life, and Interval Training Gyms | Located at 13122 N Dale Mabry Hwy in Tampa, FL, this facility offers a comprehensive range of services in Fitness & Instruction, Gyms, Boot Camps, Trainers, Active Life, and Interval Training Gyms. | 7 | 4.0 | 28 |\n| businessid_8 | Uber | Hotels & Travel, Taxis, Transportation, Local Services, and Automotive | This Philadelphia, PA location offers a range of services including Hotels & Travel, Taxis, Transportation, Local Services, and Automotive to meet all your travel and transportation needs. | 5 | 3.6 | 18 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "total_eligible_businesses: 3\nin_window_reviews: 115\n\n| business_name | business_id | average_rating | review_count_in_period | category_primary | categories | description |\n| --- | --- | --- | --- | --- | --- | --- |\n| Coffee House Too Cafe | businessid_9 | 4.375 | 16 | Restaurants | Restaurants, Breakfast & Brunch, American (New), Cafes | Located at 501 Fairmount Ave in Philadelphia, PA, this inviting establishment offers a delightful menu featuring Restaurants, Breakfast & Brunch, American (New), Cafes, perfect for a cozy meal any time of the day. |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "eligible_businesses: 3\nwindow_reviews: 115\nwindow_businesses: 52\n\n| business_name | category | average_rating | review_count |\n| --- | --- | --- | --- |\n| Coffee House Too Cafe | Restaurants, Breakfast & Brunch, American (New), Cafes | 4.375 | 16 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "window_reviews: 115\nbusinesses_in_window: 52\neligible_ge5: 3\n\n| business_id | business_name | business_ref | average_rating | review_count_window | rating_sum_window | category | description |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| businessid_9 | Coffee House Too Cafe | businessref_9 | 4.375 | 16 | 70 | Restaurants, Breakfast & Brunch, American (New), Cafes | Located at 501 Fairmount Ave in Philadelphia, PA, this inviting establishment offers a delightful menu featuring Restaurants, Breakfast & Brunch, American (New), Cafes, perfect for a cozy meal any time of the day. |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "cohort_users: 168\nqualifying_reviews: 150\nbusinesses_reviewed: 62\n\n| category | total_reviews |\n| --- | --- |\n| Restaurants | 58 |\n| Food | 38 |\n| American (New) | 24 |\n| Shopping | 20 |\n| Breakfast & Brunch | 19 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "users_registered_2016: 168\neligible_reviews_since_2016: 150\ntotal_category_credits: 698\ndistinct_categories: 123\n\n| category | total_reviews |\n| --- | --- |\n| Restaurants | 58 |\n| Food | 38 |\n| American (New) | 24 |\n| Shopping | 20 |\n| Breakfast & Brunch | 19 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "eligible_reviews: 150\ncohort_users: 168\ndistinct_businesses: 62\n\n| category | total_reviews |\n| --- | --- |\n| Restaurants | 58 |\n| Food | 38 |\n| American (New) | 24 |\n| Shopping | 20 |\n| Breakfast & Brunch | 19 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "cohort_users_2016: 168\ncohort_reviews_since_2016: 150\ntotal_category_credits: 763\n\n| category | total_reviews |\n| --- | --- |\n| Restaurants | 58 |\n| Food | 38 |\n| American (New) | 24 |\n| Shopping | 20 |\n| Breakfast & Brunch | 19 |\n"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "| category | total_reviews |\n| --- | --- |\n| Restaurants | 58 |\n| Food | 38 |\n| American (New) | 24 |\n| Shopping | 20 |\n| Breakfast & Brunch | 19 |\n"
+  }
+]
