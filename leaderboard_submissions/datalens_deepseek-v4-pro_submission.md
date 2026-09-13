@@ -38,6 +38,10 @@ result only and may change under official re-scoring.
 - `datalens_deepseek-v4-pro_historical_prereview_bundle.tar.gz`: 270 original
   per-run traces plus prompt index, prompt extracts, integrity manifests,
   and prompt-risk review
+- `datalens_deepseek-v4-pro_full_trace_auxiliary.tar.gz`: complete aggregate
+  event logs from the frozen batch (`6,275` LLM-call events and `7,590`
+  tool-call events), together with the original results, audit, and submission
+  manifest for cross-checking
 - `datalens_deepseek-v4-pro_configuration.json`: recorded configuration with
   local filesystem and dotenv paths removed
 - `datalens_deepseek-v4-pro_local_preflight.json`: local completeness and
@@ -45,6 +49,8 @@ result only and may change under official re-scoring.
 
 The result JSON has SHA-256
 `95ebb22d8efcf60f84e809aa9e7c9dd903f733e999fb197f9aa6ac579bda53db`.
+The full-trace auxiliary archive has SHA-256
+`d78ddd7dfde57f7f8aeeb3fdcb1a57e32ee374c4e9924a27a151cba2a160ce37`.
 All 270 submitted answers match the corresponding final answers in the traces.
 
 ## Disclosed limitations
