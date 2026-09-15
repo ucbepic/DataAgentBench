@@ -1,0 +1,17 @@
+{
+  "agent_name": "datalens agent",
+  "team": "datalens",
+  "benchmark_root": "<local DataAgentBench checkout; path redacted>",
+  "model": "deepseek-v4-pro",
+  "model_provider": "openai",
+  "use_hints": true,
+  "max_iterations": 100,
+  "target_score": 0.91,
+  "stretch_score": 0.92,
+  "regression_tolerance": 0.01,
+  "min_promotion_gain": 0.0,
+  "benchmark_revision": "e914f29ee82de7d59b48f3c0004532228522760c",
+  "code_revision": "66c9b72c9788f7ed8ccab8a98542a25b023111f3:9b4914a584757283a48d2f649a1ef81ab61dd8f217c9446b78a8291238ad3143",
+  "agent_profile": "official-scaffold-v23",
+  "extra": {}
+}

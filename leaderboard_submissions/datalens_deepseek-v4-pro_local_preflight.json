@@ -1,0 +1,34 @@
+{
+  "package_kind": "historical_pre_review",
+  "release_authorized": true,
+  "official_verdict": null,
+  "score": 0.8877533577533577,
+  "target_0_91_reached": false,
+  "result_rows": 270,
+  "unique_result_identities": 270,
+  "trace_files": 270,
+  "full_trace_auxiliary_included": true,
+  "llm_call_events": 6275,
+  "tool_call_events": 7590,
+  "full_trace_auxiliary_sha256": "d78ddd7dfde57f7f8aeeb3fdcb1a57e32ee374c4e9924a27a151cba2a160ce37",
+  "answers_match_traces": true,
+  "prompt_index_entries": 270,
+  "distinct_system_prompts": 36,
+  "historical_prompt_findings": 55,
+  "historical_prompt_findings_pending": 0,
+  "historical_prompt_findings_rejected_requires_fresh_run": 55,
+  "high_confidence_secret_hits": [],
+  "source_commit": "c27ec155391d08c98f58934a7fc066238c4de7bf",
+  "initial_message_reconstruction": {
+    "system_exact_match": "270/270",
+    "user_exact_match": "270/270"
+  },
+  "errors": [],
+  "pre_review_ready": true,
+  "clean_leaderboard_submission_ready": false,
+  "clean_submission_blockers": [
+    "55 historical prompt findings were conservatively rejected and require a fresh run",
+    "some historical compact tool-result previews have no retained full payload",
+    "the historical aggregate dirty-tree/bytecode fingerprint is not reproducible"
+  ]
+}
