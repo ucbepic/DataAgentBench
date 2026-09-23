@@ -17,7 +17,7 @@ The original run was paused/resumed across 19–23 September. Real timestamps an
 
 ## Files
 
-`leaderboard_submissions/dvindex.json` is the answer file. The [complete evidence archive](https://github.com/Legend398/DataAgentBench/releases/download/dvindex-dab-20260923/dvindex-dab-submission-20260923-public.zip) ([release page](https://github.com/Legend398/DataAgentBench/releases/tag/dvindex-dab-20260923)) contains full traces, original evidence, per-row Jev receipts, prompts, timing, replacement-map.json, configuration fingerprints and local verification. Nothing in this draft asserts that the replacement policy or prompts have already been approved. Please advise if additional evidence or a different treatment is required.
+`leaderboard_submissions/dvindex.json` is the answer file. The [complete evidence archive](https://github.com/Legend398/dvindex-benchmark-evidence/raw/refs/heads/main/dvindex-dab-submission-20260923-public.zip) ([download page](https://github.com/Legend398/dvindex-benchmark-evidence)) contains full traces, original evidence, per-row Jev receipts, prompts, timing, replacement-map.json, configuration fingerprints and local verification. Nothing in this draft asserts that the replacement policy or prompts have already been approved. Please advise if additional evidence or a different treatment is required.
 
 ## Local results
 
