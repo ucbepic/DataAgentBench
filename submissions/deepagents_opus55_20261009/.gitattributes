@@ -1,0 +1,2 @@
+# Store this review archive as a regular Git binary for direct public downloads.
+public-review-evidence.zip -filter -diff -merge -text

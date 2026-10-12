@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": 0,
+    "answer": "Name,Version,stars\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": 1,
+    "answer": "Name,Version,Stars\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dummmy/webpack-cli>1.0.5>lodash,4.17.19,57779"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": 2,
+    "answer": "Name,Version,stars\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": 3,
+    "answer": "Name,Version,stars\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": 4,
+    "answer": "Name,Version,Stars\n@dmrvos/infrajs>0.0.6>typescript,2.6.2,94931\n@dmrvos/infrajs>0.0.5>typescript,2.6.2,94931\n@dylanvann/svelte,3.25.4,73499\n@dumc11/tailwindcss,0.4.0,73464\n@dollarshaveclub/cli>1.0.0>lodash,4.17.4,57779"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": 0,
+    "answer": "ProjectName,ForkCount\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": 1,
+    "answer": "ProjectName,ForksCount\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": 2,
+    "answer": "ProjectName,ForkCount\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": 3,
+    "answer": "ProjectName,forks\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": 4,
+    "answer": "project_name,fork_count\nmui-org/material-ui,30522\nmoment/moment,7201\nsemantic-org/semantic-ui,4955\nreact-native-elements/react-native-elements,4623\nsveltejs/svelte,4091"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": 0,
+    "answer": "proportion\n0.12213740458015267"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": 1,
+    "answer": "proportion\n0.12213740458015267"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": 2,
+    "answer": "proportion\n0.1485148514851485"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": 3,
+    "answer": "proportion\n0.12213740458015267"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": 4,
+    "answer": "proportion\n0.1485148514851485"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": 0,
+    "answer": "repo_name,file_id,path,copies\nSwiftAndroid/swift,71a17ce92451858f3eb01aa8082551e48bc5550d,validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift,23"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": 1,
+    "answer": "repo_name,file_id,path,copies\nSwiftAndroid/swift,71a17ce92451858f3eb01aa8082551e48bc5550d,validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift,23"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": 2,
+    "answer": "repo_name,file_id,path,copies\nSwiftAndroid/swift,71a17ce92451858f3eb01aa8082551e48bc5550d,validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift,23"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": 3,
+    "answer": "repo_name,file_id,path,copies\nSwiftAndroid/swift,71a17ce92451858f3eb01aa8082551e48bc5550d,validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift,23"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": 4,
+    "answer": "repo_name,path,id,copies\nSwiftAndroid/swift,validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift,71a17ce92451858f3eb01aa8082551e48bc5550d,23"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": 0,
+    "answer": "commit_count\n1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": 1,
+    "answer": "commit_count\n1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": 2,
+    "answer": "commit_count\n1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": 3,
+    "answer": "commit_message_count\n1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": 4,
+    "answer": "commit_message_count\n1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": 0,
+    "answer": "repo_name\napple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": 1,
+    "answer": "repo_name\napple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": 2,
+    "answer": "repo_name\napple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": 3,
+    "answer": "repo_name\napple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": 4,
+    "answer": "repo_name\napple/swift\ntwbs/bootstrap\nMicrosoft/vscode\nfacebook/react\ntensorflow/tensorflow"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": 0,
+    "answer": "histological_type,avg_log10_expression\nAstrocytoma,2.571298\nOligoastrocytoma,2.713571\nOligodendroglioma,2.682458"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": 1,
+    "answer": "histological_type,avg_log10_igf2\nAstrocytoma,2.571298\nOligoastrocytoma,2.713571\nOligodendroglioma,2.682458"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": 2,
+    "answer": "histological_type,avg_log10_IGF2\nAstrocytoma,2.571298\nOligoastrocytoma,2.713571\nOligodendroglioma,2.682458"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": 3,
+    "answer": "histological_type,avg_log10_igf2\nAstrocytoma,2.571298\nOligoastrocytoma,2.713571\nOligodendroglioma,2.682458"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": 4,
+    "answer": "histological_type,avg_log10_igf2_expression\nAstrocytoma,2.571298\nOligoastrocytoma,2.713571\nOligodendroglioma,2.682458"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": 0,
+    "answer": "histological_type,cdh1_mutation_percentage (%)\nInfiltrating Lobular Carcinoma,50.34\nMixed Histology (please specify),13.64\nOther  specify,8.57"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": 1,
+    "answer": "histological_type,total_alive_patients,cdh1_mutated_patients,cdh1_mutation_percentage (%)\nInfiltrating Lobular Carcinoma,178,74,41.573034\nMixed Histology (please specify),24,3,12.5\nOther  specify,36,3,8.333333"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": 2,
+    "answer": "histological_type,cdh1_mutation_percentage (%)\nInfiltrating Lobular Carcinoma,50.34\nMixed Histology (please specify),13.64\nOther  specify,8.57"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": 3,
+    "answer": "histological_type,cdh1_mutation_percentage (%)\nInfiltrating Lobular Carcinoma,58.27\nMixed Histology (please specify),16.67\nOther  specify,9.68"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": 4,
+    "answer": "histological_type,cdh1_mutated_patients,total_alive_patients,cdh1_mutation_percentage (%)\nInfiltrating Lobular Carcinoma,90,178,50.56\nMixed Histology (please specify),4,24,16.67\nOther  specify,3,36,8.33"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": 0,
+    "answer": "chi_square\n305.1239198007461"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": 1,
+    "answer": "chi_square\n305.1239198007461"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": 2,
+    "answer": "chi_square\n305.1239198007461"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": 3,
+    "answer": "chi_square\n305.1239198007461"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": 4,
+    "answer": "chi_square\n305.1239198007461"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": 0,
+    "answer": "cpc_group\nA22B\nA23J\nA23P\nA24D\nA24F\nA41G\nA47F\nA61G\nA61H\nA61P\nA62D\nA63H\nB04B\nB07B\nB08B\nB09C\nB21J\nB22F\nB24B\nB25B\nB25D\nB27C\nB27M\nB60D\nB60L\nB60P\nB61H\nB63C\nB63G\nB65G\nB66F\nC01D\nC01G\nC21B\nC21C\nC22C\nD21B\nE01H\nE02B\nE02D\nE03B\nE04B\nE04G\nE21D\nE21F\nF02K\nF04F\nF16M\nF25J\nF26B\nG01H\nG01L\nG01S\nG05D\nG06N\nG06Q\nG06T\nG06V\nG08G\nG09F\nG10L\nG16B\nG16C\nG16H\nG21F\nH01M\nH02B\nH02G\nH02J\nH03H\nH04K\nH05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": 1,
+    "answer": "cpc_group\nA22B\nA23J\nA23P\nA24D\nA24F\nA41G\nA47F\nA61G\nA61H\nA61P\nA62D\nA63H\nB04B\nB07B\nB08B\nB09C\nB21J\nB22F\nB24B\nB25B\nB25D\nB27C\nB27M\nB60D\nB60L\nB60P\nB61H\nB63C\nB63G\nB65G\nB66F\nC01D\nC01G\nC21B\nC21C\nC22C\nD21B\nE01H\nE02B\nE02D\nE03B\nE04B\nE04G\nE21D\nE21F\nF02K\nF04F\nF16M\nF25J\nF26B\nG01H\nG01L\nG01S\nG05D\nG06N\nG06Q\nG06T\nG06V\nG08G\nG09F\nG10L\nG16B\nG16C\nG16H\nG21F\nH01M\nH02B\nH02G\nH02J\nH03H\nH04K\nH05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": 2,
+    "answer": "cpc_group\nA22B\nA23J\nA23P\nA24D\nA24F\nA41G\nA47F\nA61G\nA61H\nA61P\nA62D\nA63H\nB04B\nB07B\nB08B\nB09C\nB21J\nB22F\nB24B\nB25B\nB25D\nB27C\nB27M\nB60D\nB60L\nB60P\nB61H\nB63C\nB63G\nB65G\nB66F\nC01D\nC01G\nC21B\nC21C\nC22C\nD21B\nE01H\nE02B\nE02D\nE03B\nE04B\nE04G\nE21D\nE21F\nF02K\nF04F\nF16M\nF25J\nF26B\nG01H\nG01L\nG01S\nG05D\nG06N\nG06Q\nG06T\nG06V\nG08G\nG09F\nG10L\nG16B\nG16C\nG16H\nG21F\nH01M\nH02B\nH02G\nH02J\nH03H\nH04K\nH05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": 3,
+    "answer": "cpc_group\nA22B\nA23J\nA23P\nA24D\nA24F\nA41G\nA47F\nA61G\nA61H\nA61P\nA62D\nA63H\nB04B\nB07B\nB08B\nB09C\nB21J\nB22F\nB24B\nB25B\nB25D\nB27C\nB27M\nB60D\nB60L\nB60P\nB61H\nB63C\nB63G\nB65G\nB66F\nC01D\nC01G\nC21B\nC21C\nC22C\nD21B\nE01H\nE02B\nE02D\nE03B\nE04B\nE04G\nE21D\nE21F\nF02K\nF04F\nF16M\nF25J\nF26B\nG01H\nG01L\nG01S\nG05D\nG06N\nG06Q\nG06T\nG06V\nG08G\nG09F\nG10L\nG16B\nG16C\nG16H\nG21F\nH01M\nH02B\nH02G\nH02J\nH03H\nH04K\nH05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": 4,
+    "answer": "cpc_group\nA22B\nA23J\nA23P\nA24D\nA24F\nA41G\nA47F\nA61G\nA61H\nA61P\nA62D\nA63H\nB04B\nB07B\nB08B\nB09C\nB21J\nB22F\nB24B\nB25B\nB25D\nB27C\nB27M\nB60D\nB60L\nB60P\nB61H\nB63C\nB63G\nB65G\nB66F\nC01D\nC01G\nC21B\nC21C\nC22C\nD21B\nE01H\nE02B\nE02D\nE03B\nE04B\nE04G\nE21D\nE21F\nF02K\nF04F\nF16M\nF25J\nF26B\nG01H\nG01L\nG01S\nG05D\nG06N\nG06Q\nG06T\nG06V\nG08G\nG09F\nG10L\nG16B\nG16C\nG16H\nG21F\nH01M\nH02B\nH02G\nH02J\nH03H\nH04K\nH05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": 0,
+    "answer": "titleFull,cpc_group,best_year,max_ema\nELECTRIC COMMUNICATION TECHNIQUE,H04,2015,2.0\nMEDICAL OR VETERINARY SCIENCE; HYGIENE,A61,2016,2.0\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,F16,2009,1.0\nELECTRONIC CIRCUITRY,H03,2015,1.0\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,H02,2009,1.0\nELECTRIC ELEMENTS,H01,2008,1.0\nSIGNALLING,G08,2017,1.0\nOPTICS,G02,2016,1.0\nMEASURING; TESTING,G01,2008,1.0\nWEAPONS,F41,2012,1.0\nHEATING; RANGES; VENTILATING,F24,2018,1.0\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES,F23,2018,1.0\nBAKING; EDIBLE DOUGHS,A21,2015,1.0\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,E05,2012,1.0\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,E02,2012,1.0\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,C09,2015,1.0\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,B63,2014,1.0\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,B62,2010,1.0\nVEHICLES IN GENERAL,B60,2009,1.0\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,B41,2007,1.0\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,B29,2007,1.0\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,B23,2015,1.0\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,F02,2010,1.0"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": 1,
+    "answer": "titleFull,cpc_group,best_year,max_ema\nELECTRIC COMMUNICATION TECHNIQUE,H04,2015,2\nMEDICAL OR VETERINARY SCIENCE; HYGIENE,A61,2016,2\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,B41,2007,1\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,F02,2010,1\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,B23,2015,1\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,B63,2014,1\nVEHICLES IN GENERAL,B60,2009,1\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,F16,2009,1\nBAKING; EDIBLE DOUGHS,A21,2015,1\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES,F23,2018,1\nHEATING; RANGES; VENTILATING,F24,2018,1\nELECTRIC ELEMENTS,H01,2008,1\nMEASURING; TESTING,G01,2008,1\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,B62,2010,1\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,C09,2015,1\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,B29,2007,1\nOPTICS,G02,2016,1\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,E05,2012,1\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,H02,2009,1\nELECTRONIC CIRCUITRY,H03,2015,1\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,E02,2012,1\nWEAPONS,F41,2012,1\nSIGNALLING,G08,2017,1"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": 2,
+    "answer": "titleFull,cpc_group,best_year\nBAKING; EDIBLE DOUGHS,A21,2015\nMEDICAL OR VETERINARY SCIENCE; HYGIENE,A61,2016\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,B23,2015\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,B29,2007\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,B41,2007\nVEHICLES IN GENERAL,B60,2009\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,B62,2010\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,B63,2014\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,C09,2015\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,E02,2012\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,E05,2012\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,F02,2010\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,F16,2009\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES,F23,2018\nHEATING; RANGES; VENTILATING,F24,2018\nWEAPONS,F41,2012\nMEASURING; TESTING,G01,2008\nOPTICS,G02,2016\nSIGNALLING,G08,2017\nELECTRIC ELEMENTS,H01,2008\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,H02,2009\nELECTRONIC CIRCUITRY,H03,2015\nELECTRIC COMMUNICATION TECHNIQUE,H04,2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": 3,
+    "answer": "titleFull,cpc_group,best_year\nBAKING; EDIBLE DOUGHS,A21,2015\nMEDICAL OR VETERINARY SCIENCE; HYGIENE,A61,2016\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,B23,2015\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,B29,2012\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,B41,2007\nVEHICLES IN GENERAL,B60,2016\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,B62,2010\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,B63,2014\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,C09,2015\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,E02,2012\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,E05,2012\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,F02,2018\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,F16,2014\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES,F23,2018\nHEATING; RANGES; VENTILATING,F24,2018\nWEAPONS,F41,2012\nMEASURING; TESTING,G01,2018\nOPTICS,G02,2018\nSIGNALLING,G08,2017\nELECTRIC ELEMENTS,H01,2018\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,H02,2009\nELECTRONIC CIRCUITRY,H03,2015\nELECTRIC COMMUNICATION TECHNIQUE,H04,2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": 4,
+    "answer": "titleFull,cpc_group,best_year\nELECTRIC COMMUNICATION TECHNIQUE,H04,2015\nMEDICAL OR VETERINARY SCIENCE; HYGIENE,A61,2016\nPRINTING; LINING MACHINES; TYPEWRITERS; STAMPS,B41,2007\nCOMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS,F02,2010\nMACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR,B23,2015\nSHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT,B63,2014\nVEHICLES IN GENERAL,B60,2009\nENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL,F16,2009\nBAKING; EDIBLE DOUGHS,A21,2015\nHEATING; RANGES; VENTILATING,F24,2018\nCOMBUSTION APPARATUS; COMBUSTION PROCESSES,F23,2018\nELECTRIC ELEMENTS,H01,2008\nMEASURING; TESTING,G01,2008\nLAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS,B62,2010\nDYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR,C09,2015\nWORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL,B29,2007\nOPTICS,G02,2016\nLOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES,E05,2012\nGENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER,H02,2009\nELECTRONIC CIRCUITRY,H03,2015\nWEAPONS,F41,2012\nHYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING,E02,2012\nSIGNALLING,G08,2017"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": 0,
+    "answer": "citing_assignee,cpc_subclass_title\nCALIFORNIA INST OF TECHN,GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\nBLOOM ENERGY CORP,\"PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\"\nCRYSTAL IS INC,SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J,SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": 1,
+    "answer": "citing_assignee,cpc_subclass_title\nBLOOM ENERGY CORP,\"PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\"\nCRYSTAL IS INC,SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J,SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": 2,
+    "answer": "citing_assignee,cpc_subclass,subclass_title\nBLOOM ENERGY CORP,H01M,\"PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\"\nCRYSTAL IS INC,C30B,SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J,H01L,SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": 3,
+    "answer": "citing_assignee,cpc_subclass_title\nBLOOM ENERGY CORP,\"PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\"\nCRYSTAL IS INC,SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J,SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": 4,
+    "answer": "citing_assignee,cpc_subclass_title\nBLOOM ENERGY CORP,\"PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY\"\nCRYSTAL IS INC,SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR\nSCHOWALTER LEO J,SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": 0,
+    "answer": "title\nThe Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": 1,
+    "answer": "title\nThe Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": 2,
+    "answer": "title\nThe Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": 3,
+    "answer": "title\nThe Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": 4,
+    "answer": "title\nThe Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": 0,
+    "answer": "fraction\n0.2162"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": 1,
+    "answer": "fraction\n0.2162"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": 2,
+    "answer": "fraction\n0.2162"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": 3,
+    "answer": "fraction\n0.2072"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": 4,
+    "answer": "fraction\n0.1982"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": 0,
+    "answer": "avg_business_articles_per_year\n334.27"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": 1,
+    "answer": "avg_business_articles_per_year\n333.36"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": 2,
+    "answer": "avg_business_articles_per_year\n262.64"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": 3,
+    "answer": "avg_business_articles_per_year\n321.82"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": 4,
+    "answer": "avg_business_articles_per_year\n305.64"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": 0,
+    "answer": "region\nAfrica"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": 1,
+    "answer": "region\nAfrica"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": 2,
+    "answer": "region\nSouth America"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": 3,
+    "answer": "region\nAfrica"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": 4,
+    "answer": "region\nNorth America"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": 0,
+    "answer": "decade\n2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": 1,
+    "answer": "decade\n2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": 2,
+    "answer": "decade\n2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": 3,
+    "answer": "decade\n2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": 4,
+    "answer": "decade\n2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": 0,
+    "answer": "title\nReunion: The Children of Lauderdale Park\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Melancholy Strumpet Master\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nFire Cracker\nLocal Honey\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKnowing When To Die: Uncollected Stories\nChilde Harold of Dysna\nForged in Blood (Freehold)\n\"Exits, Desires, & Slow Fires\"\nKennebago Moments\nThe Sludge\nLiza of Lambeth\nSomething That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": 1,
+    "answer": "book_id,title\nbookid_9,Reunion: The Children of Lauderdale Park\nbookid_38,The Prophet: With Original 1923 Illustrations by the Author\nbookid_39,The Melancholy Strumpet Master\nbookid_74,Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nbookid_82,Fire Cracker\nbookid_84,Local Honey\nbookid_98,Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nbookid_101,Knowing When To Die: Uncollected Stories\nbookid_122,Childe Harold of Dysna\nbookid_144,Forged in Blood (Freehold)\nbookid_171,\"Exits, Desires, & Slow Fires\"\nbookid_177,Kennebago Moments\nbookid_180,The Sludge\nbookid_182,Liza of Lambeth\nbookid_195,Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": 2,
+    "answer": "title\nReunion: The Children of Lauderdale Park\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Melancholy Strumpet Master\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nFire Cracker\nLocal Honey\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKnowing When To Die: Uncollected Stories\nChilde Harold of Dysna\nForged in Blood (Freehold)\n\"Exits, Desires, & Slow Fires\"\nKennebago Moments\nThe Sludge\nLiza of Lambeth\nSomething That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": 3,
+    "answer": "title\nReunion: The Children of Lauderdale Park\nThe Prophet: With Original 1923 Illustrations by the Author\nThe Melancholy Strumpet Master\nChild Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nFire Cracker\nLocal Honey\nHollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nKnowing When To Die: Uncollected Stories\nChilde Harold of Dysna\nForged in Blood (Freehold)\n\"Exits, Desires, & Slow Fires\"\nKennebago Moments\nThe Sludge\nLiza of Lambeth\nSomething That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": 4,
+    "answer": "book_id,title\nbookid_9,Reunion: The Children of Lauderdale Park\nbookid_38,The Prophet: With Original 1923 Illustrations by the Author\nbookid_39,The Melancholy Strumpet Master\nbookid_74,Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\nbookid_82,Fire Cracker\nbookid_84,Local Honey\nbookid_98,Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\nbookid_101,Knowing When To Die: Uncollected Stories\nbookid_122,Childe Harold of Dysna\nbookid_144,Forged in Blood (Freehold)\nbookid_171,\"Exits, Desires, & Slow Fires\"\nbookid_177,Kennebago Moments\nbookid_180,The Sludge\nbookid_182,Liza of Lambeth\nbookid_195,Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": 0,
+    "answer": "title\nThe Library Book\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nThe Old Man and the Pirate Princess\nLunaLu the Llamacorn\nTrouble in the CTC!: The Terra Prime Adventures Book 2\nAround the World Mazes\nCleo Porter and the Body Electric\n\"Pokémon: Sun & Moon, Vol. 8 (8)\"\nMonstrous Stories #4: The Day the Mice Stood Still\nEgypt (Enchantment of the World)\n\"Clark the Shark: Tooth Trouble, No. 1\"\nFavorite Thorton W. Burgess Stories: 6 Books\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\n\"Cheer Up, Ben Franklin! (Young Historians)\""
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": 1,
+    "answer": "title\nThe Library Book\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nThe Old Man and the Pirate Princess\nLunaLu the Llamacorn\nTrouble in the CTC!: The Terra Prime Adventures Book 2\nAround the World Mazes\nCleo Porter and the Body Electric\n\"Pokémon: Sun & Moon, Vol. 8 (8)\"\nMonstrous Stories #4: The Day the Mice Stood Still\nEgypt (Enchantment of the World)\n\"Clark the Shark: Tooth Trouble, No. 1\"\nFavorite Thorton W. Burgess Stories: 6 Books\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\n\"Cheer Up, Ben Franklin! (Young Historians)\""
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": 2,
+    "answer": "title\nMonstrous Stories #4: The Day the Mice Stood Still\nThe Old Man and the Pirate Princess\nEgypt (Enchantment of the World)\n\"Clark the Shark: Tooth Trouble, No. 1\"\nFavorite Thorton W. Burgess Stories: 6 Books\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\n\"Cheer Up, Ben Franklin! (Young Historians)\"\nThe Library Book\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nLunaLu the Llamacorn\nTrouble in the CTC!: The Terra Prime Adventures Book 2\nAround the World Mazes\nCleo Porter and the Body Electric\n\"Pokémon: Sun & Moon, Vol. 8 (8)\""
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": 3,
+    "answer": "title\nThe Library Book\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\nThe Old Man and the Pirate Princess\nLunaLu the Llamacorn\nTrouble in the CTC!: The Terra Prime Adventures Book 2\nAround the World Mazes\nCleo Porter and the Body Electric\n\"Pokémon: Sun & Moon, Vol. 8 (8)\"\nMonstrous Stories #4: The Day the Mice Stood Still\nEgypt (Enchantment of the World)\n\"Clark the Shark: Tooth Trouble, No. 1\"\nFavorite Thorton W. Burgess Stories: 6 Books\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\n\"Cheer Up, Ben Franklin! (Young Historians)\""
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": 4,
+    "answer": "title\nAround the World Mazes\nBehind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised)\nBenny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1)\n\"Cheer Up, Ben Franklin! (Young Historians)\"\n\"Clark the Shark: Tooth Trouble, No. 1\"\nCleo Porter and the Body Electric\nEgypt (Enchantment of the World)\nFavorite Thorton W. Burgess Stories: 6 Books\nLunaLu the Llamacorn\nMonstrous Stories #4: The Day the Mice Stood Still\n\"Pokémon: Sun & Moon, Vol. 8 (8)\"\nThe Library Book\nThe Old Man and the Pirate Princess\nTrouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": 0,
+    "answer": "failed_factor\nBudget\nAuthority\nTimeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": 1,
+    "answer": "failed_factor\nBudget\nAuthority\nTimeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": 2,
+    "answer": "failed_factor\nBudget\nAuthority\nTimeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": 3,
+    "answer": "failed_bant_factor\nAuthority\nTimeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": 4,
+    "answer": "failed_factor\nBudget\nAuthority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": 0,
+    "answer": "Id\nka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": 1,
+    "answer": "Id\nka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": 2,
+    "answer": "Id\nka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": 3,
+    "answer": "Id\nka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": 4,
+    "answer": "Id\nka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": 0,
+    "answer": "StageName\nQuote"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": 1,
+    "answer": "stage_name\nNegotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": 2,
+    "answer": "StageName\nNegotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": 3,
+    "answer": "StageName\nNegotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": 4,
+    "answer": "StageName\nNegotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": 0,
+    "answer": "month\nNovember"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": 1,
+    "answer": "month\nNovember"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": 2,
+    "answer": "month\nNovember"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": 3,
+    "answer": "month\nNovember"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": 4,
+    "answer": "month\nNovember"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": 0,
+    "answer": "issue_id\na03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": 1,
+    "answer": "issue_id\na03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": 2,
+    "answer": "issue_id\na03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": 3,
+    "answer": "issue_id\na03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": 4,
+    "answer": "issue_id\na03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": 0,
+    "answer": "Id\nka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": 1,
+    "answer": "Id\nka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": 2,
+    "answer": "Id\nka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": 3,
+    "answer": "Id\nka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": 4,
+    "answer": "Id\nka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": 0,
+    "answer": "knowledge_article_id\nka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": 1,
+    "answer": "knowledge_article_id\nka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": 2,
+    "answer": "knowledge_article_id\nka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": 3,
+    "answer": "knowledge_article_id\nka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": 4,
+    "answer": "knowledge_article_id\nka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": 0,
+    "answer": "Id\n005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": 1,
+    "answer": "Id\n005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": 2,
+    "answer": "Id\n005Wt000003NFKoIAO"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": 3,
+    "answer": "Id\n005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": 4,
+    "answer": "Id\n005Wt000003NFKoIAO"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": 0,
+    "answer": "state\nMI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": 1,
+    "answer": "state\nMI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": 2,
+    "answer": "state\nMI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": 3,
+    "answer": "state\nMI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": 4,
+    "answer": "state\nMI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": 0,
+    "answer": "Id\n005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": 1,
+    "answer": "Id\n005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": 2,
+    "answer": "Id\n005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": 3,
+    "answer": "Id\n005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": 4,
+    "answer": "Id\n005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": 0,
+    "answer": "Product2Id\n01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": 1,
+    "answer": "Product2Id\n01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": 2,
+    "answer": "Product2Id\n01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": 3,
+    "answer": "Product2Id\n01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": 4,
+    "answer": "Product2Id\n01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": 0,
+    "answer": "Id\n005Wt000003NJjNIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": 1,
+    "answer": "Id\n005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": 2,
+    "answer": "Id\n005Wt000003NJjNIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": 3,
+    "answer": "Id\n005Wt000003NJjNIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": 4,
+    "answer": "Id\n005Wt000003NJjNIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": 0,
+    "answer": "Id\n005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": 1,
+    "answer": "Id\n005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": 2,
+    "answer": "Id\n005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": 3,
+    "answer": "Id\n005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": 4,
+    "answer": "Id\n005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": 0,
+    "answer": "business_name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": 1,
+    "answer": "business_name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": 2,
+    "answer": "name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": 3,
+    "answer": "business_name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": 4,
+    "answer": "business_name,average_rating\nWidows Peak Salon,4.857142857142857\nCity Textile,4.5\nNobel Textile Co,4.285714285714286\nSan Soo Dang,4.277777777777778\nNova Fabrics,3.3333333333333335"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": 0,
+    "answer": "business_name,average_rating\nAurora Massage,4.178571428571429\nAngel-A Massage,4.333333333333333\nElite Massage,5.0\nJ B Oriental Inc,4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": 1,
+    "answer": "business_name,average_rating\nAurora Massage,4.178571428571429\nAngel-A Massage,4.333333333333333\nElite Massage,5.0\nJ B Oriental Inc,4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": 2,
+    "answer": "business_name,average_rating\nElite Massage,5.0\nAngel-A Massage,4.333333333333333\nAurora Massage,4.178571428571429\nJ B Oriental Inc,4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": 3,
+    "answer": "business_name,average_rating\nAurora Massage,4.178571428571429\nAngel-A Massage,4.333333333333333\nElite Massage,5.0\nJ B Oriental Inc,4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": 4,
+    "answer": "business_name,average_rating\nElite Massage,5.0\nAngel-A Massage,4.333333333333333\nAurora Massage,4.178571428571429\nJ B Oriental Inc,4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": 0,
+    "answer": "name,hours,average_rating\nTaba Rug Gallery,\"[[\"\"Thursday\"\", \"\"10AM–7PM\"\"], [\"\"Friday\"\", \"\"10AM–7PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"10AM–7PM\"\"], [\"\"Tuesday\"\", \"\"10AM–7PM\"\"], [\"\"Wednesday\"\", \"\"10AM–7PM\"\"]]\",5.0\nBeauty Divine Artistry,\"[[\"\"Thursday\"\", \"\"9AM–8PM\"\"], [\"\"Friday\"\", \"\"9AM–8PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"9AM–8PM\"\"], [\"\"Tuesday\"\", \"\"9AM–8PM\"\"], [\"\"Wednesday\"\", \"\"9AM–8PM\"\"]]\",5.0\nWhite Barn Candle Co,\"[[\"\"Thursday\"\", \"\"10AM–9PM\"\"], [\"\"Friday\"\", \"\"10AM–9PM\"\"], [\"\"Saturday\"\", \"\"10AM–9PM\"\"], [\"\"Sunday\"\", \"\"11AM–7PM\"\"], [\"\"Monday\"\", \"\"10AM–9PM\"\"], [\"\"Tuesday\"\", \"\"10AM–9PM\"\"], [\"\"Wednesday\"\", \"\"10AM–9PM\"\"]]\",5.0\nTACOS LA CABANA,\"[[\"\"Thursday\"\", \"\"Closed\"\"], [\"\"Friday\"\", \"\"5–11PM\"\"], [\"\"Saturday\"\", \"\"5–11PM\"\"], [\"\"Sunday\"\", \"\"5–11PM\"\"], [\"\"Monday\"\", \"\"5–11PM\"\"], [\"\"Tuesday\"\", \"\"Closed\"\"], [\"\"Wednesday\"\", \"\"Closed\"\"]]\",5.0\nMariscos el poblano,\"[[\"\"Thursday\"\", \"\"Open 24 hours\"\"], [\"\"Friday\"\", \"\"8AM–3:30PM\"\"], [\"\"Saturday\"\", \"\"8AM–3:30PM\"\"], [\"\"Sunday\"\", \"\"8AM–3:30PM\"\"], [\"\"Monday\"\", \"\"9AM–3:30AM\"\"], [\"\"Tuesday\"\", \"\"8AM–3:30PM\"\"], [\"\"Wednesday\"\", \"\"8AM–3:30PM\"\"]]\",5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": 1,
+    "answer": "name,hours,average_rating\nTaba Rug Gallery,\"[[\"\"Thursday\"\", \"\"10AM–7PM\"\"], [\"\"Friday\"\", \"\"10AM–7PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"10AM–7PM\"\"], [\"\"Tuesday\"\", \"\"10AM–7PM\"\"], [\"\"Wednesday\"\", \"\"10AM–7PM\"\"]]\",5.0\nBeauty Divine Artistry,\"[[\"\"Thursday\"\", \"\"9AM–8PM\"\"], [\"\"Friday\"\", \"\"9AM–8PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"9AM–8PM\"\"], [\"\"Tuesday\"\", \"\"9AM–8PM\"\"], [\"\"Wednesday\"\", \"\"9AM–8PM\"\"]]\",5.0\nWhite Barn Candle Co,\"[[\"\"Thursday\"\", \"\"10AM–9PM\"\"], [\"\"Friday\"\", \"\"10AM–9PM\"\"], [\"\"Saturday\"\", \"\"10AM–9PM\"\"], [\"\"Sunday\"\", \"\"11AM–7PM\"\"], [\"\"Monday\"\", \"\"10AM–9PM\"\"], [\"\"Tuesday\"\", \"\"10AM–9PM\"\"], [\"\"Wednesday\"\", \"\"10AM–9PM\"\"]]\",5.0\nTACOS LA CABANA,\"[[\"\"Thursday\"\", \"\"Closed\"\"], [\"\"Friday\"\", \"\"5–11PM\"\"], [\"\"Saturday\"\", \"\"5–11PM\"\"], [\"\"Sunday\"\", \"\"5–11PM\"\"], [\"\"Monday\"\", \"\"5–11PM\"\"], [\"\"Tuesday\"\", \"\"Closed\"\"], [\"\"Wednesday\"\", \"\"Closed\"\"]]\",5.0\nMariscos el poblano,\"[[\"\"Thursday\"\", \"\"Open 24 hours\"\"], [\"\"Friday\"\", \"\"8AM–3:30PM\"\"], [\"\"Saturday\"\", \"\"8AM–3:30PM\"\"], [\"\"Sunday\"\", \"\"8AM–3:30PM\"\"], [\"\"Monday\"\", \"\"9AM–3:30AM\"\"], [\"\"Tuesday\"\", \"\"8AM–3:30PM\"\"], [\"\"Wednesday\"\", \"\"8AM–3:30PM\"\"]]\",5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": 2,
+    "answer": "name,hours,average_rating\nWhite Barn Candle Co,\"[[\"\"Thursday\"\", \"\"10AM–9PM\"\"], [\"\"Friday\"\", \"\"10AM–9PM\"\"], [\"\"Saturday\"\", \"\"10AM–9PM\"\"], [\"\"Sunday\"\", \"\"11AM–7PM\"\"], [\"\"Monday\"\", \"\"10AM–9PM\"\"], [\"\"Tuesday\"\", \"\"10AM–9PM\"\"], [\"\"Wednesday\"\", \"\"10AM–9PM\"\"]]\",5.0\nTaba Rug Gallery,\"[[\"\"Thursday\"\", \"\"10AM–7PM\"\"], [\"\"Friday\"\", \"\"10AM–7PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"10AM–7PM\"\"], [\"\"Tuesday\"\", \"\"10AM–7PM\"\"], [\"\"Wednesday\"\", \"\"10AM–7PM\"\"]]\",5.0\nTACOS LA CABANA,\"[[\"\"Thursday\"\", \"\"Closed\"\"], [\"\"Friday\"\", \"\"5–11PM\"\"], [\"\"Saturday\"\", \"\"5–11PM\"\"], [\"\"Sunday\"\", \"\"5–11PM\"\"], [\"\"Monday\"\", \"\"5–11PM\"\"], [\"\"Tuesday\"\", \"\"Closed\"\"], [\"\"Wednesday\"\", \"\"Closed\"\"]]\",5.0\nMariscos el poblano,\"[[\"\"Thursday\"\", \"\"Open 24 hours\"\"], [\"\"Friday\"\", \"\"8AM–3:30PM\"\"], [\"\"Saturday\"\", \"\"8AM–3:30PM\"\"], [\"\"Sunday\"\", \"\"8AM–3:30PM\"\"], [\"\"Monday\"\", \"\"9AM–3:30AM\"\"], [\"\"Tuesday\"\", \"\"8AM–3:30PM\"\"], [\"\"Wednesday\"\", \"\"8AM–3:30PM\"\"]]\",5.0\nBeauty Divine Artistry,\"[[\"\"Thursday\"\", \"\"9AM–8PM\"\"], [\"\"Friday\"\", \"\"9AM–8PM\"\"], [\"\"Saturday\"\", \"\"10AM–7PM\"\"], [\"\"Sunday\"\", \"\"11AM–6PM\"\"], [\"\"Monday\"\", \"\"9AM–8PM\"\"], [\"\"Tuesday\"\", \"\"9AM–8PM\"\"], [\"\"Wednesday\"\", \"\"9AM–8PM\"\"]]\",5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": 3,
+    "answer": "name,hours,average_rating\nTaba Rug Gallery,Thursday 10AM–7PM; Friday 10AM–7PM; Saturday 10AM–7PM; Sunday 11AM–6PM; Monday 10AM–7PM; Tuesday 10AM–7PM; Wednesday 10AM–7PM,5.0\nBeauty Divine Artistry,Thursday 9AM–8PM; Friday 9AM–8PM; Saturday 10AM–7PM; Sunday 11AM–6PM; Monday 9AM–8PM; Tuesday 9AM–8PM; Wednesday 9AM–8PM,5.0\nWhite Barn Candle Co,Thursday 10AM–9PM; Friday 10AM–9PM; Saturday 10AM–9PM; Sunday 11AM–7PM; Monday 10AM–9PM; Tuesday 10AM–9PM; Wednesday 10AM–9PM,5.0\nMariscos el poblano,Thursday Open 24 hours; Friday 8AM–3:30PM; Saturday 8AM–3:30PM; Sunday 8AM–3:30PM; Monday 9AM–3:30AM; Tuesday 8AM–3:30PM; Wednesday 8AM–3:30PM,5.0\nTACOS LA CABANA,Thursday Closed; Friday 5–11PM; Saturday 5–11PM; Sunday 5–11PM; Monday 5–11PM; Tuesday Closed; Wednesday Closed,5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": 4,
+    "answer": "name,hours,average_rating\nTaba Rug Gallery,Thursday: 10AM–7PM; Friday: 10AM–7PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 10AM–7PM; Tuesday: 10AM–7PM; Wednesday: 10AM–7PM,5.0\nBeauty Divine Artistry,Thursday: 9AM–8PM; Friday: 9AM–8PM; Saturday: 10AM–7PM; Sunday: 11AM–6PM; Monday: 9AM–8PM; Tuesday: 9AM–8PM; Wednesday: 9AM–8PM,5.0\nMariscos el poblano,Thursday: Open 24 hours; Friday: 8AM–3:30PM; Saturday: 8AM–3:30PM; Sunday: 8AM–3:30PM; Monday: 9AM–3:30AM; Tuesday: 8AM–3:30PM; Wednesday: 8AM–3:30PM,5.0\nTACOS LA CABANA,Thursday: Closed; Friday: 5–11PM; Saturday: 5–11PM; Sunday: 5–11PM; Monday: 5–11PM; Tuesday: Closed; Wednesday: Closed,5.0\nWhite Barn Candle Co,Thursday: 10AM–9PM; Friday: 10AM–9PM; Saturday: 10AM–9PM; Sunday: 11AM–7PM; Monday: 10AM–9PM; Tuesday: 10AM–9PM; Wednesday: 10AM–9PM,5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": 0,
+    "answer": "business_name,high_rating_review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": 1,
+    "answer": "business_name,high_rating_review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": 2,
+    "answer": "business_name,high_rating_review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": 3,
+    "answer": "business_name,high_rating_review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": 4,
+    "answer": "business_name,high_rating_review_count\nEncino Dermatology & Laser: Alex Khadavi MD,19\nThe Boochyard @ Local Roots,17\nAurora Massage,14"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": 0,
+    "answer": "revenue_usd (USD)\n1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": 1,
+    "answer": "revenue_usd (USD)\n1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": 2,
+    "answer": "revenue_usd (USD)\n1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": 3,
+    "answer": "revenue_usd (USD)\n1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": 4,
+    "answer": "revenue_usd (USD)\n1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": 0,
+    "answer": "store,revenue_usd (USD)\nAmazon Music,1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": 1,
+    "answer": "store,revenue_usd (USD)\nAmazon Music,1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": 2,
+    "answer": "store,revenue_usd (USD)\nAmazon Music,1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": 3,
+    "answer": "store,revenue_usd (USD)\nAmazon Music,1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": 4,
+    "answer": "store,revenue_usd (USD)\nAmazon Music,1108.99"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": 0,
+    "answer": "title,artist,total_revenue_usd (USD)\nZo gaat het leven aan je voor,Syb van der Ploeg,9013.69"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": 1,
+    "answer": "title,artist,total_revenue_usd (USD)\nZo gaat het leven aan je voor,Syb van der Ploeg,9013.69"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": 2,
+    "answer": "title,artist,total_revenue_usd (USD)\nZo gaat het leven aan je voor,Syb van der Ploeg,9013.69"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": 3,
+    "answer": "title,artist,total_revenue_usd (USD)\nZo gaat het leven aan je voor,Syb van der Ploeg,9013.69"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": 4,
+    "answer": "title,artist,total_revenue_usd (USD)\nZo gaat het leven aan je voor,Syb van der Ploeg,9013.69"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": 0,
+    "answer": "Index,avg_intraday_volatility\n399001.SZ,0.018341"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": 1,
+    "answer": "Index\n399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": 2,
+    "answer": "Index,avg_intraday_volatility\n399001.SZ,0.018341"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": 3,
+    "answer": "Index,avg_intraday_volatility\n399001.SZ,0.018341"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": 4,
+    "answer": "Index,avg_intraday_volatility\n399001.SZ,0.018341"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": 0,
+    "answer": "Index\nIXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": 1,
+    "answer": "Index\nIXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": 2,
+    "answer": "Index,up_days,down_days\nIXIC,131,120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": 3,
+    "answer": "Index,up_days,down_days\nIXIC,131,120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": 4,
+    "answer": "Index,up_days,down_days\nIXIC,131,120"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": 0,
+    "answer": "Index,Country,Return (fraction)\nIXIC,United States,3.8269\nNSEI,India,1.3584\n399001.SZ,China,1.3475\nGDAXI,Germany,1.347\nTWII,Taiwan,1.2982"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": 1,
+    "answer": "Index,Country,DCA_Return\nIXIC,United States,3.8269\nNSEI,India,1.3584\n399001.SZ,China,1.3475\nGDAXI,Germany,1.347\nTWII,Taiwan,1.2982"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": 2,
+    "answer": "Index,Country,DCA_Return\nIXIC,United States,3.8269\nNSEI,India,1.3584\n399001.SZ,China,1.3475\nGDAXI,Germany,1.347\nTWII,Taiwan,1.2982"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": 3,
+    "answer": "Index,Country,DCA_Return (fraction)\nIXIC,United States,3.8269\nNSEI,India,1.3584\n399001.SZ,China,1.3475\nGDAXI,Germany,1.347\nTWII,Taiwan,1.2982"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": 4,
+    "answer": "Index,Country,DCA_Return (ratio (final value/invested - 1))\nIXIC,United States,3.8269\nNSEI,India,1.3584\n399001.SZ,China,1.3475\nGDAXI,Germany,1.347\nTWII,Taiwan,1.2982"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": 0,
+    "answer": "max_adj_close_2020 (USD)\n18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": 1,
+    "answer": "max_adj_close_2020 (USD)\n18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": 2,
+    "answer": "max_adj_close_2020 (USD)\n18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": 3,
+    "answer": "max_adj_close_2020 (USD)\n18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": 4,
+    "answer": "max_adj_close_2020 (USD)\n18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": 0,
+    "answer": "symbol,total_count\nBOIL,31\nBZQ,31\nCOM,31\nDUST,31\nEDZ,31\nERX,31\nFAZ,31\nFXP,31\nGFIN,31\nGUSH,31\nHYUP,31\nJDST,31\nJNUG,31\nJPN,31\nLABD,31\nLABU,31\nLBJ,31\nMDY,31\nPTIN,31\nRTL,31\nSDOW,31\nSOXS,31\nSSG,31\nTECS,31\nTZA,31\nUVXY,31\nVIXY,31\nVPC,31\nXES,31\nXOP,31\nYANG,31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": 1,
+    "answer": "symbol,total_etf_count\nBOIL,31\nBZQ,31\nCOM,31\nDUST,31\nEDZ,31\nERX,31\nFAZ,31\nFXP,31\nGFIN,31\nGUSH,31\nHYUP,31\nJDST,31\nJNUG,31\nJPN,31\nLABD,31\nLABU,31\nLBJ,31\nMDY,31\nPTIN,31\nRTL,31\nSDOW,31\nSOXS,31\nSSG,31\nTECS,31\nTZA,31\nUVXY,31\nVIXY,31\nVPC,31\nXES,31\nXOP,31\nYANG,31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": 2,
+    "answer": "symbol,total_count\nBOIL,31\nBZQ,31\nCOM,31\nDUST,31\nEDZ,31\nERX,31\nFAZ,31\nFXP,31\nGFIN,31\nGUSH,31\nHYUP,31\nJDST,31\nJNUG,31\nJPN,31\nLABD,31\nLABU,31\nLBJ,31\nMDY,31\nPTIN,31\nRTL,31\nSDOW,31\nSOXS,31\nSSG,31\nTECS,31\nTZA,31\nUVXY,31\nVIXY,31\nVPC,31\nXES,31\nXOP,31\nYANG,31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": 3,
+    "answer": "Symbol,total_count\nBOIL,31\nBZQ,31\nCOM,31\nDUST,31\nEDZ,31\nERX,31\nFAZ,31\nFXP,31\nGFIN,31\nGUSH,31\nHYUP,31\nJDST,31\nJNUG,31\nJPN,31\nLABD,31\nLABU,31\nLBJ,31\nMDY,31\nPTIN,31\nRTL,31\nSDOW,31\nSOXS,31\nSSG,31\nTECS,31\nTZA,31\nUVXY,31\nVIXY,31\nVPC,31\nXES,31\nXOP,31\nYANG,31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": 4,
+    "answer": "symbol,total_etf_count\nBOIL,31\nBZQ,31\nCOM,31\nDUST,31\nEDZ,31\nERX,31\nFAZ,31\nFXP,31\nGFIN,31\nGUSH,31\nHYUP,31\nJDST,31\nJNUG,31\nJPN,31\nLABD,31\nLABU,31\nLBJ,31\nMDY,31\nPTIN,31\nRTL,31\nSDOW,31\nSOXS,31\nSSG,31\nTECS,31\nTZA,31\nUVXY,31\nVIXY,31\nVPC,31\nXES,31\nXOP,31\nYANG,31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": 0,
+    "answer": "company_name,avg_daily_volume_2008 (shares)\nApex Global Brands Inc.,23781.422924901184\n\"BIO-key International, Inc.\",10988.142292490118\n\"CBAK Energy Technology, Inc.\",86223.32015810277\n\"China Ceramics Co., Ltd.\",4366.798418972332\nCorrevio Pharma Corp.,145247.8260869565\nCounterPath Corporation,375.49407114624506\n\"DASAN Zhone Solutions, Inc.\",15578.656126482214\nFuture FinTech Group Inc.,9.845238095238095\nFrontier Communications Corporation,254397.62845849802\n\"Ideanomics, Inc.\",10.276679841897232\n\"Ocean Power Technologies, Inc.\",254.1501976284585\n\"Pacific Ethanol, Inc.\",10706.719367588932\n\"Synthesis Energy Systems, Inc.\",2390.513833992095\n\"Sunesis Pharmaceuticals, Inc.\",781.8181818181819\n\"Sypris Solutions, Inc.\",36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": 1,
+    "answer": "company_name,symbol,avg_daily_volume_2008 (shares)\nApex Global Brands Inc.,APEX,23781.422924901184\n\"BIO-key International, Inc.\",BKYI,10988.142292490118\n\"CBAK Energy Technology, Inc.\",CBAT,86223.32015810277\n\"China Ceramics Co., Ltd.\",CCCL,4366.798418972332\nCorrevio Pharma Corp.,CORV,145247.8260869565\nCounterPath Corporation,CPAH,375.49407114624506\n\"DASAN Zhone Solutions, Inc.\",DZSI,15578.656126482214\nFuture FinTech Group Inc.,FTFT,9.845238095238095\nFrontier Communications Corporation,FTR,254397.62845849802\n\"Ideanomics, Inc.\",IDEX,10.276679841897232\n\"Ocean Power Technologies, Inc.\",OPTT,254.1501976284585\n\"Pacific Ethanol, Inc.\",PEIX,10706.719367588932\n\"Synthesis Energy Systems, Inc.\",SES,2390.513833992095\n\"Sunesis Pharmaceuticals, Inc.\",SNSS,781.8181818181819\n\"Sypris Solutions, Inc.\",SYPR,36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": 2,
+    "answer": "company_name,avg_daily_volume_2008 (shares)\nApex Global Brands Inc.,23781.422924901184\n\"BIO-key International, Inc.\",10988.142292490118\n\"CBAK Energy Technology, Inc.\",86223.32015810277\n\"China Ceramics Co., Ltd.\",4366.798418972332\nCorrevio Pharma Corp.,145247.8260869565\nCounterPath Corporation,375.49407114624506\n\"DASAN Zhone Solutions, Inc.\",15578.656126482214\nFuture FinTech Group Inc.,9.845238095238095\nFrontier Communications Corporation,254397.62845849802\n\"Ideanomics, Inc.\",10.276679841897232\n\"Ocean Power Technologies, Inc.\",254.1501976284585\n\"Pacific Ethanol, Inc.\",10706.719367588932\n\"Synthesis Energy Systems, Inc.\",2390.513833992095\n\"Sunesis Pharmaceuticals, Inc.\",781.8181818181819\n\"Sypris Solutions, Inc.\",36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": 3,
+    "answer": "company_name,symbol,avg_daily_volume_2008 (shares)\nApex Global Brands Inc.,APEX,23781.422924901184\n\"BIO-key International, Inc.\",BKYI,10988.142292490118\n\"CBAK Energy Technology, Inc.\",CBAT,86223.32015810277\n\"China Ceramics Co., Ltd.\",CCCL,4366.798418972332\nCorrevio Pharma Corp.,CORV,145247.8260869565\nCounterPath Corporation,CPAH,375.49407114624506\n\"DASAN Zhone Solutions, Inc.\",DZSI,15578.656126482214\nFuture FinTech Group Inc.,FTFT,9.845238095238095\nFrontier Communications Corporation,FTR,254397.62845849802\n\"Ideanomics, Inc.\",IDEX,10.276679841897232\n\"Ocean Power Technologies, Inc.\",OPTT,254.1501976284585\n\"Pacific Ethanol, Inc.\",PEIX,10706.719367588932\n\"Synthesis Energy Systems, Inc.\",SES,2390.513833992095\n\"Sunesis Pharmaceuticals, Inc.\",SNSS,781.8181818181819\n\"Sypris Solutions, Inc.\",SYPR,36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": 4,
+    "answer": "company_name,avg_daily_volume_2008 (shares)\nApex Global Brands Inc.,23781.4229\n\"BIO-key International, Inc.\",10988.1423\n\"CBAK Energy Technology, Inc.\",86223.3202\n\"China Ceramics Co., Ltd.\",4366.7984\nCorrevio Pharma Corp.,145247.8261\nCounterPath Corporation,375.4941\n\"DASAN Zhone Solutions, Inc.\",15578.6561\nFuture FinTech Group Inc.,9.8452\nFrontier Communications Corporation,254397.6285\n\"Ideanomics, Inc.\",10.2767\n\"Ocean Power Technologies, Inc.\",254.1502\n\"Pacific Ethanol, Inc.\",10706.7194\n\"Synthesis Energy Systems, Inc.\",2390.5138\n\"Sunesis Pharmaceuticals, Inc.\",781.8182\n\"Sypris Solutions, Inc.\",36836.3636"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": 0,
+    "answer": "company_name\n\"MFA Financial, Inc.\"\n\"Argo Group International Holdings, Ltd.\"\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": 1,
+    "answer": "company_name\n\"MFA Financial, Inc.\"\n\"Argo Group International Holdings, Ltd.\"\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": 2,
+    "answer": "company_name\n\"MFA Financial, Inc.\"\n\"Argo Group International Holdings, Ltd.\"\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": 3,
+    "answer": "company_name\n\"MFA Financial, Inc.\"\n\"Argo Group International Holdings, Ltd.\"\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": 4,
+    "answer": "company_name\n\"MFA Financial, Inc.\"\n\"Argo Group International Holdings, Ltd.\"\nHDFC Bank Limited\nAlbany International Corporation\nDTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": 0,
+    "answer": "company_name\n\"Synthesis Energy Systems, Inc.\"\n\"TD Holdings, Inc.\"\nTMSR Holding Company Limited\n\"Verb Technology Company, Inc.\"\n\"Sunesis Pharmaceuticals, Inc.\""
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": 1,
+    "answer": "company_name\n\"Synthesis Energy Systems, Inc.\"\n\"TD Holdings, Inc.\"\nTMSR Holding Company Limited\n\"Verb Technology Company, Inc.\"\n\"Sunesis Pharmaceuticals, Inc.\""
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": 2,
+    "answer": "company_name,symbol,days_count\n\"Synthesis Energy Systems, Inc.\",SES,51\n\"TD Holdings, Inc.\",GLG,42\nTMSR Holding Company Limited,TMSR,40\n\"Verb Technology Company, Inc.\",VERB,38\n\"Sunesis Pharmaceuticals, Inc.\",SNSS,32"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": 3,
+    "answer": "company_name\n\"Synthesis Energy Systems, Inc.\"\n\"TD Holdings, Inc.\"\nTMSR Holding Company Limited\n\"Verb Technology Company, Inc.\"\n\"Sunesis Pharmaceuticals, Inc.\""
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": 4,
+    "answer": "symbol,company_name,days_range_gt_20pct\nSES,\"Synthesis Energy Systems, Inc.\",51\nGLG,\"TD Holdings, Inc.\",42\nTMSR,TMSR Holding Company Limited,40\nVERB,\"Verb Technology Company, Inc.\",38\nSNSS,\"Sunesis Pharmaceuticals, Inc.\",32"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": 0,
+    "answer": "average_rating\n3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": 1,
+    "answer": "average_rating\n3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": 2,
+    "answer": "average_rating\n3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": 3,
+    "answer": "average_rating\n3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": 4,
+    "answer": "average_rating\n3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": 0,
+    "answer": "state,review_count,average_rating\nPA,662,3.699396"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": 1,
+    "answer": "state,review_count,average_rating\nPA,662,3.6994"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": 2,
+    "answer": "state,review_count,average_rating\nPA,662,3.6994"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": 3,
+    "answer": "state,average_rating\nPA,3.699396"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": 4,
+    "answer": "state,review_count,average_rating\nPA,662,3.699396"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": 0,
+    "answer": "business_count\n35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": 1,
+    "answer": "business_count\n35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": 2,
+    "answer": "business_count\n35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": 3,
+    "answer": "business_count\n35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": 4,
+    "answer": "business_count\n35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": 0,
+    "answer": "category,business_count,average_rating\nRestaurants,26,3.6407"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": 1,
+    "answer": "category,business_count,average_rating\nRestaurants,27,3.633676092544987"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": 2,
+    "answer": "category,average_rating\nRestaurants,3.6407263294422827"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": 3,
+    "answer": "category,business_count,average_rating\nRestaurants,26,3.64"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": 4,
+    "answer": "category,business_count,average_rating\nRestaurants,26,3.6407"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": 0,
+    "answer": "state,wifi_business_count,average_rating\nPA,8,3.484"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": 1,
+    "answer": "state,wifi_business_count,average_rating\nPA,8,3.484"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": 2,
+    "answer": "state,wifi_business_count,average_rating\nPA,8,3.484"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": 3,
+    "answer": "state,average_rating\nPA,3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": 4,
+    "answer": "state,average_rating\nPA,3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": 0,
+    "answer": "business_name,category,average_rating,review_count\nCoffee House Too Cafe,\"Restaurants, Breakfast & Brunch, American (New), Cafes\",4.375,16"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": 1,
+    "answer": "business_name,category,average_rating,review_count\nCoffee House Too Cafe,\"Restaurants, Breakfast & Brunch, American (New), Cafes\",4.375,16"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": 2,
+    "answer": "business_name,category,average_rating,review_count\nCoffee House Too Cafe,\"Restaurants, Breakfast & Brunch, American (New), Cafes\",4.375,16"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": 3,
+    "answer": "business_name,category,average_rating,review_count\nCoffee House Too Cafe,\"Restaurants, Breakfast & Brunch, American (New), Cafes\",4.375,16"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": 4,
+    "answer": "business_name,category,average_rating,review_count\nCoffee House Too Cafe,\"Restaurants, Breakfast & Brunch, American (New), Cafes\",4.375,16"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": 0,
+    "answer": "category,total_reviews\nRestaurants,58\nFood,38\nAmerican (New),24\nShopping,20\nBreakfast & Brunch,19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": 1,
+    "answer": "category,total_reviews\nRestaurants,58\nFood,38\nAmerican (New),24\nShopping,20\nBreakfast & Brunch,19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": 2,
+    "answer": "category,total_reviews\nRestaurants,58\nFood,38\nAmerican (New),24\nShopping,20\nBreakfast & Brunch,19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": 3,
+    "answer": "category,total_reviews\nRestaurants,58\nFood,38\nAmerican (New),24\nShopping,20\nBreakfast & Brunch,19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": 4,
+    "answer": "category,total_reviews\nRestaurants,58\nFood,38\nAmerican (New),24\nShopping,20\nBreakfast & Brunch,19"
+  }
+]

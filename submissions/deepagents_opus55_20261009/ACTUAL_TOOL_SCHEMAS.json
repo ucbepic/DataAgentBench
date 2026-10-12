@@ -1,0 +1,314 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "write_todos",
+      "description": "Use this tool to create and manage a structured task list for your current work session. This helps you track progress and organize complex tasks.\n\nOnly use this tool if you think it will be helpful in staying organized. If the user's request is trivial and takes less than 3 steps, it is better to NOT use this tool and just do the task directly.\n\n## When to Use This Tool\n\nUse this tool in these scenarios:\n\n1. Complex multi-step tasks - When a task requires 3 or more distinct steps or actions\n2. Non-trivial and complex tasks - Tasks that require careful planning or multiple operations\n3. User explicitly requests todo list - When the user directly asks you to use the todo list\n4. User provides multiple tasks - When users provide a list of things to be done (numbered or comma-separated)\n5. The plan may need future revisions or updates based on results from the first few steps\n\n## How to Use This Tool\n\n1. When you start working on a task - Mark it as in_progress BEFORE beginning work.\n2. After completing a task - Mark it as completed and add any new follow-up tasks discovered during implementation.\n3. You can also update future tasks, such as deleting them if they are no longer necessary, or adding new tasks that are necessary. Don't change previously completed tasks.\n4. You can make several updates to the todo list at once. For example, when you complete a task, you can mark the next task you need to start as in_progress.\n\n## When NOT to Use This Tool\n\nIt is important to skip using this tool when:\n1. There is only a single, straightforward task\n2. The task is trivial and tracking it provides no benefit\n3. The task can be completed in less than 3 trivial steps\n4. The task is purely conversational or informational\n\n## Task States and Management\n\n1. **Task States**: Use these states to track progress:\n    - pending: Task not yet started\n    - in_progress: Currently working on (you can have multiple tasks in_progress at a time if they are not related to each other and can be run in parallel)\n    - completed: Task finished successfully\n\n2. **Task Management**:\n    - Update task status in real-time as you work\n    - Mark tasks complete IMMEDIATELY after finishing (don't batch completions)\n    - Complete current tasks before starting new ones\n    - Remove tasks that are no longer relevant from the list entirely\n    - IMPORTANT: When you write this todo list, you should mark your first task (or tasks) as in_progress immediately!.\n    - IMPORTANT: Unless all tasks are completed, you should always have at least one task in_progress.\n\n3. **Task Completion Requirements**:\n    - ONLY mark a task as completed when you have FULLY accomplished it\n    - If you encounter errors, blockers, or cannot finish, keep the task as in_progress\n    - When blocked, create a new task describing what needs to be resolved\n    - Never mark a task as completed if:\n        - There are unresolved issues or errors\n        - Work is partial or incomplete\n        - You encountered blockers that prevent completion\n        - You couldn't find necessary resources or dependencies\n        - Quality standards haven't been met\n\n4. **Task Breakdown**:\n    - Create specific, actionable items\n    - Break complex tasks into smaller, manageable steps\n    - Use clear, descriptive task names\n\nBeing proactive with task management ensures you complete all requirements successfully\nRemember: If you only need to make a few tool calls to complete a task, and it is clear what you need to do, it is better to just do the task directly and NOT call this tool at all.\n\n## When You Finish\n\n`write_todos` tracks your work; it does not deliver the answer. Whatever the user asked for — computations, summaries, comparisons, data — must appear as text content in a message after your final `write_todos` call. Marking the last todo complete is not itself an answer to the user.",
+      "parameters": {
+        "properties": {
+          "todos": {
+            "items": {
+              "description": "A single todo item with content and status.",
+              "properties": {
+                "content": {
+                  "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "pending",
+                    "in_progress",
+                    "completed"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "content",
+                "status"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "todos"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "ls",
+      "description": "Lists all files in the filesystem, filtering by directory.\n\nUsage:\n- The path parameter must be an absolute path, not a relative path\n- The list_files tool will return a list of all files in the specified directory.\n- This is very useful for exploring the file system and finding the right file to read or edit.\n- You should almost ALWAYS use this tool before using the Read or Edit tools.",
+      "parameters": {
+        "properties": {
+          "path": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "read_file",
+      "description": "Reads a file from the filesystem. You can access any file directly by using this tool.\nAssume this tool is able to read all files on the machine. If the User provides a path to a file assume that path is valid. It is okay to read a file that does not exist; an error will be returned.\n\nUsage:\n- The file_path parameter must be an absolute path, not a relative path\n- By default, it reads up to 500 lines starting from the beginning of the file\n- **IMPORTANT for large files and codebase exploration**: Use pagination with offset and limit parameters to avoid context overflow\n  - First scan: read_file(path, limit=100) to see file structure\n  - Read more sections: read_file(path, offset=100, limit=200) for next 200 lines\n  - Only omit limit (read full file) when necessary for editing\n- Specify offset and limit: read_file(path, offset=0, limit=100) reads first 100 lines\n- Any lines longer than 2000 characters will be truncated\n- Results are returned using cat -n format, with line numbers starting at 1\n- You have the capability to call multiple tools in a single response. It is always better to speculatively read multiple files as a batch that are potentially useful.\n- If you read a file that exists but has empty contents you will receive a system reminder warning in place of file contents.\n- You should ALWAYS make sure a file has been read before editing it.",
+      "parameters": {
+        "properties": {
+          "file_path": {
+            "type": "string"
+          },
+          "offset": {
+            "default": 0,
+            "type": "integer"
+          },
+          "limit": {
+            "default": 500,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "file_path"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "write_file",
+      "description": "Writes to a new file in the filesystem.\n\nUsage:\n- The file_path parameter must be an absolute path, not a relative path\n- The content parameter must be a string\n- The write_file tool will create the a new file.\n- Prefer to edit existing files over creating new ones when possible.",
+      "parameters": {
+        "properties": {
+          "file_path": {
+            "type": "string"
+          },
+          "content": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "file_path",
+          "content"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "edit_file",
+      "description": "Performs exact string replacements in files.\n\nUsage:\n- You must use your `Read` tool at least once in the conversation before editing. This tool will error if you attempt an edit without reading the file.\n- When editing text from Read tool output, ensure you preserve the exact indentation (tabs/spaces) as it appears AFTER the line number prefix. The line number prefix format is: spaces + line number + tab. Everything after that tab is the actual file content to match. Never include any part of the line number prefix in the old_string or new_string.\n- ALWAYS prefer editing existing files. NEVER write new files unless explicitly required.\n- Only use emojis if the user explicitly requests it. Avoid adding emojis to files unless asked.\n- The edit will FAIL if `old_string` is not unique in the file. Either provide a larger string with more surrounding context to make it unique or use `replace_all` to change every instance of `old_string`.\n- Use `replace_all` for replacing and renaming strings across the file. This parameter is useful if you want to rename a variable for instance.",
+      "parameters": {
+        "properties": {
+          "file_path": {
+            "type": "string"
+          },
+          "old_string": {
+            "type": "string"
+          },
+          "new_string": {
+            "type": "string"
+          },
+          "replace_all": {
+            "default": false,
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "file_path",
+          "old_string",
+          "new_string"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "glob",
+      "description": "Find files matching a glob pattern.\n\nUsage:\n- The glob tool finds files by matching patterns with wildcards\n- Supports standard glob patterns: `*` (any characters), `**` (any directories), `?` (single character)\n- Patterns can be absolute (starting with `/`) or relative\n- Returns a list of absolute file paths that match the pattern\n\nExamples:\n- `**/*.py` - Find all Python files\n- `*.txt` - Find all text files in root\n- `/subdir/**/*.md` - Find all markdown files under /subdir",
+      "parameters": {
+        "properties": {
+          "pattern": {
+            "type": "string"
+          },
+          "path": {
+            "default": "/",
+            "type": "string"
+          }
+        },
+        "required": [
+          "pattern"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "grep",
+      "description": "Search for a pattern in files.\n\nUsage:\n- The grep tool searches for text patterns across files\n- The pattern parameter is the text to search for (literal string, not regex)\n- The path parameter filters which directory to search in (default is the current working directory)\n- The glob parameter accepts a glob pattern to filter which files to search (e.g., `*.py`)\n- The output_mode parameter controls the output format:\n  - `files_with_matches`: List only file paths containing matches (default)\n  - `content`: Show matching lines with file path and line numbers\n  - `count`: Show count of matches per file\n\nExamples:\n- Search all files: `grep(pattern=\"TODO\")`\n- Search Python files only: `grep(pattern=\"import\", glob=\"*.py\")`\n- Show matching lines: `grep(pattern=\"error\", output_mode=\"content\")`",
+      "parameters": {
+        "properties": {
+          "pattern": {
+            "type": "string"
+          },
+          "path": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "glob": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "output_mode": {
+            "default": "files_with_matches",
+            "enum": [
+              "files_with_matches",
+              "content",
+              "count"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "pattern"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "execute",
+      "description": "Executes a given command in the sandbox environment with proper handling and security measures.\n\nBefore executing the command, please follow these steps:\n\n1. Directory Verification:\n   - If the command will create new directories or files, first use the ls tool to verify the parent directory exists and is the correct location\n   - For example, before running \"mkdir foo/bar\", first use ls to check that \"foo\" exists and is the intended parent directory\n\n2. Command Execution:\n   - Always quote file paths that contain spaces with double quotes (e.g., cd \"path with spaces/file.txt\")\n   - Examples of proper quoting:\n     - cd \"/Users/name/My Documents\" (correct)\n     - cd /Users/name/My Documents (incorrect - will fail)\n     - python \"/path/with spaces/script.py\" (correct)\n     - python /path/with spaces/script.py (incorrect - will fail)\n   - After ensuring proper quoting, execute the command\n   - Capture the output of the command\n\nUsage notes:\n  - The command parameter is required\n  - Commands run in an isolated sandbox environment\n  - Returns combined stdout/stderr output with exit code\n  - If the output is very large, it may be truncated\n  - VERY IMPORTANT: You MUST avoid using search commands like find and grep. Instead use the grep, glob tools to search. You MUST avoid read tools like cat, head, tail, and use read_file to read files.\n  - When issuing multiple commands, use the ';' or '&&' operator to separate them. DO NOT use newlines (newlines are ok in quoted strings)\n    - Use '&&' when commands depend on each other (e.g., \"mkdir dir && cd dir\")\n    - Use ';' only when you need to run commands sequentially but don't care if earlier commands fail\n  - Try to maintain your current working directory throughout the session by using absolute paths and avoiding usage of cd\n\nExamples:\n  Good examples:\n    - execute(command=\"pytest /foo/bar/tests\")\n    - execute(command=\"python /path/to/script.py\")\n    - execute(command=\"npm install && npm test\")\n\n  Bad examples (avoid these):\n    - execute(command=\"cd /foo/bar && pytest tests\")  # Use absolute path instead\n    - execute(command=\"cat file.txt\")  # Use read_file tool instead\n    - execute(command=\"find . -name '*.py'\")  # Use glob tool instead\n    - execute(command=\"grep -r 'pattern' .\")  # Use grep tool instead\n\nNote: This tool is only available if the backend supports execution (SandboxBackendProtocol).\nIf execution is not supported, the tool will return an error message.",
+      "parameters": {
+        "properties": {
+          "command": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "command"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "list_databases",
+      "description": "List authorized database names, database types, and how to access them.",
+      "parameters": {
+        "properties": {},
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "inspect_database",
+      "description": "List tables/collections, optionally filter names by substring; give a table to inspect its columns.",
+      "parameters": {
+        "properties": {
+          "database": {
+            "type": "string"
+          },
+          "table": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "pattern": {
+            "default": "",
+            "type": "string"
+          }
+        },
+        "required": [
+          "database"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "query_database",
+      "description": "Run read-only SQL (or Mongo JSON collection/filter/projection/limit or collection/pipeline). Save ALL rows and columns to a JSON file. Return valid JSON with the path, total row count and a size-bounded preview of complete rows. Oversized rows may be omitted from the preview; columns_truncated reports omitted column metadata. Read the saved file for the full result. For large transformations use execute and data_access.query directly.",
+      "parameters": {
+        "properties": {
+          "database": {
+            "type": "string"
+          },
+          "query": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "database",
+          "query"
+        ],
+        "type": "object"
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "submit_result",
+      "description": "Submit a typed result table saved under /workspace. Validates types and export integrity, NOT answer correctness. Required JSON: columns=[{name,type,unit?}], rows=[[cell,...]]. Successful submission ends the task.",
+      "parameters": {
+        "properties": {
+          "result_file": {
+            "type": "string"
+          },
+          "evidence": {
+            "default": "",
+            "type": "string"
+          }
+        },
+        "required": [
+          "result_file"
+        ],
+        "type": "object"
+      }
+    }
+  }
+]

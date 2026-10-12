@@ -1,0 +1,14 @@
+{
+  "asset": "public-review-evidence.zip",
+  "sha256": "32a638403e4d106d622f8962a341b109b5158ae4862061ee97a992ebf3245932",
+  "bytes": 14672494,
+  "files": 546,
+  "trials": 270,
+  "answers_sha256": "fc23146996bea944505e904f52239bd8efd1e4aa5a51204425dda3ae8adf0f17",
+  "status": "included_in_submission_branch",
+  "storage": "git",
+  "repository_path": "submissions/deepagents_opus55_20261009/public-review-evidence.zip",
+  "download_url": "https://github.com/XinhhD/DataAgentBench/raw/refs/heads/xinhhd/dab-deepagents-opus55-v10/submissions/deepagents_opus55_20261009/public-review-evidence.zip",
+  "scope": "All answers and original model/tool and command execution logs, with actual prompt, tool schemas and configuration description.",
+  "download_ref": "refs/heads/xinhhd/dab-deepagents-opus55-v10"
+}
