@@ -1,21 +1,31 @@
 # Genius Lab (Qwen 3.8 27B) — DAB submission notes
 
-**Agent name:** Genius Lab 0.0.30 (headless execution of the Genius Lab runtime, agent `openagent`)
+**Agent name:** Genius Lab 0.0.30
+
 **Team:** DIGITS PGEO
-**Backbone LLM:** Qwen 3.8 27B (served via an OpenAI-compatible endpoint, `qwen-skynet`; reasoning enabled)
-**Hints:** Yes (`db_description_withhint.txt` appended to the dataset description, as in the benchmark's own `--use_hints` runner)
+
+**Backbone LLM:** Qwen 3.8 27B (xhigh)
+
+**Hints:** Yes (`db_description_withhint.txt` appended to the dataset description)
+
 **Tuned prompt:** Yes — see `geniuslab_qwen38_27b_prompt.md` (exact template; rendered per-trial prompts in traces)
+
 **Pass@1 (stratified, mean of per-dataset means of per-query pass rates):** **0.5548**
+
 **Coverage:** 12 datasets × 54 queries × 5 runs = 270 trials, all with execution traces
+
+## About GeniusLab
+
+- **Genius** (Geothermal Next Level Intelligence System) Lab is an AI-powered desktop workspace designed for geothermal energy professionals to securely analyze technical data using on-premises LLMs, ensuring data privacy, security, and compliance for data residency.
 
 ## Files
 
 - `geniuslab_qwen38_27b_results.json` — 270 trials in the flat `{dataset, query, run, answer}` format
 - `geniuslab_qwen38_27b_traces.zip` — for every trial: `prompt.txt` (exact up-front prompt), `session.json` (full message trajectory incl. reasoning stream, tool calls and tool results), `answer.json` (extracted answer + run metadata); 270 trials × 3 files
-- `geniuslab_qwen38_27b_prompt.md` — the exact tuned prompt template (dynamic slots marked), plus the one-shot continuation nudge
+- `geniuslab_qwen38_27b_prompt.md` — the exact tuned prompt template (dynamic slots marked)
 - `geniuslab_qwen38_27b_notes.md` — this file
 
-## Harness
+## Environment Info
 
 - One agent session per trial, driven headless over the runtime's stdio host (the same sidecar process the Genius Lab desktop app spawns), approval mode `yolo` (permissions auto-approved), model `mkbot-llm/qwen-skynet`, 30-min cap per trial, one continuation nudge if the final `ANSWER:` line was missing, then the trial is recorded as-is.
 - File-based stores (SQLite/DuckDB) are copied per dataset into the agent's workspace `./data/`; the PostgreSQL stores are loaded once from the official SQL dumps into a local PostgreSQL 17 instance (loopback) and the MongoDB stores are restored once from the official BSON dumps into a local MongoDB 8 instance (loopback). The agent queries them with python (psycopg2 / pymongo / duckdb / sqlite3) in a dedicated virtualenv (packages: pandas, pyarrow, duckdb, psycopg2, pymongo).

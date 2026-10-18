@@ -86,15 +86,3 @@ Answer-format conventions:
   (Windows), e.g. `.../runs/<trial>/env/venv/Scripts/python.exe`.
 - `{{data_dir}}` / `{{scratch_dir}}` — per-trial absolute Windows paths.
 
-## Continuation nudge (sent at most once)
-
-If a trial's session ends without the required final line, the harness sends exactly
-one continuation message, then records the trial as-is:
-
-```
-Your previous turn ended WITHOUT the required final line. You have already done the work — do NOT redo it. If anything is still missing, finish it quickly from the data in ./data/, then end your LAST message with the exact line
-ANSWER: <your final answer as plain text>
-with nothing after the answer on that line.
-```
-
-No other system/user content is ever added by the harness.
