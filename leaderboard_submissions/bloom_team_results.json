@@ -1,0 +1,316 @@
+{
+  "team": "BLOOM",
+  "programme": "TRP1 FDE April 2026",
+  "model": "google/gemini-3.1-pro-preview",
+  "timestamp": "2026-04-18T21:00:00Z",
+  "agent_repo": "https://github.com/IbnuEyni/oracle-forge",
+  "dab_pr": "https://github.com/ucbepic/DataAgentBench/pulls (PR pending)",
+  "score_log": "eval/score_log.jsonl",
+  "overall": {
+    "passed": 19,
+    "total": 54,
+    "pass_at_1_pct": 35.2
+  },
+  "datasets": {
+    "yelp": {
+      "passed": 4,
+      "total": 7,
+      "score": 57.1,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": true
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        },
+        {
+          "query_id": 4,
+          "passed": false
+        },
+        {
+          "query_id": 5,
+          "passed": true
+        },
+        {
+          "query_id": 6,
+          "passed": true
+        },
+        {
+          "query_id": 7,
+          "passed": false
+        }
+      ]
+    },
+    "bookreview": {
+      "passed": 3,
+      "total": 3,
+      "score": 100.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": true
+        },
+        {
+          "query_id": 2,
+          "passed": true
+        },
+        {
+          "query_id": 3,
+          "passed": true
+        }
+      ]
+    },
+    "googlelocal": {
+      "passed": 1,
+      "total": 4,
+      "score": 25.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": false
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        },
+        {
+          "query_id": 4,
+          "passed": true
+        }
+      ]
+    },
+    "agnews": {
+      "passed": 1,
+      "total": 4,
+      "score": 25.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": false
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        },
+        {
+          "query_id": 4,
+          "passed": true
+        }
+      ]
+    },
+    "stockmarket": {
+      "passed": 1,
+      "total": 5,
+      "score": 20.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": true
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        },
+        {
+          "query_id": 4,
+          "passed": false
+        },
+        {
+          "query_id": 5,
+          "passed": false
+        }
+      ]
+    },
+    "stockindex": {
+      "passed": 2,
+      "total": 3,
+      "score": 66.7,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": true
+        },
+        {
+          "query_id": 2,
+          "passed": true
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        }
+      ]
+    },
+    "music_brainz_20k": {
+      "passed": 1,
+      "total": 3,
+      "score": 33.3,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": false
+        },
+        {
+          "query_id": 2,
+          "passed": true
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        }
+      ]
+    },
+    "crmarenapro": {
+      "passed": 6,
+      "total": 13,
+      "score": 46.2,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": true
+        },
+        {
+          "query_id": 2,
+          "passed": true
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        },
+        {
+          "query_id": 4,
+          "passed": false
+        },
+        {
+          "query_id": 5,
+          "passed": false
+        },
+        {
+          "query_id": 6,
+          "passed": true
+        },
+        {
+          "query_id": 7,
+          "passed": false
+        },
+        {
+          "query_id": 8,
+          "passed": false
+        },
+        {
+          "query_id": 9,
+          "passed": true
+        },
+        {
+          "query_id": 10,
+          "passed": false
+        },
+        {
+          "query_id": 11,
+          "passed": true
+        },
+        {
+          "query_id": 12,
+          "passed": false
+        },
+        {
+          "query_id": 13,
+          "passed": true
+        }
+      ]
+    },
+    "GITHUB_REPOS": {
+      "passed": 0,
+      "total": 4,
+      "score": 0.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": false
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        },
+        {
+          "query_id": 4,
+          "passed": false
+        }
+      ]
+    },
+    "PANCANCER_ATLAS": {
+      "passed": 0,
+      "total": 3,
+      "score": 0.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": false
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        }
+      ]
+    },
+    "PATENTS": {
+      "passed": 0,
+      "total": 3,
+      "score": 0.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": false
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        },
+        {
+          "query_id": 3,
+          "passed": false
+        }
+      ]
+    },
+    "DEPS_DEV_V1": {
+      "passed": 0,
+      "total": 2,
+      "score": 0.0,
+      "results": [
+        {
+          "query_id": 1,
+          "passed": false
+        },
+        {
+          "query_id": 2,
+          "passed": false
+        }
+      ]
+    }
+  }
+}
