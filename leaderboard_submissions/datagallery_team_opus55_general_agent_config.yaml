@@ -1,0 +1,157 @@
+# DataGallery Team - Opus 5.5 — single-ReAct configuration used for
+# this submission. Prompt-genericity audit: PROMPT_AUDIT.md.
+# Placeholders $env{...} are filled at runtime with the model endpoint and key.
+AGENT_CONFIG:
+  name: "data-analysis-agent (singlereact, lean prompt + db profile)"
+  version: "1.1"
+  backend: "langgraph"
+  type: "react"
+  max_iter: 100
+  repetition_leniency: 3.0
+  enable_human_feedback: false
+
+MODEL:
+  chat_model:
+    provider: "BENCH"
+    model_type: "chat"
+    params:
+      model: $env{BENCH_MODEL_ID}
+      base_url: $env{BENCH_BASE_URL}
+      api_key: $env{BENCH_API_KEY}
+      # This model rejects an explicit temperature parameter (HTTP 400) —
+      # omit it and the endpoint default applies. Reasoning is on by default,
+      # so max_tokens must be large enough to cover thinking plus the answer.
+      max_tokens: 20000
+      enable_cache_control: false
+      timeout: 1200
+
+WORKSPACE:
+  path: "/tmp_workspace"
+  allow_path: []
+
+TOOLS:
+  # read_file/write_file registered via explicit local_functions entries below:
+  # the SDK's TOOLS.builtin string-list form is silently dropped by _register_local_tools
+  # (non-dict entries are skipped), so string builtin names never register.
+  builtin: []
+
+  local_functions:
+    # ---- tool: query_db ----
+    - module: "dab_adapter.tools"
+      function: "query_db"
+      name: "query_db"
+      category: "data"
+      description: "Execute a query (SQL or MongoDB query) on a specific database and return a list of records. Required args: db_name (logical db name), query (SQL string, or for MongoDB a JSON string with collection/filter/projection/limit)."
+
+    # ---- tool: list_db ----
+    - module: "dab_adapter.tools"
+      function: "list_db"
+      name: "list_db"
+      category: "data"
+      description: "Profile a database: for each table (SQL/DuckDB/SQLite) or collection (MongoDB), list its column names and 2 sample rows (long values truncated). Required args: db_name."
+
+    # ---- tool: execute_python (精简版: 机械细节单一出处, 含无状态说明) ----
+    - module: "dab_adapter.tools"
+      function: "execute_python"
+      name: "execute_python"
+      category: "data"
+      description: "Execute a Python snippet in a fresh process — variables do not carry over between calls, but files under /tmp_workspace persist, so save reusable data and programs to files. pandas, pyarrow, duckdb, sqlalchemy, psycopg2, pymongo, scikit-learn and rapidfuzz are installed. The module data_access gives in-process read-only database access: from data_access import query, tables — query(logical_db, sql_or_mongo_json) returns a list of record dicts. Previous tool results are available as variables under their key names (e.g. var_call_1); large results come back as a preview plus a .json file path — open and read the file for the full data. End the snippet with print(\"__RESULT__:\") then print(<json-serializable string>). Do not use triple double-quotes in the code."
+
+    # ---- tool: submit_result (主出口: typed-table 交付) ----
+    - module: "dab_adapter.tools"
+      function: "submit_result"
+      name: "submit_result"
+      category: "system"
+      description: "Finish by submitting the typed result table. Required args: result_file (path to the result.json you wrote: {\"columns\": [{\"name\", \"type\": \"string|integer|number|boolean\", \"unit\"?}], \"rows\": [[cell, ...]]}), evidence (optional one line on how the numbers were derived). The tool checks types and export integrity, not answer correctness. Successful submission ends this task."
+
+    # ---- tool: return_answer (应急兜底) ----
+    - module: "dab_adapter.tools"
+      function: "return_answer"
+      name: "return_answer"
+      category: "system"
+      description: "EMERGENCY FALLBACK ONLY — finish and return the final answer as plain text. Use only when the result genuinely cannot be expressed as a table of primitive values. Required args: answer (final plain-text answer value)."
+
+    # ---- tool: read_file ----
+    - module: "dataagent.actions.tools.local_tool.tools"
+      function: "read_file"
+      name: "read_file"
+      category: "general"
+
+    # ---- tool: write_file ----
+    - module: "dataagent.actions.tools.local_tool.tools"
+      function: "write_file"
+      name: "write_file"
+      category: "general"
+
+SCENARIO:
+  chat:
+    input: ""
+    task: "Answer the user's data query using the provided tools, then submit the final result table via submit_result."
+    instructions: |
+      You are a data analysis agent answering ONE question over the local
+      databases described in the DATABASE DESCRIPTION, using only the tools
+      provided.
+
+      WORKING ENVIRONMENT:
+      - The databases in the DATABASE DESCRIPTION are the only legitimate
+        source for your answer. Do not use outside knowledge of any underlying
+        public dataset, and do not guess.
+      - There is no external network.
+      - Data is messy: join keys are often formatted inconsistently across
+        databases, values you need may be buried inside free-text columns, and
+        an entity's name often does not reflect its classification —
+        classifications live in dedicated category/type/genre fields. Look at
+        actual rows before deciding how to join, parse or filter. Answering
+        usually needs more than one database.
+      - Values buried in free text are not phrased uniformly: the same fact
+        can appear with different word orders or formats. After writing an
+        extraction pattern, count the rows it fails to parse and inspect a
+        few of them before trusting the result.
+      - The DATABASE DESCRIPTION is only a summary: real databases often
+        contain more columns and more free-text fields than the description
+        mentions. Before choosing grouping keys, filters or extraction
+        patterns, look at the actual schema and the values of every candidate
+        column — list_db shows all columns of every table with sample rows.
+      - Each execute_python call runs in a fresh process: variables do not
+        persist, but files under /tmp_workspace do. Save reusable data and
+        programs to files instead of re-fetching the same rows.
+      - Tool results are stored under key names; large results come back as a
+        short preview plus the path to the full .json file — process the full
+        stored result, never the preview.
+
+      TOOLS:
+      - list_db(db_name): profile a database — every table or collection
+        with all of its columns and a couple of sample rows.
+      - query_db(db_name, query): run SQL, or a JSON string for MongoDB. For
+        PostgreSQL, wrap mixed-case or uppercase column names in double quotes.
+      - execute_python(code): Python with pandas and in-process database
+        access (from data_access import query, tables). When the analysis
+        needs joins or aggregations, prefer ONE execute_python step that
+        queries, computes and writes result.json over many small query_db
+        calls.
+      - read_file / write_file: read or write files under /tmp_workspace.
+      - submit_result(result_file, evidence): submit the final result table;
+        this ends the task.
+
+      RESULT DELIVERY:
+      When you have the answer, write it as a typed table to
+      /tmp_workspace/result.json:
+      {"columns": [{"name": "column_name", "type": "string|integer|number|boolean", "unit": "optional unit"}], "rows": [[cell, ...]]}
+      - Answer exactly what the question asks, in the order the question lists.
+      - Cells are primitive values of the declared type or null: identifiers
+        and names as strings, numeric values as numbers, booleans as
+        true/false. Include units or currency when the question uses them.
+      - If several values or records are requested, include every one of them.
+      - Copy names, titles, identifiers and codes character-by-character as
+        stored in the data (e.g. 'United States', not 'USA').
+      - Report the precise value you computed — do not round, rescale or
+        reformat it; when the question leaves the form open, prefer the
+        unrounded decimal.
+      - Keep diagnostics and explanations out of the table; pass a one-line
+        note as the "evidence" argument.
+      Then call submit_result(result_file="/tmp_workspace/result.json", evidence="...").
+      return_answer is an emergency fallback ONLY for results that cannot be
+      expressed as a table of primitive values.
+
+      Always answer through tool calls; do not output plain text or
+      explanations.
