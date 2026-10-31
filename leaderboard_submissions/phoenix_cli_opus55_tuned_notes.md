@@ -1,8 +1,8 @@
-# Phoenix-CLI tuned v5: every note in the prompt
+# Phoenix-CLI tuned v6: every note in the prompt
 
 Each run's system prompt is the base prompt of our untuned entry #114, then `common.md`, then its dataset's note (`<dataset>.md`) if one exists, then its query's note (`<dataset>/queryN.md`) if one exists, each separated by a blank line. A query gets no note written for any other query. Every run's `isolation.json` lists the files it received with their sha256 (checked: all 270 runs received exactly the files below for their query, with these hashes).
 
-v5 = v4 plus one rule added to `agnews/query4.md` (label in this session, no subagents or Workflow), with agnews q4 rerun (5 runs). agnews q1-q3 and DEPS_DEV_V1 keep their v4 runs (v4 notes, identical to v5 for those queries); the other 10 datasets keep their v3 runs and v3 notes. Files that differ from v3: `DEPS_DEV_V1/query1.md` (one rule added in v4) and `agnews/query4.md` (new in v4, one rule added in v5). `common.md` is unchanged. Earlier versions are in `runner_tools.tar.gz` in the release.
+v6 = v5 with `agnews/query2.md` changed (one isolated sub-agent judgment per article; category definitions unchanged) and `DEPS_DEV_V1/query2.md` new, with those two queries rerun (5 runs each). Every other query keeps its earlier runs: agnews q4 from v5, agnews q1 and q3 and DEPS q1 from v4, the other 10 datasets from v3. Earlier versions are in `runner_tools.tar.gz` in the release.
 
 ## `common.md` (every query), sha256 `146597048ce0e805690a5759f4705095177723cfd569f7441eed6aad427dad3d`
 
@@ -31,12 +31,12 @@ PRICE DATA
   never treat a partial listing as the set of securities that have prices.
 ```
 
-## `agnews/query2.md` (agnews q2), sha256 `593ced4afae0e318d58dfe8ea28ac7ebbe77e21e49f4e7074640b35ae8206e1d`
+## `agnews/query2.md` (agnews q2) (v6 changed), sha256 `7ddadda6009c11f9227445e8548ecddee04252c37f9dd5bfc09d3d612b0f07d5`
 
 ```text
 CATEGORY LABELS (this dataset stores no category; you assign one per article)
-- Label articles one at a time by reading each title and description yourself. Do not
-  use keyword rules or a trained classifier for the articles the answer depends on.
+- Label by reading each article's complete title and description. Do not use keyword
+  rules or a trained classifier for the articles the answer depends on.
 - Every article gets exactly one of World, Sports, Business, Science/Technology, chosen
   by the story's main subject:
   - Business: companies as businesses (earnings, deals, mergers, layoffs, executives,
@@ -49,9 +49,12 @@ CATEGORY LABELS (this dataset stores no category; you assign one per article)
   - World: international affairs, politics, government, elections, conflict, crime and
     disasters, outside sport.
   - Sports: athletes, teams, games, leagues and sporting events.
-- Label each of the qualifying articles in three independent passes (do not consult an
-  earlier pass while labeling) and count each article under its majority label; if all
-  three passes differ, re-read the article and decide.
+- Every qualifying article gets its own isolated judgment: one sub-agent per article
+  (Agent tool, same model as you), given only that article's title and description and
+  the definitions above, never another article, a running tally or an expected share.
+  Do not label articles in a batch or in your own message.
+- Each sub-agent returns (article_id, label). Join by article_id, check that every
+  qualifying article has exactly one label, and report the count that results.
 ```
 
 ## `agnews/query3.md` (agnews q3), sha256 `31876e5b209161183e3cb144a8dd2e06aec2d0f3fd4f2cbd6679616c530256c3`
@@ -142,6 +145,13 @@ CATEGORY LABELS (this dataset stores no category; you assign one per article)
   value than ranks remain, fill the remaining ranks from that tied group; never skip past a
   tie to a lower value. Compute the ranking in SQL over the complete set (ORDER BY stars
   DESC), not over paged rows.
+```
+
+## `DEPS_DEV_V1/query2.md` (DEPS_DEV_V1 q2) (v6 new), sha256 `4c623c5cbd6df0b454d20552147f04113ba43dfd577c06f1b99394b2706ec92a`
+
+```text
+- A package name can contain ">" (a nested dependency path). Each distinct stored name
+  is its own package; keep such names whole when matching projects to their packages.
 ```
 
 ## `GITHUB_REPOS/query1.md` (GITHUB_REPOS q1), sha256 `face8387edbb12552c58c1cddbee3f6d84f2b1a5511b4a3afb39ad9d0a952a6f`
