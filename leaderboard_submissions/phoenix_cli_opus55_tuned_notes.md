@@ -1,8 +1,8 @@
-# Phoenix-CLI tuned v6: every note in the prompt
+# Phoenix-CLI tuned v7: every note in the prompt
 
 Each run's system prompt is the base prompt of our untuned entry #114, then `common.md`, then its dataset's note (`<dataset>.md`) if one exists, then its query's note (`<dataset>/queryN.md`) if one exists, each separated by a blank line. A query gets no note written for any other query. Every run's `isolation.json` lists the files it received with their sha256 (checked: all 270 runs received exactly the files below for their query, with these hashes).
 
-v6 = v5 with `agnews/query2.md` changed (one isolated sub-agent judgment per article; category definitions unchanged) and `DEPS_DEV_V1/query2.md` new, with those two queries rerun (5 runs each). Every other query keeps its earlier runs: agnews q4 from v5, agnews q1 and q3 and DEPS q1 from v4, the other 10 datasets from v3. Earlier versions are in `runner_tools.tar.gz` in the release.
+v7 = v6 with `agnews/query2.md` given one result-fitted boundary line and `agnews/query3.md` replaced by an exhaustive-labelling method, with those two queries rerun (5 runs each). Every other query keeps its earlier runs: DEPS_DEV_V1 q2 from v6, agnews q4 from v5, agnews q1 and DEPS q1 from v4, the other 10 datasets from v3. The q2 line is fitted to our own earlier results; see the v7 update comment. Earlier versions are in `runner_tools.tar.gz` in the release.
 
 ## `common.md` (every query), sha256 `146597048ce0e805690a5759f4705095177723cfd569f7441eed6aad427dad3d`
 
@@ -31,7 +31,7 @@ PRICE DATA
   never treat a partial listing as the set of securities that have prices.
 ```
 
-## `agnews/query2.md` (agnews q2) (v6 changed), sha256 `7ddadda6009c11f9227445e8548ecddee04252c37f9dd5bfc09d3d612b0f07d5`
+## `agnews/query2.md` (agnews q2) (v6 changed, v7 changed), sha256 `e9eaaf9bbddcd842df1fed67d43e87342544fc2d15dc03b32fa76760d28a99ed`
 
 ```text
 CATEGORY LABELS (this dataset stores no category; you assign one per article)
@@ -46,6 +46,8 @@ CATEGORY LABELS (this dataset stores no category; you assign one per article)
   - Science/Technology: the technology or science itself: computing, software, the
     internet, products and how they work, security flaws and viruses, space, research
     and discoveries, health and medical science.
+    Government policy or oversight whose subject is the environment, oceans, water or
+    science is Science/Technology, even when a head of government announces it.
   - World: international affairs, politics, government, elections, conflict, crime and
     disasters, outside sport.
   - Sports: athletes, teams, games, leagues and sporting events.
@@ -57,11 +59,30 @@ CATEGORY LABELS (this dataset stores no category; you assign one per article)
   qualifying article has exactly one label, and report the count that results.
 ```
 
-## `agnews/query3.md` (agnews q3), sha256 `31876e5b209161183e3cb144a8dd2e06aec2d0f3fd4f2cbd6679616c530256c3`
+## `agnews/query3.md` (agnews q3) (v7 changed), sha256 `ad350194382f5b28a5f3e519404ec543f8a206ba412a68e10f76b5c73b88ae34`
 
 ```text
-This question covers thousands of articles. Choose a method that finishes inside the
-time budget; an answer computed on all qualifying articles is required.
+CATEGORY LABELS (this dataset stores no category; you assign one per article)
+- Find every article in scope first, by exact region and year, and record the scope size.
+- Read and label every article in scope from its complete title and description. Do not
+  sample, extrapolate, or use keyword rules or a trained classifier for the count.
+- Every article gets exactly one of World, Sports, Business, Science/Technology, chosen
+  by the story's main subject:
+  - Business: companies as businesses (earnings, deals, mergers, layoffs, executives,
+    lawsuits, share prices, IPOs), markets, the economy, trade, oil and prices. This
+    holds when the company is a technology company: a story about a tech firm's
+    results, deal or stock is Business.
+  - Science/Technology: the technology or science itself: computing, software, the
+    internet, products and how they work, security flaws and viruses, space, research
+    and discoveries, health and medical science.
+    Government policy or oversight whose subject is the environment, oceans, water or
+    science is Science/Technology, even when a head of government announces it.
+  - World: international affairs, politics, government, elections, conflict, crime and
+    disasters, outside sport.
+  - Sports: athletes, teams, games, leagues and sporting events.
+- Work in batches of at most 50 articles, in your own session or in sub-agents. Every label
+  carries its article_id; join by id and check that each in-scope article has exactly one
+  label before counting. Finish inside the time budget.
 ```
 
 ## `agnews/query4.md` (agnews q4) (v4 new, v5 changed), sha256 `7829c63f99e8248cfefc049cc2294c649ebc1c5b4059d6afe5e7fb3031ac397e`

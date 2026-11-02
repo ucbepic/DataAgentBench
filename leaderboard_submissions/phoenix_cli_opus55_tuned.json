@@ -393,61 +393,61 @@
   "dataset": "agnews",
   "query": "2",
   "run": "0",
-  "answer": "15/111 ≈ 0.1351 (13.5%)"
+  "answer": "17/111 ≈ 0.153 (15.3%)"
  },
  {
   "dataset": "agnews",
   "query": "2",
   "run": "1",
-  "answer": "15/111 = 5/37 ≈ 0.1351 (13.5%)"
+  "answer": "16/111 ≈ 0.144 (14.4%)"
  },
  {
   "dataset": "agnews",
   "query": "2",
   "run": "2",
-  "answer": "15/111 = 5/37 ≈ 0.135 (13.5%)"
+  "answer": "16/111 ≈ 0.144 (14.4%)"
  },
  {
   "dataset": "agnews",
   "query": "2",
   "run": "3",
-  "answer": "15/111 ≈ 0.1351 (13.5%)"
+  "answer": "16/111 ≈ 0.144 (14.4%)"
  },
  {
   "dataset": "agnews",
   "query": "2",
   "run": "4",
-  "answer": "16/111 ≈ 0.144 (14.4%)"
+  "answer": "16/111 ≈ 0.1441 (14.41%)"
  },
  {
   "dataset": "agnews",
   "query": "3",
   "run": "0",
-  "answer": "≈336 business articles per year (about 3,693 over 2010–2020 ÷ 11 years ≈ 335.7)"
+  "answer": "401.18"
  },
  {
   "dataset": "agnews",
   "query": "3",
   "run": "1",
-  "answer": "≈343 business articles per year"
+  "answer": "403.91"
  },
  {
   "dataset": "agnews",
   "query": "3",
   "run": "2",
-  "answer": "340"
+  "answer": "389.64"
  },
  {
   "dataset": "agnews",
   "query": "3",
   "run": "3",
-  "answer": "≈347.8 business articles per year (3,826 total over 11 years)"
+  "answer": "396.27"
  },
  {
   "dataset": "agnews",
   "query": "3",
   "run": "4",
-  "answer": "≈344 business articles per year (about 3,790 in total over 2010–2020)"
+  "answer": "383.09"
  },
  {
   "dataset": "agnews",
