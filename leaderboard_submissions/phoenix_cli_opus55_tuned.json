@@ -393,7 +393,7 @@
   "dataset": "agnews",
   "query": "2",
   "run": "0",
-  "answer": "17/111 ≈ 0.153 (15.3%)"
+  "answer": "16/111 ≈ 0.144 (14.4%)"
  },
  {
   "dataset": "agnews",
@@ -411,13 +411,13 @@
   "dataset": "agnews",
   "query": "2",
   "run": "3",
-  "answer": "16/111 ≈ 0.144 (14.4%)"
+  "answer": "16/111 ≈ 0.144"
  },
  {
   "dataset": "agnews",
   "query": "2",
   "run": "4",
-  "answer": "16/111 ≈ 0.1441 (14.41%)"
+  "answer": "16/111 ≈ 0.144 (14.4%)"
  },
  {
   "dataset": "agnews",
