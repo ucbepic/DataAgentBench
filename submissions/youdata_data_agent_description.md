@@ -27,6 +27,14 @@ shared cross-dataset connection. The assistants share only the platform runtime 
 backbone model. The exact prompts are recorded in
 [youdata_data_agent_system_prompts.md](youdata_data_agent_system_prompts.md).
 
+## Clean rerun note
+
+Following review feedback on cross-run workspace contamination, `stockmarket` query 2 runs
+0-2 were rerun in isolated workspaces with the same assistant configuration (prompt, model,
+resources, and tool-call limit). The rerun traces contain no references to prior dialog
+directories or assistant-level `.claude/projects` session logs. All three reruns passed the
+official validator.
+
 
 ## Data access
 
