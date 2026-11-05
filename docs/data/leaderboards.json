@@ -95,12 +95,12 @@
       "agent": "DataGallery (Claude Opus 5.5)",
       "trials": 5,
       "passAt1": 0.8886,
-      "promptGroup": "general-purpose",
+      "promptGroup": "benchmark-informed",
       "team": "DataGallery Team",
       "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/123",
       "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/123",
       "date": "2026-10-17",
-      "note": "Single ReAct agent on Claude Opus 5.5 with list_db, query_db, execute_python, read_file/write_file and typed-table delivery through submit_result. One general prompt (lean_prompt_v1.1) byte-identical across all 270 trials, with general guidance on messy join keys, values in free text and checking the full schema; the per-query part is exactly the benchmark question, db_description.txt and db_description_withhint.txt. No evidence catalog, methodology notes or schema profiles. Hints used. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, all file access inside the trial's own workspace, and every passing answer derived in the trial's own tool outputs. No timeouts or empty answers. Independently re-validated: 240/270, stratified 0.888645, matching the submitter's score. Full execution traces provided for all 270 trials."
+      "note": "Single ReAct agent on Claude Opus 5.5 with list_db, query_db, execute_python, read_file/write_file and typed-table delivery through submit_result. One prompt (lean_prompt_v1.1) byte-identical across all 270 trials. It gives guidance on messy join keys, values in free text and checking the full schema. It also includes a DAB-derived rule that classifications live in dedicated category/type/genre fields rather than entity names, which was absent from the team's earlier prompt (#120), so it is classed as tuned; the per-query part is exactly the benchmark question, db_description.txt and db_description_withhint.txt. No evidence catalog, methodology notes or schema profiles. Hints used. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, all file access inside the trial's own workspace, and every passing answer derived in the trial's own tool outputs. No timeouts or empty answers. Independently re-validated: 240/270, stratified 0.888645, matching the submitter's score. Full execution traces provided for all 270 trials."
     },
     {
       "rank": 9,
