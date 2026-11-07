@@ -20,6 +20,18 @@
     },
     {
       "rank": 2,
+      "agent": "Phoenix-CLI tuned v9 (Claude Opus 5.5)",
+      "trials": 5,
+      "passAt1": 0.975,
+      "promptGroup": "benchmark-informed",
+      "team": "Phoenix-CLI",
+      "teamUrl": "https://github.com/ucbepic/DataAgentBench/pull/134",
+      "prUrl": "https://github.com/ucbepic/DataAgentBench/pull/134",
+      "date": "2026-11-02",
+      "note": "Revised version of the PR #124 entry (0.9583), which stays listed as its own entry. Same runner, model (Claude Opus 5.5, Claude Code CLI 2.1.283), isolation and base system prompt as PR #124 and PR #114; the user prompt is the benchmark question, db_description.txt and db_description_withhint.txt only. 260 of the 270 runs are byte-identical to the PR #124 bundle; only agnews q2 and q3 were rerun under revised notes. Tuned prompt: the same author-written notes as PR #124 (one for every query, one for stockmarket, 20 written for single queries), with two changes. The agnews q3 note now carries full category definitions. The agnews q2 note adds two definition sentences that the submitter wrote after seeing which single article decided pass or fail in their earlier runs, while the public q2 count was known, and has the agent label each article with two isolated subagent judgments (a third where they differ). A v8 variant of the q2 note scored 3 of 5 and was not adopted; it is disclosed in the PR. All 5 trials of each query ran under the same notes. Every run's system prompt hash was rebuilt from the published notes and matches. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in the trial's own tool outputs (each agnews q2 run prints its own tally of 16 of 111). Independently re-validated: 264/270, stratified 0.9750, matching the submitter's figure. Scored on the text after the agent's own FINAL ANSWER: marker, as for PR #124; full-text scoring would give 0.9347. Full execution traces provided for all 270 trials."
+    },
+    {
+      "rank": 3,
       "agent": "Scout v2 (OceanBase Lab) (GLM-5.2)",
       "trials": 5,
       "passAt1": 0.9667,
@@ -31,7 +43,7 @@
       "note": "Second Scout submission, after PR #96 (0.9062), which stays listed as its own entry. Same architecture and tool set: a tool-using main agent (GLM-5.2, thinking disabled) with on-demand planner subagents, a deterministic workflow compiler and data kernel over each task's sanctioned stores, LLM-backed extract_fields and classify_aggregate tools, and a network-isolated Python sandbox. Uses db_description_withhint.txt hints. Tuned prompt: a fixed system prompt with rules shaped by benchmark questions plus a per-query, runtime-generated pre-analysis block (schema facts, join probes, question-to-column bindings, answer-shape contract) built from the planner's own queries in the same run; the opening user message is the benchmark question plus description and hints only. Tuned tools: domain-specific analysis operators built for single queries, each used in every trial of its target query: temporal_ema_group_extremum and a compute_ema_and_find_best_year helper (PATENTS q1, q2), hierarchical_code_rollup_lookup (PATENTS), periodic_investment_return (stockindex q3), contingency_test (PANCANCER_ATLAS q3), duplicate_content_rank (GITHUB_REPOS q2), state_transition_aggregate (crmarenapro q8) and interval_duration_aggregate (crmarenapro q9, q10, q12), versioned_entity_rank (DEPS_DEV_V1 q1). Data-cleaning tools for dataset quirks: ID transforms that strip a leading # and trailing whitespace (crmarenapro) or map ID prefixes (yelp, bookreview), schedule_filter for free-text opening hours (googlelocal q3), nested attribute-flag parsing (yelp), natural-language date and country-code parsing (PATENTS) and entity_resolved_aggregate for duplicate records (music_brainz_20k). 20 trials used the harness's restart after an empty first attempt; the restart is triggered by a missing answer, not by validation. The agnews trials were run later than the other datasets. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, no cross-run memory or shared cache, no ground-truth values in any prompt beyond the question's own option lists and the planner's in-run query results, and every passing answer derived in the trial's own tool outputs. Independently re-validated: 262/270, stratified 0.9667, matching the submitter's figure. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 3,
+      "rank": 4,
       "agent": "Datasage (GLM-5.3) + Jev 1.13.0",
       "trials": 5,
       "passAt1": 0.9628,
@@ -43,7 +55,7 @@
       "note": "Single agent (GLM-5.3) over the benchmark's query_db/list_db/execute_python/return_answer tools plus a harness of analysis-contract, profiling, workflow and classification tools, with a Jev 1.13.0 model used for semantic classification. Uses db_description_withhint.txt hints; the opening prompt is byte-exact benchmark content for all 54 queries. Tuned prompt: one 38.8 KB system prompt shared by all trials (agnews queries 3 and 4 add one paragraph) with rules written for specific benchmark questions, such as how to seed an exponential moving average, how to treat 'main language is not Python', and how to read CPC hierarchy levels. Tuned tools: the harness ships task-specific tools, including an exponential moving average helper that returns the earliest peak year (PATENTS q1, q2), a CPC hierarchy-level mapper (PATENTS q3), an opening-hours parser and schedule filter (googlelocal q3), a policy-compliance decision tool (crmarenapro q2, q6, q7), a partitioned query over per-ticker tables (stockmarket), a numbers-from-text extractor (DEPS_DEV_V1, GITHUB_REPOS) and a fuzzy entity-resolution tool (music_brainz_20k). Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in its own tool outputs. All 5 agnews q3 trials ended in a classifier transport error with no answer and count as non-passes. Independently re-validated: 259/270, stratified 0.9628, matching the submitter's figure. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 4,
+      "rank": 5,
       "agent": "Phoenix-CLI tuned (Claude Opus 5.5)",
       "trials": 5,
       "passAt1": 0.9583,
@@ -55,7 +67,7 @@
       "note": "Tuned version of the PR #114 entry (0.8621), which stays listed as its own entry. Same runner, model (Claude Opus 5.5, Claude Code CLI 2.1.283) and isolation as PR #114; the base system prompt is byte-identical. The user prompt is the benchmark question, db_description.txt and db_description_withhint.txt only. Tuned prompt: author-written notes appended to the system prompt: one for every query (answer discipline, the 200-row display limit), one for stockmarket, and 20 notes each written for a single query (for example the stage order for crmarenapro q3, the closing-date definition for crmarenapro q12, the README join for GITHUB_REPOS q1, keying PANCANCER_ATLAS q1 by ICD-O-3 code, EMA seeding and tie-breaking for PATENTS q2). The submitter wrote the notes after seeing which of their own runs passed; no note contains an answer value. Trials come from several passes under different note versions: agnews and DEPS_DEV_V1 queries from later passes, the other 10 datasets from one pass; all 5 trials of each query ran under the same notes. In agnews q2 the agent labels each article through its own Claude Code subagent; in agnews q3 some runs also use subagents. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in the trial's own tool outputs. Scored on the text after the agent's own FINAL ANSWER: marker, as for PR #114; full-text scoring would give 0.9181. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 5,
+      "rank": 6,
       "agent": "Camber v2 (Claude Opus 5, high effort)",
       "trials": 5,
       "passAt1": 0.9542,
@@ -67,7 +79,7 @@
       "note": "Second Camber submission, after PR #92 (0.8790), which stays listed as its own entry. Twelve per-dataset Camber Cloud notebook agents, one per DAB dataset, each invoked once per trial as an independent conversation (camber chat --agent @camber-dev.<dataset>), Claude Opus 5 via Amazon Bedrock at high reasoning effort. The agent drives a Jupyter kernel through generate_code/append_code_cell over that dataset's sanctioned stores. No web, shell or document-search tool. The submitter reran the 16 queries of DEPS_DEV_V1, GITHUB_REPOS, PANCANCER_ATLAS and yelp (all 5 trials of each) and carried over the other 38 queries, whose answers and traces are byte-identical to the PR #92 bundle. Tuned prompt: a per-dataset system prompt embedding db_description.txt verbatim, an author-written schema profile obtained by introspecting the sanctioned files, connection instructions, answer-shape guidance and a dataset-notes section. Nine prompts are unchanged from PR #92, including yelp; deps_dev_v1, github_repos and pancancer_atlas were revised. The revised notes are written with the benchmark questions in view (join keys, prose-parsing templates, sentinel handling, where to apply a threshold, a formatting self-check) but state no values or answer keys. The one decisive change, describing files.id as the key into contents.id on GITHUB_REPOS, restates the benchmark's own column descriptions and hint, and the PR #92 pitfall that steered agents toward sample_path matching was removed; GITHUB_REPOS q1 went from 0/5 to 5/5 on that. PANCANCER_ATLAS q1's single PR #92 failure was a print-format miss fixed by the self-check. Hints: the deps_dev_v1 and github_repos prompts quote benchmark hint lines verbatim (2 of 47 hint lines overall); the other ten prompts carry none. Prompts supplied by the submitter and audited: no verbatim ground truth. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and no cross-dataset access. Scored on the full answer text. Answer-section scoring would give 0.9369, since responses append a method/caveat section that sometimes names the gold value while the stated answer differs (four reused trials, the same as in PR #92)."
     },
     {
-      "rank": 6,
+      "rank": 7,
       "agent": "Permute EQ (Claude Opus 5)",
       "trials": 5,
       "passAt1": 0.9467,
@@ -79,7 +91,7 @@
       "note": "Learned evidence layer plus an independent execution agent. Per query a frozen 'Arbiter1' evidence JSON (column and relation routing, data previews, an execution plan) is supplied as a queryable table, and a fresh Claude Opus 5 agent (max reasoning, 100 steps) answers over the sanctioned stores through DuckDB and a calculator. Uses db_description_withhint.txt hints, delivered in full for all 12 datasets. No web, shell or document-search tool. Trace audit found no external fetches and no reads of ground truth, validators, prior runs or other submissions; DuckDB glob/read_text are unfiltered and were used in some stockmarket trials, but returned only sanctioned parquet stores and one benchmark hints file already present in the prompt. Two fixed prompts were used across a 27/27 split; the second carries three question-scoped rules, two presentational and one, scoped to GITHUB_REPOS q1, governing population selection. Scored on the answer section only: responses also contain contract tables and audits that can name the gold value while the stated answer differs, which inflates full-text scoring from 0.8713 to 0.9133. One bookreview trial was re-scored upward after the answer-section rule was found to truncate before a later 'Matching Books' table whose titles were present in the answer. Full execution traces provided for all 270 trials. Updated in PR #95: GITHUB_REPOS q2 rerun after the query wording was clarified, and full 5-trial reruns of crmarenapro q3/q7/q9 and DEPS_DEV_V1 q1. Those reruns use query-specific prompts (5 prompt variants across the 54 queries); crmarenapro q3/q7/q9 carry a CONDITIONAL EXECUTION RULES block not present in the other 51 queries."
     },
     {
-      "rank": 7,
+      "rank": 8,
       "agent": "DUO (Greatyu × CUHK) (DeepSeek V4.1 Flash)",
       "trials": 5,
       "passAt1": 0.923,
@@ -91,7 +103,7 @@
       "note": "OpenCode agent on DeepSeek V4.1 Flash, one sandboxed session per trial, with the dab MCP server (load_dataset, get_db_description, list_db, query_db) over the task's sanctioned stores plus sandbox shell, file and subagent tools; network egress limited to the model API. Uses db_description_withhint.txt hints. Tuned prompt: a benchmark-wide system contract, one convention note per dataset, and query-level notes for 16 of the 54 queries, all disclosed verbatim in leaderboard_submissions/duo_notes.md. Several query notes were calibrated against failing traces and the validator convention (DEPS_DEV_V1 q1 states that the validator accepts any single tied package; crmarenapro q2 names the cost conflict as the expected answer), and the agnews q2/q3 notes give detailed category boundary rules. No ground-truth values in any prompt. Trace audit over all 270 trials, including subagent sessions recovered from the bundled session databases for 9 agnews runs whose exported trace was a child session, found no external fetches (pip install attempts were blocked by the proxy), no reads of ground truth, validators, prior runs or other submissions, opening prompts consisting only of the benchmark inputs and the disclosed notes, and every passing answer derived in the trial's own tool outputs. Scored on the text before each response's 'Verification notes' section (the full response when it has none), since those notes sometimes name the gold value while the stated answer differs (agnews q4, PANCANCER_ATLAS q2, yelp q4, DEPS_DEV_V1 q2). Full-text scoring gives 0.9611, the submitter's figure. Independently re-validated: 253/270, stratified 0.923016. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 8,
+      "rank": 9,
       "agent": "Scout (OceanBase Lab) (GLM-5.2)",
       "trials": 5,
       "passAt1": 0.9062,
@@ -103,7 +115,7 @@
       "note": "Tool-using main agent (GLM-5.2, thinking disabled) with on-demand planner subagents, a deterministic workflow compiler and data kernel over each task's sanctioned stores, LLM-backed extract_fields and classify_aggregate tools, and a network-isolated Python sandbox. Uses db_description_withhint.txt hints. Tuned prompt: a per-query, runtime-generated pre-analysis block (schema facts, measured join overlaps, question-to-column bindings, answer-shape contract) is placed in the system prompt; the opening user message is the benchmark question plus description and hints only. Tuned tools: the harness ships workflow operators built for specific DAB question shapes, e.g. temporal_ema_group_extremum and a compute_ema_and_find_best_year helper (PATENTS EMA queries), periodic_investment_return (stockindex q3), contingency_test (PANCANCER_ATLAS q3), duplicate_content_rank (GITHUB_REPOS q2), schedule_filter (googlelocal q3), state_transition_aggregate and interval_duration_aggregate (crmarenapro q8 and q10), versioned_entity_rank (DEPS_DEV_V1 q1). Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, no ground-truth values in any prompt, and every passing answer derived in the trial's own tool outputs. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 9,
+      "rank": 10,
       "agent": "DataGallery (Claude Opus 5.5)",
       "trials": 5,
       "passAt1": 0.8886,
@@ -115,7 +127,7 @@
       "note": "Single ReAct agent on Claude Opus 5.5 with list_db, query_db, execute_python, read_file/write_file and typed-table delivery through submit_result. One prompt (lean_prompt_v1.1) byte-identical across all 270 trials. It gives guidance on messy join keys, values in free text and checking the full schema. It also includes a DAB-derived rule that classifications live in dedicated category/type/genre fields rather than entity names, which was absent from the team's earlier prompt (#120), so it is classed as tuned; the per-query part is exactly the benchmark question, db_description.txt and db_description_withhint.txt. No evidence catalog, methodology notes or schema profiles. Hints used. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, all file access inside the trial's own workspace, and every passing answer derived in the trial's own tool outputs. No timeouts or empty answers. Independently re-validated: 240/270, stratified 0.888645, matching the submitter's score. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 10,
+      "rank": 11,
       "agent": "Scrybe (AlphaSygnal) (Claude Opus 5.5 + Jev 1.14)",
       "trials": 5,
       "passAt1": 0.8858,
@@ -127,7 +139,7 @@
       "note": "Multi-stage harness on Claude Opus 5.5: a tool-less intake planner, three interpretation briefs merged into one, and a single OpenCode worker per trial with SQL/Mongo query tools, Python, a code-computed question-blind data profile, and specialist tools (sage locator, joincheck, bounds, an Opus verify review, and jlabel row labelling with TypeSafe Jev 1.14 plus an Opus judge sample). One generic prompt set, byte-identical across all 270 trials, with no dataset or query names. Its interpretation rules include two that the team's development log says were derived from benchmark pass/fail outcomes; these resolve ambiguous wording rather than give domain rules, and the entry is classed as general-purpose. Hints used. Trace audit over all 2,963 worker tool calls found no network fetches, no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in the trial's own tool outputs. Four infrastructure retries (empty or unsolved attempts), none of which changed a score. Independently re-validated: 240/270, stratified 0.885760, matching the submitter's score. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 11,
+      "rank": 12,
       "agent": "AIDBS-DataAgent (Claude Opus 5.5)",
       "trials": 5,
       "passAt1": 0.8817,
@@ -139,7 +151,7 @@
       "note": "Single DeepAgents agent, Claude Opus 5.5, with 12 tools: list_databases, inspect_database, query_database and submit_result over each task's sanctioned stores, plus the DeepAgents built-ins (write_todos, ls, read_file, write_file, edit_file, glob, grep, execute for shell and Python in an isolated sandbox with no external network). submit_result checks types only, not correctness. Budget of 160 model calls and 1,800 seconds per trial. Uses db_description_withhint.txt hints. One generic system prompt, byte-identical across all 1,406 recorded model requests, with no dataset- or query-specific content; the opening user message is the benchmark question, db_description.txt and db_description_withhint.txt plus a one-line submit instruction, for all 270 trials. The submitter discloses that the prompt was developed after earlier Qwen/Opus runs and a review of their scores and of public submissions; no per-query feedback was supplied to the agent. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in the trial's own tool outputs; each answer matches the checksum recorded at its trial's single successful submit. Scored with the benchmark validators. 6 passing trials list wrong items alongside the gold answer and pass because the validator checks only that the gold items are present: crmarenapro q1 (all 5 trials name extra BANT factors besides Authority) and PATENTS q3 run 0 (an extra citing assignee). Counting them as non-passes would give 0.8698. In 4 further passing trials of PANCANCER_ATLAS q2 the three histological types are correct but the reported percentages are not; the validator checks the types only. Independently re-validated: 236/270, stratified 0.8817, matching the submitter's figure. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 12,
+      "rank": 13,
       "agent": "Camber (Claude Opus 5, high effort)",
       "trials": 5,
       "passAt1": 0.879,
@@ -151,7 +163,7 @@
       "note": "Twelve per-dataset Camber Cloud notebook agents, one per DAB dataset, each invoked once per trial as an independent conversation (camber chat --agent @camber-dev.<dataset>), Claude Opus 5 via Amazon Bedrock at high reasoning effort. The agent drives a Jupyter kernel through generate_code/append_code_cell over that dataset's sanctioned stores. No web, shell or document-search tool. Tuned prompt: a per-dataset system prompt embedding db_description.txt verbatim, an author-written schema profile (types, nullability, row counts, observed value sets) obtained by introspecting the sanctioned files, connection instructions, answer-shape guidance and a 'Known Pitfalls' section. The prompts were supplied on request and audited: no verbatim ground truth, and the pitfalls hand the decisive interpretation back to the agent rather than stating it. Hints marked yes per the submission's own declaration, but the audit found no use of db_description_withhint.txt: 0 of 47 hint lines appear in any prompt or in any of the 270 traces, no trace references the hint or description files, and on stockmarket the agent decodes only the status letters present in the data (N, D, H), inconsistently across runs, without the E/G/J/K, listing-exchange or market-category tables the hint file spells out; on stockindex the prompt supplies no volatility formula or up/down-day definition. Query raised with the submitter. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and no cross-dataset access. Six trials shipped with an empty tool_call_parts and were supplied afterwards from the submitter's observability store; their Bedrock timestamps reconcile with the started_at values published in the original bundle, and all 270 answers are byte-identical to the original submission. Scored on the full answer text. Answer-section scoring would give 0.8534 (0.8492 after a hand correction to GITHUB_REPOS q4), since responses append a method/caveat section that sometimes names the gold value while the stated answer differs."
     },
     {
-      "rank": 13,
+      "rank": 14,
       "agent": "DVIndex (GPT-6 Astra, high effort) + Jev 1.13.0",
       "trials": 5,
       "passAt1": 0.8768,
@@ -163,7 +175,7 @@
       "note": "OpenCode V2 primary agent (gpt-6-astra, high reasoning; optional same-model helpers via data_delegate) operating native protected data tools (data_query, data_schema, data_analyze Python, data_result, data_document_read, data_semantic) over each task's sanctioned stores; no shell, file or network tool. AGNews queries 2-4 are classified by a separate Jev 1.13.0 zero-shot classifier called through data_semantic. Uses db_description_withhint.txt hints; the opening prompt is byte-exact benchmark content for all 54 queries. Tuned prompt: a generic system prompt plus a dataset-level 'developer-workflow' guidance block for 10 of 12 datasets (pitfall checklists on date formats, entity resolution, join multiplicity and grain, and instructions to compute and label alternative interpretations instead of asking for a definition); no query-specific content, tools or values. All 5 trials were rerun and replaced for 7 questions: agnews q2-q4 after a classifier-integration failure (originals had empty answers) and crmarenapro q2/q7/q8/q12 under revised guidance (those 20 trials went from 1 to 9 passes); originals are retained in the bundle. Trace audit over all 306 supplied traces found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in its own tool outputs. Scored on the full answer text. 18 passing trials rely on a labelled alternative rather than the stated answer (yelp q2, PANCANCER_ATLAS q1, crmarenapro q1/q2/q12); counting them as non-passes would give 0.8355. 4 trials failed or were cancelled with empty answers and count as non-passes. Independently re-validated: 238/270, stratified 0.8768, zero disagreements with the submitter's per-trial verdicts. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 14,
+      "rank": 15,
       "agent": "Phoenix-CLI (Claude Opus 5.5)",
       "trials": 5,
       "passAt1": 0.8621,
@@ -175,7 +187,7 @@
       "note": "Second Phoenix-CLI submission, after PR #94 (0.7556), which stays listed as its own entry. Claude Code CLI (2.1.283) driven one query per process (claude --print), Claude Opus 5.5, hints used, generic data-analyst system prompt byte-identical to the PR #94 run. The user prompt is the benchmark question, db_description.txt and db_description_withhint.txt only; 53 of 54 are byte-identical to PR #94, and GITHUB_REPOS q2 picks up the benchmark's 2026-08-18 wording clarification. All data access goes through a helper that reads each dataset's own db_config.yaml; the agent runs as an unprivileged user for whom ground truth, validators and prior runs are unreadable, with a preflight sweep recorded per run; WebSearch and WebFetch disallowed (0 web calls across 270 traces); nested model CLIs shadowed by refusing shims. In five agnews trials the agent spawned Claude Code subagents to label articles by reading them: Claude Sonnet 5 in agnews q3 run 0, q4 run 0 and q4 run 3, Claude Opus 5.5 in q3 run 3 and q4 run 2. Trace audit over all 270 trials found no external fetches (five agnews probes for transformers, torch, a Hugging Face cache and ollama all failed), no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in the trial's own tool outputs. Scored on the text after the agent's own FINAL ANSWER: marker, as for PR #94; full-text scoring would give 0.8224. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 15,
+      "rank": 16,
       "agent": "Sentinel (Actioneer) (Fable 5) + Claude Opus 4.7",
       "trials": 5,
       "passAt1": 0.8617,
@@ -187,7 +199,7 @@
       "note": "Single-agent ReAct executor operating a sandboxed Python REPL over each task's sanctioned stores, with a deterministic verify_step assertion layer (row-count/uniqueness/non-null/dtype/range checks on intermediate results). Fable 5 backbone (primary); Claude Opus 4.7 on the 3 PANCANCER_ATLAS queries where Fable 5 declines the clinical-genomics domain. Uses db_description_withhint.txt hints. The agnews traces show external label-fetch attempts (load_dataset, raw.githubusercontent, HuggingFace cache), all sandbox-blocked with 0 bytes obtained; no off-limits data drove any answer. No gold values, per-dataset rules, or validator references. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 16,
+      "rank": 17,
       "agent": "Permute Core (Claude Opus 5)",
       "trials": 5,
       "passAt1": 0.8413,
@@ -199,7 +211,7 @@
       "note": "Single-agent analytical executor over a read-only DuckDB interface to each task's sanctioned stores, with a deterministic evidence layer (schema, join, data-quality and temporal-format profiling) filtered per query at runtime and a select_result_candidate provenance gate. Claude Opus 5 backbone (max reasoning). Uses db_description_withhint.txt hints. The harness exposes no file, shell or network tool: no web or external-dataset fetches, no off-limits reads, and no file-reading DuckDB functions in any of the 2946 SQL calls across the 270 traces; the Python tool was non-functional for the whole run, so all analysis went through SQL. Every opening prompt is the benchmark question plus db_description.txt and its hints and nothing else, identical across the 5 runs of each query; the PATENTS prompts carry only 5 of the 7 hints present at the cited commit. No gold values, per-dataset rules, or validator references. The traces publish the user prompt, every tool call with its output, and the final answer, but not the system prompt or the query-specific evidence payload; every object the agent cites from that layer appears in the published trace, and the data-quality facts it encodes restate hints the benchmark already gives. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "agent": "Alkera (Fable 5) + Claude Opus 4.8",
       "trials": 5,
       "passAt1": 0.8411,
@@ -211,7 +223,7 @@
       "note": "Runs the same benchmark-agnostic \"data engineering best practices\" system addendum as the team's Opus 4.8 submission (#69), byte-identical across all 270 trials; Fable 5 backbone (max reasoning) with fallback to Claude Opus 4.8 (xhigh) on Fable safety refusals (15 of 270 trials). No gold values, per-dataset rules, or validator references. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 18,
+      "rank": 19,
       "agent": "Sarvam Code v0.36 (GLM-5.2)",
       "trials": 5,
       "passAt1": 0.8208,
@@ -223,7 +235,7 @@
       "note": "Single data-engineering agent (sarvam-code CLI v0.36.0, GLM-5.2, max reasoning) running shell + SQL over each task's sanctioned stores, with a deterministic answer gate and one blind second solver (original question only, no inherited context) as a cross-check. Uses db_description_withhint.txt hints. Same team and backbone as #74 (0.7812) with an upgraded agent harness. Every opening prompt is the verbatim benchmark question with no injected plan or spec; no network fetches in any of the 270 traces and no ground-truth or off-limits reads (the container holds only db_config.yaml, the two db_description files and query_dataset/). The bundled agent skill is benchmark-agnostic methodology with no per-dataset rules; one numeric formatting example in it coincides with the yelp/query1 gold value, and all five yelp/query1 trials derive that number independently from the sanctioned stores. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 19,
+      "rank": 20,
       "agent": "DataTrail v1 (Muse Spark 1.3, medium effort)",
       "trials": 5,
       "passAt1": 0.8201,
@@ -235,7 +247,7 @@
       "note": "Single-agent loop over one `execute` bash tool in a per-trial macOS sandbox with network disabled, read-only source mounts and a file-read allowlist; Muse Spark 1.3 at medium reasoning via OpenRouter. Subagents and the challenger stage disabled. Uses db_description_withhint.txt hints. Tuned prompt: one authored system preamble, byte-identical across all 270 trials, carrying DAB task conventions (retain eligible zero-event entities, report ties rather than inventing a winner, extract entity names from prose description fields rather than treating the description as the name, identifier-only answers contain only the identifier) plus a result-rendering contract. No tuned tools: the four bundled skills are generic methodology (structured-data-investigation, semantic-answer-verification, statistical-analysis, document-text-extraction), identical across trials, with no per-dataset or per-query rules. Every prompt's task section is query.json, db_description.txt and db_description_withhint.txt verbatim and nothing else. Trace audit over all 270 trials and 4,676 tool calls found no external fetches, no reads of ground truth, validators, prior runs or other submissions, no ground-truth values in any prompt, and every passing answer derived in the trial's own tool outputs. Four trials touched paths outside the workspace: two listed their own sanctioned query_dataset directory, one had an outer dataset-directory listing return nothing before listing only sanctioned files, and one probed localhost Postgres ports and was denied; no answer key was exposed. Independently re-validated: 215/270, stratified 0.8201, zero disagreements with the submitter's per-trial scores. Full execution traces provided for all 270 trials; release tarball matches its published SHA256."
     },
     {
-      "rank": 20,
+      "rank": 21,
       "agent": "SCRIBE (Actioneer) + Claude Opus 4.7",
       "trials": 5,
       "passAt1": 0.8185,
@@ -247,7 +259,7 @@
       "note": "Two-stage spec/executor pipeline whose planner is prompted with DAB-specific domain rules (validator output conventions, code-vs-name columns, date-column selection, per-domain parsing) and derives the interpretation and plan up front from sanctioned data."
     },
     {
-      "rank": 21,
+      "rank": 22,
       "agent": "Stela (DeepSeek-V4.1-Flash, max effort)",
       "trials": 5,
       "passAt1": 0.8114,
@@ -259,7 +271,7 @@
       "note": "Local-first data analysis app run through its Agent harness over a benchmark connection adapter, with SQL and MongoDB query tools, a per-trial Python workspace, and model-backed semantic operators. Uses db_description_withhint.txt hints. The opening prompt is byte-exact benchmark content for all 54 queries (db_description.txt, db_description_withhint.txt and query.json), with an invariant tool-mechanics contract and no query-specific content; the system prompt is invariant across all 270 trials (supplied in the PR, built by a parameterless buildSystemPrompt(), no benchmark-specific content), and tool schemas were not captured. No query-specific tools or skills: two fixed system skills, analysis-verification and semantic-analysis, are loaded by the agent at its own discretion in 99 of 270 trials and are byte-identical on every load. Semantic operators are used on agnews (all 20 trials, semantic.classify to categorize articles) and yelp q4/q7. An analysis-contract API records the agent's own population, metric, denominator and coverage claims against its own query aliases. Trace audit found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and no unsourced answers: every high-entropy gold value in each of the 127 applicable passing trials appears in a recorded tool output. Full conversation traces for all 270 trials, 6,393 tool calls with matching returns; raw semantic-subcall conversations were not captured, and the deployed build carried one file beyond the pinned base commit."
     },
     {
-      "rank": 22,
+      "rank": 23,
       "agent": "Alkera + Claude Opus 4.8",
       "trials": 5,
       "passAt1": 0.8044,
@@ -271,7 +283,7 @@
       "note": "Runs a single benchmark-agnostic \"data engineering best practices\" system addendum, identical across all 270 trials; its only decisive analytical conventions restate the benchmark's own db_description_withhint.txt hints, with no gold values, per-dataset rules, or validator references. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 23,
+      "rank": 24,
       "agent": "LabRat (Claude Opus 5 + Cartographer)",
       "trials": 5,
       "passAt1": 0.8018,
@@ -283,7 +295,7 @@
       "note": "Claude Opus 5 (high reasoning) driving the LabRat MCP tool suite (schema catalog, profiling, SQL with error-category repair hints, join verification, local-embedding classification, result ledger) over each task's sanctioned stores, with a deterministic GT-firewalled Cartographer pre-pass and four benchmark-informed prompt rule packs. Uses db_description_withhint.txt hints. The packs are per-dataset at their finest and never per-query, and carry no gold content: none of the 154 ground-truth numbers or 228 ground-truth strings appear in any prompt, and each prompt's question region matches db_description.txt, db_description_withhint.txt and query.json exactly. Two per-dataset lines state interpretation choices absent from the hints (github_repos file population, deps_dev composite identifiers), but every trial of the two queries they bear on failed. Across 4,123 tool calls in 268 traces there are no network fetches, no off-limits or ground-truth reads, and every attached store is sanctioned; agnews categories come from the agent's own local-embedding classifier rather than external labels. Missing 2 of 270 trials (agnews query 4, infra timeouts) counted as non-passes; excluding them gives 0.8102."
     },
     {
-      "rank": 24,
+      "rank": 25,
       "agent": "DataGallery (Qwen3.8-Max)",
       "trials": 5,
       "passAt1": 0.7932,
@@ -295,7 +307,7 @@
       "note": "Single ReAct agent on Qwen3.8-Max (temperature 0, 3600 s per question, no checker or answer-repair loop) with the standard tools (query_db, list_db, execute_python, return_answer). Before each question, a schema-builder pass that never sees the question profiles the sanctioned stores and writes a schema file (tables, row counts, value formats, observed data-quality quirks) that the agent reads first. One prompt template across all 270 trials, with general reporting and verification rules; the per-query part is exactly the benchmark question, db_description.txt and db_description_withhint.txt. Hints used. A Python-level guard blocks outbound network access and reads or listings of the benchmark directory; every attempt in the traces was blocked. Twelve trials timed out and are counted as failures with empty answers. Trace audit over all 270 trials found no external fetches, no reads of ground truth, validators, prior runs or other submissions, and every passing answer derived in the trial's own tool outputs. Independently re-validated: 214/270, stratified 0.793178, matching the submitter's score."
     },
     {
-      "rank": 25,
+      "rank": 26,
       "agent": "Spacedock (Recce) + OpenAI GPT-5.5",
       "trials": 5,
       "passAt1": 0.785,
@@ -306,7 +318,7 @@
       "date": "2026-06-23"
     },
     {
-      "rank": 26,
+      "rank": 27,
       "agent": "DG (GLM-5.3)",
       "trials": 5,
       "passAt1": 0.7828,
@@ -318,7 +330,7 @@
       "note": "Single ReAct agent (GLM-5.3, temperature 0) over the benchmark's query_db/list_db/execute_python tools plus a constrained shell, with runtime network blocking and an off-limits file guard. Uses db_description_withhint.txt hints. Uses author-derived hints, byte-identical across the 5 trials of each query; two of them decide an answer. For GITHUB_REPOS query 1 the hint sets the denominator (\"4 README rows total; ... NEVER use contents.sample_path-based counts\"), so the agent counts the 3 README files that give the gold 1/3 instead of the roughly 100 it would otherwise find; all 5 trials pass. For PANCANCER_ATLAS query 1 the hint sets the answer key (\"output rows keyed by the ICD-O code\"), so the agent reports histology codes as the gold does instead of names, which the question alone does not say; the 3 trials that followed it pass, the 2 that used names fail. The GITHUB_REPOS hints also pad short repo names to work around a length check in query 2's validator. Trace audit over all 270 trials found no external fetches and no successful reads of ground truth, validators, prior runs or other submissions (one denied read_file attempt on GITHUB_REPOS query 4). Every passing answer is derived in the trial's own tool outputs. 37 trials timed out with empty answers and count as non-passes. Independently re-validated: 215/270, stratified 0.7828, zero disagreements with the submitter's per-trial scores. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 27,
+      "rank": 28,
       "agent": "Sarvam Code v0.35 (GLM-5.2)",
       "trials": 5,
       "passAt1": 0.7812,
@@ -330,7 +342,7 @@
       "note": "Single data-engineering agent (sarvam-code CLI v0.35.0, GLM-5.2, max reasoning) running shell + SQL over each task's sanctioned stores, with a deterministic self-consistency answer gate and one blind second solver (original question only, no inherited context) as a cross-check. Uses db_description_withhint.txt hints. Every opening prompt is the verbatim benchmark question with no injected gold values, per-dataset rules, or validator references; no network fetches (the single network attempt fails on DNS) and no off-limits or ground-truth reads. Full execution traces provided for all 270 trials."
     },
     {
-      "rank": 28,
+      "rank": 29,
       "agent": "LabRat (GPT-5.6 Luna Max + Cartographer)",
       "trials": 5,
       "passAt1": 0.7751,
@@ -341,7 +353,7 @@
       "date": "2026-07-16"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "agent": "Altimate Code + GPT-5.5 + Claude Sonnet 4.6",
       "trials": 5,
       "passAt1": 0.7588,
@@ -352,7 +364,7 @@
       "date": "2026-06-01"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "agent": "Phoenix-CLI (Claude Opus 5)",
       "trials": 5,
       "passAt1": 0.7556,
@@ -364,7 +376,7 @@
       "note": "Claude Code CLI driven one query per process (claude --print), Claude Opus 5, hints used, generic data-analyst system prompt. All data access goes through a helper that reads each dataset's own db_config.yaml; WebSearch and WebFetch disallowed (0 web calls across 270 traces); nested model CLIs shadowed by refusing shims. Scored on the text after the agent's own FINAL ANSWER: marker."
     },
     {
-      "rank": 31,
+      "rank": 32,
       "agent": "AgenDA + Claude Opus 4.8",
       "trials": 5,
       "passAt1": 0.7244,
@@ -375,7 +387,7 @@
       "date": "2026-07-10"
     },
     {
-      "rank": 32,
+      "rank": 33,
       "agent": "Qwen3.8-Flash-Next ReAct",
       "trials": 5,
       "passAt1": 0.7087,
@@ -387,7 +399,7 @@
       "note": "Unmodified built-in DAB DataAgent scaffold (query_db, list_db, execute_python, return_answer) on a self-hosted Qwen3.8-Flash-Next served with vLLM on 8 L40S GPUs; thinking enabled, up to 300 iterations. System and user prompts are byte-identical to common_scaffold/prompts/prompt_builder.py across all 270 trials, the Qwen dispatch branch reusing the existing locals()[storage_key] tool-result instruction: no tuned prompt and no query-specific tools. Uses db_description_withhint.txt hints. Five trials (agnews q4 runs 1-4, music_brainz_20k q3 run 2) exhausted the 262144-token context and are retained as empty non-passes. Submitter disclosed that the DuckDB executor's host filesystem access is not structurally restricted; in stockmarket q2 runs 0, 2 and 4 the agent used glob() to enumerate repository filenames, including ground_truth.csv names, but no gold or validator contents were read and all three answers are derived from the sanctioned stores. Independently re-validated: 201/270, stratified 0.7087, zero disagreements with the submitter's per-trial scores."
     },
     {
-      "rank": 33,
+      "rank": 34,
       "agent": "fabric-rlm (GPT-5.6 Luna Max)",
       "trials": 5,
       "passAt1": 0.6956,
@@ -399,7 +411,7 @@
       "note": "Notebook-importable Recursive Language Model library (PyPI fabric-rlm), not an agent CLI: per trial the dataset's sanctioned stores are consolidated into one DuckDB file and solved twice in fresh contexts, with a code-based agreement check and a reconciler on disagreement. Uses db_description_withhint.txt hints. 8 of 270 agnews records counted as non-passes: q3 trial 1 and q4 trials 1, 2 and 5 loaded the external HuggingFace ag_news gold labels, and q3 trials 2-5 submitted the gold value with no derivation anywhere in the supplied traces. No off-limits filesystem access anywhere in the run, no gold values in prompts, no per-dataset rules or validator references. Traces cover the winning ensemble stage only, one per trial."
     },
     {
-      "rank": 34,
+      "rank": 35,
       "agent": "Altimate Code + Claude Sonnet 4.6",
       "trials": 5,
       "passAt1": 0.6822,
@@ -410,7 +422,7 @@
       "date": "2026-05-10"
     },
     {
-      "rank": 35,
+      "rank": 36,
       "agent": "Spacedock (Recce) + Claude Opus 4.8",
       "trials": 5,
       "passAt1": 0.6804,
@@ -421,7 +433,7 @@
       "date": "2026-06-08"
     },
     {
-      "rank": 36,
+      "rank": 37,
       "agent": "MinusX + Claude Sonnet 4.6 + GPT-5.5-mini + Claude Haiku 4.5",
       "trials": 5,
       "passAt1": 0.6601,
@@ -432,7 +444,7 @@
       "date": "2026-05-21"
     },
     {
-      "rank": 37,
+      "rank": 38,
       "agent": "DataBridge + GLM-5.2",
       "trials": 6,
       "passAt1": 0.6137,
@@ -444,7 +456,7 @@
       "note": "6-run average; only 1 run includes open-source execution traces; runs on a large system prompt that hard-codes dataset-specific handling rules (e.g. bracket-notation null codes, weighted decade-averaging, diacritic/parenthetical normalization)"
     },
     {
-      "rank": 38,
+      "rank": 39,
       "agent": "Pi Coding Agent + Claude Opus 4.6",
       "trials": 5,
       "passAt1": 0.6103,
@@ -455,7 +467,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 39,
+      "rank": 40,
       "agent": "LabRat (Claude Sonnet 4.6 + Cartographer)",
       "trials": 5,
       "passAt1": 0.6088,
@@ -466,7 +478,7 @@
       "date": "2026-06-24"
     },
     {
-      "rank": 40,
+      "rank": 41,
       "agent": "PromptQL + Gemini 3.1 Pro",
       "trials": 5,
       "passAt1": 0.6,
@@ -477,7 +489,7 @@
       "date": "2026-03-18"
     },
     {
-      "rank": 41,
+      "rank": 42,
       "agent": "PromptQL + Claude Opus 4.6",
       "trials": 5,
       "passAt1": 0.5933,
@@ -488,7 +500,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 42,
+      "rank": 43,
       "agent": "Spacedock (Recce) + Claude Opus 4.6",
       "trials": 5,
       "passAt1": 0.5828,
@@ -499,7 +511,7 @@
       "date": "2026-05-08"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "agent": "Claude Opus 4.6 ReAct",
       "trials": 5,
       "passAt1": 0.5551,
@@ -510,7 +522,7 @@
       "date": "2026-03-18"
     },
     {
-      "rank": 44,
+      "rank": 45,
       "agent": "LabRat (Claude Sonnet 4.6)",
       "trials": 5,
       "passAt1": 0.5138,
@@ -521,7 +533,7 @@
       "date": "2026-06-01"
     },
     {
-      "rank": 45,
+      "rank": 46,
       "agent": "Oracle Forge (Team PaLM) + Gemini 3.1 Pro Preview",
       "trials": 5,
       "passAt1": 0.4721,
@@ -532,7 +544,7 @@
       "date": "2026-04-19"
     },
     {
-      "rank": 46,
+      "rank": 47,
       "agent": "Gemini-3-Pro ReAct",
       "trials": 50,
       "passAt1": 0.4663,
@@ -542,7 +554,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 47,
+      "rank": 48,
       "agent": "nQuery (gpt-oss-safeguard-120b)",
       "trials": 5,
       "passAt1": 0.4547,
@@ -554,7 +566,7 @@
       "note": "Uses the sanctioned db_description_withhint.txt files (hints used), despite the PR's 'Hint: No' label."
     },
     {
-      "rank": 48,
+      "rank": 49,
       "agent": "Oracle Forge (Tenacious Intelligence) + Claude Sonnet 4.6",
       "trials": 5,
       "passAt1": 0.4464,
@@ -565,7 +577,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "agent": "GPT-5-mini ReAct",
       "trials": 50,
       "passAt1": 0.3663,
@@ -575,7 +587,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "agent": "GPT-5.2 ReAct",
       "trials": 50,
       "passAt1": 0.2991,
@@ -585,7 +597,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "agent": "Kimi-K2 ReAct",
       "trials": 50,
       "passAt1": 0.2925,
@@ -595,7 +607,7 @@
       "date": "2026-03-02"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "agent": "Oracle Forge (Team Cohere) + Gemini 2.0 Flash",
       "trials": 5,
       "passAt1": 0.1671,
@@ -606,7 +618,7 @@
       "date": "2026-04-21"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "agent": "Gemini-2.5-Flash ReAct",
       "trials": 50,
       "passAt1": 0.1049,
