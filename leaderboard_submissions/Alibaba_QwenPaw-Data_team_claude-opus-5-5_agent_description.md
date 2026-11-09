@@ -2,6 +2,9 @@
 
 QwenPaw-Data is an agentic system developed by Alibaba Group designed for autonomous enterprise data analysis and business intelligence.
 
+## Agent ID
+Please use "Alibaba QwenPaw-Data" as the agent name should this be put on to the leaderboard.
+
 ## Core Agent Configuration
 - **Agent system:** QwenPaw-Data Agent.
 - **Backend Model:** claude-opus-5-5 by Anthropic.
