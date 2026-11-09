@@ -12,3 +12,5 @@ query_crmarenapro/query_dataset/hidden/*.db filter=lfs diff=lfs merge=lfs -text
 query_crmarenapro/query_dataset/hidden/*.duckdb filter=lfs diff=lfs merge=lfs -text
 query_crmarenapro/query_dataset/hidden/*.sql filter=lfs diff=lfs merge=lfs -text
 query_krama/query_dataset/misc_files/* filter=lfs diff=lfs merge=lfs -text
+leaderboard_submissions/Alibaba_QwenPaw-Data_team_claude-opus-5-5_traces.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.tar.gz filter=lfs diff=lfs merge=lfs -text
