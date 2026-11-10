@@ -1,0 +1,61 @@
+{
+ "protocol": "audit_q2/PROTOCOL.md (v2)",
+ "agreement": "108/111",
+ "disagreements": [
+  {
+   "article_id": "48635",
+   "A": "World",
+   "B": "Business",
+   "kept": "World"
+  },
+  {
+   "article_id": "69393",
+   "A": "Business",
+   "B": "World",
+   "kept": "World"
+  },
+  {
+   "article_id": "106908",
+   "A": "Science/Technology",
+   "B": "Business",
+   "kept": "Science/Technology"
+  }
+ ],
+ "corrections": [
+  {
+   "article_id": "100613",
+   "old": "Business",
+   "new": "Science/Technology"
+  },
+  {
+   "article_id": "104123",
+   "old": "World",
+   "new": "Business"
+  },
+  {
+   "article_id": "112770",
+   "old": "Science/Technology",
+   "new": "Business"
+  },
+  {
+   "article_id": "81851",
+   "old": "Business",
+   "new": "World"
+  },
+  {
+   "article_id": "91286",
+   "old": "World",
+   "new": "Business"
+  },
+  {
+   "article_id": "93804",
+   "old": "World",
+   "new": "Science/Technology"
+  }
+ ],
+ "old_sci": 14,
+ "new_sci": 15,
+ "denominator": 111,
+ "q2_answer": "0.1351",
+ "changed_other_queries": false
+}
