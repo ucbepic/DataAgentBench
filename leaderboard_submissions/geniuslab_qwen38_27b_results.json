@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "12/111 (approximately 0.1081)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "15/111 ≈ 0.1351"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "11/111 (approximately 0.0991, or 9.91%)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "16/111"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "10/111 (approximately 0.0901)"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "334.18"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "334.18"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "325.3636363636364"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "334.18"
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "334.18"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "South America"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "South America"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "South America"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "South America"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "South America"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "Reunion: The Children of Lauderdale Park; The Prophet: With Original 1923 Illustrations by the Author; The Melancholy Strumpet Master; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Fire Cracker; Local Honey; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Knowing When To Die: Uncollected Stories; Childe Harold of Dysna; Forged in Blood (Freehold); Exits, Desires, & Slow Fires; Kennebago Moments; The Sludge; Liza of Lambeth; Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Childe Harold of Dysna; Exits, Desires, & Slow Fires; Fire Cracker; Forged in Blood (Freehold); Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Kennebago Moments; Knowing When To Die: Uncollected Stories; Liza of Lambeth; Local Honey; Reunion: The Children of Lauderdale Park; Something That Feels Like Truth (Switchgrass Books); The Melancholy Strumpet Master; The Prophet: With Original 1923 Illustrations by the Author; The Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Childe Harold of Dysna; Exits, Desires, & Slow Fires; Fire Cracker; Forged in Blood (Freehold); Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Kennebago Moments; Knowing When To Die: Uncollected Stories; Liza of Lambeth; Local Honey; Reunion: The Children of Lauderdale Park; Something That Feels Like Truth (Switchgrass Books); The Melancholy Strumpet Master; The Prophet: With Original 1923 Illustrations by the Author; The Sludge"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "Reunion: The Children of Lauderdale Park; The Prophet: With Original 1923 Illustrations by the Author; The Melancholy Strumpet Master; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Fire Cracker; Local Honey; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Knowing When To Die: Uncollected Stories; Childe Harold of Dysna; Forged in Blood (Freehold); Exits, Desires, & Slow Fires; Kennebago Moments; The Sludge; Liza of Lambeth; Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "Reunion: The Children of Lauderdale Park; The Prophet: With Original 1923 Illustrations by the Author; The Melancholy Strumpet Master; Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message; Fire Cracker; Local Honey; Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries); Knowing When To Die: Uncollected Stories; Childe Harold of Dysna; Forged in Blood (Freehold); Exits, Desires, & Slow Fires; Kennebago Moments; The Sludge; Liza of Lambeth; Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "Around the World Mazes; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); Cheer Up, Ben Franklin! (Young Historians); Egypt (Enchantment of the World); Favorite Thorton W. Burgess Stories: 6 Books; LunaLu the Llamacorn; Monstrous Stories #4: The Day the Mice Stood Still; Pokémon: Sun & Moon, Vol. 8 (8); The Library Book; The Old Man and the Pirate Princess; Trouble in the CTC!: The Terra Prime Adventures Book 2; Clark the Shark: Tooth Trouble, No. 1; Cleo Porter and the Body Electric"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "The Library Book; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); The Old Man and the Pirate Princess; LunaLu the Llamacorn; Trouble in the CTC!: The Terra Prime Adventures Book 2; Around the World Mazes; Cleo Porter and the Body Electric; Pokémon: Sun & Moon, Vol. 8 (8); Monstrous Stories #4: The Day the Mice Stood Still; Egypt (Enchantment of the World); Clark the Shark: Tooth Trouble, No. 1; Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Cheer Up, Ben Franklin! (Young Historians)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "The Library Book; Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); The Old Man and the Pirate Princess; LunaLu the Llamacorn; Around the World Mazes; Pokémon: Sun & Moon, Vol. 8 (8); Cheer Up, Ben Franklin! (Young Historians); Monstrous Stories #4: The Day the Mice Stood Still; Egypt (Enchantment of the World); Favorite Thorton W. Burgess Stories: 6 Books; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Trouble in the CTC!: The Terra Prime Adventures Book 2; Clark the Shark: Tooth Trouble, No. 1; Cleo Porter and the Body Electric"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "Around the World Mazes; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); Cheer Up, Ben Franklin! (Young Historians); Clark the Shark: Tooth Trouble, No. 1; Cleo Porter and the Body Electric; Egypt (Enchantment of the World); Favorite Thorton W. Burgess Stories: 6 Books; LunaLu the Llamacorn; Monstrous Stories #4: The Day the Mice Stood Still; Pokémon: Sun & Moon, Vol. 8 (8); The Library Book; The Old Man and the Pirate Princess; Trouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "Around the World Mazes; Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised); Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1); Cheer Up, Ben Franklin! (Young Historians); Clark the Shark: Tooth Trouble, No. 1; Cleo Porter and the Body Electric; Egypt (Enchantment of the World); Favorite Thorton W. Burgess Stories: 6 Books; LunaLu the Llamacorn; Monstrous Stories #4: The Day the Mice Stood Still; Pokémon: Sun & Moon, Vol. 8 (8); The Library Book; The Old Man and the Pirate Princess; Trouble in the CTC!: The Terra Prime Adventures Book 2"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "Quote"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "Quote"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "#ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "005Wt000003NJgAIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "005Wt000003NHw5IAG"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "answer": "@dylanvann/svelte (3.25.4); @dumc11/tailwindcss (0.4.0); @dreampie/semantic-ui (2.2.11); @dongls/pdfjs-dist (3.2.72); @dman777/shadow-dom-quill-temp (1.0.0)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "answer": "@dylanvann/svelte (3.25.4); @dumc11/tailwindcss (0.4.0); @dreampie/semantic-ui (2.2.11); @dongls/pdfjs-dist (3.2.72); @dman777/shadow-dom-quill-temp (1.0.0)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "answer": "@dylanvann/svelte: 3.25.4; @dumc11/tailwindcss: 0.4.0; @dreampie/semantic-ui: 2.2.11; @dongls/pdfjs-dist: 3.2.72; @dman777/shadow-dom-quill-temp: 1.0.0"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "answer": "@dmrvos/infrajs>0.0.5>typescript: 2.6.2; @dmrvos/infrajs>0.0.6>typescript: 2.6.2; @dylanvann/svelte: 3.25.4; @dumc11/tailwindcss: 0.4.0; @dollarshaveclub/cli>1.0.0>lodash: 4.17.4"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "answer": "@dylanvann/svelte (3.25.4); @dumc11/tailwindcss (0.4.0); @dreampie/semantic-ui (2.2.11); @dongls/pdfjs-dist (3.2.72); @dman777/shadow-dom-quill-temp (1.0.0)"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "answer": "mui-org/material-ui; moment/moment; semantic-org/semantic-ui; react-native-elements/react-native-elements; sveltejs/svelte"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "answer": "mui-org/material-ui; moment/moment; semantic-org/semantic-ui; react-native-elements/react-native-elements; sveltejs/svelte"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "answer": "mui-org/material-ui; moment/moment; semantic-org/semantic-ui; react-native-elements/react-native-elements; sveltejs/svelte"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "answer": "mui-org/material-ui; moment/moment; semantic-org/semantic-ui; react-native-elements/react"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "answer": "mui-org/material-ui; moment/moment; semantic-org/semantic-ui; react-native-elements/react-native-elements; sveltejs/svelte"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "17/101 (0.16831683168316833, about 16.83%)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "answer": "0.16831683168316833"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "answer": "0.16831683168316833"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "answer": "0.16831683168316833"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "answer": "18/105 = 0.17142857142857143"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "SwiftAndroid/swift"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "SwiftAndroid/swift; validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift (id: 71a17ce92451858f3eb01aa8082551e48bc5550d)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "SwiftAndroid/swift; validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "SwiftAndroid/swift; 71a17ce92451858f3eb01aa8082551e48bc5550d"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "repo: SwiftAndroid/swift; file id: 71a17ce92451858f3eb01aa8082551e48bc5550d"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "answer": "1077"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "torvalds/linux; apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "answer": "torvalds/linux; apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "answer": "apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react; tensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "answer": "apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react; tensorflow/tensorflow"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "answer": "apple/swift; twbs/bootstrap; Microsoft/vscode; facebook/react; tensorflow/tensorflow"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "Widows Peak Salon; City Textile; Nobel Textile Co; San Soo Dang; Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "Widows Peak Salon; City Textile; Nobel Textile Co; San Soo Dang; Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "Widows Peak Salon; City Textile; Nobel Textile Co; San Soo Dang; Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "Widows Peak Salon; City Textile; Nobel Textile Co; San Soo Dang; Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "Widows Peak Salon; City Textile; Nobel Textile Co; San Soo Dang; Nova Fabrics"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "Elite Massage: 5.0; Angel-A Massage: 4.333333333333333; Aurora Massage: 4.178571428571429"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "Angel-A Massage: 4.333333333333333; Elite Massage: 5.0; Aurora Massage: 4.178571428571429; J B Oriental Inc: 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "Aurora Massage: 4.178571428571429; Angel-A Massage: 4.333333333333333; Elite Massage: 5.0; J B Oriental Inc: 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "Aurora Massage: 4.178571428571429; Angel-A Massage: 4.333333333333333; Elite Massage: 5.0; J B Oriental Inc: 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "Elite Massage: 5.0; Angel-A Massage: 4.333333333333333; Aurora Massage: 4.178571428571429; J B Oriental Inc: 4.166666666666667"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "1. Beauty Divine Artistry, hours: Mon-Fri 9AM-8PM, Sat 10AM-7PM, Sun 11AM-6PM, avg rating: 5.0; 2. Mariscos el poblano, hours: Mon 9AM-3:30AM, Tue-Wed 8AM-3:30PM, Thu Open 24 hours, Fri-Sun 8AM-3:30PM, avg rating: 5.0; 3. TACOS LA CABANA, hours: Mon 5-11PM, Fri-Sun 5-11PM, Tue-Thu Closed, avg rating: 5.0; 4. Taba Rug Gallery, hours: Mon-Sat 10AM-7PM, Sun 11AM-6PM, avg rating: 5.0; 5. White Barn Candle Co, hours: Mon-Sat 10AM-9PM, Sun 11AM-7PM, avg rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "1. Beauty Divine Artistry (hours: Mon–Fri 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM; avg rating: 5.0); 2. Mariscos el poblano (hours: Thu Open 24 hours, Mon 9AM–3:30AM, Tue–Wed & Fri–Sun 8AM–3:30PM; avg rating: 5.0); 3. TACOS LA CABANA (hours: Fri 5–11PM, Sat 5–11PM, Sun 5–11PM, Mon 5–11PM, Tue–Thu Closed; avg rating: 5.0); 4. Taba Rug Gallery (hours: Mon–Sat 10AM–7PM, Sun 11AM–6PM; avg rating: 5.0); 5. White Barn Candle Co (hours: Mon–Sat 10AM–9PM, Sun 11AM–7PM; avg rating: 5.0)"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "1. Beauty Divine Artistry, hours: Mon-Fri 9AM-8PM, Sat 10AM-7PM, Sun 11AM-6PM, avg rating: 5.0; 2. Mariscos el poblano, hours: Thu Open 24 hours, Fri-Sun 8AM-3:30PM, Mon 9AM-3:30AM, Tue-Wed 8AM-3:30PM, avg rating: 5.0; 3. TACOS LA CABANA, hours: Fri-Mon 5PM-11PM, Tue-Thu Closed, avg rating: 5.0; 4. Taba Rug Gallery, hours: Mon-Sat 10AM-7PM, Sun 11AM-6PM, avg rating: 5.0; 5. White Barn Candle Co, hours: Mon-Sat 10AM-9PM, Sun 11AM-7PM, avg rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "1. Beauty Divine Artistry — hours: Mon-Fri 9AM-8PM, Sat 10AM-7PM, Sun 11AM-6PM — avg rating: 5.0; 2. Mariscos el poblano — hours: Thu Open 24 hours, Fri 8AM-3:30PM, Sat 8AM-3:30PM, Sun 8AM-3:30PM, Mon 9AM-3:30AM, Tue 8AM-3:30PM, Wed 8AM-3:30PM — avg rating: 5.0; 3. TACOS LA CABANA — hours: Fri 5PM-11PM, Sat 5PM-11PM, Sun 5PM-11PM, Mon 5PM-11PM, Tue Closed, Wed Closed, Thu Closed — avg rating: 5.0; 4. Taba Rug Gallery — hours: Mon-Fri 10AM-7PM, Sat 10AM-7PM, Sun 11AM-6PM — avg rating: 5.0; 5. White Barn Candle Co — hours: Mon-Fri 10AM-9PM, Sat 10AM-9PM, Sun 11AM-7PM — avg rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "1. Taba Rug Gallery, Hours: Mon 10AM–7PM, Tue 10AM–7PM, Wed 10AM–7PM, Thu 10AM–7PM, Fri 10AM–7PM, Sat 10AM–7PM, Sun 11AM–6PM, Avg rating: 5.0; 2. Beauty Divine Artistry, Hours: Mon 9AM–8PM, Tue 9AM–8PM, Wed 9AM–8PM, Thu 9AM–8PM, Fri 9AM–8PM, Sat 10AM–7PM, Sun 11AM–6PM, Avg rating: 5.0; 3. White Barn Candle Co, Hours: Mon 10AM–9PM, Tue 10AM–9PM, Wed 10AM–9PM, Thu 10AM–9PM, Fri 10AM–9PM, Sat 10AM–9PM, Sun 11AM–7PM, Avg rating: 5.0; 4. TACOS LA CABANA, Hours: Mon 5PM–11PM, Tue Closed, Wed Closed, Thu Closed, Fri 5PM–11PM, Sat 5PM–11PM, Sun 5PM–11PM, Avg rating: 5.0; 5. Mariscos el poblano, Hours: Mon 9AM–3:30AM, Tue 8AM–3:30PM, Wed 8AM–3:30PM, Thu Open 24 hours, Fri 8AM–3:30PM, Sat 8AM–3:30PM, Sun 8AM–3:30PM, Avg rating: 5.0"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD: 19; The Boochyard @ Local Roots: 17; Aurora Massage: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD: 19; The Boochyard @ Local Roots: 17; Aurora Massage: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD: 19; The Boochyard @ Local Roots: 17; Aurora Massage: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD: 19; The Boochyard @ Local Roots: 17; Aurora Massage: 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "Encino Dermatology & Laser: Alex Khadavi MD: 19; The Boochyard @ Local Roots: 17; Aurora Massage: 14"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "601.44"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "1059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "Amazon Music"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "Systemisch bled"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "Zo gaat het leven aan je voor"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "Emerge (Dexter remix)"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "Systemisch bled"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "Groovey"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "answer": "Astrocytoma: 2.5713; Oligoastrocytoma: 2.7136; Oligodendroglioma: 2.6825"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "answer": "Astrocytoma: 2.5713; Oligoastrocytoma: 2.7136; Oligodendroglioma: 2.6825"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "answer": "Astrocytoma: 2.5713; Oligoastrocytoma: 2.7136; Oligodendroglioma: 2.6825"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "answer": "Astrocytoma: 2.5713; Oligoastrocytoma: 2.7136; Oligodendroglioma: 2.6825"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "answer": "Astrocytoma: 2.5713; Oligoastrocytoma: 2.7136; Oligodendroglioma: 2.6825"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "answer": "Infiltrating Lobular Carcinoma; Mixed Histology (please specify); Other specify"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "answer": "Infiltrating Lobular Carcinoma; Mixed Histology (please specify); Other specify"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "answer": "Infiltrating Lobular Carcinoma; Mixed Histology (please specify); Other specify"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "answer": "Infiltrating Lobular Carcinoma; Mixed Histology (please specify); Other  specify"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "answer": "Infiltrating Lobular Carcinoma; Mixed Histology (please specify); Other specify"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "answer": "305.12391980074597"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "answer": "305.12391980074597"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "answer": "305.12391980074597"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "answer": "305.12391980074597"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "answer": "305.12391980074597"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G1"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G10L; G16B; G16C; G16H; G21F; H01M; H02B; H02G; H02J; H03H; H04K; H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G10L; G16B; G16C; G16H; G21F; H01M; H02B; H02G; H02J; H03H; H04K; H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "answer": "A22B; A23J; A23P; A24D; A24F; A41G; A47F; A61G; A61H; A61P; A62D; A63H; B04B; B07B; B08B; B09C; B21J; B22F; B24B; B25B; B25D; B27C; B27M; B60D; B60L; B60P; B61H; B63C; B63G; B65G; B66F; C01D; C01G; C21B; C21C; C22C; D21B; E01H; E02B; E02D; E03B; E04B; E04G; E21D; E21F; F02K; F04F; F16M; F25J; F26B; G01H; G01L; G01S; G05D; G06N; G06Q; G06T; G06V; G08G; G09F; G10L; G16B; G16C; G16H; G21F; H01M; H02B; H02G; H02J; H03H; H04K; H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "answer": "A01B49; A01C23; A01D27; A01G18; A01G2; A01G22; A01G25; A01G3; A01K29; A01K97; A01M1; A01P15; A22C17; A23J1; A23L19; A23P20; A24D1; A24D3; A24F40; A41D19; A41D31; A41G5; A43B23; A47B47; A47B81; A47C17; A47J37; A47L11; A61C17; A61G13; A61G7; A61H19; A61H23; A61H39; A61H9; A61J13; A61J7; A61K47; A61L29; A61M11; A61M27; A61M31; A61M35; A61N5; A61P1; A61P19; A61P3; A61P31; A61P35; A61P43; A62B18; A62C31; A62D1; A63B23; A63B69; A63H3; B01D29; B01D61; B01D71; B01J2; B01J3; B01J35; B01L7; B02C17; B03C1; B04B5; B05B15; B05B16; B05B7; B05B9; B07B1; B08B1; B08B3; B08B5; B08B7; B09C1; B21D1; B21D43; B21D7; B21L1; B22F10; B22F12; B23B41; B23D47; B23K26; B23K31; B23P15; B23P23; B24B1; B24B49; B24B9; B25B13; B25B27; B25J11; B28B1; B29C51; B29C53; B29C65; B29C69; B30B15; B32B25; B60D1; B60H1; B60L5; B60L53; B60L58; B60P3; B60P7; B60R19; B60T17; B60W60; B61L27; B62D33; B62D63; B63B77; B63C11; B63G8; B64C3; B64D37; B64D39; B65B1; B65B55; B65B63; B65D90; B65G1; B65G15; B65G33; B65G35; B65G39; B65G43; B65G53; B65G57; B65G67; B65H16; B65H20; B65H23; B65H49; B66B11; B66B9; B66C13; B66F3; C01B21; C01B32; C01B33; C01B7; C01D15; C01F5; C01G35; C01G51; C01G53; C02F3; C03C23; C03C4; C03C8; C04B40; C07C17; C07D491; C07F15; C08F210; C08F214; C08F290; C08G65; C08G69; C09B21; C09D195; C09J151; C09J171; C09J175; C09J4; C09K13; C10G45; C12M23; C12N3; C12N7; C12P17; C12Y101; C21B5; C21C7; C22B23; C22B7; C22C1; C22C33; C22C38; C25B1; C25B9; C30B15; C30B23; D01D5; D04B1; D06F33; D06F34; D21B1; D21H27; E01C19; E01C23; E01D21; E02B3; E02D17; E02D19; E02D27; E02D5; E03B11; E03B7; E04B1; E04B7; E04D11; E04F21; E04G1; E04G13; E04G23; E04H3; E04H4; E05B47; E21B29; E21B37; E21D9; E21F16; E21F3; F01K13; F02B11; F02C3; F02K1; F02K9; F04D17; F04F99; F15B13; F16B21; F16B7; F16F13; F16K1; F16L3; F16L55; F16M11; F17C3; F17C7; F21S45; F24D19; F24F7; F24F8; F25J1; F26B17; F26B9; F28D9; F42B15; G01B3; G01C13; G01D11; G01D21; G01H9; G01L1; G01L19; G01L3; G01L5; G01M3; G01N1; G01N15; G01N23; G01N29; G01N3; G01N30; G01R31; G01S13; G01S7; G02B17; G02B27; G02B30; G05D16; G05D23; G05D27; G06F11; G06F16; G06F2218; G06F30; G06F40; G06F9; G06N20; G06N3; G06Q10; G06Q50; G06T13; G06T15; G06T3; G06T7; G06T9; G06V20; G07C1; G08B25; G08B7; G08G1; G08G5; G09B7; G09B9; G09F25; G09F9; G10L25; G11C11; G16B20; G16B40; G16C20; G16H10; G16H15; G16H20; G16H50; G16H70; G16H80; G21F5; H01B17; H01F41; H01H50; H01L23; H01L25; H01M10; H01M4; H01M50; H01P11; H01Q19; H01Q21; H02B1; H02G1; H02G7; H02G9; H02J13; H02J3; H02J50; H02K11; H02M3; H02N11; H02P25; H02P29; H02S30; H03K5; H03L3; H04L9; H04R3; H04R7; H04R9; H04W12; H04W24; H04W40; H05F3; H10B10; H10K65"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "answer": "Local resource management; CPC group: H04W72; best year: 2021"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "answer": "Local resource management, H04W72, 2021"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "answer": "Electrical control of supply of combustible mixture or its constituents, F02D41, 2016"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "answer": "Title: Electrical control of supply of combustible mixture or its constituents; CPC group: F02D41; Best year: 2016"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "answer": "Title: Electrical control of supply of combustible mixture or its constituents; CPC group: F02D41; Best year: 2016"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "answer": "BLOOM ENERGY CORP: Electrodes; Fuel cells; Manufacture thereof; CRYSTAL IS INC: Single-crystal growth by normal freezing or freezing under temperature gradient, e.g. Bridgman-Stockbarger method; Single-crystal growth by chemical reaction of reactive gases, e.g. chemical vapour-deposition growth; SCHOWALTER LEO J: Processes or apparatus adapted for the manufacture or treatment of semiconductor or solid state devices or of parts thereof"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "answer": "BLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "answer": "BLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "answer": "BLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "answer": "BLOOM ENERGY CORP: PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY; CRYSTAL IS INC: SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR; SCHOWALTER LEO J: SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "Shenzhen Stock Exchange (399001.SZ)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "399001.SZ"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "IXIC"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "IXIC (United States); NSEI (India); 399001.SZ (China); GDAXI (Germany); TWII (Taiwan)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "IXIC (United States); NSEI (India); 399001.SZ (China); GDAXI (Germany); TWII (Taiwan)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "GDAXI (Germany); NYA (United States); GSPTSE (Canada); IXIC (United States); SSMI (Switzerland)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "IXIC (United States); NSEI (India); 399001.SZ (China); GDAXI (Germany); TWII (Taiwan)"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "GDAXI (Germany); NYA (United States); GSPTSE (Canada); IXIC (United States); SSMI (Switzerland)"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "18.44"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "18.44"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "18.440000534057617"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "18.44"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "18.4"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG; Total: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG; Total: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG; Total: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG; Total: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "BOIL; BZQ; COM; DUST; EDZ; ERX; FAZ; FXP; GFIN; GUSH; HYUP; JDST; JNUG; JPN; LABD; LABU; LBJ; MDY; PTIN; RTL; SDOW; SOXS; SSG; TECS; TZA; UVXY; VIXY; VPC; XES; XOP; YANG; Total: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide.: 23781.422924901184; BIO-key International, Inc. specializes in advanced biometric solutions for secure and convenient identity verification systems for enterprises and consumers alike.: 10988.142292490118; CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, providing innovative solutions to power electric vehicles and renewable energy applications.: 86223.32015810277; China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, offering a wide range of designs and finishes for residential and commercial applications.: 4366.798418972332; Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes.: 145247.8260869565; CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals.: 375.49407114624506; DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide.: 15578.656126482214; Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy through innovative applications.: 9.845238095238095; Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States.: 254397.62845849802; Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that enhance efficiency and convenience in transportation and energy.: 10.276679841897232; Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology.: 254.1501976284585; Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for transportation and industrial applications.: 10706.719367588932; Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.: 2390.513833992095; Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target underlying mechanisms of the disease.: 781.8181818181819; Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technical challenges.: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "Apex Global Brands Inc.: 23781.422924901184; BIO-key International, Inc.: 10988.142292490118; CBAK Energy Technology, Inc.: 86223.32015810277; China Ceramics Co., Ltd.: 4366.798418972332; Correvio Pharma Corp.: 145247.8260869565; CounterPath Corporation: 375.49407114624506; DASAN Zhone Solutions, Inc.: 15578.656126482214; Future FinTech Group Inc.: 9.845238095238095; Frontier Communications Corporation: 254397.62845849802; Ideanomics, Inc.: 10.276679841897232; Ocean Power Technologies, Inc.: 254.1501976284585; Pacific Ethanol, Inc.: 10706.719367588932; Synthesis Energy Systems, Inc.: 2390.513833992095; Sunesis Pharmaceuticals, Inc.: 781.8181818181819; Sypris Solutions, Inc.: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide.: 23781.422924901184; BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike.: 10988.142292490118; CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions.: 86223.32015810277; China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes.: 4366.798418972332; Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes.: 145247.8260869565; CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals.: 375.49407114624506; DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide.: 15578.656126482214; Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy through innovative applications.: 9.845238095238095; Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States.: 254397.62845849802; Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions for advancing sustainable transportation and energy in the transportation sector.: 10.276679841897232; Ocean Power Technologies, Inc. harnesses the power of the ocean to generate clean renewable energy, specializing in wave energy technology.: 254.1501976284585; Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable transportation and energy solutions.: 10706.719367588932; Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products.: 2390.513833992095; Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease.: 781.8181818181819; Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technical challenges.: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide.: 23781.422924901184; BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike.: 10988.142292490118; CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions.: 86223.32015810277; China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes.: 4366.798418972332; Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes.: 145247.8260869565; CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals.: 375.49407114624506; DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide.: 15578.656126482214; Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications.: 9.845238095238095; Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States.: 254397.62845849802; Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that drive innovation and convenience in the fields of healthcare and electronic payments.: 10.276679841897232; Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology.: 254.1501976284585; Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for the transportation sector.: 10706.719367588932; Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation and convenience in the fields of healthcare and electronic payments.: 2390.513833992095; Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target the underlying mechanisms of the disease.: 781.8181818181819; Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges.: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "Apex Global Brands Inc. specializes in creating and marketing a diverse portfolio of fashion and lifestyle brands, connecting consumers with trendy and innovative products worldwide.: 23781.422924901184; BIO-key International, Inc. specializes in advanced biometric solutions, providing secure and convenient identity verification systems for enterprises and consumers alike.: 10988.142292490118; CBAK Energy Technology, Inc. specializes in developing and manufacturing high-performance lithium-ion batteries, playing a pivotal role in powering electric vehicles and renewable energy solutions worldwide.: 86223.32015810277; China Ceramics Co., Ltd. specializes in manufacturing high-quality ceramic tiles, catering to both residential and commercial markets with a wide range of designs and finishes.: 4366.798418972332; Correvio Pharma Corp., based in Canada, specializes in developing and commercializing innovative cardiovascular therapies to improve patient outcomes.: 145247.8260869565; CounterPath Corporation specializes in developing software solutions that enhance communication by providing seamless VoIP and unified communications applications for businesses and individuals.: 375.49407114624506; DASAN Zhone Solutions, Inc. specializes in providing advanced broadband access solutions, empowering telecommunications networks to deliver faster and more reliable internet services worldwide.: 15578.656126482214; Future FinTech Group Inc. specializes in the development and marketing of blockchain-based products and financial technology solutions, aiming to revolutionize the digital economy with innovative applications.: 9.845238095238095; Frontier Communications Corporation provides telecommunications services, including internet, phone, and television solutions, to residential and business customers across the United States.: 254397.62845849802; Ideanomics, Inc. is at the forefront of transforming the commercial electric vehicle industry, providing comprehensive solutions that enhance efficiency and performance in transportation and the stocktrade industry.: 10.276679841897232; Ocean Power Technologies, Inc. harnesses the power of the ocean to develop innovative renewable energy solutions, specializing in wave energy technology.: 254.1501976284585; Pacific Ethanol, Inc. specializes in producing renewable fuels and high-quality alcohol products, contributing to sustainable energy solutions and cleaner alternatives for transportation and industrial applications.: 10706.719367588932; Synthesis Energy Systems, Inc. specializes in transforming low-cost carbon resources into clean energy and valuable chemical products, driving innovation in sustainable energy solutions.: 2390.513833992095; Sunesis Pharmaceuticals, Inc. is dedicated to developing innovative cancer therapies, striving to advance treatments that target underlying mechanisms of the disease.: 781.8181818181819; Sypris Solutions, Inc. specializes in providing engineering and manufacturing services for the aerospace and defense sectors, ensuring high-quality solutions for complex technological challenges.: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "HDFC Bank Limited; Albany International Corporation; Getty Realty Corporation; Mettler-Toledo International, Inc.; Ameriprise Financial, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.; Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.; Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.; Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.; Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "HDFC Bank Limited; Albany International Corporation; Getty Realty Corporation; Mettler-Toledo International, Inc.; Ameriprise Financial, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "HDFC Bank Limited is a leading financial institution in India, offering a wide range of banking services including personal and corporate banking, loans, and wealth management solutions.; Albany International Corporation specializes in producing advanced materials and engineered components, serving industries such as aerospace and paper manufacturing with innovative solutions.; Getty Realty Corporation specializes in owning, leasing, and financing properties for the convenience store and gas station sectors across the United States.; Mettler-Toledo International, Inc. specializes in precision instruments and services for a wide range of laboratory, industrial, and food retailing applications, helping businesses ensure accuracy and efficiency in their operations.; Ameriprise Financial, Inc. offers comprehensive financial services, specializing in wealth management, asset management, and insurance solutions to help clients plan and achieve their financial goals."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "HDFC Bank Limited; Albany International Corporation; Getty Realty Corporation; Mettler-Toledo International, Inc.; Pfizer, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "Synthesis Energy Systems, Inc.; TD Holdings, Inc.; TMSR Holding Company Limited; Verb Technology Company, Inc.; Sunesis Pharmaceuticals, Inc."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "3.547008547008547"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "Pennsylvania (PA) has the highest number of reviews (662); average rating of businesses in that state: 3.6994"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "Pennsylvania (PA); average rating: 3.6480058240814466"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "Pennsylvania (PA); average rating: 3.6480058240814466"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "Pennsylvania; 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "Pennsylvania (PA), average rating: 3.699395770392749"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "35"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "Restaurants, average rating: 3.633676092544987"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "Restaurants, average rating 3.633676092544987"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "Shopping; average rating: 3.4454545454545453"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "Restaurants, average rating 3.633676092544987"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "Restaurants, average rating: 3.633676092544987"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "Pennsylvania (PA), 8 businesses, average rating 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "Pennsylvania (PA); average rating: 3.48"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "Pennsylvania; average rating: 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "Pennsylvania, average rating: 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "Pennsylvania, 3.4839857651245554"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "Coffee House Too Cafe; category: Restaurants"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "Coffee House Too Cafe; Restaurants, Breakfast & Brunch, American (New), Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "Coffee House Too Cafe, Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "Coffee House Too Cafe; Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "Coffee House Too Cafe, Cafes"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "Restaurants; Food; American (New); Shopping; Breakfast & Brunch"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "Restaurants; Food; American (New); Shopping; Breakfast & Brunch"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "Restaurants; Food; American (New); Shopping; Breakfast & Brunch"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "Restaurants; Food; American (New); Shopping; Breakfast & Brunch"
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "Restaurants; Food; American (New); Shopping; Breakfast & Brunch"
+  }
+]
