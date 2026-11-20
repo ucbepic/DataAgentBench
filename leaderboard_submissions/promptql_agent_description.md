@@ -4,7 +4,7 @@
 - Backbone models: Claude Fable 5.2 and GPT-6.2 Astra (reasoning effort max). These are two separate entries.
 - Hints used: Yes
 - Tuned prompt: No
-- Coverage: 53 of 54 questions, 5 runs each, 265 trials per model. GITHUB_REPOS query 2 is missing for both models.
+- Coverage: 54 of 54 questions, 5 runs each, 270 trials per model. GITHUB_REPOS query 2 was run later than the rest. See the PR description.
 
 ## How it works
 
@@ -26,4 +26,4 @@ The wrapper carries the dataset's `db_description.txt`, its `db_description_with
 
 - AG News has no stored category, so the agent had to classify articles itself. Some Claude Fable 5.2 answers say it used an LLM for that. The traces don't include the classification step for either model. See the PR description.
 - Internet access was on. The prompt told the agent not to use it. See the PR description for what we checked.
-- The traces are partial. See the PR description for what they hold.
+- Most traces are partial. See the PR description for what they hold.

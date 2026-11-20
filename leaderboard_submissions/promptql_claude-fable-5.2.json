@@ -91,6 +91,36 @@
   },
   {
     "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` is the most-copied non-binary `.swift` file (23 copies) among files whose ID appears in the files table, and the repository's languages include Swift."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "**SwiftAndroid/swift**\n\nIts non-binary file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` is copied 23 times, the most of any `.swift` file whose ID appears in the files table, and the repository's languages include Swift."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` (id `71a17ce92451858f3eb01aa8082551e48bc5550d`) is the most-copied non-binary `.swift` file, at 23 copies, among files whose ID appears in the `files` table."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` is the most copied non-binary `.swift` file (23 copies) among files whose ID appears in the `files` table, and the repository's languages include Swift."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` (id `71a17ce92451858f3eb01aa8082551e48bc5550d`) is the most-copied non-binary `.swift` file, at 23 copies, among files whose ID appears in the files table. The languages table lists Swift for this repository."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
     "query": "3",
     "run": "0",
     "answer": "**1077**"

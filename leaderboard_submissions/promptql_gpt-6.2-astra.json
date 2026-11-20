@@ -91,6 +91,36 @@
   },
   {
     "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "**Repository:** `SwiftAndroid/swift`\n**File:** `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` — **23 copies**\n**File ID:** `71a17ce92451858f3eb01aa8082551e48bc5550d` (appears once in `files`)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "**Repository:** `SwiftAndroid/swift`\n**File:** `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` — **23 copies**\n**File ID:** `71a17ce92451858f3eb01aa8082551e48bc5550d` (occurs once in `files`)"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "**SwiftAndroid/swift** contains `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift`, the most frequently copied non-binary Swift file, with **23 copies**. Its file ID is `71a17ce92451858f3eb01aa8082551e48bc5550d`."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "**`SwiftAndroid/swift`** contains `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift`, the most frequently copied qualifying non-binary Swift file, with **23 recorded copies**. Its blob ID, `71a17ce92451858f3eb01aa8082551e48bc5550d`, occurs exactly once in the `files` table."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "**Repository:** `SwiftAndroid/swift`  \n**File:** `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift`  \n**Copies:** 23  \n**File ID:** `71a17ce92451858f3eb01aa8082551e48bc5550d`"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
     "query": "3",
     "run": "0",
     "answer": "1,077"
