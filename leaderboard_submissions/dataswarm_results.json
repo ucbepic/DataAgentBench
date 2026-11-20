@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "answer": "The top 5 NPM packages by GitHub star number, considering only each package's latest release version, are:\n\n1. @dmrvos/infrajs>0.0.5>typescript: 2.6.2 (microsoft/typescript, 94931 stars)\n2. @dmrvos/infrajs>0.0.6>typescript: 2.6.2 (microsoft/typescript, 94931 stars)\n3. @dylanvann/svelte: 3.25.4 (sveltejs/svelte, 73,499 stars)\n4. @dumc11/tailwindcss: 0.4.0 (tailwindcss/tailwindcss, 73,464 stars)\n5. @dollarshaveclub/cli>1.0.0>lodash: 4.17.4 (lodash/lodash, 57779 stars)\n\nThe 5th position is a 95-package tie at 57779 stars: every NPM package whose latest release version links to the GitHub project lodash/lodash shares this position, and @dollarshaveclub/cli>1.0.0>lodash is the alphabetically first of them. All 95 packages that share 5th place, each with its latest release version, are:\n\n| Package | Latest release version |\n| --- | --- |\n| @dollarshaveclub/cli>1.0.0>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.1.0>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.10.0>lodash | 4.17.5 |\n| @dollarshaveclub/cli>1.10.1>lodash | 4.17.5 |\n| @dollarshaveclub/cli>1.11.0>lodash | 4.17.5 |\n| @dollarshaveclub/cli>1.11.1>lodash | 4.17.5 |\n| @dollarshaveclub/cli>1.11.2>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.11.3>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.11.4>lodash | 4.17.11 |\n| @dollarshaveclub/cli>1.11.5-rc.1>lodash | 4.17.11 |\n| @dollarshaveclub/cli>1.11.5>lodash | 4.17.11 |\n| @dollarshaveclub/cli>1.12.0>lodash | 4.17.11 |\n| @dollarshaveclub/cli>1.13.0>lodash | 4.17.11 |\n| @dollarshaveclub/cli>1.13.1>lodash | 4.17.11 |\n| @dollarshaveclub/cli>1.2.0>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.3.0>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.0>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.1>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.2>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.3>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.4>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.5>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.6>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.5.7>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.6.0>lodash | 4.17.4 |\n| @dollarshaveclub/cli>1.7.1>lodash | 4.17.5 |\n| @dollarshaveclub/cli>1.8.0>lodash | 4.17.5 |\n| @dollarshaveclub/cli>1.9.0>lodash | 4.17.5 |\n| @dollarshaveclub/cli>1.9.1>lodash | 4.17.5 |\n| @dollarshaveclub/cli>2.0.0>lodash | 4.17.11 |\n| @dollarshaveclub/cli>2.0.1>lodash | 4.17.11 |\n| @dollarshaveclub/cli>2.1.0>lodash | 4.17.11 |\n| @dollarshaveclub/cli>2.1.1>lodash | 4.17.11 |\n| @dollarshaveclub/cli>2.2.0>lodash | 4.17.11 |\n| @dollarshaveclub/cli>2.2.1>lodash | 4.17.11 |\n| @dollarshaveclub/cli>2.2.2>lodash | 4.17.11 |\n| @dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash | 4.16.3 |\n| @dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash | 4.16.3 |\n| @dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash | 4.16.3 |\n| @dpoineau/react-scripts>1.0.0>lodash | 4.9.0 |\n| @dpoineau/react-scripts>1.0.0>lodash._arraycopy | 3.0.0 |\n| @dpoineau/react-scripts>1.0.0>lodash._arrayeach | 3.0.0 |\n| @dpoineau/react-scripts>1.0.0>lodash._baseassign | 3.2.0 |\n| @dpoineau/react-scripts>1.0.0>lodash._baseclone | 3.3.0 |\n| @dpoineau/react-scripts>1.0.0>lodash._basecopy | 3.0.1 |\n| @dpoineau/react-scripts>1.0.0>lodash._basefor | 3.0.3 |\n| @dpoineau/react-scripts>1.0.0>lodash._bindcallback | 3.0.1 |\n| @dpoineau/react-scripts>1.0.0>lodash._createcompounder | 3.0.0 |\n| @dpoineau/react-scripts>1.0.0>lodash._getnative | 3.9.1 |\n| @dpoineau/react-scripts>1.0.0>lodash._root | 3.0.1 |\n| @dpoineau/react-scripts>1.0.0>lodash.assign | 4.2.0 |\n| @dpoineau/react-scripts>1.0.0>lodash.camelcase | 3.0.1 |\n| @dpoineau/react-scripts>1.0.0>lodash.clonedeep | 4.5.0 |\n| @dpoineau/react-scripts>1.0.0>lodash.cond | 4.5.2 |\n| @dpoineau/react-scripts>1.0.0>lodash.deburr | 3.2.0 |\n| @dpoineau/react-scripts>1.0.0>lodash.endswith | 4.2.1 |\n| @dpoineau/react-scripts>1.0.0>lodash.find | 4.6.0 |\n| @dpoineau/react-scripts>1.0.0>lodash.findindex | 4.6.0 |\n| @dpoineau/react-scripts>1.0.0>lodash.indexof | 4.0.5 |\n| @dpoineau/react-scripts>1.0.0>lodash.isarguments | 3.1.0 |\n| @dpoineau/react-scripts>1.0.0>lodash.isarray | 3.0.4 |\n| @dpoineau/react-scripts>1.0.0>lodash.keys | 3.1.2 |\n| @dpoineau/react-scripts>1.0.0>lodash.pickby | 4.6.0 |\n| @dpoineau/react-scripts>1.0.0>lodash.words | 3.2.0 |\n| @dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep | 3.0.2 |\n| @dummmy/pack-cli>1.0.8>lodash | 4.17.19 |\n| @dummmy/pack-cli>1.0.9>lodash | 4.17.19 |\n| @dummmy/webpack-cli>1.0.2>lodash | 4.17.19 |\n| @dummmy/webpack-cli>1.0.3>lodash | 4.17.19 |\n| @dummmy/webpack-cli>1.0.4>lodash | 4.17.19 |\n| @dummmy/webpack-cli>1.0.5>lodash | 4.17.19 |\n| @dummmy/webpack-cli>1.0.6>lodash | 4.17.19 |\n| @dummmy/webpack-cli>1.0.7>lodash | 4.17.19 |\n| @dwarvesf/react-scripts>0.7.0>lodash | 4.17.2 |\n| @dwarvesf/react-scripts>0.7.0>lodash._arraycopy | 3.0.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash._arrayeach | 3.0.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash._baseassign | 3.2.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash._baseclone | 3.3.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash._basecopy | 3.0.1 |\n| @dwarvesf/react-scripts>0.7.0>lodash._basefor | 3.0.3 |\n| @dwarvesf/react-scripts>0.7.0>lodash._bindcallback | 3.0.1 |\n| @dwarvesf/react-scripts>0.7.0>lodash._createcompounder | 3.0.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash._getnative | 3.9.1 |\n| @dwarvesf/react-scripts>0.7.0>lodash._root | 3.0.1 |\n| @dwarvesf/react-scripts>0.7.0>lodash.assign | 4.2.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash.camelcase | 3.0.1 |\n| @dwarvesf/react-scripts>0.7.0>lodash.clonedeep | 3.0.2 |\n| @dwarvesf/react-scripts>0.7.0>lodash.cond | 4.5.2 |\n| @dwarvesf/react-scripts>0.7.0>lodash.deburr | 3.2.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash.indexof | 4.0.5 |\n| @dwarvesf/react-scripts>0.7.0>lodash.isarguments | 3.1.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash.isarray | 3.0.4 |\n| @dwarvesf/react-scripts>0.7.0>lodash.keys | 3.1.2 |\n| @dwarvesf/react-scripts>0.7.0>lodash.pickby | 4.6.0 |\n| @dwarvesf/react-scripts>0.7.0>lodash.words | 3.2.0 |"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "answer": "The 5 projects with the highest GitHub fork count are:\n\n1. mui-org/material-ui — 30,522 forks\n2. moment/moment — 7,201 forks\n3. semantic-org/semantic-ui — 4,955 forks\n4. react-native-elements/react-native-elements — 4,623 forks\n5. sveltejs/svelte — 4,091 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "answer": "The top 5 NPM packages by the GitHub star count of the project linked to their latest release version are:\n\n1. @dmrvos/infrajs>0.0.5>typescript — 2.6.2 (94,931 stars, microsoft/typescript)\n2. @dmrvos/infrajs>0.0.6>typescript — 2.6.2 (94,931 stars, microsoft/typescript)\n3. @dylanvann/svelte — 3.25.4 (73,499 stars, sveltejs/svelte)\n4. @dumc11/tailwindcss — 0.4.0 (73,464 stars, tailwindcss/tailwindcss)\n5. @dollarshaveclub/cli>1.0.0>lodash — 4.17.4 (57,779 stars, lodash/lodash)\n\nFifth place is a tie: 95 distinct packages share the star count of 57,779, because the GitHub project linked to the latest release version of every one of them is lodash/lodash, the repository of the lodash library. The package in the fifth position above is the lexicographically first of these 95 tied packages; all of them are dependency-path packages whose names route through one of five parents — @dollarshaveclub/cli, @dpoineau/react-scripts, @dwarvesf/react-scripts, @dummmy/webpack-cli, and @dummmy/pack-cli — to lodash-family packages."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "answer": "The 5 projects with the highest GitHub fork count are:\n\n1. mui-org/material-ui: 30522 forks\n2. moment/moment: 7201 forks\n3. semantic-org/semantic-ui: 4955 forks\n4. react-native-elements/react-native-elements: 4623 forks\n5. sveltejs/svelte: 4091 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "answer": "The top 5 most popular NPM packages by GitHub star count, considering only the latest release version of each distinct package, are:\n\n1. @dmrvos/infrajs>0.0.5>typescript: 2.6.2 (94,931 stars)\n2. @dmrvos/infrajs>0.0.6>typescript: 2.6.2 (94,931 stars)\n3. @dylanvann/svelte: 3.25.4 (73,499 stars)\n4. @dumc11/tailwindcss: 0.4.0 (73,464 stars)\n5. @dollarshaveclub/cli>1.0.0>lodash: 4.17.4 (57,779 stars)\n\nThe fifth position is a tie at 57,779 stars: 95 distinct packages have their latest release versions linked to the lodash/lodash repository, and the alphabetically first among them is listed above."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "answer": "The 5 projects with the highest GitHub fork count among NPM packages marked as release with project license MIT are:\n\n1. mui-org/material-ui: 30522 forks\n2. moment/moment: 7201 forks\n3. semantic-org/semantic-ui: 4955 forks\n4. react-native-elements/react-native-elements: 4623 forks\n5. sveltejs/svelte: 4091 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "answer": "The top 5 most popular NPM packages by GitHub star count, considering only the latest release version of each distinct package:\n\n1. @dmrvos/infrajs>0.0.5>typescript 2.6.2 (94,931 stars, GitHub project microsoft/typescript)\n2. @dmrvos/infrajs>0.0.6>typescript 2.6.2 (94,931 stars, GitHub project microsoft/typescript)\n3. @dylanvann/svelte 3.25.4 (73,499 stars, GitHub project sveltejs/svelte)\n4. @dumc11/tailwindcss 0.4.0 (73,464 stars, GitHub project tailwindcss/tailwindcss)\n5. @dollarshaveclub/cli>1.0.0>lodash 4.17.4 (57,779 stars, GitHub project lodash/lodash)\n\nRank 5 is a 95-way tie: all 95 distinct packages whose latest release versions link to the GitHub repository lodash/lodash carry the same star count, and @dollarshaveclub/cli>1.0.0>lodash 4.17.4 is the first among them in package-name order."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "answer": "The 5 projects with the highest GitHub fork count are mui-org/material-ui: 30522 forks; moment/moment: 7201 forks; semantic-org/semantic-ui: 4955 forks; react-native-elements/react-native-elements: 4623 forks; and sveltejs/svelte: 4091 forks."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "answer": "Considering only the latest release version of each distinct NPM package, the top five most popular packages by GitHub star count are: @dmrvos/infrajs>0.0.5>typescript — 2.6.2 — 94931 stars (microsoft/typescript); @dmrvos/infrajs>0.0.6>typescript — 2.6.2 — 94931 stars (microsoft/typescript); @dylanvann/svelte — 3.25.4 — 73499 stars (sveltejs/svelte); and @dumc11/tailwindcss — 0.4.0 — 73464 stars (tailwindcss/tailwindcss). The fifth place is a 95-way tie at 57779 stars (all dependency-path lodash packages linked to lodash/lodash), so 99 packages in total occupy the top five positions; the tied packages are listed below with their versions.\n\nComplete list of the 99 packages holding the top five popularity positions (package — latest release version — GitHub stars; entries 5-99 are tied at 57779 stars):\n\n1. @dmrvos/infrajs>0.0.5>typescript — 2.6.2 — 94931\n2. @dmrvos/infrajs>0.0.6>typescript — 2.6.2 — 94931\n3. @dylanvann/svelte — 3.25.4 — 73499\n4. @dumc11/tailwindcss — 0.4.0 — 73464\n5. @dollarshaveclub/cli>1.0.0>lodash — 4.17.4 — 57779\n6. @dollarshaveclub/cli>1.1.0>lodash — 4.17.4 — 57779\n7. @dollarshaveclub/cli>1.10.0>lodash — 4.17.5 — 57779\n8. @dollarshaveclub/cli>1.10.1>lodash — 4.17.5 — 57779\n9. @dollarshaveclub/cli>1.11.0>lodash — 4.17.5 — 57779\n10. @dollarshaveclub/cli>1.11.1>lodash — 4.17.5 — 57779\n11. @dollarshaveclub/cli>1.11.2>lodash — 4.17.4 — 57779\n12. @dollarshaveclub/cli>1.11.3>lodash — 4.17.4 — 57779\n13. @dollarshaveclub/cli>1.11.4>lodash — 4.17.11 — 57779\n14. @dollarshaveclub/cli>1.11.5-rc.1>lodash — 4.17.11 — 57779\n15. @dollarshaveclub/cli>1.11.5>lodash — 4.17.11 — 57779\n16. @dollarshaveclub/cli>1.12.0>lodash — 4.17.11 — 57779\n17. @dollarshaveclub/cli>1.13.0>lodash — 4.17.11 — 57779\n18. @dollarshaveclub/cli>1.13.1>lodash — 4.17.11 — 57779\n19. @dollarshaveclub/cli>1.2.0>lodash — 4.17.4 — 57779\n20. @dollarshaveclub/cli>1.3.0>lodash — 4.17.4 — 57779\n21. @dollarshaveclub/cli>1.5.0>lodash — 4.17.4 — 57779\n22. @dollarshaveclub/cli>1.5.1>lodash — 4.17.4 — 57779\n23. @dollarshaveclub/cli>1.5.2>lodash — 4.17.4 — 57779\n24. @dollarshaveclub/cli>1.5.3>lodash — 4.17.4 — 57779\n25. @dollarshaveclub/cli>1.5.4>lodash — 4.17.4 — 57779\n26. @dollarshaveclub/cli>1.5.5>lodash — 4.17.4 — 57779\n27. @dollarshaveclub/cli>1.5.6>lodash — 4.17.4 — 57779\n28. @dollarshaveclub/cli>1.5.7>lodash — 4.17.4 — 57779\n29. @dollarshaveclub/cli>1.6.0>lodash — 4.17.4 — 57779\n30. @dollarshaveclub/cli>1.7.1>lodash — 4.17.5 — 57779\n31. @dollarshaveclub/cli>1.8.0>lodash — 4.17.5 — 57779\n32. @dollarshaveclub/cli>1.9.0>lodash — 4.17.5 — 57779\n33. @dollarshaveclub/cli>1.9.1>lodash — 4.17.5 — 57779\n34. @dollarshaveclub/cli>2.0.0>lodash — 4.17.11 — 57779\n35. @dollarshaveclub/cli>2.0.1>lodash — 4.17.11 — 57779\n36. @dollarshaveclub/cli>2.1.0>lodash — 4.17.11 — 57779\n37. @dollarshaveclub/cli>2.1.1>lodash — 4.17.11 — 57779\n38. @dollarshaveclub/cli>2.2.0>lodash — 4.17.11 — 57779\n39. @dollarshaveclub/cli>2.2.1>lodash — 4.17.11 — 57779\n40. @dollarshaveclub/cli>2.2.2>lodash — 4.17.11 — 57779\n41. @dpoineau/react-scripts>1.0.0>eslint-plugin-flowtype>lodash — 4.16.3 — 57779\n42. @dpoineau/react-scripts>1.0.0>html-webpack-plugin>lodash — 4.16.3 — 57779\n43. @dpoineau/react-scripts>1.0.0>http-proxy-middleware>lodash — 4.16.3 — 57779\n44. @dpoineau/react-scripts>1.0.0>lodash — 4.9.0 — 57779\n45. @dpoineau/react-scripts>1.0.0>lodash._arraycopy — 3.0.0 — 57779\n46. @dpoineau/react-scripts>1.0.0>lodash._arrayeach — 3.0.0 — 57779\n47. @dpoineau/react-scripts>1.0.0>lodash._baseassign — 3.2.0 — 57779\n48. @dpoineau/react-scripts>1.0.0>lodash._baseclone — 3.3.0 — 57779\n49. @dpoineau/react-scripts>1.0.0>lodash._basecopy — 3.0.1 — 57779\n50. @dpoineau/react-scripts>1.0.0>lodash._basefor — 3.0.3 — 57779\n51. @dpoineau/react-scripts>1.0.0>lodash._bindcallback — 3.0.1 — 57779\n52. @dpoineau/react-scripts>1.0.0>lodash._createcompounder — 3.0.0 — 57779\n53. @dpoineau/react-scripts>1.0.0>lodash._getnative — 3.9.1 — 57779\n54. @dpoineau/react-scripts>1.0.0>lodash._root — 3.0.1 — 57779\n55. @dpoineau/react-scripts>1.0.0>lodash.assign — 4.2.0 — 57779\n56. @dpoineau/react-scripts>1.0.0>lodash.camelcase — 3.0.1 — 57779\n57. @dpoineau/react-scripts>1.0.0>lodash.clonedeep — 4.5.0 — 57779\n58. @dpoineau/react-scripts>1.0.0>lodash.cond — 4.5.2 — 57779\n59. @dpoineau/react-scripts>1.0.0>lodash.deburr — 3.2.0 — 57779\n60. @dpoineau/react-scripts>1.0.0>lodash.endswith — 4.2.1 — 57779\n61. @dpoineau/react-scripts>1.0.0>lodash.find — 4.6.0 — 57779\n62. @dpoineau/react-scripts>1.0.0>lodash.findindex — 4.6.0 — 57779\n63. @dpoineau/react-scripts>1.0.0>lodash.indexof — 4.0.5 — 57779\n64. @dpoineau/react-scripts>1.0.0>lodash.isarguments — 3.1.0 — 57779\n65. @dpoineau/react-scripts>1.0.0>lodash.isarray — 3.0.4 — 57779\n66. @dpoineau/react-scripts>1.0.0>lodash.keys — 3.1.2 — 57779\n67. @dpoineau/react-scripts>1.0.0>lodash.pickby — 4.6.0 — 57779\n68. @dpoineau/react-scripts>1.0.0>lodash.words — 3.2.0 — 57779\n69. @dpoineau/react-scripts>1.0.0>node-notifier>lodash.clonedeep — 3.0.2 — 57779\n70. @dummmy/pack-cli>1.0.8>lodash — 4.17.19 — 57779\n71. @dummmy/pack-cli>1.0.9>lodash — 4.17.19 — 57779\n72. @dummmy/webpack-cli>1.0.2>lodash — 4.17.19 — 57779\n73. @dummmy/webpack-cli>1.0.3>lodash — 4.17.19 — 57779\n74. @dummmy/webpack-cli>1.0.4>lodash — 4.17.19 — 57779\n75. @dummmy/webpack-cli>1.0.5>lodash — 4.17.19 — 57779\n76. @dummmy/webpack-cli>1.0.6>lodash — 4.17.19 — 57779\n77. @dummmy/webpack-cli>1.0.7>lodash — 4.17.19 — 57779\n78. @dwarvesf/react-scripts>0.7.0>lodash — 4.17.2 — 57779\n79. @dwarvesf/react-scripts>0.7.0>lodash._arraycopy — 3.0.0 — 57779\n80. @dwarvesf/react-scripts>0.7.0>lodash._arrayeach — 3.0.0 — 57779\n81. @dwarvesf/react-scripts>0.7.0>lodash._baseassign — 3.2.0 — 57779\n82. @dwarvesf/react-scripts>0.7.0>lodash._baseclone — 3.3.0 — 57779\n83. @dwarvesf/react-scripts>0.7.0>lodash._basecopy — 3.0.1 — 57779\n84. @dwarvesf/react-scripts>0.7.0>lodash._basefor — 3.0.3 — 57779\n85. @dwarvesf/react-scripts>0.7.0>lodash._bindcallback — 3.0.1 — 57779\n86. @dwarvesf/react-scripts>0.7.0>lodash._createcompounder — 3.0.0 — 57779\n87. @dwarvesf/react-scripts>0.7.0>lodash._getnative — 3.9.1 — 57779\n88. @dwarvesf/react-scripts>0.7.0>lodash._root — 3.0.1 — 57779\n89. @dwarvesf/react-scripts>0.7.0>lodash.assign — 4.2.0 — 57779\n90. @dwarvesf/react-scripts>0.7.0>lodash.camelcase — 3.0.1 — 57779\n91. @dwarvesf/react-scripts>0.7.0>lodash.clonedeep — 3.0.2 — 57779\n92. @dwarvesf/react-scripts>0.7.0>lodash.cond — 4.5.2 — 57779\n93. @dwarvesf/react-scripts>0.7.0>lodash.deburr — 3.2.0 — 57779\n94. @dwarvesf/react-scripts>0.7.0>lodash.indexof — 4.0.5 — 57779\n95. @dwarvesf/react-scripts>0.7.0>lodash.isarguments — 3.1.0 — 57779\n96. @dwarvesf/react-scripts>0.7.0>lodash.isarray — 3.0.4 — 57779\n97. @dwarvesf/react-scripts>0.7.0>lodash.keys — 3.1.2 — 57779\n98. @dwarvesf/react-scripts>0.7.0>lodash.pickby — 4.6.0 — 57779\n99. @dwarvesf/react-scripts>0.7.0>lodash.words — 3.2.0 — 57779"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "answer": "The 5 projects with the highest GitHub fork counts are mui-org/material-ui: 30522 forks, moment/moment: 7201 forks, semantic-org/semantic-ui: 4955 forks, react-native-elements/react-native-elements: 4623 forks, and sveltejs/svelte: 4091 forks."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "Proportion of README.md files that include copyright information among repositories that do not use Python: 0.33 (1 of 3)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift (71a17ce92451858f3eb01aa8082551e48bc5550d, 23 copies, non-binary) is the most frequently copied non-binary Swift (.swift) file in the dataset, and SwiftAndroid/swift (12,538,936 bytes of Swift code) is the repository that contains Swift code and this file."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "1,077 commit messages."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "apple/swift (1051 commits), twbs/bootstrap (340 commits), Microsoft/vscode (190 commits), facebook/react (178 commits), and tensorflow/tensorflow (156 commits) are the top five GitHub repositories whose main language is not Python, ordered by the highest number of commits."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "answer": "Among repositories that do not use Python, the proportion of their README.md files that include copyright information: 0.3333 (1/3) — 1 of the 3 README.md files with observable content includes copyright information."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "SwiftAndroid/swift is the repository that contains Swift code and the dataset's most frequently copied Swift (.swift) file: validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift (71a17ce92451858f3eb01aa8082551e48bc5550d, non-binary, 23 copies) - the highest copy count among all non-binary .swift files, each uniquely determined by its ID in the files table. This non-binary, 470-byte file is repeated 23 times in the dataset under mode 33188 at ref refs/heads/master, and SwiftAndroid/swift's language description lists Swift among its languages."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "answer": "1,077 commit messages."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "answer": "apple/swift 1051 commits, twbs/bootstrap 340 commits, Microsoft/vscode 190 commits, facebook/react 178 commits, and tensorflow/tensorflow 156 commits. These are the top five GitHub repositories whose main language is not Python, ordered by the highest number of commits."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "answer": "0.33 — among repositories that do not use Python, 1 of the 3 README.md files whose content is recorded in the database includes copyright information.\n\nThe README.md file that includes copyright information is waydelyle/openfund, public/js/ckeditor/README.md, which carries the notice \"Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.\" The 2 README.md files that include no copyright information are briancavalier/todomvc-fab, examples/cujo/bower_components/curl/src/curl/plugin/README.md, and DaMSL/K3, tools/scripts/docker/README.md."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "包含 Swift 代码的存储库是 SwiftAndroid/swift，数据集中被复制次数最多的非二进制 Swift (.swift) 文件是 validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift（ID：71a17ce92451858f3eb01aa8082551e48bc5550d，23 个副本，470 字节，非二进制，位于 ref refs/heads/master）。\n\n值 71a17ce92451858f3eb01aa8082551e48bc5550d 是该文件的 ID，它在 files 表中唯一标识该文件；其内容条目原文如下：\"It is a non-binary file of 470 bytes, repeated 23 times in the dataset under mode 33188.\"（这是一个 470 字节的非二进制文件，在数据集中在 mode 33188 下重复了 23 次。）——这是所有在 files 表中通过 ID 唯一标识的非二进制 .swift 文件中最高的副本数。根据其语言条目，SwiftAndroid/swift 包含 Swift 代码：Swift（12,538,936 字节），仅次于 C++（18,941,219 字节）。"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "answer": "1,077 commit messages."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "answer": "The top five GitHub repositories whose main language is not Python, ordered by the highest number of commits, are: apple/swift (1051 commits), twbs/bootstrap (340 commits), Microsoft/vscode (190 commits), facebook/react (178 commits), and tensorflow/tensorflow (156 commits)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "answer": "The proportion: 0.33\n\nAmong repositories that do not use Python, 1 of their 3 README.md files includes copyright information (1/3 ≈ 0.3333)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "SwiftAndroid/swift (12,538,936 bytes of Swift) is the repository that contains both Swift code and the most frequently copied non-binary Swift (.swift) file in the dataset: validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift (71a17ce92451858f3eb01aa8082551e48bc5550d, 23 copies), a non-binary 470-byte file."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "answer": "1,077 commit messages are found in repositories that use the Shell programming language and are licensed under Apache-2.0, where each message exists, is shorter than 1,000 characters, and does not begin with 'merge', 'update', or 'test'."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "answer": "格式自检通过（12/12 项，退出码 0）。按 Step 4.5 规则，正文原样发送：\n\nThe top five GitHub repositories whose main language is not Python, ordered by the highest number of commits, are apple/swift (1,051 commits), twbs/bootstrap (340 commits), Microsoft/vscode (190 commits), facebook/react (178 commits), and tensorflow/tensorflow (156 commits).\n\nTheir main languages are: apple/swift (C++), twbs/bootstrap (JavaScript), Microsoft/vscode (TypeScript), facebook/react (JavaScript), and tensorflow/tensorflow (C++)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "answer": "0.33\n\nProportion of README.md files that include copyright information among repositories that do not use Python: 1/3 (0.3333), with 1 of the 3 README.md files with observable content including copyright information."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "SwiftAndroid/swift contains the most frequently copied Swift (.swift) file: validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift (71a17ce92451858f3eb01aa8082551e48bc5550d, 23, non-binary, 470 bytes) — a non-binary file of 470 bytes, repeated 23 times in the dataset. This most frequently copied non-binary Swift (.swift) file resides in SwiftAndroid/swift, the repository that contains Swift code. Each file is uniquely determined by its ID in the files table; this file's ID appears exactly once in the files table, at ref refs/heads/master."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "answer": "1,077 commit messages."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "answer": "apple/swift (1051 commits), twbs/bootstrap (340 commits), Microsoft/vscode (190 commits), facebook/react (178 commits), and tensorflow/tensorflow (156 commits) are the top five GitHub repositories whose main language is not Python, ordered by the highest number of commits."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "answer": "格式检查通过 (exit 0, 12/12)。答案已验证——数值已手动重新计算，连接完整性已确认，所有 23 名具有有效 IGF2 和非括号组织学注释的 LGG 患者均已包含在 5 个 ICD-O-3 组织学组中。发送最终答案：\n\n按组织学类型（ICD-O-3 代码）划分的 LGG 患者 IGF2 平均 log10 转换表达量：\n\n- 9382/3: 2.713571\n- 9400/3: 2.601416\n- 9401/3: 2.558390\n- 9450/3: 2.696718\n- 9451/3: 2.582635"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "answer": "The top three histological types among alive BRCA (Breast Invasive Carcinoma) patients showing the highest percentage of CDH1 gene mutations are:\n\n1. Infiltrating Lobular Carcinoma: 0.5056 (50.56%, 90 of 178 alive BRCA patients)\n2. Mixed Histology (please specify): 0.1667 (16.67%, 4 of 24 alive BRCA patients)\n3. Other  specify: 0.0833 (8.33%, 3 of 36 alive BRCA patients)"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "answer": "The chi-square statistic for the association between histological types and the presence of reliable CDH1 gene mutations in female BRCA patients is 305.12 (χ² = 305.123919800746, df = 4, p = 8.5 × 10^-65).\n\nContingency table for the 1059 female BRCA patients with known histological types, after excluding categories with marginal totals ≤ 10:\n\n| Histological type | CDH1 mutated | CDH1 not mutated | Row total |\n|---|---|---|---|\n| Infiltrating Ductal Carcinoma | 9 | 757 | 766 |\n| Infiltrating Lobular Carcinoma | 83 | 118 | 201 |\n| Other  specify | 3 | 42 | 45 |\n| Mixed Histology (please specify) | 4 | 26 | 30 |\n| Mucinous Carcinoma | 0 | 17 | 17 |\n| Column total | 99 | 960 | 1059 |\n\nCategories excluded under the ≤ 10 marginal-total rule: Metaplastic Carcinoma, Medullary Carcinoma, and Infiltrating Carcinoma NOS (each below the threshold), along with one patient lacking a histological type. The association is driven overwhelmingly by Infiltrating Lobular Carcinoma, which accounts for 83 of the 99 mutated cases (mutation rate 0.413, versus 0.012 for Infiltrating Ductal Carcinoma)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "answer": "For LGG patients, the average log10-transformed expression of IGF2 across histology types is: 9382/3: 2.713571, 9400/3: 2.601416, 9401/3: 2.558390, 9450/3: 2.696718, 9451/3: 2.582635."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "answer": "Among BRCA patients in the PanCancer Atlas who are alive, the top three histological types with the highest percentage of CDH1 gene mutations are Infiltrating Lobular Carcinoma 0.5056 (90 of 178 patients), Mixed Histology (please specify) 0.1667 (4 of 24 patients), and Other  specify 0.0833 (3 of 36 patients)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "answer": "The chi-square statistic: 305.1239198007461 (approximately 305.12) for the association between histological types and the presence of CDH1 gene mutations in female BRCA patients from the PanCancer Atlas, considering only reliable (PASS) mutation entries and only patients with known histological types.\n\nThe statistic is based on 1,059 patients across the five retained histological type categories: Infiltrating Ductal Carcinoma, Infiltrating Lobular Carcinoma, Other  specify, Mixed Histology (please specify), and Mucinous Carcinoma. Among these patients, 99 carried a reliable (PASS) CDH1 mutation and 960 carried none. Histological type categories with marginal totals of 10 or fewer were excluded: Metaplastic Carcinoma, Medullary Carcinoma, and Infiltrating Carcinoma NOS."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "answer": "Average log10-transformed IGF2 expression (log10(normalized_count + 1)) by ICD-O-3 histology code for LGG patients:\n\n9382/3: 2.7136\n9400/3: 2.6014\n9401/3: 2.5584\n9450/3: 2.6967\n9451/3: 2.5826"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "answer": "The top three histological types by CDH1 mutation percentage among alive BRCA patients are Infiltrating Lobular Carcinoma 0.5056, Mixed Histology (please specify) 0.1667, and Other  specify 0.0833.\n\nEach value is the fraction of alive BRCA patients of that histological type with at least one CDH1 mutation: 90 of 178 for Infiltrating Lobular Carcinoma, 4 of 24 for Mixed Histology (please specify), and 3 of 36 for Other  specify."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "answer": "The chi-square statistic assessing the association between histological types and the presence of CDH1 gene mutations in female BRCA patients is 305.12 (more precisely, 305.1239; df = 4; p < 0.001).\n\nThe test covers 1059 female Breast Invasive Carcinoma patients with known histological types, of whom 99 carry a CDH1 mutation (reliable entries only) and 960 do not. The contingency table below lists the retained histology categories (CDH1-mutated / not mutated); histology categories with marginal totals of 10 or fewer were excluded.\n\n- Infiltrating Ductal Carcinoma: 9 / 757\n- Infiltrating Lobular Carcinoma: 83 / 118\n- Other  specify: 3 / 42\n- Mixed Histology (please specify): 4 / 26\n- Mucinous Carcinoma: 0 / 17\n\nMetaplastic Carcinoma, Medullary Carcinoma, and Infiltrating Carcinoma NOS were excluded because their marginal totals did not exceed 10."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "answer": "Average log10-transformed IGF2 expression for LGG patients by histology type (ICD-O-3 code): 9382/3: 2.713571; 9400/3: 2.601416; 9401/3: 2.558390; 9450/3: 2.696718; 9451/3: 2.582635."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "answer": "Among alive BRCA patients, the top three histological types with the highest percentage of CDH1 gene mutations are Infiltrating Lobular Carcinoma: 0.5056 (50.56%, 90 of 178 patients), Mixed Histology (please specify): 0.1667 (16.67%, 4 of 24 patients), and Other  specify: 0.0833 (8.33%, 3 of 36 patients)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "answer": "格式检查通过（31/31，退出代码 0）。发送已检查的答案：\n\n女性 BRCA 患者的组织学类型与 CDH1 基因突变之间关联的卡方统计量为 305.12（χ² = 305.1239，df = 4，p ≈ 8.5 × 10⁻⁶⁵），这是一个高度显著的关联。\n\n该统计量背后的列联表（具有已知组织学类型的女性 BRCA 患者，仅限可靠的 CDH1 突变条目，边际总数大于 10 的组织学类型类别）：\n\n| 组织学类型 | CDH1 突变 | 未突变 | 总数 |\n|---|---|---|---|\n| 浸润性导管癌 | 9 | 757 | 766 |\n| 浸润性小叶癌 | 83 | 118 | 201 |\n| 其他特殊类型 | 3 | 42 | 45 |\n| 混合组织学类型（请具体说明） | 4 | 26 | 30 |\n| 黏液癌 | 0 | 17 | 17 |\n| 总计 | 99 | 960 | 1059 |\n\n因边际总数规则（各不超过 10 名患者）而被排除的类别包括：化生性癌（Metaplastic Carcinoma）、髓样癌（Medullary Carcinoma）和浸润性癌 NOS（Infiltrating Carcinoma NOS）；具有未知（缺失）组织学类型的患者也被排除。该关联是由浸润性小叶癌（Infiltrating Lobular Carcinoma，201 名患者中有 83 名）中可靠 CDH1 突变的高度集中所驱动的，而在浸润性导管癌（Infiltrating Ductal Carcinoma，766 名患者中有 9 名）中则较低。"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "answer": "Average log10-transformed IGF2 expression by histology type for LGG patients: 9382/3: 2.713571, 9400/3: 2.601416, 9401/3: 2.558390, 9450/3: 2.696718, 9451/3: 2.582635.\n\n- 9382/3: 2.713571\n- 9400/3: 2.601416\n- 9401/3: 2.558390\n- 9450/3: 2.696718\n- 9451/3: 2.582635"
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "answer": "The top three histological types with the highest percentage of CDH1 gene mutations among alive BRCA patients in the PanCancer Atlas are Infiltrating Lobular Carcinoma, 0.5056 (50.56%, 90 of 178 patients), Mixed Histology (please specify), 0.1667 (16.67%, 4 of 24 patients), and Other  specify, 0.0833 (8.33%, 3 of 36 patients). Each percentage is the share of that histological type's alive BRCA patients carrying at least one CDH1 mutation."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "answer": "The chi-square statistic: 305.123919800746 (approximately 305.12; degrees of freedom = 4; N = 1059 female BRCA patients across the 5 retained histological type categories), assessing the association between histological types and the presence of CDH1 gene mutations with only reliable mutation entries, only known histological types, and excluding categories with marginal totals ≤ 10.\n\nRetained histological type categories: Infiltrating Ductal Carcinoma, Infiltrating Lobular Carcinoma, Mixed Histology (please specify), Mucinous Carcinoma, and Other  specify. Excluded under the marginal-total rule: Infiltrating Carcinoma NOS, Medullary Carcinoma, and Metaplastic Carcinoma (each with a row total of 10 or fewer patients), and the one patient lacking a histological type was excluded as unknown."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "answer": "The CPC group codes at level 5 whose best year (highest yearly exponential moving average of patent filings, smoothing factor 0.2) is 2022 are these 72 codes: A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "answer": "Among the 23 level-4 CPC technology areas for German (DE) patents granted in the second half of 2019, the highest filing-count exponential moving average (smoothing factor 0.1) peaks at A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE (2016, 2.0), tied by H04 ELECTRIC COMMUNICATION TECHNIQUE (2015, 2.0); the other 21 groups each peak at 1.0. Full list (CPC group code, full title, best year, peak EMA):\n\n| CPC group code | Full title | Best year | Peak EMA |\n|---|---|---|---|\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0 |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0 |\n| B60 | VEHICLES IN GENERAL | 2009 | 1.0 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 | 1.0 |\n| F41 | WEAPONS | 2012 | 1.0 |\n| G01 | MEASURING; TESTING | 2008 | 1.0 |\n| G02 | OPTICS | 2016 | 1.0 |\n| G08 | SIGNALLING | 2017 | 1.0 |\n| H01 | ELECTRIC ELEMENTS | 2008 | 1.0 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 | 1.0 |"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "answer": "Three assignees other than UNIV CALIFORNIA itself have cited patents assigned to UNIV CALIFORNIA; each citing assignee's name is followed by the full title of the primary CPC subclass of its citing publication:\n\n- BLOOM ENERGY CORP PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY (H01M)\n- CRYSTAL IS INC SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR (C30B)\n- SCHOWALTER LEO J SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 (H01L)"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "answer": "The CPC group codes at level 5 whose best year — the year with the highest exponential moving average of patent filings (smoothing factor 0.2) — is 2022 are: A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F — 72 codes in total."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "answer": "2019年下半年授权的德国（DE）专列中，年度专利申请量的最高指数移动平均线（平滑因子0.1）在 **A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE**（峰值EMA 2.0，最佳年份2016）和**H04 ELECTRIC COMMUNICATION TECHNIQUE**（峰值EMA 2.0，最佳年份2015）之间持平。其他21个符合条件的组的峰值EMA均为1.0。以下是德国所有23个四级CPC技术领域，每个领域均包含其完整标题、CPC组代码和最佳年份，即达到该组自身最高EMA的最早年份：\n\n1. A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE, 2016\n2. H04 ELECTRIC COMMUNICATION TECHNIQUE, 2015\n3. A21 BAKING; EDIBLE DOUGHS, 2015\n4. B23 MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR, 2015\n5. B29 WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL, 2007\n6. B41 PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS, 2007\n7. B60 VEHICLES IN GENERAL, 2009\n8. B62 LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS, 2010\n9. B63 SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT, 2014\n10. C09 DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR, 2015\n11. E02 HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING, 2012\n12. E05 LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES, 2012\n13. F02 COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS, 2010\n14. F16 ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL, 2009\n15. F23 COMBUSTION APPARATUS; COMBUSTION PROCESSES, 2018\n16. F24 HEATING; RANGES; VENTILATING, 2018\n17. F41 WEAPONS, 2012\n18. G01 MEASURING; TESTING, 2008\n19. G02 OPTICS, 2016\n20. G08 SIGNALLING, 2017\n21. H01 ELECTRIC ELEMENTS, 2008\n22. H02 GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER, 2009\n23. H03 ELECTRONIC CIRCUITRY, 2015"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "answer": "Format check passed (exit 0). Delivering the final answer verbatim:\n\nExcluding UNIV CALIFORNIA itself, the assignees that cited patents assigned to UNIV CALIFORNIA, together with the full title of the primary CPC subclass associated with each citation, are:\n\nBLOOM ENERGY CORP — PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY (primary CPC subclass H01M)\n\nCRYSTAL IS INC — SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR (primary CPC subclass C30B)\n\nSCHOWALTER LEO J — SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 (primary CPC subclass H01L)"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "answer": "The CPC group codes at level 5 whose best year is 2022 are: A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F (72 codes)."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "answer": "The level-4 CPC technology areas in Germany with the highest annual-filing EMA (smoothing factor 0.1) among patents granted in the second half of 2019: A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE (2016, 2.0) and H04 ELECTRIC COMMUNICATION TECHNIQUE (2015, 2.0) share the top peak of 2.0, and every other eligible group peaks lower. Each line below gives, in order, the CPC group code, full title, best year, and peak EMA.\n\n- A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE (2016, 2.0)\n- H04 ELECTRIC COMMUNICATION TECHNIQUE (2015, 2.0)\n- A21 BAKING; EDIBLE DOUGHS (2015, 1.0)\n- B23 MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR (2015, 1.0)\n- B29 WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL (2007, 1.0)\n- B41 PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS (2007, 1.0)\n- B60 VEHICLES IN GENERAL (2009, 1.0)\n- B62 LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS (2010, 1.0)\n- B63 SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT (2014, 1.0)\n- C09 DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR (2015, 1.0)\n- E02 HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING (2012, 1.0)\n- E05 LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES (2012, 1.0)\n- F02 COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS (2010, 1.0)\n- F16 ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL (2009, 1.0)\n- F23 COMBUSTION APPARATUS; COMBUSTION PROCESSES (2018, 1.0)\n- F24 HEATING; RANGES; VENTILATING (2018, 1.0)\n- F41 WEAPONS (2012, 1.0)\n- G01 MEASURING; TESTING (2008, 1.0)\n- G02 OPTICS (2016, 1.0)\n- G08 SIGNALLING (2017, 1.0)\n- H01 ELECTRIC ELEMENTS (2008, 1.0)\n- H02 GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER (2009, 1.0)\n- H03 ELECTRONIC CIRCUITRY (2015, 1.0)"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "answer": "Three assignees other than UNIV CALIFORNIA itself cited patents assigned to UNIV CALIFORNIA, with these primary CPC subclass titles:\n\n- BLOOM ENERGY CORP PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY (H01M)\n- CRYSTAL IS INC SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR (C30B)\n- SCHOWALTER LEO J SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 (H01L)"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "answer": "CPC group codes at level 5 whose best year (highest exponential moving average of patent filings per year, smoothing factor 0.2) is 2022: A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "answer": "The CPC technology areas in Germany with the highest exponential moving average (smoothing factor 0.1) of patent filings per year among German (DE) patent publications granted in the second half of 2019 are A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE (best year 2016) and H04 ELECTRIC COMMUNICATION TECHNIQUE (best year 2015), the two areas with the highest peak EMA (2.0); the 21 further level-4 CPC areas below each reach their own peak EMA of 1.0.\n\n- A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE (best year 2016)\n- H04 ELECTRIC COMMUNICATION TECHNIQUE (best year 2015)\n- A21 BAKING; EDIBLE DOUGHS (best year 2015)\n- B23 MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR (best year 2015)\n- B29 WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL (best year 2007)\n- B41 PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS (best year 2007)\n- B60 VEHICLES IN GENERAL (best year 2009)\n- B62 LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS (best year 2010)\n- B63 SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT (best year 2014)\n- C09 DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR (best year 2015)\n- E02 HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING (best year 2012)\n- E05 LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES (best year 2012)\n- F02 COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS (best year 2010)\n- F16 ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL (best year 2009)\n- F23 COMBUSTION APPARATUS; COMBUSTION PROCESSES (best year 2018)\n- F24 HEATING; RANGES; VENTILATING (best year 2018)\n- F41 WEAPONS (best year 2012)\n- G01 MEASURING; TESTING (best year 2008)\n- G02 OPTICS (best year 2016)\n- G08 SIGNALLING (best year 2017)\n- H01 ELECTRIC ELEMENTS (best year 2008)\n- H02 GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER (best year 2009)\n- H03 ELECTRONIC CIRCUITRY (best year 2015)"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "answer": "Excluding UNIV CALIFORNIA itself, three assignees have cited UNIV CALIFORNIA-assigned patents, with these primary CPC subclass titles:\n\n- BLOOM ENERGY CORP — PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY (primary CPC subclass H01M; citing publication US-10615444-B2, citing UNIV CALIFORNIA patent US-6767662-B2)\n- CRYSTAL IS INC — SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR (primary CPC subclass C30B; citing publication US-9447521-B2, citing UNIV CALIFORNIA patent US-2010025717-A1)\n- SCHOWALTER LEO J — SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 (primary CPC subclass H01L; citing publication US-9437430-B2, citing UNIV CALIFORNIA patent US-2010025717-A1)"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "answer": "The 72 CPC level-5 group codes whose exponential moving average (smoothing factor 0.2) of yearly patent filings reached its highest value in 2022 are: G06Q, H01M, G06T, G06V, H02J, G01S, G06N, B65G, A61P, G16H, G05D, C22C, B60L, G08G, G10L, B24B, E04B, E02D, B08B, G09F, A24F, H02G, A61H, E04G, B22F, B25B, A61G, G01L, F16M, C01G, F26B, H03H, H02B, E02B, B66F, E21D, G16B, B07B, B60P, A63H, A24D, E21F, F02K, E01H, G01H, A47F, C21B, B09C, E03B, B21J, A23P, F25J, B04B, G21F, C01D, C21C, B63C, G16C, A23J, B60D, B27M, F04F, B27C, A41G, B63G, B25D, A62D, B61H, A22B, H04K, H05F, D21B — ordered from the highest 2022 EMA value."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "answer": "格式自检通过（PASS，140 项检查）。按 Step 4.5 第 5 步，将 `final_answer.md` 正文原样发送。\n\nThe highest exponential moving average (smoothing factor 0.1) of yearly patent filings is 2.0, reached by A61 MEDICAL OR VETERINARY SCIENCE; HYGIENE (2016, 2.0) and H04 ELECTRIC COMMUNICATION TECHNIQUE (2015, 2.0); these are the top two of the 23 CPC level-4 areas with German (DE) patents granted in the second half of 2019, and the other 21 groups each peak at 1.0. Every eligible level-4 group follows, with its CPC group code, full title, best year (earliest year attaining its peak EMA), and peak EMA:\n\n| CPC group code | Full title | Best year | Peak EMA (smoothing factor 0.1) |\n| --- | --- | --- | --- |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 | 2.0 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 | 2.0 |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 | 1.0 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 | 1.0 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 | 1.0 |\n| B60 | VEHICLES IN GENERAL | 2009 | 1.0 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 | 1.0 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 | 1.0 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 | 1.0 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 | 1.0 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 | 1.0 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 | 1.0 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 | 1.0 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 | 1.0 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 | 1.0 |\n| F41 | WEAPONS | 2012 | 1.0 |\n| G01 | MEASURING; TESTING | 2008 | 1.0 |\n| G02 | OPTICS | 2016 | 1.0 |\n| G08 | SIGNALLING | 2017 | 1.0 |\n| H01 | ELECTRIC ELEMENTS | 2008 | 1.0 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 | 1.0 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 | 1.0 |"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "answer": "格式自检通过（exit 0）。发送 final_answer.md 正文原文：\n\n不包括加州大学本身，有三个受让人引用了加州大学的专利，每个都列出了其引用出版物的 CPC 主小类的完整标题：\n\n- **BLOOM ENERGY CORP** — PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY（主 CPC 小类 H01M）\n- **CRYSTAL IS INC** — SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR（主 CPC 小类 C30B）\n- **SCHOWALTER LEO J** — SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10（主 CPC 小类 H01L）"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "Amy Jones: 0.14 — 16 of her 111 articles belong to the Science/Technology category (16/111 ≈ 0.144)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "欧洲每年发表的商业文章平均数量：336.64（从2010年到2020年，包括首尾两年，共11年，总计3,703篇商业文章）。"
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "Africa, 333 World-category articles, is the region that published the largest number of articles in the World category in 2015. The full 2015 World-category counts by region were: Africa 333, South America 330, North America 324, Asia 322, and Europe 322."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "The Rundown"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "Amy Jones: 0.1441 — the fraction of all articles she authored that belong to the Science/Technology category (16 of her 111 articles; 16/111 ≈ 0.144)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "The average number of business articles published per year in Europe for 2010 through 2020: 336.64 (rounded; exactly 3,703 business articles across the 11 years, 2010–2020 inclusive)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "Africa, 333 articles, is the region that published the largest number of articles in the World category in 2015."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "\"The Rundown\" is the title of the sports article whose description has the greatest number of characters."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "Amy Jones: 0.144 — 16/111 articles belong to the Science/Technology category."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "Average number of business articles published per year in Europe: 336.64 (3,703 business articles across the 11 years of 2010 to 2020, inclusive)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "Africa: 333 World-category articles in 2015, the largest regional count."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "格式检查通过（退出代码 0）。正在发送经过验证的答案正文，内容与原文完全一致：\n\n描述字符数最多的体育文章标题是 The Rundown（article_id 为 69413，描述长度为 841 个字符）。"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "0.144\n\nAmy Jones: 16/111 = 0.144, meaning 16 of the 111 articles belong to the Science/Technology category."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "Average number of business articles published per year in Europe from 2010 to 2020 inclusive: 337.55 (3,713 business articles across the 11 years, 2010 through 2020)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "Africa (2015 World: 333 articles) published the largest number of World-category articles in 2015."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "\"The Rundown\" is the title of the sports article whose description has the greatest number of characters."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "Amy Jones 0.1441 — of the 111 articles authored by Amy Jones, 16 belong to the Science/Technology category, so the fraction is 16/111 = 0.1441 (approximately 0.14)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "The average number of business articles published per year in Europe from 2010 through 2020: 336.64 (3,703 business articles in Europe over the 11 years)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "Africa: 333 articles. Africa published the largest number of articles in the World category in 2015, with 333 articles, ahead of South America 330, North America 324, Asia 322, and Europe 322."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "2020s: 4.66 average rating, the highest among publication decades with at least 10 distinct rated books."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0 — every review they received is 5 stars:\n\n1. Reunion: The Children of Lauderdale Park — 5.0 (bookid_9, author not listed, 3 reviews)\n2. The Prophet: With Original 1923 Illustrations by the Author — 5.0 (bookid_38, Kahlil Gibran, 4 reviews)\n3. The Melancholy Strumpet Master — 5.0 (bookid_39, Zeb Beck, 2 reviews)\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message — 5.0 (bookid_74, K. G. Ingram, 8 reviews)\n5. Fire Cracker — 5.0 (bookid_82, Shirley Kennett, 2 reviews)\n6. Local Honey — 5.0 (bookid_84, Jo Stewart Wray, 2 reviews)\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) — 5.0 (bookid_98, Gemma Halliday, 1 review)\n8. Knowing When To Die: Uncollected Stories — 5.0 (bookid_101, Mort Castle, 2 reviews)\n9. Childe Harold of Dysna — 5.0 (bookid_122, author not listed, 1 review)\n10. Forged in Blood (Freehold) — 5.0 (bookid_144, Michael Z. Williamson, 6 reviews)\n11. Exits, Desires, & Slow Fires — 5.0 (bookid_171, J.R. Rogue, 3 reviews)\n12. Kennebago Moments — 5.0 (bookid_177, Betsy Wolff Frey, 1 review)\n13. The Sludge — 5.0 (bookid_180, David Bernstein, 1 review)\n14. Liza of Lambeth — 5.0 (bookid_182, author not listed, 1 review)\n15. Something That Feels Like Truth (Switchgrass Books) — 5.0 (bookid_195, DONALD LYSTRA, 2 reviews)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "14 books categorized as 'Children's Books' have an average rating of at least 4.5 based on reviews from 2020 onwards:\n\n- Around the World Mazes: 5.0 (bookid_152, 1 review since 2020)\n- Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.0 (bookid_55, 1 review since 2020)\n- Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.0 (bookid_130, 1 review since 2020)\n- Cheer Up, Ben Franklin! (Young Historians): 5.0 (bookid_96, 1 review since 2020)\n- Egypt (Enchantment of the World): 5.0 (bookid_40, 1 review since 2020)\n- Favorite Thorton W. Burgess Stories: 6 Books: 5.0 (bookid_54, 3 reviews since 2020)\n- LunaLu the Llamacorn: 5.0 (bookid_146, 3 reviews since 2020)\n- Monstrous Stories #4: The Day the Mice Stood Still: 5.0 (bookid_4, 1 review since 2020)\n- Pokémon: Sun & Moon, Vol. 8 (8): 5.0 (bookid_170, 1 review since 2020)\n- The Library Book: 5.0 (bookid_108, 3 reviews since 2020)\n- The Old Man and the Pirate Princess: 5.0 (bookid_14, 1 review since 2020)\n- Trouble in the CTC!: The Terra Prime Adventures Book 2: 4.9 (bookid_149, 10 reviews since 2020)\n- Clark the Shark: Tooth Trouble, No. 1: 4.75 (bookid_48, 4 reviews since 2020)\n- Cleo Porter and the Body Electric: 4.7083 (bookid_158, 24 reviews since 2020)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "2020世纪20年代的平均评分最高：4.66，该评分是基于21本不同已评分书籍的110条评分计算得出。在至少有10本不同已评分书籍的几十年中，排名依次为2020世纪20年代（4.66）、2010世纪10年代（4.61）、2000世纪00年代（4.27）、1980世纪80年代（4.21）和1990世纪90年代（3.84）。"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0:\n\n1. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message — 5.0 — K. G. Ingram (8 reviews)\n2. Childe Harold of Dysna — 5.0 — author not listed in the database (1 review)\n3. Exits, Desires, & Slow Fires — 5.0 — J.R. Rogue (3 reviews)\n4. Fire Cracker — 5.0 — Shirley Kennett (2 reviews)\n5. Forged in Blood (Freehold) — 5.0 — Michael Z. Williamson (6 reviews)\n6. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) — 5.0 — Gemma Halliday (1 review)\n7. Kennebago Moments — 5.0 — Betsy Wolff Frey (1 review)\n8. Knowing When To Die: Uncollected Stories — 5.0 — Mort Castle (2 reviews)\n9. Liza of Lambeth — 5.0 — author not listed in the database (1 review)\n10. Local Honey — 5.0 — Jo Stewart Wray (2 reviews)\n11. Reunion: The Children of Lauderdale Park — 5.0 — author not listed in the database (3 reviews)\n12. Something That Feels Like Truth (Switchgrass Books) — 5.0 — DONALD LYSTRA (2 reviews)\n13. The Melancholy Strumpet Master — 5.0 — Zeb Beck (2 reviews)\n14. The Prophet: With Original 1923 Illustrations by the Author — 5.0 — Kahlil Gibran (4 reviews)\n15. The Sludge — 5.0 — David Bernstein (1 review)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "14 books categorized as 'Children's Books' have an average rating of at least 4.5 based on reviews from 2020 onwards (title: average rating, review count since 2020, book_id):\n\n1. Around the World Mazes: 5.0 — 1 review, bookid_152\n2. Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised): 5.0 — 1 review, bookid_55\n3. Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1): 5.0 — 1 review, bookid_130\n4. Cheer Up, Ben Franklin! (Young Historians): 5.0 — 1 review, bookid_96\n5. Egypt (Enchantment of the World): 5.0 — 1 review, bookid_40\n6. Favorite Thorton W. Burgess Stories: 6 Books: 5.0 — 3 reviews, bookid_54\n7. LunaLu the Llamacorn: 5.0 — 3 reviews, bookid_146\n8. Monstrous Stories #4: The Day the Mice Stood Still: 5.0 — 1 review, bookid_4\n9. Pokémon: Sun & Moon, Vol. 8 (8): 5.0 — 1 review, bookid_170\n10. The Library Book: 5.0 — 3 reviews, bookid_108\n11. The Old Man and the Pirate Princess: 5.0 — 1 review, bookid_14\n12. Trouble in the CTC!: The Terra Prime Adventures Book 2: 4.9 — 10 reviews, bookid_149\n13. Clark the Shark: Tooth Trouble, No. 1: 4.75 — 4 reviews, bookid_48\n14. Cleo Porter and the Body Electric: 4.7083 — 24 reviews, bookid_158"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "2020s: 4.6636 average rating across 110 ratings on 21 distinct rated books, the highest among all publication decades with at least 10 distinct rated books. The runner-up is 2010s: 4.6086 across 1,257 ratings on 88 distinct rated books."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0:\n\n1. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message — K. G. Ingram — 5.0\n2. Childe Harold of Dysna — 5.0 (author not listed in the database)\n3. Exits, Desires, & Slow Fires — J.R. Rogue — 5.0\n4. Fire Cracker — Shirley Kennett — 5.0\n5. Forged in Blood (Freehold) — Michael Z. Williamson — 5.0\n6. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) — Gemma Halliday — 5.0\n7. Kennebago Moments — Betsy Wolff Frey — 5.0\n8. Knowing When To Die: Uncollected Stories — Mort Castle — 5.0\n9. Liza of Lambeth — 5.0 (author not listed in the database)\n10. Local Honey — Jo Stewart Wray — 5.0\n11. Reunion: The Children of Lauderdale Park — 5.0 (author not listed in the database)\n12. Something That Feels Like Truth (Switchgrass Books) — DONALD LYSTRA — 5.0\n13. The Melancholy Strumpet Master — Zeb Beck — 5.0\n14. The Prophet: With Original 1923 Illustrations by the Author — Kahlil Gibran — 5.0\n15. The Sludge — David Bernstein — 5.0"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "14 books categorized as 'Children's Books' received an average rating of at least 4.5 from reviews posted in 2020 or later, listed with their average rating and number of qualifying reviews:\n\n- Around the World Mazes — 5.0 (1 review)\n- Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) — 5.0 (1 review)\n- Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) — 5.0 (1 review)\n- Cheer Up, Ben Franklin! (Young Historians) — 5.0 (1 review)\n- Egypt (Enchantment of the World) — 5.0 (1 review)\n- Favorite Thorton W. Burgess Stories: 6 Books — 5.0 (3 reviews)\n- LunaLu the Llamacorn — 5.0 (3 reviews)\n- Monstrous Stories #4: The Day the Mice Stood Still — 5.0 (1 review)\n- Pokémon: Sun & Moon, Vol. 8 (8) — 5.0 (1 review)\n- The Library Book — 5.0 (3 reviews)\n- The Old Man and the Pirate Princess — 5.0 (1 review)\n- Trouble in the CTC!: The Terra Prime Adventures Book 2 — 4.9 (10 reviews)\n- Clark the Shark: Tooth Trouble, No. 1 — 4.75 (4 reviews)\n- Cleo Porter and the Body Electric — 4.71 (24 reviews)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "2020s"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "15 本“文学与小说”（Literature & Fiction）类英文书籍的平均评分完美达到 5.0 分：\n\n1. 《万王之子：希望之旅 第一册：带着天堂讯息的尘世故事》（Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message） — K. G. Ingram — 8 条评论\n2. 《血之锻造（自由邦）》（Forged in Blood (Freehold)） — Michael Z. Williamson — 6 条评论\n3. 《先知：附作者 1923 年原版插图》（The Prophet: With Original 1923 Illustrations by the Author） — Kahlil Gibran — 4 条评论\n4. 《团聚：劳德代尔公园的孩子们》（Reunion: The Children of Lauderdale Park） — 3 条评论\n5. 《出口、欲望与慢火》（Exits, Desires, & Slow Fires） — J.R. Rogue — 3 条评论\n6. 《忧郁的拉皮条者》（The Melancholy Strumpet Master） — Zeb Beck — 2 条评论\n7. 《爆竹》（Fire Cracker） — Shirley Kennett — 2 条评论\n8. 《本地蜂蜜》（Local Honey） — Jo Stewart Wray — 2 条评论\n9. 《知死之时：未收录故事集》（Knowing When To Die: Uncollected Stories） — Mort Castle — 2 条评论\n10. 《近似真理之物（斯威奇格拉夫图书）》（Something That Feels Like Truth (Switchgrass Books)） — DONALD LYSTRA — 2 条评论\n11. 《好莱坞自白：好莱坞头条 第三册（好莱坞头条悬疑系列）》（Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)） — Gemma Halliday — 1 条评论\n12. 《迪斯纳的恰尔德·哈罗德》（Childe Harold of Dysna） — 1 条评论\n13. 《肯纳巴戈时光》（Kennebago Moments） — Betsy Wolff Frey — 1 条评论\n14. 《淤泥》（The Sludge） — David Bernstein — 1 条评论\n15. 《兰贝斯的丽莎》（Liza of Lambeth） — 1 条评论"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "The 14 books categorized as 'Children's Books' with an average rating of at least 4.5 based on reviews from 2020 onwards are: Around the World Mazes (5.0), Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) (5.0), Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) (5.0), Cheer Up, Ben Franklin! (Young Historians) (5.0), Egypt (Enchantment of the World) (5.0), Favorite Thorton W. Burgess Stories: 6 Books (5.0), LunaLu the Llamacorn (5.0), Monstrous Stories #4: The Day the Mice Stood Still (5.0), Pokémon: Sun & Moon, Vol. 8 (8) (5.0), The Library Book (5.0), The Old Man and the Pirate Princess (5.0), Trouble in the CTC!: The Terra Prime Adventures Book 2 (4.9), Clark the Shark: Tooth Trouble, No. 1 (4.75), and Cleo Porter and the Body Electric (4.71)."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "2020s: 4.66 average rating — the highest among publication decades with at least 10 distinct rated books."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "15 English-language books in the 'Literature & Fiction' category have a perfect average rating of 5.0:\n\n1. Reunion: The Children of Lauderdale Park — 5.0 (3 reviews; author not listed)\n2. The Prophet: With Original 1923 Illustrations by the Author — 5.0 (4 reviews; Kahlil Gibran)\n3. The Melancholy Strumpet Master — 5.0 (2 reviews; Zeb Beck)\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message — 5.0 (8 reviews; K. G. Ingram)\n5. Fire Cracker — 5.0 (2 reviews; Shirley Kennett)\n6. Local Honey — 5.0 (2 reviews; Jo Stewart Wray)\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries) — 5.0 (1 review; Gemma Halliday)\n8. Knowing When To Die: Uncollected Stories — 5.0 (2 reviews; Mort Castle)\n9. Childe Harold of Dysna — 5.0 (1 review; author not listed)\n10. Forged in Blood (Freehold) — 5.0 (6 reviews; Michael Z. Williamson)\n11. Exits, Desires, & Slow Fires — 5.0 (3 reviews; J.R. Rogue)\n12. Kennebago Moments — 5.0 (1 review; Betsy Wolff Frey)\n13. The Sludge — 5.0 (1 review; David Bernstein)\n14. Liza of Lambeth — 5.0 (1 review; author not listed)\n15. Something That Feels Like Truth (Switchgrass Books) — 5.0 (2 reviews; DONALD LYSTRA)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "The 14 books categorized as 'Children's Books' with an average rating of at least 4.5 based on reviews from 2020 onwards are (average rating, then number of reviews from 2020 onwards):\n\n1. Favorite Thorton W. Burgess Stories: 6 Books - 5.0 (3 reviews)\n2. LunaLu the Llamacorn - 5.0 (3 reviews)\n3. The Library Book - 5.0 (3 reviews)\n4. Around the World Mazes - 5.0 (1 review)\n5. Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) - 5.0 (1 review)\n6. Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) - 5.0 (1 review)\n7. Cheer Up, Ben Franklin! (Young Historians) - 5.0 (1 review)\n8. Egypt (Enchantment of the World) - 5.0 (1 review)\n9. Monstrous Stories #4: The Day the Mice Stood Still - 5.0 (1 review)\n10. Pokémon: Sun & Moon, Vol. 8 (8) - 5.0 (1 review)\n11. The Old Man and the Pirate Princess - 5.0 (1 review)\n12. Trouble in the CTC!: The Terra Prime Adventures Book 2 - 4.9 (10 reviews)\n13. Clark the Shark: Tooth Trouble, No. 1 - 4.75 (4 reviews)\n14. Cleo Porter and the Body Electric - 4.71 (24 reviews)"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "格式检查通过 (exit code 0)。正在从已验证的草稿中发送最终答案：\n\na03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "Budget, Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "格式检查已通过。正在发送验证后的答案：\n\nNovember 2020"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "#ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "Budget, Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "November 2020"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "The lead cannot be qualified based on the latest discussions. The BANT factors it fails to meet are Budget and Authority."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": "Negotiation. The current StageName \"Discovery\" does not accurately represent the tasks for Opportunity 006Wt000007BGGjIAO; the appropriate stage label is Negotiation."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "November 2020"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "Budget, Authority, Timeline"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "005Wt000003NIXCIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "November 2020"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "MI"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order, are: Widows Peak Salon (4.86 average rating); City Textile (4.5 average rating); Nobel Textile Co (4.29 average rating); San Soo Dang (4.28 average rating); and Nova Fabrics (3.33 average rating)."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "格式自检通过（10/10）。发送最终答案：\n\nFour massage therapy businesses have an average rating of at least 4.0: Elite Massage (5.0), Angel-A Massage (4.33), Aurora Massage (4.18), and J B Oriental Inc (4.17)."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "在工作日后下午 6:00 之后仍然营业的前 5 家商家（按最高平均评分排序）如下所示（这五家商家的最高平均评分相同）：\n\n| 排名 | 商家名称 | 平均评分 | 营业时间 |\n|------|---------------|----------------|-----------------|\n| 1 | Taba Rug Gallery | 5.0 | [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]] |\n| 2 | Beauty Divine Artistry | 5.0 | [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]] |\n| 3 | Mariscos el poblano | 5.0 | [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]] |\n| 4 | TACOS LA CABANA | 5.0 | [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] |\n| 5 | White Barn Candle Co | 5.0 | [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]] |"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "The 3 businesses with the most reviews rated 4.5 or higher during 2019 are Encino Dermatology & Laser: Alex Khadavi MD (19), The Boochyard @ Local Roots (17), and Aurora Massage (14). The numbers in parentheses are each business's count of high-rating reviews received during 2019."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order are: Widows Peak Salon (4.857143), City Textile (4.5), Nobel Textile Co (4.285714), San Soo Dang (4.277778), and Nova Fabrics (3.333333).\n\n1. Widows Peak Salon — 4.857143 average rating (35 reviews)\n2. City Textile — 4.5 average rating (6 reviews)\n3. Nobel Textile Co — 4.285714 average rating (7 reviews)\n4. San Soo Dang — 4.277778 average rating (18 reviews)\n5. Nova Fabrics — 3.333333 average rating (6 reviews)"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "Four massage therapy businesses have an average rating of at least 4.0:\n\n- Elite Massage: 5.00\n- Angel-A Massage: 4.33\n- Aurora Massage: 4.18\n- J B Oriental Inc: 4.17"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "格式检查通过 (22/22, exit 0)。最终答案完全照搬自已检查的草稿。\n\n在一周中至少一天晚上 6:00 后营业的五个评分最高的商家，其平均评分均为 5.0，如下所示，每个商家后面均附带其平均评分和营业时间：\n\n1. Beauty Divine Artistry — 5.0 — [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]]\n2. Mariscos el poblano — 5.0 — [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]]\n3. TACOS LA CABANA — 5.0 — [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]]\n4. Taba Rug Gallery — 5.0 — [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]]\n5. White Barn Candle Co — 5.0 — [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]]"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "The 3 businesses with the highest number of reviews rated 4.5 or higher during 2019 were: Encino Dermatology & Laser: Alex Khadavi MD — 19 high-rating reviews; The Boochyard @ Local Roots — 17 high-rating reviews; Aurora Massage — 14 high-rating reviews."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order, are: Widows Peak Salon 4.857142857142857, City Textile 4.5, Nobel Textile Co 4.285714285714286, San Soo Dang 4.277777777777778, and Nova Fabrics 3.3333333333333335."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "Four massage therapy businesses have an average rating of at least 4.0: Elite Massage 5.0, Angel-A Massage 4.33, Aurora Massage 4.18, and J B Oriental Inc 4.17."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating, are:\n\n1. Taba Rug Gallery: 5.0 — [[\"Thursday\", \"10AM–7PM\"], [\"Friday\", \"10AM–7PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"10AM–7PM\"], [\"Tuesday\", \"10AM–7PM\"], [\"Wednesday\", \"10AM–7PM\"]] (18 reviews)\n2. Beauty Divine Artistry: 5.0 — [[\"Thursday\", \"9AM–8PM\"], [\"Friday\", \"9AM–8PM\"], [\"Saturday\", \"10AM–7PM\"], [\"Sunday\", \"11AM–6PM\"], [\"Monday\", \"9AM–8PM\"], [\"Tuesday\", \"9AM–8PM\"], [\"Wednesday\", \"9AM–8PM\"]] (8 reviews)\n3. Mariscos el poblano: 5.0 — [[\"Thursday\", \"Open 24 hours\"], [\"Friday\", \"8AM–3:30PM\"], [\"Saturday\", \"8AM–3:30PM\"], [\"Sunday\", \"8AM–3:30PM\"], [\"Monday\", \"9AM–3:30AM\"], [\"Tuesday\", \"8AM–3:30PM\"], [\"Wednesday\", \"8AM–3:30PM\"]] (3 reviews)\n4. TACOS LA CABANA: 5.0 — [[\"Thursday\", \"Closed\"], [\"Friday\", \"5–11PM\"], [\"Saturday\", \"5–11PM\"], [\"Sunday\", \"5–11PM\"], [\"Monday\", \"5–11PM\"], [\"Tuesday\", \"Closed\"], [\"Wednesday\", \"Closed\"]] (2 reviews)\n5. White Barn Candle Co: 5.0 — [[\"Thursday\", \"10AM–9PM\"], [\"Friday\", \"10AM–9PM\"], [\"Saturday\", \"10AM–9PM\"], [\"Sunday\", \"11AM–7PM\"], [\"Monday\", \"10AM–9PM\"], [\"Tuesday\", \"10AM–9PM\"], [\"Wednesday\", \"10AM–9PM\"]] (2 reviews)\n\nAll five are tied at the highest average rating of 5.0; the next-highest qualifying business averages 4.96."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "Top 3 businesses by number of high-rating reviews (rating 4.5 or higher) during 2019:\n1. Encino Dermatology & Laser: Alex Khadavi MD — 19\n2. The Boochyard @ Local Roots — 17\n3. Aurora Massage — 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "The top 5 businesses located in Los Angeles, California, ranked by highest average rating in descending order are:\n\n1. Widows Peak Salon: 4.86\n2. City Textile: 4.50\n3. Nobel Textile Co: 4.29\n4. San Soo Dang: 4.28\n5. Nova Fabrics: 3.33"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "Massage therapy businesses with an average rating of at least 4.0: Elite Massage (5.00), Angel-A Massage (4.33), Aurora Massage (4.18), and J B Oriental Inc (4.17).\n\nThese averages are based on 1 review for Elite Massage, 6 reviews for Angel-A Massage, 56 reviews for Aurora Massage, and 6 reviews for J B Oriental Inc."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating, are — all five tie at an average rating of 5.0 (ties listed by review count):\n\n1. Taba Rug Gallery — 5.0 — Thursday 10AM–7PM; Friday 10AM–7PM; Saturday 10AM–7PM; Sunday 11AM–6PM; Monday 10AM–7PM; Tuesday 10AM–7PM; Wednesday 10AM–7PM (18 reviews)\n2. Beauty Divine Artistry — 5.0 — Thursday 9AM–8PM; Friday 9AM–8PM; Saturday 10AM–7PM; Sunday 11AM–6PM; Monday 9AM–8PM; Tuesday 9AM–8PM; Wednesday 9AM–8PM (8 reviews)\n3. Mariscos el poblano — 5.0 — Thursday Open 24 hours; Friday 8AM–3:30PM; Saturday 8AM–3:30PM; Sunday 8AM–3:30PM; Monday 9AM–3:30AM; Tuesday 8AM–3:30PM; Wednesday 8AM–3:30PM (3 reviews)\n4. White Barn Candle Co — 5.0 — Thursday 10AM–9PM; Friday 10AM–9PM; Saturday 10AM–9PM; Sunday 11AM–7PM; Monday 10AM–9PM; Tuesday 10AM–9PM; Wednesday 10AM–9PM (2 reviews)\n5. TACOS LA CABANA — 5.0 — Thursday Closed; Friday 5–11PM; Saturday 5–11PM; Sunday 5–11PM; Monday 5–11PM; Tuesday Closed; Wednesday Closed (2 reviews)"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "The 3 businesses that received the highest number of reviews rated 4.5 or higher during 2019 were:\n\n1. Encino Dermatology & Laser: Alex Khadavi MD: 19 high-rating reviews\n2. The Boochyard @ Local Roots: 17 high-rating reviews\n3. Aurora Massage: 14 high-rating reviews"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "Top 5 Los Angeles, California businesses by average rating (descending): Widows Peak Salon: 4.86; City Textile: 4.50; Nobel Textile Co: 4.29; San Soo Dang: 4.28; Nova Fabrics: 3.33."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "有四家按摩治疗企业的平均评分至少为 4.0：Elite Massage 5.00，Angel-A Massage 4.33，Aurora Massage 4.18，以及 J B Oriental Inc 4.17。"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "The top 5 businesses that remain open after 6:00 PM on at least one weekday, ranked by highest average rating, all average 5.0 (name — average rating — operating hours):\n\n1. Taba Rug Gallery — 5.0 — Thursday 10AM–7PM, Friday 10AM–7PM, Saturday 10AM–7PM, Sunday 11AM–6PM, Monday 10AM–7PM, Tuesday 10AM–7PM, Wednesday 10AM–7PM\n2. Beauty Divine Artistry — 5.0 — Thursday 9AM–8PM, Friday 9AM–8PM, Saturday 10AM–7PM, Sunday 11AM–6PM, Monday 9AM–8PM, Tuesday 9AM–8PM, Wednesday 9AM–8PM\n3. Mariscos el poblano — 5.0 — Thursday Open 24 hours, Friday 8AM–3:30PM, Saturday 8AM–3:30PM, Sunday 8AM–3:30PM, Monday 9AM–3:30AM, Tuesday 8AM–3:30PM, Wednesday 8AM–3:30PM\n4. TACOS LA CABANA — 5.0 — Thursday Closed, Friday 5–11PM, Saturday 5–11PM, Sunday 5–11PM, Monday 5–11PM, Tuesday Closed, Wednesday Closed\n5. White Barn Candle Co — 5.0 — Thursday 10AM–9PM, Friday 10AM–9PM, Saturday 10AM–9PM, Sunday 11AM–7PM, Monday 10AM–9PM, Tuesday 10AM–9PM, Wednesday 10AM–9PM"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "Businesses with the highest number of reviews rated 4.5 or higher during 2019:\n\n1. Encino Dermatology & Laser: Alex Khadavi MD — 19 high-rating reviews\n2. The Boochyard @ Local Roots — 17 high-rating reviews\n3. Aurora Massage — 14 high-rating reviews"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "Apple Music revenue (USD) in Canada for Beyoncé's song 'Get Me Bodied': $1,059.46"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "Amazon Music: 1108.99 USD — the store that earned the most revenue in USD from Brucqe Maginnis' song 'Street Hype' across all countries."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "The song that generated the highest total revenue in USD across all stores and countries is \"Zo gaat het leven aan je voor\" — $9,013.69 USD; Syb van der Ploeg; \"Hillich fjoer | Heilig vuur\"; 2008; 7,792 units sold."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "格式检查通过（退出码 0）。正在发送已核实的答案：\n\nBeyoncé 的歌曲《Get Me Bodied》：在加拿大 Apple Music 上获得 1,059.46 美元的收入。"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "Amazon Music: $1,108.99 USD — the store that earned the most revenue in USD from Brucqe Maginnis' song 'Street Hype' across all countries."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "格式自检通过（6/6）。按检查过的正文原样发送最终答复：\n\nZo gaat het leven aan je voor (Syb van der Ploeg) — 9013.69 USD total revenue across all stores and countries, the highest for any song in the data. The total combines five duplicate track records of this song (track IDs 3024, 3435, 12620, 12854, 13225), which together account for 22 sales in 5 countries and 5 stores."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "Beyoncé's song 'Get Me Bodied': $1,059.46 — the total revenue in USD that Apple Music made from the song in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "Amazon Music — 1108.99 USD — earned the most revenue in USD from Brucqe Maginnis' song 'Street Hype' across all countries.\n\nRevenue by store, all countries combined (USD):\n\n| store | total revenue (USD) |\n|---|---|\n| Amazon Music | 1108.99 |\n| Apple Music | 984.48 |\n| iTunes | 916.86 |\n| Google Play | 51.40 |"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "The song that generated the highest total revenue in USD across all stores and countries is \"Zo gaat het leven aan je voor\" (Syb van der Ploeg) — $9,013.69 USD.\n\nThis total aggregates five duplicate track listings of the same recording in the tracks database — track_id 3024, 3435, 12620, 12854, 13225, one from each of the five sources (title variants include \"Zo gaat het leven aan je voor (Hillich fjoer | Heilig vuur)\" and \"006-Zo gaat het leven aan je voor\") — which together account for 7,792 units sold across 22 sales transactions in all five stores and five countries."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "格式自检通过（exit code 0）。发送 `final_answer.md` 正文原样内容：\n\nBeyoncé's song 'Get Me Bodied': $1,059.46 USD in Apple Music revenue in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "Amazon Music: $1,108.99 — the store that earned the most revenue in USD from Brucqe Maginnis' song 'Street Hype' across all countries."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "Zo gaat het leven aan je voor (Syb van der Ploeg): $9,013.69 USD — the highest total song revenue across all stores and countries."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "Apple Music: $1,059.46 USD revenue from Beyoncé's song 'Get Me Bodied' in Canada."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "Amazon Music: $1,108.99 — the store that earned the most revenue in USD from Brucqe Maginnis' song \"Street Hype\" across all countries.\n\nPer-store revenue (USD, all countries combined):\n- Amazon Music: $1,108.99\n- Apple Music: $984.48\n- iTunes: $916.86\n- Google Play: $51.40"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "The song that generated the highest total revenue is \"Zo gaat het leven aan je voor\": $9,013.69, Syb van der Ploeg — revenue in USD, summed across all stores and countries."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "399001.SZ: 0.0183 — the highest average intraday volatility since 2020 among the stock indices of the Asia region. 399001.SZ is the Shenzhen Component Index, traded on the Shenzhen Stock Exchange in Shenzhen, China, with an average daily intraday range of about 1.83%."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "IXIC (NASDAQ Composite): 131 up days, 120 down days — the only North American stock index with more up days than down days in 2018.\n\nThe remaining North American indices both had more down days than up days: the NYSE Composite (symbol NYA) recorded 125 up days versus 126 down days, and the S&P/TSX Composite (symbol GSPTSE) recorded 115 up days versus 135 down days."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "The five indices that would have produced the highest overall returns from regular monthly investments since 2000 are IXIC 3.8269 (United States, NASDAQ), NSEI 1.3584 (India, National Stock Exchange of India), 399001.SZ 1.3475 (China, Shenzhen Stock Exchange), GDAXI 1.3470 (Germany, Frankfurt Stock Exchange), and TWII 1.2982 (Taiwan, Taiwan Stock Exchange); each value is the overall return as a decimal fraction of the total amount invested."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "399001.SZ: 0.018293 (about 1.83%) average intraday volatility since 2020, the highest among all Asia-region stock indices in the data. 399001.SZ is the Shenzhen Stock Exchange Component Index, traded on the Shenzhen Stock Exchange in the Asia region; the value is the mean of (High - Low) / Open per trading day from 2020-01-01 onward, per the published metric stockindex.avg_intraday_volatility (authoritative)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "IXIC: 131/120 (up days/down days) in 2018 (NASDAQ Composite Index) — the only North American stock index with more up days than down days that year (an up day = Close above Open; 251 trading days). The other two North American indices did not qualify, as down days outnumbered up days for both the NYA and the GSPTSE, with down-to-up day splits of 126 to 125 and of 135 to 115, respectively."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "The 5 indices that would have produced the highest overall returns from regular monthly investments since 2000 are: IXIC: 3.8269 (United States, NASDAQ); NSEI: 1.3584 (India, National Stock Exchange of India); 399001.SZ: 1.3475 (China, Shenzhen Stock Exchange); GDAXI: 1.3470 (Germany, Frankfurt Stock Exchange); TWII: 1.2982 (Taiwan, Taiwan Stock Exchange). Overall returns are shown as decimal fractions of the total amount invested (final value / total invested − 1)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "399001.SZ: 0.018341 — the Shenzhen Component Index (Shenzhen Stock Exchange) has exhibited the highest average intraday volatility among Asia-region stock market indices since 2020, measured as the average of each trading day's (High − Low) / Open, an average intraday range of about 1.83% of the opening price."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "IXIC: 44/31 and GSPTSE: 44/41 (up days/down days) are the North American stock indices that had more up days than down days in 2018."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "IXIC (3.8269, United States), NSEI (1.3584, India), 399001.SZ (1.3475, China), GDAXI (1.3470, Germany), and TWII (1.2982, Taiwan) are the five indices that would have produced the highest overall returns from regular monthly investments since 2000.\n\n1. IXIC — overall return 3.8269 (382.69%) — United States — NASDAQ Composite, traded on NASDAQ\n2. NSEI — overall return 1.3584 (135.84%) — India — Nifty 50, traded on the National Stock Exchange of India\n3. 399001.SZ — overall return 1.3475 (134.75%) — China — Shenzhen SE Component Index, traded on the Shenzhen Stock Exchange\n4. GDAXI — overall return 1.3470 (134.70%) — Germany — DAX, traded on the Frankfurt Stock Exchange\n5. TWII — overall return 1.2982 (129.82%) — Taiwan — TSEC Weighted Index, traded on the Taiwan Stock Exchange"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "399001.SZ: 0.01834068808057066 — the SZSE Component Index of the Shenzhen Stock Exchange (China) is the Asia-region stock index that has exhibited the highest average intraday volatility since 2020. The value is the average of the daily intraday range (High - Low) / Open over all 342 trading days from 2020-01-01 through the end of the available data in June 2021."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "格式检查通过 (exit code 0, 4/4 PASS)。已验证的结论：在数据库中的三个北美指数（IXIC, NYA, GSPTSE — 通过已发布的映射规则追踪 NASDAQ, NYSE, Toronto Stock Exchange）中，2018 年（2018-01-02 至 2018-12-31 的 251 个交易日，解析覆盖率达 100%，数据统计一致）仅有 IXIC 的上涨交易日数量多于下跌交易日，这与已发布的术语定义（上涨日 = Close > Open）一致。正在发送已检查的答案原文：\n\nIXIC, 131 up days vs 120 down days, is the only North American stock index that had more up days than down days in 2018. The other North American indices did not qualify: NYA had 125 up days and 126 down days, and GSPTSE had 115 up days and 135 down days."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "The five indices that would have produced the highest overall returns from regular monthly investments since 2000, and their countries, are: IXIC (United States) - 3.8269; NSEI (India) - 1.3584; 399001.SZ (China) - 1.3475; GDAXI (Germany) - 1.3470; TWII (Taiwan) - 1.2982.\n\nEach figure is the overall return as a decimal fraction (final value of all monthly investments divided by total invested, minus 1). Monthly investments run from January 2000 - or from an index's first available month of data - through each index's last available trading date in May-June 2021.\n\n- IXIC (United States) - 3.8269: Nasdaq Composite, NASDAQ (Currency USD).\n- NSEI (India) - 1.3584: Nifty 50, National Stock Exchange of India (Currency INR).\n- 399001.SZ (China) - 1.3475: Shenzhen Component Index, Shenzhen Stock Exchange (Currency CNY).\n- GDAXI (Germany) - 1.3470: DAX, Frankfurt Stock Exchange (Currency EUR).\n- TWII (Taiwan) - 1.2982: TAIEX, Taiwan Stock Exchange (Currency TWD)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "399001.SZ (0.0183, Shenzhen Component Index, Shenzhen Stock Exchange) is the Asia-region stock index with the highest average intraday volatility since 2020, at 0.01834068808057066 (about 1.83% per trading day), measured as the average of daily (High - Low) / Open over its 342 trading days from 2020-01-02 through 2021-06-02.\n\nAmong the six Asia-region indexes in the data, average intraday volatility since 2020 ranks: 399001.SZ 0.0183 (Shenzhen Component Index, Shenzhen Stock Exchange); NSEI 0.0171 (NIFTY 50, National Stock Exchange of India); HSI 0.0149 (Hang Seng Index, Hong Kong Stock Exchange); 000001.SS 0.0138 (SSE Composite Index, Shanghai Stock Exchange); N225 0.0134 (Nikkei 225, Tokyo Stock Exchange); TWII 0.0132 (Taiwan Capitalization Weighted Stock Index, Taiwan Stock Exchange). 399001.SZ also ranks first among all 13 indexes in the data."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "IXIC: 131 up days versus 120 down days in 2018 — the only North American stock index that had more up days than down days. IXIC is the NASDAQ Composite. The other North American indices did not qualify: NYA (the NYSE Composite) had 125 up days versus 126 down days, and GSPTSE (the S&P/TSX Composite) had 115 up days versus 135 down days, plus 1 flat day."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "The top five indices by overall returns from monthly investments since 2000 are IXIC 3.8220, United States; NSEI 1.3609, India; GDAXI 1.3475, Germany; 399001.SZ 1.3445, China; TWII 1.2374, Taiwan.\n\nIXIC trades on NASDAQ; NSEI on the National Stock Exchange of India; GDAXI on the Frankfurt Stock Exchange; 399001.SZ on the Shenzhen Stock Exchange; TWII on the Taiwan Stock Exchange."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "The RealReal, Inc. — 18.440000534057617 (2020 maximum adjusted closing price, recorded on 2020-01-03)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "31 ETF securities listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015: BOIL, BZQ, COM, DUST, EDZ, ERX, FAZ, FXP, GFIN, GUSH, HYUP, JDST, JNUG, JPN, LABD, LABU, LBJ, MDY, PTIN, RTL, SDOW, SOXS, SSG, TECS, TZA, UVXY, VIXY, VPC, XES, XOP, YANG. The total number of such ETFs is 31."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "The 15 financially troubled (delinquent, deficient, or both) NASDAQ-listed companies with trading volume in 2008, and their non-null average daily trading volume in 2008:\n\nApex Global Brands Inc.: 23781.422924901184\nBIO-key International, Inc.: 10988.142292490118\nCBAK Energy Technology, Inc.: 86223.32015810277\nChina Ceramics Co., Ltd.: 4366.798418972332\nCorrevio Pharma Corp.: 145247.8260869565\nCounterPath Corporation: 375.49407114624506\nDASAN Zhone Solutions, Inc.: 15578.656126482214\nFrontier Communications Corporation: 254397.62845849802\nFuture FinTech Group Inc.: 9.845238095238095\nIdeanomics, Inc.: 10.276679841897232\nOcean Power Technologies, Inc.: 254.1501976284585\nPacific Ethanol, Inc.: 10706.719367588932\nSunesis Pharmaceuticals, Inc.: 781.8181818181819\nSynthesis Energy Systems, Inc.: 2390.513833992095\nSypris Solutions, Inc.: 36836.36363636364"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "The top 5 non-ETF stocks listed on the New York Stock Exchange that had more up days than down days in 2017, ranked by the margin of up days over down days, are MFA Financial, Inc.; Argo Group International Holdings, Ltd.; HDFC Bank Limited; Albany International Corporation; and DTE Energy Company.\n\n1. MFA Financial, Inc. — 139 up days, 67 down days (margin +72)\n2. Argo Group International Holdings, Ltd. — 133 up days, 82 down days (margin +51)\n3. HDFC Bank Limited — 146 up days, 102 down days (margin +44)\n4. Albany International Corporation — 143 up days, 101 down days (margin +42)\n5. DTE Energy Company — 139 up days, 98 down days (margin +41)"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "The five NASDAQ Capital Market companies with the highest number of days in 2019 on which the intraday price range exceeded 20% of the low price are Synthesis Energy Systems, Inc. — 51 days (SES); TD Holdings, Inc. — 42 days (GLG); TMSR Holding Company Limited — 40 days (TMSR); Verb Technology Company, Inc. — 38 days (VERB); and Sunesis Pharmaceuticals, Inc. — 32 days (SNSS)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc.: $18.44, reached on January 3, 2020 (ticker: REAL)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "31 ETFs listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015 (each shown with its maximum 2015 adjusted closing price):\n\nBOIL $382.20\nBZQ $462.78\nCOM $40487.99\nDUST $1923.28\nEDZ $302.01\nERX $645.16\nFAZ $288.54\nFXP $206.00\nGFIN $686.76\nGUSH $78699.22\nHYUP $4329.75\nJDST $12988.41\nJNUG $451.07\nJPN $201.52\nLABD $624.08\nLABU $230.28\nLBJ $998.11\nMDY $263.77\nPTIN $843.53\nRTL $13306.76\nSDOW $415.17\nSOXS $3886.62\nSSG $263.87\nTECS $253.30\nTZA $272.63\nUVXY $81500.00\nVIXY $491.00\nVPC $2250.14\nXES $278.55\nXOP $208.74\nYANG $347.35\n\nTotal number of such ETFs: 31"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "2008 年拥有交易量的 15 家在 NASDAQ 上市的财务困难公司，其 2008 年非空的日均交易量如下（单位：股）：\n\n- Apex Global Brands Inc.: 23781.422924901184 (股票代码 APEX)\n- BIO-key International, Inc.: 10988.142292490118 (股票代码 BKYI)\n- CBAK Energy Technology, Inc.: 86223.32015810277 (股票代码 CBAT)\n- China Ceramics Co., Ltd.: 4366.798418972332 (股票代码 CCCL)\n- Correvio Pharma Corp.: 145247.8260869565 (股票代码 CORV)\n- CounterPath Corporation: 375.49407114624506 (股票代码 CPAH)\n- DASAN Zhone Solutions, Inc.: 15578.656126482214 (股票代码 DZSI)\n- Frontier Communications Corporation: 254397.62845849802 (股票代码 FTR)\n- Future FinTech Group Inc.: 9.845238095238095 (股票代码 FTFT)\n- Ideanomics, Inc.: 10.276679841897232 (股票代码 IDEX)\n- Ocean Power Technologies, Inc.: 254.1501976284585 (股票代码 OPTT)\n- Pacific Ethanol, Inc.: 10706.719367588932 (股票代码 PEIX)\n- Sunesis Pharmaceuticals, Inc.: 781.8181818181819 (股票代码 SNSS)\n- Sypris Solutions, Inc.: 36836.36363636364 (股票代码 SYPR)\n- Synthesis Energy Systems, Inc.: 2390.513833992095 (股票代码 SES)"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "1. MFA Financial, Inc.\n2. Argo Group International Holdings, Ltd.\n3. HDFC Bank Limited\n4. Albany International Corporation\n5. DTE Energy Company"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "The five NASDAQ Capital Market companies with the highest number of 2019 trading days on which the intraday price range exceeded 20% of the low price are Synthesis Energy Systems, Inc. (51 days), TD Holdings, Inc. (42 days), TMSR Holding Company Limited (40 days), Verb Technology Company, Inc. (38 days), and Sunesis Pharmaceuticals, Inc. (32 days)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "The RealReal, Inc.: $18.44 was the maximum adjusted closing price in 2020 (ticker REAL, recorded on 2020-01-03)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "A total of 31 ETF securities listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015. The 31 ETFs, with each ticker followed by its maximum 2015 adjusted closing price, are: BOIL ($382.20), BZQ ($462.78), COM ($40,487.99), DUST ($1,923.28), EDZ ($302.01), ERX ($645.16), FAZ ($288.54), FXP ($206.00), GFIN ($686.76), GUSH ($78,699.22), HYUP ($4,329.75), JDST ($12,988.41), JNUG ($451.07), JPN ($201.52), LABD ($624.08), LABU ($230.28), LBJ ($998.11), MDY ($263.77), PTIN ($843.53), RTL ($13,306.76), SDOW ($415.17), SOXS ($3,886.62), SSG ($263.87), TECS ($253.30), TZA ($272.63), UVXY ($81,500.00), VIXY ($491.00), VPC ($2,250.14), XES ($278.55), XOP ($208.74), and YANG ($347.35).\n\nFor each of these 31 ETFs, the table below lists its maximum 2015 adjusted closing price, the first and last 2015 dates on which its adjusted closing price exceeded $200, and its company description.\n\n| Ticker | Maximum 2015 adjusted close ($) | First 2015 close above $200 | Last 2015 close above $200 | Company Description |\n|---|---|---|---|---|\n| BOIL | 382.20 | 2015-01-02 | 2015-09-14 | ProShares Ultra Bloomberg Natural Gas offers investors leveraged exposure to the natural gas market, aiming to amplify the performance of this vital energy commodity. |\n| BZQ | 462.78 | 2015-01-02 | 2015-12-31 | ProShares UltraShort MSCI Brazil Capped offers investors a way to profit from declines in Brazilian equities by providing leveraged exposure to the country's stock market index. |\n| COM | 40,487.99 | 2015-02-02 | 2015-10-12 | Direxion Auspice Broad Commodity Strategy ETF offers investors a unique opportunity to diversify their portfolios by focusing on a broad range of commodity investments, aiming to capitalize on market trends and provide strategic exposure to various commodities. |\n| DUST | 1,923.28 | 2015-01-02 | 2015-12-31 | Direxion Daily Gold Miners Index Bear 2X Shares offers investors a unique opportunity to capitalize on the decline of gold mining stocks by providing leveraged inverse exposure to the market. |\n| EDZ | 302.01 | 2015-01-05 | 2015-12-31 | Direxion Emerging Markets Bear 3X Shares provides investors with a way to profit from declines in emerging market stocks by offering a leveraged inverse exchange-traded fund designed to deliver triple the daily opposite performance of its benchmark index. |\n| ERX | 645.16 | 2015-01-02 | 2015-12-31 | Direxion Energy Bull 2X Shares offers investors a leveraged exposure to the energy sector, aiming to amplify returns by providing twice the daily performance of its underlying index. |\n| FAZ | 288.54 | 2015-01-02 | 2015-12-31 | Direxion Financial Bear 3X Shares offers an investment product designed to provide triple inverse exposure to the financial sector, allowing investors to profit from declines in financial stocks. |\n| FXP | 206.00 | 2015-08-24 | 2015-09-04 | ProShares Ultrashort FTSE China 50 offers investors a unique opportunity to profit from declines in the FTSE China 50 Index by providing leveraged inverse exposure to Chinese equities. |\n| GFIN | 686.76 | 2015-01-05 | 2015-12-29 | Goldman Sachs Motif Finance Reimagined ETF offers investors a dynamic approach to finance by providing a curated selection of stocks and securities that reflect innovative financial trends and strategies. |\n| GUSH | 78,699.22 | 2015-05-29 | 2015-12-31 | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares is an investment fund that aims to deliver twice the daily performance of the S&P Oil & Gas Exploration & Production Index, offering investors a leveraged exposure to the oil and gas sector. |\n| HYUP | 4,329.75 | 2015-01-28 | 2015-12-31 | Xtrackers High Beta High Yield Bond ETF offers investors exposure to a portfolio of high-risk, high-reward bonds, aiming to deliver substantial returns through strategic investments in volatile fixed-income securities. |\n| JDST | 12,988.41 | 2015-01-02 | 2015-12-31 | Direxion Daily Junior Gold Miners Index Bear 2X Shares offers investors a way to capitalize on the decline of junior gold mining stocks through leveraged exchange-traded funds, providing a strategic tool for those anticipating bearish trends in the mining sector. |\n| JNUG | 451.07 | 2015-01-02 | 2015-06-26 | Direxion Daily Junior Gold Miners Index Bull 2X Shares offers a leveraged investment opportunity, allowing traders to amplify their exposure to the junior gold mining sector through a specialized exchange-traded fund. |\n| JPN | 201.52 | 2015-05-26 | 2015-06-04 | Xtrackers Japan JPX-Nikkei 400 Equity ETF offers investors a diverse portfolio of Japanese equities, tracking the performance of the JPX-Nikkei 400 Index to provide exposure to top-tier companies in Japan. |\n| LABD | 624.08 | 2015-05-28 | 2015-12-31 | Direxion Daily S&P Biotech Bear 3X Shares offers investors a way to profit from declines in the biotechnology sector by providing leveraged inverse exposure to the S&P Biotechnology Select Industry Index. |\n| LABU | 230.28 | 2015-06-22 | 2015-07-23 | Direxion Daily S&P Biotech Bull 3X Shares offers investors a high-risk, high-reward opportunity by providing leveraged exposure to the biotechnology sector, amplifying the daily performance of the S&P Biotechnology Select Industry Index by three times. |\n| LBJ | 998.11 | 2015-01-02 | 2015-12-31 | Direxion Daily Latin America 3x Bull Shares is an investment fund designed to provide triple the daily return of the Latin American stock market, offering bold investors a chance to amplify their exposure to this dynamic region. |\n| MDY | 263.77 | 2015-01-02 | 2015-12-31 | SPDR MidCap Trust Series I offers investors a way to gain exposure to a diverse range of medium-sized companies through its exchange-traded fund, which seeks to mirror the performance of the S&P MidCap 400 Index. |\n| PTIN | 843.53 | 2015-01-06 | 2015-12-31 | Pacer Trendpilot International ETF is an investment fund that strategically allocates assets based on market trends to optimize returns and minimize risks for its investors. |\n| RTL | 13,306.76 | 2015-01-02 | 2015-12-31 | Pacer Benchmark Retail Real Estate SCTR ETF is an investment fund that focuses on tracking the performance of companies within the retail real estate sector, offering investors exposure to this specific market niche. |\n| SDOW | 415.17 | 2015-01-02 | 2015-12-31 | UltraPro Short Dow30 is an investment fund that provides leveraged exposure to the inverse performance of the Dow Jones Industrial Average, catering to investors aiming to profit from declines in the market. |\n| SOXS | 3,886.62 | 2015-01-02 | 2015-12-31 | Direxion Daily Semiconductor Bear 3x Shares is an exchange-traded fund designed to provide investors with leveraged exposure to the inverse performance of the semiconductor sector, allowing them to profit from declines in this industry. |\n| SSG | 263.87 | 2015-01-06 | 2015-10-13 | ProShares UltraShort Semiconductors offers an investment product designed to provide twice the inverse daily performance of the semiconductor sector, allowing investors to profit from declines in the market. |\n| TECS | 253.30 | 2015-01-02 | 2015-10-01 | Direxion Technology Bear 3X Shares is a leveraged exchange-traded fund designed to profit from declines in the technology sector by delivering three times the inverse performance of the technology index each day. |\n| TZA | 272.63 | 2015-01-02 | 2015-12-31 | Direxion Small Cap Bear 3X Shares offers investors a way to profit from declining markets by providing leveraged exposure to the inverse performance of small-cap companies. |\n| UVXY | 81,500.00 | 2015-01-02 | 2015-12-31 | ProShares Trust Ultra VIX Short Term Futures ETF offers investors a way to capitalize on short-term market volatility through leveraged exposure to futures contracts tied to the VIX, a key measure of market risk. |\n| VIXY | 491.00 | 2015-01-02 | 2015-12-31 | ProShares Trust VIX Short-Term Futures ETF offers investors a way to gain exposure to the volatility of the stock market through short-term futures contracts, helping them manage risk or speculate on market fluctuations. |\n| VPC | 2,250.14 | 2015-01-02 | 2015-06-17 | Virtus Private Credit Strategy ETF offers investors a unique opportunity to gain exposure to a diverse portfolio of private credit investments, aiming to enhance returns through strategic lending. |\n| XES | 278.55 | 2015-01-02 | 2015-11-04 | SPDR Series Trust SPDR S&P Oil & Gas Equipment & Services ETF is an exchange-traded fund that focuses on investing in companies within the oil and gas equipment and services sector, offering investors a way to gain exposure to this vital industry. |\n| XOP | 208.74 | 2015-02-17 | 2015-05-04 | SPDR S&P Oil & Gas Exploration & Production is an investment fund that focuses on companies involved in the extraction and production of oil and natural gas, offering investors exposure to the energy sector. |\n| YANG | 347.35 | 2015-01-02 | 2015-12-31 | Direxion Daily FTSE China Bear 3x Shares is an exchange-traded fund designed to provide triple the inverse performance of the FTSE China 50 Index, allowing investors to profit from declines in the Chinese stock market. |"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "15 financially troubled NASDAQ-listed companies (delinquent, deficient, or both) have existing non-null trading volume in 2008; each one's average daily trading volume in 2008 (in shares) is: Apex Global Brands Inc.: 23781.42; BIO-key International, Inc.: 10988.14; CBAK Energy Technology, Inc.: 86223.32; China Ceramics Co., Ltd.: 4366.80; Correvio Pharma Corp.: 145247.83; CounterPath Corporation: 375.49; DASAN Zhone Solutions, Inc.: 15578.66; Future FinTech Group Inc.: 9.85; Frontier Communications Corporation: 254397.63; Ideanomics, Inc.: 10.28; Ocean Power Technologies, Inc.: 254.15; Pacific Ethanol, Inc.: 10706.72; Synthesis Energy Systems, Inc.: 2390.51; Sunesis Pharmaceuticals, Inc.: 781.82; Sypris Solutions, Inc.: 36836.36."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "MFA Financial, Inc.; Argo Group International Holdings, Ltd.; HDFC Bank Limited; Albany International Corporation; and DTE Energy Company are the top 5 non-ETF stocks listed on the New York Stock Exchange (NYSE) that had more up days than down days in 2017."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "The five NASDAQ Capital Market companies with the most days in 2019 on which the intraday price range exceeded 20% (0.20) of the low price, in descending order:\n\n1. Synthesis Energy Systems, Inc. — 51 days (SES)\n2. TD Holdings, Inc. — 42 days (GLG)\n3. TMSR Holding Company Limited — 40 days (TMSR)\n4. Verb Technology Company, Inc. — 38 days (VERB)\n5. Sunesis Pharmaceuticals, Inc. — 32 days (SNSS)"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "The RealReal, Inc.: $18.44 (maximum adjusted closing price in 2020, recorded on 2020-01-03)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "31 ETFs listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015, and the total number of such ETFs is 31. Each qualifying ETF is listed below with its maximum 2015 adjusted closing price in US dollars immediately after its ticker symbol:\n\n- BOIL, 382.20\n- BZQ, 462.78\n- COM, 40487.99\n- DUST, 1923.28\n- EDZ, 302.01\n- ERX, 645.16\n- FAZ, 288.54\n- FXP, 206.00\n- GFIN, 686.76\n- GUSH, 78699.22\n- HYUP, 4329.75\n- JDST, 12988.41\n- JNUG, 451.07\n- JPN, 201.52\n- LABD, 624.08\n- LABU, 230.28\n- LBJ, 998.11\n- MDY, 263.77\n- PTIN, 843.53\n- RTL, 13306.76\n- SDOW, 415.17\n- SOXS, 3886.62\n- SSG, 263.87\n- TECS, 253.30\n- TZA, 272.63\n- UVXY, 81500.00\n- VIXY, 491.00\n- VPC, 2250.14\n- XES, 278.55\n- XOP, 208.74\n- YANG, 347.35\n\nThe total number of ETFs listed on NYSE Arca that reached an adjusted closing price above $200 at any point during 2015 is 31."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "15 companies on the NASDAQ-listed market were financially troubled (delinquent, deficient, or both) and had trading volume in 2008; their non-null average daily trading volumes in 2008 are:\n\n- Apex Global Brands Inc.: 23781.42\n- BIO-key International, Inc.: 10988.14\n- CBAK Energy Technology, Inc.: 86223.32\n- China Ceramics Co., Ltd.: 4366.80\n- Correvio Pharma Corp.: 145247.83\n- CounterPath Corporation: 375.49\n- DASAN Zhone Solutions, Inc.: 15578.66\n- Frontier Communications Corporation: 254397.63\n- Future FinTech Group Inc.: 9.85\n- Ideanomics, Inc.: 10.28\n- Ocean Power Technologies, Inc.: 254.15\n- Pacific Ethanol, Inc.: 10706.72\n- Sunesis Pharmaceuticals, Inc.: 781.82\n- Synthesis Energy Systems, Inc.: 2390.51\n- Sypris Solutions, Inc.: 36836.36"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "The top 5 non-ETF stocks listed on the New York Stock Exchange (NYSE) that had more up days than down days in 2017 are MFA Financial, Inc. +72 (139 up days, 67 down days), Argo Group International Holdings, Ltd. +51 (133 up days, 82 down days), HDFC Bank Limited +44 (146 up days, 102 down days), Albany International Corporation +42 (143 up days, 101 down days), and DTE Energy Company +41 (139 up days, 98 down days), ranked by the net difference between up days and down days."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "The five NASDAQ Capital Market companies with the highest number of 2019 trading days on which the intraday price range (High - Low) exceeded 20% of the day's low price are:\n\n1. Synthesis Energy Systems, Inc.: 51 days\n2. TD Holdings, Inc.: 42 days\n3. TMSR Holding Company Limited: 40 days\n4. Verb Technology Company, Inc.: 38 days\n5. Sunesis Pharmaceuticals, Inc.: 32 days"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "The maximum adjusted closing price in 2020 for The RealReal, Inc.: 18.44, reached on 2020-01-03 (ticker: REAL)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "31 ETF securities listed on NYSE Arca reached an adjusted closing price above $200 at some point during 2015. The full list, with each ETF's peak 2015 adjusted closing price in dollars, is: BOIL 382.20, BZQ 462.78, COM 40487.99, DUST 1923.28, EDZ 302.01, ERX 645.16, FAZ 288.54, FXP 206.00, GFIN 686.76, GUSH 78699.22, HYUP 4329.75, JDST 12988.41, JNUG 451.07, JPN 201.52, LABD 624.08, LABU 230.28, LBJ 998.11, MDY 263.77, PTIN 843.53, RTL 13306.76, SDOW 415.17, SOXS 3886.62, SSG 263.87, TECS 253.30, TZA 272.63, UVXY 81500.00, VIXY 491.00, VPC 2250.14, XES 278.55, XOP 208.74, YANG 347.35.\n\nTotal number of such ETFs: 31."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "The 15 NASDAQ-listed companies that were financially troubled and have trading volume in 2008, with their average daily trading volume in 2008 (shares):\n\n- Apex Global Brands Inc.: 23781.422924901184 (APEX)\n- BIO-key International, Inc.: 10988.142292490118 (BKYI)\n- CBAK Energy Technology, Inc.: 86223.32015810277 (CBAT)\n- China Ceramics Co., Ltd.: 4366.798418972332 (CCCL)\n- Correvio Pharma Corp.: 145247.8260869565 (CORV)\n- CounterPath Corporation: 375.49407114624506 (CPAH)\n- DASAN Zhone Solutions, Inc.: 15578.656126482214 (DZSI)\n- Future FinTech Group Inc.: 9.845238095238095 (FTFT)\n- Frontier Communications Corporation: 254397.62845849802 (FTR)\n- Ideanomics, Inc.: 10.276679841897232 (IDEX)\n- Ocean Power Technologies, Inc.: 254.1501976284585 (OPTT)\n- Pacific Ethanol, Inc.: 10706.719367588932 (PEIX)\n- Synthesis Energy Systems, Inc.: 2390.513833992095 (SES)\n- Sunesis Pharmaceuticals, Inc.: 781.8181818181819 (SNSS)\n- Sypris Solutions, Inc.: 36836.36363636364 (SYPR)"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "The top 5 NYSE-listed non-ETF stocks that had more up days than down days in 2017, ranked by net up-day margin (up days minus down days):\n\n1. MFA Financial, Inc.: 139 up days, 67 down days, net +72\n2. Argo Group International Holdings, Ltd.: 133 up days, 82 down days, net +51\n3. HDFC Bank Limited: 146 up days, 102 down days, net +44\n4. Albany International Corporation: 143 up days, 101 down days, net +42\n5. DTE Energy Company: 139 up days, 98 down days, net +41"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "The five NASDAQ Capital Market companies with the highest number of 2019 trading days on which the intraday price range exceeded 20% of the low price are, in descending order: Synthesis Energy Systems, Inc. (51 days; ticker SES), TD Holdings, Inc. (42 days; ticker GLG), TMSR Holding Company Limited (40 days; ticker TMSR), Verb Technology Company, Inc. (38 days; ticker VERB), and Sunesis Pharmaceuticals, Inc. (32 days; ticker SNSS)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana: 3.55 (exactly 415/117 ≈ 3.547)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "格式检查已通过。已发送验证过的答案：\n\nPennsylvania (PA) — 662, 3.70 (3.6994)：拥有最多评论数的美国州（共 662 条），其商家平均评分为 3.70。"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "35 businesses that received reviews during 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "Restaurants: 27, 3.63 (businesses, average rating).\n\nThe Restaurants category has the largest number of businesses that accept credit card payments — 27 businesses — and the average rating across the reviews of these businesses is 3.63."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "Pennsylvania: 8 businesses offer WiFi, the highest count of any U.S. state, and the average rating for those businesses is 3.48 out of 5 stars (across 281 reviews)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "Coffee House Too Cafe: 4.375, Restaurants. Coffee House Too Cafe earned the highest average rating of 4.375 from its 16 reviews dated between January 1, 2016 and June 30, 2016, among businesses with at least 5 reviews in that period, and its primary category is Restaurants (full categories: Restaurants, Breakfast & Brunch, American (New), Cafes)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "格式检查通过 (12/12)。正在发送已验证的答案。\n\n在 Yelp 上注册的前 5 个业务类别（按 2016 年注册用户自 2016 年以来的总评论数排名）：Restaurants 58、Food 38、American (New) 24、Shopping 20、Breakfast & Brunch 19。\n\n1. Restaurants: 58 条总评论\n2. Food: 38 条总评论\n3. American (New): 24 条总评论\n4. Shopping: 20 条总评论\n5. Breakfast & Brunch: 19 条总评论"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana: 3.547008547008547 (approximately 3.55)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "Pennsylvania (PA) — 662 / 3.6994: the U.S. state with the highest number of reviews is Pennsylvania, with 662 reviews, and the average rating of businesses in Pennsylvania is 3.6994 (approximately 3.70 out of 5)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "35 businesses offered either business parking or bike parking among the businesses that received reviews during 2018. Of the 67 businesses that received reviews during 2018, 30 offered business parking (at least one of garage, street, validated, lot, or valet marked True), 27 offered bike parking, and 22 offered both."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "Restaurants: 27 / 3.63 (number of credit-card-accepting businesses / average rating) is the business category with the largest number of businesses that accept credit card payments."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "Pennsylvania (PA): 8, 3.48 — the highest number of WiFi-offering businesses of any U.S. state, with an average rating of 3.48 (exact 3.484 from 281 reviews). Runner-up: Florida (FL) with 5 WiFi businesses."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "Coffee House Too Cafe — 4.375 — Restaurants, Breakfast & Brunch, American (New), Cafes. This business received the highest average rating from the 16 reviews it received between January 1, 2016 and June 30, 2016, considering only businesses with at least 5 reviews in that period; its primary category is Restaurants."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "Top 5 business categories by total reviews from Yelp users registered in 2016, counting reviews since 2016: Restaurants: 58, Food: 38, American (New): 24, Shopping: 20, Breakfast & Brunch: 19.\n\n1. Restaurants: 58 reviews\n2. Food: 38 reviews\n3. American (New): 24 reviews\n4. Shopping: 20 reviews\n5. Breakfast & Brunch: 19 reviews"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana: 3.55 (3.547008547008547 exact), across all 117 reviews of the 8 businesses there."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "Pennsylvania (PA): 662, 3.70 (3.6994). Pennsylvania is the U.S. state with the highest number of reviews — 662 reviews — and the average rating of businesses in that state is 3.70 (3.6994)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "35 家在 2018 年收到评论的企业提供了商业停车场或自行车停车场。"
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "Restaurants: 3.63 average rating. It is the business category with the largest number of businesses that accept credit card payments — 27 businesses qualify — and this rating is the mean of the 778 review ratings across those businesses."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "Pennsylvania (PA): 8 businesses offering WiFi, average rating 3.48 (exact 3.484 across 281 reviews) — the highest WiFi-business count among U.S. states."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "Coffee House Too Cafe: 4.375, 16, Restaurants, Breakfast & Brunch, American (New), Cafes.\n\nCoffee House Too Cafe received the highest average rating among Yelp businesses with at least 5 reviews between January 1, 2016 and June 30, 2016, with an average rating of 4.375 across 16 reviews. It belongs to the Restaurants category; its full categories are Restaurants, Breakfast & Brunch, American (New), Cafes."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "Among Yelp users who registered in 2016, the 5 business categories that received the most total reviews from those users since 2016 are Restaurants: 58, Food: 38, American (New): 24, Shopping: 20, and Breakfast & Brunch: 19.\n\nRanked list of the top 5 categories by total reviews:\n1. Restaurants: 58\n2. Food: 38\n3. American (New): 24\n4. Shopping: 20\n5. Breakfast & Brunch: 19"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "The average rating of all businesses located in Indianapolis, Indiana: 3.55 (3.547008547008547)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "Pennsylvania — 662, 3.6994 — the U.S. state with the highest number of reviews (662) and an average rating of businesses in that state of 3.6994 (state code PA; approximately 3.70)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "35 businesses that received reviews during 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "Restaurants: 3.63. The Restaurants category has the largest number of businesses that accept credit card payments (27 businesses), and its average rating is 3.63 (mean of the 778 review ratings of those 27 businesses)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "Pennsylvania (PA): 8, 3.48 — the highest WiFi-business count of any U.S. state, and the average rating of those businesses across their 281 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "Coffee House Too Cafe: 4.375 — Restaurants, Breakfast & Brunch, American (New), Cafes. The average rating is based on 16 reviews written between January 1, 2016 and June 30, 2016, considering only businesses with at least 5 reviews in that period."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "前 5 大商业类别按 2016 年注册 Yelp 用户的总评论数排序（他们的评论自 2016 年起）：Restaurants 58、Food 38、American (New) 24、Shopping 20、Breakfast & Brunch 19。"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "格式自检通过（exit code 0）。发送最终答案：\n\nThe average rating of all businesses located in Indianapolis, Indiana: 3.547008547008547 (approximately 3.55)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "Pennsylvania (PA) — 662 / 3.6994 — is the U.S. state with the highest number of reviews: 662 reviews, and the average rating of businesses in that state is 3.6994 (about 3.70)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "35 businesses that received reviews during 2018 offered either business parking or bike parking."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "Restaurants — 27 — 3.63: the business category with the largest number of businesses that accept credit card payments is Restaurants, with 27 such businesses and an average rating of 3.63 (3.6337 unrounded) across their 778 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "Pennsylvania (PA): 8, 3.48. Pennsylvania has the highest number of businesses that offer WiFi of any U.S. state — 8 such businesses — and the average rating for those businesses is 3.48, computed over their 281 reviews."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "Coffee House Too Cafe: Restaurants, Breakfast & Brunch, American (New), Cafes — 4.375 average rating from 16 reviews dated between January 1, 2016 and June 30, 2016, the highest among businesses with at least 5 reviews in that period."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "The top 5 categories by total reviews from 2016-registered users since 2016:\n\n1. Restaurants: 58 reviews\n2. Food: 38 reviews\n3. American (New): 24 reviews\n4. Shopping: 20 reviews\n5. Breakfast & Brunch: 19 reviews"
+  }
+]
