@@ -1,0 +1,485 @@
+{
+ "changes_vs_r016": {
+  "100613": {
+   "from": "Science/Technology",
+   "to": "Business"
+  },
+  "112770": {
+   "from": "Business",
+   "to": "Science/Technology"
+  },
+  "48635": {
+   "from": "World",
+   "to": "Business"
+  },
+  "81851": {
+   "from": "World",
+   "to": "Business"
+  }
+ },
+ "fallback": [],
+ "input_sha256": "b63fb33a363a6a3197e3cd02e688c39472ee1d98e0def220590689dcb5cd94a5",
+ "majority": {
+  "100613": "Business",
+  "101514": "Sports",
+  "103003": "World",
+  "103591": "World",
+  "103695": "Sports",
+  "104123": "Business",
+  "104996": "Sports",
+  "104998": "World",
+  "105804": "Science/Technology",
+  "106908": "Science/Technology",
+  "107036": "Sports",
+  "108586": "Science/Technology",
+  "109601": "Business",
+  "110096": "Business",
+  "111422": "Business",
+  "112063": "Sports",
+  "112770": "Science/Technology",
+  "113058": "World",
+  "116698": "Business",
+  "119651": "World",
+  "119920": "World",
+  "120129": "World",
+  "120765": "Sports",
+  "122137": "World",
+  "123747": "Business",
+  "124509": "Sports",
+  "126412": "World",
+  "126655": "Science/Technology",
+  "126966": "Business",
+  "14861": "Business",
+  "15100": "Sports",
+  "15473": "Science/Technology",
+  "17491": "Business",
+  "192": "Science/Technology",
+  "19469": "World",
+  "20362": "World",
+  "21238": "Sports",
+  "2161": "Sports",
+  "22354": "Science/Technology",
+  "23914": "Business",
+  "24495": "Science/Technology",
+  "25960": "Business",
+  "26535": "Sports",
+  "27429": "Business",
+  "28079": "Sports",
+  "2844": "Science/Technology",
+  "29164": "Sports",
+  "29297": "World",
+  "2987": "Science/Technology",
+  "33489": "World",
+  "3451": "Business",
+  "35408": "Sports",
+  "35882": "Science/Technology",
+  "36182": "Business",
+  "36483": "Business",
+  "37042": "Business",
+  "38608": "Sports",
+  "39117": "Sports",
+  "39623": "Sports",
+  "3970": "Business",
+  "40545": "World",
+  "41616": "Business",
+  "4447": "Sports",
+  "46531": "Science/Technology",
+  "47439": "Sports",
+  "48635": "Business",
+  "48833": "Business",
+  "49035": "Business",
+  "52459": "Business",
+  "5354": "World",
+  "54906": "Sports",
+  "57510": "Business",
+  "57860": "Business",
+  "57918": "Sports",
+  "62404": "World",
+  "62754": "World",
+  "64102": "Business",
+  "66827": "World",
+  "6705": "World",
+  "68509": "World",
+  "6869": "World",
+  "68958": "Business",
+  "69262": "World",
+  "69393": "World",
+  "70498": "Sports",
+  "70608": "Sports",
+  "72525": "World",
+  "73025": "Business",
+  "73684": "Business",
+  "78200": "Sports",
+  "80578": "Business",
+  "80853": "Sports",
+  "81851": "Business",
+  "82526": "Business",
+  "82668": "World",
+  "83273": "Sports",
+  "88553": "World",
+  "88911": "Business",
+  "8962": "Sports",
+  "89666": "World",
+  "91286": "Business",
+  "91822": "Business",
+  "92992": "Science/Technology",
+  "93287": "World",
+  "93804": "Science/Technology",
+  "94618": "World",
+  "96641": "Business",
+  "9677": "World",
+  "96986": "Sports",
+  "9858": "Business",
+  "99699": "Business"
+ },
+ "pass_sha256": {
+  "A": "3399c20453a6ccc5e72e773fe9553017f4b46f272e15fc5daf0ce5a1434991d9",
+  "B": "093fa13722fd1adfe127430e0e3c4577d84afe8438349436b8b3b4abf48ba91b",
+  "C": "15a7df80ab5c2f3bd85d9ff1915a89a6e70127e12ecdec535b5cd607c6acf285"
+ },
+ "protocol": "audit_q2_r017/PROTOCOL.md",
+ "q2_answer": 0.1351,
+ "q2_pass": false,
+ "q2_sci_count": 15,
+ "votes": {
+  "100613": {
+   "Business": 3
+  },
+  "101514": {
+   "Sports": 3
+  },
+  "103003": {
+   "World": 3
+  },
+  "103591": {
+   "World": 3
+  },
+  "103695": {
+   "Sports": 3
+  },
+  "104123": {
+   "Business": 3
+  },
+  "104996": {
+   "Sports": 3
+  },
+  "104998": {
+   "World": 3
+  },
+  "105804": {
+   "Science/Technology": 3
+  },
+  "106908": {
+   "Science/Technology": 3
+  },
+  "107036": {
+   "Sports": 3
+  },
+  "108586": {
+   "Science/Technology": 3
+  },
+  "109601": {
+   "Business": 3
+  },
+  "110096": {
+   "Business": 3
+  },
+  "111422": {
+   "Business": 3
+  },
+  "112063": {
+   "Sports": 3
+  },
+  "112770": {
+   "Business": 1,
+   "Science/Technology": 2
+  },
+  "113058": {
+   "World": 3
+  },
+  "116698": {
+   "Business": 3
+  },
+  "119651": {
+   "World": 3
+  },
+  "119920": {
+   "World": 3
+  },
+  "120129": {
+   "World": 3
+  },
+  "120765": {
+   "Sports": 3
+  },
+  "122137": {
+   "World": 3
+  },
+  "123747": {
+   "Business": 3
+  },
+  "124509": {
+   "Sports": 3
+  },
+  "126412": {
+   "World": 3
+  },
+  "126655": {
+   "Science/Technology": 3
+  },
+  "126966": {
+   "Business": 3
+  },
+  "14861": {
+   "Business": 3
+  },
+  "15100": {
+   "Sports": 3
+  },
+  "15473": {
+   "Science/Technology": 3
+  },
+  "17491": {
+   "Business": 3
+  },
+  "192": {
+   "Science/Technology": 3
+  },
+  "19469": {
+   "World": 3
+  },
+  "20362": {
+   "World": 3
+  },
+  "21238": {
+   "Sports": 3
+  },
+  "2161": {
+   "Sports": 3
+  },
+  "22354": {
+   "Science/Technology": 3
+  },
+  "23914": {
+   "Business": 3
+  },
+  "24495": {
+   "Science/Technology": 3
+  },
+  "25960": {
+   "Business": 2,
+   "Science/Technology": 1
+  },
+  "26535": {
+   "Sports": 3
+  },
+  "27429": {
+   "Business": 3
+  },
+  "28079": {
+   "Sports": 3
+  },
+  "2844": {
+   "Science/Technology": 3
+  },
+  "29164": {
+   "Sports": 3
+  },
+  "29297": {
+   "World": 3
+  },
+  "2987": {
+   "Science/Technology": 3
+  },
+  "33489": {
+   "World": 3
+  },
+  "3451": {
+   "Business": 3
+  },
+  "35408": {
+   "Sports": 3
+  },
+  "35882": {
+   "Science/Technology": 3
+  },
+  "36182": {
+   "Business": 3
+  },
+  "36483": {
+   "Business": 3
+  },
+  "37042": {
+   "Business": 3
+  },
+  "38608": {
+   "Sports": 3
+  },
+  "39117": {
+   "Sports": 3
+  },
+  "39623": {
+   "Sports": 3
+  },
+  "3970": {
+   "Business": 3
+  },
+  "40545": {
+   "World": 3
+  },
+  "41616": {
+   "Business": 3
+  },
+  "4447": {
+   "Sports": 3
+  },
+  "46531": {
+   "Science/Technology": 3
+  },
+  "47439": {
+   "Sports": 3
+  },
+  "48635": {
+   "Business": 2,
+   "World": 1
+  },
+  "48833": {
+   "Business": 3
+  },
+  "49035": {
+   "Business": 3
+  },
+  "52459": {
+   "Business": 3
+  },
+  "5354": {
+   "World": 3
+  },
+  "54906": {
+   "Sports": 3
+  },
+  "57510": {
+   "Business": 3
+  },
+  "57860": {
+   "Business": 3
+  },
+  "57918": {
+   "Sports": 3
+  },
+  "62404": {
+   "World": 3
+  },
+  "62754": {
+   "World": 3
+  },
+  "64102": {
+   "Business": 3
+  },
+  "66827": {
+   "World": 3
+  },
+  "6705": {
+   "World": 3
+  },
+  "68509": {
+   "World": 3
+  },
+  "6869": {
+   "World": 3
+  },
+  "68958": {
+   "Business": 3
+  },
+  "69262": {
+   "World": 3
+  },
+  "69393": {
+   "Business": 1,
+   "World": 2
+  },
+  "70498": {
+   "Sports": 3
+  },
+  "70608": {
+   "Sports": 3
+  },
+  "72525": {
+   "World": 3
+  },
+  "73025": {
+   "Business": 3
+  },
+  "73684": {
+   "Business": 3
+  },
+  "78200": {
+   "Sports": 3
+  },
+  "80578": {
+   "Business": 3
+  },
+  "80853": {
+   "Sports": 3
+  },
+  "81851": {
+   "Business": 2,
+   "World": 1
+  },
+  "82526": {
+   "Business": 3
+  },
+  "82668": {
+   "World": 3
+  },
+  "83273": {
+   "Sports": 3
+  },
+  "88553": {
+   "World": 3
+  },
+  "88911": {
+   "Business": 3
+  },
+  "8962": {
+   "Sports": 3
+  },
+  "89666": {
+   "Science/Technology": 1,
+   "World": 2
+  },
+  "91286": {
+   "Business": 3
+  },
+  "91822": {
+   "Business": 3
+  },
+  "92992": {
+   "Science/Technology": 3
+  },
+  "93287": {
+   "World": 3
+  },
+  "93804": {
+   "Science/Technology": 3
+  },
+  "94618": {
+   "World": 3
+  },
+  "96641": {
+   "Business": 3
+  },
+  "9677": {
+   "World": 3
+  },
+  "96986": {
+   "Sports": 3
+  },
+  "9858": {
+   "Business": 3
+  },
+  "99699": {
+   "Business": 3
+  }
+ }
+}
