@@ -24,6 +24,6 @@ The wrapper carries the dataset's `db_description.txt`, its `db_description_with
 
 ## Notes
 
-- AG News has no stored category, so the agent had to classify articles itself. Some Claude Fable 5.2 answers say it used an LLM for that. The traces don't include the classification step for either model. See the PR description.
+- AG News has no stored category, so the agent had to classify articles itself. Some Claude Fable 5.2 answers say it used an LLM for that. Usage records show those calls went to Claude Fable 5.2 itself, and that GPT-6.2 Astra's programs called no model. The traces don't include the classification step for either model. See the PR description.
 - Internet access was on. The prompt told the agent not to use it. See the PR description for what we checked.
 - Most traces are partial. See the PR description for what they hold.
