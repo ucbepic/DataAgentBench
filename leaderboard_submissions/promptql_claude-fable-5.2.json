@@ -1,0 +1,1622 @@
+[
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "0",
+    "answer": "The top four are clear, but fifth place is a 95-way tie, so there is no single fifth package.\n\n| Rank | Package | Version | GitHub project | Stars |\n|---|---|---|---|---|\n| 1 | `@dmrvos/infrajs>0.0.5>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 2 | `@dmrvos/infrajs>0.0.6>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 3 | `@dylanvann/svelte` | 3.25.4 | sveltejs/svelte | 73,499 |\n| 4 | `@dumc11/tailwindcss` | 0.4.0 | tailwindcss/tailwindcss | 73,464 |\n| 5 (tie) | `@dollarshaveclub/cli>1.0.0>lodash` | 4.17.4 | lodash/lodash | 57,779 |\n\n- **Fifth place:** 95 packages have a latest release linked to lodash/lodash at 57,779 stars. The one shown is only the first alphabetically; the rest are the other `@dollarshaveclub/cli>…>lodash`, `@dummmy/…>lodash`, `@dpoineau/react-scripts>…>lodash*` and `@dwarvesf/react-scripts>…>lodash*` packages.\n- **Latest release:** I took the version marked `IsRelease` with the highest `Ordinal` for each package name.\n- **Missing material-ui:** mui-org/material-ui (89,398 stars) is not in the list because the latest release of its only package, `@docly/web` 0.2.3, is linked to mindoktor/material-ui (0 stars) instead."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "1",
+    "answer": "Only the top four are uniquely determined; fifth place is a 95-way tie.\n\n| Rank | Package | Latest release version | GitHub project | Stars |\n|---|---|---|---|---|\n| 1 (tied) | `@dmrvos/infrajs>0.0.5>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 1 (tied) | `@dmrvos/infrajs>0.0.6>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 3 | `@dylanvann/svelte` | 3.25.4 | sveltejs/svelte | 73,499 |\n| 4 | `@dumc11/tailwindcss` | 0.4.0 | tailwindcss/tailwindcss | 73,464 |\n| 5 (tied) | `@dollarshaveclub/cli>1.0.0>lodash` | 4.17.4 | lodash/lodash | 57,779 |\n\nThe fifth row is one of 95 packages that all link to lodash/lodash (57,779 stars) at their latest release. The one shown is simply the first alphabetically; the data does not single one out.\n\n\"Latest release\" here means the version with `IsRelease` true and the highest `Ordinal` for each NPM package name."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "2",
+    "answer": "The top four are clear, but fifth place is a 95-way tie, so the data does not give a unique top 5.\n\n| Rank | NPM package | Latest release version | GitHub project | Stars |\n|---|---|---|---|---|\n| 1 (tie) | `@dmrvos/infrajs>0.0.5>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 1 (tie) | `@dmrvos/infrajs>0.0.6>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 3 | `@dylanvann/svelte` | 3.25.4 | sveltejs/svelte | 73,499 |\n| 4 | `@dumc11/tailwindcss` | 0.4.0 | tailwindcss/tailwindcss | 73,464 |\n| 5 (95-way tie) | `@dollarshaveclub/cli>1.0.0>lodash` | 4.17.4 | lodash/lodash | 57,779 |\n\nThe fifth row is only the alphabetically first of 95 packages whose latest release links to lodash/lodash at 57,779 stars.\n\n\"Latest release\" here means the version marked `IsRelease` with the highest `Ordinal` for each package name."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "3",
+    "answer": "The top four are clear-cut, but fifth place is a 95-way tie, so the data does not single out one fifth package.\n\n| # | Package | Latest release version | GitHub project | Stars |\n|---|---|---|---|---|\n| 1 | `@dmrvos/infrajs>0.0.5>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 2 | `@dmrvos/infrajs>0.0.6>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 3 | `@dylanvann/svelte` | 3.25.4 | sveltejs/svelte | 73,499 |\n| 4 | `@dumc11/tailwindcss` | 0.4.0 | tailwindcss/tailwindcss | 73,464 |\n| 5 | `@dollarshaveclub/cli>1.0.0>lodash` (tied) | 4.17.4 | lodash/lodash | 57,779 |\n\n- **Fifth place:** 95 package names have a latest release linked to lodash/lodash at 57,779 stars. The one shown is simply the alphabetically first.\n- **Ranks 1 and 2** are tied with each other, since both link to the same repository.\n- **Latest release** means the version with `IsRelease` true and the highest `Ordinal` for each package name."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "1",
+    "run": "4",
+    "answer": "Four packages rank clearly; fifth place is a 95-way tie, so there is no unique fifth.\n\n| Rank | Package | Latest release version | GitHub project | Stars |\n|---|---|---|---|---|\n| 1 (tie) | `@dmrvos/infrajs>0.0.5>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 1 (tie) | `@dmrvos/infrajs>0.0.6>typescript` | 2.6.2 | microsoft/typescript | 94,931 |\n| 3 | `@dylanvann/svelte` | 3.25.4 | sveltejs/svelte | 73,499 |\n| 4 | `@dumc11/tailwindcss` | 0.4.0 | tailwindcss/tailwindcss | 73,464 |\n| 5 (95-way tie) | e.g. `@dollarshaveclub/cli>1.0.0>lodash` | 4.17.4 | lodash/lodash | 57,779 |\n\n- **Fifth place:** 95 distinct packages have a latest release linked to lodash/lodash, all at 57,779 stars. The one shown is only the alphabetically first. The rest are bundled lodash entries under `@dollarshaveclub/cli`, `@dpoineau/react-scripts`, `@dwarvesf/react-scripts`, `@dummmy/webpack-cli` and `@dummmy/pack-cli`.\n- **Latest release:** I took this as the version with `IsRelease` true and the highest `Ordinal` for each NPM package name.\n- **One exclusion that changes the ranking:** `@docly/web` (mui-org/material-ui, 89,398 stars) is left out because its latest release, 0.2.3, has no project mapping. If its latest *mapped* release (0.2.1) counted instead, it would rank 3rd and push lodash out of the top 5."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "0",
+    "answer": "The 5 projects with the highest GitHub fork count, among NPM release packages whose project license is MIT:\n\n1. mui-org/material-ui — 30,522 forks\n2. moment/moment — 7,201 forks\n3. semantic-org/semantic-ui — 4,955 forks\n4. react-native-elements/react-native-elements — 4,623 forks\n5. sveltejs/svelte — 4,091 forks\n\nrails/rails (21,423 forks) is MIT but excluded: every package version linked to it is marked as a non-release."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "1",
+    "answer": "The 5 projects with the highest GitHub fork count, among NPM release packages whose project license is MIT:\n\n1. mui-org/material-ui — 30,522 forks\n2. moment/moment — 7,201 forks\n3. semantic-org/semantic-ui — 4,955 forks\n4. react-native-elements/react-native-elements — 4,623 forks\n5. sveltejs/svelte — 4,091 forks\n\nrails/rails (21,423 forks, MIT) is not in the list because its only linked NPM package versions are not marked as release."
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "2",
+    "answer": "The 5 projects with the highest GitHub fork count (NPM packages, project license MIT, marked as release):\n\n1. mui-org/material-ui — 30,522 forks\n2. moment/moment — 7,201 forks\n3. semantic-org/semantic-ui — 4,955 forks\n4. react-native-elements/react-native-elements — 4,623 forks\n5. sveltejs/svelte — 4,091 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "3",
+    "answer": "The 5 projects with the highest GitHub fork count, among NPM packages marked as release with project license MIT:\n\n1. mui-org/material-ui — 30,522 forks\n2. moment/moment — 7,201 forks\n3. semantic-org/semantic-ui — 4,955 forks\n4. react-native-elements/react-native-elements — 4,623 forks\n5. sveltejs/svelte — 4,091 forks"
+  },
+  {
+    "dataset": "DEPS_DEV_V1",
+    "query": "2",
+    "run": "4",
+    "answer": "The 5 MIT-licensed projects with the highest GitHub fork counts, among NPM packages marked as release:\n\n1. mui-org/material-ui — 30,522 forks\n2. moment/moment — 7,201 forks\n3. semantic-org/semantic-ui — 4,955 forks\n4. react-native-elements/react-native-elements — 4,623 forks\n5. sveltejs/svelte — 4,091 forks"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "0",
+    "answer": "**About 12.2%** (16 of 131) of README.md files in repositories that do not use Python include copyright information.\n\nThis counts a README.md as including copyright information if its content contains the word \"copyright\" in any casing. Matching only the literal notice \"Copyright (c)\" gives 9 of 131, about 6.9%."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "1",
+    "answer": "**About 12.3% (17 of 138, proportion ≈ 0.1232).**\n\nThis counts README.md files in `contents` whose repository's `language_description` does not mention Python, and treats a file as including copyright information if its content contains the word \"copyright\" in any casing."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "2",
+    "answer": "**About 12.3% (17 of 138, ≈ 0.123)** of README.md files in repositories that do not use Python include copyright information.\n\nThis counts README.md files at any directory level (case-insensitive) in repositories whose language description does not mention Python, and treats a file as including copyright information when its content contains the word \"copyright\" (case-insensitive)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "3",
+    "answer": "**About 14.85%** of README.md files in non-Python repositories include copyright information (15 of 101, proportion ≈ 0.1485).\n\nThis counts root `README.md` files whose repository has a language record that does not mention Python, and whose text contains the word \"copyright\" in any letter case. Requiring the literal `Copyright (c)` instead gives 8 of 101 (≈ 7.92%)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "1",
+    "run": "4",
+    "answer": "**About 12.3%** (0.123) — 17 of the 138 README.md files in repositories that do not use Python contain the word \"copyright\".\n\nThis counts README.md files in any directory (file name matched case-insensitively), in repositories whose language description does not list Python, with a case-insensitive text match on \"copyright\"."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "0",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` is the most-copied non-binary `.swift` file (23 copies) among files whose ID appears in the files table, and the repository's languages include Swift."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "1",
+    "answer": "**SwiftAndroid/swift**\n\nIts non-binary file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` is copied 23 times, the most of any `.swift` file whose ID appears in the files table, and the repository's languages include Swift."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "2",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` (id `71a17ce92451858f3eb01aa8082551e48bc5550d`) is the most-copied non-binary `.swift` file, at 23 copies, among files whose ID appears in the `files` table."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "3",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` is the most copied non-binary `.swift` file (23 copies) among files whose ID appears in the `files` table, and the repository's languages include Swift."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "2",
+    "run": "4",
+    "answer": "**SwiftAndroid/swift**\n\nIts file `validation-test/compiler_crashers_fixed/27485-swift-bracestmt-create.swift` (id `71a17ce92451858f3eb01aa8082551e48bc5550d`) is the most-copied non-binary `.swift` file, at 23 copies, among files whose ID appears in the files table. The languages table lists Swift for this repository."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "0",
+    "answer": "**1077**"
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "1",
+    "answer": "**1077**\n\nThis treats the 'merge' / 'update' / 'test' prefix check as case-insensitive (so 'Merge …' is excluded). The two qualifying repositories are `apple/swift` (963) and `tensorflow/tensorflow` (114)."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "2",
+    "answer": "**1,077**\n\nThis treats the 'merge' / 'update' / 'test' prefix check as case-insensitive; matching lowercase prefixes only would give 1,186."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "3",
+    "answer": "**1077**\n\nThis treats the 'merge' / 'update' / 'test' prefix check as case-insensitive; a case-sensitive check would give 1186."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "3",
+    "run": "4",
+    "answer": "**1077**\n\nThis counts the prefix check ('merge', 'update', 'test') case-insensitively; with a case-sensitive check the count would be 1186."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "0",
+    "answer": "1. apple/swift (1,051 commits)\n2. twbs/bootstrap (340)\n3. Microsoft/vscode (190)\n4. facebook/react (178)\n5. tensorflow/tensorflow (156)\n\n`torvalds/linux` has the most commits (16,061) but no row in the `languages` table, so its main language can't be determined and I left it out. If a repo with no language record counts as \"not Python\", it takes first place and tensorflow/tensorflow drops off."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "1",
+    "answer": "Top five repositories whose main language is not Python, by number of commits:\n\n1. apple/swift (1,051 commits; main language C++)\n2. twbs/bootstrap (340; JavaScript)\n3. Microsoft/vscode (190; TypeScript)\n4. facebook/react (178; JavaScript)\n5. tensorflow/tensorflow (156; C++)\n\ntorvalds/linux has the most commits (16,061) but no entry in the languages table, so its main language can't be determined and I left it out. If a repo with no language record counts as \"not Python\", it takes first place and tensorflow/tensorflow drops off."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "2",
+    "answer": "Top five repositories whose main language is not Python, by number of commits (highest first):\n\n1. apple/swift (1,051 commits)\n2. twbs/bootstrap (340)\n3. Microsoft/vscode (190)\n4. facebook/react (178)\n5. tensorflow/tensorflow (156)\n\ntorvalds/linux has the most commits (16,061) but is left out because it has no row in the languages table, so its main language cannot be determined. If repositories with no language record count as \"not Python\", it takes first place and tensorflow/tensorflow drops off."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "3",
+    "answer": "Top five repositories whose main language is not Python, by number of commits:\n\n1. apple/swift (1,051 commits)\n2. twbs/bootstrap (340)\n3. Microsoft/vscode (190)\n4. facebook/react (178)\n5. tensorflow/tensorflow (156)\n\ntorvalds/linux has the most commits (16,061) but no entry in the languages table, so I left it out because its main language can't be determined from the data. If repositories with no language record count as \"not Python\", it would be first and tensorflow/tensorflow would drop out."
+  },
+  {
+    "dataset": "GITHUB_REPOS",
+    "query": "4",
+    "run": "4",
+    "answer": "1. apple/swift (1,051 commits)\n2. twbs/bootstrap (340)\n3. Microsoft/vscode (190)\n4. facebook/react (178)\n5. tensorflow/tensorflow (156)\n\ntorvalds/linux has more commits (16,061) but is left out because it has no entry in the languages table, so its main language can't be determined from the data."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "0",
+    "answer": "Average log10(normalized_count + 1) of IGF2 for LGG patients, by histology type:\n\n| Histology type | Average log10 IGF2 expression | Patients |\n|---|---|---|\n| Astrocytoma | 2.5713 (2.571298) | 10 |\n| Oligoastrocytoma | 2.7136 (2.713571) | 5 |\n| Oligodendroglioma | 2.6825 (2.682458) | 8 |\n\nOnly 23 of the 513 LGG patients have an IGF2 expression row in the connected data, so the averages rest on those 23. No LGG histology value is in square brackets and none of the 23 expression values is missing, so the exclusions removed nothing."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "1",
+    "answer": "Average log10(normalized_count + 1) of IGF2 for LGG patients, by histology type. \"Histology type\" matches two clinical columns, so I took `icd_o_3_histology` as the main reading and give `histological_type` as the alternative.\n\n**By `icd_o_3_histology` (main answer)**\n\n| Histology | Patients | Avg log10(IGF2 + 1) |\n|---|---|---|\n| 9382/3 | 5 | 2.713571 |\n| 9400/3 | 3 | 2.601416 |\n| 9401/3 | 7 | 2.558390 |\n| 9450/3 | 7 | 2.696718 |\n| 9451/3 | 1 | 2.582635 |\n\n**By `histological_type` (alternative reading)**\n\n| Histology | Patients | Avg log10(IGF2 + 1) |\n|---|---|---|\n| Astrocytoma | 10 | 2.571298 |\n| Oligoastrocytoma | 5 | 2.713571 |\n| Oligodendroglioma | 8 | 2.682458 |\n\nOnly 23 of the 513 LGG patients have an IGF2 expression row, each with a single primary-tumour sample and a non-null value. No LGG histology value is enclosed in square brackets in either column, so that filter removed nobody."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "2",
+    "answer": "Average log10(normalized_count + 1) of IGF2 for LGG patients, by histology type:\n\n| Histology type | Patients | Avg log10(IGF2 + 1) |\n|---|---|---|\n| Astrocytoma | 10 | 2.5713 (2.571298) |\n| Oligoastrocytoma | 5 | 2.7136 (2.713571) |\n| Oligodendroglioma | 8 | 2.6825 (2.682458) |\n\nOnly 23 of the 513 LGG patients have an IGF2 expression value in the dataset. None of the LGG histology annotations are in square brackets, so that filter removed nobody."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "3",
+    "answer": "Average log10(normalized_count + 1) of IGF2 for LGG patients, by histology type:\n\n| Histology type | Average log10 IGF2 expression | Patients |\n|---|---|---|\n| Astrocytoma | 2.5713 (2.571298) | 10 |\n| Oligoastrocytoma | 2.7136 (2.713571) | 5 |\n| Oligodendroglioma | 2.6825 (2.682458) | 8 |\n\nOnly 23 of the 513 LGG patients have an IGF2 expression value in the connected data, so the averages rest on those 23. No LGG histology annotation is enclosed in square brackets, so that filter removed no one."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "1",
+    "run": "4",
+    "answer": "Average log10(normalized_count + 1) of IGF2 for LGG patients, by histology type:\n\n| Histology type | Average log10 IGF2 expression | Patients |\n|---|---|---|\n| Astrocytoma | 2.5713 (2.571298) | 10 |\n| Oligoastrocytoma | 2.7136 (2.713571) | 5 |\n| Oligodendroglioma | 2.6825 (2.682458) | 8 |\n\nOnly 23 of the 513 LGG patients have an IGF2 expression value in the dataset. None of the LGG histology annotations are in square brackets, so that filter removed nobody."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "0",
+    "answer": "Among alive BRCA patients, the top three histological types by CDH1 mutation percentage are:\n\n1. **Infiltrating Lobular Carcinoma**: 41.57% (74 of 178)\n2. **Mixed Histology (please specify)**: 12.50% (3 of 24)\n3. **Other, specify**: 8.33% (3 of 36)\n\nThese count a patient as mutated if they have at least one CDH1 mutation with `FILTER = 'PASS'`, out of all alive BRCA patients of that type. The top three and their order are the same if non-PASS calls are included or if only patients with mutation data are counted; only the percentages change (lobular ranges from 41.57% to 61.22%)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "1",
+    "answer": "Among alive BRCA patients, the top three histological types by percentage of patients with a CDH1 mutation are:\n\n1. **Infiltrating Lobular Carcinoma**: 41.57% (74 of 178)\n2. **Mixed Histology (please specify)**: 12.50% (3 of 24)\n3. **Other, specify**: 8.33% (3 of 36)\n\nThese percentages count only mutations with `FILTER = 'PASS'`, over all alive BRCA patients of each type. The question doesn't specify either choice, but the top three and their order stay the same if all filter values are counted or if only patients with mutation data are used."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "2",
+    "answer": "Among alive BRCA patients, the top three histological types by percentage of patients with a CDH1 mutation are:\n\n1. **Infiltrating Lobular Carcinoma**: 41.57% (74 of 178)\n2. **Mixed Histology (please specify)**: 12.50% (3 of 24)\n3. **Other, specify**: 8.33% (3 of 36)\n\nThese percentages count a patient as mutated if they have at least one CDH1 mutation with `FILTER = 'PASS'`, out of all alive BRCA patients of that histological type (936 in total). The ranking is the same if non-PASS calls are included or if only patients with mutation data are counted, though the percentages shift (for example, lobular becomes 50.34%, 74 of 147, among patients with mutation data)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "3",
+    "answer": "Among alive BRCA patients, the three histological types with the highest percentage of CDH1-mutated patients are:\n\n1. **Infiltrating Lobular Carcinoma**: 41.57% (74 of 178)\n2. **Mixed Histology (please specify)**: 12.50% (3 of 24)\n3. **Other, specify**: 8.33% (3 of 36)\n\nPercentages count patients with at least one `PASS` CDH1 mutation, out of all alive BRCA patients of that histological type. The same three types rank in the same order if non-`PASS` calls are included or if patients without mutation data are excluded."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "2",
+    "run": "4",
+    "answer": "Among alive BRCA patients, the top three histological types by percentage of patients with a CDH1 mutation are:\n\n1. **Infiltrating Lobular Carcinoma**: 41.57% (74 of 178)\n2. **Mixed Histology (please specify)**: 12.50% (3 of 24)\n3. **Other, specify**: 8.33% (3 of 36)\n\nThese count only `FILTER = PASS` CDH1 mutations, over all 936 alive BRCA patients in the clinical table. The question fixes neither the filter nor the denominator, so both are my choices. The ranking is the same if I count mutations of any filter status or restrict to patients with mutation data; only the percentages change (e.g. Lobular 50.56%, Mixed 16.67%, Other 8.33% with any filter status)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "0",
+    "answer": "**χ² ≈ 305.12** (305.1239)\n\nThis counts female BRCA patients with a known histological type who have no rows in the mutation table as not mutated. Restricting to the 984 patients who do have mutation rows gives χ² ≈ 364.17 instead."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "1",
+    "answer": "**χ² ≈ 305.12** (305.1239, 4 degrees of freedom, N = 1,059)\n\nThis counts a female BRCA patient as CDH1-mutated only if she has at least one CDH1 entry with `FILTER = 'PASS'`; everyone else, including patients with no mutation records, counts as not mutated.\n\nThree histological types were dropped for totals of 10 or fewer: Medullary Carcinoma (6), Metaplastic Carcinoma (8) and Infiltrating Carcinoma NOS (1)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "2",
+    "answer": "**χ² ≈ 325.34** (325.3373)\n\nThis is over 762 female BRCA patients with a known histological type and at least one PASS mutation entry, across the five histological types with totals above 10. It assumes a patient with no PASS entries at all is not profiled rather than CDH1-negative; counting those patients as negative gives 305.12 (N = 1,059)."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "3",
+    "answer": "**χ² ≈ 305.12** (305.1239; df = 4, N = 1,059)\n\nThis treats the 75 female BRCA patients with no rows in the mutation table as having no CDH1 mutation. If they are excluded as unprofiled instead, χ² ≈ 364.17 (N = 984).\n\n| Histological type | No CDH1 mutation | CDH1 mutation (FILTER = PASS) |\n|---|---|---|\n| Infiltrating Ductal Carcinoma | 757 | 9 |\n| Infiltrating Lobular Carcinoma | 118 | 83 |\n| Mixed Histology (please specify) | 26 | 4 |\n| Mucinous Carcinoma | 17 | 0 |\n| Other specify | 42 | 3 |\n\nThree histological types were dropped for row totals ≤ 10 (Infiltrating Carcinoma NOS 1, Medullary 6, Metaplastic 8), and one patient with no histological type was excluded."
+  },
+  {
+    "dataset": "PANCANCER_ATLAS",
+    "query": "3",
+    "run": "4",
+    "answer": "**χ² ≈ 305.12** (305.1239)\n\nThis is for 5 histological types × CDH1 mutated yes/no across 1,059 female BRCA patients, using only `FILTER = 'PASS'` mutation rows and dropping the three histological types with totals ≤ 10.\n\nIt counts the 77 female BRCA patients who have no rows at all in `Mutation_Data` as not mutated. If those patients are excluded instead, the statistic is 364.17 (N = 984)."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "0",
+    "answer": "**72 level-5 CPC group codes have 2022 as their best year (highest EMA of yearly filings, smoothing factor 0.2):**\n\nA22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F\n\nOne code is a close call: **E02B**. The list counts each publication record as one patent. 245 applications appear on two publication records each; if each application is counted once instead, E02B's best year becomes 2018 (EMA 12.92 in 2022 against 12.85 in 2018) and the other 71 codes are unchanged."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "1",
+    "answer": "72 level-5 CPC group codes have 2022 as their best year (highest exponential moving average of filings, smoothing factor 0.2):\n\nA22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "2",
+    "answer": "A22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F"
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "3",
+    "answer": "**72 level-5 CPC group codes have 2022 as their best year** (highest exponential moving average of filings, smoothing factor 0.2):\n\nA22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F\n\n**E02B depends on one counting choice.** I counted each publication record as one patent. 244 applications appear twice (for example, an application and its grant); if each of those is counted as a single filing, E02B drops out and the other 71 codes stand.\n\nYears come from `filing_date`; 4,449 of the 277,813 records have no filing date and are excluded."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "1",
+    "run": "4",
+    "answer": "72 level-5 CPC group codes have 2022 as their best year:\n\nA22B, A23J, A23P, A24D, A24F, A41G, A47F, A61G, A61H, A61P, A62D, A63H, B04B, B07B, B08B, B09C, B21J, B22F, B24B, B25B, B25D, B27C, B27M, B60D, B60L, B60P, B61H, B63C, B63G, B65G, B66F, C01D, C01G, C21B, C21C, C22C, D21B, E01H, E02B, E02D, E03B, E04B, E04G, E21D, E21F, F02K, F04F, F16M, F25J, F26B, G01H, G01L, G01S, G05D, G06N, G06Q, G06T, G06V, G08G, G09F, G10L, G16B, G16C, G16H, G21F, H01M, H02B, H02G, H02J, H03H, H04K, H05F\n\nE02B is the one borderline code: it is in the list when each publication record counts as a patent, but drops out (best year 2018) if the 244 applications that appear as two publications are counted once."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "0",
+    "answer": "German (DE) patents granted July–December 2019 fall into 23 level-4 CPC groups; the best year for each (the year its exponential moving average of filings, smoothing factor 0.1, peaks) is:\n\n| CPC group | Full title | Best year |\n|---|---|---|\n| A21 | BAKING; EDIBLE DOUGHS | 2015 |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 |\n| B60 | VEHICLES IN GENERAL | 2009 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 |\n| F41 | WEAPONS | 2012 |\n| G01 | MEASURING; TESTING | 2008 |\n| G02 | OPTICS | 2016 |\n| G08 | SIGNALLING | 2017 |\n| H01 | ELECTRIC ELEMENTS | 2008 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 |\n\nThe highest averages overall are A61 (2016) and H04 (2015), each peaking at 2.0; every other group peaks at 1.0.\n\nThe average is seeded with each group's first-year filing count. Seeding it at zero instead would move the best year later for some groups with filings in several years (for example F02 to 2018)."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "1",
+    "answer": "German (DE) patents granted 1 July – 31 December 2019 fall into 23 level-4 CPC groups. The best year (highest EMA of yearly filings, smoothing factor 0.1) for each:\n\n| CPC group | Full title | Best year |\n|---|---|---|\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 |\n| B60 | VEHICLES IN GENERAL | 2009 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 |\n| F41 | WEAPONS | 2012 |\n| G01 | MEASURING; TESTING | 2008 |\n| G02 | OPTICS | 2016 |\n| G08 | SIGNALLING | 2017 |\n| H01 | ELECTRIC ELEMENTS | 2008 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 |\n\nA61 and H04 have the highest peak EMA (2.0); every other group peaks at 1.0.\n\nThe hints do not say how to seed the EMA, so I started each group's EMA at its first filing year's count."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "2",
+    "answer": "There are 23 level-4 CPC groups among the 34 German (DE) patents granted July–December 2019. The best year is the filing year with the highest exponential moving average of filings (smoothing 0.1).\n\n| CPC group | Full title | Best year |\n|---|---|---|\n| A21 | BAKING; EDIBLE DOUGHS | 2015 |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 |\n| B60 | VEHICLES IN GENERAL | 2009 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 |\n| F41 | WEAPONS | 2012 |\n| G01 | MEASURING; TESTING | 2008 |\n| G02 | OPTICS | 2016 |\n| G08 | SIGNALLING | 2017 |\n| H01 | ELECTRIC ELEMENTS | 2008 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 |\n\nA61 (2016) and H04 (2015) have the highest peak average, 2.0; every other group peaks at 1.0.\n\nThe moving average is seeded with each group's first-year filing count. Seeding from zero instead would change some best years; for example, F02 would move from 2010 to 2018."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "3",
+    "answer": "The 34 German (DE) patents granted July–December 2019 fall into 23 level-4 CPC groups. The best year is the filing year with the highest exponential moving average (smoothing 0.1) of yearly filings.\n\n| CPC group | Full title | Best year |\n|---|---|---|\n| A21 | BAKING; EDIBLE DOUGHS | 2015 |\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 |\n| B60 | VEHICLES IN GENERAL | 2009 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 |\n| F41 | WEAPONS | 2012 |\n| G01 | MEASURING; TESTING | 2008 |\n| G02 | OPTICS | 2016 |\n| G08 | SIGNALLING | 2017 |\n| H01 | ELECTRIC ELEMENTS | 2008 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 |\n\nA61 and H04 have the highest peak average (2.0); every other group peaks at 1.0.\n\nThe best years depend on one assumption: I started each group's average at its first-year filing count. With these small counts, that puts every group's peak in its first filing year. Starting the average at zero instead would move the best year later for groups with filings in several years (B29 would become 2012, for example)."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "2",
+    "run": "4",
+    "answer": "German (DE) patents granted July–December 2019 fall into 23 level-4 CPC groups; the best year for each (highest exponential moving average of yearly filings, smoothing factor 0.1) is below.\n\n| CPC group | Full title | Best year |\n|---|---|---|\n| A61 | MEDICAL OR VETERINARY SCIENCE; HYGIENE | 2016 |\n| H04 | ELECTRIC COMMUNICATION TECHNIQUE | 2015 |\n| A21 | BAKING; EDIBLE DOUGHS | 2015 |\n| B23 | MACHINE TOOLS; METAL-WORKING NOT OTHERWISE PROVIDED FOR | 2015 |\n| B29 | WORKING OF PLASTICS; WORKING OF SUBSTANCES IN A PLASTIC STATE IN GENERAL | 2007 |\n| B41 | PRINTING; LINING MACHINES; TYPEWRITERS; STAMPS | 2007 |\n| B60 | VEHICLES IN GENERAL | 2009 |\n| B62 | LAND VEHICLES FOR TRAVELLING OTHERWISE THAN ON RAILS | 2010 |\n| B63 | SHIPS OR OTHER WATERBORNE VESSELS; RELATED EQUIPMENT | 2014 |\n| C09 | DYES; PAINTS; POLISHES; NATURAL RESINS; ADHESIVES; COMPOSITIONS NOT OTHERWISE PROVIDED FOR; APPLICATIONS OF MATERIALS NOT OTHERWISE PROVIDED FOR | 2015 |\n| E02 | HYDRAULIC ENGINEERING; FOUNDATIONS; SOIL SHIFTING | 2012 |\n| E05 | LOCKS; KEYS; WINDOW OR DOOR FITTINGS; SAFES | 2012 |\n| F02 | COMBUSTION ENGINES; HOT-GAS OR COMBUSTION-PRODUCT ENGINE PLANTS | 2010 |\n| F16 | ENGINEERING ELEMENTS AND UNITS; GENERAL MEASURES FOR PRODUCING AND MAINTAINING EFFECTIVE FUNCTIONING OF MACHINES OR INSTALLATIONS; THERMAL INSULATION IN GENERAL | 2009 |\n| F23 | COMBUSTION APPARATUS; COMBUSTION PROCESSES | 2018 |\n| F24 | HEATING; RANGES; VENTILATING | 2018 |\n| F41 | WEAPONS | 2012 |\n| G01 | MEASURING; TESTING | 2008 |\n| G02 | OPTICS | 2016 |\n| G08 | SIGNALLING | 2017 |\n| H01 | ELECTRIC ELEMENTS | 2008 |\n| H02 | GENERATION; CONVERSION OR DISTRIBUTION OF ELECTRIC POWER | 2009 |\n| H03 | ELECTRONIC CIRCUITRY | 2015 |\n\nA61 and H04 have the highest peak average (2.0); the other 21 groups all peak at 1.0.\n\nThe question does not say how to start the moving average, so I seeded it with each group's first-year filing count. Starting from zero instead would move the best year later for groups with several filing years (F02 would become 2018, for example)."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "0",
+    "answer": "Three assignees other than UNIV CALIFORNIA cite patents assigned to UNIV CALIFORNIA. Each is paired with the full title of the citing patent's primary CPC subclass:\n\n| Citing assignee | Primary CPC subclass | Full title |\n|---|---|---|\n| BLOOM ENERGY CORP | H01M | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n| CRYSTAL IS INC | C30B | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | H01L | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n\nI matched only the exact assignee name \"UNIV CALIFORNIA\". If the variant \"UNIV CALIFORNIA AT SAN DIEGO\" were also counted, there would be one more pair: CALIFORNIA INST OF TECHN — G01V, \"GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\"."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "1",
+    "answer": "Three assignees other than UNIV CALIFORNIA cite patents assigned to UNIV CALIFORNIA:\n\n| Citing assignee | Primary CPC subclass | Full title |\n|---|---|---|\n| CRYSTAL IS INC | C30B | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | H01L | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n| BLOOM ENERGY CORP | H01M | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n\nThis counts only cited patents whose assignee is exactly \"UNIV CALIFORNIA\". If name variants count, there is a fourth row: CALIFORNIA INST OF TECHN — G01V, \"GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\" (it cites a patent assigned to \"UNIV CALIFORNIA AT SAN DIEGO\")."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "2",
+    "answer": "Three assignees other than UNIV CALIFORNIA cite patents assigned to UNIV CALIFORNIA. Each is paired with the full title of the CPC subclass of its citing patent's primary CPC codes:\n\n| Citing assignee | CPC subclass | Full title |\n|---|---|---|\n| CRYSTAL IS INC | C30B | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | H01L | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n| BLOOM ENERGY CORP | H01M | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n\nI matched the assignee name exactly as \"UNIV CALIFORNIA\". If \"UNIV CALIFORNIA AT SAN DIEGO\" also counts, there is a fourth pair: CALIFORNIA INST OF TECHN — G01V, \"GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS\"."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "3",
+    "answer": "Three assignees other than UNIV CALIFORNIA cite patents assigned to UNIV CALIFORNIA. Each is listed with the full title of the primary CPC subclass of its citing patent:\n\n| Citing assignee | Primary CPC subclass | Full title |\n|---|---|---|\n| CRYSTAL IS INC | C30B | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | H01L | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n| BLOOM ENERGY CORP | H01M | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n\nThis counts only patents whose assignee is exactly \"UNIV CALIFORNIA\". If the name variant \"UNIV CALIFORNIA AT SAN DIEGO\" also counts, there is a fourth: CALIFORNIA INST OF TECHN — G01V: GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS."
+  },
+  {
+    "dataset": "PATENTS",
+    "query": "3",
+    "run": "4",
+    "answer": "Three assignees other than UNIV CALIFORNIA cite patents assigned to UNIV CALIFORNIA. Each is listed with the full title of its citing patent's primary CPC subclass:\n\n| Citing assignee | Primary CPC subclass | Full title |\n|---|---|---|\n| BLOOM ENERGY CORP | H01M | PROCESSES OR MEANS, e.g. BATTERIES, FOR THE DIRECT CONVERSION OF CHEMICAL ENERGY INTO ELECTRICAL ENERGY |\n| CRYSTAL IS INC | C30B | SINGLE-CRYSTAL GROWTH; UNIDIRECTIONAL SOLIDIFICATION OF EUTECTIC MATERIAL OR UNIDIRECTIONAL DEMIXING OF EUTECTOID MATERIAL; REFINING BY ZONE-MELTING OF MATERIAL; PRODUCTION OF A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; SINGLE CRYSTALS OR HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; AFTER-TREATMENT OF SINGLE CRYSTALS OR A HOMOGENEOUS POLYCRYSTALLINE MATERIAL WITH DEFINED STRUCTURE; APPARATUS THEREFOR |\n| SCHOWALTER LEO J | H01L | SEMICONDUCTOR DEVICES NOT COVERED BY CLASS H10 |\n\nI counted only patents whose assignee is exactly \"UNIV CALIFORNIA\". If name variants should count, there is a fourth pair: CALIFORNIA INST OF TECHN cites a patent assigned to \"UNIV CALIFORNIA AT SAN DIEGO\", with primary subclass G01V — GEOPHYSICS; GRAVITATIONAL MEASUREMENTS; DETECTING MASSES OR OBJECTS; TAGS."
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "0",
+    "answer": "**The Rundown**"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "1",
+    "answer": "**The Rundown**"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "2",
+    "answer": "**The Rundown**"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "3",
+    "answer": "**The Rundown**"
+  },
+  {
+    "dataset": "agnews",
+    "query": "1",
+    "run": "4",
+    "answer": "**The Rundown**"
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "0",
+    "answer": "**21/111 = 7/37 ≈ 0.189 (about 18.9%)** of Amy Jones's articles are Science/Technology.\n\nThe 111 is an exact count from the data. The 21 is my own classification from each article's title and description, since no category is stored. About a dozen tech-company business stories are borderline, so the count could fall between 15 and 27 (13.5%–24.3%)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "1",
+    "answer": "**22/111 ≈ 0.198 (about 19.8%)** of Amy Jones's articles are Science/Technology.\n\nThe 111 total is exact. The 22 is my own reading of each title and description, since the dataset has no category field; a handful of technology-company business stories could go either way, which puts the defensible count between about 18 and 26."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "2",
+    "answer": "**20/111 ≈ 0.18 (about 18%)** of Amy Jones's articles are Science/Technology.\n\nThe categories come from reading each title and description, since the data has no category field. About 8 articles sit on the Sci/Tech–Business line (tech-company earnings and mergers), so the count could reasonably be 18–22 out of 111."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "3",
+    "answer": "**22/111 ≈ 0.198 (about 19.8%)**\n\nAmy Jones authored 111 articles, and 22 of them are Science/Technology. The 111 is exact; the 22 comes from reading each title and description, since the data has no category field. A few business-of-tech stories are borderline, so the count could be 20 to 24."
+  },
+  {
+    "dataset": "agnews",
+    "query": "2",
+    "run": "4",
+    "answer": "**18/111 ≈ 0.162 (about 16.2%)** of Amy Jones's articles are Science/Technology.\n\nThe dataset has no category field, so each of her 111 articles was classified from its title and description. About eight tech-company business stories are borderline between Business and Science/Technology, so the count could plausibly be anywhere from 15 to 23."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "0",
+    "answer": "**About 340.6 business articles per year** (3,747 business articles published in Europe from 2010 to 2020, divided by 11 years).\n\nThis is an estimate: the dataset has no category field, so each of the 14,860 Europe articles in that period was classified once from its title and description by an LLM, and that classification was not re-run to check it."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "1",
+    "answer": "**About 359 business articles per year** (3,949 Business articles in Europe across the 11 years 2010–2020; 3,949 / 11 = 359.0).\n\nThe dataset has no category field, so the Business count comes from classifying each of the 14,860 Europe articles by its title and description in a single pass. It is an estimate and could be off by a few percent."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "2",
+    "answer": "**About 353 business articles per year** (3,885 Business articles in Europe over 2010–2020, and 3,885 / 11 ≈ 353.2).\n\nThis is an estimate: the dataset has no category field, so I classified each of the 14,860 Europe articles from those years by its title and description. Independent classification passes put the figure between roughly 352 and 357 per year."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "3",
+    "answer": "**About 348.6 business articles per year** (3,835 business articles in Europe across the 11 years 2010–2020; 3,835 / 11 ≈ 348.64).\n\nThis is an estimate: the category is not stored in the data, so each of the 14,860 Europe articles from 2010–2020 was classified from its title and description."
+  },
+  {
+    "dataset": "agnews",
+    "query": "3",
+    "run": "4",
+    "answer": "About **349.2 business articles per year** (3,841 business articles in Europe over the 11 years 2010–2020).\n\nThis is an estimate: the category isn't stored, so it was inferred from each article's title and description, and separate classification passes ranged from 349.8 to 357.4 per year."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "0",
+    "answer": "**Africa** — about 320 World articles in 2015, but the lead is too narrow to be certain.\n\nThe data has no category column, so each of the 6,696 articles dated 2015 was categorised from its title and description by LLM classification. Majority vote of five passes:\n\n| Region | World articles |\n|---|---|\n| Africa | 320 |\n| North America | 316 |\n| South America | 312 |\n| Europe | 311 |\n| Asia | 302 |\n\nAfrica came first in all three full passes, but its 4-article lead over North America is smaller than the 20–25 borderline articles per region. North America came out ahead in one re-check variant (322 vs 320)."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "1",
+    "answer": "**North America** — but only narrowly, and Africa can't be ruled out.\n\nThe data has no category field, so I classified each of the 6,696 articles from 2015 by its title and description. Estimated World counts: North America ~324, Africa ~320, South America ~320, Europe ~318, Asia ~305.\n\nThat 4-article lead is within classification error: North America came out first in 5 of 7 classification runs, and Africa led by 1–2 articles in the other two."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "2",
+    "answer": "**Africa** — about 326 World articles in 2015, but the lead is too narrow to be certain: North America is next at about 322.\n\nThe category isn't stored in the data, so each of the 6,696 articles dated 2015 was classified from its title and description, three times independently. Africa came first in every pass, but 59 articles flipped in or out of World between passes, which is more than the 4-article gap."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "3",
+    "answer": "**Africa** — about 320–328 World articles in 2015, ahead of North America at about 315–322.\n\nThe margin is narrow, so treat this as a best estimate. The category isn't stored in the data, so I assigned it from each article's title and description in two independent classification passes. Africa came first in both, but its lead (3–8 articles) is smaller than the number of borderline articles the passes disagreed on."
+  },
+  {
+    "dataset": "agnews",
+    "query": "4",
+    "run": "4",
+    "answer": "**Africa** — about 320 World-category articles in 2015, but its lead over North America (about 316) is only a few articles, so this is the best-supported answer rather than a certain one.\n\nThe data has no category field, so I classified each of the 6,696 articles published in 2015 from its title and description, three times with different prompts. Africa came first in all three passes, by 1 to 6 articles, while 84 articles were contested between World and another category.\n\n| Region | World articles (majority of three passes) |\n|---|---|\n| Africa | 320 |\n| North America | 316 |\n| Europe | 311 |\n| South America | 311 |\n| Asia | 301 |"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "0",
+    "answer": "**2020s** — average rating of about 4.66 across 110 reviews of 21 books.\n\nThis averages all review ratings in each decade. If you instead average each book's own average rating, the 1980s lead narrowly (4.548 vs 4.525 for the 2020s).\n\nPublication year comes from the `details` text; 11 of the 200 books have no date there and are excluded."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "1",
+    "answer": "**2020s** — average rating of about 4.66 across all reviews of the 21 books published that decade.\n\nThis takes \"average rating\" as the average over every review in the decade. If each book's own average is averaged instead, the 1980s come out narrowly ahead (4.55 vs 4.53 for the 2020s)."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "2",
+    "answer": "**2020s** — average rating 4.66 across all reviews of the 21 rated books published in that decade.\n\nThis takes \"average rating\" as the mean of all review ratings in the decade. If it instead means the mean of each book's own average rating, the 1980s edge ahead (4.55 vs 4.53 for the 2020s)."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "3",
+    "answer": "**2020s** — average rating of about 4.66, across 110 reviews of 21 distinct rated books.\n\nThis averages all review ratings for books published in each decade. If you instead average each book's own mean rating, the 1980s edge ahead (4.55 vs 4.53 for the 2020s)."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "1",
+    "run": "4",
+    "answer": "**2020s**, with an average rating of about 4.66 across all reviews of books published in that decade (21 rated books, 110 reviews).\n\nThis takes \"average rating\" as the mean of all review ratings per decade. If you instead average each book's own mean rating, the 1980s come out on top (4.55 vs 4.53 for the 2020s).\n\n11 of the 200 books have no publication date in `details` and are left out."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "0",
+    "answer": "15 English-language books in 'Literature & Fiction' have an average review rating of exactly 5.0:\n\n1. Reunion: The Children of Lauderdale Park\n2. The Prophet: With Original 1923 Illustrations by the Author\n3. The Melancholy Strumpet Master\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\n5. Fire Cracker\n6. Local Honey\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\n8. Knowing When To Die: Uncollected Stories\n9. Childe Harold of Dysna\n10. Forged in Blood (Freehold)\n11. Exits, Desires, & Slow Fires\n12. Kennebago Moments\n13. The Sludge\n14. Liza of Lambeth\n15. Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "1",
+    "answer": "15 English-language books in 'Literature & Fiction' have a perfect 5.0 average review rating:\n\n1. Reunion: The Children of Lauderdale Park\n2. The Prophet: With Original 1923 Illustrations by the Author\n3. The Melancholy Strumpet Master\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\n5. Fire Cracker\n6. Local Honey\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\n8. Knowing When To Die: Uncollected Stories\n9. Childe Harold of Dysna\n10. Forged in Blood (Freehold)\n11. Exits, Desires, & Slow Fires\n12. Kennebago Moments\n13. The Sludge\n14. Liza of Lambeth\n15. Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "2",
+    "answer": "15 English-language books in 'Literature & Fiction' have an average review rating of exactly 5.0:\n\n1. Reunion: The Children of Lauderdale Park\n2. The Prophet: With Original 1923 Illustrations by the Author\n3. The Melancholy Strumpet Master\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\n5. Fire Cracker\n6. Local Honey\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\n8. Knowing When To Die: Uncollected Stories\n9. Childe Harold of Dysna\n10. Forged in Blood (Freehold)\n11. Exits, Desires, & Slow Fires\n12. Kennebago Moments\n13. The Sludge\n14. Liza of Lambeth\n15. Something That Feels Like Truth (Switchgrass Books)\n\nThe average is over each book's reviews in the review table, and five of these rest on a single review (7, 9, 12, 13, 14)."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "3",
+    "answer": "15 English-language 'Literature & Fiction' books have an average review rating of exactly 5.0:\n\n1. Reunion: The Children of Lauderdale Park\n2. The Prophet: With Original 1923 Illustrations by the Author\n3. The Melancholy Strumpet Master\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\n5. Fire Cracker\n6. Local Honey\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\n8. Knowing When To Die: Uncollected Stories\n9. Childe Harold of Dysna\n10. Forged in Blood (Freehold)\n11. Exits, Desires, & Slow Fires\n12. Kennebago Moments\n13. The Sludge\n14. Liza of Lambeth\n15. Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "2",
+    "run": "4",
+    "answer": "15 English-language 'Literature & Fiction' books have a perfect average rating of 5.0:\n\n1. Reunion: The Children of Lauderdale Park\n2. The Prophet: With Original 1923 Illustrations by the Author\n3. The Melancholy Strumpet Master\n4. Child Of The King A Journey of Hope Book 1: Earthly Story With A Heavenly Message\n5. Fire Cracker\n6. Local Honey\n7. Hollywood Confessions: Hollywood Headlines Book #3 (Hollywood Headlines Mysteries)\n8. Knowing When To Die: Uncollected Stories\n9. Childe Harold of Dysna\n10. Forged in Blood (Freehold)\n11. Exits, Desires, & Slow Fires\n12. Kennebago Moments\n13. The Sludge\n14. Liza of Lambeth\n15. Something That Feels Like Truth (Switchgrass Books)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "0",
+    "answer": "14 books categorized as 'Children's Books' have an average rating of at least 4.5 from reviews posted in 2020 or later:\n\n1. Monstrous Stories #4: The Day the Mice Stood Still (5.0)\n2. The Old Man and the Pirate Princess (5.0)\n3. Egypt (Enchantment of the World) (5.0)\n4. Clark the Shark: Tooth Trouble, No. 1 (4.75)\n5. Favorite Thorton W. Burgess Stories: 6 Books (5.0)\n6. Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) (5.0)\n7. Cheer Up, Ben Franklin! (Young Historians) (5.0)\n8. The Library Book (5.0)\n9. Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) (5.0)\n10. LunaLu the Llamacorn (5.0)\n11. Trouble in the CTC!: The Terra Prime Adventures Book 2 (4.9)\n12. Around the World Mazes (5.0)\n13. Cleo Porter and the Body Electric (4.71)\n14. Pokémon: Sun & Moon, Vol. 8 (8) (5.0)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "1",
+    "answer": "14 books categorized as 'Children's Books' have an average rating of at least 4.5 across their reviews from 2020 onwards:\n\n| Title | Reviews since 2020 | Average rating |\n|---|---|---|\n| Monstrous Stories #4: The Day the Mice Stood Still | 1 | 5.0 |\n| The Old Man and the Pirate Princess | 1 | 5.0 |\n| Egypt (Enchantment of the World) | 1 | 5.0 |\n| Favorite Thorton W. Burgess Stories: 6 Books | 3 | 5.0 |\n| Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | 1 | 5.0 |\n| Cheer Up, Ben Franklin! (Young Historians) | 1 | 5.0 |\n| The Library Book | 3 | 5.0 |\n| Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | 1 | 5.0 |\n| LunaLu the Llamacorn | 3 | 5.0 |\n| Around the World Mazes | 1 | 5.0 |\n| Pokémon: Sun & Moon, Vol. 8 (8) | 1 | 5.0 |\n| Trouble in the CTC!: The Terra Prime Adventures Book 2 | 10 | 4.9 |\n| Clark the Shark: Tooth Trouble, No. 1 | 4 | 4.75 |\n| Cleo Porter and the Body Electric | 24 | 4.71 |\n\nThe average is taken over each book's reviews dated 2020-01-01 or later only, with no minimum review count. 14 of the 200 books have an empty category list and could not be classified, so they are excluded."
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "2",
+    "answer": "14 books categorized as 'Children's Books' have an average rating of at least 4.5 across their reviews from 2020 onwards:\n\n1. Monstrous Stories #4: The Day the Mice Stood Still (5.0)\n2. The Old Man and the Pirate Princess (5.0)\n3. Egypt (Enchantment of the World) (5.0)\n4. Clark the Shark: Tooth Trouble, No. 1 (4.75)\n5. Favorite Thorton W. Burgess Stories: 6 Books (5.0)\n6. Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) (5.0)\n7. Cheer Up, Ben Franklin! (Young Historians) (5.0)\n8. The Library Book (5.0)\n9. Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) (5.0)\n10. LunaLu the Llamacorn (5.0)\n11. Trouble in the CTC!: The Terra Prime Adventures Book 2 (4.9)\n12. Around the World Mazes (5.0)\n13. Cleo Porter and the Body Electric (4.71)\n14. Pokémon: Sun & Moon, Vol. 8 (8) (5.0)"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "3",
+    "answer": "14 books categorized as 'Children's Books' have an average rating of at least 4.5 from reviews dated 2020 onwards:\n\n| Book | Avg rating (2020+) | Reviews (2020+) |\n|---|---|---|\n| Monstrous Stories #4: The Day the Mice Stood Still | 5.0 | 1 |\n| The Old Man and the Pirate Princess | 5.0 | 1 |\n| Egypt (Enchantment of the World) | 5.0 | 1 |\n| Clark the Shark: Tooth Trouble, No. 1 | 4.75 | 4 |\n| Favorite Thorton W. Burgess Stories: 6 Books | 5.0 | 3 |\n| Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | 5.0 | 1 |\n| Cheer Up, Ben Franklin! (Young Historians) | 5.0 | 1 |\n| The Library Book | 5.0 | 3 |\n| Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | 5.0 | 1 |\n| LunaLu the Llamacorn | 5.0 | 3 |\n| Trouble in the CTC!: The Terra Prime Adventures Book 2 | 4.9 | 10 |\n| Around the World Mazes | 5.0 | 1 |\n| Cleo Porter and the Body Electric | 4.71 | 24 |\n| Pokémon: Sun & Moon, Vol. 8 (8) | 5.0 | 1 |"
+  },
+  {
+    "dataset": "bookreview",
+    "query": "3",
+    "run": "4",
+    "answer": "14 books categorized as 'Children's Books' have an average rating of at least 4.5 across their reviews from 2020 onwards:\n\n| # | Title | Avg rating (2020+) | Reviews (2020+) |\n|---|---|---|---|\n| 1 | Monstrous Stories #4: The Day the Mice Stood Still | 5.00 | 1 |\n| 2 | The Old Man and the Pirate Princess | 5.00 | 1 |\n| 3 | Egypt (Enchantment of the World) | 5.00 | 1 |\n| 4 | Clark the Shark: Tooth Trouble, No. 1 | 4.75 | 4 |\n| 5 | Favorite Thorton W. Burgess Stories: 6 Books | 5.00 | 3 |\n| 6 | Behind the Wheel (Choose Your Own Adventure #35)(Paperback/Revised) | 5.00 | 1 |\n| 7 | Cheer Up, Ben Franklin! (Young Historians) | 5.00 | 1 |\n| 8 | The Library Book | 5.00 | 3 |\n| 9 | Benny Goes To The Moon: The great new book from Top Children's entertainer Gerry Ogilvie (1) | 5.00 | 1 |\n| 10 | LunaLu the Llamacorn | 5.00 | 3 |\n| 11 | Trouble in the CTC!: The Terra Prime Adventures Book 2 | 4.90 | 10 |\n| 12 | Around the World Mazes | 5.00 | 1 |\n| 13 | Cleo Porter and the Body Electric | 4.71 | 24 |\n| 14 | Pokémon: Sun & Moon, Vol. 8 (8) | 5.00 | 1 |\n\nBooks were matched to reviews on the shared numeric suffix of `book_id` (`bookid_N`) and `purchase_id` (`purchaseid_N`)."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "0",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "1",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "2",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "3",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "1",
+    "run": "4",
+    "answer": "Authority"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "0",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "1",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "2",
+    "answer": "ka0Wt000000Eq0MIAS"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "3",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "2",
+    "run": "4",
+    "answer": "ka0Wt000000Ens5IAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "0",
+    "answer": "Quote"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "1",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "2",
+    "answer": "**Negotiation**\n\nModerate confidence: the data states no rule for this, so it is inferred from how task sets map to recorded stages across the other opportunities."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "3",
+    "answer": "Negotiation"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "3",
+    "run": "4",
+    "answer": "Quote"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "0",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "1",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "2",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "3",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "4",
+    "run": "4",
+    "answer": "November"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "0",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "1",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "2",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "3",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "5",
+    "run": "4",
+    "answer": "a03Wt00000JqnHwIAJ"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "0",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "1",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "2",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "3",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "6",
+    "run": "4",
+    "answer": "ka0Wt000000EnwvIAC"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "0",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "1",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "2",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "3",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "7",
+    "run": "4",
+    "answer": "ka0Wt000000EoD3IAK"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "0",
+    "answer": "005Wt000003NIliIAG\n\nThis is the only agent with any transfers in the last 4 quarters (1 transfer). 31 other agents handled cases in that window with 0 transfers, so if zero-transfer agents count, there is no single answer."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "1",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "2",
+    "answer": "005Wt000003NIliIAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "3",
+    "answer": "005Wt000003NIliIAG\n\nThis is the only agent with any transfer in the last 4 quarters (1 transfer, 2022-04-10 to 2023-04-10), so it is the fewest among agents who transferred a case. The other 31 agents who handled a case in that window all tie at 0 transfers, so counting zeros there is no single answer."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "8",
+    "run": "4",
+    "answer": "**005Wt000003NIliIAG**\n\nThis assumes the ranking covers only agents who transferred at least one case. That agent made the only transfer in the last 4 quarters (1 transfer, 2 cases handled). If agents with zero transfers count, about 30 agents tie at zero and no single Id can be derived."
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "0",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "1",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "2",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "3",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "9",
+    "run": "4",
+    "answer": "MI"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "0",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "1",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "2",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "3",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "10",
+    "run": "4",
+    "answer": "005Wt000003NDqDIAW"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "0",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "1",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "2",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "3",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "11",
+    "run": "4",
+    "answer": "01tWt000006hV8LIAU"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "0",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "1",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "2",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "3",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "12",
+    "run": "4",
+    "answer": "005Wt000003NDEBIA4"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "0",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "1",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "2",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "3",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "crmarenapro",
+    "query": "13",
+    "run": "4",
+    "answer": "005Wt000003NEa3IAG"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "0",
+    "answer": "Top 5 businesses in Los Angeles, CA by average rating (descending):\n\n1. Widows Peak Salon — 4.86\n2. City Textile — 4.50\n3. Nobel Textile Co — 4.29\n4. San Soo Dang — 4.28\n5. Nova Fabrics — 3.33"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "1",
+    "answer": "Top 5 businesses in Los Angeles, California by average rating (descending):\n\n1. Widows Peak Salon — 4.86\n2. City Textile — 4.50\n3. Nobel Textile Co — 4.29\n4. San Soo Dang — 4.28\n5. Nova Fabrics — 3.33\n\nBusinesses count as Los Angeles when their description gives a \"Los Angeles, CA\" address (7 businesses); the rating is the mean of each business's review ratings."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "2",
+    "answer": "Top 5 businesses in Los Angeles, CA by average rating (descending):\n\n1. Widows Peak Salon — 4.86\n2. City Textile — 4.50\n3. Nobel Textile Co — 4.29\n4. San Soo Dang — 4.28\n5. Nova Fabrics — 3.33\n\nBeauty Divine Artistry (5.0 average) is excluded because its description names no city, so it can't be placed in Los Angeles."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "3",
+    "answer": "Top 5 businesses in Los Angeles, California by average review rating (descending):\n\n1. Widows Peak Salon — 4.86\n2. City Textile — 4.50\n3. Nobel Textile Co — 4.29\n4. San Soo Dang — 4.28\n5. Nova Fabrics — 3.33\n\nLocation is taken from the business description: the seven businesses whose description says \"Los Angeles, CA\". The rating is the mean of each business's ratings in the review table, joined on `gmap_id`."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "1",
+    "run": "4",
+    "answer": "Top 5 businesses in Los Angeles, CA by average review rating (descending):\n\n1. Widows Peak Salon — 4.86\n2. City Textile — 4.50\n3. Nobel Textile Co — 4.29\n4. San Soo Dang — 4.28\n5. Nova Fabrics — 3.33\n\nLocation is taken from descriptions that say \"Los Angeles, CA\" (7 businesses). A business described as being in Encino, CA (4.14) is not counted; if it were, it would take 5th place."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "0",
+    "answer": "Four massage therapy businesses have an average rating of at least 4.0:\n\n| Business | Average rating | Reviews |\n|---|---|---|\n| Elite Massage | 5.00 | 1 |\n| Angel-A Massage | 4.33 | 6 |\n| Aurora Massage | 4.18 | 56 |\n| J B Oriental Inc | 4.17 | 6 |\n\nNo description uses the word \"massage\", so I picked out massage businesses by descriptions of bodywork and soothing body treatments. J B Oriental Inc is the one judgement call: its name doesn't say massage, but its description (\"rejuvenating therapies and soothing body treatments\") matches the others."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "1",
+    "answer": "Four massage therapy businesses have an average rating of at least 4.0:\n\n| Business | Average rating |\n|---|---|\n| Elite Massage | 5.00 |\n| Angel-A Massage | 4.33 (4.3333) |\n| Aurora Massage | 4.18 (4.1786) |\n| J B Oriental Inc | 4.17 (4.1667) |\n\nJ B Oriental Inc is included on its description alone (\"rejuvenating therapies and soothing body treatments\"); its name does not mention massage."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "2",
+    "answer": "Four massage therapy businesses have an average review rating of at least 4.0:\n\n| Business | Average rating |\n|---|---|\n| Elite Massage | 5.00 |\n| Angel-A Massage | 4.33 |\n| Aurora Massage | 4.18 |\n| J B Oriental Inc | 4.17 |\n\nJ B Oriental Inc is the one judgement call: its name does not say massage, but its description (\"rejuvenating therapies and soothing body treatments\") and its reviews describe massage services."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "3",
+    "answer": "Four massage therapy businesses have an average rating of at least 4.0:\n\n| Business | Average rating |\n|---|---|\n| Elite Massage | 5.00 |\n| Angel-A Massage | 4.33 |\n| Aurora Massage | 4.18 |\n| J B Oriental Inc | 4.17 |\n\nJ B Oriental Inc is the one judgement call: it is counted as massage therapy from its description alone (\"rejuvenating therapies and soothing body treatments\"), since its name does not say massage."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "2",
+    "run": "4",
+    "answer": "Four massage therapy businesses have an average rating of at least 4.0:\n\n| Business | Average rating |\n|---|---|\n| Elite Massage | 5.00 |\n| Angel-A Massage | 4.33 |\n| Aurora Massage | 4.18 |\n| J B Oriental Inc | 4.17 |\n\nNo description uses the word \"massage\", so I identified these from description wording (bodywork, soothing body treatments, relaxation therapies) together with the business name. J B Oriental Inc is the one judgement call: it is included on its description alone (\"rejuvenating therapies and soothing body treatments\"), and without it the answer is the other three."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "0",
+    "answer": "The top 5 businesses open after 6:00 PM on at least one weekday (Monday–Friday) all have an average rating of 5.0:\n\n| # | Business | Average rating | Operating hours |\n|---|---|---|---|\n| 1 | Taba Rug Gallery | 5.0 | Mon–Sat 10AM–7PM; Sun 11AM–6PM |\n| 2 | Beauty Divine Artistry | 5.0 | Mon–Fri 9AM–8PM; Sat 10AM–7PM; Sun 11AM–6PM |\n| 3 | Mariscos el poblano | 5.0 | Mon 9AM–3:30AM; Tue–Wed 8AM–3:30PM; Thu open 24 hours; Fri–Sun 8AM–3:30PM |\n| 4 | White Barn Candle Co | 5.0 | Mon–Sat 10AM–9PM; Sun 11AM–7PM |\n| 5 | TACOS LA CABANA | 5.0 | Mon 5–11PM; Tue–Thu closed; Fri–Sun 5–11PM |\n\nThe five are tied, so I ordered them by number of reviews (18, 8, 3, 2, 2). The next business is Paradise tattoo at 4.96.\n\nAverage rating is the mean of each business's ratings in the review table. A closing time of exactly 6PM does not count as open after 6:00 PM."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "1",
+    "answer": "Top 5 businesses open past 6:00 PM on at least one weekday (Mon–Fri), by average review rating. All five tie at 5.0, so they are listed alphabetically; the next business is Paradise tattoo at 4.96.\n\n| # | Business | Avg rating | Operating hours |\n|---|---|---|---|\n| 1 | Beauty Divine Artistry | 5.0 | Mon–Fri 9AM–8PM; Sat 10AM–7PM; Sun 11AM–6PM |\n| 2 | Mariscos el poblano | 5.0 | Mon 9AM–3:30AM; Tue–Wed 8AM–3:30PM; Thu Open 24 hours; Fri–Sun 8AM–3:30PM |\n| 3 | TACOS LA CABANA | 5.0 | Mon 5–11PM; Tue–Thu Closed; Fri–Sun 5–11PM |\n| 4 | Taba Rug Gallery | 5.0 | Mon–Sat 10AM–7PM; Sun 11AM–6PM |\n| 5 | White Barn Candle Co | 5.0 | Mon–Sat 10AM–9PM; Sun 11AM–7PM |\n\nAverage rating is the mean of each business's ratings in the review table, joined on `gmap_id`. A business qualifies if any Monday–Friday closing time is later than 6:00 PM, counting 24-hour and past-midnight closings."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "2",
+    "answer": "Top 5 businesses open after 6:00 PM on at least one weekday (Mon–Fri), by average rating — all five tie at 5.0, listed alphabetically:\n\n| # | Business | Avg rating | Operating hours |\n|---|---|---|---|\n| 1 | Beauty Divine Artistry | 5.0 | Mon–Fri 9AM–8PM; Sat 10AM–7PM; Sun 11AM–6PM |\n| 2 | Mariscos el poblano | 5.0 | Mon 9AM–3:30AM; Tue 8AM–3:30PM; Wed 8AM–3:30PM; Thu Open 24 hours; Fri 8AM–3:30PM; Sat 8AM–3:30PM; Sun 8AM–3:30PM |\n| 3 | TACOS LA CABANA | 5.0 | Mon 5–11PM; Tue Closed; Wed Closed; Thu Closed; Fri 5–11PM; Sat 5–11PM; Sun 5–11PM |\n| 4 | Taba Rug Gallery | 5.0 | Mon–Sat 10AM–7PM; Sun 11AM–6PM |\n| 5 | White Barn Candle Co | 5.0 | Mon–Sat 10AM–9PM; Sun 11AM–7PM |\n\n\"Open after 6:00 PM\" is read as closing strictly later than 6:00 PM, so businesses closing exactly at 6PM are excluded. The next-ranked business averages 4.96."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "3",
+    "answer": "Five businesses stay open later than 6:00 PM on at least one weekday (Mon–Fri) and have a perfect 5.0 average rating, so they tie for the top spot (listed alphabetically):\n\n| # | Business | Avg rating | Operating hours |\n|---|---|---|---|\n| 1 | **Beauty Divine Artistry** | 5.0 | Mon–Fri 9AM–8PM; Sat 10AM–7PM; Sun 11AM–6PM |\n| 2 | **Mariscos el poblano** | 5.0 | Mon 9AM–3:30AM; Tue 8AM–3:30PM; Wed 8AM–3:30PM; Thu Open 24 hours; Fri 8AM–3:30PM; Sat 8AM–3:30PM; Sun 8AM–3:30PM |\n| 3 | **TACOS LA CABANA** | 5.0 | Mon 5–11PM; Tue Closed; Wed Closed; Thu Closed; Fri 5–11PM; Sat 5–11PM; Sun 5–11PM |\n| 4 | **Taba Rug Gallery** | 5.0 | Mon–Fri 10AM–7PM; Sat 10AM–7PM; Sun 11AM–6PM |\n| 5 | **White Barn Candle Co** | 5.0 | Mon–Fri 10AM–9PM; Sat 10AM–9PM; Sun 11AM–7PM |\n\nAverage rating is the mean of the review ratings for each business. \"Open after 6:00 PM\" means a weekday closing time later than 6:00 PM, including past-midnight closings and \"Open 24 hours\"; a business closing exactly at 6PM is not counted."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "3",
+    "run": "4",
+    "answer": "The top 5 are tied at a perfect 5.0 average rating, and they are the only businesses open past 6:00 PM on a weekday (Mon–Fri) with that average. They are listed by review count.\n\n| # | Business | Average rating | Operating hours |\n|---|---|---|---|\n| 1 | Taba Rug Gallery | 5.0 (18 reviews) | Mon–Sat 10AM–7PM; Sun 11AM–6PM |\n| 2 | Beauty Divine Artistry | 5.0 (8 reviews) | Mon–Fri 9AM–8PM; Sat 10AM–7PM; Sun 11AM–6PM |\n| 3 | Mariscos el poblano | 5.0 (3 reviews) | Mon 9AM–3:30AM; Tue–Wed 8AM–3:30PM; Thu open 24 hours; Fri–Sun 8AM–3:30PM |\n| 4 | White Barn Candle Co | 5.0 (2 reviews) | Mon–Sat 10AM–9PM; Sun 11AM–7PM |\n| 5 | TACOS LA CABANA | 5.0 (2 reviews) | Fri–Mon 5–11PM; Tue–Thu closed |\n\nI read \"after 6:00 PM\" as closing strictly later than 6:00 PM. If closing exactly at 6PM counted, Hanford Auto Supply (5.0, 6 reviews) and Dr. Syverain Skincare Clinic (5.0, 5 reviews), both 9AM–6PM on weekdays, would also tie at 5.0."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "0",
+    "answer": "The 3 businesses with the most reviews rated 4.5 or higher in 2019:\n\n1. **Encino Dermatology & Laser: Alex Khadavi MD** — 19 high-rating reviews\n2. **The Boochyard @ Local Roots** — 17 high-rating reviews\n3. **Aurora Massage** — 14 high-rating reviews\n\nRatings are whole numbers, so \"4.5 or higher\" means 5-star reviews."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "1",
+    "answer": "Top 3 businesses by number of reviews rated 4.5 or higher in 2019 (ratings are whole numbers, so this means 5-star reviews):\n\n1. Encino Dermatology & Laser: Alex Khadavi MD — 19\n2. The Boochyard @ Local Roots — 17\n3. Aurora Massage — 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "2",
+    "answer": "The top 3 businesses by number of reviews rated 4.5 or higher in 2019 (ratings are whole numbers, so these are 5-star reviews):\n\n1. Encino Dermatology & Laser: Alex Khadavi MD — 19\n2. The Boochyard @ Local Roots — 17\n3. Aurora Massage — 14"
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "3",
+    "answer": "The top 3 businesses by number of 2019 reviews rated 4.5 or higher:\n\n1. **Encino Dermatology & Laser: Alex Khadavi MD** — 19\n2. **The Boochyard @ Local Roots** — 17\n3. **Aurora Massage** — 14\n\nRatings are whole numbers, so \"4.5 or higher\" means 5-star reviews."
+  },
+  {
+    "dataset": "googlelocal",
+    "query": "4",
+    "run": "4",
+    "answer": "The top 3 businesses by number of reviews rated 4.5 or higher during 2019:\n\n1. **Encino Dermatology & Laser: Alex Khadavi MD** — 19\n2. **The Boochyard @ Local Roots** — 17\n3. **Aurora Massage** — 14\n\nRatings are whole numbers, so \"4.5 or higher\" means 5-star reviews."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "0",
+    "answer": "**$1,059.46**"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "1",
+    "answer": "**$1,059.46**"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "2",
+    "answer": "**1059.46 USD**"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "3",
+    "answer": "**$1,059.46 USD**\n\nThis sums Apple Music sales in Canada across the five duplicate track records for Beyoncé's 'Get Me Bodied' (three of them had such sales: 377.62 + 458.02 + 223.82)."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "1",
+    "run": "4",
+    "answer": "**$1,059.46**"
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "0",
+    "answer": "**Amazon Music** — about $1,108.99 in revenue from 'Street Hype' across all countries, summed over the five duplicate track records for the song."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "1",
+    "answer": "**Amazon Music** — about $1,108.99 in revenue from 'Street Hype' across all countries, summed over the five duplicate track records for the song."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "2",
+    "answer": "**Amazon Music** — about $1,108.99 USD in revenue from 'Street Hype' across all countries, summed over the five duplicate track records for the song."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "3",
+    "answer": "**Amazon Music** — it earned the most revenue from 'Street Hype' by Brucqe Maginnis, about $1,108.99 across all countries."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "2",
+    "run": "4",
+    "answer": "**Amazon Music** — about $1,108.99 in revenue from 'Street Hype' across all countries, summed over the five duplicate track records for the song."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "0",
+    "answer": "**\"Zo gaat het leven aan je voor\" by Syb van der Ploeg** (album *Hillich fjoer | Heilig vuur*, 2008) generated the highest total revenue: about **$9,013.69** across all stores and countries, summed over its five duplicate track records (track_ids 3024, 3435, 12620, 12854, 13225)."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "1",
+    "answer": "**\"Zo gaat het leven aan je voor\" by Syb van der Ploeg** (album \"Hillich fjoer | Heilig vuur\", 2008) generated the highest total revenue: about **$9,013.69** across all stores and countries, summed over its five duplicate track records (track_ids 3024, 3435, 12620, 12854, 13225)."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "2",
+    "answer": "**\"Zo gaat het leven aan je voor\" by Syb van der Ploeg** (album *Hillich fjoer | Heilig vuur*, 2008) generated the highest total revenue: about **$9,013.69** across all stores and countries, summed over its five duplicate track records (track_ids 3024, 3435, 12620, 12854, 13225)."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "3",
+    "answer": "**\"Zo gaat het leven aan je voor\" by Syb van der Ploeg** (album *Hillich fjoer | Heilig vuur*, 2008) generated the highest total revenue: about **$9,013.69** across all stores and countries, summed over its five duplicate track records (track_ids 3024, 3435, 12620, 12854 and 13225)."
+  },
+  {
+    "dataset": "music_brainz_20k",
+    "query": "3",
+    "run": "4",
+    "answer": "**\"Zo gaat het leven aan je voor\" by Syb van der Ploeg** (album *Hillich fjoer | Heilig vuur*) generated the highest total revenue: about **$9,013.69** across all stores and countries, summed over its five duplicate track records (track_ids 3024, 3435, 12620, 12854 and 13225)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "0",
+    "answer": "**399001.SZ** (Shenzhen Component Index, Shenzhen Stock Exchange) — average intraday volatility of about 0.0183 (1.83%) since 2020, the highest among the Asian indices."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "1",
+    "answer": "**399001.SZ** (Shenzhen Component Index, Shenzhen Stock Exchange) has the highest average intraday volatility among Asian indices since 2020: about 0.0183 (1.83%), averaging (High − Low) / Open over 342 trading days from 2020-01-01 to the end of the data in June 2021."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "2",
+    "answer": "**399001.SZ** (Shenzhen Component Index, Shenzhen Stock Exchange) — average intraday volatility of about **0.0183 (1.83%)**, computed as the mean of (High − Low) / Open over the 342 trading days from 2020-01-01 onward.\n\nThe other Asian indices: NSEI 0.0171, HSI 0.0149, 000001.SS 0.0138, N225 0.0134, TWII 0.0132."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "3",
+    "answer": "**399001.SZ** (Shenzhen Component Index, Shenzhen Stock Exchange) — average intraday volatility of about 0.0183 (≈1.83%) since 2020, the highest of the Asian indices (next: NSEI at ≈1.71%, HSI at ≈1.49%)."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "1",
+    "run": "4",
+    "answer": "**399001.SZ** (Shenzhen Component Index, Shenzhen Stock Exchange) has the highest average intraday volatility among Asian indices since 2020: about 0.0183 (≈1.83%), the mean of (High − Low) / Open over 342 trading days from 2020-01-02 to 2021-06-02.\n\nThe next highest Asian index is NSEI (India) at 0.0171."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "0",
+    "answer": "**IXIC (NASDAQ Composite, NASDAQ)** is the only North American index with more up days than down days in 2018: 131 up vs 120 down.\n\nThe other two North American indices in the data did not qualify:\n- NYA (New York Stock Exchange): 125 up vs 126 down\n- GSPTSE (Toronto Stock Exchange): 115 up vs 135 down"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "1",
+    "answer": "**IXIC (NASDAQ Composite)** is the only North American index with more up days than down days in 2018.\n\n| Index | Exchange | Up days | Down days |\n|---|---|---|---|\n| IXIC | NASDAQ | 131 | 120 |\n| NYA | New York Stock Exchange | 125 | 126 |\n| GSPTSE | Toronto Stock Exchange | 115 | 135 |\n\nEach index has 251 trading days in 2018; GSPTSE had one flat day. Treating the US and Canadian exchanges as North America is my geographic inference."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "2",
+    "answer": "**IXIC (NASDAQ Composite)** is the only North American index with more up days than down days in 2018: 131 up vs 120 down.\n\nThe other two North American indices did not qualify: NYA (New York Stock Exchange) had 125 up vs 126 down, and GSPTSE (Toronto Stock Exchange) had 115 up vs 135 down."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "3",
+    "answer": "**IXIC (NASDAQ Composite)** is the only North American index with more up days than down days in 2018.\n\n| Index | Exchange | Up days | Down days |\n|---|---|---|---|\n| IXIC | NASDAQ | 131 | 120 |\n| NYA | New York Stock Exchange | 125 | 126 |\n| GSPTSE | Toronto Stock Exchange | 115 | 135 |\n\nNorth American indices are taken as NYA, IXIC and GSPTSE, the US and Canadian exchanges in the data."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "2",
+    "run": "4",
+    "answer": "**IXIC** (NASDAQ Composite) is the only North American index with more up days than down days in 2018.\n\n| Index | Exchange | Up days | Down days |\n|---|---|---|---|\n| IXIC | NASDAQ | 131 | 120 |\n| NYA | New York Stock Exchange | 125 | 126 |\n| GSPTSE | Toronto Stock Exchange | 115 | 135 |"
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "0",
+    "answer": "**Top 5 indices by overall return on regular monthly investments since 2000:**\n\n| Rank | Index | Exchange | Country | Overall return |\n|---|---|---|---|---|\n| 1 | IXIC | NASDAQ | United States | about 383% |\n| 2 | NSEI | National Stock Exchange of India | India | about 136% |\n| 3 | 399001.SZ | Shenzhen Stock Exchange | China | about 135% |\n| 4 | GDAXI | Frankfurt Stock Exchange | Germany | about 135% |\n| 5 | TWII | Taiwan Stock Exchange | Taiwan | about 130% |\n\n**Method:** an equal amount is invested in each index at the close of its first trading day of every month, from January 2000 to the end of the data (late May / early June 2021). Overall return is the final value of the holdings divided by the total invested, minus 1.\n\n- **Ranks 2–4 are a near tie.** The same five indices lead whether I buy on the first or last trading day of the month, and whichever price column I use. Only the order of NSEI, 399001.SZ and GDAXI shifts, by under one percentage point.\n- **NSEI has a shorter history.** Its data starts in September 2007, so it covers 165 monthly investments against 257–258 for the other four.\n- **USD and local-currency returns are identical.** CloseUSD is Close times a fixed factor for each index."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "1",
+    "answer": "**Top 5 indices by overall return from regular monthly investments since 2000**\n\n| Rank | Index | Country | Overall return |\n|---|---|---|---|\n| 1 | IXIC (NASDAQ Composite) | United States | about +382.7% |\n| 2 | NSEI (Nifty 50, National Stock Exchange of India) | India | about +135.8% |\n| 3 | 399001.SZ (Shenzhen Component) | China | about +134.8% |\n| 4 | GDAXI (DAX, Frankfurt) | Germany | about +134.7% |\n| 5 | TWII (TAIEX) | Taiwan | about +129.8% |\n\nMethod: an equal amount invested at the close of the first trading day of every month from January 2000, held to the end of the data (May/June 2021). Return is final value divided by total invested, minus 1.\n\n- **Ranks 2–4 are effectively tied.** They sit within about 1 percentage point and swap order if you buy on the last trading day of the month or at the open; the top-5 set itself does not change, with IXIC always first and TWII always fifth.\n- **NSEI has a shorter history.** Its data starts in September 2007, so its figure covers 165 monthly investments against 257–258 for the others.\n- **Currency does not matter here.** The USD close is the local close at one fixed rate per index, so USD and local-currency returns are identical.\n\nThe next index is N225 (Japan) at about +116.9%."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "2",
+    "answer": "The top 5 indices by overall return from equal monthly investments since January 2000 are:\n\n| Rank | Index | Exchange | Country | Overall return |\n|---|---|---|---|---|\n| 1 | IXIC | NASDAQ | United States | about 382.7% |\n| 2 | NSEI | National Stock Exchange of India | India | about 135.8% |\n| 3 | 399001.SZ | Shenzhen Stock Exchange | China | about 134.8% |\n| 4 | GDAXI | Frankfurt Stock Exchange | Germany | about 134.7% |\n| 5 | TWII | Taiwan Stock Exchange | Taiwan | about 129.8% |\n\nI invested an equal amount at the close of the first trading day of each month from January 2000 and valued the holdings at each index's last available close (late May / early June 2021). Return is final value divided by total invested, minus 1.\n\n- **NSEI has a shorter history:** its data starts in September 2007, so it covers 165 monthly investments against about 257 for the others.\n- **Ranks 2–4 are nearly tied:** buying on the last trading day of each month instead reorders them (GDAXI 134.9%, NSEI 134.9%, 399001.SZ 134.0%), but the top-5 set stays the same."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "3",
+    "answer": "The top 5 indices for equal monthly investments from January 2000 to the end of the data (late May / early June 2021) are:\n\n| Rank | Index | Exchange | Country | Return on total invested |\n|---|---|---|---|---|\n| 1 | IXIC | NASDAQ | United States | about +382.7% |\n| 2 | NSEI | National Stock Exchange of India | India | about +135.8% |\n| 3 | 399001.SZ | Shenzhen Stock Exchange | China | about +134.8% |\n| 4 | GDAXI | Frankfurt Stock Exchange | Germany | about +134.7% |\n| 5 | TWII | Taiwan Stock Exchange | Taiwan | about +129.8% |\n\nI assumed an equal amount bought at the close of each index's first trading day every month; return is final value divided by total invested, minus 1.\n\n- **Ranks 2–4 are effectively tied.** They sit within about 1 percentage point and swap order if you buy at the month-end or monthly-average close instead; the five indices and IXIC in first place do not change.\n- **NSEI only has data from 17 September 2007**, so its figure covers 165 monthly investments rather than about 257. If you exclude it for that reason, N225 (Tokyo Stock Exchange, Japan, about +116.9%) takes fifth place.\n\nThe countries come from matching each index symbol to its exchange by general knowledge, as the dataset has no explicit link."
+  },
+  {
+    "dataset": "stockindex",
+    "query": "3",
+    "run": "4",
+    "answer": "**Top 5 indices for regular monthly investments since 2000:**\n\n| Rank | Index | Country | Return on total invested |\n|---|---|---|---|\n| 1 | IXIC (NASDAQ Composite) | United States | about +383% |\n| 2 | NSEI (Nifty 50, National Stock Exchange of India) | India | about +136% |\n| 3 | 399001.SZ (Shenzhen Component) | China | about +135% |\n| 4 | GDAXI (DAX, Frankfurt) | Germany | about +135% |\n| 5 | TWII (TAIEX) | Taiwan | about +130% |\n\nThis assumes an equal amount invested in each index at the close of its first trading day of every month from January 2000, valued at the last close in the data (late May / early June 2021).\n\n- **Ranks 2–4 are effectively tied.** They sit within about 1 percentage point, and buying on the last trading day of the month instead gives the order GDAXI, NSEI, 399001.SZ. The five indices, IXIC first and TWII fifth are the same either way.\n- **NSEI has a shorter history.** Its data only starts in September 2007, so its return covers 165 monthly investments rather than about 257.\n- **Countries are inferred.** The data has no country field, so they come from matching index symbols to their exchanges."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "0",
+    "answer": "**18.44** — the maximum adjusted closing price in 2020 for The RealReal, Inc. (ticker REAL), reached on 2020-01-03.\n\nThe dataset's 2020 prices for REAL run only from 2020-01-02 to 2020-04-01, so this is the maximum over that available part of the year."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "1",
+    "answer": "**18.44** — the maximum adjusted closing price in 2020 for The RealReal, Inc. (ticker REAL), reached on 2020-01-03.\n\nThe dataset's 2020 prices for REAL end on 2020-04-01, so this is the maximum over January through 1 April 2020."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "2",
+    "answer": "**18.44** (ticker REAL, reached on 2020-01-03; the dataset's 2020 data for REAL runs through 2020-04-01)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "3",
+    "answer": "**18.44** was the maximum adjusted closing price in 2020 for The RealReal, Inc. (ticker REAL), reached on 2020-01-03.\n\nThe dataset's 2020 prices for REAL stop at 2020-04-01, so this is the maximum for January 2 to April 1, not the full year."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "1",
+    "run": "4",
+    "answer": "**18.44** (ticker REAL, on 2020-01-03). The dataset's 2020 prices for REAL run only from 2020-01-02 to 2020-04-01, so this is the maximum over that period."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "0",
+    "answer": "**31 ETFs** listed on NYSE Arca (ETF = Y, Listing Exchange = P) had an adjusted close above $200 on at least one trading day in 2015:\n\n| # | Symbol | Name | Max Adj Close in 2015 |\n|---|---|---|---|\n| 1 | BOIL | ProShares Ultra Bloomberg Natural Gas | 382.20 |\n| 2 | BZQ | ProShares UltraShort MSCI Brazil Capped | 462.78 |\n| 3 | COM | Direxion Auspice Broad Commodity Strategy ETF | 40,487.99 |\n| 4 | DUST | Direxion Daily Gold Miners Index Bear 2X Shares | 1,923.28 |\n| 5 | EDZ | Direxion Emerging Markets Bear 3X Shares | 302.01 |\n| 6 | ERX | Direxion Energy Bull 2X Shares | 645.16 |\n| 7 | FAZ | Direxion Financial Bear 3X Shares | 288.54 |\n| 8 | FXP | ProShares UltraShort FTSE China 50 | 206.00 |\n| 9 | GFIN | Goldman Sachs Motif Finance Reimagined ETF | 686.76 |\n| 10 | GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares | 78,699.22 |\n| 11 | HYUP | Xtrackers High Beta High Yield Bond ETF | 4,329.75 |\n| 12 | JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares | 12,988.41 |\n| 13 | JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares | 451.07 |\n| 14 | JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF | 201.52 |\n| 15 | LABD | Direxion Daily S&P Biotech Bear 3X Shares | 624.08 |\n| 16 | LABU | Direxion Daily S&P Biotech Bull 3X Shares | 230.28 |\n| 17 | LBJ | Direxion Daily Latin America 3x Bull Shares | 998.11 |\n| 18 | MDY | SPDR MidCap Trust Series I | 263.77 |\n| 19 | PTIN | Pacer Trendpilot International ETF | 843.53 |\n| 20 | RTL | Pacer Benchmark Retail Real Estate SCTR ETF | 13,306.77 |\n| 21 | SDOW | UltraPro Short Dow30 | 415.17 |\n| 22 | SOXS | Direxion Daily Semiconductor Bear 3x Shares | 3,886.62 |\n| 23 | SSG | ProShares UltraShort Semiconductors | 263.87 |\n| 24 | TECS | Direxion Technology Bear 3X Shares | 253.30 |\n| 25 | TZA | Direxion Small Cap Bear 3X Shares | 272.63 |\n| 26 | UVXY | ProShares Trust Ultra VIX Short Term Futures ETF | 81,500.00 |\n| 27 | VIXY | ProShares Trust VIX Short-Term Futures ETF | 491.00 |\n| 28 | VPC | Virtus Private Credit Strategy ETF | 2,250.14 |\n| 29 | XES | SPDR S&P Oil & Gas Equipment & Services ETF | 278.55 |\n| 30 | XOP | SPDR S&P Oil & Gas Exploration & Production | 208.74 |\n| 31 | YANG | Direxion Daily FTSE China Bear 3x Shares | 347.35 |\n\n**Total: 31 ETFs.**"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "1",
+    "answer": "**31 ETFs** listed on NYSE Arca (ETF = Y, Listing Exchange = P) had an adjusted close above $200 on at least one trading day in 2015.\n\n| # | Symbol | ETF | Max Adj Close in 2015 |\n|---|---|---|---|\n| 1 | BOIL | ProShares Ultra Bloomberg Natural Gas | 382.20 |\n| 2 | BZQ | ProShares UltraShort MSCI Brazil Capped | 462.78 |\n| 3 | COM | Direxion Auspice Broad Commodity Strategy ETF | 40,487.99 |\n| 4 | DUST | Direxion Daily Gold Miners Index Bear 2X Shares | 1,923.28 |\n| 5 | EDZ | Direxion Emerging Markets Bear 3X Shares | 302.01 |\n| 6 | ERX | Direxion Energy Bull 2X Shares | 645.16 |\n| 7 | FAZ | Direxion Financial Bear 3X Shares | 288.54 |\n| 8 | FXP | ProShares Ultrashort FTSE China 50 | 206.00 |\n| 9 | GFIN | Goldman Sachs Motif Finance Reimagined ETF | 686.76 |\n| 10 | GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares | 78,699.22 |\n| 11 | HYUP | Xtrackers High Beta High Yield Bond ETF | 4,329.75 |\n| 12 | JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares | 12,988.41 |\n| 13 | JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares | 451.07 |\n| 14 | JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF | 201.52 |\n| 15 | LABD | Direxion Daily S&P Biotech Bear 3X Shares | 624.08 |\n| 16 | LABU | Direxion Daily S&P Biotech Bull 3X Shares | 230.28 |\n| 17 | LBJ | Direxion Daily Latin America 3x Bull Shares | 998.11 |\n| 18 | MDY | SPDR MidCap Trust Series I | 263.77 |\n| 19 | PTIN | Pacer Trendpilot International ETF | 843.53 |\n| 20 | RTL | Pacer Benchmark Retail Real Estate SCTR ETF | 13,306.76 |\n| 21 | SDOW | UltraPro Short Dow30 | 415.17 |\n| 22 | SOXS | Direxion Daily Semiconductor Bear 3x Shares | 3,886.62 |\n| 23 | SSG | ProShares UltraShort Semiconductors | 263.87 |\n| 24 | TECS | Direxion Technology Bear 3X Shares | 253.30 |\n| 25 | TZA | Direxion Small Cap Bear 3X Shares | 272.63 |\n| 26 | UVXY | ProShares Trust Ultra VIX Short Term Futures ETF | 81,500.00 |\n| 27 | VIXY | ProShares Trust VIX Short-Term Futures ETF | 491.00 |\n| 28 | VPC | Virtus Private Credit Strategy ETF | 2,250.14 |\n| 29 | XES | SPDR S&P Oil & Gas Equipment & Services ETF | 278.55 |\n| 30 | XOP | SPDR S&P Oil & Gas Exploration & Production | 208.74 |\n| 31 | YANG | Direxion Daily FTSE China Bear 3x Shares | 347.35 |\n\n**Total: 31**\n\nThis uses Adj Close as stored in the dataset, so SPY and IVV are excluded: their raw close passed $200 in 2015 but their adjusted close stayed below it."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "2",
+    "answer": "**31 ETFs** listed on NYSE Arca (ETF = Y, Listing Exchange = P) had an adjusted closing price above $200 on at least one trading day in 2015:\n\n| # | Symbol | Name | Max Adj Close in 2015 |\n|---|---|---|---|\n| 1 | BOIL | ProShares Ultra Bloomberg Natural Gas | 382.20 |\n| 2 | BZQ | ProShares UltraShort MSCI Brazil Capped | 462.78 |\n| 3 | COM | Direxion Auspice Broad Commodity Strategy ETF | 40,487.99 |\n| 4 | DUST | Direxion Daily Gold Miners Index Bear 2X Shares | 1,923.28 |\n| 5 | EDZ | Direxion Emerging Markets Bear 3X Shares | 302.01 |\n| 6 | ERX | Direxion Energy Bull 2X Shares | 645.16 |\n| 7 | FAZ | Direxion Financial Bear 3X Shares | 288.54 |\n| 8 | FXP | ProShares Ultrashort FTSE China 50 | 206.00 |\n| 9 | GFIN | Goldman Sachs Motif Finance Reimagined ETF | 686.76 |\n| 10 | GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares | 78,699.22 |\n| 11 | HYUP | Xtrackers High Beta High Yield Bond ETF | 4,329.75 |\n| 12 | JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares | 12,988.41 |\n| 13 | JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares | 451.07 |\n| 14 | JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF | 201.52 |\n| 15 | LABD | Direxion Daily S&P Biotech Bear 3X Shares | 624.08 |\n| 16 | LABU | Direxion Daily S&P Biotech Bull 3X Shares | 230.28 |\n| 17 | LBJ | Direxion Daily Latin America 3x Bull Shares | 998.11 |\n| 18 | MDY | SPDR MidCap Trust Series I | 263.77 |\n| 19 | PTIN | Pacer Trendpilot International ETF | 843.53 |\n| 20 | RTL | Pacer Benchmark Retail Real Estate SCTR ETF | 13,306.77 |\n| 21 | SDOW | UltraPro Short Dow30 | 415.17 |\n| 22 | SOXS | Direxion Daily Semiconductor Bear 3x Shares | 3,886.62 |\n| 23 | SSG | ProShares UltraShort Semiconductors | 263.87 |\n| 24 | TECS | Direxion Technology Bear 3X Shares | 253.30 |\n| 25 | TZA | Direxion Small Cap Bear 3X Shares | 272.63 |\n| 26 | UVXY | ProShares Trust Ultra VIX Short Term Futures ETF | 81,500.00 |\n| 27 | VIXY | ProShares Trust VIX Short-Term Futures ETF | 491.00 |\n| 28 | VPC | Virtus Private Credit Strategy ETF | 2,250.14 |\n| 29 | XES | SPDR S&P Oil & Gas Equipment & Services ETF | 278.55 |\n| 30 | XOP | SPDR S&P Oil & Gas Exploration & Production | 208.74 |\n| 31 | YANG | Direxion Daily FTSE China Bear 3x Shares | 347.35 |\n\n**Total: 31 ETFs.**"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "3",
+    "answer": "**31 ETFs** listed on NYSE Arca (ETF = Y, Listing Exchange = P) had an adjusted close above $200 on at least one trading day in 2015:\n\n| # | Symbol | Name | Max Adj Close in 2015 |\n|---|---|---|---|\n| 1 | BOIL | ProShares Ultra Bloomberg Natural Gas | 382.20 |\n| 2 | BZQ | ProShares UltraShort MSCI Brazil Capped | 462.78 |\n| 3 | COM | Direxion Auspice Broad Commodity Strategy ETF | 40,487.99 |\n| 4 | DUST | Direxion Daily Gold Miners Index Bear 2X Shares | 1,923.28 |\n| 5 | EDZ | Direxion Emerging Markets Bear 3X Shares | 302.01 |\n| 6 | ERX | Direxion Energy Bull 2X Shares | 645.16 |\n| 7 | FAZ | Direxion Financial Bear 3X Shares | 288.54 |\n| 8 | FXP | ProShares Ultrashort FTSE China 50 | 206.00 |\n| 9 | GFIN | Goldman Sachs Motif Finance Reimagined ETF | 686.76 |\n| 10 | GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares | 78,699.22 |\n| 11 | HYUP | Xtrackers High Beta High Yield Bond ETF | 4,329.75 |\n| 12 | JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares | 12,988.41 |\n| 13 | JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares | 451.07 |\n| 14 | JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF | 201.52 |\n| 15 | LABD | Direxion Daily S&P Biotech Bear 3X Shares | 624.08 |\n| 16 | LABU | Direxion Daily S&P Biotech Bull 3X Shares | 230.28 |\n| 17 | LBJ | Direxion Daily Latin America 3x Bull Shares | 998.11 |\n| 18 | MDY | SPDR MidCap Trust Series I | 263.77 |\n| 19 | PTIN | Pacer Trendpilot International ETF | 843.53 |\n| 20 | RTL | Pacer Benchmark Retail Real Estate SCTR ETF | 13,306.76 |\n| 21 | SDOW | UltraPro Short Dow30 | 415.17 |\n| 22 | SOXS | Direxion Daily Semiconductor Bear 3x Shares | 3,886.62 |\n| 23 | SSG | ProShares UltraShort Semiconductors | 263.87 |\n| 24 | TECS | Direxion Technology Bear 3X Shares | 253.30 |\n| 25 | TZA | Direxion Small Cap Bear 3X Shares | 272.63 |\n| 26 | UVXY | ProShares Trust Ultra VIX Short Term Futures ETF | 81,500.00 |\n| 27 | VIXY | ProShares Trust VIX Short-Term Futures ETF | 491.00 |\n| 28 | VPC | Virtus Private Credit Strategy ETF | 2,250.14 |\n| 29 | XES | SPDR S&P Oil & Gas Equipment & Services ETF | 278.55 |\n| 30 | XOP | SPDR S&P Oil & Gas Exploration & Production | 208.74 |\n| 31 | YANG | Direxion Daily FTSE China Bear 3x Shares | 347.35 |\n\n**Total: 31 ETFs.**"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "2",
+    "run": "4",
+    "answer": "**31 ETFs** listed on NYSE Arca (ETF = Y, Listing Exchange = P) had an adjusted close above $200 on at least one trading day in 2015:\n\n| # | Symbol | Fund | Max Adj Close in 2015 |\n|---|---|---|---|\n| 1 | BOIL | ProShares Ultra Bloomberg Natural Gas | 382.20 |\n| 2 | BZQ | ProShares UltraShort MSCI Brazil Capped | 462.78 |\n| 3 | COM | Direxion Auspice Broad Commodity Strategy ETF | 40,487.99 |\n| 4 | DUST | Direxion Daily Gold Miners Index Bear 2X Shares | 1,923.28 |\n| 5 | EDZ | Direxion Emerging Markets Bear 3X Shares | 302.01 |\n| 6 | ERX | Direxion Energy Bull 2X Shares | 645.16 |\n| 7 | FAZ | Direxion Financial Bear 3X Shares | 288.54 |\n| 8 | FXP | ProShares Ultrashort FTSE China 50 | 206.00 |\n| 9 | GFIN | Goldman Sachs Motif Finance Reimagined ETF | 686.76 |\n| 10 | GUSH | Direxion Daily S&P Oil & Gas Exp. & Prod. Bull 2X Shares | 78,699.22 |\n| 11 | HYUP | Xtrackers High Beta High Yield Bond ETF | 4,329.75 |\n| 12 | JDST | Direxion Daily Junior Gold Miners Index Bear 2X Shares | 12,988.41 |\n| 13 | JNUG | Direxion Daily Junior Gold Miners Index Bull 2X Shares | 451.07 |\n| 14 | JPN | Xtrackers Japan JPX-Nikkei 400 Equity ETF | 201.52 |\n| 15 | LABD | Direxion Daily S&P Biotech Bear 3X Shares | 624.08 |\n| 16 | LABU | Direxion Daily S&P Biotech Bull 3X Shares | 230.28 |\n| 17 | LBJ | Direxion Daily Latin America 3x Bull Shares | 998.11 |\n| 18 | MDY | SPDR MidCap Trust Series I | 263.77 |\n| 19 | PTIN | Pacer Trendpilot International ETF | 843.53 |\n| 20 | RTL | Pacer Benchmark Retail Real Estate SCTR ETF | 13,306.77 |\n| 21 | SDOW | UltraPro Short Dow30 | 415.17 |\n| 22 | SOXS | Direxion Daily Semiconductor Bear 3x Shares | 3,886.62 |\n| 23 | SSG | ProShares UltraShort Semiconductors | 263.87 |\n| 24 | TECS | Direxion Technology Bear 3X Shares | 253.30 |\n| 25 | TZA | Direxion Small Cap Bear 3X Shares | 272.63 |\n| 26 | UVXY | ProShares Trust Ultra VIX Short Term Futures ETF | 81,500.00 |\n| 27 | VIXY | ProShares Trust VIX Short-Term Futures ETF | 491.00 |\n| 28 | VPC | Virtus Private Credit Strategy ETF | 2,250.14 |\n| 29 | XES | SPDR S&P Oil & Gas Equipment & Services ETF | 278.55 |\n| 30 | XOP | SPDR S&P Oil & Gas Exploration & Production | 208.74 |\n| 31 | YANG | Direxion Daily FTSE China Bear 3x Shares | 347.35 |\n\n**Total: 31**"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "0",
+    "answer": "15 NASDAQ-listed companies (Listing Exchange = Q) with Financial Status D, E or H have trading volume in 2008. Average daily volume is the mean of non-null `Volume` over 2008 dates.\n\n| Company | Symbol | Avg daily volume, 2008 |\n|---|---|---|\n| Frontier Communications Corporation | FTR | 254,397.63 |\n| Correvio Pharma Corp. | CORV | 145,247.83 |\n| CBAK Energy Technology, Inc. | CBAT | 86,223.32 |\n| Sypris Solutions, Inc. | SYPR | 36,836.36 |\n| Apex Global Brands Inc. | APEX | 23,781.42 |\n| DASAN Zhone Solutions, Inc. | DZSI | 15,578.66 |\n| BIO-key International, Inc. | BKYI | 10,988.14 |\n| Pacific Ethanol, Inc. | PEIX | 10,706.72 |\n| China Ceramics Co., Ltd. | CCCL | 4,366.80 |\n| Synthesis Energy Systems, Inc. | SES | 2,390.51 |\n| Sunesis Pharmaceuticals, Inc. | SNSS | 781.82 |\n| CounterPath Corporation | CPAH | 375.49 |\n| Ocean Power Technologies, Inc. | OPTT | 254.15 |\n| Ideanomics, Inc. | IDEX | 10.28 |\n| Future FinTech Group Inc. | FTFT | 9.85 |\n\nFTFT's average is over its 168 non-null volume days in 2008 (one of its 169 rows has a null volume). Ten other troubled NASDAQ-listed securities have no 2008 rows and are excluded."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "1",
+    "answer": "15 financially troubled NASDAQ-listed companies have trading volume in 2008. Average daily volume is in shares per day, over the days with a non-null volume:\n\n| Company | Symbol | Avg daily volume, 2008 |\n|---|---|---|\n| Apex Global Brands Inc. | APEX | 23,781.42 |\n| BIO-key International, Inc. | BKYI | 10,988.14 |\n| CBAK Energy Technology, Inc. | CBAT | 86,223.32 |\n| China Ceramics Co., Ltd. | CCCL | 4,366.80 |\n| Correvio Pharma Corp. | CORV | 145,247.83 |\n| CounterPath Corporation | CPAH | 375.49 |\n| DASAN Zhone Solutions, Inc. | DZSI | 15,578.66 |\n| Future FinTech Group Inc. | FTFT | 9.85 |\n| Frontier Communications Corporation | FTR | 254,397.63 |\n| Ideanomics, Inc. | IDEX | 10.28 |\n| Ocean Power Technologies, Inc. | OPTT | 254.15 |\n| Pacific Ethanol, Inc. | PEIX | 10,706.72 |\n| Synthesis Energy Systems, Inc. | SES | 2,390.51 |\n| Sunesis Pharmaceuticals, Inc. | SNSS | 781.82 |\n| Sypris Solutions, Inc. | SYPR | 36,836.36 |\n\n- **Troubled** means Financial Status D, E or H; all are D except SES, which is H.\n- **Zero-volume days** are counted in the averages, which is why FTFT and IDEX are so low.\n- **Excluded:** ten other troubled NASDAQ-listed securities have no 2008 data."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "2",
+    "answer": "15 financially troubled (Financial Status D, E or H) NASDAQ-listed companies have trading volume in 2008. Average daily trading volume in 2008 (mean of non-null Volume, in shares):\n\n| Company | Ticker | Avg daily volume, 2008 |\n|---|---|---|\n| Apex Global Brands Inc. | APEX | 23,781.42 |\n| BIO-key International, Inc. | BKYI | 10,988.14 |\n| CBAK Energy Technology, Inc. | CBAT | 86,223.32 |\n| China Ceramics Co., Ltd. | CCCL | 4,366.80 |\n| Correvio Pharma Corp. | CORV | 145,247.83 |\n| CounterPath Corporation | CPAH | 375.49 |\n| DASAN Zhone Solutions, Inc. | DZSI | 15,578.66 |\n| Future FinTech Group Inc. | FTFT | 9.85 |\n| Frontier Communications Corporation | FTR | 254,397.63 |\n| Ideanomics, Inc. | IDEX | 10.28 |\n| Ocean Power Technologies, Inc. | OPTT | 254.15 |\n| Pacific Ethanol, Inc. | PEIX | 10,706.72 |\n| Synthesis Energy Systems, Inc. | SES | 2,390.51 |\n| Sunesis Pharmaceuticals, Inc. | SNSS | 781.82 |\n| Sypris Solutions, Inc. | SYPR | 36,836.36 |\n\nThe other 10 troubled NASDAQ-listed securities (AGMH, AMTX, BIOC, FAMI, ISDS, MCEP, NXTD, RBZ, SPI, VTIQW) have no 2008 trading data, so they are excluded."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "3",
+    "answer": "15 financially troubled NASDAQ-listed companies (Financial Status D or H) have trading volume in 2008. Average daily volume in 2008, in shares, over non-null volume days:\n\n| Company | Symbol | Avg daily volume 2008 |\n|---|---|---|\n| Apex Global Brands Inc. | APEX | 23,781.42 |\n| BIO-key International, Inc. | BKYI | 10,988.14 |\n| CBAK Energy Technology, Inc. | CBAT | 86,223.32 |\n| China Ceramics Co., Ltd. | CCCL | 4,366.80 |\n| Correvio Pharma Corp. | CORV | 145,247.83 |\n| CounterPath Corporation | CPAH | 375.49 |\n| DASAN Zhone Solutions, Inc. | DZSI | 15,578.66 |\n| Future FinTech Group Inc. | FTFT | 9.85 |\n| Frontier Communications Corporation | FTR | 254,397.63 |\n| Ideanomics, Inc. | IDEX | 10.28 |\n| Ocean Power Technologies, Inc. | OPTT | 254.15 |\n| Pacific Ethanol, Inc. | PEIX | 10,706.72 |\n| Synthesis Energy Systems, Inc. | SES | 2,390.51 |\n| Sunesis Pharmaceuticals, Inc. | SNSS | 781.82 |\n| Sypris Solutions, Inc. | SYPR | 36,836.36 |\n\nThe other 10 troubled NASDAQ-listed securities (AGMH, AMTX, BIOC, FAMI, ISDS, MCEP, NXTD, RBZ, SPI, VTIQW) have no 2008 trading data, so they are excluded. Zero-volume days count toward the average; only null volumes are left out (one such day, for FTFT)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "3",
+    "run": "4",
+    "answer": "15 financially troubled NASDAQ-listed companies have trading data in 2008. Average daily trading volume in 2008 (shares, over days with non-null volume):\n\n| Company | Ticker | Avg daily volume, 2008 |\n|---|---|---|\n| Apex Global Brands Inc. | APEX | 23,781.42 |\n| BIO-key International, Inc. | BKYI | 10,988.14 |\n| CBAK Energy Technology, Inc. | CBAT | 86,223.32 |\n| China Ceramics Co., Ltd. | CCCL | 4,366.80 |\n| Correvio Pharma Corp. | CORV | 145,247.83 |\n| CounterPath Corporation | CPAH | 375.49 |\n| DASAN Zhone Solutions, Inc. | DZSI | 15,578.66 |\n| Future FinTech Group Inc. | FTFT | 9.85 |\n| Frontier Communications Corporation | FTR | 254,397.63 |\n| Ideanomics, Inc. | IDEX | 10.28 |\n| Ocean Power Technologies, Inc. | OPTT | 254.15 |\n| Pacific Ethanol, Inc. | PEIX | 10,706.72 |\n| Synthesis Energy Systems, Inc. | SES | 2,390.51 |\n| Sunesis Pharmaceuticals, Inc. | SNSS | 781.82 |\n| Sypris Solutions, Inc. | SYPR | 36,836.36 |\n\n- **Troubled** means Financial Status D (deficient) or H (deficient and delinquent); no NASDAQ-listed company has status E (delinquent only). Synthesis Energy Systems is the only H.\n- **Excluded:** 10 other troubled NASDAQ-listed securities have no 2008 trading rows, as their price history starts in 2011 or later.\n- **Zero-volume days count** in the averages; only null volume is skipped. Future FinTech has one null day, so its average is over 168 days."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "0",
+    "answer": "Ranked by how many more up days than down days each stock had in 2017, the top 5 are:\n\n1. MFA Financial, Inc. (139 up, 67 down)\n2. Argo Group International Holdings, Ltd. (133 up, 82 down)\n3. HDFC Bank Limited (146 up, 102 down)\n4. Albany International Corporation (143 up, 101 down)\n5. DTE Energy Company (139 up, 98 down)\n\nThe question doesn't say what \"top 5\" is ranked by, so the margin of up days over down days is my assumption, and it changes the list. Ranked by the number of up days alone, the list is HDFC Bank Limited (146), Albany International Corporation (143), Getty Realty Corporation (143), Mettler-Toledo International, Inc. (143), and a tie for fifth at 141 between Ameriprise Financial, Inc. and Pfizer, Inc."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "1",
+    "answer": "The question doesn't say what \"top 5\" is ranked by; I ranked by the margin of up days over down days in 2017:\n\n1. MFA Financial, Inc. (139 up, 67 down)\n2. Argo Group International Holdings, Ltd. (133 up, 82 down)\n3. HDFC Bank Limited (146 up, 102 down)\n4. Albany International Corporation (143 up, 101 down)\n5. DTE Energy Company (139 up, 98 down)\n\nIf \"top 5\" instead means the most up days, there is no clean top 5: HDFC Bank Limited (146), Albany International Corporation, Getty Realty Corporation and Mettler-Toledo International, Inc. (143 each), then Ameriprise Financial, Inc. and Pfizer, Inc. tied for fifth at 141."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "2",
+    "answer": "The top 5 NYSE-listed non-ETF stocks with more up days than down days in 2017, ranked by the margin of up days over down days:\n\n1. MFA Financial, Inc. (139 up vs 67 down)\n2. Argo Group International Holdings, Ltd. (133 vs 82)\n3. HDFC Bank Limited (146 vs 102)\n4. Albany International Corporation (143 vs 101)\n5. DTE Energy Company (139 vs 98)\n\nThe question doesn't say what \"top 5\" is ranked by, so the margin ranking is my assumption; 131 of the 234 NYSE non-ETF stocks had more up days than down days. Ranked by raw number of up days instead, the list would be HDFC Bank Limited (146), Albany International Corporation (143), Getty Realty Corporation (143), Mettler-Toledo International, Inc. (143), then Pfizer, Inc. and Ameriprise Financial, Inc. tied for fifth at 141."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "3",
+    "answer": "Ranked by the margin of up days over down days in 2017, the top 5 NYSE-listed non-ETF stocks are:\n\n1. MFA Financial, Inc. (139 up, 67 down)\n2. Argo Group International Holdings, Ltd. (133 up, 82 down)\n3. HDFC Bank Limited (146 up, 102 down)\n4. Albany International Corporation (143 up, 101 down)\n5. DTE Energy Company (139 up, 98 down)\n\nThe question doesn't say what \"top 5\" is ranked by, so the margin ranking is my assumption. By raw count of up days instead, the five would be HDFC Bank Limited (146), Albany International Corporation (143), Getty Realty Corporation (143), Mettler-Toledo International, Inc. (143) and Pfizer, Inc. (141)."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "4",
+    "run": "4",
+    "answer": "Top 5 non-ETF NYSE stocks in 2017, ranked by how many more up days than down days they had:\n\n1. MFA Financial, Inc. (139 up, 67 down)\n2. Argo Group International Holdings, Ltd. (133 up, 82 down)\n3. HDFC Bank Limited (146 up, 102 down)\n4. Albany International Corporation (143 up, 101 down)\n5. DTE Energy Company (139 up, 98 down)\n\nThe question doesn't say what \"top 5\" is ranked by, so I used the margin of up days over down days. Ranked by raw up-day count instead, the list has no clean top 5: HDFC Bank Limited (146), then Albany International Corporation, Getty Realty Corporation and Mettler-Toledo International, Inc. (143 each), with Ameriprise Financial, Inc. and Pfizer, Inc. tied for fifth at 141."
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "0",
+    "answer": "The 5 NASDAQ Capital Market companies with the most 2019 trading days where (High − Low) exceeded 20% of Low:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 44 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 33 days"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "1",
+    "answer": "The 5 NASDAQ Capital Market companies with the most days in 2019 where the intraday range (High − Low) exceeded 20% of the Low:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 44 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 33 days"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "2",
+    "answer": "The 5 NASDAQ Capital Market companies with the most days in 2019 where (High − Low) exceeded 20% of Low:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 42 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 32 days"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "3",
+    "answer": "The 5 NASDAQ Capital Market companies with the most days in 2019 where the intraday range (High − Low) exceeded 20% of the Low:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 42 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 32 days"
+  },
+  {
+    "dataset": "stockmarket",
+    "query": "5",
+    "run": "4",
+    "answer": "The 5 NASDAQ Capital Market companies with the most 2019 days where (High − Low) exceeded 20% of the Low:\n\n1. Synthesis Energy Systems, Inc. (SES) — 51 days\n2. TD Holdings, Inc. (GLG) — 44 days\n3. TMSR Holding Company Limited (TMSR) — 40 days\n4. Verb Technology Company, Inc. (VERB) — 38 days\n5. Sunesis Pharmaceuticals, Inc. (SNSS) — 33 days"
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "0",
+    "answer": "**3.55** (3.547) — the mean of all 117 review ratings across the 8 businesses located in Indianapolis, IN."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "1",
+    "answer": "**About 3.55** (415 / 117 = 3.547) — the average rating across all 117 reviews of the 8 businesses located in Indianapolis, IN.\n\nIf you instead average each business's own mean rating across the 8 businesses, the figure is about 3.50 (3.497)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "2",
+    "answer": "**About 3.55** (3.547) — the average rating across all 117 reviews of the 8 businesses located in Indianapolis, IN.\n\nIf you instead average each business's own average rating, so every business counts equally, it is about 3.50 (3.497)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "3",
+    "answer": "**About 3.55** (3.547) — the average of all 117 review ratings across the 8 businesses located in Indianapolis, IN.\n\nIf you instead average each business's own mean rating, it comes to about 3.50 (3.497)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "1",
+    "run": "4",
+    "answer": "The average rating of businesses located in Indianapolis, Indiana is **about 3.55** (3.547), taken over all 117 reviews of the 8 Indianapolis businesses."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "0",
+    "answer": "**Pennsylvania (PA)** has the most reviews (662 of the 2,000 in the review table), and the average rating of its businesses is about **3.70** (3.6994 across those 662 reviews).\n\n- **Per-business average:** averaging each of PA's 27 businesses first and then averaging those gives 3.65 instead.\n- **Review count basis:** I counted actual review rows. By the `review_count` field in the business collection, Missouri leads instead (2,243 vs 2,022 for PA); its average rating is 3.91."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "1",
+    "answer": "**Pennsylvania (PA)** has the most reviews, with 662 of the 2,000 in the review table, and its average rating is about **3.70** (3.6994 across all PA reviews).\n\nIf you instead average each of the 27 PA businesses' own average rating, the figure is 3.65.\n\nI counted actual review rows; summing the business collection's `review_count` field instead would put Missouri first (2,243 vs. 2,022 for PA), with an average rating of 3.91."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "2",
+    "answer": "**Pennsylvania (PA)** has the most reviews, 662 of the 2,000 in the review table, and the average rating there is about **3.70** (3.6994 across those reviews).\n\nIf you instead average each of the 27 PA businesses' own mean ratings, the figure is 3.65."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "3",
+    "answer": "**Pennsylvania (PA)** has the highest number of reviews (662 of the 2,000 reviews), and the average rating of its businesses is about **3.70** (3.6994 averaged over those reviews).\n\nIf you instead average each PA business's own mean rating across its 27 businesses, the figure is 3.65.\n\nCounting reviews by the business `review_count` field instead would put Missouri first (2,243 against 2,022 for PA), with an average rating of 3.91."
+  },
+  {
+    "dataset": "yelp",
+    "query": "2",
+    "run": "4",
+    "answer": "**Pennsylvania (PA)** has the highest number of reviews (662 rows in the review table), and the average rating of its businesses is about **3.70** (3.6994 across those reviews)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "0",
+    "answer": "**35**"
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "1",
+    "answer": "**35**\n\nThat counts businesses with at least one review dated in 2018 where some business-parking type is true or bike parking is true."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "2",
+    "answer": "**35**\n\nThat counts businesses with at least one review dated 2018 whose attributes show `BikeParking` as True or at least one `BusinessParking` type (garage, street, validated, lot, valet) as True."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "3",
+    "answer": "**35**\n\nThat counts distinct businesses with at least one review dated in 2018 where `BikeParking` is True or at least one `BusinessParking` type (garage, street, validated, lot, valet) is True. Counting businesses that merely list a `BusinessParking` attribute with every type False would give 40."
+  },
+  {
+    "dataset": "yelp",
+    "query": "3",
+    "run": "4",
+    "answer": "**35**\n\nThis counts businesses with at least one review dated in 2018 where BikeParking is true or at least one BusinessParking type (garage, street, validated, lot, valet) is true. If a business merely listing a BusinessParking attribute counted, even with every type false, it would be 41."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "0",
+    "answer": "**Restaurants** is the category with the most businesses that accept credit cards (27 businesses), and its average rating is about **3.63**.\n\nThat is the mean of all 778 review ratings for those 27 businesses; averaging each business's own mean rating instead gives 3.43."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "1",
+    "answer": "**Restaurants** has the most businesses that accept credit cards (27), and its average rating is about **3.63**.\n\nThat average is over all 778 reviews of those 27 restaurants; averaging each restaurant's own mean rating instead gives about 3.43."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "2",
+    "answer": "**Restaurants** — 27 businesses that accept credit cards, with an average rating of about **3.63** (the mean over all 778 reviews of those 27 businesses).\n\nIf each business's own average rating is weighted equally instead, the figure is about 3.43."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "3",
+    "answer": "**Restaurants** has the most businesses that accept credit cards (27), and its average rating is about **3.63** (the mean of all 778 reviews for those 27 businesses).\n\nIf each business is weighted equally instead, the average is about 3.43."
+  },
+  {
+    "dataset": "yelp",
+    "query": "4",
+    "run": "4",
+    "answer": "**Restaurants** is the category with the most businesses that accept credit cards (27 businesses), and its average rating is about **3.63** (mean of all 778 reviews for those businesses)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "0",
+    "answer": "**Pennsylvania (PA)** has the most businesses offering WiFi, with 8, and their average rating is about **3.48**.\n\nThat is the mean of all 281 review ratings for those 8 businesses. If you instead average each business's own mean rating equally, it comes to about 3.58.\n\nI counted a business as offering WiFi when its `WiFi` attribute is free or paid; Florida is next with 5."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "1",
+    "answer": "**Pennsylvania (PA)** has the most businesses offering WiFi, with 8, and their average rating is about **3.48**.\n\nThat is the mean over all 281 reviews of those 8 businesses; averaging each business's own mean rating equally gives about 3.58 instead. I counted a business as offering WiFi when its WiFi attribute is free or paid, not when it is \"no\" or missing."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "2",
+    "answer": "**Pennsylvania (PA)** has the most businesses offering WiFi, with 8, and their average rating is about **3.48** (the mean of all 281 review ratings for those 8 businesses)."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "3",
+    "answer": "**Pennsylvania (PA)** has the most businesses offering WiFi (8), and their average rating is about **3.48**.\n\nThat is the mean over all 281 reviews of those 8 businesses; averaging each business's own mean rating instead gives 3.58. \"Offers WiFi\" means the WiFi attribute is free or paid."
+  },
+  {
+    "dataset": "yelp",
+    "query": "5",
+    "run": "4",
+    "answer": "**Pennsylvania (PA)** has the most businesses offering WiFi, with 8, and their average rating is about **3.48**.\n\nThat is the mean over all 281 reviews of those 8 businesses; averaging each business's own mean rating equally gives 3.58 instead. I counted a business as offering WiFi when its WiFi attribute is `free` or `paid`."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "0",
+    "answer": "**Coffee House Too Cafe** (Philadelphia, PA) had the highest average rating between January 1 and June 30, 2016: 4.375 across 16 reviews. Its categories are **Restaurants, Breakfast & Brunch, American (New), Cafes**.\n\nI read \"at least 5 reviews\" as 5 or more reviews within that date window."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "1",
+    "answer": "**Coffee House Too Cafe** had the highest average rating between January 1, 2016 and June 30, 2016: 4.375 across 16 reviews. Its categories are Restaurants, Breakfast & Brunch, American (New), and Cafes.\n\nI counted \"at least 5 reviews\" as 5 or more reviews dated inside that window."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "2",
+    "answer": "**Coffee House Too Cafe** (Philadelphia, PA) had the highest average rating between January 1 and June 30, 2016: 4.375 across 16 reviews. Its categories are Restaurants, Breakfast & Brunch, American (New), Cafes.\n\nI applied \"at least 5 reviews\" to reviews within that date window."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "3",
+    "answer": "**Coffee House Too Cafe** (Philadelphia, PA) had the highest average rating: **4.375** across 16 reviews dated January 1 to June 30, 2016. Its category is **Restaurants, Breakfast & Brunch, American (New), Cafes**.\n\nThis counts \"at least 5 reviews\" as 5 or more reviews within that period; only three businesses qualify. If it instead means 5 reviews overall, there is no single winner: 17 or 18 businesses tie at 5.0, each on only 1 or 2 reviews in the period."
+  },
+  {
+    "dataset": "yelp",
+    "query": "6",
+    "run": "4",
+    "answer": "**Coffee House Too Cafe** had the highest average rating: 4.375 across 16 reviews between January 1, 2016 and June 30, 2016. It belongs to the categories Restaurants, Breakfast & Brunch, American (New), Cafes.\n\nI counted the 5-review minimum within that date window."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "0",
+    "answer": "The top 5 business categories by reviews from users who registered in 2016 are:\n\n1. Restaurants: 58 reviews\n2. Food: 38\n3. American (New): 24\n4. Shopping: 20\n5. Breakfast & Brunch: 19\n\nA review counts once for each category its business lists. All 150 reviews by these users are dated 2016 or later. Reviews with no `user_id` (434 of 2,000) could not be tied to any user and are excluded."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "1",
+    "answer": "The top 5 business categories by reviews written since 2016 by users who registered in 2016 are:\n\n1. Restaurants — 58 reviews\n2. Food — 38 reviews\n3. American (New) — 24 reviews\n4. Shopping — 20 reviews\n5. Breakfast & Brunch — 19 reviews\n\nA review counts once for each category its business lists. Reviews with no user ID (434 of 2,000) can't be tied to a registration year and are excluded."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "2",
+    "answer": "The top 5 business categories by reviews written since 2016 by users who registered in 2016 are:\n\n1. Restaurants — 58 reviews\n2. Food — 38\n3. American (New) — 24\n4. Shopping — 20\n5. Breakfast & Brunch — 19\n\nA review counts once for every category listed in its business's description. Reviews with no user_id (434 of 2,000) can't be tied to a registration year and are excluded."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "3",
+    "answer": "The top 5 business categories by reviews (dated 2016 or later) from users who registered in 2016:\n\n1. Restaurants — 58 reviews\n2. Food — 38\n3. American (New) — 24\n4. Shopping — 20\n5. Breakfast & Brunch — 19\n\nA review counts once for each category its business lists. Reviews with no user ID (434 of 2,000) can't be tied to a registration year and are excluded."
+  },
+  {
+    "dataset": "yelp",
+    "query": "7",
+    "run": "4",
+    "answer": "The top 5 business categories by reviews written since 2016 by users who registered in 2016:\n\n1. Restaurants — 58 reviews\n2. Food — 38\n3. American (New) — 24\n4. Shopping — 20\n5. Breakfast & Brunch — 19\n\nA review counts once toward each category listed in its business's description. Reviews with no user ID (434 of 2,000) can't be tied to a registration year and are excluded."
+  }
+]
